@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Market Close · {{ as_of_date }} — 글로벌 증시 장마감 브리핑</title>
+<meta name="description" content="{{ as_of_date }} 글로벌 증시 마감 브리핑. 미국·유럽·아시아 지수, 주요국 통화정책, 환율, 가장 핫한 종목을 한 페이지에." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --bg-0:#070a13; --bg-1:#0c111d; --bg-2:#131a2a; --bg-3:#1a2236;
+    --line:#1f2a44; --line-2:#2a3658;
+    --txt-0:#e6ecf7; --txt-1:#a9b4ce; --txt-2:#6b7796; --txt-3:#475066;
+    --cy:#00d4ff; --cy-2:#3a8bff;
+    --up:#00ff9d; --up-2:#00b46e;
+    --dn:#ff3b6b; --dn-2:#c52a52;
+    --warn:#ffb547;
+    --grad-card: linear-gradient(160deg, rgba(0,212,255,.07), rgba(58,139,255,.02) 60%, rgba(255,255,255,0));
+    --shadow: 0 1px 0 rgba(255,255,255,.04) inset, 0 30px 60px -30px rgba(0,0,0,.6);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--bg-0);color:var(--txt-0);font-family:"Inter","Noto Sans KR",system-ui,-apple-system,Segoe UI,sans-serif;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  body{
+    background:
+      radial-gradient(1200px 600px at 20% -10%, rgba(0,212,255,.08), transparent 60%),
+      radial-gradient(900px 500px at 90% 0%, rgba(58,139,255,.06), transparent 60%),
+      var(--bg-0);
+    min-height:100vh;
+  }
+  a{color:inherit;text-decoration:none}
+  .mono{font-family:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;font-variant-numeric:tabular-nums}
+
+  .topbar{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);background:linear-gradient(180deg,rgba(7,10,19,.92),rgba(7,10,19,.78));border-bottom:1px solid var(--line)}
+  .topbar-inner{max-width:1400px;margin:0 auto;padding:14px 28px;display:flex;align-items:center;gap:18px}
+  .brand{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.04em}
+  .brand-dot{width:10px;height:10px;border-radius:50%;background:var(--cy);box-shadow:0 0 0 4px rgba(0,212,255,.18),0 0 18px rgba(0,212,255,.6)}
+  .brand-name{font-size:13px;color:var(--txt-0)}
+  .brand-name span{color:var(--cy)}
+  .tag-live{display:inline-flex;align-items:center;gap:6px;padding:3px 8px;border-radius:999px;background:rgba(255,59,107,.12);color:#ff7796;font-size:11px;font-weight:600;letter-spacing:.1em;border:1px solid rgba(255,59,107,.3)}
+  .tag-live i{width:6px;height:6px;border-radius:50%;background:#ff3b6b;animation:pulse 1.2s infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+  .topbar-meta{margin-left:auto;display:flex;gap:18px;color:var(--txt-2);font-size:12px}
+  .topbar-meta b{color:var(--txt-0);font-weight:600}
+
+  .ticker{border-bottom:1px solid var(--line);background:var(--bg-1);overflow:hidden;position:relative;height:36px}
+  .ticker-track{display:flex;gap:36px;align-items:center;height:100%;white-space:nowrap;animation:scroll 90s linear infinite;padding-left:100%}
+  .ticker-item{font-size:12.5px;color:var(--txt-1);display:inline-flex;gap:8px;align-items:center}
+  .ticker-item b{color:var(--txt-0);font-weight:600;letter-spacing:.04em}
+  .ticker-item .up{color:var(--up)} .ticker-item .dn{color:var(--dn)}
+  @keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-100%)}}
+
+  .wrap{max-width:1400px;margin:0 auto;padding:36px 28px 80px}
+  .hero{display:grid;grid-template-columns:1.4fr .9fr;gap:28px;align-items:end;margin-bottom:36px}
+  .h-kicker{font-size:12px;letter-spacing:.28em;color:var(--cy);font-weight:600;text-transform:uppercase}
+  .h-title{font-size:54px;font-weight:800;line-height:1.05;margin:14px 0 12px;letter-spacing:-.02em}
+  .h-title em{font-style:normal;background:linear-gradient(120deg,#00d4ff,#7a8bff 60%,#c184ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .h-sub{color:var(--txt-1);font-size:15px;line-height:1.6;max-width:62ch}
+  .h-stats{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .h-stat{padding:18px 18px 16px;border:1px solid var(--line);background:linear-gradient(180deg,var(--bg-2),var(--bg-1));border-radius:14px}
+  .h-stat-label{font-size:11px;letter-spacing:.18em;color:var(--txt-2);text-transform:uppercase;font-weight:600}
+  .h-stat-val{font-size:26px;margin-top:8px;font-weight:700}
+  .h-stat-sub{font-size:12px;color:var(--txt-2);margin-top:4px}
+  .h-stat .up{color:var(--up)} .h-stat .dn{color:var(--dn)}
+
+  .section{margin:48px 0 0}
+  .sec-head{display:flex;align-items:baseline;gap:14px;border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:22px}
+  .sec-num{font-size:11px;color:var(--cy);letter-spacing:.3em;font-weight:700}
+  .sec-title{font-size:22px;font-weight:700;letter-spacing:-.01em}
+  .sec-sub{color:var(--txt-2);font-size:13px;margin-left:auto}
+
+  .idx-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+  .idx{position:relative;background:linear-gradient(160deg,var(--bg-2),var(--bg-1) 80%);border:1px solid var(--line);border-radius:16px;padding:20px;box-shadow:var(--shadow);overflow:hidden;transition:transform .25s ease, border-color .25s ease}
+  .idx:hover{transform:translateY(-2px);border-color:var(--line-2)}
+  .idx::before{content:"";position:absolute;inset:0;background:var(--grad-card);pointer-events:none}
+  .idx-region{font-size:10px;color:var(--cy);letter-spacing:.24em;font-weight:700;text-transform:uppercase}
+  .idx-name{font-size:16px;font-weight:700;margin:6px 0 2px;letter-spacing:.02em}
+  .idx-meta{font-size:11px;color:var(--txt-2)}
+  .idx-price{font-size:30px;font-weight:700;margin:16px 0 4px}
+  .idx-chg{font-size:13px;font-weight:600}
+  .idx-chg.up{color:var(--up)} .idx-chg.dn{color:var(--dn)}
+  .idx-chg .pct{padding:2px 8px;border-radius:6px;font-size:12px;margin-left:6px}
+  .idx-chg.up .pct{background:rgba(0,255,157,.1);border:1px solid rgba(0,255,157,.25)}
+  .idx-chg.dn .pct{background:rgba(255,59,107,.1);border:1px solid rgba(255,59,107,.25)}
+  .spark{margin-top:14px;display:block;width:100%;height:50px}
+
+  .fx-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+  .fx{background:var(--bg-2);border:1px solid var(--line);border-radius:12px;padding:16px 16px 14px;position:relative;overflow:hidden}
+  .fx-pair{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--txt-2);letter-spacing:.08em}
+  .fx-rate{font-size:22px;font-weight:700;margin-top:8px;letter-spacing:-.01em}
+  .fx-chg{font-size:12px;margin-top:4px}
+  .fx-bar{height:4px;border-radius:99px;background:var(--line);margin-top:12px;position:relative;overflow:hidden}
+  .fx-bar i{position:absolute;left:0;top:0;bottom:0;border-radius:99px}
+  .fx-bar.up i{background:linear-gradient(90deg,var(--up-2),var(--up))}
+  .fx-bar.dn i{background:linear-gradient(90deg,var(--dn-2),var(--dn))}
+
+  .com-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+  .com{background:var(--bg-2);border:1px solid var(--line);border-radius:12px;padding:16px;position:relative}
+  .com-name{font-size:11px;color:var(--txt-2);letter-spacing:.16em;font-weight:600;text-transform:uppercase}
+  .com-val{font-size:22px;font-weight:700;margin-top:8px}
+  .com-chg{font-size:12px;margin-top:4px;font-weight:600}
+  .com-chg.up{color:var(--up)} .com-chg.dn{color:var(--dn)}
+
+  .news{background:var(--bg-2);border:1px solid var(--line);border-radius:14px;padding:18px}
+  .news h3{margin:0 0 12px;font-size:14px;letter-spacing:.04em}
+  .news-item{display:grid;grid-template-columns:60px 1fr;gap:14px;padding:12px 0;border-top:1px dashed var(--line)}
+  .news-item:first-of-type{border-top:0}
+  .news-time{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--cy);letter-spacing:.08em;padding-top:2px}
+  .news-body{font-size:13px;line-height:1.55;color:var(--txt-1)}
+  .news-body a{color:var(--txt-0);font-weight:600;border-bottom:1px dashed rgba(255,255,255,.18)}
+  .news-body a:hover{border-bottom-color:var(--cy);color:var(--cy)}
+  .news-body .src-tag{font-size:10px;color:var(--txt-3);margin-left:6px;letter-spacing:.1em;text-transform:uppercase}
+
+  .summary{margin-top:48px;background:linear-gradient(140deg,var(--bg-2),var(--bg-1));border:1px solid var(--line);border-radius:18px;padding:32px;display:grid;grid-template-columns:1.2fr .8fr;gap:32px;align-items:center;position:relative;overflow:hidden}
+  .summary::before{content:"";position:absolute;inset:auto -100px -100px auto;width:300px;height:300px;background:radial-gradient(closest-side,rgba(0,212,255,.18),transparent);pointer-events:none}
+  .summary h3{margin:0 0 12px;font-size:24px;font-weight:700}
+  .summary p{color:var(--txt-1);font-size:14px;line-height:1.65;margin:0 0 8px}
+  .summary .kpi{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .kpi-cell{background:var(--bg-3);border:1px solid var(--line);border-radius:12px;padding:14px}
+  .kpi-cell .k{font-size:11px;color:var(--txt-2);letter-spacing:.16em;font-weight:600}
+  .kpi-cell .v{font-size:22px;font-weight:700;margin-top:6px}
+
+  .stale{display:inline-block;margin-left:8px;padding:1px 6px;border-radius:4px;background:rgba(255,181,71,.15);border:1px solid rgba(255,181,71,.35);font-size:10px;color:var(--warn);letter-spacing:.08em;text-transform:uppercase}
+
+  footer{margin-top:60px;padding-top:24px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:18px;align-items:center;font-size:12px;color:var(--txt-2)}
+  footer .src{color:var(--txt-1)}
+  footer .src a{color:var(--cy);border-bottom:1px dashed rgba(0,212,255,.4)}
+  footer .src a:hover{border-bottom-style:solid}
+  .disclaimer{margin-top:14px;font-size:11.5px;color:var(--txt-3);line-height:1.55}
+
+  @media (max-width:1100px){
+    .hero{grid-template-columns:1fr}
+    .idx-grid{grid-template-columns:repeat(2,1fr)}
+    .fx-grid,.com-grid{grid-template-columns:repeat(3,1fr)}
+    .summary{grid-template-columns:1fr}
+    .h-title{font-size:38px}
+  }
+  @media (max-width:560px){
+    .wrap{padding:24px 16px 60px}
+    .topbar-inner{padding:12px 16px}
+    .topbar-meta{display:none}
+    .idx-grid{grid-template-columns:1fr}
+    .fx-grid,.com-grid{grid-template-columns:1fr 1fr}
+    .h-title{font-size:30px}
+    .h-stats{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <span class="brand-dot"></span>
+      <span class="brand-name">MoAI <span>·</span> MARKET CLOSE</span>
+    </div>
+    <span class="tag-live"><i></i> AUTO-UPDATED</span>
+    <div class="topbar-meta mono">
+      <span><b>{{ as_of_date }}</b> · {{ as_of_weekday }}</span>
+      <span>KST <b>{{ as_of_kst.split(' ')[1] }}</b></span>
+      <span>BUILD <b>#{{ build_unix }}</b></span>
+    </div>
+  </div>
+</header>
+
+<div class="ticker">
+  <div class="ticker-track mono">
+    {% for key, idx in indexes.items() %}
+    <span class="ticker-item"><b>{{ idx.name }}</b> {{ idx.price | fmt_num }} <span class="{{ 'up' if idx.change_pct >= 0 else 'dn' }}">{{ idx.change_pct | fmt_pct }}</span></span>
+    {% endfor %}
+    {% for key, p in fx.items() %}
+    <span class="ticker-item"><b>{{ p.pair }}</b> {{ p.rate | fmt_num(4 if p.kind == 'inverse' else 2) }}{% if p.change_pct is defined %} <span class="{{ 'up' if p.change_pct >= 0 else 'dn' }}">{{ p.change_pct | fmt_pct }}</span>{% endif %}</span>
+    {% endfor %}
+    {% for key, c in commodities.items() %}
+    <span class="ticker-item"><b>{{ c.name }}</b> {{ c.unit }}{{ c.price | fmt_num }} <span class="{{ 'up' if c.change_pct >= 0 else 'dn' }}">{{ c.change_pct | fmt_pct }}</span></span>
+    {% endfor %}
+  </div>
+</div>
+
+<main class="wrap">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div>
+      <div class="h-kicker">Global Market Closing Wrap · {{ as_of_date }}</div>
+      <h1 class="h-title">
+        오늘의 글로벌 마감,<br/>
+        <em>
+          {% if summary.risk_sentiment == 'RISK-ON' %}리스크 온이 우세하다.
+          {% elif summary.risk_sentiment == 'RISK-OFF' %}리스크 오프로 기운다.
+          {% else %}혼조 흐름이 이어진다.{% endif %}
+        </em>
+      </h1>
+      <p class="h-sub">{{ summary.market_summary_ko or '오늘의 시장 요약은 다음 빌드에서 업데이트됩니다. 위 티커는 실시간 데이터, 아래 카드는 가장 최근 거래일 기준입니다.' }}</p>
+    </div>
+    <div class="h-stats">
+      <div class="h-stat">
+        <div class="h-stat-label">RISK SENTIMENT</div>
+        <div class="h-stat-val {{ 'up' if summary.risk_sentiment == 'RISK-ON' else ('dn' if summary.risk_sentiment == 'RISK-OFF' else '') }}">{{ summary.risk_sentiment or 'MIXED' }}</div>
+        <div class="h-stat-sub">자동 분류 · LLM 헤드라인 분석</div>
+      </div>
+      {% if fx.DXY is defined %}
+      <div class="h-stat">
+        <div class="h-stat-label">DOLLAR INDEX</div>
+        <div class="h-stat-val mono">{{ fx.DXY.rate | fmt_num }} <span class="{{ 'up' if fx.DXY.change_pct >= 0 else 'dn' }}" style="font-size:14px">{{ fx.DXY.change_pct | fmt_pct }}</span></div>
+        <div class="h-stat-sub">달러 강도 종합 지표</div>
+      </div>
+      {% endif %}
+      {% if commodities.ust10y is defined %}
+      <div class="h-stat">
+        <div class="h-stat-label">10Y UST YIELD</div>
+        <div class="h-stat-val mono">{{ commodities.ust10y.price | fmt_num }}% <span class="{{ 'up' if commodities.ust10y.change_pct >= 0 else 'dn' }}" style="font-size:14px">{{ commodities.ust10y.change_pct | fmt_pct }}</span></div>
+        <div class="h-stat-sub">미국 10년물 국채 수익률</div>
+      </div>
+      {% endif %}
+      {% if commodities.wti is defined %}
+      <div class="h-stat">
+        <div class="h-stat-label">WTI CRUDE</div>
+        <div class="h-stat-val mono">${{ commodities.wti.price | fmt_num }} <span class="{{ 'up' if commodities.wti.change_pct >= 0 else 'dn' }}" style="font-size:14px">{{ commodities.wti.change_pct | fmt_pct }}</span></div>
+        <div class="h-stat-sub">서부 텍사스산 원유</div>
+      </div>
+      {% endif %}
+    </div>
+  </section>
+
+  <!-- INDEXES -->
+  <section class="section">
+    <div class="sec-head">
+      <span class="sec-num">01 / INDICES</span>
+      <h2 class="sec-title">글로벌 주요 지수 마감</h2>
+      <span class="sec-sub">최근 거래일 기준 · 자동 갱신</span>
+    </div>
+    <div class="idx-grid">
+      {% for key, idx in indexes.items() %}
+      {% set is_up = idx.change_pct >= 0 %}
+      {% set stale = idx.as_of != as_of_date %}
+      <div class="idx">
+        <div class="idx-region">{{ idx.region }} · {{ idx.as_of }}{% if stale %}<span class="stale">최근거래일</span>{% endif %}</div>
+        <div class="idx-name">{{ idx.name }}</div>
+        <div class="idx-meta">{{ idx.kind | upper }}</div>
+        <div class="idx-price mono">{{ idx.price | fmt_num }}</div>
+        <div class="idx-chg {{ 'up' if is_up else 'dn' }} mono">{{ idx.change | fmt_chg }}<span class="pct">{{ idx.change_pct | fmt_pct }}</span></div>
+        <svg class="spark" viewBox="0 0 200 50" preserveAspectRatio="none">
+          <defs>
+            <linearGradient id="g-{{ key }}" x1="0" x2="0" y1="0" y2="1">
+              <stop offset="0%" stop-color="{{ '#00ff9d' if is_up else '#ff3b6b' }}" stop-opacity=".5"/>
+              <stop offset="100%" stop-color="{{ '#00ff9d' if is_up else '#ff3b6b' }}" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+          {% set path = idx.spark | spark_path %}
+          <path d="{{ path }} L200,50 L0,50 Z" fill="url(#g-{{ key }})"/>
+          <path d="{{ path }}" fill="none" stroke="{{ '#00ff9d' if is_up else '#ff3b6b' }}" stroke-width="1.5"/>
+        </svg>
+      </div>
+      {% else %}
+      <div class="idx"><div class="idx-meta">데이터 수집 실패 — 다음 빌드에서 복구됩니다.</div></div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- FX -->
+  <section class="section">
+    <div class="sec-head">
+      <span class="sec-num">02 / FX</span>
+      <h2 class="sec-title">환율 — 달러·원·엔·유로·위안</h2>
+      <span class="sec-sub">ExchangeRate.host + yfinance</span>
+    </div>
+    <div class="fx-grid">
+      {% for key, p in fx.items() %}
+      {% set has_chg = p.change_pct is defined %}
+      {% set is_up = has_chg and p.change_pct >= 0 %}
+      <div class="fx">
+        <div class="fx-pair">{{ p.pair }}</div>
+        <div class="fx-rate mono">{{ p.rate | fmt_num(4 if p.kind == 'inverse' else (2 if p.kind == 'index' or p.pair.endswith('JPY') else 4)) }}</div>
+        {% if has_chg %}
+        <div class="fx-chg {{ 'up' if is_up else 'dn' }} mono">{{ p.change | fmt_chg }} ({{ p.change_pct | fmt_pct }})</div>
+        <div class="fx-bar {{ 'up' if is_up else 'dn' }}"><i style="width:{{ ((p.change_pct | abs) * 20) | round(0) | int }}%"></i></div>
+        {% else %}
+        <div class="fx-chg" style="color:var(--txt-2)">스팟 시세</div>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- COMMODITIES -->
+  {% if commodities %}
+  <section class="section">
+    <div class="sec-head">
+      <span class="sec-num">03 / COMMODITIES &amp; RATES</span>
+      <h2 class="sec-title">원자재 · 채권금리 · 변동성</h2>
+      <span class="sec-sub">yfinance 일봉</span>
+    </div>
+    <div class="com-grid">
+      {% for key, c in commodities.items() %}
+      <div class="com">
+        <div class="com-name">{{ c.name }}</div>
+        <div class="com-val mono">{{ c.unit }}{{ c.price | fmt_num }}</div>
+        <div class="com-chg {{ 'up' if c.change_pct >= 0 else 'dn' }} mono">{{ c.change | fmt_chg }} ({{ c.change_pct | fmt_pct }})</div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  <!-- NEWS -->
+  <section class="section">
+    <div class="sec-head">
+      <span class="sec-num">04 / TOP HEADLINES</span>
+      <h2 class="sec-title">오늘의 주요 매크로 헤드라인</h2>
+      <span class="sec-sub">LLM 큐레이션 · 원문 링크 보존</span>
+    </div>
+    <div class="news">
+      {% if summary.headlines %}
+        {% for h in summary.headlines %}
+        <div class="news-item">
+          <div class="news-time">{{ h.time_label or '—' }}</div>
+          <div class="news-body">
+            <a href="{{ h.url }}" target="_blank" rel="noreferrer">{{ h.title_ko }}</a>
+            <span class="src-tag">{{ h.source }}</span>
+          </div>
+        </div>
+        {% endfor %}
+      {% else %}
+        <div class="news-item"><div class="news-time">—</div><div class="news-body">이번 빌드에서는 LLM 요약을 수집하지 못했습니다. 다음 회차에서 자동 복구됩니다.</div></div>
+      {% endif %}
+    </div>
+  </section>
+
+  <!-- SUMMARY -->
+  <section class="summary">
+    <div>
+      <h3>오늘의 한 줄 요약</h3>
+      <p>{{ summary.market_summary_ko or '시장 요약은 다음 빌드에서 채워집니다.' }}</p>
+      <p style="color:var(--txt-2);font-size:13px;margin-top:14px">자동 빌드 시각: <b class="mono" style="color:var(--txt-0)">{{ as_of_kst }}</b></p>
+    </div>
+    <div class="kpi">
+      {% if commodities.vix is defined %}
+      <div class="kpi-cell"><div class="k">VIX</div><div class="v mono">{{ commodities.vix.price | fmt_num }} <span style="color:{{ 'var(--up)' if commodities.vix.change_pct < 0 else 'var(--dn)' }};font-size:14px">{{ commodities.vix.change_pct | fmt_pct }}</span></div></div>
+      {% endif %}
+      {% if fx.DXY is defined %}
+      <div class="kpi-cell"><div class="k">DXY</div><div class="v mono">{{ fx.DXY.rate | fmt_num }} <span style="color:{{ 'var(--up)' if fx.DXY.change_pct >= 0 else 'var(--dn)' }};font-size:14px">{{ fx.DXY.change_pct | fmt_pct }}</span></div></div>
+      {% endif %}
+      {% if indexes.sp500 is defined %}
+      <div class="kpi-cell"><div class="k">S&amp;P 500</div><div class="v mono" style="color:{{ 'var(--up)' if indexes.sp500.change_pct >= 0 else 'var(--dn)' }}">{{ indexes.sp500.change_pct | fmt_pct }}</div></div>
+      {% endif %}
+      {% if indexes.kospi is defined %}
+      <div class="kpi-cell"><div class="k">KOSPI</div><div class="v mono" style="color:{{ 'var(--up)' if indexes.kospi.change_pct >= 0 else 'var(--dn)' }}">{{ indexes.kospi.change_pct | fmt_pct }}</div></div>
+      {% endif %}
+    </div>
+  </section>
+
+  <footer>
+    <div>© {{ as_of_date[:4] }} MoAI Market Desk · Auto-Updated Closing Wrap</div>
+    <div class="src">데이터 출처:
+      <a href="https://finance.yahoo.com" target="_blank" rel="noreferrer">Yahoo Finance</a> ·
+      <a href="https://exchangerate.host" target="_blank" rel="noreferrer">ExchangeRate.host</a> ·
+      {% set sources = summary.headlines | map(attribute='source') | list | unique | list %}
+      {% for s in sources[:5] %}{{ s }}{% if not loop.last %} · {% endif %}{% endfor %}
+    </div>
+    <div class="disclaimer" style="flex-basis:100%">
+      Disclaimer: 본 페이지는 공개 데이터 소스 기반의 자동 요약이며 투자 자문이 아닙니다. 수치는 거래소·정보업체별로 차이가 있을 수 있고, 휴장일에는 직전 거래일 데이터가 표시됩니다. 의사결정 전 반드시 공식 출처를 확인하세요.
+    </div>
+  </footer>
+
+</main>
+
+</body>
+</html>
