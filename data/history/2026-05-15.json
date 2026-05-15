@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-05-15 07:36 KST",
+  "as_of_kst": "2026-05-15 19:03 KST",
   "as_of_date": "2026-05-15",
   "as_of_weekday": "FRI",
-  "build_unix": 1778798198,
+  "build_unix": 1778839382,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 7844.01,
-      "change": 200.86,
-      "change_pct": 2.63,
+      "price": 7493.18,
+      "change": -488.23,
+      "change_pct": -6.12,
       "spark": [
-        7490.05,
-        7498.0,
         7822.24,
         7643.15,
-        7844.01
+        7844.01,
+        7981.41,
+        7493.18
       ],
-      "as_of": "2026-05-13"
+      "as_of": "2026-05-15"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 63272.11,
-      "change": 529.54,
-      "change_pct": 0.84,
+      "price": 61409.29,
+      "change": -1244.76,
+      "change_pct": -1.99,
       "spark": [
-        62833.84,
-        62713.65,
         62417.88,
         62742.57,
-        63272.11
+        63272.11,
+        62654.05,
+        61409.29
       ],
-      "as_of": "2026-05-14"
+      "as_of": "2026-05-15"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 26388.44,
-      "change": 40.53,
-      "change_pct": 0.15,
+      "price": 25962.73,
+      "change": -426.31,
+      "change_pct": -1.62,
       "spark": [
-        26626.28,
-        26393.71,
         26406.84,
         26347.91,
-        26388.44
+        26388.44,
+        26389.04,
+        25962.73
       ],
-      "as_of": "2026-05-14"
+      "as_of": "2026-05-15"
     },
     "csi300": {
       "key": "csi300",
@@ -118,17 +118,17 @@
       "name": "CSI 300",
       "region": "CHINA",
       "kind": "broad",
-      "price": 4998.34,
-      "change": 50.29,
-      "change_pct": 1.02,
+      "price": 4859.59,
+      "change": -55.01,
+      "change_pct": -1.12,
       "spark": [
-        4900.51,
-        4871.91,
         4951.84,
         4948.05,
-        4998.34
+        4998.34,
+        4914.6,
+        4859.59
       ],
-      "as_of": "2026-05-14"
+      "as_of": "2026-05-15"
     },
     "ftse": {
       "key": "ftse",
@@ -136,17 +136,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10372.93,
-      "change": 47.53,
-      "change_pct": 0.46,
+      "price": 10225.9,
+      "change": -147.0,
+      "change_pct": -1.42,
       "spark": [
-        10233.1,
         10269.4,
         10265.3,
         10325.4,
-        10372.93
+        10372.9,
+        10225.9
       ],
-      "as_of": "2026-05-14"
+      "as_of": "2026-05-15"
     },
     "dax": {
       "key": "dax",
@@ -154,50 +154,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 24136.81,
-      "change": 181.88,
-      "change_pct": 0.76,
+      "price": 24035.74,
+      "change": -420.52,
+      "change_pct": -1.72,
       "spark": [
-        24663.61,
-        24338.63,
         24350.28,
         23954.93,
-        24136.81
+        24136.81,
+        24456.26,
+        24035.74
       ],
-      "as_of": "2026-05-14"
+      "as_of": "2026-05-15"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1492.6801,
+      "rate": 1500.0,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 158.36,
+      "rate": 158.51,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1674,
+      "rate": 1.1632,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7846,
+      "rate": 6.8099,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 98.87,
-      "change": 0.39,
-      "change_pct": 0.4,
+      "rate": 99.23,
+      "change": 0.35,
+      "change_pct": 0.35,
       "kind": "index"
     }
   },
@@ -207,27 +207,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 101.51,
-      "change": 0.49,
-      "change_pct": 0.49
+      "price": 100.89,
+      "change": -0.28,
+      "change_pct": -0.28
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4662.6,
-      "change": -35.1,
-      "change_pct": -0.75
+      "price": 4546.3,
+      "change": -131.8,
+      "change_pct": -2.82
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 81476.4,
-      "change": 2199.28,
-      "change_pct": 2.77
+      "price": 80490.25,
+      "change": -561.0,
+      "change_pct": -0.69
     },
     "ust10y": {
       "key": "ust10y",
@@ -243,9 +243,9 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 17.26,
-      "change": -0.61,
-      "change_pct": -3.41
+      "price": 18.84,
+      "change": 1.58,
+      "change_pct": 9.15
     }
   },
   "headlines_raw": [
@@ -254,6 +254,12 @@
       "title": "Gemini surges after Winklevoss Capital Fund invests $100 million in the crypto exchange",
       "url": "https://www.cnbc.com/2026/05/14/gemini-surges-after-winklevoss-capital-invests-100-million-in-the-crypto-exchange.html",
       "published": "Thu, 14 May 2026 22:23:40 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Friday's big stock stories: What’s likely to move the market in the next trading session",
+      "url": "https://www.cnbc.com/2026/05/14/fridays-big-stock-stories-whats-likely-to-move-the-market.html",
+      "published": "Thu, 14 May 2026 23:42:42 GMT"
     },
     {
       "source": "CNBC Markets",
@@ -280,154 +286,148 @@
       "published": "Thu, 14 May 2026 17:27:20 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "This generator stock essential to AI is set up well for the near and long term, charts show",
-      "url": "https://www.cnbc.com/2026/05/14/this-generator-stock-essential-to-ai-is-set-up-well-for-the-near-and-long-term-charts-show.html",
-      "published": "Thu, 14 May 2026 17:04:46 GMT"
+      "source": "Yahoo Finance",
+      "title": "SoFi vs. TD Bank: Which bank is a better fit for you?",
+      "url": "https://finance.yahoo.com/personal-finance/banking/comparison/sofi-vs-td-bank-173415811.html",
+      "published": "2025-02-28T17:34:15Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Explained: What is a perpetual DEX? A Wall Street primer featuring Decibel",
-      "url": "https://finance.yahoo.com/news/explained-perpetual-dex-wall-street-152000841.html",
-      "published": "2026-05-13T15:20:00Z"
+      "title": "Expires Sunday: Chase Home Loans launches another mortgage rate sale for 2 weeks only",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/chase-home-loans-lmortgage-rate-sale-2-weeks-only-130000648.html",
+      "published": "2026-05-04T13:00:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Affirm Investor Day Touts 'Bigger Is Better,' Strategy. But Shares Fall.",
-      "url": "https://www.investors.com/news/technology/affirm-stock-afrm-investor-day-gmv-target/?src=A00220&yptr=yahoo",
-      "published": "2026-05-13T14:50:04Z"
+      "title": "Best American Express credit cards for May 2026",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-amex-credit-card-172941206.html",
+      "published": "2024-08-30T18:18:30Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Are Wall Street Analysts Predicting CRH Stock Will Climb or Sink?",
-      "url": "https://finance.yahoo.com/news/wall-street-analysts-predicting-crh-144838865.html",
-      "published": "2026-05-13T14:48:38Z"
+      "title": "Best Capital One credit cards for May 2026",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-capital-one-credit-cards-203558254.html",
+      "published": "2025-09-16T20:35:58Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "ALICO: Land Monetization Reinforces Post-Citrus Transformation – Quarterly Update Report",
-      "url": "https://finance.yahoo.com/news/alico-land-monetization-reinforces-post-145538210.html",
-      "published": "2026-05-13T14:55:38Z"
+      "title": "The best balance transfer credit cards for May 2026: Don't pay any interest until 2027",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-balance-transfer-credit-cards-0-introductory-apr-150104640.html",
+      "published": "2026-05-08T15:01:04Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Do Wall Street Analysts Like Dollar General Stock?",
-      "url": "https://finance.yahoo.com/news/wall-street-analysts-dollar-general-144911863.html",
-      "published": "2026-05-13T14:49:11Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Long-Term Optimism",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_47037_PortfolioIdeas_1778789190000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "published": "2026-05-14T20:06:30Z"
+      "title": "How to pay off credit card debt when your budget's tight",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/how-to-pay-off-credit-card-debt-234441989.html",
+      "published": "2024-01-26T22:28:40Z"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Figma has a fix for its ailing stock — a new way to make money off its AI products",
-      "url": "https://www.marketwatch.com/story/figma-has-a-fix-for-its-ailing-stock-a-new-way-to-make-money-off-its-ai-products-2a4f3489?mod=mw_rss_topstories",
-      "published": "Thu, 14 May 2026 22:28:00 GMT"
+      "title": "‘He is retired’: Should my husband take his Social Security at 62 and invest it?",
+      "url": "https://www.marketwatch.com/story/he-is-retired-should-my-husband-take-his-social-security-at-62-and-invest-it-c7b74368?mod=mw_rss_topstories",
+      "published": "Fri, 15 May 2026 09:51:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "My wife and I retired with 22 times our income. Why don’t more people do what we did?",
-      "url": "https://www.marketwatch.com/story/my-retirement-fund-is-like-an-ai-version-of-me-it-keeps-working-when-im-not-able-to-6d053f9d?mod=mw_rss_topstories",
-      "published": "Thu, 14 May 2026 22:12:00 GMT"
+      "title": "‘I experienced many years of poverty’: I don’t judge other people. Why do wealthy retirees look down on others?",
+      "url": "https://www.marketwatch.com/story/i-experienced-many-years-of-poverty-i-dont-judge-other-people-why-do-wealthy-retirees-look-down-on-others-5e3069e6?mod=mw_rss_topstories",
+      "published": "Fri, 15 May 2026 09:33:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "The bond market is already hiking rates as Kevin Warsh takes over as Fed’s new chair",
-      "url": "https://www.marketwatch.com/story/the-bond-market-is-already-hiking-rates-as-kevin-warsh-takes-over-as-feds-new-chair-7a74acbd?mod=mw_rss_topstories",
-      "published": "Thu, 14 May 2026 22:11:00 GMT"
+      "title": "‘I have zero envy’: I’m 75, enjoy working and live below my means. Why are more people not like me?",
+      "url": "https://www.marketwatch.com/story/i-have-zero-envy-im-75-enjoy-working-and-live-below-my-means-why-are-more-people-not-like-me-1b68f8eb?mod=mw_rss_topstories",
+      "published": "Fri, 15 May 2026 08:27:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘I’m not an extravagant spender’: I’m in my 70s with a $90,000 income. Can I afford my dream home with a pool?",
-      "url": "https://www.marketwatch.com/story/im-not-an-extravagant-spender-im-in-my-70s-with-a-90-000-income-can-i-afford-my-dream-home-with-a-pool-871ccda2?mod=mw_rss_topstories",
-      "published": "Thu, 14 May 2026 22:00:00 GMT"
+      "title": "Nvidia earnings alone won’t rescue the S&P 500 from its new sell signal",
+      "url": "https://www.marketwatch.com/story/nvidia-earnings-alone-wont-rescue-the-s-p-500-from-its-new-sell-signal-5a41acc3?mod=mw_rss_topstories",
+      "published": "Fri, 15 May 2026 03:11:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "We’re in our 40s. Our mortgage is nearly paid off — how should we invest our extra $1,500 a month?",
-      "url": "https://www.marketwatch.com/story/were-in-our-40s-our-mortgage-is-nearly-paid-off-how-should-we-invest-our-extra-1-500-a-month-af3eec89?mod=mw_rss_topstories",
-      "published": "Thu, 14 May 2026 22:00:00 GMT"
+      "title": "Trump’s best China trade deal is the one he doesn’t make",
+      "url": "https://www.marketwatch.com/story/trumps-best-china-trade-deal-is-the-one-he-doesnt-make-b54fe07f?mod=mw_rss_topstories",
+      "published": "Fri, 15 May 2026 03:09:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘Several days have passed’: The restaurant failed to process my 20% tip. Is it cheating the staff?",
-      "url": "https://www.marketwatch.com/story/several-days-have-passed-the-restaurant-failed-to-process-my-20-tip-is-it-cheating-the-staff-e4338e82?mod=mw_rss_topstories",
-      "published": "Thu, 14 May 2026 21:30:00 GMT"
+      "title": "Dead people claiming Social Security? Here’s one — but we’re still looking for the other 19,999,999.",
+      "url": "https://www.marketwatch.com/story/dead-people-claiming-social-security-heres-one-but-were-still-looking-for-the-other-19-999-999-7166612d?mod=mw_rss_topstories",
+      "published": "Fri, 15 May 2026 02:16:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Ast spacemobile director Julio Torres sells $1.15m in stock",
-      "url": "https://www.investing.com/news/insider-trading-news/ast-spacemobile-director-julio-torres-sells-115m-in-stock-93CH-4690860",
-      "published": "2026-05-14 22:34:19"
+      "title": "Unicorn AIM VCT appoints Tamara Sakovska to board",
+      "url": "https://www.investing.com/news/company-news/unicorn-aim-vct-appoints-tamara-sakovska-to-board-93CH-4691371",
+      "published": "2026-05-15 09:43:24"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 13G Foghorn Therapeutics Inc. For: 14 May",
-      "url": "https://www.investing.com/news/filings/form-13g-foghorn-therapeutics-inc-for-14-may-93CH-4690859",
-      "published": "2026-05-14 22:31:01"
+      "title": "Goldman Sachs raises Kodiak Gas Services stock price target to $88 on power growth",
+      "url": "https://www.investing.com/news/analyst-ratings/goldman-sachs-raises-kodiak-gas-services-stock-price-target-to-88-on-power-growth-93CH-4691370",
+      "published": "2026-05-15 09:43:18"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 13G Cogent Biosciences For: 14 May",
-      "url": "https://www.investing.com/news/filings/form-13g-cogent-biosciences-for-14-may-93CH-4690856",
-      "published": "2026-05-14 22:30:53"
+      "title": "Goldman Sachs raises Viking Holdings stock price target on strong 2027 bookings",
+      "url": "https://www.investing.com/news/analyst-ratings/goldman-sachs-raises-viking-holdings-stock-price-target-on-strong-2027-bookings-93CH-4691369",
+      "published": "2026-05-15 09:43:14"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 13G NEWBRIDGE ACQUISITION LIMITED For: 14 May",
-      "url": "https://www.investing.com/news/filings/form-13g-newbridge-acquisition-limited-for-14-may-93CH-4690857",
-      "published": "2026-05-14 22:30:49"
+      "title": "Citizens raises Bandwidth stock price target on AI voice opportunity",
+      "url": "https://www.investing.com/news/analyst-ratings/citizens-raises-bandwidth-stock-price-target-on-ai-voice-opportunity-93CH-4691368",
+      "published": "2026-05-15 09:43:09"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 13G SPACSPHERE ACQUISITION CORP For: 14 May",
-      "url": "https://www.investing.com/news/filings/form-13g-spacsphere-acquisition-corp-for-14-may-93CH-4690855",
-      "published": "2026-05-14 22:30:38"
+      "title": "Goldman Sachs lowers Regenxbio stock price target on regulatory uncertainty",
+      "url": "https://www.investing.com/news/analyst-ratings/goldman-sachs-lowers-regenxbio-stock-price-target-on-regulatory-uncertainty-93CH-4691367",
+      "published": "2026-05-15 09:43:07"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "US set to drop criminal fraud case against India’s Gautam Adani, sources say, as deal reached in civil case",
+      "url": "https://www.investing.com/news/stock-market-news/us-set-to-drop-criminal-fraud-case-against-indias-gautam-adani-sources-say-as-deal-reached-in-civil-case-4691055",
+      "published": "2026-05-15 09:42:28"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Apollo’s West Technology Is in Talks to Sell Remaining Business",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-14/apollo-s-west-technology-is-in-talks-to-sell-remaining-business",
-      "published": "Thu, 14 May 2026 22:25:05 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Oil Heads for Weekly Advance With Iran War Resolution at Impasse",
+      "title": "Oil Heads for Weekly Gain With Iran War Negotiations at Impasse",
       "url": "https://www.bloomberg.com/news/articles/2026-05-14/latest-oil-market-news-and-analysis-for-may-15",
       "published": "Thu, 14 May 2026 22:07:41 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Asian Stocks to Rise as AI Rally Spurs Wall Street: Markets Wrap",
+      "title": "India’s Gold Demand Slows to a Trickle on Tighter Trade Rules",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-15/india-s-gold-demand-slows-to-a-trickle-on-tighter-trade-rules",
+      "published": "Fri, 15 May 2026 09:37:34 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Stocks Hit as Inflation Angst Sends Yields Higher: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-05-14/asian-stocks-to-rise-as-ai-rally-spurs-wall-street-markets-wrap",
       "published": "Thu, 14 May 2026 22:06:03 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Foreign Investors Fear Retreat in Japan’s Governance Reforms",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-14/foreign-investors-fear-retreat-in-japan-s-governance-reforms",
-      "published": "Thu, 14 May 2026 22:00:11 GMT"
+      "title": "Global Bond Selloff Worsens as Rising Oil Prices Spook Investors",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-15/treasuries-lead-global-bond-yields-higher-on-inflation-angst",
+      "published": "Fri, 15 May 2026 03:20:32 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "S&amp;P 500 Tops 7,500 as AI Fuels Record-Breaking Run: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-13/asian-stocks-to-climb-as-wall-street-hits-new-high-markets-wrap",
-      "published": "Wed, 13 May 2026 22:07:17 GMT"
+      "title": "RBI Lifts Bond-Trading Target for Primary Dealers by 48%",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-15/inr-usd-india-s-rbi-raises-dealer-targets-lifts-bond-trading-activity",
+      "published": "Fri, 15 May 2026 05:00:44 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Pound Tumbles as Burnham Escalates Labour Revolt Against Starmer",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-14/pound-falls-to-one-month-low-on-burnham-running-for-parliament",
-      "published": "Thu, 14 May 2026 16:55:03 GMT"
-    },
-    {
-      "source": "FT Markets",
-      "title": "AI chipmaker jumps to almost $70bn valuation in IPO",
-      "url": "https://www.ft.com/content/4848fbef-d9af-46ee-b6ef-ad344a7a3814",
-      "published": "Thu, 14 May 2026 20:34:02 GMT"
+      "title": "Adani Group Revives Plan to Seek $1 Billion With Dollar Bond",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-15/adani-group-revives-plan-to-seek-1-billion-with-dollar-bond",
+      "published": "Fri, 15 May 2026 09:33:51 GMT"
     }
   ],
   "summary": {
