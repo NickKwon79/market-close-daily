@@ -1,27 +1,9 @@
 {
-  "as_of_kst": "2026-05-19 07:32 KST",
+  "as_of_kst": "2026-05-19 19:48 KST",
   "as_of_date": "2026-05-19",
   "as_of_weekday": "TUE",
-  "build_unix": 1779143545,
+  "build_unix": 1779187685,
   "indexes": {
-    "sp500": {
-      "key": "sp500",
-      "symbol": "^GSPC",
-      "name": "S&P 500",
-      "region": "USA",
-      "kind": "broad",
-      "price": 7403.05,
-      "change": -5.45,
-      "change_pct": -0.07,
-      "spark": [
-        7400.96,
-        7444.25,
-        7501.24,
-        7408.5,
-        7403.05
-      ],
-      "as_of": "2026-05-18"
-    },
     "nasdaq": {
       "key": "nasdaq",
       "symbol": "^IXIC",
@@ -64,17 +46,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 7493.18,
-      "change": -488.23,
-      "change_pct": -6.12,
+      "price": 7271.66,
+      "change": -244.38,
+      "change_pct": -3.25,
       "spark": [
-        7822.24,
-        7643.15,
         7844.01,
         7981.41,
-        7493.18
+        7493.18,
+        7516.04,
+        7271.66
       ],
-      "as_of": "2026-05-15"
+      "as_of": "2026-05-19"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +64,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 61409.29,
-      "change": -1244.76,
-      "change_pct": -1.99,
+      "price": 60550.59,
+      "change": -265.36,
+      "change_pct": -0.44,
       "spark": [
-        62417.88,
-        62742.57,
         63272.11,
         62654.05,
-        61409.29
+        61409.29,
+        60815.95,
+        60550.59
       ],
-      "as_of": "2026-05-18"
+      "as_of": "2026-05-19"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +82,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 25962.73,
-      "change": -426.31,
-      "change_pct": -1.62,
+      "price": 25797.85,
+      "change": 122.67,
+      "change_pct": 0.48,
       "spark": [
-        26406.84,
-        26347.91,
         26388.44,
         26389.04,
-        25962.73
+        25962.73,
+        25675.18,
+        25797.85
       ],
-      "as_of": "2026-05-18"
+      "as_of": "2026-05-19"
     },
     "csi300": {
       "key": "csi300",
@@ -118,17 +100,17 @@
       "name": "CSI 300",
       "region": "CHINA",
       "kind": "broad",
-      "price": 4859.59,
-      "change": -55.01,
-      "change_pct": -1.12,
+      "price": 4852.88,
+      "change": 19.36,
+      "change_pct": 0.4,
       "spark": [
-        4951.84,
-        4948.05,
         4998.34,
         4914.6,
-        4859.59
+        4859.59,
+        4833.52,
+        4852.88
       ],
-      "as_of": "2026-05-18"
+      "as_of": "2026-05-19"
     },
     "ftse": {
       "key": "ftse",
@@ -136,17 +118,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10323.75,
-      "change": 128.35,
-      "change_pct": 1.26,
+      "price": 10398.54,
+      "change": 74.74,
+      "change_pct": 0.72,
       "spark": [
-        10265.3,
         10325.4,
         10372.9,
         10195.4,
-        10323.75
+        10323.8,
+        10398.54
       ],
-      "as_of": "2026-05-18"
+      "as_of": "2026-05-19"
     },
     "dax": {
       "key": "dax",
@@ -154,50 +136,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 23950.57,
-      "change": -505.69,
-      "change_pct": -2.07,
+      "price": 24651.08,
+      "change": 343.16,
+      "change_pct": 1.41,
       "spark": [
-        24350.28,
-        23954.93,
         24136.81,
         24456.26,
-        23950.57
+        23950.57,
+        24307.92,
+        24651.08
       ],
-      "as_of": "2026-05-18"
+      "as_of": "2026-05-19"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1488.34,
+      "rate": 1506.48,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 158.82,
+      "rate": 159.13,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1662,
+      "rate": 1.162,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7995,
+      "rate": 6.8051,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 98.95,
-      "change": -0.32,
-      "change_pct": -0.32,
+      "rate": 99.24,
+      "change": 0.26,
+      "change_pct": 0.27,
       "kind": "index"
     }
   },
@@ -207,27 +189,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 102.44,
-      "change": -2.98,
-      "change_pct": -2.83
+      "price": 103.14,
+      "change": -5.52,
+      "change_pct": -5.08
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4576.9,
-      "change": 21.1,
-      "change_pct": 0.46
+      "price": 4545.9,
+      "change": -6.6,
+      "change_pct": -0.14
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 77102.2,
-      "change": -327.15,
-      "change_pct": -0.42
+      "price": 76762.76,
+      "change": -191.41,
+      "change_pct": -0.25
     },
     "ust10y": {
       "key": "ust10y",
@@ -243,12 +225,24 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 17.82,
-      "change": -0.61,
-      "change_pct": -3.31
+      "price": 18.12,
+      "change": 0.3,
+      "change_pct": 1.68
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Nvidia earnings expectations are high. Why HSBC expects the chipmaker to clear the bar",
+      "url": "https://www.cnbc.com/2026/05/19/nvidia-earnings-expectations-are-high-why-hsbc-expects-the-chipmaker-to-clear-the-bar.html",
+      "published": "Tue, 19 May 2026 10:20:53 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Tuesday's big stock stories: What’s likely to move the market in the next trading session",
+      "url": "https://www.cnbc.com/2026/05/18/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+      "published": "Mon, 18 May 2026 23:01:05 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Nvidia bulls mount uphill battle into earnings",
@@ -274,18 +268,6 @@
       "published": "Mon, 18 May 2026 17:59:42 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "The ‘biggest and best tailwind’ for the market this week would be a Nvidia earnings beat, pro trader says",
-      "url": "https://www.cnbc.com/2026/05/18/nvidia-beat-would-be-the-biggest-and-best-tailwind-for-the-market-jay-woods-says.html",
-      "published": "Mon, 18 May 2026 21:05:53 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Ford lands its first customer for energy business. Buy this pivot by the auto giant?",
-      "url": "https://www.cnbc.com/2026/05/18/ford-lands-first-customer-for-energy-business-is-this-pivot-a-buy.html",
-      "published": "Mon, 18 May 2026 17:35:21 GMT"
-    },
-    {
       "source": "Yahoo Finance",
       "title": "170-year-old luxury fashion retailer quietly closes 21 stores",
       "url": "https://finance.yahoo.com/markets/stocks/articles/170-old-luxury-fashion-retailer-013700371.html",
@@ -293,141 +275,141 @@
     },
     {
       "source": "Yahoo Finance",
-      "title": "Disney’s Next Battle Won’t Be Against Netflix",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/disney-next-battle-won-t-140002165.html",
-      "published": "2026-05-17T14:00:02Z"
+      "title": "Earnings live updates: Home Depot beats earnings estimates as small DIY projects remain a 'real source of strength'",
+      "url": "https://finance.yahoo.com/markets/live/earnings-live-updates-home-depot-beats-earnings-estimates-as-small-diy-projects-remain-a-real-source-of-strength-115413520.html",
+      "published": "2026-05-18T11:54:13Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Moody's Mark Zandi says job growth has declined since Trump's tariffs — and warns a recession may be next",
-      "url": "https://finance.yahoo.com/economy/policy/articles/moodys-mark-zandi-says-job-140000989.html",
-      "published": "2026-05-17T14:00:00Z"
+      "title": "Joint bank account? Pass. More couples are keeping their finances separate.",
+      "url": "https://finance.yahoo.com/economy/article/joint-bank-account-pass-more-couples-are-keeping-their-finances-separate-103000960.html",
+      "published": "2026-05-19T10:30:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Ryan Cohen's eBay bid has been absurd all along",
-      "url": "https://finance.yahoo.com/markets/article/ryan-cohens-ebay-bid-has-been-absurd-all-along-123000449.html",
-      "published": "2026-05-17T12:30:00Z"
+      "title": "Yahoo Finance unleashes AlphaSpace: Here's how you can use it to unlock success on Nvidia earnings day",
+      "url": "https://finance.yahoo.com/markets/article/yahoo-finance-unleashes-alphaspace-heres-how-you-can-use-it-to-unlock-success-on-nvidia-earnings-day-100500596.html",
+      "published": "2026-05-19T10:05:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Anthropic’s Project Glasswing Could Be a Major Catalyst for Verizon Stock",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-project-glasswing-could-major-141502288.html",
-      "published": "2026-05-17T14:15:02Z"
+      "title": "Europe's VC market is splitting in two and AI is driving the gap",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/europes-vc-market-splitting-two-101351838.html",
+      "published": "2026-05-19T10:13:51Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Analyst Report: GE HealthCare Technologies Inc",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_6102_AnalystReport_1779125369000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "published": "2026-05-18T17:29:29Z"
+      "title": "The Long-Term Care Decision a 64-Year-Old Couple Skipped at 58 and Why They Now Wish They Had Bought It Six Years Ago",
+      "url": "https://finance.yahoo.com/sectors/healthcare/articles/long-term-care-decision-64-103652038.html",
+      "published": "2026-05-19T10:36:52Z"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Oil climbs as Trump warns the ‘clock is ticking’ on Iran, but there’s a bigger danger lurking on the horizon",
-      "url": "https://www.marketwatch.com/story/oil-climbs-as-trump-warns-the-clock-is-ticking-on-iran-but-theres-a-bigger-danger-lurking-on-the-horizon-9dfa8129?mod=mw_rss_topstories",
-      "published": "Mon, 18 May 2026 22:23:00 GMT"
+      "title": "Aluminum could hit $4,000 a ton amid most bullish set-up in over 50 years",
+      "url": "https://www.marketwatch.com/story/aluminum-could-hit-4-000-a-ton-amid-most-bullish-set-up-in-over-50-years-9cae5e49?mod=mw_rss_topstories",
+      "published": "Tue, 19 May 2026 10:42:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "ServiceNow’s stock notches best day in a year — flashing a green light for the software sector",
-      "url": "https://www.marketwatch.com/story/servicenows-stock-heads-for-best-day-in-a-year-flashing-a-green-light-for-the-software-sector-2d916cfd?mod=mw_rss_topstories",
-      "published": "Mon, 18 May 2026 22:17:00 GMT"
+      "title": "Home Depot’s stock rises as the full-year outlook was kept intact, a relief for worried investors",
+      "url": "https://www.marketwatch.com/story/home-depots-stock-rises-as-the-full-year-outlook-was-kept-intact-a-relief-for-worried-investors-75cdfb7c?mod=mw_rss_topstories",
+      "published": "Tue, 19 May 2026 10:19:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Ford takes its first big step toward being an energy business",
-      "url": "https://www.marketwatch.com/story/ford-takes-its-first-big-step-toward-being-an-energy-business-b1d72bc2?mod=mw_rss_topstories",
-      "published": "Mon, 18 May 2026 22:11:00 GMT"
+      "title": "I’m selling my $1 million Maui home. Will my agent charge me less than a 6% commission?",
+      "url": "https://www.marketwatch.com/story/im-selling-my-1-million-maui-home-will-my-agent-charge-me-less-than-a-6-commission-ed06c0f1?mod=mw_rss_topstories",
+      "published": "Tue, 19 May 2026 09:45:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Palo Alto Networks hits a big milestone. Why cybersecurity stocks are so hot right now.",
-      "url": "https://www.marketwatch.com/story/palo-alto-networks-hits-a-big-milestone-why-cybersecurity-stocks-are-so-hot-right-now-09e1c9bb?mod=mw_rss_topstories",
-      "published": "Mon, 18 May 2026 21:42:00 GMT"
+      "title": "AI in focus as Standard Chartered Bank replaces ‘lower value human capital’, slashing back office workers by 15%",
+      "url": "https://www.marketwatch.com/story/ai-in-focus-as-standard-chartered-bank-replaces-lower-value-human-capital-slashing-back-office-workers-by-15-bd147174?mod=mw_rss_topstories",
+      "published": "Tue, 19 May 2026 09:26:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "The S&P 500 and most of its stocks are heading in opposite directions at a record pace. What investors should know.",
-      "url": "https://www.marketwatch.com/story/the-s-p-500-and-most-of-its-stocks-are-heading-in-opposite-directions-at-a-record-pace-what-investors-should-know-2a6c55a5?mod=mw_rss_topstories",
-      "published": "Mon, 18 May 2026 21:25:00 GMT"
+      "title": "Angelina Jolie lists L.A. estate once owned by a famous filmmaker for $30 million",
+      "url": "https://www.marketwatch.com/story/angelina-jolie-lists-l-a-estate-once-owned-by-a-famous-filmmaker-for-30-million-bfe97b53?mod=mw_rss_topstories",
+      "published": "Tue, 19 May 2026 09:03:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Elon Musk loses his case against OpenAI and Sam Altman after just two hours of jury deliberation",
-      "url": "https://www.marketwatch.com/story/elon-musk-has-lost-his-case-against-openai-and-sam-altman-b0998cff?mod=mw_rss_topstories",
-      "published": "Mon, 18 May 2026 21:22:00 GMT"
+      "title": "‘Family Feud’ host Steve Harvey cuts the price of his luxury Georgia home to $4.75 million",
+      "url": "https://www.marketwatch.com/story/family-feud-host-steve-harvey-cuts-the-price-of-his-luxury-georgia-home-to-4-75-million-1438a1b2?mod=mw_rss_topstories",
+      "published": "Tue, 19 May 2026 08:58:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Dropbox CEO Andrew Houston sells $973,549 in stock",
-      "url": "https://www.investing.com/news/insider-trading-news/dropbox-ceo-andrew-houston-sells-973549-in-stock-93CH-4697220",
-      "published": "2026-05-18 22:28:46"
+      "title": "Canaan shares tumble 10% on Q1 miss, weak Q2 guidance",
+      "url": "https://www.investing.com/news/earnings/canaan-shares-tumble-10-on-q1-miss-weak-q2-guidance-93CH-4698051",
+      "published": "2026-05-19 10:44:44"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 144 UPWORK INC. For: 18 May",
-      "url": "https://www.investing.com/news/filings/form-144-upwork-inc-for-18-may-93CH-4697219",
-      "published": "2026-05-18 22:27:33"
+      "title": "ZF to retain electric motor production but warns of additional job cuts",
+      "url": "https://www.investing.com/news/stock-market-news/zf-to-retain-electric-motor-production-but-warns-of-additional-job-cuts-93CH-4698050",
+      "published": "2026-05-19 10:44:39"
     },
     {
       "source": "Investing.com News",
-      "title": "Edwards Lifesciences CVP Lippis sells $50,306 of common stock",
-      "url": "https://www.investing.com/news/insider-trading-news/edwards-lifesciences-cvp-lippis-sells-50306-of-common-stock-93CH-4697218",
-      "published": "2026-05-18 22:26:24"
+      "title": "US SEC rescinds policy on denials of wrongdoing in enforcement actions",
+      "url": "https://www.investing.com/news/economy-news/us-sec-rescinds-policy-on-denials-of-wrongdoing-in-enforcement-actions-4697173",
+      "published": "2026-05-19 10:43:38"
     },
     {
       "source": "Investing.com News",
-      "title": "EA entertainment president Laura Miele sells $501k in EA stock",
-      "url": "https://www.investing.com/news/insider-trading-news/ea-entertainment-president-laura-miele-sells-501k-in-ea-stock-93CH-4697217",
-      "published": "2026-05-18 22:26:01"
+      "title": "Eagle Materials stock gains 3% on fourth quarter earnings beat",
+      "url": "https://www.investing.com/news/earnings/eagle-materials-stock-gains-3-on-fourth-quarter-earnings-beat-93CH-4698047",
+      "published": "2026-05-19 10:43:36"
     },
     {
       "source": "Investing.com News",
-      "title": "Martine Rothblatt, United Therapeutics chairperson & CEO, sells $5.4m in stock",
-      "url": "https://www.investing.com/news/insider-trading-news/martine-rothblatt-united-therapeutics-chairperson--ceo-sells-54m-in-stock-93CH-4697216",
-      "published": "2026-05-18 22:25:45"
+      "title": "Analysis-World awaits new Fed Chair’s vision on independence",
+      "url": "https://www.investing.com/news/economy-news/analysisworld-awaits-new-fed-chairs-vision-on-independence-4698046",
+      "published": "2026-05-19 10:42:42"
     },
     {
       "source": "Investing.com News",
-      "title": "US crude futures fall over 2% as Trump says he holds off scheduled attack on Iran",
-      "url": "https://www.investing.com/news/commodities-news/us-crude-futures-fall-over-2-as-trump-says-he-holds-off-scheduled-attack-on-iran-4697215",
-      "published": "2026-05-18 22:24:25"
+      "title": "Earnings call transcript: IOC Q4 2026 earnings beat expectations",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-ioc-q4-2026-earnings-beat-expectations-93CH-4698045",
+      "published": "2026-05-19 10:42:18"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Bloomberg Surveillance 5/15/2026",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-15/bloomberg-surveillance-5-15-2026-video",
-      "published": "Fri, 15 May 2026 15:19:15 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Oil Slips as Trump Spurs Optimism Over Iran Deal: Markets Wrap",
+      "title": "Tech Leads Stocks Lower as Iran Deadlock Drags On: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-05-18/oil-slips-as-trump-spurs-optimism-over-iran-deal-markets-wrap",
       "published": "Mon, 18 May 2026 22:10:23 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Musk Loses Case Against Altman Over OpenAI’s Overhaul",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-18/musk-loses-case-against-altman-over-openai-s-overhaul-video",
-      "published": "Mon, 18 May 2026 22:10:17 GMT"
+      "title": "Bond Market’s Woes Go Far Beyond the Price of Oil",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-05-19/bond-market-s-woes-go-far-beyond-the-price-of-oil",
+      "published": "Tue, 19 May 2026 10:40:23 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Oil Declines After Trump Says He Called Off Strike on Iran",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-18/latest-oil-market-news-and-analysis-for-may-19",
-      "published": "Mon, 18 May 2026 22:01:59 GMT"
+      "title": "The AI Boom Is a Dilemma for Retail Investors",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-19/why-openai-and-anthropic-ipos-may-be-dangerous-for-retail-buyers",
+      "published": "Tue, 19 May 2026 10:30:13 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Morgan Stanley Group to Sell Chicago Parking Meters to Stonepeak",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-18/morgan-stanley-group-to-sell-chicago-parking-meters-to-stonepeak",
-      "published": "Mon, 18 May 2026 22:01:52 GMT"
+      "title": "Goldman Sachs, Moelis Say Business as Usual Amid Iran Conflict",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-19/goldman-sachs-moelis-say-business-as-usual-amid-iran-conflict",
+      "published": "Tue, 19 May 2026 10:03:45 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Japan Official Sows Doubt Over Potential US Treasuries Sales",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-18/japan-official-sows-doubt-over-potential-sales-of-us-treasuries",
-      "published": "Mon, 18 May 2026 21:31:05 GMT"
+      "title": "Brazil Sends Cheap Soy Oil Abroad as Biodiesel Plan Stalls",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-19/brazil-sends-cheap-soy-oil-abroad-as-biodiesel-plan-stalls",
+      "published": "Tue, 19 May 2026 10:00:00 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Citi Says 5.5% May Be Next Focus for 30-Year Treasury Yield",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-19/citi-says-5-5-may-be-next-key-level-for-30-year-treasury-yield",
+      "published": "Tue, 19 May 2026 08:51:08 GMT"
     }
   ],
   "summary": {
