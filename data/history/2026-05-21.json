@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-05-21 07:51 KST",
+  "as_of_kst": "2026-05-21 19:52 KST",
   "as_of_date": "2026-05-21",
   "as_of_weekday": "THU",
-  "build_unix": 1779317491,
+  "build_unix": 1779360751,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 7271.66,
-      "change": -244.38,
-      "change_pct": -3.25,
+      "price": 7815.59,
+      "change": 606.64,
+      "change_pct": 8.42,
       "spark": [
-        7844.01,
-        7981.41,
         7493.18,
         7516.04,
-        7271.66
+        7271.66,
+        7208.95,
+        7815.59
       ],
-      "as_of": "2026-05-19"
+      "as_of": "2026-05-21"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 60550.59,
-      "change": -265.36,
-      "change_pct": -0.44,
+      "price": 61684.14,
+      "change": 1879.73,
+      "change_pct": 3.14,
       "spark": [
-        63272.11,
-        62654.05,
         61409.29,
         60815.95,
-        60550.59
+        60550.59,
+        59804.41,
+        61684.14
       ],
-      "as_of": "2026-05-20"
+      "as_of": "2026-05-21"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 25797.85,
-      "change": 122.67,
-      "change_pct": 0.48,
+      "price": 25386.52,
+      "change": -264.6,
+      "change_pct": -1.03,
       "spark": [
-        26388.44,
-        26389.04,
         25962.73,
         25675.18,
-        25797.85
+        25797.85,
+        25651.12,
+        25386.52
       ],
-      "as_of": "2026-05-20"
+      "as_of": "2026-05-21"
     },
     "csi300": {
       "key": "csi300",
@@ -118,17 +118,17 @@
       "name": "CSI 300",
       "region": "CHINA",
       "kind": "broad",
-      "price": 4852.88,
-      "change": 19.36,
-      "change_pct": 0.4,
+      "price": 4783.1,
+      "change": -67.6,
+      "change_pct": -1.39,
       "spark": [
-        4998.34,
-        4914.6,
         4859.59,
         4833.52,
-        4852.88
+        4852.88,
+        4850.7,
+        4783.1
       ],
-      "as_of": "2026-05-20"
+      "as_of": "2026-05-21"
     },
     "ftse": {
       "key": "ftse",
@@ -136,17 +136,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10432.34,
-      "change": 101.74,
-      "change_pct": 0.98,
+      "price": 10389.89,
+      "change": -42.41,
+      "change_pct": -0.41,
       "spark": [
-        10372.9,
         10195.4,
         10323.8,
         10330.6,
-        10432.34
+        10432.3,
+        10389.89
       ],
-      "as_of": "2026-05-20"
+      "as_of": "2026-05-21"
     },
     "dax": {
       "key": "dax",
@@ -154,50 +154,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 24400.65,
-      "change": 92.73,
-      "change_pct": 0.38,
+      "price": 24690.63,
+      "change": -46.61,
+      "change_pct": -0.19,
       "spark": [
-        24136.81,
-        24456.26,
         23950.57,
         24307.92,
-        24400.65
+        24400.65,
+        24737.24,
+        24690.63
       ],
-      "as_of": "2026-05-20"
+      "as_of": "2026-05-21"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1496.45,
+      "rate": 1508.66,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 158.85,
+      "rate": 159.13,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1631,
+      "rate": 1.161,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.8005,
+      "rate": 6.7979,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 99.13,
-      "change": -0.17,
-      "change_pct": -0.18,
+      "rate": 99.31,
+      "change": 0.2,
+      "change_pct": 0.2,
       "kind": "index"
     }
   },
@@ -207,27 +207,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 98.98,
-      "change": -8.79,
-      "change_pct": -8.16
+      "price": 100.8,
+      "change": 2.54,
+      "change_pct": 2.58
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4542.4,
-      "change": 36.1,
-      "change_pct": 0.8
+      "price": 4511.8,
+      "change": -19.5,
+      "change_pct": -0.43
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 77377.93,
-      "change": 627.02,
-      "change_pct": 0.82
+      "price": 77145.38,
+      "change": -312.39,
+      "change_pct": -0.4
     },
     "ust10y": {
       "key": "ust10y",
@@ -243,12 +243,30 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 17.44,
-      "change": -0.62,
-      "change_pct": -3.43
+      "price": 17.54,
+      "change": 0.1,
+      "change_pct": 0.57
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "This utility stock could get a boost from data center deals, JPMorgan says",
+      "url": "https://www.cnbc.com/2026/05/21/this-utility-stock-could-get-a-boost-from-data-center-deals-jpmorgan-says.html",
+      "published": "Thu, 21 May 2026 10:41:22 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Thursday's big stock stories: What’s likely to move the market in the next trading session",
+      "url": "https://www.cnbc.com/2026/05/20/thursdays-big-stock-stories-whats-likely-to-move-the-market.html",
+      "published": "Thu, 21 May 2026 00:13:15 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Analysts home in on Nvidia's inference market share following an earnings win. Here's why",
+      "url": "https://www.cnbc.com/2026/05/20/analysts-focus-on-nvidias-inference-market-share-after-earnings-beat.html",
+      "published": "Wed, 20 May 2026 23:49:14 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Why some investors are turning to high-yield bonds amid the volatility. Where to find opportunity",
@@ -268,24 +286,6 @@
       "published": "Wed, 20 May 2026 16:43:32 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "This real estate stock is setting up for a move higher despite the rise in interest rates, charts show",
-      "url": "https://www.cnbc.com/2026/05/20/this-real-estate-stock-is-setting-up-for-a-move-higher-charts-show.html",
-      "published": "Wed, 20 May 2026 17:02:47 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Something very unusual is happening with Nvidia options",
-      "url": "https://www.cnbc.com/2026/05/20/something-very-unusual-is-happening-with-nvidia-options.html",
-      "published": "Wed, 20 May 2026 17:54:56 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Spiking yields are spooking the stock market. These equities win when rates rise",
-      "url": "https://www.cnbc.com/2026/05/20/spiking-yields-are-spooking-the-stock-market-these-equities-win-when-rates-rise.html",
-      "published": "Wed, 20 May 2026 16:54:21 GMT"
-    },
-    {
       "source": "Yahoo Finance",
       "title": "Target sees unexpected shift in customer behavior",
       "url": "https://finance.yahoo.com/economy/articles/target-sees-unexpected-shift-customer-150445821.html",
@@ -293,141 +293,141 @@
     },
     {
       "source": "Yahoo Finance",
-      "title": "TrumpRx expands discount drug offerings: What consumers should know",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/trumprx-expands-discount-drug-offerings-what-consumers-should-know-153118576.html",
-      "published": "2026-02-26T15:31:18Z"
+      "title": "Is The MBA Really In The Middle Of A ‘Fire Sale’?",
+      "url": "https://finance.yahoo.com/economy/policy/articles/mba-really-middle-fire-sale-225952287.html",
+      "published": "2026-05-19T22:59:52Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Gary Stevenson says 'your kids will be poorer than you' — as U.S. income inequality widens",
-      "url": "https://finance.yahoo.com/economy/articles/gary-stevenson-says-kids-poorer-144500289.html",
-      "published": "2026-05-19T14:45:00Z"
+      "title": "China Turns Green Tech Into an Economic Lifeline",
+      "url": "https://finance.yahoo.com/sectors/energy/articles/china-turns-green-tech-economic-230000574.html",
+      "published": "2026-05-19T23:00:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Dollar Edges Higher and Gold Slumps as T-note Yields Soar",
-      "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-edges-higher-gold-slumps-144239718.html",
-      "published": "2026-05-19T14:42:39Z"
+      "title": "7 best homeowners insurance companies of 2026",
+      "url": "https://finance.yahoo.com/personal-finance/insurance/article/best-homeowners-insurance-215349839.html",
+      "published": "2026-05-19T21:53:49Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "NVIDIA Corporation (NVDA) Faces Long-Term Uncertainty Despite Dominance in Rapidly Evolving Tech Landscape",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-corporation-nvda-faces-long-144308664.html",
-      "published": "2026-05-19T14:43:08Z"
+      "title": "Trump tells Fed to consider fintech access to payment accounts",
+      "url": "https://finance.yahoo.com/economy/policy/articles/trump-tells-fed-consider-fintech-231144957.html",
+      "published": "2026-05-19T23:11:44Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "The Sector Wall Street Calls ‘Defensive’ Has Quietly Outpaced Both Inflation and the 10-Year Treasury for Almost Two Decades Running",
-      "url": "https://finance.yahoo.com/sectors/energy/articles/sector-wall-street-calls-defensive-145347922.html",
-      "published": "2026-05-19T14:53:47Z"
+      "title": "Stock Market Today, May 19: SoFi Technologies Extends Losses on Cautious Sentiment",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-may-19-225324351.html",
+      "published": "2026-05-19T22:53:24Z"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Investors are flocking to an offshore crypto platform for an early shot at trading the SpaceX IPO",
-      "url": "https://www.marketwatch.com/story/investors-are-flocking-to-an-offshore-crypto-platform-for-an-early-shot-at-trading-the-spacex-ipo-4ec49f10?mod=mw_rss_topstories",
-      "published": "Wed, 20 May 2026 22:43:00 GMT"
+      "title": "As Iran war drags on, this is how quickly global oil stocks are being depleted — and travel season is starting soon",
+      "url": "https://www.marketwatch.com/story/as-iran-war-drags-on-this-is-how-quickly-global-oil-stocks-are-being-depleted-and-travel-season-is-starting-soon-c6948319?mod=mw_rss_topstories",
+      "published": "Thu, 21 May 2026 09:39:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "I inherited a house. My CPA says I should sell within a year to avoid capital gains. Is he right?",
-      "url": "https://www.marketwatch.com/story/i-inherited-a-house-my-cpa-says-i-should-sell-within-a-year-to-avoid-capital-gains-is-he-right-d0909486?mod=mw_rss_topstories",
-      "published": "Wed, 20 May 2026 22:36:00 GMT"
+      "title": "I’m executor of a $400,000 estate. The beneficiaries insist on selling their stock. Can I stop them?",
+      "url": "https://www.marketwatch.com/story/im-executor-of-a-400-000-estate-the-beneficiaries-insist-on-selling-their-stock-can-i-stop-them-83a5d10d?mod=mw_rss_topstories",
+      "published": "Thu, 21 May 2026 09:25:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Chase Stokes has sold his South Carolina home for $3 million after wrapping up final season of ‘Outer Banks’",
+      "url": "https://www.marketwatch.com/story/chase-stokes-has-sold-his-south-carolina-home-for-3-million-after-wrapping-up-final-season-of-outer-banks-688d3fc0?mod=mw_rss_topstories",
+      "published": "Thu, 21 May 2026 09:03:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Actor Niko Foster is selling a stand-out Nevada mansion for $22 million",
+      "url": "https://www.marketwatch.com/story/actor-niko-foster-is-selling-a-stand-out-nevada-mansion-for-22-million-f5770650?mod=mw_rss_topstories",
+      "published": "Thu, 21 May 2026 08:59:00 GMT"
     },
     {
       "source": "MarketWatch Top",
       "title": "I’m selling my $1 million home. Will my agent really charge less than a 6% commission?",
       "url": "https://www.marketwatch.com/story/im-selling-my-1-million-maui-home-will-my-agent-charge-me-less-than-a-6-commission-ed06c0f1?mod=mw_rss_topstories",
-      "published": "Wed, 20 May 2026 22:36:00 GMT"
+      "published": "Thu, 21 May 2026 08:42:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "The ‘stunning’ end to Trump’s case against the IRS raises tax-law questions that will be analyzed for years",
-      "url": "https://www.marketwatch.com/story/the-stunning-end-to-trumps-case-against-the-irs-raises-tax-law-questions-that-will-be-analyzed-for-years-abe2bf79?mod=mw_rss_topstories",
-      "published": "Wed, 20 May 2026 22:24:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "I was bought out of the family business for $160,000. My relatives each made $3 million when it sold. Was I cheated?",
-      "url": "https://www.marketwatch.com/story/i-was-bought-out-of-the-family-business-for-160-000-my-relatives-each-made-3-million-when-it-sold-was-i-cheated-8cee0523?mod=mw_rss_topstories",
-      "published": "Wed, 20 May 2026 22:15:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "‘It will not bring you happiness’: I have advice for your single, childless 62-year-old multimillionaire reader",
-      "url": "https://www.marketwatch.com/story/it-will-not-bring-you-happiness-i-have-advice-for-your-single-childless-62-year-old-multimillionaire-reader-1cb6a09f?mod=mw_rss_topstories",
-      "published": "Wed, 20 May 2026 21:56:00 GMT"
+      "title": "Your bond portfolio is facing a ‘termite’ infestation far worse than Jamie Dimon’s ‘cockroaches’",
+      "url": "https://www.marketwatch.com/story/credit-termites-are-lurking-in-the-bond-market-and-eating-away-at-your-portfolio-3f6be6e9?mod=mw_rss_topstories",
+      "published": "Thu, 21 May 2026 01:55:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Arista Networks CTO Kenneth Duda sells $8.1 million in stock",
-      "url": "https://www.investing.com/news/insider-trading-news/arista-networks-cto-kenneth-duda-sells-81-million-in-stock-93CH-4702730",
-      "published": "2026-05-20 22:43:31"
+      "title": "Form 6K Gogoro Inc For: 21 May",
+      "url": "https://www.investing.com/news/filings/form-6k-gogoro-inc-for-21-may-93CH-4703558",
+      "published": "2026-05-21 10:43:43"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 144 Cricut For: 20 May",
-      "url": "https://www.investing.com/news/filings/form-144-cricut-for-20-may-93CH-4702729",
-      "published": "2026-05-20 22:42:17"
+      "title": "Lower cost Novo, Lilly weight-loss pills draw patients from compounded drugs, doctors say",
+      "url": "https://www.investing.com/news/stock-market-news/lower-cost-novo-lilly-weightloss-pills-draw-patients-from-compounded-drugs-doctors-say-4703349",
+      "published": "2026-05-21 10:43:18"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 144 QuantumScape Corporation For: 20 May",
-      "url": "https://www.investing.com/news/filings/form-144-quantumscape-corporation-for-20-may-93CH-4702728",
-      "published": "2026-05-20 22:42:12"
+      "title": "Analysis-Samsung’s deal with union hailed as a victory as bonuses less generous than SK Hynix’s",
+      "url": "https://www.investing.com/news/stock-market-news/analysissamsungs-deal-with-union-hailed-as-a-victory-as-bonuses-less-generous-than-sk-hynixs-4703556",
+      "published": "2026-05-21 10:43:02"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 144 Figure Technology Solutions For: 20 May",
-      "url": "https://www.investing.com/news/filings/form-144-figure-technology-solutions-for-20-may-93CH-4702727",
-      "published": "2026-05-20 22:42:12"
+      "title": "Analysis-SpaceX IPO bets $2 trillion on Musk’s ambitious rockets-to-AI vision",
+      "url": "https://www.investing.com/news/stock-market-news/analysisspacex-ipo-bets-2-trillion-on-musks-ambitious-rocketstoai-vision-4703460",
+      "published": "2026-05-21 10:42:41"
     },
     {
       "source": "Investing.com News",
-      "title": "Primis Financial director Robert Clagett buys $19,894 in stock",
-      "url": "https://www.investing.com/news/insider-trading-news/primis-financial-director-robert-clagett-buys-19894-in-stock-93CH-4702726",
-      "published": "2026-05-20 22:40:37"
+      "title": "Form 144 CEVA INC For: 21 May",
+      "url": "https://www.investing.com/news/filings/form-144-ceva-inc-for-21-may-93CH-4703551",
+      "published": "2026-05-21 10:42:09"
     },
     {
       "source": "Investing.com News",
-      "title": "Orion Group Holdings approves board changes and incentive plan amendment",
-      "url": "https://www.investing.com/news/sec-filings/orion-group-holdings-approves-board-changes-and-incentive-plan-amendment-93CH-4702725",
-      "published": "2026-05-20 22:38:21"
+      "title": "Advance Auto Parts falls on weak full-year guidance",
+      "url": "https://www.investing.com/news/earnings/advance-auto-parts-falls-on-weak-fullyear-guidance-4703550",
+      "published": "2026-05-21 10:41:14"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "AvalonBay, Equity Residential Said to Near Mega-REIT Tie-Up",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-20/avalonbay-equity-residential-said-to-near-mega-reit-tie-up",
-      "published": "Wed, 20 May 2026 22:39:36 GMT"
+      "title": "SpaceX IPO Could Be Just the Start of the Mega Listings",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-05-21/spacex-ipo-could-be-just-the-start-of-the-mega-listings",
+      "published": "Thu, 21 May 2026 10:49:24 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Raizen Races to Win Creditor Support as Bondholders Hold Out",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-20/raizen-races-to-win-creditor-support-as-bondholders-hold-out",
-      "published": "Wed, 20 May 2026 22:38:49 GMT"
+      "title": "Stock Rebound Falters as Hormuz Deadlock Drags On: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-20/asian-stocks-to-rise-as-nvidia-whipsaws-on-results-markets-wrap",
+      "published": "Wed, 20 May 2026 22:04:51 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Gold Steadies as Hopes of US-Iran Truce Lower Odds of Rate Hikes",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-20/gold-steadies-as-hopes-of-us-iran-truce-lower-odds-of-rate-hikes",
-      "published": "Wed, 20 May 2026 22:38:27 GMT"
+      "title": "Stockholm Index Briefly Halted as New Glitch Hits Nasdaq Nordics",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-21/stockholm-index-briefly-halted-as-new-glitch-hits-nasdaq-nordics",
+      "published": "Thu, 21 May 2026 10:36:27 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "SpaceX Filing Reveals $4.28 Billion Loss, Musk’s Tight Grip",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-20/musk-s-spacex-files-publicly-for-nasdaq-ipo-under-symbol-spcx",
-      "published": "Wed, 20 May 2026 20:45:21 GMT"
+      "title": "Junk Debt’s Red-Hot Rally Sparks Complacency Fears as Risk Rises",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-21/hot-junk-debt-market-is-prompting-complacency-fears-in-credit",
+      "published": "Thu, 21 May 2026 00:30:02 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Oil Edges Up After Plunging on Optimism Over US-Iran Agreement",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-20/latest-oil-market-news-and-analysis-for-may-21",
-      "published": "Wed, 20 May 2026 22:11:53 GMT"
+      "title": "Deere Keeps Outlook With Construction Boost as Farmers Struggle",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-21/deere-keeps-outlook-with-construction-boost-as-farmers-struggle",
+      "published": "Thu, 21 May 2026 10:16:21 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "SoftBank-Backed Firm to File for US IPO on Data Center Ambitions",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-20/softbank-backed-firm-to-file-for-us-ipo-on-data-center-ambitions",
-      "published": "Wed, 20 May 2026 22:28:41 GMT"
+      "title": "Iran War Spurs Extreme Bear Scenarios for Asia Currencies, Bonds",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-21/iran-war-spurs-extreme-bear-scenarios-for-asia-currencies-bonds",
+      "published": "Thu, 21 May 2026 03:59:26 GMT"
     }
   ],
   "summary": {
