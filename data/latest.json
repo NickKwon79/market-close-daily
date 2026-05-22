@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-05-22 07:49 KST",
+  "as_of_kst": "2026-05-22 19:34 KST",
   "as_of_date": "2026-05-22",
   "as_of_weekday": "FRI",
-  "build_unix": 1779403742,
+  "build_unix": 1779446044,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 7208.95,
-      "change": -62.71,
-      "change_pct": -0.86,
+      "price": 7847.71,
+      "change": 32.12,
+      "change_pct": 0.41,
       "spark": [
-        7981.41,
-        7493.18,
         7516.04,
         7271.66,
-        7208.95
+        7208.95,
+        7815.59,
+        7847.71
       ],
-      "as_of": "2026-05-20"
+      "as_of": "2026-05-22"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 59804.41,
-      "change": -746.18,
-      "change_pct": -1.23,
+      "price": 63339.07,
+      "change": 1654.93,
+      "change_pct": 2.68,
       "spark": [
-        62654.05,
-        61409.29,
         60815.95,
         60550.59,
-        59804.41
+        59804.41,
+        61684.14,
+        63339.07
       ],
-      "as_of": "2026-05-21"
+      "as_of": "2026-05-22"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 25651.12,
-      "change": -146.73,
-      "change_pct": -0.57,
+      "price": 25606.03,
+      "change": 219.51,
+      "change_pct": 0.86,
       "spark": [
-        26389.04,
-        25962.73,
         25675.18,
         25797.85,
-        25651.12
+        25651.12,
+        25386.52,
+        25606.03
       ],
-      "as_of": "2026-05-21"
+      "as_of": "2026-05-22"
     },
     "csi300": {
       "key": "csi300",
@@ -118,17 +118,17 @@
       "name": "CSI 300",
       "region": "CHINA",
       "kind": "broad",
-      "price": 4850.7,
-      "change": -2.18,
-      "change_pct": -0.04,
+      "price": 4845.1,
+      "change": 62.0,
+      "change_pct": 1.3,
       "spark": [
-        4914.6,
-        4859.59,
         4833.52,
         4852.88,
-        4850.7
+        4850.7,
+        4783.1,
+        4845.1
       ],
-      "as_of": "2026-05-21"
+      "as_of": "2026-05-22"
     },
     "ftse": {
       "key": "ftse",
@@ -136,17 +136,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10443.47,
-      "change": 11.17,
-      "change_pct": 0.11,
+      "price": 10494.07,
+      "change": 50.57,
+      "change_pct": 0.48,
       "spark": [
-        10195.4,
         10323.8,
         10330.6,
         10432.3,
-        10443.47
+        10443.5,
+        10494.07
       ],
-      "as_of": "2026-05-21"
+      "as_of": "2026-05-22"
     },
     "dax": {
       "key": "dax",
@@ -154,50 +154,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 24737.24,
-      "change": 336.59,
-      "change_pct": 1.38,
+      "price": 24802.57,
+      "change": 195.8,
+      "change_pct": 0.8,
       "spark": [
-        24456.26,
-        23950.57,
         24307.92,
         24400.65,
-        24737.24
+        24737.24,
+        24606.77,
+        24802.57
       ],
-      "as_of": "2026-05-21"
+      "as_of": "2026-05-22"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1507.77,
+      "rate": 1516.79,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 158.98,
+      "rate": 159.12,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1623,
+      "rate": 1.1604,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.802,
+      "rate": 6.7942,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 99.19,
-      "change": 0.08,
-      "change_pct": 0.08,
+      "rate": 99.31,
+      "change": 0.11,
+      "change_pct": 0.12,
       "kind": "index"
     }
   },
@@ -207,27 +207,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 97.72,
-      "change": -0.54,
-      "change_pct": -0.55
+      "price": 98.31,
+      "change": 1.96,
+      "change_pct": 2.03
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4541.0,
-      "change": 9.7,
-      "change_pct": 0.21
+      "price": 4530.4,
+      "change": -9.4,
+      "change_pct": -0.21
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 77566.7,
-      "change": 108.93,
-      "change_pct": 0.14
+      "price": 77261.78,
+      "change": -277.39,
+      "change_pct": -0.36
     },
     "ust10y": {
       "key": "ust10y",
@@ -243,9 +243,9 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 16.76,
-      "change": -0.68,
-      "change_pct": -3.9
+      "price": 17.07,
+      "change": 0.31,
+      "change_pct": 1.85
     }
   },
   "headlines_raw": [
@@ -253,7 +253,13 @@
       "source": "CNBC Markets",
       "title": "Miner Perpetua Resources secures $2.9 billion U.S. loan for Idaho gold, antimony project",
       "url": "https://www.cnbc.com/2026/05/21/miner-perpetua-resources-secures-2point9-billion-us-loan-for-idaho-gold-antimony-project.html",
-      "published": "Thu, 21 May 2026 20:08:44 GMT"
+      "published": "Thu, 21 May 2026 23:57:30 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Friday's big stock stories: What’s likely to move the market in the next trading session",
+      "url": "https://www.cnbc.com/2026/05/21/fridays-big-stock-stories-whats-likely-to-move-the-market.html",
+      "published": "Thu, 21 May 2026 23:29:01 GMT"
     },
     {
       "source": "CNBC Markets",
@@ -265,7 +271,7 @@
       "source": "CNBC Markets",
       "title": "An AI trade involving energy and infrastructure that's doubled your money, topping Nvidia",
       "url": "https://www.cnbc.com/2026/05/21/an-ai-trade-involving-energy-and-infrastructure-thats-doubled-your-money-topping-nvidia.html",
-      "published": "Thu, 21 May 2026 18:04:13 GMT"
+      "published": "Fri, 22 May 2026 02:13:29 GMT"
     },
     {
       "source": "CNBC Markets",
@@ -280,154 +286,148 @@
       "published": "Thu, 21 May 2026 18:00:01 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "Private credit defaults hit record high as interest rates soar",
-      "url": "https://www.cnbc.com/2026/05/21/private-credit-defaults-hit-record-high-as-interest-rates-soar.html",
-      "published": "Thu, 21 May 2026 16:14:05 GMT"
+      "source": "Yahoo Finance",
+      "title": "Jeff Bezos says some Americans should pay zero federal income tax",
+      "url": "https://finance.yahoo.com/personal-finance/taxes/article/jeff-bezos-says-some-americans-should-pay-zero-federal-income-tax-185627149.html",
+      "published": "2026-05-20T18:56:27Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Target sees unexpected shift in customer behavior",
-      "url": "https://finance.yahoo.com/economy/articles/target-sees-unexpected-shift-customer-150445821.html",
-      "published": "2026-05-20T15:04:45Z"
+      "title": "Does travel insurance cover illness? It depends.",
+      "url": "https://finance.yahoo.com/personal-finance/insurance/article/does-travel-insurance-cover-illness-181121287.html",
+      "published": "2026-05-20T18:11:21Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "High Energy Prices Are Weighing on the EU Economy. Sell the Euro Here.",
-      "url": "https://finance.yahoo.com/markets/currencies/articles/high-energy-prices-weighing-eu-150516584.html",
-      "published": "2026-05-20T15:05:16Z"
+      "title": "How to protect your savings against inflation",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/impact-of-inflation-savings-185311100.html",
+      "published": "2024-05-07T18:53:11Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Are Wall Street Analysts Predicting Tractor Supply Company Stock Will Climb or Sink?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-predicting-tractor-150104256.html",
-      "published": "2026-05-20T15:01:04Z"
+      "title": "What is a subject-to mortgage?",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/subject-to-mortgage-172248938.html",
+      "published": "2026-05-20T17:22:48Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Dear Snowflake Stock Fans, Mark Your Calendars for May 27",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-snowflake-stock-fans-mark-150002231.html",
-      "published": "2026-05-20T15:00:02Z"
+      "title": "Intuit (INTU) Q3 2026 Earnings Transcript",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/intuit-intu-q3-2026-earnings-221750310.html",
+      "published": "2026-05-20T22:17:50Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Quarterly loss for Zim ahead of Hapag-Lloyd takeover",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/quarterly-loss-zim-ahead-hapag-145916678.html",
-      "published": "2026-05-20T14:59:16Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Americans now owe a staggering $18.8 trillion in household debt",
-      "url": "https://finance.yahoo.com/economy/articles/americans-now-owe-staggering-18-150454877.html",
-      "published": "2026-05-20T15:04:54Z"
+      "title": "SpaceX Takes Cover Off Its Financials In First Public Document Ahead Of IPO",
+      "url": "https://www.investors.com/news/spacex-ipo-filing-elon-musk/?src=A00220&yptr=yahoo",
+      "published": "2026-05-20T22:28:28Z"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Your bond portfolio is facing a ‘termite’ infestation far worse than Jamie Dimon’s ‘cockroaches’",
-      "url": "https://www.marketwatch.com/story/credit-termites-are-lurking-in-the-bond-market-and-eating-away-at-your-portfolio-3f6be6e9?mod=mw_rss_topstories",
-      "published": "Thu, 21 May 2026 22:33:00 GMT"
+      "title": "‘We have longevity in the family’: My sister is turning 67. Should she wait until 70 to claim Social Security?",
+      "url": "https://www.marketwatch.com/story/we-have-longevity-in-the-family-my-sister-is-turning-67-should-she-wait-until-70-to-claim-social-security-812087a4?mod=mw_rss_topstories",
+      "published": "Fri, 22 May 2026 09:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Nvidia can deliver chips — but it can’t buy Big Tech out of its credit and power-grid crisis",
-      "url": "https://www.marketwatch.com/story/nvidia-can-deliver-chips-but-it-cant-buy-big-tech-out-of-its-credit-and-power-grid-crisis-9c114e62?mod=mw_rss_topstories",
-      "published": "Thu, 21 May 2026 22:32:00 GMT"
+      "title": "Stay ahead of the crowds with this ultimate summer road-trip checklist",
+      "url": "https://www.marketwatch.com/story/stay-ahead-of-the-crowds-with-this-ultimate-summer-road-trip-checklist-883a7ec0?mod=mw_rss_topstories",
+      "published": "Fri, 22 May 2026 09:02:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "The bond market just flipped the script on investors — Wall Street is acting like nothing’s wrong",
-      "url": "https://www.marketwatch.com/story/the-bond-market-just-flipped-the-script-on-investors-wall-street-is-acting-like-nothings-wrong-f321cc5b?mod=mw_rss_topstories",
-      "published": "Thu, 21 May 2026 22:30:00 GMT"
+      "title": "Real estate mogul Mauricio Umansky says ‘Reaganomics’ is the answer to housing affordability problem",
+      "url": "https://www.marketwatch.com/story/real-estate-mogul-mauricio-umansky-says-reaganomics-is-the-answer-to-housing-affordability-problem-233fc12d?mod=mw_rss_topstories",
+      "published": "Fri, 22 May 2026 09:01:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘It will not bring you happiness’: I have advice for your single, childless 62-year-old multimillionaire reader",
-      "url": "https://www.marketwatch.com/story/it-will-not-bring-you-happiness-i-have-advice-for-your-single-childless-62-year-old-multimillionaire-reader-1cb6a09f?mod=mw_rss_topstories",
-      "published": "Thu, 21 May 2026 22:00:00 GMT"
+      "title": "‘Buffett Indicator’ warns of a market top — 8 crucial signs that stocks are running on fumes",
+      "url": "https://www.marketwatch.com/story/buffett-indicator-warns-of-a-market-top-8-crucial-signs-that-stocks-are-running-on-fumes-12e4b4d8?mod=mw_rss_topstories",
+      "published": "Fri, 22 May 2026 01:23:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "People are putting less gas in their tanks as high prices crimp budgets, Walmart says",
-      "url": "https://www.marketwatch.com/story/walmart-sees-slowing-sales-growth-and-warns-of-a-profit-miss-in-contrast-to-rival-target-1f114fa0?mod=mw_rss_topstories",
-      "published": "Thu, 21 May 2026 21:24:00 GMT"
+      "title": "Stocks tread water — but a wave of volatility is building",
+      "url": "https://www.marketwatch.com/story/stocks-tread-water-but-a-wave-of-volatility-is-building-3a337d90?mod=mw_rss_topstories",
+      "published": "Fri, 22 May 2026 00:21:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘My husband is leery of my plan’: We are both 60 and have $5 million. Is now a good time to dip into our savings?",
-      "url": "https://www.marketwatch.com/story/my-husband-is-leery-of-my-plan-we-are-both-60-and-have-5-million-is-now-a-good-time-to-dip-into-our-savings-4c609266?mod=mw_rss_topstories",
-      "published": "Thu, 21 May 2026 21:15:00 GMT"
+      "title": "SpaceX has a lot riding on its imminent Starship rocket launch",
+      "url": "https://www.marketwatch.com/story/spacex-has-a-lot-riding-on-its-imminent-starship-rocket-launch-fd24bf48?mod=mw_rss_topstories",
+      "published": "Fri, 22 May 2026 00:07:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Seacor Marine modifies credit agreement and completes vessel sales",
-      "url": "https://www.investing.com/news/sec-filings/seacor-marine-modifies-credit-agreement-and-completes-vessel-sales-93CH-4705529",
-      "published": "2026-05-21 22:37:02"
+      "title": "Form 13G Luckin Coffee Inc. For: 22 May",
+      "url": "https://www.investing.com/news/filings/form-13g-luckin-coffee-inc-for-22-may-93CH-4706126",
+      "published": "2026-05-22 10:15:54"
     },
     {
       "source": "Investing.com News",
-      "title": "Canada falling short on defense spending, F-35 review, Pentagon official says",
-      "url": "https://www.investing.com/news/stock-market-news/canada-falling-short-on-defense-spending-f35-review-pentagon-official-says-4705528",
-      "published": "2026-05-21 22:36:24"
+      "title": "Form 13F Evolutionary Tree Capital Management For: 22 May",
+      "url": "https://www.investing.com/news/filings/form-13f-evolutionary-tree-capital-management-for-22-may-93CH-4706125",
+      "published": "2026-05-22 10:15:43"
     },
     {
       "source": "Investing.com News",
-      "title": "Pimco dynamic income strategy fund portfolio manager buys $385,816 in shares",
-      "url": "https://www.investing.com/news/insider-trading-news/pimco-dynamic-income-strategy-fund-portfolio-manager-buys-385816-in-shares-93CH-4705527",
-      "published": "2026-05-21 22:33:41"
+      "title": "Gold prices inch lower amid uncertainty over Iran peace talks, interest rates",
+      "url": "https://www.investing.com/news/commodities-news/gold-prices-dip-set-for-muted-week-amid-uncertainty-over-iran-interest-rates-4705660",
+      "published": "2026-05-22 10:15:00"
     },
     {
       "source": "Investing.com News",
-      "title": "Nektar Therapeutics CEO Robin Howard W sells $29,086 in shares",
-      "url": "https://www.investing.com/news/insider-trading-news/nektar-therapeutics-ceo-robin-howard-w-sells-29086-in-shares-93CH-4705526",
-      "published": "2026-05-21 22:32:44"
+      "title": "Earnings call transcript: Altri SGPS Q1 2026 sees profit slump amid storms",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-altri-sgps-q1-2026-sees-profit-slump-amid-storms-93CH-4706122",
+      "published": "2026-05-22 10:14:40"
     },
     {
       "source": "Investing.com News",
-      "title": "Nektar Therapeutics R&D chief sells $13,036 in shares",
-      "url": "https://www.investing.com/news/insider-trading-news/nektar-therapeutics-rd-chief-sells-13036-in-shares-93CH-4705525",
-      "published": "2026-05-21 22:32:38"
+      "title": "First Northwest Bancorp shareholders approve equity plan and elect directors at annual meeting",
+      "url": "https://www.investing.com/news/sec-filings/first-northwest-bancorp-shareholders-approve-equity-plan-and-elect-directors-at-annual-meeting-93CH-4706121",
+      "published": "2026-05-22 10:13:08"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 13G GSR V Acquisition Corp. For: 21 May",
-      "url": "https://www.investing.com/news/filings/form-13g-gsr-v-acquisition-corp-for-21-may-93CH-4705524",
-      "published": "2026-05-21 22:31:52"
+      "title": "Analysis-Space ETFs booming in anticipation of SpaceX IPO",
+      "url": "https://www.investing.com/news/stock-market-news/analysisspace-etfs-booming-in-anticipation-of-spacex-ipo-4706120",
+      "published": "2026-05-22 10:12:53"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Asian Stocks to Rise on Optimism Over Iran Talks: Markets Wrap",
+      "title": "China Launches Major Crackdown on Illegal Securities Trading",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-22/china-cracks-down-on-illegal-cross-border-securities-trading",
+      "published": "Fri, 22 May 2026 08:57:39 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Rupee Plunge Sees India Turn to 2013 Taper Tantrum Playbook",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-22/rupee-plunge-sees-india-turn-to-2013-taper-tantrum-playbook",
+      "published": "Fri, 22 May 2026 04:23:06 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "China Restricts Chemical Exports to US in Fentanyl Crackdown",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-22/china-restricts-chemical-exports-to-us-in-fentanyl-crackdown",
+      "published": "Fri, 22 May 2026 07:47:59 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Buyout Bankers Go Big on Debt Pre-Sales to Thwart Fickle Markets",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-22/buyout-bankers-go-big-on-debt-pre-sales-to-thwart-fickle-markets",
+      "published": "Fri, 22 May 2026 10:04:38 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "US Stocks Eye Best Weekly Run of Gains Since 2023: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-05-21/asian-stocks-to-rise-on-optimism-over-iran-talks-markets-wrap",
       "published": "Thu, 21 May 2026 22:06:58 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Gold Steady as US-Iran Signals Keep Rate Hike Bets Simmering",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-21/gold-steady-as-us-iran-signals-keep-rate-hike-bets-simmering",
-      "published": "Thu, 21 May 2026 22:34:42 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "IMF Approves About $1 Billion Disbursement for Argentina in Fresh Win for Milei",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-21/imf-approves-about-1-billion-disbursement-for-argentina-in-fresh-win-for-milei",
-      "published": "Thu, 21 May 2026 22:18:25 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Oil Rises After Three-Day Drop With Iran-US Talks in Focus",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-21/latest-oil-market-news-and-analysis-for-may-22",
-      "published": "Thu, 21 May 2026 22:03:02 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "What to Know About the SpaceX IPO",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-21/spacex-ipo-ai-plans-starlink-growth-and-risks",
-      "published": "Thu, 21 May 2026 21:33:26 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Lone Star Weighs Sale of Lender IKB After Nearly 20 Years",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-21/lone-star-weighs-sale-of-german-lender-ikb-after-nearly-20-years",
-      "published": "Thu, 21 May 2026 18:34:18 GMT"
+      "title": "ECB Chief Says Inflation Expectations Remain On Target",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-22/ecb-chief-says-long-term-inflation-expectations-remain-on-target",
+      "published": "Fri, 22 May 2026 09:25:41 GMT"
     }
   ],
   "summary": {
