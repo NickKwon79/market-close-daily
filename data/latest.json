@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-05-25 07:29 KST",
+  "as_of_kst": "2026-05-25 20:35 KST",
   "as_of_date": "2026-05-25",
   "as_of_weekday": "MON",
-  "build_unix": 1779661754,
+  "build_unix": 1779708944,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 63339.07,
-      "change": 1654.93,
-      "change_pct": 2.68,
+      "price": 65158.19,
+      "change": 1819.12,
+      "change_pct": 2.87,
       "spark": [
-        60815.95,
         60550.59,
         59804.41,
         61684.14,
-        63339.07
+        63339.07,
+        65158.19
       ],
-      "as_of": "2026-05-22"
+      "as_of": "2026-05-25"
     },
     "hangseng": {
       "key": "hangseng",
@@ -118,17 +118,17 @@
       "name": "CSI 300",
       "region": "CHINA",
       "kind": "broad",
-      "price": 4845.1,
-      "change": 62.0,
-      "change_pct": 1.3,
+      "price": 4921.6,
+      "change": 76.5,
+      "change_pct": 1.58,
       "spark": [
-        4833.52,
         4852.88,
         4850.7,
         4783.1,
-        4845.1
+        4845.1,
+        4921.6
       ],
-      "as_of": "2026-05-22"
+      "as_of": "2026-05-25"
     },
     "ftse": {
       "key": "ftse",
@@ -154,50 +154,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 24888.56,
-      "change": 281.79,
-      "change_pct": 1.15,
+      "price": 25248.63,
+      "change": 360.07,
+      "change_pct": 1.45,
       "spark": [
-        24307.92,
         24400.65,
         24737.24,
         24606.77,
-        24888.56
+        24888.56,
+        25248.63
       ],
-      "as_of": "2026-05-22"
+      "as_of": "2026-05-25"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1520.9301,
+      "rate": 1513.63,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 158.85,
+      "rate": 159.02,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1646,
+      "rate": 1.1648,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.794,
+      "rate": 6.7842,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 99.06,
-      "change": -0.26,
-      "change_pct": -0.26,
+      "rate": 98.98,
+      "change": -0.34,
+      "change_pct": -0.34,
       "kind": "index"
     }
   },
@@ -225,9 +225,9 @@
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 76798.96,
-      "change": 125.59,
-      "change_pct": 0.16
+      "price": 77393.78,
+      "change": 412.66,
+      "change_pct": 0.54
     },
     "ust10y": {
       "key": "ust10y",
@@ -243,9 +243,9 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 16.7,
-      "change": -0.06,
-      "change_pct": -0.36
+      "price": 16.62,
+      "change": -0.08,
+      "change_pct": -0.48
     }
   },
   "headlines_raw": [
@@ -254,6 +254,12 @@
       "title": "Top Wall Street analysts like these dividend stocks for steady income",
       "url": "https://www.cnbc.com/2026/05/24/top-wall-street-analysts-like-these-dividend-stocks-for-steady-income.html",
       "published": "Sun, 24 May 2026 12:52:28 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Want to hop off the AI trade? Goldman says buy these stocks that have nothing to do with it",
+      "url": "https://www.cnbc.com/2026/05/25/want-to-hop-off-the-ai-trade-goldman-says-buy-these-stocks-that-have-nothing-to-do-with-it.html",
+      "published": "Mon, 25 May 2026 11:30:01 GMT"
     },
     {
       "source": "CNBC Markets",
@@ -280,46 +286,70 @@
       "published": "Fri, 22 May 2026 19:05:16 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "Rising inflation could lead to bigger gains in this part of the stock market",
-      "url": "https://www.cnbc.com/2026/05/22/rising-inflation-could-lead-to-bigger-gains-in-this-part-of-the-stock-market.html",
-      "published": "Fri, 22 May 2026 18:11:58 GMT"
+      "source": "Yahoo Finance",
+      "title": "Berkshire Hathaway’s latest stock purge sends a clear message",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-latest-stock-purge-170700156.html",
+      "published": "2026-05-24T17:07:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Another pet supplies store operator files Chapter 11 bankruptcy",
-      "url": "https://finance.yahoo.com/economy/articles/another-pet-supplies-store-operator-203300293.html",
-      "published": "2026-05-23T20:33:00Z"
+      "title": "US move into quantum computing adds to a portfolio that spans semiconductors, steel, nuclear, and rare earths",
+      "url": "https://finance.yahoo.com/economy/policy/article/us-move-into-quantum-computing-adds-to-a-portfolio-that-spans-semiconductors-steel-nuclear-and-rare-earths-173919828.html",
+      "published": "2026-05-21T17:39:19Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Morgan Stanley Sees Broader Turnaround Emerging at Franklin Resources (BEN)",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-sees-broader-turnaround-220941414.html",
-      "published": "2026-05-24T22:09:41Z"
+      "title": "Bond markets are not so subtly telling the Fed that interest rates aren't high enough",
+      "url": "https://finance.yahoo.com/economy/policy/article/bond-markets-are-not-so-subtly-telling-the-fed-that-interest-rates-arent-high-enough-100000809.html",
+      "published": "2026-05-21T10:00:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Dow Jones Futures Rise, Oil Prices Fall: Trump Says No 'Rush' For Iran Deal",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-trump-iran-deal-hormuz-tesla-stocks/?src=A00220&yptr=yahoo",
-      "published": "2026-05-24T22:07:13Z"
+      "title": "Nuclear verdict alert: almost $50M against a mystery Texas trucking company",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nuclear-verdict-alert-almost-50m-110000796.html",
+      "published": "2026-05-25T11:00:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "J.M. Smucker (SJM) Faces Lower Forward Estimates as JPMorgan Cuts Price Target",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/j-m-smucker-sjm-faces-220631937.html",
-      "published": "2026-05-24T22:06:31Z"
+      "title": "Pfizer's CEO uses AI to make his biggest calls — and 64% of CEOs agree, quietly shifting your portfolio",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/pfizers-ceo-uses-ai-biggest-110000413.html",
+      "published": "2026-05-25T11:00:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Morgan Stanley Trims Polaris (PII) PT to $69 as Rates and Tariffs Weigh on Outlook",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-trims-polaris-pii-220349657.html",
-      "published": "2026-05-24T22:03:49Z"
+      "title": "Investec applies for Ireland banking permit – report",
+      "url": "https://finance.yahoo.com/economy/policy/articles/investec-applies-ireland-banking-permit-112443691.html",
+      "published": "2026-05-25T11:24:43Z"
     },
     {
-      "source": "Yahoo Finance",
-      "title": "Jamie Dimon has bad news for JPMorgan bankers",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jamie-dimon-bad-news-jpmorgan-110300291.html",
-      "published": "2026-05-23T11:03:00Z"
+      "source": "MarketWatch Top",
+      "title": "‘There is zero transparency’: My friend’s sister controls their mother’s estate. How can we stop her from stealing?",
+      "url": "https://www.marketwatch.com/story/there-is-zero-transparency-my-friends-sister-controls-their-mothers-estate-how-can-we-stop-her-from-stealing-a1a34ac8?mod=mw_rss_topstories",
+      "published": "Mon, 25 May 2026 11:31:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Is the stock market open today for Memorial Day? Does the post office deliver mail?",
+      "url": "https://www.marketwatch.com/story/is-the-stock-market-closed-on-memorial-day-does-the-post-office-deliver-mail-bba7ef11?mod=mw_rss_topstories",
+      "published": "Mon, 25 May 2026 11:11:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "‘We have longevity in the family’: My sister is turning 67. Should she wait until 70 to claim Social Security?",
+      "url": "https://www.marketwatch.com/story/we-have-longevity-in-the-family-my-sister-is-turning-67-should-she-wait-until-70-to-claim-social-security-812087a4?mod=mw_rss_topstories",
+      "published": "Mon, 25 May 2026 10:40:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "I’m 67. Our family trust earns $300,000 annually for my kids. How do I ensure they won’t get killed on taxes?",
+      "url": "https://www.marketwatch.com/story/im-67-our-family-trust-earns-300-000-annually-for-my-kids-how-do-i-ensure-they-wont-get-killed-on-taxes-ee0c35d6?mod=mw_rss_topstories",
+      "published": "Mon, 25 May 2026 09:38:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Oil prices tumble as deal to end Iran war appears close, though Trump says there’s no rush",
+      "url": "https://www.marketwatch.com/story/trump-says-theres-no-rush-as-deal-to-end-iran-war-reopen-strait-of-hormuz-appears-close-c60056c0?mod=mw_rss_topstories",
+      "published": "Mon, 25 May 2026 03:05:00 GMT"
     },
     {
       "source": "MarketWatch Top",
@@ -328,106 +358,76 @@
       "published": "Sun, 24 May 2026 22:23:00 GMT"
     },
     {
-      "source": "MarketWatch Top",
-      "title": "Trump says there’s no rush as deal to end Iran war appears close; oil prices tumble",
-      "url": "https://www.marketwatch.com/story/trump-says-theres-no-rush-as-deal-to-end-iran-war-reopen-strait-of-hormuz-appears-close-c60056c0?mod=mw_rss_topstories",
-      "published": "Sun, 24 May 2026 22:20:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "‘My husband is leery of my plan’: We are both 60 and have $5 million. Is now a good time to dip into our savings?",
-      "url": "https://www.marketwatch.com/story/my-husband-is-leery-of-my-plan-we-are-both-60-and-have-5-million-is-now-a-good-time-to-dip-into-our-savings-4c609266?mod=mw_rss_topstories",
-      "published": "Sun, 24 May 2026 20:03:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "‘He didn’t really pay attention’: I told my friend he left millions on the table in retirement. Did I do the right thing?",
-      "url": "https://www.marketwatch.com/story/he-didnt-really-pay-attention-i-told-my-friend-he-left-millions-of-dollars-on-the-table-in-retirement-was-i-right-099bf5bb?mod=mw_rss_topstories",
-      "published": "Sun, 24 May 2026 19:17:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "‘We have longevity in the family’: My sister is turning 67. Should she wait until 70 to claim Social Security?",
-      "url": "https://www.marketwatch.com/story/we-have-longevity-in-the-family-my-sister-is-turning-67-should-she-wait-until-70-to-claim-social-security-812087a4?mod=mw_rss_topstories",
-      "published": "Sun, 24 May 2026 18:16:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "I’m 67. Our family trust earns $300,000 annually for my kids. How do I ensure they won’t get killed on taxes?",
-      "url": "https://www.marketwatch.com/story/im-67-our-family-trust-earns-300-000-annually-for-my-kids-how-do-i-ensure-they-wont-get-killed-on-taxes-ee0c35d6?mod=mw_rss_topstories",
-      "published": "Sun, 24 May 2026 18:09:00 GMT"
+      "source": "Investing.com News",
+      "title": "Diamondback Energy’s SWOT analysis: stock navigates geopolitical risks",
+      "url": "https://www.investing.com/news/swot-analysis/diamondback-energys-swot-analysis-stock-navigates-geopolitical-risks-93CH-4708523",
+      "published": "2026-05-25 11:23:33"
     },
     {
       "source": "Investing.com News",
-      "title": "Tradeweb Markets’ SWOT analysis: stock faces market share challenges",
-      "url": "https://www.investing.com/news/swot-analysis/tradeweb-markets-swot-analysis-stock-faces-market-share-challenges-93CH-4708241",
-      "published": "2026-05-24 22:21:30"
-    },
-    {
-      "source": "Investing.com News",
-      "title": "Oil falls more than $4 as US, Iran remain at odds over peace deal",
-      "url": "https://www.investing.com/news/commodities-news/oil-falls-more-than-4-as-us-iran-remain-at-odds-over-peace-deal-4708240",
-      "published": "2026-05-24 22:12:33"
-    },
-    {
-      "source": "Investing.com News",
-      "title": "Mohawk Industries’ SWOT analysis: flooring stock faces headwinds",
-      "url": "https://www.investing.com/news/swot-analysis/mohawk-industries-swot-analysis-flooring-stock-faces-headwinds-93CH-4708239",
-      "published": "2026-05-24 22:02:00"
-    },
-    {
-      "source": "Investing.com News",
-      "title": "Camtek’s SWOT analysis: stock faces valuation debate amid AI growth",
-      "url": "https://www.investing.com/news/swot-analysis/camteks-swot-analysis-stock-faces-valuation-debate-amid-ai-growth-93CH-4708238",
-      "published": "2026-05-24 21:50:02"
-    },
-    {
-      "source": "Investing.com News",
-      "title": "Trump says there is no rush for Iran deal, US blockade stays",
-      "url": "https://www.investing.com/news/commodities-news/trump-says-iran-deal-largely-negotiated-dispute-over-strait-reopening-4708125",
-      "published": "2026-05-24 21:42:29"
+      "title": "Analysis-Trump and Warsh’s fates are now tied, for better or worse",
+      "url": "https://www.investing.com/news/economy-news/analysistrump-and-warshs-fates-are-now-tied-for-better-or-worse-4708488",
+      "published": "2026-05-25 11:19:09"
     },
     {
       "source": "Investing.com News",
       "title": "’Potential crack’ in California chemical tank may prevent explosion, fire official says",
       "url": "https://www.investing.com/news/world-news/possible-fissure-in-california-chemical-tank-may-help-prevent-explosion-fire-official-says-4708231",
-      "published": "2026-05-24 21:30:27"
+      "published": "2026-05-25 11:18:34"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Global stocks rally, oil slides, amid hopes for Middle East peace deal progress",
+      "url": "https://www.investing.com/news/stock-market-news/global-stocks-rally-oil-slides-amid-hopes-for-middle-east-peace-deal-progress-4708522",
+      "published": "2026-05-25 11:15:18"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Xi hails ’unbreakable’ Pakistan ties, praises Iran peace efforts",
+      "url": "https://www.investing.com/news/world-news/xi-hails-unbreakable-pakistan-ties-praises-iran-peace-efforts-4708521",
+      "published": "2026-05-25 11:12:58"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Russia hits Ukraine with Oreshnik missile in one of war’s biggest attacks on Kyiv",
+      "url": "https://www.investing.com/news/world-news/russia-hits-ukraine-with-oreshnik-missile-in-one-of-wars-biggest-attacks-on-kyiv-4708261",
+      "published": "2026-05-25 11:12:29"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Oil, Dollar Slide on Optimism Over US-Iran Deal: Markets Wrap",
+      "title": "Stocks Extend Gains as Crude Oil Drops on Iran: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-05-24/oil-dollar-slide-on-optimism-over-us-iran-deal-markets-wrap",
       "published": "Sun, 24 May 2026 22:07:57 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Crude Oil Drops as US Inches Toward Iran Deal to Reopen Strait",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-24/latest-oil-market-news-and-analysis-for-may-25",
-      "published": "Sun, 24 May 2026 22:01:24 GMT"
+      "title": "India Raises Diesel, Gasoline Prices for Fourth Time in May",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-25/india-raises-diesel-gasoline-prices-for-fourth-time-this-month",
+      "published": "Mon, 25 May 2026 02:11:15 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Japan Regulator Urges Firms to Use Cash for Growth, Not Returns",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-24/japan-regulator-urges-firms-to-use-cash-for-growth-not-returns",
-      "published": "Sun, 24 May 2026 21:00:00 GMT"
+      "title": "Emerging-Market Assets Rise as Iran Hopes Boost Risk Appetite",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-25/emerging-market-assets-rise-as-oil-drops-on-us-iran-deal-hopes",
+      "published": "Mon, 25 May 2026 04:28:55 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "ECB Likely to Revise Its Inflation Outlook in June, Lagarde Says",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-24/ecb-likely-to-revise-its-inflation-outlook-in-june-lagarde-says",
-      "published": "Sun, 24 May 2026 20:40:56 GMT"
+      "title": "Zepto Said to Plan June Public Filing for $1 Billion India IPO",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-25/zepto-said-to-plan-june-public-filing-for-1-billion-india-ipo",
+      "published": "Mon, 25 May 2026 10:23:52 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Paz Says Protests Test Democracy Ahead of Talks",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-24/paz-says-protests-test-democracy-ahead-of-talks",
-      "published": "Sun, 24 May 2026 18:51:41 GMT"
+      "title": "Iran Says US Deal Not Imminent | The Pulse 5/25/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-25/the-pulse-5-25-2026-video",
+      "published": "Mon, 25 May 2026 10:06:46 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Supertanker With Iraq Crude Exits Persian Gulf as Talks Continue",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-24/supertanker-with-iraq-crude-exits-persian-gulf-as-talks-continue",
-      "published": "Sun, 24 May 2026 17:01:32 GMT"
+      "title": "Italy Tightens Grip on Payments Company Nexi With Stake Increase",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-25/italy-s-cassa-depositi-plans-to-raise-nexi-stake-up-to-29-9",
+      "published": "Mon, 25 May 2026 05:44:03 GMT"
     }
   ],
   "summary": {
