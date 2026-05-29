@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-05-29 07:52 KST",
+  "as_of_kst": "2026-05-29 19:56 KST",
   "as_of_date": "2026-05-29",
   "as_of_weekday": "FRI",
-  "build_unix": 1780008744,
+  "build_unix": 1780052209,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 8228.7,
-      "change": 181.19,
-      "change_pct": 2.25,
+      "price": 8476.15,
+      "change": 290.86,
+      "change_pct": 3.55,
       "spark": [
-        7208.95,
-        7815.59,
         7847.71,
         8047.51,
-        8228.7
+        8228.7,
+        8185.29,
+        8476.15
       ],
-      "as_of": "2026-05-27"
+      "as_of": "2026-05-29"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 64999.41,
-      "change": 3.32,
-      "change_pct": 0.01,
+      "price": 66329.5,
+      "change": 1636.38,
+      "change_pct": 2.53,
       "spark": [
-        61684.14,
-        63339.07,
         65158.19,
         64996.09,
-        64999.41
+        64999.41,
+        64693.12,
+        66329.5
       ],
-      "as_of": "2026-05-28"
+      "as_of": "2026-05-29"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 25328.23,
-      "change": -271.22,
-      "change_pct": -1.06,
+      "price": 25182.39,
+      "change": 176.23,
+      "change_pct": 0.7,
       "spark": [
-        25651.12,
-        25386.52,
         25606.03,
         25599.45,
-        25328.23
+        25328.23,
+        25006.16,
+        25182.39
       ],
-      "as_of": "2026-05-28"
+      "as_of": "2026-05-29"
     },
     "csi300": {
       "key": "csi300",
@@ -118,17 +118,17 @@
       "name": "CSI 300",
       "region": "CHINA",
       "kind": "broad",
-      "price": 4908.17,
-      "change": -39.68,
-      "change_pct": -0.8,
+      "price": 4892.12,
+      "change": -22.09,
+      "change_pct": -0.45,
       "spark": [
-        4783.1,
-        4845.1,
         4921.6,
         4947.85,
-        4908.17
+        4908.17,
+        4914.21,
+        4892.12
       ],
-      "as_of": "2026-05-28"
+      "as_of": "2026-05-29"
     },
     "ftse": {
       "key": "ftse",
@@ -136,17 +136,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10425.96,
-      "change": -79.04,
-      "change_pct": -0.75,
+      "price": 10453.24,
+      "change": 27.24,
+      "change_pct": 0.26,
       "spark": [
-        10443.5,
         10466.3,
         10491.4,
         10505.0,
-        10425.96
+        10426.0,
+        10453.24
       ],
-      "as_of": "2026-05-28"
+      "as_of": "2026-05-29"
     },
     "dax": {
       "key": "dax",
@@ -154,50 +154,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 25177.8,
-      "change": -7.09,
-      "change_pct": -0.03,
+      "price": 25132.19,
+      "change": 39.94,
+      "change_pct": 0.16,
       "spark": [
-        24606.77,
-        24888.56,
         25389.1,
         25184.89,
-        25177.8
+        25177.8,
+        25092.25,
+        25132.19
       ],
-      "as_of": "2026-05-28"
+      "as_of": "2026-05-29"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1493.6899,
+      "rate": 1508.09,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 159.24,
+      "rate": 159.28,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1654,
+      "rate": 1.1646,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7791,
+      "rate": 6.7667,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 98.99,
-      "change": -0.22,
-      "change_pct": -0.22,
+      "rate": 99.08,
+      "change": 0.06,
+      "change_pct": 0.06,
       "kind": "index"
     }
   },
@@ -207,27 +207,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 88.51,
-      "change": -0.17,
-      "change_pct": -0.19
+      "price": 86.99,
+      "change": -1.91,
+      "change_pct": -2.15
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4525.6,
-      "change": 78.1,
-      "change_pct": 1.76
+      "price": 4569.4,
+      "change": 70.1,
+      "change_pct": 1.56
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 73456.27,
-      "change": -888.43,
-      "change_pct": -1.2
+      "price": 73580.95,
+      "change": 44.4,
+      "change_pct": 0.06
     },
     "ust10y": {
       "key": "ust10y",
@@ -243,12 +243,24 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 15.74,
-      "change": -0.55,
-      "change_pct": -3.38
+      "price": 15.85,
+      "change": 0.11,
+      "change_pct": 0.7
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Snowflake just had its best day ever. HSBC thinks there’s more to go",
+      "url": "https://www.cnbc.com/2026/05/29/snowflake-just-had-its-best-day-ever-hsbc-thinks-theres-more-to-go.html",
+      "published": "Fri, 29 May 2026 10:28:28 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Friday's big stock stories: What’s likely to move the market in the next trading session",
+      "url": "https://www.cnbc.com/2026/05/28/fridays-big-stock-stories-whats-likely-to-move-the-market.html",
+      "published": "Thu, 28 May 2026 23:49:51 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "AI is boosting the stock market. But it's a threat to private credit",
@@ -274,160 +286,148 @@
       "published": "Thu, 28 May 2026 22:33:00 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "AI play Nebius is surging after mysterious new hedge fund manager reveals stake. Here are his other holdings",
-      "url": "https://www.cnbc.com/2026/05/28/ai-play-nebius-surges-after-mysterious-new-hedge-fund-manager-reveals-stake.html",
-      "published": "Thu, 28 May 2026 18:14:52 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Mike Khouw: I was wrong about Zscaler. Here's how I'm managing the trade",
-      "url": "https://www.cnbc.com/2026/05/28/mike-khouw-i-was-wrong-about-zscaler-heres-how-im-managing-the-trade.html",
-      "published": "Thu, 28 May 2026 15:32:18 GMT"
+      "source": "Yahoo Finance",
+      "title": "47-year-old high-end steak and seafood chain closes 80 locations",
+      "url": "https://finance.yahoo.com/economy/articles/47-old-high-end-steak-170700893.html",
+      "published": "2026-05-28T17:07:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Short Sellers Are Betting Record Amounts Against Stocks. But the Market is Rallying On a Potential Deal Between Trump and Iran.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/short-sellers-betting-record-amounts-151459982.html",
-      "published": "2026-05-27T15:14:59Z"
+      "title": "Capital One Spark Cash Plus review: A business card built for high spending",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/review/capital-one-spark-cash-plus-review-224108001.html",
+      "published": "2024-11-01T22:41:08Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Stocks Mixed Awaiting Fresh Iran News",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-mixed-awaiting-fresh-iran-151733316.html",
-      "published": "2026-05-27T15:17:33Z"
+      "title": "Capital One Venture X Business Card review: Premium perks for business travelers",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/review/capital-one-venture-x-business-review-162531189.html",
+      "published": "2025-09-04T16:25:31Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Micron replaces mighty Walmart in the $1 trillion club",
-      "url": "https://finance.yahoo.com/markets/article/micron-replaces-mighty-walmart-in-the-1-trillion-club-150035520.html",
-      "published": "2026-05-27T15:00:35Z"
+      "title": "How to save money on gas (and big savings on diesel) this summer",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/how-to-save-money-on-gas-and-big-savings-on-diesel-this-summer-194922461.html",
+      "published": "2026-05-21T19:49:22Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Dear Intel Stock Fans, Mark Your Calendars for June 2",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-intel-stock-fans-mark-145740813.html",
-      "published": "2026-05-27T14:57:40Z"
+      "title": "Best hedges against inflation: 6 ways to protect your purchasing power",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-hedges-against-inflation-231136070.html",
+      "published": "2026-05-05T23:11:36Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Hedge Fund Whale Rock Snaps Up 3 Little-Known AI Stocks in $910M Move",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/hedge-fund-whale-rock-snaps-145417859.html",
-      "published": "2026-05-27T14:54:17Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Analyst Report: HP Inc",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_3060_AnalystReport_1779988477000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "published": "2026-05-28T17:14:37Z"
+      "title": "Combined or separate finances in marriage: Which option makes sense for you?",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/combined-or-separate-finances-in-marriage-203904676.html",
+      "published": "2026-05-27T20:39:04Z"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Costco gas demand hits records, as shoppers try stay ahead of future price spikes",
-      "url": "https://www.marketwatch.com/story/higher-gas-prices-are-driving-people-to-membership-retailers-and-costco-is-the-latest-to-benefit-3566c533?mod=mw_rss_topstories",
-      "published": "Thu, 28 May 2026 22:44:00 GMT"
+      "title": "This strategist is using prediction-market shifts to calculate what happens when an Iran deal is announced",
+      "url": "https://www.marketwatch.com/story/this-strategist-is-using-prediction-market-shifts-to-calculate-what-happens-when-an-iran-deal-is-announced-1a42696e?mod=mw_rss_topstories",
+      "published": "Fri, 29 May 2026 10:52:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "The Iran war costs more than you think — it boosts inflation and threatens stocks",
-      "url": "https://www.marketwatch.com/story/the-true-cost-of-the-iran-war-is-billions-more-than-the-pentagon-says-and-were-paying-for-it-7bf90988?mod=mw_rss_topstories",
-      "published": "Thu, 28 May 2026 21:58:00 GMT"
+      "title": "Bank of America strategists see a different historical parallel for the AI rally — and it isn’t the dot-com boom",
+      "url": "https://www.marketwatch.com/story/bank-of-america-strategists-see-a-different-historical-parallel-for-the-ai-rally-and-it-isnt-the-dot-com-boom-ca6941aa?mod=mw_rss_topstories",
+      "published": "Fri, 29 May 2026 10:48:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "This overvalued stock market just flashed a rare buy signal",
-      "url": "https://www.marketwatch.com/story/this-overvalued-stock-market-just-flashed-a-rare-buy-signal-05bce4b1?mod=mw_rss_topstories",
-      "published": "Thu, 28 May 2026 21:58:00 GMT"
+      "title": "‘It is such a fine line’: I am a CFP and see nothing wrong with networking on the golf course. Am I wrong?",
+      "url": "https://www.marketwatch.com/story/it-is-such-a-fine-line-i-am-a-cfp-and-see-nothing-wrong-with-networking-on-the-golf-course-am-i-wrong-50a698e8?mod=mw_rss_topstories",
+      "published": "Fri, 29 May 2026 09:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "67 million kids haven’t signed up for ‘Trump accounts.’ Here’s what they could be missing out on.",
-      "url": "https://www.marketwatch.com/story/67-million-kids-havent-signed-up-for-trump-accounts-heres-what-they-could-be-missing-out-on-ea56dff9?mod=mw_rss_topstories",
-      "published": "Thu, 28 May 2026 21:46:00 GMT"
+      "title": "Pittsburgh Steelers quarterback Aaron Rodgers’ estranged parents sell Chico home for $1.7 million",
+      "url": "https://www.marketwatch.com/story/pittsburgh-steelers-quarterback-aaron-rodgers-estranged-parents-sell-chico-home-for-1-7-million-1db2295a?mod=mw_rss_topstories",
+      "published": "Fri, 29 May 2026 09:01:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Want an alternative to chip stocks? This sector with an AI angle is breaking out.",
-      "url": "https://www.marketwatch.com/story/want-an-alternative-to-chip-stocks-this-sector-with-an-ai-angle-is-breaking-out-8a34b2a7?mod=mw_rss_topstories",
-      "published": "Thu, 28 May 2026 21:39:00 GMT"
+      "title": "Gap and American Eagle stock are both getting crushed, and neither retailer is blaming the economy",
+      "url": "https://www.marketwatch.com/story/gap-and-american-eagle-stock-are-both-getting-crushed-and-neither-retailer-is-blaming-the-economy-6290fa6a?mod=mw_rss_topstories",
+      "published": "Fri, 29 May 2026 08:58:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "The Iran war may be winding down, but the era of $60 oil could be over",
-      "url": "https://www.marketwatch.com/story/the-iran-war-may-be-winding-down-but-the-era-of-60-oil-could-be-over-a2ea7066?mod=mw_rss_topstories",
-      "published": "Thu, 28 May 2026 21:20:00 GMT"
+      "title": "The double 10K scenario: Wall Street veteran says the S&P 500 and gold can each reach that mark by the end of the decade",
+      "url": "https://www.marketwatch.com/story/the-double-10k-scenario-wall-street-veteran-says-the-s-p-500-and-gold-can-each-reach-that-mark-by-the-end-of-the-decade-402103ea?mod=mw_rss_topstories",
+      "published": "Fri, 29 May 2026 08:28:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Meta Platforms COO Javier Olivan sells $892,764 of Meta stock",
-      "url": "https://www.investing.com/news/insider-trading-news/meta-platforms-coo-javier-olivan-sells-892764-of-meta-stock-93CH-4715746",
-      "published": "2026-05-28 22:52:03"
+      "title": "Form 6K TOP Financial Group Ltd For: 29 May",
+      "url": "https://www.investing.com/news/filings/form-6k-top-financial-group-ltd-for-29-may-93CH-4716413",
+      "published": "2026-05-29 10:41:30"
     },
     {
       "source": "Investing.com News",
-      "title": "Energous Corp CEO & CFO Burak buys $49,419 in common stock",
-      "url": "https://www.investing.com/news/insider-trading-news/energous-corp-ceo--cfo-burak-buys-49419-in-common-stock-93CH-4715745",
-      "published": "2026-05-28 22:51:49"
+      "title": "SentinelOne stock maintains Market Outperform at Citizens after mixed results",
+      "url": "https://www.investing.com/news/analyst-ratings/sentinelone-stock-maintains-market-outperform-at-citizens-after-mixed-results-93CH-4716412",
+      "published": "2026-05-29 10:41:26"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 424B5 Sidus Space Inc For: 28 May",
-      "url": "https://www.investing.com/news/filings/form-424b5-sidus-space-inc-for-28-may-93CH-4715744",
-      "published": "2026-05-28 22:51:20"
+      "title": "Citizens reiterates Uber stock rating on Waymo expansion outlook",
+      "url": "https://www.investing.com/news/analyst-ratings/citizens-reiterates-uber-stock-rating-on-waymo-expansion-outlook-93CH-4716411",
+      "published": "2026-05-29 10:41:24"
     },
     {
       "source": "Investing.com News",
-      "title": "Iran, US reach deal to extend ceasefire, pending Trump’s approval",
-      "url": "https://www.investing.com/news/world-news/iran-and-us-trade-air-strikes-after-trump-dismisses-report-of-hormuz-deal-4713597",
-      "published": "2026-05-28 22:48:42"
+      "title": "Stifel raises Okta stock price target to $120 on enterprise growth",
+      "url": "https://www.investing.com/news/analyst-ratings/stifel-raises-okta-stock-price-target-to-120-on-enterprise-growth-93CH-4716410",
+      "published": "2026-05-29 10:41:22"
     },
     {
       "source": "Investing.com News",
-      "title": "Dell lifts forecasts as AI data center buildout fuels demand, shares soar",
-      "url": "https://www.investing.com/news/stock-market-news/dell-raises-annual-forecasts-as-ai-data-center-buildout-fuels-demand-4715373",
-      "published": "2026-05-28 22:48:27"
+      "title": "CGI wins €48-80M contract for Finnish education platform",
+      "url": "https://www.investing.com/news/company-news/cgi-wins-4880m-contract-for-finnish-education-platform-93CH-4716409",
+      "published": "2026-05-29 10:41:15"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 13D/A Q32 Bio Inc. For: 28 May",
-      "url": "https://www.investing.com/news/filings/form-13da-q32-bio-inc-for-28-may-93CH-4715742",
-      "published": "2026-05-28 22:48:11"
+      "title": "UBS raises JinkoSolar stock price target to $24 on margin gains",
+      "url": "https://www.investing.com/news/analyst-ratings/ubs-raises-jinkosolar-stock-price-target-to-24-on-margin-gains-93CH-4716408",
+      "published": "2026-05-29 10:41:05"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Asian Stocks to Rise on Firming US-Iran Sentiment: Markets Wrap",
+      "title": "IndiGo Posts Unexpected Loss as Mideast Turmoil Lifts Costs",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-29/indigo-posts-unexpected-loss-as-mideast-turmoil-lifts-costs",
+      "published": "Fri, 29 May 2026 10:45:55 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Indonesia and India Intervene to Prop Up Weakening Currencies",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-29/indonesia-and-india-intervene-to-prop-up-weakening-currencies",
+      "published": "Fri, 29 May 2026 10:42:38 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Japan Used Record $73.6 Billion to Support Yen in Past Month",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-29/japan-used-record-73-6-billion-to-support-yen-in-past-month",
+      "published": "Fri, 29 May 2026 10:04:47 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Dollar’s Monthly Rise Leaves Strategists Wary of More Gains",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-29/dollar-s-monthly-rise-leaves-strategists-wary-of-further-gains",
+      "published": "Fri, 29 May 2026 00:38:57 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Stocks Steady at Highs as Traders Await Iran Deal: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-05-28/asian-stocks-to-rise-on-firming-us-iran-sentiment-markets-wrap",
       "published": "Thu, 28 May 2026 22:02:27 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Oil Edges Lower at Open on Tentative Deal to Extend Iran Truce",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-28/oil-edges-lower-at-open-on-tentative-deal-to-extend-iran-truce",
-      "published": "Thu, 28 May 2026 22:02:15 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Jefferies Sued by Fund Investors Alleging Water Firm Fraud",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-28/jefferies-sued-by-fund-investors-over-massive-water-bond-fraud",
-      "published": "Thu, 28 May 2026 18:35:59 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Stocks Hit Record Highs After US-Iran Deal Reports: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-27/stocks-in-asia-to-slip-on-mixed-us-iran-signals-markets-wrap",
-      "published": "Wed, 27 May 2026 22:14:47 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Worthington Steel Raises $1.4 Billion for Klöeckner Takeover",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-28/worthington-steel-raises-1-4-billion-for-kloeckner-takeover",
-      "published": "Thu, 28 May 2026 21:16:35 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Drugmaker Apotex Files for Canada IPO Showing Revenue Jump",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-28/canadian-drugmaker-apotex-files-for-toronto-ipo",
-      "published": "Thu, 28 May 2026 17:31:39 GMT"
+      "title": "Fed’s Schmid Says Officials Must Signal Commitment to Inflation",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-29/fed-s-schmid-says-officials-must-signal-commitment-to-inflation",
+      "published": "Fri, 29 May 2026 10:25:00 GMT"
     }
   ],
   "summary": {
