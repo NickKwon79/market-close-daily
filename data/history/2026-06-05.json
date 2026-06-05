@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-06-05 07:52 KST",
+  "as_of_kst": "2026-06-05 19:58 KST",
   "as_of_date": "2026-06-05",
   "as_of_weekday": "FRI",
-  "build_unix": 1780613578,
+  "build_unix": 1780657098,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 8801.49,
-      "change": 13.11,
-      "change_pct": 0.15,
+      "price": 8160.59,
+      "change": -478.82,
+      "change_pct": -5.54,
       "spark": [
-        8228.7,
-        8185.29,
         8476.15,
         8788.38,
-        8801.49
+        8801.49,
+        8639.41,
+        8160.59
       ],
-      "as_of": "2026-06-02"
+      "as_of": "2026-06-05"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 68402.13,
-      "change": 1667.89,
-      "change_pct": 2.5,
+      "price": 66588.12,
+      "change": -882.57,
+      "change_pct": -1.31,
       "spark": [
-        64693.12,
-        66329.5,
         66934.33,
         66734.24,
-        68402.13
+        68402.13,
+        67470.69,
+        66588.12
       ],
-      "as_of": "2026-06-04"
+      "as_of": "2026-06-05"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 25633.21,
-      "change": -405.11,
-      "change_pct": -1.56,
+      "price": 24961.95,
+      "change": -291.45,
+      "change_pct": -1.15,
       "spark": [
-        25006.16,
-        25182.39,
         25398.18,
         26038.32,
-        25633.21
+        25633.21,
+        25253.4,
+        24961.95
       ],
-      "as_of": "2026-06-04"
+      "as_of": "2026-06-05"
     },
     "csi300": {
       "key": "csi300",
@@ -118,17 +118,17 @@
       "name": "CSI 300",
       "region": "CHINA",
       "kind": "broad",
-      "price": 4938.81,
-      "change": 24.25,
-      "change_pct": 0.49,
+      "price": 4816.92,
+      "change": -87.83,
+      "change_pct": -1.79,
       "spark": [
-        4914.21,
-        4892.12,
         4844.26,
         4914.56,
-        4938.81
+        4938.81,
+        4904.75,
+        4816.92
       ],
-      "as_of": "2026-06-04"
+      "as_of": "2026-06-05"
     },
     "ftse": {
       "key": "ftse",
@@ -136,17 +136,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10360.32,
-      "change": 28.02,
-      "change_pct": 0.27,
+      "price": 10397.33,
+      "change": 37.03,
+      "change_pct": 0.36,
       "spark": [
-        10409.3,
         10339.0,
         10373.5,
         10332.3,
-        10360.32
+        10360.3,
+        10397.33
       ],
-      "as_of": "2026-06-04"
+      "as_of": "2026-06-05"
     },
     "dax": {
       "key": "dax",
@@ -154,50 +154,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 24795.94,
-      "change": -328.23,
-      "change_pct": -1.31,
+      "price": 24996.79,
+      "change": 51.84,
+      "change_pct": 0.21,
       "spark": [
-        25092.25,
-        25104.7,
         25003.04,
         25124.17,
-        24795.94
+        24795.94,
+        24944.95,
+        24996.79
       ],
-      "as_of": "2026-06-04"
+      "as_of": "2026-06-05"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1532.6,
+      "rate": 1537.74,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 159.99,
+      "rate": 159.9,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1614,
+      "rate": 1.1643,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.773,
+      "rate": 6.765,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 99.43,
-      "change": -0.1,
-      "change_pct": -0.1,
+      "rate": 99.18,
+      "change": -0.23,
+      "change_pct": -0.23,
       "kind": "index"
     }
   },
@@ -207,27 +207,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 92.85,
-      "change": -3.17,
-      "change_pct": -3.3
+      "price": 93.01,
+      "change": -0.03,
+      "change_pct": -0.03
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4505.3,
-      "change": 68.6,
-      "change_pct": 1.55
+      "price": 4491.7,
+      "change": 15.9,
+      "change_pct": 0.36
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 63531.96,
-      "change": -482.41,
-      "change_pct": -0.75
+      "price": 62479.9,
+      "change": -1321.68,
+      "change_pct": -2.07
     },
     "ust10y": {
       "key": "ust10y",
@@ -243,12 +243,18 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 15.4,
-      "change": -0.66,
-      "change_pct": -4.11
+      "price": 15.63,
+      "change": 0.23,
+      "change_pct": 1.49
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "It’s time to buy the dip on this struggling fast casual stock, says JPMorgan",
+      "url": "https://www.cnbc.com/2026/06/05/its-time-to-buy-the-dip-on-this-struggling-fast-casual-stock-says-jpmorgan.html",
+      "published": "Fri, 05 Jun 2026 10:44:42 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "This drugmaker is developing breakthroughs like an 'EpiPen for heart attacks.' The market has yet to give it credit",
@@ -280,154 +286,148 @@
       "published": "Thu, 04 Jun 2026 14:18:15 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "Barclays traders say it's time to buy protection for a tech-led S&P 500 pullback",
-      "url": "https://www.cnbc.com/2026/06/04/barclays-traders-say-its-time-to-buy-protection-for-a-tech-led-sp-500-pullback.html",
-      "published": "Thu, 04 Jun 2026 13:31:24 GMT"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "69-year-old furniture store chain files for Chapter 11 bankruptcy",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/69-old-furniture-store-chain-170700563.html",
-      "published": "2026-06-03T17:07:00Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Soybean Prices Have Likely Hit a Floor. Wait for These Levels and Then Buy.",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/soybean-prices-likely-hit-floor-151029347.html",
-      "published": "2026-06-03T15:10:29Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "HELOC and home equity loan interest rates today, Wednesday, June 3, 2026: Rate shopping matters, even when rates are low",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-home-equity-loan-interest-rates-today-june-3-2026-100000807.html",
-      "published": "2026-06-03T10:00:00Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "A leaner, more focused Honeywell Aerospace projects strong growth after spinoff",
-      "url": "https://finance.yahoo.com/sectors/technology/articles/leaner-more-focused-honeywell-aerospace-150259820.html",
-      "published": "2026-06-03T15:02:59Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Investors Are Fleeing to South Korean and Taiwan ETFs for Diversification. If You Do That, You’re Still Just Chasing AI Chip Stocks.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/investors-fleeing-south-korean-taiwan-150002321.html",
-      "published": "2026-06-03T15:00:02Z"
-    },
-    {
       "source": "Yahoo Finance",
       "title": "Anthropic scales its most powerful AI a day after filing to IPO",
       "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-scales-most-powerful-ai-033300925.html",
       "published": "2026-06-04T03:33:00Z"
     },
     {
-      "source": "MarketWatch Top",
-      "title": "Marvell looks poised to finally get a spot in the S&P 500 after explosive stock surge",
-      "url": "https://www.marketwatch.com/story/marvell-looks-poised-to-finally-get-a-spot-in-the-s-p-500-after-explosive-stock-surge-02d952c6?mod=mw_rss_topstories",
-      "published": "Thu, 04 Jun 2026 22:50:00 GMT"
+      "source": "Yahoo Finance",
+      "title": "How to use mobile check deposit: A step-by-step guide",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/mobile-check-deposit-224254684.html",
+      "published": "2024-06-24T22:42:54Z"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Fifth Third Bank review (2026): A regional bank with extensive checking account options",
+      "url": "https://finance.yahoo.com/personal-finance/banking/review/fifth-third-bank-review-213915158.html",
+      "published": "2025-06-30T21:39:15Z"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "The best personal loans for June 2026",
+      "url": "https://finance.yahoo.com/personal-finance/personal-loans/article/best-personal-loans-202034980.html",
+      "published": "2024-02-28T17:24:16Z"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Best personal loans for bad credit for June 2026",
+      "url": "https://finance.yahoo.com/personal-finance/personal-loans/article/best-personal-loans-for-bad-credit-211415243.html",
+      "published": "2025-07-30T21:14:15Z"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Best same-day emergency loans for May 2026: Get fast funding after approval",
+      "url": "https://finance.yahoo.com/personal-finance/personal-loans/article/best-same-day-emergency-loans-220714166.html",
+      "published": "2026-03-27T22:07:14Z"
     },
     {
       "source": "MarketWatch Top",
-      "title": "South Korea is the ultimate backdoor tech play — but stock investors now face a looming threat",
-      "url": "https://www.marketwatch.com/story/south-korea-is-the-ultimate-backdoor-tech-play-but-stock-investors-now-face-a-looming-threat-25065699?mod=mw_rss_topstories",
-      "published": "Thu, 04 Jun 2026 22:40:00 GMT"
+      "title": "Walmart’s stock was once a market darling. Now its tech-fueled valuation faces a reality check.",
+      "url": "https://www.marketwatch.com/story/walmarts-stock-was-once-a-market-darling-now-its-tech-fueled-valuation-faces-a-reality-check-6bccfbcd?mod=mw_rss_topstories",
+      "published": "Fri, 05 Jun 2026 10:44:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Bulls declare victory on AI, but two classic signs of a market top are looming",
+      "url": "https://www.marketwatch.com/story/bulls-declare-victory-on-ai-but-two-classic-signs-of-a-market-top-are-looming-5e4d0222?mod=mw_rss_topstories",
+      "published": "Fri, 05 Jun 2026 10:40:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "We thought we found the perfect luxury retirement community, but it’s millions of dollars in debt. Are we trapped?",
+      "url": "https://www.marketwatch.com/story/we-thought-we-found-the-perfect-luxury-retirement-community-but-its-millions-of-dollars-in-debt-are-we-trapped-cde2e8f5?mod=mw_rss_topstories",
+      "published": "Fri, 05 Jun 2026 10:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
       "title": "I own a house with my sister, but the mortgage is in her name. Could this come back to bite me?",
       "url": "https://www.marketwatch.com/story/my-older-sister-and-i-co-own-a-home-where-my-son-lives-what-happens-if-she-dies-2913b928?mod=mw_rss_topstories",
-      "published": "Thu, 04 Jun 2026 22:30:00 GMT"
+      "published": "Fri, 05 Jun 2026 09:55:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Lululemon’s fight with its founder has been bad enough to hurt sales for the entire year",
-      "url": "https://www.marketwatch.com/story/lululemon-admits-far-more-work-is-needed-for-a-turnaround-and-its-stock-sinks-e28c5618?mod=mw_rss_topstories",
-      "published": "Thu, 04 Jun 2026 22:30:00 GMT"
+      "title": "What SpaceX is really worth, according to the professor called the dean of valuation",
+      "url": "https://www.marketwatch.com/story/what-spacex-is-really-worth-according-to-the-professor-called-the-dean-of-valuation-bab6cdd2?mod=mw_rss_topstories",
+      "published": "Fri, 05 Jun 2026 09:44:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Bitcoin’s sagging price has crypto bears taking a victory lap. Why it’s too soon to count it out.",
-      "url": "https://www.marketwatch.com/story/bitcoins-sagging-price-has-crypto-bears-taking-a-victory-lap-why-its-too-soon-to-count-it-out-edf1d8d8?mod=mw_rss_topstories",
-      "published": "Thu, 04 Jun 2026 22:29:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "‘This is a tricky subject’: We’re in our 70s and our only child is 40. Do we reveal that we’re leaving her everything?",
-      "url": "https://www.marketwatch.com/story/it-makes-us-feel-uncomfortable-were-in-our-70s-and-our-only-child-is-40-do-we-tell-her-were-leaving-her-everything-28421776?mod=mw_rss_topstories",
-      "published": "Thu, 04 Jun 2026 21:49:00 GMT"
+      "title": "‘This would be a one-time event’: How can I take extra money from my 401(k) without triggering higher Medicare premiums?",
+      "url": "https://www.marketwatch.com/story/this-would-be-a-one-time-event-how-can-i-take-extra-money-from-my-401-k-without-triggering-higher-medicare-premiums-fef1586d?mod=mw_rss_topstories",
+      "published": "Fri, 05 Jun 2026 09:15:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Dell director Egon Durban’s Silver Lake sells $77.6m Dell stock",
-      "url": "https://www.investing.com/news/insider-trading-news/dell-director-egon-durbans-silver-lake-sells-776m-dell-stock-93CH-4727714",
-      "published": "2026-06-04 22:37:44"
+      "title": "Form 6K Nova Minerals Ltd ADR For: 5 June",
+      "url": "https://www.investing.com/news/filings/form-6k-nova-minerals-ltd-adr-for-5-june-93CH-4728284",
+      "published": "2026-06-05 10:50:44"
     },
     {
       "source": "Investing.com News",
-      "title": "Twfg director Michael Doak acquires $638,138 in company stock",
-      "url": "https://www.investing.com/news/insider-trading-news/twfg-director-michael-doak-acquires-638138-in-company-stock-93CH-4727713",
-      "published": "2026-06-04 22:34:32"
+      "title": "Ferguson CHRO establishes stock trading plan through 2026",
+      "url": "https://www.investing.com/news/company-news/ferguson-chro-establishes-stock-trading-plan-through-2026-93CH-4728283",
+      "published": "2026-06-05 10:50:42"
     },
     {
       "source": "Investing.com News",
-      "title": "Carvana director Michael Maroone sells $1,856 in shares",
-      "url": "https://www.investing.com/news/insider-trading-news/carvana-director-michael-maroone-sells-1856-in-shares-93CH-4727712",
-      "published": "2026-06-04 22:34:30"
+      "title": "Bayer’s Kerendia shows kidney benefit in non-diabetic patients",
+      "url": "https://www.investing.com/news/company-news/bayers-kerendia-shows-kidney-benefit-in-nondiabetic-patients-93CH-4728278",
+      "published": "2026-06-05 10:49:29"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 144 PHARVARIS N.V. For: 4 June",
-      "url": "https://www.investing.com/news/filings/form-144-pharvaris-nv-for-4-june-93CH-4727710",
-      "published": "2026-06-04 22:30:33"
+      "title": "Switzerland rejects US forced labour claims as tariff talks continue",
+      "url": "https://www.investing.com/news/economy-news/switzerland-rejects-us-forced-labour-claims-as-tariff-talks-continue-4728226",
+      "published": "2026-06-05 10:48:36"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 144 CONSTELLIUM SE For: 4 June",
-      "url": "https://www.investing.com/news/filings/form-144-constellium-se-for-4-june-93CH-4727709",
-      "published": "2026-06-04 22:30:32"
+      "title": "Nokia issues €500 million unsecured senior bond due 2032",
+      "url": "https://www.investing.com/news/company-news/nokia-issues-500-million-unsecured-senior-bond-due-2032-93CH-4728267",
+      "published": "2026-06-05 10:44:57"
     },
     {
       "source": "Investing.com News",
-      "title": "Form S-3 Creative Realities Inc For: 4 June",
-      "url": "https://www.investing.com/news/filings/form-s3-creative-realities-inc-for-4-june-93CH-4727708",
-      "published": "2026-06-04 22:30:17"
+      "title": "India’s economy grows 7.8% in January-March quarter",
+      "url": "https://www.investing.com/news/economic-indicators/indias-economy-grows-78-in-januarymarch-quarter-93CH-4728266",
+      "published": "2026-06-05 10:44:40"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Oil Steadies After First Drop This Week on Peace Talk Optimism",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-04/latest-oil-market-news-and-analysis-for-june-5",
-      "published": "Thu, 04 Jun 2026 22:01:15 GMT"
+      "title": "Philippine Inflation Slows as Transport Cost Pressures Ease",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-05/philippine-inflation-eases-in-may-amid-fuel-price-rollbacks",
+      "published": "Fri, 05 Jun 2026 01:02:49 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "SpaceX, Other Mega IPOs Denied Fast Index Entry by S&amp;P",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation",
-      "published": "Thu, 04 Jun 2026 21:56:19 GMT"
+      "title": "Tech Slide Threatens Historic S&amp;P 500 Weekly Run: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-04/asian-stocks-poised-to-edge-lower-oil-steadies-markets-wrap",
+      "published": "Thu, 04 Jun 2026 22:12:54 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Cracks Emerge in Kospi’s 105% Rally as Breadth Concerns Mount",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-04/cracks-emerge-in-kospi-s-105-rally-as-breadth-concerns-mount",
-      "published": "Thu, 04 Jun 2026 22:30:00 GMT"
+      "title": "Manchester United Looks at Refinancing $425 Million of Debt",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-05/manchester-united-looks-at-refinancing-425-million-of-debt",
+      "published": "Fri, 05 Jun 2026 10:43:55 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Wall Street Sees SpaceX’s AI Revenue 100 Times Higher by 2030",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-04/wall-street-sees-spacex-s-ai-revenue-100-times-higher-by-2030",
-      "published": "Thu, 04 Jun 2026 22:28:16 GMT"
+      "title": "India Cuts Bond Tax, Eases Access for Global Funds to Lift Rupee",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-05/india-s-central-bank-keeps-key-rate-on-hold-with-rupee-in-focus",
+      "published": "Fri, 05 Jun 2026 04:35:31 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Music Producer Hit-Boy on AI Democratizing Creativity",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-04/music-producer-hit-boy-on-ai-democratizing-creativity-video",
-      "published": "Thu, 04 Jun 2026 22:27:08 GMT"
+      "title": "Indonesia Faces Crisis of Confidence as Markets Decode Prabowo",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-05/indonesia-facing-a-crisis-of-confidence-as-markets-divine-prabowo-s-wiles",
+      "published": "Fri, 05 Jun 2026 10:30:49 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "World Labs' Fei-Fei Li on Creating Large World Models",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-04/world-labs-fei-fei-li-on-creating-large-world-models-video",
-      "published": "Thu, 04 Jun 2026 22:22:26 GMT"
+      "title": "Euro-Zone Economy Shrank as Ireland Numbers Distort Picture",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-05/euro-zone-economy-shrank-at-start-of-year-because-of-ireland",
+      "published": "Fri, 05 Jun 2026 09:02:29 GMT"
     }
   ],
   "summary": {
