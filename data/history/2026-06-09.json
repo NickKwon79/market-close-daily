@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-06-09 07:55 KST",
+  "as_of_kst": "2026-06-09 19:46 KST",
   "as_of_date": "2026-06-09",
   "as_of_weekday": "TUE",
-  "build_unix": 1780959351,
+  "build_unix": 1781001966,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 8160.59,
-      "change": -478.82,
-      "change_pct": -5.54,
+      "price": 8096.93,
+      "change": 612.52,
+      "change_pct": 8.18,
       "spark": [
-        8476.15,
-        8788.38,
         8801.49,
         8639.41,
-        8160.59
+        8160.59,
+        7484.41,
+        8096.93
       ],
-      "as_of": "2026-06-05"
+      "as_of": "2026-06-09"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 66588.12,
-      "change": -882.57,
-      "change_pct": -1.31,
+      "price": 65416.63,
+      "change": 1392.03,
+      "change_pct": 2.17,
       "spark": [
-        66934.33,
-        66734.24,
         68402.13,
         67470.69,
-        66588.12
+        66588.12,
+        64024.6,
+        65416.63
       ],
-      "as_of": "2026-06-08"
+      "as_of": "2026-06-09"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 24961.95,
-      "change": -291.45,
-      "change_pct": -1.15,
+      "price": 24565.9,
+      "change": -91.16,
+      "change_pct": -0.37,
       "spark": [
-        25398.18,
-        26038.32,
         25633.21,
         25253.4,
-        24961.95
+        24961.95,
+        24657.06,
+        24565.9
       ],
-      "as_of": "2026-06-08"
+      "as_of": "2026-06-09"
     },
     "csi300": {
       "key": "csi300",
@@ -118,17 +118,17 @@
       "name": "CSI 300",
       "region": "CHINA",
       "kind": "broad",
-      "price": 4816.92,
-      "change": -87.83,
-      "change_pct": -1.79,
+      "price": 4801.81,
+      "change": 88.17,
+      "change_pct": 1.87,
       "spark": [
-        4844.26,
-        4914.56,
         4938.81,
         4904.75,
-        4816.92
+        4816.92,
+        4713.64,
+        4801.81
       ],
-      "as_of": "2026-06-08"
+      "as_of": "2026-06-09"
     },
     "ftse": {
       "key": "ftse",
@@ -136,17 +136,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10373.2,
-      "change": 5.1,
-      "change_pct": 0.05,
+      "price": 10349.0,
+      "change": -24.2,
+      "change_pct": -0.23,
       "spark": [
-        10373.5,
         10332.3,
         10360.3,
         10368.1,
-        10373.2
+        10373.2,
+        10349.0
       ],
-      "as_of": "2026-06-08"
+      "as_of": "2026-06-09"
     },
     "dax": {
       "key": "dax",
@@ -154,50 +154,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 24759.05,
-      "change": -185.9,
-      "change_pct": -0.75,
+      "price": 24817.46,
+      "change": 201.24,
+      "change_pct": 0.82,
       "spark": [
-        25003.04,
-        25124.17,
         24795.94,
         24944.95,
-        24759.05
+        24759.05,
+        24616.22,
+        24817.46
       ],
-      "as_of": "2026-06-08"
+      "as_of": "2026-06-09"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1526.84,
+      "rate": 1522.65,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 160.17,
+      "rate": 160.15,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1537,
+      "rate": 1.1571,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7827,
+      "rate": 6.771,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 100.0,
-      "change": -0.07,
-      "change_pct": -0.07,
+      "rate": 99.77,
+      "change": -0.28,
+      "change_pct": -0.28,
       "kind": "index"
     }
   },
@@ -207,27 +207,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 91.3,
-      "change": 0.76,
-      "change_pct": 0.84
+      "price": 89.24,
+      "change": -2.06,
+      "change_pct": -2.26
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4350.6,
-      "change": 13.5,
-      "change_pct": 0.31
+      "price": 4357.0,
+      "change": 21.1,
+      "change_pct": 0.49
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 63313.0,
-      "change": 73.48,
-      "change_pct": 0.12
+      "price": 62626.14,
+      "change": -464.45,
+      "change_pct": -0.74
     },
     "ust10y": {
       "key": "ust10y",
@@ -243,12 +243,24 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 18.92,
-      "change": -2.59,
-      "change_pct": -12.04
+      "price": 18.06,
+      "change": -0.86,
+      "change_pct": -4.55
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "KBW upgrades Toll, citing the K-shaped housing market favoring the 'affluent'",
+      "url": "https://www.cnbc.com/2026/06/09/kbw-sees-diverging-outlook-for-two-key-homebuilders.html",
+      "published": "Tue, 09 Jun 2026 10:32:34 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Tuesday's big stock stories: What’s likely to move the market in the next trading session",
+      "url": "https://www.cnbc.com/2026/06/08/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+      "published": "Mon, 08 Jun 2026 23:39:35 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Bernstein says the future of tech is quantum. These two stocks have the most upside",
@@ -274,160 +286,148 @@
       "published": "Mon, 08 Jun 2026 18:35:47 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "Pharma stocks are showing strength. Charts predict this name could break out next",
-      "url": "https://www.cnbc.com/2026/06/08/pharma-stocks-are-showing-strength-charts-predict-this-name-could-break-out-next.html",
-      "published": "Mon, 08 Jun 2026 18:02:35 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Chip rebound sparks hedging flurry from traders",
-      "url": "https://www.cnbc.com/2026/06/08/chip-rebound-sparks-hedging-flurry-from-traders.html",
-      "published": "Mon, 08 Jun 2026 17:40:04 GMT"
+      "source": "Yahoo Finance",
+      "title": "CyberCube lands first Austrian client",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/cybercube-lands-first-austrian-client-102738280.html",
+      "published": "2026-06-09T10:27:38Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Microsoft Announces Majorana 2 Quantum Chip as Wedbush Calls It Another ‘Validation’ for the Industry",
-      "url": "https://finance.yahoo.com/sectors/technology/articles/microsoft-announces-majorana-2-quantum-141502799.html",
-      "published": "2026-06-07T14:15:02Z"
+      "title": "Oil falls as investors await clarity after Iran-Israel halt attacks",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/oil-rises-slightly-investors-await-004702356.html",
+      "published": "2026-06-09T10:24:31Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Forget Wall Street’s Ultimate Pharma Value Trap: Here Is a Far Better Stock to Buy Right Now",
-      "url": "https://finance.yahoo.com/sectors/healthcare/articles/forget-wall-street-ultimate-pharma-141334602.html",
-      "published": "2026-06-07T14:13:34Z"
+      "title": "Analysis-Alberta pitches cheap natural gas for data center boom, at odds with Canada's clean power aims",
+      "url": "https://finance.yahoo.com/news/analysis-alberta-pitches-cheap-natural-101727917.html",
+      "published": "2026-06-09T10:24:08Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Americans Still Owe $1.25 Trillion on Credit Cards as Interest Tops 23%: Experts Say This One Call Helped Over 80% of Borrowers Get a Lower Rate",
-      "url": "https://finance.yahoo.com/markets/currencies/articles/americans-still-owe-1-25-140002534.html",
-      "published": "2026-06-07T14:00:02Z"
+      "title": "Analysis-Short-sellers to tread carefully as Musk's SpaceX debuts",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/analysis-short-sellers-tread-carefully-100115819.html",
+      "published": "2026-06-09T10:01:15Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Dear Qualcomm Stock Fans, Mark Your Calendars for June 24",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-qualcomm-stock-fans-mark-140002013.html",
-      "published": "2026-06-07T14:00:02Z"
+      "title": "Best money market account rates today, Tuesday, June 9, 2026: Earn up to 4.01% APY",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-money-market-account-rates-today-tuesday-june-9-2026-100000352.html",
+      "published": "2026-06-09T10:00:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Dear Future ERock Stock Fans, Mark Your Calendars for June 10",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-future-erock-stock-fans-134502148.html",
-      "published": "2026-06-07T13:45:02Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Analyst Report: Metlife Inc",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_3186_AnalystReport_1780943646000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "published": "2026-06-08T18:34:06Z"
+      "title": "Are You a New Stock Market Investor in June 2026? Here's Warren Buffett's Advice.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-investor-june-2026-102300830.html",
+      "published": "2026-06-09T10:23:00Z"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Knicks ticket prices plunge more than 50% ahead of Game 3 at MSG — but not just because Trump’s going",
-      "url": "https://www.marketwatch.com/story/knicks-ticket-prices-plunge-more-than-50-ahead-of-game-3-at-msg-but-not-just-because-trumps-going-b7944acf?mod=mw_rss_topstories",
-      "published": "Mon, 08 Jun 2026 22:33:00 GMT"
+      "title": "A massive 16% market swing just rocked South Korea over 24 hours. The retail ‘ants’ holding the wheel are driving dangerously.",
+      "url": "https://www.marketwatch.com/story/a-massive-16-market-swing-just-rocked-south-korea-over-24-hours-the-retail-ants-holding-the-wheel-are-driving-dangerously-8799c198?mod=mw_rss_topstories",
+      "published": "Tue, 09 Jun 2026 10:16:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "OpenAI files confidentially for IPO — but there’s a catch",
-      "url": "https://www.marketwatch.com/story/openai-files-confidentially-for-ipo-but-theres-a-catch-3f13fc13?mod=mw_rss_topstories",
-      "published": "Mon, 08 Jun 2026 21:55:00 GMT"
+      "title": "I’m 60, retired with $3 million. My fiancée, 55, has $1 million but plans to work for the next 10 years. Are we compatible?",
+      "url": "https://www.marketwatch.com/story/im-60-retired-with-3-million-my-fiancee-55-has-1-million-but-plans-to-work-for-the-next-10-years-are-we-compatible-2ee04cf9?mod=mw_rss_topstories",
+      "published": "Tue, 09 Jun 2026 10:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "My golf buddy worked as a financial adviser. Here’s how I knew his friendship was fake.",
-      "url": "https://www.marketwatch.com/story/my-golf-buddy-worked-as-a-financial-adviser-heres-how-i-really-knew-his-friendship-was-fake-9e5695d5?mod=mw_rss_topstories",
-      "published": "Mon, 08 Jun 2026 21:45:00 GMT"
+      "title": "The latest rally may be only a dead-cat bounce, warns normally bullish boutique",
+      "url": "https://www.marketwatch.com/story/the-latest-rally-may-be-only-a-dead-cat-bounce-warns-normally-bullish-boutique-57fd7c23?mod=mw_rss_topstories",
+      "published": "Tue, 09 Jun 2026 09:20:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Your tech portfolio could be on the wrong side of the AI boom",
-      "url": "https://www.marketwatch.com/story/your-next-videogame-console-could-cost-1-000-and-it-has-nothing-to-do-with-better-hardware-8cb180dd?mod=mw_rss_topstories",
-      "published": "Mon, 08 Jun 2026 21:44:00 GMT"
+      "title": "‘We pay $100 per month’: My husband is in his mid-60s and has a $500,000 life-insurance policy. Is it time to cancel it?",
+      "url": "https://www.marketwatch.com/story/we-pay-100-per-month-my-husband-is-in-his-mid-60s-and-has-a-500-000-life-insurance-policy-is-it-time-to-cancel-it-4cc49ffe?mod=mw_rss_topstories",
+      "published": "Tue, 09 Jun 2026 09:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "An inflation storm is brewing in the Pacific Ocean — and your portfolio isn’t ready",
-      "url": "https://www.marketwatch.com/story/an-inflation-storm-is-brewing-in-the-pacific-ocean-and-your-portfolio-isnt-ready-f200fc60?mod=mw_rss_topstories",
-      "published": "Mon, 08 Jun 2026 21:37:00 GMT"
+      "title": "Jennifer Aniston’s boyfriend Jim Curtis takes $1.5 million New York City home off the market",
+      "url": "https://www.marketwatch.com/story/jennifer-anistons-boyfriend-jim-curtis-takes-1-5-million-new-york-city-home-off-the-market-74dcd9bf?mod=mw_rss_topstories",
+      "published": "Tue, 09 Jun 2026 09:03:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘I have no experience with investing’: I inherited $2,000. I’m 42 with two children. What should I do with this money?",
-      "url": "https://www.marketwatch.com/story/i-have-no-experience-with-investing-i-inherited-2-000-im-42-with-two-children-what-should-i-do-with-this-money-7b0de230?mod=mw_rss_topstories",
-      "published": "Mon, 08 Jun 2026 21:10:00 GMT"
+      "title": "‘Entourage’ star Jeremy Piven sells modern private retreat in L.A. for a reduced $6.9 million",
+      "url": "https://www.marketwatch.com/story/entourage-star-jeremy-piven-sells-modern-private-retreat-in-l-a-for-a-reduced-6-9-million-b433293d?mod=mw_rss_topstories",
+      "published": "Tue, 09 Jun 2026 08:58:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "S&P downgrades JetBlue deeper into junk as high fuel costs dent recovery",
-      "url": "https://www.investing.com/news/stock-market-news/sp-downgrades-jetblue-deeper-into-junk-as-high-fuel-costs-dent-recovery-4731802",
-      "published": "2026-06-08 22:54:49"
+      "title": "ICEYE raises €450 million in funding round at €10 billion value",
+      "url": "https://www.investing.com/news/stock-market-news/iceye-raises-450-million-in-funding-round-at-10-billion-value-93CH-4732383",
+      "published": "2026-06-09 10:19:34"
     },
     {
       "source": "Investing.com News",
-      "title": "Signet Jewelers enters $50 million accelerated share repurchase with Goldman Sachs",
-      "url": "https://www.investing.com/news/sec-filings/signet-jewelers-enters-50-million-accelerated-share-repurchase-with-goldman-sachs-93CH-4731820",
-      "published": "2026-06-08 22:52:40"
+      "title": "Musk’s Starlink leads Bezos’ Amazon as airlines rush to boost in-flight Wi-Fi",
+      "url": "https://www.investing.com/news/stock-market-news/musks-starlink-leads-bezos-amazon-as-airlines-rush-to-boost-inflight-wifi-4732361",
+      "published": "2026-06-09 10:19:08"
     },
     {
       "source": "Investing.com News",
-      "title": "Snowflake director Michael Speiser disposes of $12.4m in shares",
-      "url": "https://www.investing.com/news/insider-trading-news/snowflake-director-michael-speiser-disposes-of-124m-in-shares-93CH-4731819",
-      "published": "2026-06-08 22:50:00"
+      "title": "BASF to focus on creating value as No. 1 rank slips",
+      "url": "https://www.investing.com/news/stock-market-news/basf-to-focus-on-creating-value-as-no-1-rank-slips-4732382",
+      "published": "2026-06-09 10:18:34"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 144 UNIVERSAL TECHNICAL INSTITUTE For: 8 June",
-      "url": "https://www.investing.com/news/filings/form-144-universal-technical-institute-for-8-june-93CH-4731818",
-      "published": "2026-06-08 22:48:29"
+      "title": "Blue Biofuels appoints new auditor following Assure CPA merger",
+      "url": "https://www.investing.com/news/sec-filings/blue-biofuels-appoints-new-auditor-following-assure-cpa-merger-93CH-4732380",
+      "published": "2026-06-09 10:17:42"
     },
     {
       "source": "Investing.com News",
-      "title": "Remitly Global chief product and technology officer to resign June 19",
-      "url": "https://www.investing.com/news/sec-filings/remitly-global-chief-product-and-technology-officer-to-resign-june-19-93CH-4731817",
-      "published": "2026-06-08 22:48:22"
+      "title": "Form 13F First Nebraska Trust Co For: 9 June",
+      "url": "https://www.investing.com/news/filings/form-13f-first-nebraska-trust-co-for-9-june-93CH-4732374",
+      "published": "2026-06-09 10:15:30"
     },
     {
       "source": "Investing.com News",
-      "title": "Grupo Supervielle board approves related party transactions with subsidiary",
-      "url": "https://www.investing.com/news/sec-filings/grupo-supervielle-board-approves-related-party-transactions-with-subsidiary-93CH-4731816",
-      "published": "2026-06-08 22:43:42"
+      "title": "BTIG initiates Magnite stock with buy rating on CTV growth",
+      "url": "https://www.investing.com/news/analyst-ratings/btig-initiates-magnite-stock-with-buy-rating-on-ctv-growth-93CH-4732373",
+      "published": "2026-06-09 10:15:01"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "SpaceX IPO Is Well Oversubscribed With $10 Billion Orders",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-08/spacex-ipo-is-said-to-be-well-oversubscribed-orders-close-wed",
-      "published": "Mon, 08 Jun 2026 15:49:06 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Oil Steady as Israel and Iran Halt Hostilities That Risked Talks",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-08/latest-oil-market-news-and-analysis-for-june-9",
-      "published": "Mon, 08 Jun 2026 22:07:27 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Iran, Israel Pledge to End Attacks That Threatened Talks",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-08/iran-and-israel-exchange-missile-attacks-imperiling-peace-talks",
-      "published": "Mon, 08 Jun 2026 05:32:19 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Rare-Earth Developer Aclara Seeks US Backing for Chile Mine",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-08/rare-earth-developer-aclara-seeks-us-backing-for-chilean-project",
-      "published": "Mon, 08 Jun 2026 18:38:27 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Asian Stocks Set to Rebound on Iran, AI Optimism: Markets Wrap",
+      "title": "Stocks Climb as AI-Led Rebound Enters Day Two: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-06-08/stock-market-today-dow-s-p-live-updates",
       "published": "Mon, 08 Jun 2026 22:11:30 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Fmr. Modell’s CEO on New York Knicks ‘Feeding Frenzy'",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-08/fmr-modell-s-ceo-on-new-york-knicks-feeding-frenzy-video",
-      "published": "Mon, 08 Jun 2026 21:56:25 GMT"
+      "title": "Blackstone Is Buying Up SRTs as Banks Rush to Hedge Loan Risks",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-09/blackstone-is-buying-up-srts-as-banks-rush-to-hedge-loan-risks",
+      "published": "Tue, 09 Jun 2026 10:23:03 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Paramount’s $110 Billion Warner Takeover Investigated by UK",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-09/paramount-s-110-billion-warner-takeover-probed-by-uk-watchdog",
+      "published": "Tue, 09 Jun 2026 10:04:54 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Philippines’ PLDT Seeks Up to $400 Million From REIT Listing",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-09/philippines-pldt-seeks-up-to-400-million-from-reit-listing",
+      "published": "Tue, 09 Jun 2026 10:08:38 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Telemundo, Fox Aim for Viewer Records With World Cup in the US",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-09/telemundo-fox-aim-for-viewer-records-with-world-cup-in-the-us",
+      "published": "Tue, 09 Jun 2026 10:00:00 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "US Small-Business Optimism Falls to Lowest Since October 2024",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-09/us-small-business-optimism-falls-to-lowest-since-october-2024",
+      "published": "Tue, 09 Jun 2026 10:00:00 GMT"
     }
   ],
   "summary": {
