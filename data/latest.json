@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-06-15 07:39 KST",
+  "as_of_kst": "2026-06-15 22:30 KST",
   "as_of_date": "2026-06-15",
   "as_of_weekday": "MON",
-  "build_unix": 1781476765,
+  "build_unix": 1781530259,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -10,17 +10,17 @@
       "name": "S&P 500",
       "region": "USA",
       "kind": "broad",
-      "price": 7431.46,
-      "change": 37.16,
-      "change_pct": 0.5,
+      "price": 7535.11,
+      "change": 103.65,
+      "change_pct": 1.39,
       "spark": [
-        7405.73,
         7386.65,
         7266.99,
         7394.3,
-        7431.46
+        7431.46,
+        7535.11
       ],
-      "as_of": "2026-06-12"
+      "as_of": "2026-06-15"
     },
     "nasdaq": {
       "key": "nasdaq",
@@ -28,17 +28,17 @@
       "name": "NASDAQ Composite",
       "region": "USA",
       "kind": "tech",
-      "price": 25888.84,
-      "change": 79.18,
-      "change_pct": 0.31,
+      "price": 26480.85,
+      "change": 592.01,
+      "change_pct": 2.29,
       "spark": [
-        25929.66,
         25678.82,
         25169.5,
         25809.66,
-        25888.84
+        25888.84,
+        26480.85
       ],
-      "as_of": "2026-06-12"
+      "as_of": "2026-06-15"
     },
     "dow": {
       "key": "dow",
@@ -46,17 +46,17 @@
       "name": "Dow Jones 30",
       "region": "USA",
       "kind": "value",
-      "price": 51202.26,
-      "change": 353.51,
-      "change_pct": 0.7,
+      "price": 51826.96,
+      "change": 624.7,
+      "change_pct": 1.22,
       "spark": [
-        50786.01,
         50872.11,
         49918.78,
         50848.75,
-        51202.26
+        51202.26,
+        51826.96
       ],
-      "as_of": "2026-06-12"
+      "as_of": "2026-06-15"
     },
     "kospi": {
       "key": "kospi",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 8123.62,
-      "change": 359.67,
-      "change_pct": 4.63,
+      "price": 8545.98,
+      "change": 422.36,
+      "change_pct": 5.2,
       "spark": [
-        7484.41,
         8096.93,
         7730.82,
         7763.95,
-        8123.62
+        8123.62,
+        8545.98
       ],
-      "as_of": "2026-06-12"
+      "as_of": "2026-06-15"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 66020.04,
-      "change": 1802.77,
-      "change_pct": 2.81,
+      "price": 69317.5,
+      "change": 3297.46,
+      "change_pct": 4.99,
       "spark": [
-        64024.6,
         65416.63,
         64179.27,
         64217.27,
-        66020.04
+        66020.04,
+        69317.5
       ],
-      "as_of": "2026-06-12"
+      "as_of": "2026-06-15"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 24718.1,
-      "change": 468.81,
-      "change_pct": 1.93,
+      "price": 24842.67,
+      "change": 124.57,
+      "change_pct": 0.5,
       "spark": [
-        24657.06,
         24565.9,
         24407.96,
         24249.29,
-        24718.1
+        24718.1,
+        24842.67
       ],
-      "as_of": "2026-06-12"
+      "as_of": "2026-06-15"
     },
     "csi300": {
       "key": "csi300",
@@ -118,17 +118,17 @@
       "name": "CSI 300",
       "region": "CHINA",
       "kind": "broad",
-      "price": 4777.32,
-      "change": 54.91,
-      "change_pct": 1.16,
+      "price": 4891.71,
+      "change": 114.39,
+      "change_pct": 2.39,
       "spark": [
-        4713.64,
         4801.81,
         4748.59,
         4722.41,
-        4777.32
+        4777.32,
+        4891.71
       ],
-      "as_of": "2026-06-12"
+      "as_of": "2026-06-15"
     },
     "ftse": {
       "key": "ftse",
@@ -136,17 +136,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10471.7,
-      "change": 167.8,
-      "change_pct": 1.63,
+      "price": 10470.43,
+      "change": -1.27,
+      "change_pct": -0.01,
       "spark": [
-        10373.2,
         10227.3,
         10254.8,
         10303.9,
-        10471.7
+        10471.7,
+        10470.43
       ],
-      "as_of": "2026-06-12"
+      "as_of": "2026-06-15"
     },
     "dax": {
       "key": "dax",
@@ -154,50 +154,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 24635.3,
-      "change": 425.59,
-      "change_pct": 1.76,
+      "price": 24982.13,
+      "change": 346.83,
+      "change_pct": 1.41,
       "spark": [
-        24616.22,
         24433.06,
         24195.31,
         24209.71,
-        24635.3
+        24635.3,
+        24982.13
       ],
-      "as_of": "2026-06-12"
+      "as_of": "2026-06-15"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1518.5699,
+      "rate": 1511.39,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 159.92,
+      "rate": 160.11,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.161,
+      "rate": 1.1618,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7621,
+      "rate": 6.7572,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 99.5,
-      "change": -0.25,
-      "change_pct": -0.26,
+      "rate": 99.47,
+      "change": -0.28,
+      "change_pct": -0.28,
       "kind": "index"
     }
   },
@@ -207,227 +207,227 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 81.33,
-      "change": -3.55,
-      "change_pct": -4.18
+      "price": 80.43,
+      "change": -4.45,
+      "change_pct": -5.24
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4307.8,
-      "change": 92.8,
-      "change_pct": 2.2
+      "price": 4374.3,
+      "change": 159.3,
+      "change_pct": 3.78
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 65321.29,
-      "change": 899.96,
-      "change_pct": 1.4
+      "price": 66645.39,
+      "change": 934.99,
+      "change_pct": 1.42
     },
     "ust10y": {
       "key": "ust10y",
       "symbol": "^TNX",
       "name": "10Y UST Yield",
       "unit": "%",
-      "price": 4.49,
-      "change": 0.02,
-      "change_pct": 0.54
+      "price": 4.45,
+      "change": -0.04,
+      "change_pct": -0.8
     },
     "vix": {
       "key": "vix",
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 17.68,
-      "change": -1.76,
-      "change_pct": -9.05
+      "price": 16.28,
+      "change": -1.4,
+      "change_pct": -7.92
     }
   },
   "headlines_raw": [
     {
       "source": "CNBC Markets",
-      "title": "Top Wall Street analysts are confident about the growth prospects of these 3 stocks",
-      "url": "https://www.cnbc.com/2026/06/14/top-analysts-are-confident-about-the-prospects-of-these-3-stocks.html",
-      "published": "Sun, 14 Jun 2026 12:49:35 GMT"
+      "title": "SpaceX doesn't have a timeline for its human missions to Mars. Kalshi traders say don't expect it this decade",
+      "url": "https://www.cnbc.com/2026/06/15/kalshi-traders-say-spacex-wont-get-to-mars-this-decade.html",
+      "published": "Mon, 15 Jun 2026 13:30:47 GMT"
     },
     {
       "source": "CNBC Markets",
-      "title": "This Chinese consumer stock could double if its global industrial pivot succeeds, JPMorgan says",
-      "url": "https://www.cnbc.com/2026/06/14/chinese-consumer-stock-could-double-if-industrial-pivot-works-jpmorgan-says.html",
-      "published": "Sun, 14 Jun 2026 12:35:26 GMT"
+      "title": "These rocket stocks sold off on the SpaceX IPO. KeyBanc says it's time to buy the dip",
+      "url": "https://www.cnbc.com/2026/06/15/these-rocket-stocks-fell-on-spacex-ipo-keybanc-says-to-buy-the-dip.html",
+      "published": "Mon, 15 Jun 2026 13:07:15 GMT"
     },
     {
       "source": "CNBC Markets",
-      "title": "These stocks are the most overbought or oversold after a choppy week on Wall Street",
-      "url": "https://www.cnbc.com/2026/06/13/these-stocks-are-most-overbought-or-oversold-after-choppy-market-week.html",
-      "published": "Sat, 13 Jun 2026 13:46:24 GMT"
+      "title": "Here are Monday's biggest analyst calls: Nvidia, Micron, Ferrari, Rocket Lab, DataDog & more",
+      "url": "https://www.cnbc.com/2026/06/15/monday-biggest-stocks-by-analyst-calls-like-nvidia.html",
+      "published": "Mon, 15 Jun 2026 12:17:14 GMT"
     },
     {
       "source": "CNBC Markets",
-      "title": "Goldman says stocks like Nvidia have more room to run",
-      "url": "https://www.cnbc.com/2026/06/13/stocks-with-upside-include-nvidia-goldman-says.html",
-      "published": "Sat, 13 Jun 2026 13:43:54 GMT"
+      "title": "Ron Baron bought $1 billion of SpaceX shares in IPO, lifting stake to $25 billion",
+      "url": "https://www.cnbc.com/2026/06/15/ron-baron-bought-1-billion-of-spacex-shares-in-ipo-lifting-stake-to-25-billion.html",
+      "published": "Mon, 15 Jun 2026 12:35:57 GMT"
     },
     {
       "source": "CNBC Markets",
-      "title": "This wealth advisor stock should benefit as clients get rich from SpaceX IPO, says Baird",
-      "url": "https://www.cnbc.com/2026/06/13/this-wealth-advisor-stock-should-benefit-as-clients-get-rich-from-spacex-ipo-says-baird.html",
-      "published": "Sat, 13 Jun 2026 13:41:58 GMT"
+      "title": "SpaceX IPO shines a light on Wall Street’s blockchain challenger",
+      "url": "https://www.cnbc.com/2026/06/15/spacex-ipo-shines-a-light-on-wall-streets-blockchain-challenger.html",
+      "published": "Mon, 15 Jun 2026 12:08:07 GMT"
     },
     {
       "source": "CNBC Markets",
-      "title": "Moats vs. moonshots: The Warren Buffett-Elon Musk style debate",
-      "url": "https://www.cnbc.com/2026/06/13/moats-vs-moonshots-the-warren-buffett-elon-musk-style-debate.html",
-      "published": "Sat, 13 Jun 2026 12:57:53 GMT"
+      "title": "Ferrari shares have struggled of late. Morgan Stanley says concerns are overblown",
+      "url": "https://www.cnbc.com/2026/06/15/ferrari-shares-have-struggled-of-late-morgan-stanley-says-concerns-are-overblown.html",
+      "published": "Mon, 15 Jun 2026 11:42:39 GMT"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Dow Jones Futures Rise, Oil Prices Dive As Trump Announces Iran Deal; SpaceX's Next Test",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-trump-iran-deal-spacex/?src=A00220&yptr=yahoo",
-      "published": "2026-06-14T22:19:11Z"
+      "title": "Oil executives send a blunt message to Americans on gas prices",
+      "url": "https://finance.yahoo.com/sectors/energy/articles/oil-executives-send-blunt-message-200700286.html",
+      "published": "2026-06-14T20:07:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Elon Musk Projects $1 Trillion SpaceX Revenue by 2030: Practical or a Long Shot?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-projects-1-trillion-220033413.html",
-      "published": "2026-06-14T22:00:33Z"
+      "title": "Bitcoin recovers to $66,000, but one analyst warns of a 'dead-cat bounce'",
+      "url": "https://finance.yahoo.com/markets/article/bitcoin-recovers-to-66000-but-one-analyst-warns-of-a-dead-cat-bounce-131244858.html",
+      "published": "2026-06-15T13:12:44Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Parents in their 60s want a reverse mortgage after a heart attack — but there may be smarter moves",
-      "url": "https://finance.yahoo.com/sectors/healthcare/articles/parents-60s-want-reverse-mortgage-203000828.html",
-      "published": "2026-06-14T20:30:00Z"
+      "title": "Mirae Asset apologizes to investors over failed SpaceX IPO allocation",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/mirae-asset-apologizes-investors-over-130746817.html",
+      "published": "2026-06-15T13:07:46Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "DoorDash Inc. (DASH) Shows How Local Commerce Can Expand Beyond Restaurant Delivery",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/doordash-inc-dash-shows-local-200554875.html",
-      "published": "2026-06-14T20:05:54Z"
+      "title": "Baron Real Estate Fund Added Public Storage (PSA) Ahead of Inflection",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/baron-real-estate-fund-added-130050308.html",
+      "published": "2026-06-15T13:00:50Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Sea Limited (SE) Shows How Shopee’s Order Growth Is Keeping Its E-Commerce Engine Strong",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/sea-limited-se-shows-shopee-200400091.html",
-      "published": "2026-06-14T20:04:00Z"
+      "title": "Investor Cathie Wood Buys More Than $500 Million Of SpaceX Stock",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/investor-cathie-wood-buys-more-125900465.html",
+      "published": "2026-06-15T12:59:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Target Corporation (TGT) Shows Why Store-Based Fulfillment Still Matters in Digital Retail",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/target-corporation-tgt-shows-why-200353633.html",
-      "published": "2026-06-14T20:03:53Z"
+      "title": "Weekly Stock List",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_47331_StockPicks_1781524221000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-06-15T11:50:21Z"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Stock futures soar, oil prices fall as Trump says U.S. has reached peace deal with Iran",
-      "url": "https://www.marketwatch.com/story/trump-says-u-s-had-reached-peace-deal-with-iran-57a93e56?mod=mw_rss_topstories",
-      "published": "Sun, 14 Jun 2026 22:31:00 GMT"
+      "title": "The stock market is poised to go crazy if Warsh gives it the go-ahead, these strategists say",
+      "url": "https://www.marketwatch.com/story/the-stock-market-is-poised-to-go-crazy-if-warsh-gives-the-green-light-these-strategists-say-3387a7c4?mod=mw_rss_topstories",
+      "published": "Mon, 15 Jun 2026 12:43:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Will the real Kevin Warsh please stand up? Ahead of his first Fed meeting, economists honestly don’t know what to expect.",
-      "url": "https://www.marketwatch.com/story/will-the-real-kevin-warsh-please-stand-up-ahead-of-his-first-fed-meeting-economists-honestly-dont-know-what-to-expect-6fa95c8c?mod=mw_rss_topstories",
-      "published": "Sun, 14 Jun 2026 21:00:00 GMT"
+      "title": "Oil prices slump to three-month lows after U.S. and Iran agree to framework of peace deal",
+      "url": "https://www.marketwatch.com/story/oil-prices-decline-after-u-s-iran-agree-to-framework-of-peace-deal-ae25ba9f?mod=mw_rss_topstories",
+      "published": "Mon, 15 Jun 2026 12:25:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘It seems too good to be true’: At a steak-dinner retirement seminar, the guy said annuities can outperform the market. Is that true?",
-      "url": "https://www.marketwatch.com/story/it-seems-too-good-to-be-true-at-a-steak-dinner-retirement-seminar-the-guy-said-annuities-can-outperform-the-market-is-that-true-33e11b0a?mod=mw_rss_topstories",
-      "published": "Sun, 14 Jun 2026 20:17:00 GMT"
+      "title": "Gold’s correction could lead to a rebound. Barclays recommends these stocks.",
+      "url": "https://www.marketwatch.com/story/golds-correction-could-lead-to-a-rebound-barclays-recommends-these-stocks-22065940?mod=mw_rss_topstories",
+      "published": "Mon, 15 Jun 2026 12:20:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Defaults in debt markets are starting again, warns Pimco. Here’s the bond giant’s game plan.",
-      "url": "https://www.marketwatch.com/story/defaults-in-debt-markets-are-starting-again-warns-pimco-heres-the-bond-giants-game-plan-16559c6d?mod=mw_rss_topstories",
-      "published": "Sun, 14 Jun 2026 17:34:00 GMT"
+      "title": "Roku’s sale to Fox for $22 billion raises a big question",
+      "url": "https://www.marketwatch.com/story/rokus-sale-to-fox-for-22-billion-raises-a-big-question-aecb5346?mod=mw_rss_topstories",
+      "published": "Mon, 15 Jun 2026 12:18:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "We thought we found the perfect luxury retirement community, but it’s millions of dollars in debt. Are we trapped?",
-      "url": "https://www.marketwatch.com/story/we-thought-we-found-the-perfect-luxury-retirement-community-but-its-millions-of-dollars-in-debt-are-we-trapped-cde2e8f5?mod=mw_rss_topstories",
-      "published": "Sun, 14 Jun 2026 14:26:00 GMT"
+      "title": "Social Security gave me conflicting answers about my cheating former husband’s record. What should I do?",
+      "url": "https://www.marketwatch.com/story/social-security-gave-me-conflicting-answers-about-my-cheating-former-husbands-record-what-should-i-do-ee7f1e56?mod=mw_rss_topstories",
+      "published": "Mon, 15 Jun 2026 11:00:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘This would be a one-time event’: How can I take extra money from my 401(k) without triggering higher Medicare premiums?",
-      "url": "https://www.marketwatch.com/story/this-would-be-a-one-time-event-how-can-i-take-extra-money-from-my-401-k-without-triggering-higher-medicare-premiums-fef1586d?mod=mw_rss_topstories",
-      "published": "Sun, 14 Jun 2026 13:26:00 GMT"
+      "title": "Here’s the potential stock-market reaction from new restrictions on AI models",
+      "url": "https://www.marketwatch.com/story/heres-the-potential-stock-market-reaction-from-new-restrictions-on-ai-models-1aec4a5e?mod=mw_rss_topstories",
+      "published": "Mon, 15 Jun 2026 10:44:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Twelve people killed in Missouri plane crash, skydiving company says",
-      "url": "https://www.investing.com/news/world-news/twelve-people-killed-in-missouri-plane-crash-state-highway-patrol-says-4741107",
-      "published": "2026-06-14 22:24:32"
+      "title": "Canada manufacturing sales rise on petroleum surge, food gains",
+      "url": "https://www.investing.com/news/economy-news/canada-manufacturing-sales-rise-on-petroleum-surge-food-gains-93CH-4742277",
+      "published": "2026-06-15 13:16:29"
     },
     {
       "source": "Investing.com News",
-      "title": "Zymeworks reports phase 1 trial results for ovarian cancer drug",
-      "url": "https://www.investing.com/news/company-news/zymeworks-reports-phase-1-trial-results-for-ovarian-cancer-drug-93CH-4741119",
-      "published": "2026-06-14 22:13:51"
+      "title": "Industrial production growth slows, missing forecasts",
+      "url": "https://www.investing.com/news/economic-indicators/industrial-production-growth-slows-missing-forecasts-93CH-4742272",
+      "published": "2026-06-15 13:16:08"
     },
     {
       "source": "Investing.com News",
-      "title": "Trump says deal with Iran now complete,  Strait of Hormuz to reopen",
-      "url": "https://www.investing.com/news/economy-news/trump-says-iran-deal-could-be-signed-sunday-tehran-disputes-timing-4741061",
-      "published": "2026-06-14 22:13:50"
+      "title": "Rolls-Royce wins Sweden nuclear reactor supply contract",
+      "url": "https://www.investing.com/news/stock-market-news/rollsroyce-wins-sweden-nuclear-reactor-supply-contract-93CH-4742270",
+      "published": "2026-06-15 13:16:02"
     },
     {
       "source": "Investing.com News",
-      "title": "Oil slips over 4% after US, Iran reach peace deal, reopen Strait of Hormuz",
-      "url": "https://www.investing.com/news/commodities-news/oil-slips-over-4-after-us-iran-reach-peace-deal-reopen-strait-of-hormuz-4741118",
-      "published": "2026-06-14 22:12:53"
+      "title": "Canada wholesale sales rise on building materials and metals demand",
+      "url": "https://www.investing.com/news/economy-news/canada-wholesale-sales-rise-on-building-materials-and-metals-demand-93CH-4742269",
+      "published": "2026-06-15 13:16:02"
     },
     {
       "source": "Investing.com News",
-      "title": "US, Iran reach peace deal, signing set for Friday, Pakistan says",
-      "url": "https://www.investing.com/news/world-news/us-iran-reach-peace-deal-signing-set-for-friday-pakistan-says-4741116",
-      "published": "2026-06-14 21:42:25"
+      "title": "Standard Chartered to redeem €500m sustainability notes",
+      "url": "https://www.investing.com/news/company-news/standard-chartered-to-redeem-500m-sustainability-notes-93CH-4742268",
+      "published": "2026-06-15 13:15:12"
     },
     {
       "source": "Investing.com News",
-      "title": "Russia stocks lower at close of trade; MOEX Russia Index unchanged",
-      "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-unchanged-4741115",
-      "published": "2026-06-14 21:20:04"
+      "title": "Stifel downgrades Caesars, MGM as takeover upside narrows amid deal uncertainty",
+      "url": "https://www.investing.com/news/stock-market-news/stifel-downgrades-caesars-mgm-as-takeover-upside-narrows-amid-deal-uncertainty-4742264",
+      "published": "2026-06-15 13:13:46"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Stock Market Moves On From SpaceX To Focus On Iran Deal, Fed",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-14/stock-market-moves-on-from-spacex-with-iran-deal-fed-in-focus",
-      "published": "Sun, 14 Jun 2026 22:00:00 GMT"
+      "title": "US Manufacturing Output Stalls for the First Time This Year",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-15/us-manufacturing-output-stalls-for-the-first-time-this-year",
+      "published": "Mon, 15 Jun 2026 13:17:57 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "ASIC Says ASX Agrees to Pay Fine Over Misleading Chess Statement",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-14/asic-says-asx-agrees-to-pay-fine-over-misleading-chess-statement",
-      "published": "Sun, 14 Jun 2026 22:15:27 GMT"
+      "title": "World Bank Makes Second Foray Into Emerging-Market CLO Funding",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-15/world-bank-makes-second-foray-into-emerging-market-clo-funding",
+      "published": "Mon, 15 Jun 2026 13:00:00 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "US Futures Climb, Oil Falls on Iran Peace Deal",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
-      "published": "Sun, 14 Jun 2026 22:06:25 GMT"
+      "title": "Nuvei Agrees to Buy Payoneer in $2.75 Billion Payments Deal",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-15/nuvei-agrees-to-buy-payoneer-in-2-75-billion-payments-deal",
+      "published": "Mon, 15 Jun 2026 12:51:59 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Oil Slumps as Trump Says Iran Deal Agreed and Hormuz to Reopen",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-14/latest-oil-market-news-and-analysis-for-june-15",
-      "published": "Sun, 14 Jun 2026 22:01:15 GMT"
+      "title": "Why Solar Power Belongs on Earth",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-15/opinion-why-solar-power-belongs-on-earth-video",
+      "published": "Mon, 15 Jun 2026 12:50:20 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Bond Funds Chase Australian Debt on Peak RBA Interest Rate Bets",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-14/bond-funds-chase-australian-debt-on-peak-rba-interest-rate-bets",
-      "published": "Sun, 14 Jun 2026 21:00:00 GMT"
+      "title": "Fertilizer Ships Face Long Backlog Even If Hormuz Reopens",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-15/fertilizer-ships-face-long-backlog-even-if-hormuz-reopens",
+      "published": "Mon, 15 Jun 2026 12:45:44 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Japan’s Top Bond-Trading Regional Bank Buys JGBs After Decade",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-14/japan-s-top-bond-trading-regional-bank-buys-jgbs-after-decade",
-      "published": "Sun, 14 Jun 2026 21:00:00 GMT"
+      "title": "EE.UU. e Irán acuerdan detener guerra y reanudar envíos de petróleo en Medio Oriente",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-15/ee-uu-e-iran-acuerdan-detener-la-guerra-video",
+      "published": "Mon, 15 Jun 2026 12:38:04 GMT"
     }
   ],
   "summary": {
