@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-06-18 07:56 KST",
+  "as_of_kst": "2026-06-18 20:35 KST",
   "as_of_date": "2026-06-18",
   "as_of_weekday": "THU",
-  "build_unix": 1781737013,
+  "build_unix": 1781782559,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 8726.6,
-      "change": 180.62,
-      "change_pct": 2.11,
+      "price": 9063.84,
+      "change": 199.6,
+      "change_pct": 2.25,
       "spark": [
-        7730.82,
-        7763.95,
         8123.62,
         8545.98,
-        8726.6
+        8726.6,
+        8864.24,
+        9063.84
       ],
-      "as_of": "2026-06-16"
+      "as_of": "2026-06-18"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 69404.5,
-      "change": 87.0,
-      "change_pct": 0.13,
+      "price": 71053.49,
+      "change": 1151.24,
+      "change_pct": 1.65,
       "spark": [
-        64179.27,
-        64217.27,
         66020.04,
         69317.5,
-        69404.5
+        69404.5,
+        69902.25,
+        71053.49
       ],
-      "as_of": "2026-06-17"
+      "as_of": "2026-06-18"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 24493.95,
-      "change": -348.72,
-      "change_pct": -1.4,
+      "price": 23924.81,
+      "change": -387.35,
+      "change_pct": -1.59,
       "spark": [
-        24407.96,
-        24249.29,
         24718.1,
         24842.67,
-        24493.95
+        24493.95,
+        24312.16,
+        23924.81
       ],
-      "as_of": "2026-06-17"
+      "as_of": "2026-06-18"
     },
     "csi300": {
       "key": "csi300",
@@ -118,17 +118,17 @@
       "name": "CSI 300",
       "region": "CHINA",
       "kind": "broad",
-      "price": 4777.32,
-      "change": 54.91,
-      "change_pct": 1.16,
+      "price": 4941.6,
+      "change": 164.28,
+      "change_pct": 3.44,
       "spark": [
-        4713.64,
         4801.81,
         4748.59,
         4722.41,
-        4777.32
+        4777.32,
+        4941.6
       ],
-      "as_of": "2026-06-17"
+      "as_of": "2026-06-18"
     },
     "ftse": {
       "key": "ftse",
@@ -136,17 +136,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10508.61,
-      "change": 14.41,
-      "change_pct": 0.14,
+      "price": 10393.14,
+      "change": -115.46,
+      "change_pct": -1.1,
       "spark": [
-        10303.9,
         10471.7,
         10430.6,
         10494.2,
-        10508.61
+        10508.6,
+        10393.14
       ],
-      "as_of": "2026-06-17"
+      "as_of": "2026-06-18"
     },
     "dax": {
       "key": "dax",
@@ -154,50 +154,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 24910.41,
-      "change": 16.4,
-      "change_pct": 0.07,
+      "price": 24896.26,
+      "change": -38.41,
+      "change_pct": -0.15,
       "spark": [
-        24195.31,
-        24209.71,
         24635.3,
         24894.01,
-        24910.41
+        24910.41,
+        24934.67,
+        24896.26
       ],
-      "as_of": "2026-06-17"
+      "as_of": "2026-06-18"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1527.41,
+      "rate": 1539.14,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 160.6,
+      "rate": 160.88,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1507,
+      "rate": 1.1468,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7572,
+      "rate": 6.7705,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 100.39,
-      "change": 0.85,
-      "change_pct": 0.85,
+      "rate": 100.74,
+      "change": 0.65,
+      "change_pct": 0.65,
       "kind": "index"
     }
   },
@@ -207,48 +207,72 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 75.4,
-      "change": -0.65,
-      "change_pct": -0.85
+      "price": 74.7,
+      "change": -2.09,
+      "change_pct": -2.72
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4282.5,
-      "change": -48.4,
-      "change_pct": -1.12
+      "price": 4266.0,
+      "change": -92.9,
+      "change_pct": -2.13
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 64285.93,
-      "change": -1314.71,
-      "change_pct": -2.0
+      "price": 63990.36,
+      "change": -1610.28,
+      "change_pct": -2.45
     },
     "ust10y": {
       "key": "ust10y",
       "symbol": "^TNX",
       "name": "10Y UST Yield",
       "unit": "%",
-      "price": 4.46,
-      "change": -0.02,
-      "change_pct": -0.53
+      "price": 4.49,
+      "change": 0.02,
+      "change_pct": 0.54
     },
     "vix": {
       "key": "vix",
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 18.44,
-      "change": 2.03,
-      "change_pct": 12.37
+      "price": 17.45,
+      "change": -0.99,
+      "change_pct": -5.37
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "This AI infrastructure stock has soared nearly 500% in a year. Jefferies says it can go higher",
+      "url": "https://www.cnbc.com/2026/06/18/this-ai-infrastructure-stock-has-soared-nearly-500percent-in-a-year-jefferies-says-it-can-go-higher.html",
+      "published": "Thu, 18 Jun 2026 11:32:00 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "This chipmaker stock up more than 200% this year has more room to run, KeyBanc says",
+      "url": "https://www.cnbc.com/2026/06/18/this-ai-infrastructure-stock-up-more-than-200percent-this-year-has-more-room-to-run-keybanc-says.html",
+      "published": "Thu, 18 Jun 2026 11:25:46 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "CME CEO Terrence Duffy says the exchange operator will sue CFTC over perpetual futures",
+      "url": "https://www.cnbc.com/2026/06/17/cme-ceo-terrence-duffy-says-the-exchange-operator-will-sue-cftc-over-perpetual-futures.html",
+      "published": "Wed, 17 Jun 2026 23:21:48 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Thursday's big stock stories: What’s likely to move the market in the next trading session",
+      "url": "https://www.cnbc.com/2026/06/17/thursdays-big-stock-stories-whats-likely-to-move-the-market.html",
+      "published": "Wed, 17 Jun 2026 23:56:45 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Jeffrey Gundlach says Fed's Warsh is not going to be the 'easy money' chairman many hoped for",
@@ -262,172 +286,148 @@
       "published": "Wed, 17 Jun 2026 19:06:13 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "JPMorgan says clients should be 'aggressive buyers' of this chip stock",
-      "url": "https://www.cnbc.com/2026/06/17/jpmorgan-says-clients-should-be-aggressive-buyers-of-this-chip-stock.html",
-      "published": "Wed, 17 Jun 2026 17:57:01 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Wells Fargo says investors need to prioritize income. Where it sees opportunity",
-      "url": "https://www.cnbc.com/2026/06/17/wells-fargo-says-investors-need-to-prioritize-income-where-it-sees-opportunity.html",
-      "published": "Wed, 17 Jun 2026 18:33:43 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "This medical diagnostics stock is ready for a big move higher, charts show",
-      "url": "https://www.cnbc.com/2026/06/17/this-medical-diagnostics-stock-is-ready-for-a-big-move-higher-charts-show.html",
-      "published": "Wed, 17 Jun 2026 15:30:01 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "There's a bullish breakout brewing in one travel stock. How to trade it",
-      "url": "https://www.cnbc.com/2026/06/17/theres-a-bullish-breakout-brewing-in-one-travel-stock-how-to-trade-it.html",
-      "published": "Wed, 17 Jun 2026 14:30:01 GMT"
+      "source": "Yahoo Finance",
+      "title": "73-year-old beef producer shuts 2 plants, cuts jobs",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/73-old-beef-producer-shuts-023300985.html",
+      "published": "2026-06-17T02:33:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Mark Cuban has a blunt response to Coinbase CEO",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/mark-cuban-blunt-response-coinbase-215801475.html",
-      "published": "2026-06-16T21:58:01Z"
+      "title": "PE firms want software deals, but lenders don't want to fund them",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/pe-firms-want-software-deals-235746423.html",
+      "published": "2026-06-16T23:57:46Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Hyperscaler’s Multiyear Commitment with Western Digital (WDC) Highlights Robust Demand",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/hyperscaler-multiyear-commitment-western-digital-145523194.html",
-      "published": "2026-06-16T14:55:23Z"
+      "title": "Coinbase Joins Tokenized Stock Race With Onchain Shares and Dividends",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/coinbase-joins-tokenized-stock-race-005300869.html",
+      "published": "2026-06-17T00:53:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Why Grok Could Be a Reason to Stay Away from the SpaceX IPO",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-grok-could-reason-stay-144953545.html",
-      "published": "2026-06-16T14:49:53Z"
+      "title": "The Smartest Way to Play the AI Boom in 2026",
+      "url": "https://finance.yahoo.com/technology/ai/articles/smartest-way-play-ai-boom-000000659.html",
+      "published": "2026-06-17T00:00:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Here’s What Boosted Lumentum Holdings (LITE) in Q1",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-inclusion-boosted-lumentum-145024414.html",
-      "published": "2026-06-16T14:50:24Z"
+      "title": "Santos Appoints Former Quadrant Energy Chair Kate Vidgen to Board",
+      "url": "https://finance.yahoo.com/energy/articles/santos-appoints-former-quadrant-energy-005839237.html",
+      "published": "2026-06-17T00:58:39Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Strong Results Lifted Applied Materials (AMAT) in Q1",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/strong-results-lifted-applied-materials-144639918.html",
-      "published": "2026-06-16T14:46:39Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Why I Can’t Stop Buying This Cash-Rich Stock After a Massive $145 Billion AI Shift",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-t-stop-buying-cash-145500668.html",
-      "published": "2026-06-16T14:55:00Z"
+      "title": "Grocery chain pays massive fine, accused of inflated price reporting",
+      "url": "https://finance.yahoo.com/healthcare/articles/grocery-chain-pays-massive-fine-231700048.html",
+      "published": "2026-06-17T23:17:00Z"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Warren Buffett’s mentor said his wealth came down to luck. Is your life savings riding on a coin flip?",
-      "url": "https://www.marketwatch.com/story/warren-buffetts-mentor-said-his-wealth-came-down-to-luck-is-your-life-savings-riding-on-a-coin-flip-2498c60c?mod=mw_rss_topstories",
-      "published": "Wed, 17 Jun 2026 22:48:00 GMT"
+      "title": "Is the stock market open tomorrow for Juneteenth? Will the post office deliver mail?",
+      "url": "https://www.marketwatch.com/story/is-the-stock-market-open-on-juneteenth-will-the-post-office-deliver-mail-0569e453?mod=mw_rss_topstories",
+      "published": "Thu, 18 Jun 2026 11:22:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Kevin Warsh launches his push to change how the Fed operates",
-      "url": "https://www.marketwatch.com/story/warsh-launches-his-push-to-change-how-the-fed-operates-3ddd9b90?mod=mw_rss_topstories",
-      "published": "Wed, 17 Jun 2026 22:44:00 GMT"
+      "title": "Gasoline prices just fell below $4 per gallon — by the smallest possible amount",
+      "url": "https://www.marketwatch.com/story/gasoline-prices-just-fell-below-4-per-gallon-by-the-smallest-possible-amount-50df2d45?mod=mw_rss_topstories",
+      "published": "Thu, 18 Jun 2026 10:57:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "It’s ‘unavoidable’: Apple says it will be forced to raise prices due to the AI boom",
-      "url": "https://www.marketwatch.com/story/its-unavoidable-apple-says-it-will-be-forced-to-raise-prices-due-to-the-ai-boom-e3d1e4c4?mod=mw_rss_topstories",
-      "published": "Wed, 17 Jun 2026 22:01:00 GMT"
+      "title": "The next two weeks could be a bumpy ride for U.S. stocks. Buy any dip, this strategist says.",
+      "url": "https://www.marketwatch.com/story/the-next-two-weeks-could-bring-a-bumpy-ride-for-u-s-stocks-buy-any-dip-says-this-strategist-215d5595?mod=mw_rss_topstories",
+      "published": "Thu, 18 Jun 2026 10:46:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Stock-market pessimists have one less reason to worry as shares of banks and retailers perk up",
-      "url": "https://www.marketwatch.com/story/stock-market-pessimists-have-one-less-reason-to-worry-as-shares-of-banks-and-retailers-perk-up-12d749b8?mod=mw_rss_topstories",
-      "published": "Wed, 17 Jun 2026 21:54:00 GMT"
+      "title": "Warsh wants to listen to markets more. Morgan Stanley says markets may regret it.",
+      "url": "https://www.marketwatch.com/story/warsh-wants-to-listen-to-markets-more-morgan-stanley-says-markets-may-regret-it-ab356f90?mod=mw_rss_topstories",
+      "published": "Thu, 18 Jun 2026 10:08:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "The Fed just threw investors a curveball. Here’s how stocks, bonds, gold and the dollar reacted.",
-      "url": "https://www.marketwatch.com/story/the-fed-threw-investors-a-curve-ball-on-wednesday-heres-how-stocks-bonds-gold-and-the-dollar-reacted-d0e1e3c0?mod=mw_rss_topstories",
-      "published": "Wed, 17 Jun 2026 21:38:00 GMT"
+      "title": "‘We own our home outright’: I am 67 and earn $100,000. Do I take my $30,000-a-year Social Security now or wait?",
+      "url": "https://www.marketwatch.com/story/we-own-our-home-outright-i-am-67-and-earn-100-000-do-i-take-my-30-000-social-security-now-or-wait-bbe1e123?mod=mw_rss_topstories",
+      "published": "Thu, 18 Jun 2026 10:00:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "SpaceX adds a third ‘PayPal Mafia’ member to its board",
-      "url": "https://www.marketwatch.com/story/spacex-adds-a-third-paypal-mafia-member-to-its-board-f8e4d122?mod=mw_rss_topstories",
-      "published": "Wed, 17 Jun 2026 21:37:00 GMT"
+      "title": "Here’s the link between Apple’s ‘unavoidable’ price hikes and all-time highs for emerging markets",
+      "url": "https://www.marketwatch.com/story/heres-the-link-between-apples-unavoidable-price-hikes-and-all-time-highs-for-emerging-markets-fcada221?mod=mw_rss_topstories",
+      "published": "Thu, 18 Jun 2026 09:38:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Creative Media & Community Trust issues shares for preferred stock redemptions",
-      "url": "https://www.investing.com/news/sec-filings/creative-media--community-trust-issues-shares-for-preferred-stock-redemptions-93CH-4748675",
-      "published": "2026-06-17 22:38:19"
+      "title": "Exclusive: Lite Strategy leads $1m investment in Litecoin Layer 2 platform LitVM",
+      "url": "https://www.investing.com/news/stock-market-news/exclusive-lite-strategy-leads-1m-investment-in-litecoin-layer-2-platform-litvm-4749551",
+      "published": "2026-06-18 11:15:13"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 4 Acres Commercial Realty Corp For: 17 June",
-      "url": "https://www.investing.com/news/filings/form-4-acres-commercial-realty-corp-for-17-june-93CH-4748674",
-      "published": "2026-06-17 22:38:08"
+      "title": "Beam Therapeutics gets FDA clearance for PKU gene therapy trial",
+      "url": "https://www.investing.com/news/company-news/beam-therapeutics-gets-fda-clearance-for-pku-gene-therapy-trial-93CH-4749550",
+      "published": "2026-06-18 11:14:18"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 4 Sempra Energy For: 17 June",
-      "url": "https://www.investing.com/news/filings/form-4-sempra-energy-for-17-june-93CH-4748673",
-      "published": "2026-06-17 22:38:02"
+      "title": "Bitdeer reports 370% jump in bitcoin production for May",
+      "url": "https://www.investing.com/news/company-news/bitdeer-reports-370-jump-in-bitcoin-production-for-may-93CH-4749549",
+      "published": "2026-06-18 11:14:16"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 4 Apple Inc For: 17 June",
-      "url": "https://www.investing.com/news/filings/form-4-apple-inc-for-17-june-93CH-4748672",
-      "published": "2026-06-17 22:37:43"
+      "title": "CervoMed receives patent allowance for dementia treatment",
+      "url": "https://www.investing.com/news/company-news/cervomed-receives-patent-allowance-for-dementia-treatment-93CH-4749548",
+      "published": "2026-06-18 11:14:15"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 4 Hershey Co For: 17 June",
-      "url": "https://www.investing.com/news/filings/form-4-hershey-co-for-17-june-93CH-4748671",
-      "published": "2026-06-17 22:35:40"
+      "title": "AIRO unveils RQ-70 surveillance drone at Paris defense show",
+      "url": "https://www.investing.com/news/company-news/airo-unveils-rq70-surveillance-drone-at-paris-defense-show-93CH-4749547",
+      "published": "2026-06-18 11:14:12"
     },
     {
       "source": "Investing.com News",
-      "title": "Eagle Point sells $145,753 in Acres Commercial Realty preferred stock",
-      "url": "https://www.investing.com/news/insider-trading-news/eagle-point-sells-145753-in-acres-commercial-realty-preferred-stock-93CH-4748670",
-      "published": "2026-06-17 22:34:14"
+      "title": "Chicago Atlantic REFI to merge with LIEN in all-stock deal",
+      "url": "https://www.investing.com/news/company-news/chicago-atlantic-refi-to-merge-with-lien-in-allstock-deal-93CH-4749546",
+      "published": "2026-06-18 11:14:11"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Yen Slides to Weakest Level Versus Dollar Since July 2024",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-17/yen-slides-to-weakest-level-versus-dollar-since-july-2024-mqih9kot",
-      "published": "Wed, 17 Jun 2026 19:42:20 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Pimco Favors Australian Bonds, Betting on Rate Cuts Next Year",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-17/pimco-favors-australian-bonds-betting-on-rate-cuts-next-year",
-      "published": "Wed, 17 Jun 2026 22:31:28 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Warsh Rocks Bond Market in Debut, Sparks Surge in Rate-Hike Bets",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-17/warsh-rocks-bond-market-in-debut-sparks-surge-in-rate-hike-bets",
-      "published": "Wed, 17 Jun 2026 22:17:32 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Asian Stocks, Bonds to Fall on Hawkish Fed Signals: Markets Wrap",
+      "title": "Stocks Rise, Oil Slides After Trump Inks Iran Deal: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-06-17/asian-stocks-bonds-to-fall-on-hawkish-fed-signals-markets-wrap",
       "published": "Wed, 17 Jun 2026 22:11:45 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Highlights From Fed Chair Warsh’s First News Conference",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-17/highlights-from-fed-chair-warsh-s-first-news-conference-video",
-      "published": "Wed, 17 Jun 2026 22:09:16 GMT"
+      "title": "BOE Holds Rates, Citing 'Encouraging' Fall in Oil Price",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-18/boe-holds-rates-citing-encouraging-fall-in-oil-price-video",
+      "published": "Thu, 18 Jun 2026 11:17:20 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Crude Oil Edges Lower as Deal to Reopen Hormuz Goes Into Effect",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-17/latest-oil-market-news-and-analysis-for-june-18",
-      "published": "Wed, 17 Jun 2026 22:03:01 GMT"
+      "title": "Brazil Police Target Lula Ally in Banco Master Probe",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-18/brazil-police-target-lula-ally-in-banco-master-probe",
+      "published": "Thu, 18 Jun 2026 11:16:29 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "US Gasoline Prices Fall Below $4 as Iran Pressure Eases",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-18/us-gasoline-prices-fall-below-4-a-gallon-as-iran-strain-eases",
+      "published": "Thu, 18 Jun 2026 07:44:47 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "US-Iran Interim Deal Takes Effect | The Pulse 06/18/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-18/the-pulse-6-18-2026-video",
+      "published": "Thu, 18 Jun 2026 11:07:46 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Bank of England Keeps Key Interest Rate at 3.75%",
+      "url": "https://www.bloomberg.com/news/live-blog/2026-06-18/ftse-100-live-boe-rate-decision-bailey-pound-gilts-jobs-data-trump-iran-oil-priceswhat-s-moving-uk-markets-right-now-markets-today",
+      "published": "Thu, 18 Jun 2026 05:43:12 GMT"
     }
   ],
   "summary": {
