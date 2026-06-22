@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-06-22 07:42 KST",
+  "as_of_kst": "2026-06-22 22:11 KST",
   "as_of_date": "2026-06-22",
   "as_of_weekday": "MON",
-  "build_unix": 1782081760,
+  "build_unix": 1782133915,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 9052.42,
-      "change": -11.42,
-      "change_pct": -0.13,
+      "price": 9114.55,
+      "change": 62.13,
+      "change_pct": 0.69,
       "spark": [
-        8545.98,
         8726.6,
         8864.24,
         9063.84,
-        9052.42
+        9052.42,
+        9114.55
       ],
-      "as_of": "2026-06-19"
+      "as_of": "2026-06-22"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 71250.06,
-      "change": 196.57,
-      "change_pct": 0.28,
+      "price": 72353.96,
+      "change": 1103.9,
+      "change_pct": 1.55,
       "spark": [
-        69317.5,
         69404.5,
         69902.25,
         71053.49,
-        71250.06
+        71250.06,
+        72353.96
       ],
-      "as_of": "2026-06-19"
+      "as_of": "2026-06-22"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 23924.81,
-      "change": -387.35,
-      "change_pct": -1.59,
+      "price": 23768.52,
+      "change": -156.29,
+      "change_pct": -0.65,
       "spark": [
-        24718.1,
         24842.67,
         24493.95,
         24312.16,
-        23924.81
+        23924.81,
+        23768.52
       ],
-      "as_of": "2026-06-18"
+      "as_of": "2026-06-22"
     },
     "csi300": {
       "key": "csi300",
@@ -118,17 +118,17 @@
       "name": "CSI 300",
       "region": "CHINA",
       "kind": "broad",
-      "price": 4941.6,
-      "change": 10.21,
-      "change_pct": 0.21,
+      "price": 5059.66,
+      "change": 118.06,
+      "change_pct": 2.39,
       "spark": [
-        4777.32,
         4891.71,
         4884.23,
         4931.39,
-        4941.6
+        4941.6,
+        5059.66
       ],
-      "as_of": "2026-06-18"
+      "as_of": "2026-06-22"
     },
     "ftse": {
       "key": "ftse",
@@ -136,17 +136,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10363.3,
-      "change": -36.4,
-      "change_pct": -0.35,
+      "price": 10423.86,
+      "change": 60.56,
+      "change_pct": 0.58,
       "spark": [
-        10430.6,
         10494.2,
         10508.6,
         10399.7,
-        10363.3
+        10363.3,
+        10423.86
       ],
-      "as_of": "2026-06-19"
+      "as_of": "2026-06-22"
     },
     "dax": {
       "key": "dax",
@@ -154,50 +154,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 24985.82,
-      "change": -40.98,
-      "change_pct": -0.16,
+      "price": 25029.57,
+      "change": 43.75,
+      "change_pct": 0.18,
       "spark": [
-        24894.01,
         24910.41,
         24934.67,
         25026.8,
-        24985.82
+        24985.82,
+        25029.57
       ],
-      "as_of": "2026-06-19"
+      "as_of": "2026-06-22"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1529.1,
+      "rate": 1536.8199,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 161.43,
+      "rate": 161.75,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1465,
+      "rate": 1.1448,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7681,
+      "rate": 6.7639,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 100.84,
-      "change": -0.01,
-      "change_pct": -0.01,
+      "rate": 100.97,
+      "change": 0.12,
+      "change_pct": 0.12,
       "kind": "index"
     }
   },
@@ -207,48 +207,66 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 77.49,
-      "change": 0.89,
-      "change_pct": 1.16
+      "price": 74.76,
+      "change": -1.84,
+      "change_pct": -2.4
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4171.2,
-      "change": -52.9,
-      "change_pct": -1.25
+      "price": 4210.8,
+      "change": -13.3,
+      "change_pct": -0.31
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 63584.89,
-      "change": -654.79,
-      "change_pct": -1.02
+      "price": 65072.54,
+      "change": 1835.0,
+      "change_pct": 2.9
     },
     "ust10y": {
       "key": "ust10y",
       "symbol": "^TNX",
       "name": "10Y UST Yield",
       "unit": "%",
-      "price": 4.45,
-      "change": -0.01,
-      "change_pct": -0.27
+      "price": 4.49,
+      "change": 0.04,
+      "change_pct": 0.94
     },
     "vix": {
       "key": "vix",
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 16.4,
-      "change": -2.04,
-      "change_pct": -11.06
+      "price": 17.06,
+      "change": 0.66,
+      "change_pct": 4.02
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "This AI connectivity play nearly doubled in 2026. Evercore ISI says it has more room to run",
+      "url": "https://www.cnbc.com/2026/06/22/credo-technology-nearly-doubled-in-2026-evercore-isi-says-gains-ahead.html",
+      "published": "Mon, 22 Jun 2026 12:00:26 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "This chip equipment giant has outperformed in 2026. Bank of America sees even more gains",
+      "url": "https://www.cnbc.com/2026/06/22/this-chip-equipment-giant-has-outperformed-in-2026-bank-of-america-sees-even-more-gains.html",
+      "published": "Mon, 22 Jun 2026 11:21:27 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "This oil and gas stock has been under pressure. Wells Fargo says it can jump more than 50%",
+      "url": "https://www.cnbc.com/2026/06/22/this-oil-and-gas-stock-has-struggled-wells-fargo-says-it-may-bounce.html",
+      "published": "Mon, 22 Jun 2026 10:48:06 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Top Wall Street analysts like these 3 dividend stocks for solid returns",
@@ -268,166 +286,148 @@
       "published": "Sat, 20 Jun 2026 11:04:17 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "Here are the most overbought and oversold names after a volatile week",
-      "url": "https://www.cnbc.com/2026/06/19/here-are-the-most-overbought-and-oversold-names-after-a-volatile-week.html",
-      "published": "Fri, 19 Jun 2026 12:37:20 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "This nuclear stock will benefit from AI datacenter buildout and soaring energy demand, Roth Capital says",
-      "url": "https://www.cnbc.com/2026/06/19/nano-nuclear-may-benefit-from-ai-rising-energy-demand-roth-capital-says.html",
-      "published": "Fri, 19 Jun 2026 12:41:22 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "The average SpaceX buyer post-IPO is almost under water after two-day slide",
-      "url": "https://www.cnbc.com/2026/06/18/the-average-spacex-buyer-post-ipo-is-almost-under-water-after-two-day-slide.html",
-      "published": "Thu, 18 Jun 2026 20:10:47 GMT"
+      "source": "Yahoo Finance",
+      "title": "After closing 1,000 restaurants, seafood chain sees clear sailing",
+      "url": "https://finance.yahoo.com/small-business/articles/closing-1-000-restaurants-seafood-011700497.html",
+      "published": "2026-06-22T01:17:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "A Blood Test That Screens for 50+ Cancers Just Moved Closer to Real-World Use. Here's What It Means for Grail Investors.",
-      "url": "https://finance.yahoo.com/healthcare/articles/blood-test-screens-50-cancers-222500261.html",
-      "published": "2026-06-21T22:25:00Z"
+      "title": "Silver prices today, Monday, June 22, 2026: Silver prices rebound to Friday levels",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-monday-june-22-2026-silver-prices-rebound-to-friday-levels-125923781.html",
+      "published": "2026-06-22T12:59:23Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Hormuz Crisis Sparks a Middle East Pipeline Boom",
-      "url": "https://finance.yahoo.com/energy/articles/hormuz-crisis-sparks-middle-east-210000952.html",
-      "published": "2026-06-21T21:00:00Z"
+      "title": "Stock market today: S&P 500, Nasdaq, Dow futures muted with peace talks, AI demand in focus",
+      "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-june-22-225817825.html",
+      "published": "2026-06-21T22:58:17Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "She tried to cancel her gym membership but no one was there — now a billing company won't stop charging her",
-      "url": "https://finance.yahoo.com/small-business/articles/she-tried-cancel-her-gym-180000461.html",
-      "published": "2026-06-21T18:00:00Z"
+      "title": "Micron stock surges amid memory trade boom",
+      "url": "https://finance.yahoo.com/markets/article/micron-stock-surges-amid-memory-trade-boom-125205263.html",
+      "published": "2026-06-22T12:52:05Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Jim Cramer on CrowdStrike (CRWD): “I Think the Second Half of the Year is Going to Be Really Good”",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-crowdstrike-crwd-think-175047227.html",
-      "published": "2026-06-21T17:50:47Z"
+      "title": "Robinhood’s (HOOD) Workforce Cut Raised Eyebrows But Wall Street Is Focusing on Something Else",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/robinhood-hood-workforce-cut-raised-125048685.html",
+      "published": "2026-06-22T12:50:48Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Jim Cramer Says Ingredion (INGR) Will Become an Ingredient Powerhouse After Tate & Lyle Deal",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-ingredion-become-132812181.html",
-      "published": "2026-06-21T17:49:12Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Morningstar Says SpaceX Could Be Worth Less Than Half Its $1.75 Trillion IPO Price",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/morningstar-says-spacex-could-worth-222207699.html",
-      "published": "2026-06-21T22:22:07Z"
+      "title": "Analyst Report: Illinois Tool Works Inc",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_3094_AnalystReport_1782125786000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-06-22T10:56:26Z"
     },
     {
       "source": "MarketWatch Top",
-      "title": "The loneliness crisis has gotten so bad that lawmakers are ready to spend millions of dollars to fight it",
-      "url": "https://www.marketwatch.com/story/the-loneliness-crisis-has-gotten-so-bad-that-lawmakers-are-ready-to-spend-millions-of-dollars-to-fight-it-f7e7c7b7?mod=mw_rss_topstories",
-      "published": "Sun, 21 Jun 2026 21:22:00 GMT"
+      "title": "Former Federal Reserve chairman Alan Greenspan dies at 100",
+      "url": "https://www.marketwatch.com/story/former-federal-reserve-chairman-alan-greenspan-dies-a7a4030d?mod=mw_rss_topstories",
+      "published": "Mon, 22 Jun 2026 12:44:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "‘Money can make you happy’: My wife and I have no heirs, but we’re making the world a better place by giving it away",
+      "url": "https://www.marketwatch.com/story/money-can-make-you-happy-my-wife-and-i-have-no-heirs-but-were-making-the-world-a-better-place-by-giving-it-away-f61fad98?mod=mw_rss_topstories",
+      "published": "Mon, 22 Jun 2026 12:30:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Trump ‘jawboning’ has masked a global oil-supply disaster, and the reality could mean $135 crude, says industry veteran",
+      "url": "https://www.marketwatch.com/story/trump-jawboning-has-masked-a-global-oil-supply-disaster-and-the-reality-could-mean-135-crude-says-industry-veteran-9b0bb52b?mod=mw_rss_topstories",
+      "published": "Mon, 22 Jun 2026 12:26:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "The secret to wellness is simple: Eat this breakfast and work out at the right time",
+      "url": "https://www.marketwatch.com/story/the-secret-to-wellness-is-simple-eat-this-breakfast-and-work-out-at-the-right-time-43c696b9?mod=mw_rss_topstories",
+      "published": "Mon, 22 Jun 2026 12:16:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "China’s new economic drivers: a sad toy elf and a robot police force",
+      "url": "https://www.marketwatch.com/story/chinas-new-economic-drivers-a-sad-toy-elf-and-a-robot-police-force-8759daf9?mod=mw_rss_topstories",
+      "published": "Mon, 22 Jun 2026 12:09:00 GMT"
     },
     {
       "source": "MarketWatch Top",
       "title": "‘I’ll probably be working until I die’: I’m 60, work as a waiter and have $2,000 in a Roth IRA. What will happen to me?",
       "url": "https://www.marketwatch.com/story/ill-probably-be-working-until-i-die-im-60-work-as-a-restaurant-server-and-have-2-000-in-an-ira-who-can-help-me-6e36253a?mod=mw_rss_topstories",
-      "published": "Sun, 21 Jun 2026 20:00:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "I’m spending $170,000 to upgrade my home for my aging parents. Can I get tax breaks?",
-      "url": "https://www.marketwatch.com/story/im-spending-170-000-to-upgrade-my-home-for-my-aging-parents-can-i-get-tax-breaks-3adf0236?mod=mw_rss_topstories",
-      "published": "Sun, 21 Jun 2026 19:00:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "My mother was co-owner of my late grandmother’s bank account. Should she share the money with her siblings?",
-      "url": "https://www.marketwatch.com/story/my-mother-was-co-owner-of-my-late-grandmothers-bank-account-should-she-share-the-money-with-her-siblings-e54ed4df?mod=mw_rss_topstories",
-      "published": "Sun, 21 Jun 2026 16:59:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "‘We own our home outright’: I am 67 and earn $100,000. Do I take my $30,000-a-year Social Security now or wait?",
-      "url": "https://www.marketwatch.com/story/we-own-our-home-outright-i-am-67-and-earn-100-000-do-i-take-my-30-000-social-security-now-or-wait-bbe1e123?mod=mw_rss_topstories",
-      "published": "Sun, 21 Jun 2026 15:01:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "My two sons will inherit a $30,000 annuity from their grandmother. What should I do with the money?",
-      "url": "https://www.marketwatch.com/story/my-two-sons-will-inherit-a-30-000-annuity-from-their-grandmother-what-should-i-do-with-the-money-8882f396?mod=mw_rss_topstories",
-      "published": "Sun, 21 Jun 2026 14:00:00 GMT"
+      "published": "Mon, 22 Jun 2026 12:07:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Bolivia crisis begins easing, air force jet on assistance flight crashes",
-      "url": "https://www.investing.com/news/economy-news/bolivia-crisis-begins-to-ease-after-lawmakers-back-state-of-emergency-4751671",
-      "published": "2026-06-21 22:24:35"
+      "title": "InterCure secures $7.4M funding commitment, may rise to $18.6M",
+      "url": "https://www.investing.com/news/company-news/intercure-secures-74m-funding-commitment-may-rise-to-186m-93CH-4752759",
+      "published": "2026-06-22 12:57:45"
     },
     {
       "source": "Investing.com News",
-      "title": "Brent oil rises more than $1/bbl after bumpy start to US-Iran peace talks",
-      "url": "https://www.investing.com/news/commodities-news/brent-oil-rises-more-than-1bbl-after-bumpy-start-to-usiran-peace-talks-4751687",
-      "published": "2026-06-21 22:18:29"
+      "title": "Ondas stock rises on $40M defense orders in June",
+      "url": "https://www.investing.com/news/stock-market-news/ondas-stock-rises-on-40m-defense-orders-in-june-93CH-4752758",
+      "published": "2026-06-22 12:56:50"
     },
     {
       "source": "Investing.com News",
-      "title": "UK’s Starmer considers political future, could decide as soon as Monday",
-      "url": "https://www.investing.com/news/world-news/uk-business-minister-says-he-has-no-reason-to-think-pm-starmer-will-resign-on-monday-4751658",
-      "published": "2026-06-21 22:12:28"
+      "title": "Alan Greenspan, US Fed ’maestro’ through years of boom and bust, dies at 100",
+      "url": "https://www.investing.com/news/economy-news/alan-greenspan-economist-and-longtime-head-of-the-federal-reserve-dies-at-100-nbc-news-reports-4752313",
+      "published": "2026-06-22 12:56:02"
     },
     {
       "source": "Investing.com News",
-      "title": "Russia stocks lower at close of trade; MOEX Russia Index unchanged",
-      "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-unchanged-4751686",
-      "published": "2026-06-21 21:20:03"
+      "title": "Goldman Sachs says EV surge may cut oil demand by late 2027",
+      "url": "https://www.investing.com/news/economy-news/goldman-sachs-says-ev-surge-may-cut-oil-demand-by-late-2027-4752734",
+      "published": "2026-06-22 12:55:39"
     },
     {
       "source": "Investing.com News",
-      "title": "MoonLake reports phase 3 hidradenitis suppurativa trial results",
-      "url": "https://www.investing.com/news/company-news/moonlake-reports-phase-3-hidradenitis-suppurativa-trial-results-93CH-4751685",
-      "published": "2026-06-21 21:05:37"
+      "title": "Uber-backed Lime seeks up to $1.66 billion valuation in US IPO",
+      "url": "https://www.investing.com/news/stock-market-news/uberbacked-lime-aims-to-raise-up-to-1809-million-in-us-ipo-4752278",
+      "published": "2026-06-22 12:55:05"
     },
     {
       "source": "Investing.com News",
-      "title": "Definium to present phase 3 depression trial results Monday",
-      "url": "https://www.investing.com/news/company-news/definium-to-present-phase-3-depression-trial-results-monday-93CH-4751684",
-      "published": "2026-06-21 21:05:35"
+      "title": "York water co president & ceo Joseph Hand buys $738 in shares",
+      "url": "https://www.investing.com/news/insider-trading-news/york-water-co-president--ceo-joseph-hand-buys-738-in-shares-93CH-4752757",
+      "published": "2026-06-22 12:55:01"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Oil Climbs After Fresh Trump Threat as US-Iran Peace Talks Begin",
+      "title": "Lagarde Sees No Need for More Forceful ECB Response to War",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-22/lagarde-sees-no-need-for-more-forceful-ecb-response-to-iran-war",
+      "published": "Mon, 22 Jun 2026 13:00:00 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Mexico Is Tapping Global Debt Markets to Fund Bond Buyback",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-22/mexico-is-tapping-global-debt-markets-to-fund-bond-buyback",
+      "published": "Mon, 22 Jun 2026 12:51:04 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Europe Heat Wave Sends Power Prices Soaring as Alerts Spread",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-22/europe-s-heat-wave-intensifies-with-france-on-red-alert",
+      "published": "Mon, 22 Jun 2026 08:02:28 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Oil Declines After US-Iran Peace Talks Show Signs of Progress",
       "url": "https://www.bloomberg.com/news/articles/2026-06-21/latest-oil-market-news-and-analysis-for-june-22",
       "published": "Sun, 21 Jun 2026 22:02:25 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Colombia Right-Winger Wins Preliminary Count Questioned by Petro",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-21/trump-backed-conservative-leads-in-colombia-presidential-runoff",
-      "published": "Sun, 21 Jun 2026 21:49:29 GMT"
+      "title": "Bond Traders Plot Impact of Next UK Chancellor With Starmer Out",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-22/bond-traders-want-to-know-who-manages-the-money-with-starmer-out",
+      "published": "Mon, 22 Jun 2026 12:39:30 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "US Futures Slip, Oil Climbs on Renewed Iran Threat: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-21/us-futures-slip-oil-climbs-on-renewed-iran-threat-markets-wrap",
-      "published": "Sun, 21 Jun 2026 22:08:56 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Singapore Dollar Set to Gain Despite Hawkish Fed, Analysts Say",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-21/singapore-dollar-set-to-gain-despite-hawkish-fed-analysts-say",
-      "published": "Sun, 21 Jun 2026 22:00:00 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "【今朝の5本】仕事を始める前に読んでおきたい厳選ニュース",
-      "url": "https://www.bloomberg.com/jp/news/newsletters/2026-06-21/TH02G2RKV32600",
-      "published": "Sun, 21 Jun 2026 21:02:26 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Renault Pushback on Nissan Board Picks Targets Creditor Mizuho",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-21/renault-pushback-on-nissan-board-picks-targets-creditor-mizuho",
-      "published": "Sun, 21 Jun 2026 21:00:00 GMT"
+      "title": "RBC Says Stocks Can Weather Fed Hikes, But Not Too Many",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-22/rbc-says-stocks-can-weather-fed-hikes-but-not-too-many-video",
+      "published": "Mon, 22 Jun 2026 12:32:36 GMT"
     }
   ],
   "summary": {
