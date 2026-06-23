@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-06-23 08:01 KST",
+  "as_of_kst": "2026-06-23 19:46 KST",
   "as_of_date": "2026-06-23",
   "as_of_weekday": "TUE",
-  "build_unix": 1782169268,
+  "build_unix": 1782211607,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 9052.42,
-      "change": -11.42,
-      "change_pct": -0.13,
+      "price": 8203.84,
+      "change": -910.71,
+      "change_pct": -9.99,
       "spark": [
-        8545.98,
-        8726.6,
         8864.24,
         9063.84,
-        9052.42
+        9052.42,
+        9114.55,
+        8203.84
       ],
-      "as_of": "2026-06-19"
+      "as_of": "2026-06-23"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 71250.06,
-      "change": 196.57,
-      "change_pct": 0.28,
+      "price": 69788.38,
+      "change": -2565.58,
+      "change_pct": -3.55,
       "spark": [
-        69317.5,
-        69404.5,
         69902.25,
         71053.49,
-        71250.06
+        71250.06,
+        72353.96,
+        69788.38
       ],
-      "as_of": "2026-06-22"
+      "as_of": "2026-06-23"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 23924.81,
-      "change": -387.35,
-      "change_pct": -1.59,
+      "price": 23336.28,
+      "change": -432.24,
+      "change_pct": -1.82,
       "spark": [
-        24718.1,
-        24842.67,
         24493.95,
         24312.16,
-        23924.81
+        23924.81,
+        23768.52,
+        23336.28
       ],
-      "as_of": "2026-06-22"
+      "as_of": "2026-06-23"
     },
     "csi300": {
       "key": "csi300",
@@ -118,17 +118,17 @@
       "name": "CSI 300",
       "region": "CHINA",
       "kind": "broad",
-      "price": 4941.6,
-      "change": 10.21,
-      "change_pct": 0.21,
+      "price": 4919.39,
+      "change": -22.21,
+      "change_pct": -0.45,
       "spark": [
-        4777.32,
         4891.71,
         4884.23,
         4931.39,
-        4941.6
+        4941.6,
+        4919.39
       ],
-      "as_of": "2026-06-22"
+      "as_of": "2026-06-23"
     },
     "ftse": {
       "key": "ftse",
@@ -136,17 +136,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10363.3,
-      "change": -36.4,
-      "change_pct": -0.35,
+      "price": 10406.77,
+      "change": -31.13,
+      "change_pct": -0.3,
       "spark": [
-        10430.6,
-        10494.2,
         10508.6,
         10399.7,
-        10363.3
+        10363.3,
+        10437.9,
+        10406.77
       ],
-      "as_of": "2026-06-22"
+      "as_of": "2026-06-23"
     },
     "dax": {
       "key": "dax",
@@ -154,50 +154,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 24985.82,
-      "change": -40.98,
-      "change_pct": -0.16,
+      "price": 24878.7,
+      "change": -260.99,
+      "change_pct": -1.04,
       "spark": [
-        24894.01,
-        24910.41,
         24934.67,
         25026.8,
-        24985.82
+        24985.82,
+        25139.69,
+        24878.7
       ],
-      "as_of": "2026-06-22"
+      "as_of": "2026-06-23"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1531.33,
+      "rate": 1535.76,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 161.56,
+      "rate": 161.43,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1431,
+      "rate": 1.1408,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7686,
+      "rate": 6.7834,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 101.0,
+      "rate": 101.17,
       "change": 0.15,
-      "change_pct": 0.14,
+      "change_pct": 0.15,
       "kind": "index"
     }
   },
@@ -207,48 +207,54 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 74.29,
-      "change": -2.31,
-      "change_pct": -3.02
+      "price": 73.73,
+      "change": -1.09,
+      "change_pct": -1.46
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4207.4,
-      "change": -16.7,
-      "change_pct": -0.4
+      "price": 4146.1,
+      "change": -35.8,
+      "change_pct": -0.86
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 63874.41,
-      "change": 636.87,
-      "change_pct": 1.01
+      "price": 62184.23,
+      "change": -1767.88,
+      "change_pct": -2.76
     },
     "ust10y": {
       "key": "ust10y",
       "symbol": "^TNX",
       "name": "10Y UST Yield",
       "unit": "%",
-      "price": 4.51,
-      "change": 0.06,
-      "change_pct": 1.3
+      "price": 4.45,
+      "change": -0.01,
+      "change_pct": -0.27
     },
     "vix": {
       "key": "vix",
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 17.28,
-      "change": 0.88,
-      "change_pct": 5.37
+      "price": 19.83,
+      "change": 2.55,
+      "change_pct": 14.76
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Buy IBM as investors underappreciate the strength of its software business, says JPMorgan",
+      "url": "https://www.cnbc.com/2026/06/23/buy-ibm-as-investors-underappreciate-the-strength-of-its-software-business-says-jpmorgan.html",
+      "published": "Tue, 23 Jun 2026 10:36:27 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Tuesday's big stock stories: What’s likely to move the market in the next trading session",
@@ -280,12 +286,6 @@
       "published": "Mon, 22 Jun 2026 17:54:14 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "Micron earnings and inflation data: What Jay Woods is watching this week",
-      "url": "https://www.cnbc.com/2026/06/22/micron-earnings-and-inflation-data-what-jay-woods-is-watching-this-week.html",
-      "published": "Mon, 22 Jun 2026 16:47:03 GMT"
-    },
-    {
       "source": "Yahoo Finance",
       "title": "Fast-food seafood chain closed over 900 stores, mounts comeback",
       "url": "https://finance.yahoo.com/small-business/articles/closing-1-000-restaurants-seafood-011700497.html",
@@ -299,135 +299,135 @@
     },
     {
       "source": "Yahoo Finance",
-      "title": "Adyen Is Betting Big on Agentic AI. The Rally Could Just Be Getting Started.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/adyen-betting-big-agentic-ai-140002576.html",
-      "published": "2026-06-21T14:00:02Z"
+      "title": "Your country's World Cup loss could tank your portfolio the next morning — and a win wouldn't bring it back",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/countrys-world-cup-loss-could-103000018.html",
+      "published": "2026-06-23T10:30:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Oracle Stock Tumbles on Higher Capex and Equity Raise - Shorting ORCL Puts Works",
-      "url": "https://finance.yahoo.com/markets/options/articles/oracle-stock-tumbles-higher-capex-140002312.html",
-      "published": "2026-06-21T14:00:02Z"
+      "title": "Stock market today: Nasdaq, S&P 500 futures dive as global chip sell-off spurs AI doubts",
+      "url": "https://finance.yahoo.com/economy/live/stock-market-today-nasdaq-sp-500-futures-dive-as-global-chip-sell-off-spurs-ai-doubts-230258084.html",
+      "published": "2026-06-22T23:02:58Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Is Atkore Inc. (ATKR) A Good Stock To Buy Now?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/atkore-inc-atkr-good-stock-143535537.html",
-      "published": "2026-06-21T14:35:35Z"
+      "title": "Oil prices fall as investors focus on Hormuz flows after peace talks",
+      "url": "https://finance.yahoo.com/news/oil-gains-selloff-awaits-progress-003527539.html",
+      "published": "2026-06-23T10:08:57Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Analyst Report: UWM Holdings Corp",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_5978_AnalystReport_1782146332000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "published": "2026-06-22T16:38:52Z"
+      "title": "Explainer-What are the Fed's bank 'stress tests' and what's new this year?",
+      "url": "https://finance.yahoo.com/economy/policy/articles/explainer-feds-bank-stress-tests-100627391.html",
+      "published": "2026-06-23T10:06:27Z"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Trump may say he’s banning Wall Street from buying homes. Does the bipartisan housing bill actually do that?",
-      "url": "https://www.marketwatch.com/story/trump-may-say-hes-banning-wall-street-from-buying-homes-does-the-bipartisan-housing-bill-actually-do-that-14c8ee5f?mod=mw_rss_topstories",
-      "published": "Mon, 22 Jun 2026 22:47:00 GMT"
+      "title": "‘It feels like a medical miracle’: How did a single QR code coupon cut my $618 Walgreens prescription to $15?",
+      "url": "https://www.marketwatch.com/story/it-feels-like-a-medical-miracle-how-did-a-single-qr-code-coupon-cut-my-618-walgreens-prescription-to-15-524a1151?mod=mw_rss_topstories",
+      "published": "Tue, 23 Jun 2026 10:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Big Tech has split into two artificial-intelligence camps — but the smart money isn’t chasing the next OpenAI",
-      "url": "https://www.marketwatch.com/story/big-tech-is-splitting-into-two-artificial-intelligence-camps-here-is-the-better-bet-e75c9876?mod=mw_rss_topstories",
-      "published": "Mon, 22 Jun 2026 22:21:00 GMT"
+      "title": "The AI market has become a ‘rubber band’ — the question now is how far it can stretch, says Goldman strategist",
+      "url": "https://www.marketwatch.com/story/the-ai-market-has-become-a-rubber-band-the-question-now-is-how-far-it-can-stretch-says-goldman-strategist-70ed46b7?mod=mw_rss_topstories",
+      "published": "Tue, 23 Jun 2026 09:50:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "A 40% market crash is lurking in the IPO pipeline. SpaceX and OpenAI could trigger it.",
-      "url": "https://www.marketwatch.com/story/a-40-market-crash-is-lurking-in-the-ipo-pipeline-spacex-and-openai-could-trigger-it-64ae4026?mod=mw_rss_topstories",
-      "published": "Mon, 22 Jun 2026 22:18:00 GMT"
+      "title": "I want to leave everything to my sons, but I’m terrified they’ll give it to my ex-husband. How do I prevent this?",
+      "url": "https://www.marketwatch.com/story/i-want-to-leave-everything-to-my-sons-but-im-terrified-theyll-give-it-to-my-ex-husband-how-do-i-prevent-this-8cfc752c?mod=mw_rss_topstories",
+      "published": "Tue, 23 Jun 2026 09:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "China’s weird new economic spark: toy elves and robocops",
-      "url": "https://www.marketwatch.com/story/chinas-new-economic-drivers-a-sad-toy-elf-and-a-robot-police-force-8759daf9?mod=mw_rss_topstories",
-      "published": "Mon, 22 Jun 2026 22:14:00 GMT"
+      "title": "This billionaire trading tycoon argues the public is looking at federal debt all wrong",
+      "url": "https://www.marketwatch.com/story/this-billionaire-trading-tycoon-argues-the-public-is-looking-at-federal-debt-all-wrong-7df0467d?mod=mw_rss_topstories",
+      "published": "Tue, 23 Jun 2026 09:10:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Wall Street loves growth stocks — but these 10 ‘losers’ are primed to win",
-      "url": "https://www.marketwatch.com/story/wall-street-loves-growth-stocks-but-these-10-losers-are-primed-to-win-0202e491?mod=mw_rss_topstories",
-      "published": "Mon, 22 Jun 2026 22:05:00 GMT"
+      "title": "Meg Ryan lists $15.3 million Hamptons retreat in ‘coveted location’",
+      "url": "https://www.marketwatch.com/story/meg-ryan-lists-15-3-million-hamptons-retreat-in-coveted-location-1cf8dcc3?mod=mw_rss_topstories",
+      "published": "Tue, 23 Jun 2026 09:02:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Caterpillar’s stock hits a milestone as AI-fueled industrials rally sweeps up Wall Street",
-      "url": "https://www.marketwatch.com/story/caterpillars-stock-hits-a-milestone-as-roaring-industrials-rally-sweeps-up-wall-street-391057f7?mod=mw_rss_topstories",
-      "published": "Mon, 22 Jun 2026 21:50:00 GMT"
+      "title": "Dolly Parton’s former hideaway in the quaint town of Solvang is listed for $2 million, complete with windmill",
+      "url": "https://www.marketwatch.com/story/dolly-partons-former-hideaway-in-the-quaint-town-of-solvang-is-listed-for-2-million-complete-with-windmill-093c877f?mod=mw_rss_topstories",
+      "published": "Tue, 23 Jun 2026 08:59:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Ukraine’s Kyiv issues air raid alert, authorities ask people to seek shelter",
-      "url": "https://www.investing.com/news/world-news/ukraines-kyiv-issues-air-raid-alert-authorities-ask-people-to-seek-shelter-4754316",
-      "published": "2026-06-22 22:42:10"
+      "title": "Teleflex begins enrollment in pivotal resorbable scaffold study",
+      "url": "https://www.investing.com/news/company-news/teleflex-begins-enrollment-in-pivotal-resorbable-scaffold-study-93CH-4755028",
+      "published": "2026-06-23 10:41:20"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 4 Dolphin Entertainment Inc For: 22 June",
-      "url": "https://www.investing.com/news/filings/form-4-dolphin-entertainment-inc-for-22-june-93CH-4754315",
-      "published": "2026-06-22 22:41:19"
+      "title": "Form 6K Autohome Inc ADR For: 23 June",
+      "url": "https://www.investing.com/news/filings/form-6k-autohome-inc-adr-for-23-june-93CH-4755026",
+      "published": "2026-06-23 10:41:01"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 4 Okta Inc For: 22 June",
-      "url": "https://www.investing.com/news/filings/form-4-okta-inc-for-22-june-93CH-4754314",
-      "published": "2026-06-22 22:39:16"
+      "title": "Viavi launches validation solution for AI data center networks",
+      "url": "https://www.investing.com/news/company-news/viavi-launches-validation-solution-for-ai-data-center-networks-93CH-4755025",
+      "published": "2026-06-23 10:40:44"
     },
     {
       "source": "Investing.com News",
-      "title": "Evolv Technologies shareholders approve director elections and executive pay",
-      "url": "https://www.investing.com/news/sec-filings/evolv-technologies-shareholders-approve-director-elections-and-executive-pay-93CH-4754313",
-      "published": "2026-06-22 22:38:57"
+      "title": "Oil subdued after logging sharp losses as traders assess Iran peace progress",
+      "url": "https://www.investing.com/news/commodities-news/oil-ticks-up-after-sharp-losses-as-traders-assess-iran-peace-progress-4754480",
+      "published": "2026-06-23 10:40:39"
     },
     {
       "source": "Investing.com News",
-      "title": "Dolphin entertainment CEO buys $4,858 in company stock",
-      "url": "https://www.investing.com/news/insider-trading-news/dolphin-entertainment-ceo-buys-4858-in-company-stock-93CH-4754312",
-      "published": "2026-06-22 22:37:27"
+      "title": "Applied Industrial Technologies declares $0.51 quarterly dividend",
+      "url": "https://www.investing.com/news/company-news/applied-industrial-technologies-declares-051-quarterly-dividend-93CH-4755024",
+      "published": "2026-06-23 10:40:31"
     },
     {
       "source": "Investing.com News",
-      "title": "Apollo’s $26 billion private credit fund imposes 5% cap on requests to pull 17%",
-      "url": "https://www.investing.com/news/stock-market-news/apollo-private-credit-fund-limits-investor-withdrawals-after-requests-surge-4754105",
-      "published": "2026-06-22 22:37:27"
+      "title": "InterDigital director sells $120,000 in company stock",
+      "url": "https://www.investing.com/news/insider-trading-news/interdigital-director-sells-120000-in-company-stock-93CH-4755023",
+      "published": "2026-06-23 10:40:02"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "USA Rare Earth Rebuts MP Materials Lawsuit as Rivalry Deepens",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-22/usa-rare-earth-rebuts-mp-materials-lawsuit-as-rivalry-deepens",
-      "published": "Mon, 22 Jun 2026 22:37:51 GMT"
+      "title": "Digital Euro Clears Key Hurdle to Rollout in EU Parliament",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-23/digital-euro-clears-key-hurdle-to-rollout-in-eu-parliament",
+      "published": "Tue, 23 Jun 2026 10:17:43 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Gas Stations Accused of Using AI to Boost California Prices",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-22/gas-stations-accused-of-using-ai-to-inflate-prices-in-california",
-      "published": "Mon, 22 Jun 2026 16:32:38 GMT"
+      "title": "NYC Votes in Lively Primaries, With Suburban Race Key to House",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-23/ny-democratic-primaries-2026-suburban-race-key-to-us-house",
+      "published": "Tue, 23 Jun 2026 10:15:00 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Asian Stocks Set for Gains as Oil Holds Losses: Markets Wrap",
+      "title": "Tech Losses Pile Up as Investors Focus on AI Risks",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-06-23/tech-losses-pile-up-as-investors-focus-on-ai-risks",
+      "published": "Tue, 23 Jun 2026 10:06:14 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "ECB’s Lane Sees Danger Inflation Will Top 2% for Some Time",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-23/ecb-s-lane-sees-danger-inflation-will-top-2-for-quite-some-time",
+      "published": "Tue, 23 Jun 2026 08:30:00 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Stocks Hit by Tech Selloff as Korean Shares Plunge: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-06-22/asian-stocks-set-for-gains-as-oil-holds-losses-markets-wrap",
       "published": "Mon, 22 Jun 2026 22:09:42 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Los Angeles Warehouse Fire Smoke Chokes Southern California for Fifth Day",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-22/los-angeles-warehouse-fire-casts-gotham-city-shadow-above-city",
-      "published": "Mon, 22 Jun 2026 16:43:39 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Oil Steadies as Iran Sales Waiver Signals Peace Talks Progress",
+      "title": "Oil Edges Lower as Iran Waiver Signals Peace Talks Progress",
       "url": "https://www.bloomberg.com/news/articles/2026-06-22/latest-oil-market-news-and-analysis-for-july-23",
       "published": "Mon, 22 Jun 2026 22:02:23 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Avis Set for $650 Million Pentwater Payout After Short Squeeze",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-22/avis-set-for-650-million-pentwater-payout-after-short-squeeze",
-      "published": "Mon, 22 Jun 2026 21:54:14 GMT"
     }
   ],
   "summary": {
