@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-06-26 07:54 KST",
+  "as_of_kst": "2026-06-26 19:36 KST",
   "as_of_date": "2026-06-26",
   "as_of_weekday": "FRI",
-  "build_unix": 1782428092,
+  "build_unix": 1782470175,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 8471.02,
-      "change": 267.18,
-      "change_pct": 3.26,
+      "price": 8411.21,
+      "change": -519.09,
+      "change_pct": -5.81,
       "spark": [
-        9063.84,
-        9052.42,
         9114.55,
         8203.84,
-        8471.02
+        8471.02,
+        8930.3,
+        8411.21
       ],
-      "as_of": "2026-06-24"
+      "as_of": "2026-06-26"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 69174.97,
-      "change": -613.41,
-      "change_pct": -0.88,
+      "price": 69360.88,
+      "change": -3005.46,
+      "change_pct": -4.15,
       "spark": [
-        71053.49,
-        71250.06,
         72353.96,
         69788.38,
-        69174.97
+        69174.97,
+        72366.34,
+        69360.88
       ],
-      "as_of": "2026-06-25"
+      "as_of": "2026-06-26"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 23412.18,
-      "change": 75.9,
-      "change_pct": 0.33,
+      "price": 22671.86,
+      "change": -405.05,
+      "change_pct": -1.76,
       "spark": [
-        24312.16,
-        23924.81,
         23768.52,
         23336.28,
-        23412.18
+        23412.18,
+        23076.91,
+        22671.86
       ],
-      "as_of": "2026-06-25"
+      "as_of": "2026-06-26"
     },
     "csi300": {
       "key": "csi300",
@@ -118,17 +118,17 @@
       "name": "CSI 300",
       "region": "CHINA",
       "kind": "broad",
-      "price": 4941.6,
-      "change": 10.21,
-      "change_pct": 0.21,
+      "price": 4868.22,
+      "change": -73.38,
+      "change_pct": -1.48,
       "spark": [
-        4777.32,
         4891.71,
         4884.23,
         4931.39,
-        4941.6
+        4941.6,
+        4868.22
       ],
-      "as_of": "2026-06-25"
+      "as_of": "2026-06-26"
     },
     "ftse": {
       "key": "ftse",
@@ -136,17 +136,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10529.89,
-      "change": 68.29,
-      "change_pct": 0.65,
+      "price": 10448.79,
+      "change": -81.11,
+      "change_pct": -0.77,
       "spark": [
-        10363.3,
         10437.9,
         10428.9,
         10461.6,
-        10529.89
+        10529.9,
+        10448.79
       ],
-      "as_of": "2026-06-25"
+      "as_of": "2026-06-26"
     },
     "dax": {
       "key": "dax",
@@ -154,50 +154,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 24740.36,
-      "change": -153.22,
-      "change_pct": -0.62,
+      "price": 24689.7,
+      "change": -305.13,
+      "change_pct": -1.22,
       "spark": [
-        25026.8,
-        24985.82,
         25139.69,
         24893.58,
-        24740.36
+        24740.36,
+        24994.83,
+        24689.7
       ],
-      "as_of": "2026-06-25"
+      "as_of": "2026-06-26"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1544.16,
+      "rate": 1537.0699,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 161.78,
+      "rate": 161.6,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1371,
+      "rate": 1.1409,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7892,
+      "rate": 6.789,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 101.44,
-      "change": -0.17,
-      "change_pct": -0.17,
+      "rate": 101.23,
+      "change": -0.2,
+      "change_pct": -0.2,
       "kind": "index"
     }
   },
@@ -207,59 +207,56 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 71.49,
-      "change": 1.15,
-      "change_pct": 1.63
+      "price": 69.37,
+      "change": -2.55,
+      "change_pct": -3.55
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4045.3,
-      "change": 55.0,
-      "change_pct": 1.38
+      "price": 4059.8,
+      "change": 29.3,
+      "change_pct": 0.73
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 59734.69,
-      "change": -1260.44,
-      "change_pct": -2.07
-    },
-    "ust10y": {
-      "key": "ust10y",
-      "symbol": "^TNX",
-      "name": "10Y UST Yield",
-      "unit": "%",
-      "price": 4.39,
-      "change": -0.06,
-      "change_pct": -1.33
+      "price": 59679.18,
+      "change": -42.5,
+      "change_pct": -0.07
     },
     "vix": {
       "key": "vix",
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 18.89,
-      "change": 0.26,
-      "change_pct": 1.4
+      "price": 20.25,
+      "change": 1.36,
+      "change_pct": 7.2
     }
   },
   "headlines_raw": [
     {
       "source": "CNBC Markets",
-      "title": "Small-caps are booming this year. Here are some of Wall Street's top smaller picks",
-      "url": "https://www.cnbc.com/2026/06/25/small-caps-are-booming-this-year-here-are-wall-streets-top-picks-.html",
-      "published": "Thu, 25 Jun 2026 21:26:04 GMT"
-    },
-    {
-      "source": "CNBC Markets",
       "title": "Ariel’s John Rogers likes these small-cap names as the market rally broadens",
       "url": "https://www.cnbc.com/2026/06/25/ariels-john-rogers-likes-these-small-cap-names-as-the-market-rally-broadens.html",
       "published": "Thu, 25 Jun 2026 20:30:15 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Friday's big stock stories: What’s likely to move the market in the next trading session",
+      "url": "https://www.cnbc.com/2026/06/25/fridays-big-stock-stories-whats-likely-to-move-the-market.html",
+      "published": "Thu, 25 Jun 2026 23:49:25 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Small-caps are booming this year. Here are some of Wall Street's top smaller picks",
+      "url": "https://www.cnbc.com/2026/06/25/small-caps-are-booming-this-year-here-are-wall-streets-top-picks-.html",
+      "published": "Thu, 25 Jun 2026 21:26:04 GMT"
     },
     {
       "source": "CNBC Markets",
@@ -280,46 +277,70 @@
       "published": "Thu, 25 Jun 2026 12:23:34 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "Bitcoin is having a tough year. Traders are betting it's going to get worse",
-      "url": "https://www.cnbc.com/2026/06/25/bitcoin-is-having-a-tough-year-traders-are-betting-its-going-to-get-worse.html",
-      "published": "Thu, 25 Jun 2026 13:17:54 GMT"
+      "source": "Yahoo Finance",
+      "title": "What are seller concessions, and how do you use them?",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/what-are-seller-concessions-165151412.html",
+      "published": "2024-11-14T16:51:51Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "How the IRS Performed During Tax Season",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-06-24-2026/card/how-the-irs-performed-during-tax-season-h62EWUgE0hOO7yln1FfG?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-06-24T15:15:02Z"
+      "title": "Mortgage rate predictions for the next five years: How the market looks through 2030",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-rate-predictions-for-the-next-five-years-how-the-market-looks-through-2030-195826935.html",
+      "published": "2025-08-18T19:58:26Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "How Applied Materials Could Become the Next $1 Trillion Chip Stock",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-could-become-next-150258562.html",
-      "published": "2026-06-24T15:02:58Z"
+      "title": "Retirees face a new challenge: How to spend their 401(k) savings",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/retirees-face-a-new-challenge-how-to-spend-their-401k-savings-191224511.html",
+      "published": "2026-06-24T19:12:24Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "How Semiconductor Stocks Could Drop 50% From Here, And How This 1 ETF Could Win Big",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/semiconductor-stocks-could-drop-50-150220745.html",
-      "published": "2026-06-24T15:02:20Z"
+      "title": "Can you write checks from a money market account?",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/can-you-write-checks-from-a-money-market-account-194030965.html",
+      "published": "2026-06-24T19:40:30Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Meta Platforms Just Took a 20% Stake in Cred. What That Means for META Stock.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-just-took-20-145740932.html",
-      "published": "2026-06-24T14:57:40Z"
+      "title": "What happens if you consolidate federal student loans after July 1?",
+      "url": "https://finance.yahoo.com/personal-finance/student-loans/article/federal-student-loan-consolidation-after-july-1-165518668.html",
+      "published": "2026-06-24T16:55:18Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "From trucks to trade compliance, logistics firms make strategic buys",
-      "url": "https://finance.yahoo.com/small-business/articles/trucks-trade-compliance-logistics-firms-145528082.html",
-      "published": "2026-06-24T14:55:28Z"
+      "title": "What to do if your bank branch closes",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/bank-branch-closings-what-to-do-204704995.html",
+      "published": "2024-07-16T20:47:04Z"
     },
     {
-      "source": "Yahoo Finance",
-      "title": "‘Wipe out and change are different’: Amazon exec slams AI job apocalypse fears as he hires thousands of Gen Z grads",
-      "url": "https://finance.yahoo.com/technology/ai/articles/amazon-exec-says-ai-won-151430813.html",
-      "published": "2026-06-24T15:14:30Z"
+      "source": "MarketWatch Top",
+      "title": "Why a reported delay for OpenAI’s listing complicates further the picture for tech stocks",
+      "url": "https://www.marketwatch.com/story/the-tech-selloff-has-a-new-worry-and-it-involves-openais-ipo-timeline-ea9f0276?mod=mw_rss_topstories",
+      "published": "Fri, 26 Jun 2026 09:31:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Hayden Panettiere’s childhood home relists for $3.7M, echoing memoir’s ‘brutal’ past",
+      "url": "https://www.marketwatch.com/story/hayden-panettieres-childhood-home-relists-for-3-7m-echoing-memoirs-brutal-past-f73a7f82?mod=mw_rss_topstories",
+      "published": "Fri, 26 Jun 2026 09:02:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "The Wall Street equivalent of roster-cut day happens Friday. It’ll be one of the biggest volume days of the year.",
+      "url": "https://www.marketwatch.com/story/the-wall-street-equivalent-of-roster-cut-day-happens-friday-itll-be-one-of-the-biggest-volume-days-of-the-year-750e8496?mod=mw_rss_topstories",
+      "published": "Fri, 26 Jun 2026 04:47:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "SpaceX FOMO is officially over. Space stocks across the board are getting punished.",
+      "url": "https://www.marketwatch.com/story/spacex-fomo-is-officially-over-space-stocks-across-the-board-are-getting-punished-77234fe8?mod=mw_rss_topstories",
+      "published": "Fri, 26 Jun 2026 02:27:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "SpaceX stock is a terrible buy — what that actually means for the bull market",
+      "url": "https://www.marketwatch.com/story/spacex-is-a-bad-buy-why-openai-and-anthropic-will-be-too-2448ea73?mod=mw_rss_topstories",
+      "published": "Thu, 25 Jun 2026 23:12:00 GMT"
     },
     {
       "source": "MarketWatch Top",
@@ -328,106 +349,76 @@
       "published": "Thu, 25 Jun 2026 22:29:00 GMT"
     },
     {
-      "source": "MarketWatch Top",
-      "title": "‘I have full guardianship’: My son has special needs. If I buy him a condo, will that hurt his benefits?",
-      "url": "https://www.marketwatch.com/story/i-have-full-guardianship-my-son-has-special-needs-if-i-buy-him-a-condo-will-that-hurt-his-benefits-6f26e904?mod=mw_rss_topstories",
-      "published": "Thu, 25 Jun 2026 21:48:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "The S&P 500 is at a critical crossroads. A break lower could signal more losses ahead.",
-      "url": "https://www.marketwatch.com/story/the-s-p-500-is-at-a-critical-crossroads-a-break-lower-could-signal-more-losses-ahead-f425063c?mod=mw_rss_topstories",
-      "published": "Thu, 25 Jun 2026 21:33:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "After losing my son, would it be a mistake to sell my recently purchased house and move to my hometown?",
-      "url": "https://www.marketwatch.com/story/my-son-passed-away-am-i-crazy-to-move-to-my-former-home-and-sell-a-house-i-bought-in-september-f1f5f41a?mod=mw_rss_topstories",
-      "published": "Thu, 25 Jun 2026 20:54:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Microsoft’s stock is suffering a historic June rout as investors balk at heavy spending",
-      "url": "https://www.marketwatch.com/story/microsofts-stock-is-suffering-a-historic-june-rout-as-investors-balk-at-heavy-spending-9afaef1b?mod=mw_rss_topstories",
-      "published": "Thu, 25 Jun 2026 20:51:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Japanese stocks are on fire. Here’s what’s driving the hot streak.",
-      "url": "https://www.marketwatch.com/story/japanese-stocks-are-on-fire-heres-whats-driving-the-hot-streak-526a6914?mod=mw_rss_topstories",
-      "published": "Thu, 25 Jun 2026 20:48:00 GMT"
+      "source": "Investing.com News",
+      "title": "European stocks trade lower on OpenAI delay, Fed hike bets",
+      "url": "https://www.investing.com/news/stock-market-news/european-stocks-open-lower-on-openai-delay-fed-hike-bets-4762031",
+      "published": "2026-06-26 10:27:11"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 144 Dell Technologies Inc. For: 25 June",
-      "url": "https://www.investing.com/news/filings/form-144-dell-technologies-inc-for-25-june-93CH-4761880",
-      "published": "2026-06-25 22:39:08"
+      "title": "Stellantis shares hit record low in Milan trading",
+      "url": "https://www.investing.com/news/stock-market-news/stellantis-shares-hit-record-low-in-milan-trading-93CH-4762351",
+      "published": "2026-06-26 10:25:31"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 4 OP Bancorp For: 25 June",
-      "url": "https://www.investing.com/news/filings/form-4-op-bancorp-for-25-june-93CH-4761879",
-      "published": "2026-06-25 22:39:07"
+      "title": "Goldman Sachs initiates PENN Entertainment stock with buy rating on margin strength",
+      "url": "https://www.investing.com/news/analyst-ratings/goldman-sachs-initiates-penn-entertainment-stock-with-buy-rating-on-margin-strength-93CH-4762350",
+      "published": "2026-06-26 10:24:53"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 13D/A Aditxt For: 25 June",
-      "url": "https://www.investing.com/news/filings/form-13da-aditxt-for-25-june-93CH-4761878",
-      "published": "2026-06-25 22:39:07"
+      "title": "Goldman Sachs initiates Red Rock Resorts stock coverage with buy rating",
+      "url": "https://www.investing.com/news/analyst-ratings/goldman-sachs-initiates-red-rock-resorts-stock-coverage-with-buy-rating-93CH-4762349",
+      "published": "2026-06-26 10:24:52"
     },
     {
       "source": "Investing.com News",
-      "title": "Womenswear retailer Reformation reports revenue rise in US IPO filing",
-      "url": "https://www.investing.com/news/stock-market-news/clothing-brand-reformation-files-for-us-ipo-4761712",
-      "published": "2026-06-25 22:36:41"
+      "title": "Goldman Sachs assumes SBA Communications stock coverage with neutral rating",
+      "url": "https://www.investing.com/news/analyst-ratings/goldman-sachs-assumes-sba-communications-stock-coverage-with-neutral-rating-93CH-4762348",
+      "published": "2026-06-26 10:24:52"
     },
     {
       "source": "Investing.com News",
-      "title": "Factbox-International aid heads to Venezuela after deadly earthquake",
-      "url": "https://www.investing.com/news/commodities-news/factboxinternational-aid-heads-to-venezuela-after-deadly-earthquake-4761506",
-      "published": "2026-06-25 22:36:23"
-    },
-    {
-      "source": "Investing.com News",
-      "title": "Form 144 PACS Group For: 25 June",
-      "url": "https://www.investing.com/news/filings/form-144-pacs-group-for-25-june-93CH-4761877",
-      "published": "2026-06-25 22:33:07"
+      "title": "Rescuers comb Venezuelan quake rubble, thousands reported missing",
+      "url": "https://www.investing.com/news/stock-market-news/rescuers-comb-venezuelan-quake-rubble-thousands-reported-missing-4762206",
+      "published": "2026-06-26 10:24:51"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Oil Holds Gain as Traders Weigh Hormuz Flows After Ship Attack",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-25/latest-oil-market-news-and-analysis-for-june-26",
-      "published": "Thu, 25 Jun 2026 22:05:21 GMT"
+      "title": "European Gas Prices Fluctuate as Traders Monitor Hormuz Risk",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-26/european-natural-gas-edges-higher-as-traders-monitor-hormuz-risk",
+      "published": "Fri, 26 Jun 2026 06:37:25 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "H.B. Fuller Agrees to Acquire UK-Listed AMS for £659 Million",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-25/h-b-fuller-agrees-to-acquire-uk-medtech-ams-for-659-million",
-      "published": "Thu, 25 Jun 2026 06:57:44 GMT"
+      "title": "AI Is Splitting Tech Stocks Into Winners and Losers",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-06-26/ai-is-splitting-tech-stocks-into-winners-and-losers",
+      "published": "Fri, 26 Jun 2026 10:28:29 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "The Close 6/25/2026",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-25/the-close-6-25-2026-video",
-      "published": "Thu, 25 Jun 2026 22:15:46 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Wall Street Embraces the Dollar as Warsh’s Fed Activates Bulls",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-25/wall-street-embraces-the-dollar-as-warsh-s-fed-activates-bulls",
-      "published": "Thu, 25 Jun 2026 22:05:50 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Asia Stocks Set for Choppy Open on Tech Volatility: Markets Wrap",
+      "title": "Tech Volatility Pulls Global Stocks Lower Again: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-06-25/asia-stocks-set-for-choppy-open-on-tech-volatility-markets-wrap",
       "published": "Thu, 25 Jun 2026 22:05:08 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Permira-Backed Womenswear Retailer Reformation Files for US IPO",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-25/permira-backed-womenswear-retailer-reformation-files-for-us-ipo",
-      "published": "Thu, 25 Jun 2026 21:43:59 GMT"
+      "title": "Egypt Asset Sales Ease Path Toward $1.6 Billion in IMF Funding",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-26/egypt-asset-sales-ease-path-toward-1-6-billion-in-imf-funding",
+      "published": "Fri, 26 Jun 2026 10:04:51 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Gold Climbs Above $4,000 After Inflation Print Slows Decline",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-25/gold-steadies-near-4-000-as-inflation-data-eases-rate-hike-bets",
+      "published": "Thu, 25 Jun 2026 23:58:21 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Metinvest Seeks New Investor for Italy’s Landmark Steel Project",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-26/metinvest-seeks-new-investor-for-italy-s-landmark-steel-project",
+      "published": "Fri, 26 Jun 2026 10:00:23 GMT"
     }
   ],
   "summary": {
