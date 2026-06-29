@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-06-29 07:34 KST",
+  "as_of_kst": "2026-06-29 21:15 KST",
   "as_of_date": "2026-06-29",
   "as_of_weekday": "MON",
-  "build_unix": 1782686073,
+  "build_unix": 1782735358,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 8411.21,
-      "change": -519.09,
-      "change_pct": -5.81,
+      "price": 8394.65,
+      "change": -16.56,
+      "change_pct": -0.2,
       "spark": [
-        9114.55,
         8203.84,
         8471.02,
         8930.3,
-        8411.21
+        8411.21,
+        8394.65
       ],
-      "as_of": "2026-06-26"
+      "as_of": "2026-06-29"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 69360.88,
-      "change": -3005.46,
-      "change_pct": -4.15,
+      "price": 69468.11,
+      "change": 107.23,
+      "change_pct": 0.15,
       "spark": [
-        72353.96,
         69788.38,
         69174.97,
         72366.34,
-        69360.88
+        69360.88,
+        69468.11
       ],
-      "as_of": "2026-06-26"
+      "as_of": "2026-06-29"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 22671.86,
-      "change": -405.05,
-      "change_pct": -1.76,
+      "price": 23026.68,
+      "change": 354.82,
+      "change_pct": 1.57,
       "spark": [
-        23768.52,
         23336.28,
         23412.18,
         23076.91,
-        22671.86
+        22671.86,
+        23026.68
       ],
-      "as_of": "2026-06-26"
+      "as_of": "2026-06-29"
     },
     "csi300": {
       "key": "csi300",
@@ -118,17 +118,17 @@
       "name": "CSI 300",
       "region": "CHINA",
       "kind": "broad",
-      "price": 4868.22,
-      "change": -151.88,
-      "change_pct": -3.03,
+      "price": 4926.92,
+      "change": 58.7,
+      "change_pct": 1.21,
       "spark": [
-        5059.66,
         4919.39,
         4943.02,
         5020.1,
-        4868.22
+        4868.22,
+        4926.92
       ],
-      "as_of": "2026-06-26"
+      "as_of": "2026-06-29"
     },
     "ftse": {
       "key": "ftse",
@@ -136,17 +136,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10508.0,
-      "change": -21.9,
-      "change_pct": -0.21,
+      "price": 10503.64,
+      "change": -4.36,
+      "change_pct": -0.04,
       "spark": [
-        10437.9,
         10428.9,
         10461.6,
         10529.9,
-        10508.0
+        10508.0,
+        10503.64
       ],
-      "as_of": "2026-06-26"
+      "as_of": "2026-06-29"
     },
     "dax": {
       "key": "dax",
@@ -154,50 +154,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 24671.22,
-      "change": -323.61,
-      "change_pct": -1.29,
+      "price": 24688.8,
+      "change": 17.58,
+      "change_pct": 0.07,
       "spark": [
-        25139.69,
         24893.58,
         24740.36,
         24994.83,
-        24671.22
+        24671.22,
+        24688.8
       ],
-      "as_of": "2026-06-26"
+      "as_of": "2026-06-29"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1535.11,
+      "rate": 1543.11,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 161.77,
+      "rate": 161.85,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1388,
+      "rate": 1.141,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7975,
+      "rate": 6.7831,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 101.39,
-      "change": 0.03,
-      "change_pct": 0.03,
+      "rate": 101.23,
+      "change": -0.13,
+      "change_pct": -0.13,
       "kind": "index"
     }
   },
@@ -207,27 +207,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 70.23,
-      "change": 1.0,
-      "change_pct": 1.44
+      "price": 69.95,
+      "change": 0.72,
+      "change_pct": 1.04
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4074.5,
-      "change": -4.2,
-      "change_pct": -0.1
+      "price": 4060.7,
+      "change": -18.0,
+      "change_pct": -0.44
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 59135.74,
-      "change": -804.36,
-      "change_pct": -1.34
+      "price": 60576.96,
+      "change": 1044.62,
+      "change_pct": 1.75
     },
     "ust10y": {
       "key": "ust10y",
@@ -243,12 +243,18 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 18.41,
-      "change": -0.48,
-      "change_pct": -2.54
+      "price": 18.32,
+      "change": -0.09,
+      "change_pct": -0.49
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "There’s an energy infrastructure stock up 500% in past year. Citi says it will rise even further",
+      "url": "https://www.cnbc.com/2026/06/29/theres-an-energy-infrastructure-stock-up-500percent-in-past-year-citi-says-it-will-rise-even-further.html",
+      "published": "Mon, 29 Jun 2026 10:15:19 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Top Wall Street analysts are bullish on these 3 stocks for strong long-term growth potential",
@@ -280,154 +286,148 @@
       "published": "Sat, 27 Jun 2026 12:25:02 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "Pinterest has taken a beating in recent years. This analyst thinks it's time to buy",
-      "url": "https://www.cnbc.com/2026/06/27/pinterest-has-taken-a-beating-in-recent-years-this-analyst-thinks-its-time-to-buy.html",
-      "published": "Sat, 27 Jun 2026 12:42:57 GMT"
+      "source": "Yahoo Finance",
+      "title": "IRMAA hits retirees two years after property sale",
+      "url": "https://finance.yahoo.com/healthcare/articles/irmaa-hits-retirees-two-years-181700890.html",
+      "published": "2026-06-28T18:17:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Dow Jones Futures Rise On U.S.-Iran News; Market At Tipping Point",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-stock-market-tipping-point-eli-lilly-tesla/?src=A00220&yptr=yahoo",
-      "published": "2026-06-28T22:18:51Z"
+      "title": "Stock market today: S&P 500, Nasdaq, Dow futures rise as US and Iran call a halt to attacks",
+      "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-june-29-224230573.html",
+      "published": "2026-06-28T22:42:30Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "60% of S&P 500 Stocks Carry Buy Ratings as US, Iran Halt Strikes",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/60-p-500-stocks-carry-215900774.html",
-      "published": "2026-06-28T21:59:00Z"
+      "title": "Comcast Stock Soars On Company Split As Cable TV Giant's Makeover Continues",
+      "url": "https://www.investors.com/news/technology/comcast-stock-soars-on-company-split-as-cable-tv-giants-makeover-continues/?src=A00220&yptr=yahoo",
+      "published": "2026-06-29T11:44:13Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "SpaceX landed in millions of 401(k)s through index funds — and the same rules open the door to OpenAI and Anthropic",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-landed-millions-401-k-214500017.html",
-      "published": "2026-06-28T21:45:00Z"
+      "title": "What Makes Progressive Corporation (PGR) an Investment Bet?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/makes-progressive-corporation-pgr-investment-113537302.html",
+      "published": "2026-06-29T11:35:37Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Ford’s AI wasn’t smart enough to replace veteran engineers — so it hired 350 of them to fix quality control issues",
-      "url": "https://finance.yahoo.com/technology/ai/articles/ford-ai-wasn-t-smart-211500573.html",
-      "published": "2026-06-28T21:15:00Z"
+      "title": "SpaceX Stock Will Join The Nasdaq-100 Index On July 7",
+      "url": "https://www.investors.com/news/spacex-stock-will-join-nasdaq-100-index-july-7/?src=A00220&yptr=yahoo",
+      "published": "2026-06-29T11:25:16Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "RBC Capital Initiates Coverage of GE HealthCare Technologies Inc. (GEHC)",
-      "url": "https://finance.yahoo.com/healthcare/articles/rbc-capital-initiates-coverage-ge-200715300.html",
-      "published": "2026-06-28T20:07:15Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Veeva Systems Inc. (VEEV) Acquires Copli and Launches Veeva Falcon MLR",
-      "url": "https://finance.yahoo.com/healthcare/articles/veeva-systems-inc-veev-acquires-200709584.html",
-      "published": "2026-06-28T20:07:09Z"
+      "title": "Market Digest: BBY, BRSL",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_47457_MarketSummary_1782730400000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-06-29T10:53:20Z"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Oil prices rise, stock futures inch higher as U.S. and Iran trade more airstrikes",
-      "url": "https://www.marketwatch.com/story/oil-prices-rise-stock-futures-inch-higher-as-u-s-and-iran-trade-more-airstrikes-3fc66beb?mod=mw_rss_topstories",
-      "published": "Sun, 28 Jun 2026 22:18:00 GMT"
+      "title": "Laser weapons aren’t science fiction anymore — and they’re changing how defense stocks are valued",
+      "url": "https://www.marketwatch.com/story/laser-weapons-arent-science-fiction-anymore-and-theyre-changing-how-defense-stocks-are-valued-ff4c3910?mod=mw_rss_topstories",
+      "published": "Mon, 29 Jun 2026 12:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "I had gallbladder surgery. After I got home, the hospital asked me for a financial donation. Is this ethical?",
-      "url": "https://www.marketwatch.com/story/i-had-my-gallbladder-removed-after-i-got-home-the-hospital-asked-me-for-a-donation-is-this-ethical-ad12a8e1?mod=mw_rss_topstories",
-      "published": "Sun, 28 Jun 2026 15:00:00 GMT"
+      "title": "Comcast’s stock having best day in 18 years after plan to spin off NBCUniversal",
+      "url": "https://www.marketwatch.com/story/comcast-to-spin-off-nbcuniversal-after-15-years-of-ownership-dad0597a?mod=mw_rss_topstories",
+      "published": "Mon, 29 Jun 2026 11:54:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Your health insurer shouldn’t decide your treatment plan. That’s what your doctor — and AI — should be doing.",
-      "url": "https://www.marketwatch.com/story/your-health-insurer-shouldnt-decide-your-treatment-plan-thats-what-your-doctor-and-possibly-ai-should-be-doing-45152d6a?mod=mw_rss_topstories",
-      "published": "Sun, 28 Jun 2026 14:03:00 GMT"
+      "title": "There’s a 67% chance stocks will suffer a bear market when this rare signal flashes — like it’s doing now",
+      "url": "https://www.marketwatch.com/story/theres-a-67-chance-stocks-will-suffer-a-bear-market-when-this-rare-signal-flashes-like-its-doing-now-c8916710?mod=mw_rss_topstories",
+      "published": "Mon, 29 Jun 2026 11:37:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘It feels like a medical miracle’: How did a single QR code coupon cut my $618 Walgreens prescription to $15?",
-      "url": "https://www.marketwatch.com/story/it-feels-like-a-medical-miracle-how-did-a-single-qr-code-coupon-cut-my-618-walgreens-prescription-to-15-524a1151?mod=mw_rss_topstories",
-      "published": "Sun, 28 Jun 2026 14:00:00 GMT"
+      "title": "How the chip trade has come to resemble silver — a warning from Morgan Stanley’s Wilson",
+      "url": "https://www.marketwatch.com/story/silver-and-the-semiconductor-climax-a-warning-from-morgan-stanleys-wilson-833e06e1?mod=mw_rss_topstories",
+      "published": "Mon, 29 Jun 2026 11:02:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Micron is about to be more profitable than any U.S. company except Nvidia and Google",
-      "url": "https://www.marketwatch.com/story/micron-is-about-to-be-more-profitable-than-any-u-s-company-except-nvidia-and-google-3a83e343?mod=mw_rss_topstories",
-      "published": "Sun, 28 Jun 2026 14:00:00 GMT"
+      "title": "People say I should wait until 70 to claim Social Security. When does delaying pay off?",
+      "url": "https://www.marketwatch.com/story/people-say-i-should-wait-until-70-to-claim-social-security-when-does-delaying-pay-off-f1cd948c?mod=mw_rss_topstories",
+      "published": "Mon, 29 Jun 2026 11:00:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Forget the ‘Sell America’ trade: Why U.S. markets keep proving the naysayers wrong",
-      "url": "https://www.marketwatch.com/story/forget-the-sell-america-trade-why-u-s-markets-keep-proving-the-naysayers-wrong-03a0ab10?mod=mw_rss_topstories",
-      "published": "Sun, 28 Jun 2026 13:00:00 GMT"
+      "title": "Why Apple pivoting to China for memory may not solve big tech’s microchip crisis",
+      "url": "https://www.marketwatch.com/story/why-apple-pivoting-to-china-for-memory-may-not-solve-big-techs-microchip-crisis-51f3438d?mod=mw_rss_topstories",
+      "published": "Mon, 29 Jun 2026 10:32:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Oil climbs following renewed US, Iran strikes in Middle East",
-      "url": "https://www.investing.com/news/commodities-news/oil-climbs-following-renewed-us-iran-strikes-in-middle-east-4764172",
-      "published": "2026-06-28 22:18:31"
+      "title": "RF Industries added to Russell 3000 Index effective today",
+      "url": "https://www.investing.com/news/company-news/rf-industries-added-to-russell-3000-index-effective-today-93CH-4765216",
+      "published": "2026-06-29 12:04:53"
     },
     {
       "source": "Investing.com News",
-      "title": "Serbians keep up protest after President Vucic says he will step down",
-      "url": "https://www.investing.com/news/commodities-news/serbians-to-keep-up-protest-after-president-vucic-says-he-will-step-down-4764152",
-      "published": "2026-06-28 22:06:27"
+      "title": "Elicio Therapeutics added to Russell 2000 and 3000 indexes",
+      "url": "https://www.investing.com/news/company-news/elicio-therapeutics-added-to-russell-2000-and-3000-indexes-93CH-4765215",
+      "published": "2026-06-29 12:04:52"
     },
     {
       "source": "Investing.com News",
-      "title": "UK’s likely next leader Burnham to unveil plan to shift power from London",
-      "url": "https://www.investing.com/news/economy-news/uks-likely-next-leader-burnham-to-unveil-plan-to-shift-power-from-london-4764171",
-      "published": "2026-06-28 22:00:59"
+      "title": "Mdxhealth study published in European Urology Oncology",
+      "url": "https://www.investing.com/news/company-news/mdxhealth-study-published-in-european-urology-oncology-93CH-4765214",
+      "published": "2026-06-29 12:04:51"
     },
     {
       "source": "Investing.com News",
-      "title": "Russia stocks lower at close of trade; MOEX Russia Index unchanged",
-      "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-unchanged-4764170",
-      "published": "2026-06-28 21:20:03"
+      "title": "LanzaTech added to Russell 3000 and Russell 2000 indexes",
+      "url": "https://www.investing.com/news/company-news/lanzatech-added-to-russell-3000-and-russell-2000-indexes-93CH-4765213",
+      "published": "2026-06-29 12:04:51"
     },
     {
       "source": "Investing.com News",
-      "title": "Iran and US agree to halt attacks and renew talks, Axios reports",
-      "url": "https://www.investing.com/news/world-news/us-carries-out-fresh-strikes-against-iran-after-tanker-struck-in-hormuz-escalating-hostilities-4764056",
-      "published": "2026-06-28 21:13:05"
+      "title": "Orchestra BioMed joins Russell 2000 and 3000 indexes",
+      "url": "https://www.investing.com/news/company-news/orchestra-biomed-joins-russell-2000-and-3000-indexes-93CH-4765212",
+      "published": "2026-06-29 12:04:49"
     },
     {
       "source": "Investing.com News",
-      "title": "U.S., Iran reportedly agree to halt attacks ahead of Doha Hormuz talks",
-      "url": "https://www.investing.com/news/economy-news/trump-says-iran-violated-ceasefire-agreement-with-drone-attack-on-cargo-ship-4763166",
-      "published": "2026-06-28 21:06:12"
+      "title": "Energy Vault joins Russell 2000 index effective today",
+      "url": "https://www.investing.com/news/company-news/energy-vault-joins-russell-2000-index-effective-today-93CH-4765211",
+      "published": "2026-06-29 12:04:45"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "US Futures Climb on Reports Peace Talks to Resume: Markets Wrap",
+      "title": "Where Stock Market Is Headed After Wild Start to Year",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-28/where-the-stock-market-is-headed-next-after-wild-start-to-year",
+      "published": "Sun, 28 Jun 2026 12:00:07 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Dip Buyers Lift US Stocks Despite Rise in Oil: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-06-28/us-futures-climb-on-reports-peace-talks-to-resume-markets-wrap",
       "published": "Sun, 28 Jun 2026 22:15:36 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Oil Jumps After Tanker Hit in Middle East Flare-Up",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-28/latest-oil-market-news-and-analysis-for-june-29",
-      "published": "Sun, 28 Jun 2026 22:01:18 GMT"
+      "title": "Hormuz Recovery Hits a Bumpy Patch After Fresh Attacks on Ships",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-06-29/hormuz-shipping-recovery-hits-a-bumpy-patch-after-fresh-iran-attacks",
+      "published": "Mon, 29 Jun 2026 11:45:15 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "【今朝の5本】仕事を始める前に読んでおきたい厳選ニュース",
-      "url": "https://www.bloomberg.com/jp/news/newsletters/2026-06-28/THD1FVVTTCZL00",
-      "published": "Sun, 28 Jun 2026 21:09:31 GMT"
+      "title": "Verizon, BT Merge International Units in Pivot to Home Markets",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-29/verizon-bt-are-said-to-near-jv-deal-for-international-business",
+      "published": "Mon, 29 Jun 2026 05:45:00 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Private Credit Quietly Backs the Craze Propping Up US Consumers",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-28/private-credit-quietly-backs-the-craze-propping-up-us-consumers",
-      "published": "Sun, 28 Jun 2026 21:00:05 GMT"
+      "title": "Microsoft’s $570 Billion Rout Sets Up Its Worst Month Since 2000",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-29/microsoft-s-570-billion-rout-sets-up-its-worst-month-since-2000",
+      "published": "Mon, 29 Jun 2026 11:31:07 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "New Zealand Dollar Faces Tough Third Quarter on Growth Headwinds",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-28/new-zealand-dollar-faces-tough-third-quarter-on-growth-headwinds",
-      "published": "Sun, 28 Jun 2026 19:00:00 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Bond Heavyweights Target a Market Sweet Spot for New Warsh Era",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-28/bond-heavyweights-target-a-market-sweet-spot-for-new-warsh-era",
-      "published": "Sun, 28 Jun 2026 19:00:00 GMT"
+      "title": "PBOC’s New Overnight Rate Said Below Forecasts in Hint at Easing",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-29/pboc-debuts-overnight-operation-surprises-with-no-rate-released",
+      "published": "Mon, 29 Jun 2026 01:41:56 GMT"
     }
   ],
   "summary": {
