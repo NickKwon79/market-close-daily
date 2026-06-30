@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-06-30 07:35 KST",
+  "as_of_kst": "2026-06-30 19:43 KST",
   "as_of_date": "2026-06-30",
   "as_of_weekday": "TUE",
-  "build_unix": 1782772556,
+  "build_unix": 1782816201,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -29,7 +29,7 @@
       "region": "USA",
       "kind": "tech",
       "price": 25820.14,
-      "change": 522.53,
+      "change": 522.52,
       "change_pct": 2.07,
       "spark": [
         25587.04,
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 8411.21,
-      "change": -519.09,
-      "change_pct": -5.81,
+      "price": 8476.48,
+      "change": 81.83,
+      "change_pct": 0.97,
       "spark": [
-        9114.55,
-        8203.84,
         8471.02,
         8930.3,
-        8411.21
+        8411.21,
+        8394.65,
+        8476.48
       ],
-      "as_of": "2026-06-26"
+      "as_of": "2026-06-30"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 69360.88,
-      "change": -3005.46,
-      "change_pct": -4.15,
+      "price": 70062.32,
+      "change": 594.21,
+      "change_pct": 0.86,
       "spark": [
-        72353.96,
-        69788.38,
         69174.97,
         72366.34,
-        69360.88
+        69360.88,
+        69468.11,
+        70062.32
       ],
-      "as_of": "2026-06-29"
+      "as_of": "2026-06-30"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 22671.86,
-      "change": -405.05,
-      "change_pct": -1.76,
+      "price": 22881.02,
+      "change": -145.66,
+      "change_pct": -0.63,
       "spark": [
-        23768.52,
-        23336.28,
         23412.18,
         23076.91,
-        22671.86
+        22671.86,
+        23026.68,
+        22881.02
       ],
-      "as_of": "2026-06-29"
+      "as_of": "2026-06-30"
     },
     "csi300": {
       "key": "csi300",
@@ -118,17 +118,17 @@
       "name": "CSI 300",
       "region": "CHINA",
       "kind": "broad",
-      "price": 4868.22,
-      "change": -151.88,
-      "change_pct": -3.03,
+      "price": 4979.43,
+      "change": 111.21,
+      "change_pct": 2.28,
       "spark": [
-        5059.66,
         4919.39,
         4943.02,
         5020.1,
-        4868.22
+        4868.22,
+        4979.43
       ],
-      "as_of": "2026-06-29"
+      "as_of": "2026-06-30"
     },
     "ftse": {
       "key": "ftse",
@@ -136,17 +136,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10484.22,
-      "change": -23.78,
-      "change_pct": -0.23,
+      "price": 10592.2,
+      "change": 108.0,
+      "change_pct": 1.03,
       "spark": [
-        10428.9,
         10461.6,
         10529.9,
         10508.0,
-        10484.22
+        10484.2,
+        10592.2
       ],
-      "as_of": "2026-06-29"
+      "as_of": "2026-06-30"
     },
     "dax": {
       "key": "dax",
@@ -154,50 +154,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 24671.22,
-      "change": -323.61,
-      "change_pct": -1.29,
+      "price": 24967.37,
+      "change": 340.48,
+      "change_pct": 1.38,
       "spark": [
-        25139.69,
-        24893.58,
         24740.36,
         24994.83,
-        24671.22
+        24671.22,
+        24626.89,
+        24967.37
       ],
-      "as_of": "2026-06-29"
+      "as_of": "2026-06-30"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1542.04,
+      "rate": 1551.0,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 161.92,
+      "rate": 162.34,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1427,
+      "rate": 1.1401,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7868,
+      "rate": 6.7738,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 101.11,
-      "change": -0.25,
-      "change_pct": -0.25,
+      "rate": 101.37,
+      "change": 0.26,
+      "change_pct": 0.26,
       "kind": "index"
     }
   },
@@ -207,27 +207,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 70.37,
-      "change": 1.14,
-      "change_pct": 1.65
+      "price": 70.9,
+      "change": 0.15,
+      "change_pct": 0.21
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4030.5,
-      "change": -48.2,
-      "change_pct": -1.18
+      "price": 4040.6,
+      "change": 18.3,
+      "change_pct": 0.45
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 60254.76,
-      "change": 722.42,
-      "change_pct": 1.21
+      "price": 59245.73,
+      "change": -892.65,
+      "change_pct": -1.48
     },
     "ust10y": {
       "key": "ust10y",
@@ -235,20 +235,26 @@
       "name": "10Y UST Yield",
       "unit": "%",
       "price": 4.37,
-      "change": 0.0,
-      "change_pct": 0.05
+      "change": -0.02,
+      "change_pct": -0.46
     },
     "vix": {
       "key": "vix",
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 17.65,
-      "change": -0.76,
-      "change_pct": -4.13
+      "price": 17.57,
+      "change": -0.08,
+      "change_pct": -0.45
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Tuesday's big stock stories: What’s likely to move the market in the next trading session",
+      "url": "https://www.cnbc.com/2026/06/29/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+      "published": "Mon, 29 Jun 2026 23:18:45 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Citi Wealth warns investors to move out of excess cash because of hot inflation",
@@ -280,12 +286,6 @@
       "published": "Mon, 29 Jun 2026 20:39:56 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "This insurance stock is on an impressive run. How to ride the momentum with less risk",
-      "url": "https://www.cnbc.com/2026/06/29/this-insurance-stock-is-on-an-impressive-run-how-to-ride-the-momentum-with-less-risk.html",
-      "published": "Mon, 29 Jun 2026 15:36:17 GMT"
-    },
-    {
       "source": "Yahoo Finance",
       "title": "79-year-old fashion retailer closed 136 stores, killed one of its brands",
       "url": "https://finance.yahoo.com/markets/stocks/articles/h-m-closed-136-stores-012815718.html",
@@ -293,141 +293,141 @@
     },
     {
       "source": "Yahoo Finance",
-      "title": "Kraft Heinz Stock is Treading Water - Time to Buy KHC?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/kraft-heinz-stock-treading-water-140002933.html",
-      "published": "2026-06-28T14:00:02Z"
+      "title": "Morning Bid: Doubled by halftime",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/morning-bid-doubled-halftime-103314881.html",
+      "published": "2026-06-30T10:33:14Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "After a Nearly 200% Run Since February, GF Securities Downgraded Dell Shares. Don’t Count DELL Stock Out Just Yet.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nearly-200-run-since-february-140002585.html",
-      "published": "2026-06-28T14:00:02Z"
+      "title": "Quarter-end expected to be quiet for Fed liquidity facilities",
+      "url": "https://finance.yahoo.com/news/quarter-end-expected-quiet-fed-100824935.html",
+      "published": "2026-06-30T10:32:18Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Billionaire Mark Cuban Asks If AI ‘Collapses’ And Data Centers Turn Into ‘Chuck E Cheeses,’ Would That ‘Create A Revival Of Jobs?’",
-      "url": "https://finance.yahoo.com/technology/ai/articles/billionaire-mark-cuban-asks-ai-140002389.html",
-      "published": "2026-06-28T14:00:02Z"
+      "title": "Stock market today: Dow, S&P 500, Nasdaq futures steady after record-setting session",
+      "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-steady-after-record-setting-session-224823556.html",
+      "published": "2026-06-29T22:48:23Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Amid Improvement in Operating Metrics, Depressed UBER Stock Is Poised for a Comeback",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amid-improvement-operating-metrics-depressed-140002938.html",
-      "published": "2026-06-28T14:00:02Z"
+      "title": "Nicolas Cage once blew through $150M — and it wasn't the dinosaur skull or king cobras that broke him",
+      "url": "https://finance.yahoo.com/real-estate/articles/nicolas-cage-once-blew-150m-103000586.html",
+      "published": "2026-06-30T10:30:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Chevron CFO reveals why gas prices are stuck",
-      "url": "https://finance.yahoo.com/energy/articles/chevron-cfo-reveals-why-gas-210300205.html",
-      "published": "2026-06-28T21:03:00Z"
+      "title": "After Gaining 800% in 1 Year, Wall Street Just Upgraded Micron to \"Strong Buy\" -- Unanimously. Here's Why.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/gaining-800-1-wall-street-103200236.html",
+      "published": "2026-06-30T10:32:00Z"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Gold’s $4,000 skirmish continues as it eyes worst quarter in 13 years",
+      "url": "https://www.marketwatch.com/story/golds-4-000-skirmish-continues-as-it-eyes-worst-quarter-in-13-years-f60a2101?mod=mw_rss_topstories",
+      "published": "Tue, 30 Jun 2026 09:55:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Strait of Hormuz is reopening faster than expected, says Morgan Stanley as it cuts oil-price target",
+      "url": "https://www.marketwatch.com/story/strait-of-hormuz-is-reopening-faster-than-expected-says-morgan-stanley-as-it-cuts-oil-price-target-a6f6795d?mod=mw_rss_topstories",
+      "published": "Tue, 30 Jun 2026 09:23:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Kylie Jenner takes $48 million ‘concrete fortress’ in L.A. off the market",
+      "url": "https://www.marketwatch.com/story/kylie-jenner-takes-48-million-concrete-fortress-in-l-a-off-the-market-9ae6df50?mod=mw_rss_topstories",
+      "published": "Tue, 30 Jun 2026 09:03:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Influencer Perez Hilton is selling his  Las Vegas home for $4.25 million to move to Miami",
+      "url": "https://www.marketwatch.com/story/influencer-perez-hilton-is-selling-his-las-vegas-home-for-4-25-million-to-move-to-miami-c70ed632?mod=mw_rss_topstories",
+      "published": "Tue, 30 Jun 2026 08:58:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Quant funds just suffered their most crippling trading rout this year as momentum stocks flopped",
+      "url": "https://www.marketwatch.com/story/quant-funds-just-suffered-their-most-crippling-trading-rout-this-year-as-momentum-stocks-flopped-7059060d?mod=mw_rss_topstories",
+      "published": "Tue, 30 Jun 2026 08:57:00 GMT"
     },
     {
       "source": "MarketWatch Top",
       "title": "Trump’s weekend Iran strikes keep sparking Monday stock rallies. Here’s what the data shows us.",
       "url": "https://www.marketwatch.com/story/trumps-weekend-iran-strikes-keep-sparking-monday-stock-rallies-heres-what-the-data-shows-us-f22da0ea?mod=mw_rss_topstories",
-      "published": "Mon, 29 Jun 2026 22:23:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "‘I don’t think I’ll make it to 80’: I’m 70 and single. Do I take out a reverse mortgage or a home-equity agreement?",
-      "url": "https://www.marketwatch.com/story/i-dont-think-ill-make-it-to-80-im-70-and-single-do-i-take-out-a-reverse-mortgage-or-a-home-equity-agreement-3b623ee8?mod=mw_rss_topstories",
-      "published": "Mon, 29 Jun 2026 22:00:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "‘I claimed Social Security at 62’: At 76, I’m working at Walmart. Why do I still owe payroll taxes?",
-      "url": "https://www.marketwatch.com/story/i-claimed-social-security-at-62-at-76-im-working-at-walmart-why-do-i-still-owe-payroll-taxes-8e22a97c?mod=mw_rss_topstories",
-      "published": "Mon, 29 Jun 2026 21:33:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Rocket Lab to take on SpaceX’s Starlink with $8 billion acquisition",
-      "url": "https://www.marketwatch.com/story/rocket-lab-to-take-on-spacexs-starlink-with-8-billion-acquisition-bf7ef649?mod=mw_rss_topstories",
-      "published": "Mon, 29 Jun 2026 21:30:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Tesla’s stock rips higher after a long-awaited update to self-driving technology",
-      "url": "https://www.marketwatch.com/story/teslas-stock-rips-higher-after-a-long-awaited-update-to-self-driving-technology-10565662?mod=mw_rss_topstories",
-      "published": "Mon, 29 Jun 2026 21:24:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Charter may be making ‘frenemies’ with SpaceX, and its stock is soaring",
-      "url": "https://www.marketwatch.com/story/charter-may-be-making-frenemies-with-spacex-and-its-stock-is-soaring-e300eb21?mod=mw_rss_topstories",
-      "published": "Mon, 29 Jun 2026 21:14:00 GMT"
+      "published": "Mon, 29 Jun 2026 23:39:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 144 IPG PHOTONICS CORP For: 29 June",
-      "url": "https://www.investing.com/news/filings/form-144-ipg-photonics-corp-for-29-june-93CH-4766612",
-      "published": "2026-06-29 22:18:07"
+      "title": "US stock futures little changed as strong quarter nears end",
+      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-little-changed-as-strong-quarter-nears-end-4767347",
+      "published": "2026-06-30 10:26:21"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 13D/A Capstone Energy+ For: 29 June",
-      "url": "https://www.investing.com/news/filings/form-13da-capstone-energy-for-29-june-93CH-4766610",
-      "published": "2026-06-29 22:18:05"
+      "title": "Exclusive-US House committee opens investigation into Merck, AbbVie China drug trials",
+      "url": "https://www.investing.com/news/stock-market-news/exclusiveus-house-committee-opens-investigation-into-merck-abbvie-china-drug-trials-4767250",
+      "published": "2026-06-30 10:26:00"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 4 Matson For: 29 June",
-      "url": "https://www.investing.com/news/filings/form-4-matson-for-29-june-93CH-4766609",
-      "published": "2026-06-29 22:16:14"
+      "title": "US Supreme Court to decide legality of state transgender sports bans",
+      "url": "https://www.investing.com/news/politics-news/us-supreme-court-to-decide-legality-of-state-transgender-sports-bans-4767282",
+      "published": "2026-06-30 10:25:40"
     },
     {
       "source": "Investing.com News",
-      "title": "Bakkt general counsel Marc D’Annunzio sells $22,849 in shares June 25-26",
-      "url": "https://www.investing.com/news/insider-trading-news/bakkt-general-counsel-marc-dannunzio-sells-22849-in-shares-june-2526-93CH-4766608",
-      "published": "2026-06-29 22:15:53"
+      "title": "Analysis-Ferrari and BMW join Tesla, China in switch from copper to cheaper aluminium",
+      "url": "https://www.investing.com/news/stock-market-news/analysisferrari-and-bmw-join-tesla-china-in-switch-from-copper-to-cheaper-aluminium-4766878",
+      "published": "2026-06-30 10:25:17"
     },
     {
       "source": "Investing.com News",
-      "title": "Bakkt COO Nicholas Baes sells $12,386 in BKKT shares",
-      "url": "https://www.investing.com/news/insider-trading-news/bakkt-coo-nicholas-baes-sells-12386-in-bkkt-shares-93CH-4766607",
-      "published": "2026-06-29 22:15:51"
+      "title": "U.S. declaration to exit USMCA to start a decade-long countdown for the pact",
+      "url": "https://www.investing.com/news/economic-indicators/us-declaration-to-exit-usmca-to-start-a-decadelong-countdown-for-the-pact-4767291",
+      "published": "2026-06-30 10:24:59"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Uncertainty over Qatar diplomacy clouds prospects for US-Iran deal",
+      "url": "https://www.investing.com/news/world-news/uncertainty-over-qatar-diplomacy-clouds-prospects-for-usiran-deal-4767346",
+      "published": "2026-06-30 10:24:41"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Japan Stocks Set to Climb as Yen Hits 40-Year Low: Markets Wrap",
+      "title": "Traders on High Alert as the Yen Hits a Four-Decade Low",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-06-30/traders-on-high-alert-as-the-yen-hits-a-four-decade-low",
+      "published": "Tue, 30 Jun 2026 10:19:37 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "New Investors Fuel Record Share Sales by Listed Polish Firms",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-30/poland-s-new-investors-fuel-record-stock-sales-for-listed-firms",
+      "published": "Tue, 30 Jun 2026 05:15:00 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "US Stocks Set to Finish Best Quarter in Six Years: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-06-29/japan-stocks-set-to-climb-as-yen-hits-40-year-low-markets-wrap",
       "published": "Mon, 29 Jun 2026 22:06:50 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Pakistan Says Strikes Kill 29 Afghans in New Border Flare Up",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-29/pakistan-says-strikes-along-afghan-border-kill-29-militants",
-      "published": "Mon, 29 Jun 2026 01:44:49 GMT"
+      "title": "US Stocks Head for Best Quarter in Six Years | The Pulse 6/30/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-30/the-pulse-6-30-2026-video",
+      "published": "Tue, 30 Jun 2026 10:12:04 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Forgent, Backer Offer Stock After Price Doubles Since IPO",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-29/forgent-backer-offer-stock-after-price-doubles-since-ipo",
-      "published": "Mon, 29 Jun 2026 22:05:40 GMT"
+      "title": "Yen’s Slide Puts Market on Lookout for Japan’s Next Red Line",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-30/yen-s-slide-puts-market-on-lookout-for-japan-s-next-red-line",
+      "published": "Tue, 30 Jun 2026 07:46:48 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Oil Holds Gain as Iran Seeks Hormuz Control Before Talks With US",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-29/latest-oil-market-news-and-analysis-for-june-30",
-      "published": "Mon, 29 Jun 2026 22:01:15 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "CEO Behind Knicks Flyfish Club Afterparty on What’s Next",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-29/ceo-behind-knicks-flyfish-club-afterparty-on-what-s-next-video",
-      "published": "Mon, 29 Jun 2026 21:35:34 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Grasshopper Club Zurich Sold by LA Team to Bridge Football",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-29/grasshopper-club-zurich-sold-by-la-team-to-bridge-football",
-      "published": "Mon, 29 Jun 2026 21:35:05 GMT"
-    },
-    {
-      "source": "FT Markets",
-      "title": "Ethiopia makes deal to cut payments on $1bn bond",
-      "url": "https://www.ft.com/content/90770782-517e-4b23-aaae-4b5a20720878",
-      "published": "Mon, 29 Jun 2026 21:48:50 GMT"
+      "title": "Mizuho, SMFG Fuel Record Japan Corporate Bond Sales Abroad",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-30/mizuho-smfg-fuel-record-japanese-corporate-bond-sales-overseas",
+      "published": "Tue, 30 Jun 2026 01:33:20 GMT"
     }
   ],
   "summary": {
