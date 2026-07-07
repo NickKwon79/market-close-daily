@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-07-07 07:44 KST",
+  "as_of_kst": "2026-07-07 19:38 KST",
   "as_of_date": "2026-07-07",
   "as_of_weekday": "TUE",
-  "build_unix": 1783377877,
+  "build_unix": 1783420705,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 8088.34,
-      "change": 440.25,
-      "change_pct": 5.76,
+      "price": 7656.31,
+      "change": -395.02,
+      "change_pct": -4.91,
       "spark": [
-        8394.65,
-        8476.48,
         8303.41,
         7648.09,
-        8088.34
+        8088.34,
+        8051.33,
+        7656.31
       ],
-      "as_of": "2026-07-03"
+      "as_of": "2026-07-07"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 69744.07,
-      "change": 1010.92,
-      "change_pct": 1.47,
+      "price": 68256.96,
+      "change": -1480.73,
+      "change_pct": -2.12,
       "spark": [
-        69468.11,
-        70062.32,
         70474.96,
         68733.15,
-        69744.07
+        69744.07,
+        69737.69,
+        68256.96
       ],
-      "as_of": "2026-07-06"
+      "as_of": "2026-07-07"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 23350.03,
-      "change": 295.0,
-      "change_pct": 1.28,
+      "price": 23496.89,
+      "change": -119.43,
+      "change_pct": -0.51,
       "spark": [
-        22671.86,
-        23026.68,
         22881.02,
         23055.03,
-        23350.03
+        23350.03,
+        23616.32,
+        23496.89
       ],
-      "as_of": "2026-07-06"
+      "as_of": "2026-07-07"
     },
     "csi300": {
       "key": "csi300",
@@ -118,17 +118,17 @@
       "name": "CSI 300",
       "region": "CHINA",
       "kind": "broad",
-      "price": 4842.17,
-      "change": 29.87,
-      "change_pct": 0.62,
+      "price": 4792.26,
+      "change": -49.91,
+      "change_pct": -1.03,
       "spark": [
-        4926.92,
         4979.43,
         4958.98,
         4812.3,
-        4842.17
+        4842.17,
+        4792.26
       ],
-      "as_of": "2026-07-06"
+      "as_of": "2026-07-07"
     },
     "ftse": {
       "key": "ftse",
@@ -136,17 +136,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10651.77,
-      "change": -27.23,
-      "change_pct": -0.25,
+      "price": 10694.7,
+      "change": 42.9,
+      "change_pct": 0.4,
       "spark": [
-        10497.1,
         10478.3,
         10652.9,
         10679.0,
-        10651.77
+        10651.8,
+        10694.7
       ],
-      "as_of": "2026-07-06"
+      "as_of": "2026-07-07"
     },
     "dax": {
       "key": "dax",
@@ -154,50 +154,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 25779.31,
-      "change": 198.43,
-      "change_pct": 0.78,
+      "price": 25700.08,
+      "change": -117.81,
+      "change_pct": -0.46,
       "spark": [
-        24626.89,
-        24995.81,
         25040.28,
         25580.88,
-        25779.31
+        25779.31,
+        25817.89,
+        25700.08
       ],
-      "as_of": "2026-07-06"
+      "as_of": "2026-07-07"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1529.79,
+      "rate": 1515.37,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 162.07,
+      "rate": 161.9,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1447,
+      "rate": 1.1434,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7853,
+      "rate": 6.7927,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 100.86,
-      "change": -0.0,
-      "change_pct": -0.0,
+      "rate": 100.94,
+      "change": 0.09,
+      "change_pct": 0.09,
       "kind": "index"
     }
   },
@@ -207,48 +207,54 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 68.67,
-      "change": -0.02,
-      "change_pct": -0.03
+      "price": 69.23,
+      "change": 0.68,
+      "change_pct": 0.99
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4179.1,
-      "change": 66.4,
-      "change_pct": 1.61
+      "price": 4149.1,
+      "change": -6.0,
+      "change_pct": -0.14
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 64156.31,
-      "change": 608.43,
-      "change_pct": 0.96
+      "price": 63238.37,
+      "change": -756.64,
+      "change_pct": -1.18
     },
     "ust10y": {
       "key": "ust10y",
       "symbol": "^TNX",
       "name": "10Y UST Yield",
       "unit": "%",
-      "price": 4.48,
-      "change": -0.01,
-      "change_pct": -0.13
+      "price": 4.49,
+      "change": 0.01,
+      "change_pct": 0.22
     },
     "vix": {
       "key": "vix",
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 15.57,
-      "change": -0.58,
-      "change_pct": -3.59
+      "price": 15.86,
+      "change": 0.29,
+      "change_pct": 1.86
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Tuesday's big stock stories: What’s likely to move the market in the next trading session",
+      "url": "https://www.cnbc.com/2026/07/06/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+      "published": "Mon, 06 Jul 2026 23:11:35 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Dividend cuts could be coming for these stocks, Wolfe warns",
@@ -280,12 +286,6 @@
       "published": "Mon, 06 Jul 2026 16:34:18 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "Rivian, Tesla and the 'Holly Index': How to trade the new EV Main Street battle",
-      "url": "https://www.cnbc.com/2026/07/06/rivian-tesla-and-the-holly-index-how-to-trade-the-new-ev-main-street-battle.html",
-      "published": "Mon, 06 Jul 2026 16:11:03 GMT"
-    },
-    {
       "source": "Yahoo Finance",
       "title": "Best Buy and Apple flag a price shock for shoppers",
       "url": "https://finance.yahoo.com/economy/articles/best-buy-apple-flag-price-203300039.html",
@@ -293,141 +293,141 @@
     },
     {
       "source": "Yahoo Finance",
-      "title": "Dear Taiwan Semi Stock Fans, Mark Your Calendars for July 16",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-taiwan-semi-stock-fans-140002938.html",
-      "published": "2026-07-05T14:00:02Z"
+      "title": "Exclusive-Beijing is looking at curbing overseas access to China's top AI models, sources say",
+      "url": "https://finance.yahoo.com/technology/ai/articles/exclusive-beijing-looking-curbing-overseas-101644780.html",
+      "published": "2026-07-07T10:16:44Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Got $2M saved for retirement? Get ready for everything to change, and not always for the better. Dodge 5 money traps now",
-      "url": "https://finance.yahoo.com/markets/articles/got-2m-saved-retirement-ready-141000374.html",
-      "published": "2026-07-05T14:10:00Z"
+      "title": "Big Tech data centers are driving up power bills at America's Rust Belt factories",
+      "url": "https://finance.yahoo.com/energy/articles/big-tech-data-centers-driving-100231857.html",
+      "published": "2026-07-07T10:02:31Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "British American Tobacco Is Cutting 5,500 Jobs. How to Play the High-Yield Dividend Stock Here.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/british-american-tobacco-cutting-5-134501060.html",
-      "published": "2026-07-05T13:45:01Z"
+      "title": "SpaceX is entering the Nasdaq 100 — here's what it could mean for the stock: Chart of the Day",
+      "url": "https://finance.yahoo.com/markets/article/spacex-is-entering-the-nasdaq-100--heres-what-it-could-mean-for-the-stock-chart-of-the-day-100000973.html",
+      "published": "2026-07-07T10:00:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Google Just Launched 2 New AI Models. What That Means for GOOGL Stock.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/google-just-launched-2-ai-143002336.html",
-      "published": "2026-07-05T14:30:02Z"
+      "title": "HELOC and home equity loan rates today, Tuesday, July 7, 2026: Besides rates, how do you choose HELOC or HEL?",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-tuesday-july-7-2026-besides-rates-how-do-you-choose-heloc-or-hel-100000980.html",
+      "published": "2026-07-07T10:00:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Wall Street Is Buzzing About Alphabet Joining the Dow. Income Investors Should Be Looking at This Stock Instead.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-buzzing-alphabet-joining-140500024.html",
-      "published": "2026-07-05T14:05:00Z"
+      "title": "Micron Technology Just Dropped a $50 Billion Revenue Bombshell. Time to Buy the Stock?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-technology-just-dropped-50-102000860.html",
+      "published": "2026-07-07T10:20:00Z"
     },
     {
       "source": "MarketWatch Top",
-      "title": "The Nasdaq-100 has been far more volatile than the S&P 500. Now add SpaceX to the mix.",
-      "url": "https://www.marketwatch.com/story/the-nasdaq-100-has-been-far-more-volatile-than-the-s-p-500-now-add-spacex-to-the-mix-cd397c36?mod=mw_rss_topstories",
-      "published": "Mon, 06 Jul 2026 22:39:00 GMT"
+      "title": "Just how K-shaped is the U.S. economy? The top 10% spend nearly as much, excluding essentials, as bottom 70% combined",
+      "url": "https://www.marketwatch.com/story/just-how-k-shaped-is-the-u-s-economy-the-top-10-spend-nearly-as-much-excluding-essentials-as-bottom-70-combined-94a3a918?mod=mw_rss_topstories",
+      "published": "Tue, 07 Jul 2026 10:19:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "U.S.-Belgium match could draw record TV audience amid the Trump World Cup controversy",
-      "url": "https://www.marketwatch.com/story/u-s-belgium-match-could-draw-record-tv-audience-amid-the-trump-world-cup-controversy-52783b8f?mod=mw_rss_topstories",
-      "published": "Mon, 06 Jul 2026 22:17:00 GMT"
+      "title": "‘I make my own pizza.’ What’s the best way you’ve found to save money?",
+      "url": "https://www.marketwatch.com/story/i-make-my-own-pizza-whats-the-best-way-youve-found-to-save-money-25412399?mod=mw_rss_topstories",
+      "published": "Tue, 07 Jul 2026 10:00:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Your data built the AI boom — but Big Tech is pocketing 100% of the equity",
-      "url": "https://www.marketwatch.com/story/your-share-of-the-ai-wealth-is-a-right-not-a-handout-here-is-how-we-claw-back-our-money-7454b0e0?mod=mw_rss_topstories",
-      "published": "Mon, 06 Jul 2026 21:36:00 GMT"
+      "title": "‘The money would have been life-changing’: My father told my grandmother to slash my inheritance. Is that fair?",
+      "url": "https://www.marketwatch.com/story/the-money-would-have-been-life-changing-my-father-told-my-grandmother-to-slash-my-inheritance-is-that-fair-3808b6d1?mod=mw_rss_topstories",
+      "published": "Tue, 07 Jul 2026 09:30:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Your investing expectations are more than double the reality. Here is the tough truth.",
-      "url": "https://www.marketwatch.com/story/your-investing-expectations-are-more-than-double-the-reality-here-is-the-tough-truth-dea61820?mod=mw_rss_topstories",
-      "published": "Mon, 06 Jul 2026 21:19:00 GMT"
+      "title": "SpaceX’s two lead underwriters have a $1 trillion chasm in their valuation as quiet period ends",
+      "url": "https://www.marketwatch.com/story/spacexs-two-lead-underwriters-have-a-1-trillion-chasm-in-their-valuation-as-quiet-period-ends-11d8ef35?mod=mw_rss_topstories",
+      "published": "Tue, 07 Jul 2026 09:29:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Stocks rally when Congress goes on summer break. Here’s why.",
-      "url": "https://www.marketwatch.com/story/stocks-rally-when-congress-goes-on-summer-break-here-is-the-hidden-reason-e70a6be3?mod=mw_rss_topstories",
-      "published": "Mon, 06 Jul 2026 21:18:00 GMT"
+      "title": "Tough crowd for Samsung as record quarterly earnings brings out the sellers",
+      "url": "https://www.marketwatch.com/story/tough-crowd-for-samsung-as-record-quarterly-earnings-brings-out-the-sellers-5e9979f2?mod=mw_rss_topstories",
+      "published": "Tue, 07 Jul 2026 09:18:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "You want a portfolio that matches your morals. Your retirement plan might disagree.",
-      "url": "https://www.marketwatch.com/story/you-want-a-portfolio-that-matches-your-morals-but-that-could-sink-your-retirement-plans-0b6fb5bf?mod=mw_rss_topstories",
-      "published": "Mon, 06 Jul 2026 21:16:00 GMT"
+      "title": "Former ‘Grey’s Anatomy’ star Katherine Heigl is selling her gorgeous Utah home for $10.6 million",
+      "url": "https://www.marketwatch.com/story/former-greys-anatomy-star-katherine-heigl-is-selling-her-gorgeous-utah-home-for-10-6-million-4a37d5ae?mod=mw_rss_topstories",
+      "published": "Tue, 07 Jul 2026 09:04:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "JELD-WEN EVP & CFO Stoddard sells $1,775 in JELD stock",
-      "url": "https://www.investing.com/news/insider-trading-news/jeldwen-evp--cfo-stoddard-sells-1775-in-jeld-stock-93CH-4777730",
-      "published": "2026-07-06 21:30:44"
+      "title": "Tankers hit in Hormuz as millions mourn Iran’s Khamenei",
+      "url": "https://www.investing.com/news/commodities-news/ship-hit-in-hormuz-as-millions-march-for-ayatollah-iran-says-no-talks-unless-trump-halts-threats-4778531",
+      "published": "2026-07-07 10:36:58"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 4 Arteris Inc For: 6 July",
-      "url": "https://www.investing.com/news/filings/form-4-arteris-inc-for-6-july-93CH-4777729",
-      "published": "2026-07-06 21:30:44"
+      "title": "Compass Pathways reports 6-month data from phase 3 TRD trial",
+      "url": "https://www.investing.com/news/company-news/compass-pathways-reports-6month-data-from-phase-3-trd-trial-93CH-4778700",
+      "published": "2026-07-07 10:36:49"
     },
     {
       "source": "Investing.com News",
-      "title": "Rivian forecasts quarterly revenue above estimates",
-      "url": "https://www.investing.com/news/stock-market-news/rivian-forecasts-quarterly-revenue-above-estimates-4777728",
-      "published": "2026-07-06 21:30:41"
+      "title": "Smurfit Westrock creates World Cup packaging for Coca-Cola China",
+      "url": "https://www.investing.com/news/company-news/smurfit-westrock-creates-world-cup-packaging-for-cocacola-china-93CH-4778699",
+      "published": "2026-07-07 10:36:45"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 4 AeroVironment Inc For: 6 July",
-      "url": "https://www.investing.com/news/filings/form-4-aerovironment-inc-for-6-july-93CH-4777727",
-      "published": "2026-07-06 21:30:10"
+      "title": "Parsons wins three-year Qatar infrastructure contract",
+      "url": "https://www.investing.com/news/company-news/parsons-wins-threeyear-qatar-infrastructure-contract-93CH-4778698",
+      "published": "2026-07-07 10:36:43"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 4 Covenant Logistics Group Inc For: 6 July",
-      "url": "https://www.investing.com/news/filings/form-4-covenant-logistics-group-inc-for-6-july-93CH-4777726",
-      "published": "2026-07-06 21:30:06"
+      "title": "Exclusive-China’s DeepSeek developing its own AI chip, sources say",
+      "url": "https://www.investing.com/news/economy-news/exclusivechinas-deepseek-developing-its-own-ai-chip-sources-say-4778697",
+      "published": "2026-07-07 10:36:41"
     },
     {
       "source": "Investing.com News",
-      "title": "Mexico stocks higher at close of trade; S&P/BMV IPC up 0.61%",
-      "url": "https://www.investing.com/news/stock-market-news/mexico-stocks-higher-at-close-of-trade-spbmv-ipc-up-061-4777725",
-      "published": "2026-07-06 21:30:03"
+      "title": "Wingstop’s SWOT analysis: stock faces near-term headwinds",
+      "url": "https://www.investing.com/news/swot-analysis/wingstops-swot-analysis-stock-faces-nearterm-headwinds-93CH-4778684",
+      "published": "2026-07-07 10:35:44"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Hedge Funds Turn Most Negative on the Japanese Yen Since 2007",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-06/hedge-funds-turn-most-negative-on-the-japanese-yen-since-2007",
-      "published": "Mon, 06 Jul 2026 19:58:21 GMT"
+      "title": "Wall Street Buys Into Musk’s SpaceX Vision",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-07-07/wall-street-buys-into-musk-s-spacex-vision",
+      "published": "Tue, 07 Jul 2026 10:13:21 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Asian Stocks Set to Gain After Tech-Powered Rally: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-06/stock-market-today-dow-s-p-live-updates",
-      "published": "Mon, 06 Jul 2026 22:10:26 GMT"
+      "title": "France Cuts 2026 GDP Forecast Due to Budget Delay, Iran Conflict",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-07/france-cuts-2026-gdp-forecast-due-to-budget-delay-iran-conflict",
+      "published": "Tue, 07 Jul 2026 10:08:45 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Oil Holds Drop as Saudi Arabian Price Cut Amplifies Glut Concern",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-06/latest-oil-market-news-and-analysis-for-july-7",
-      "published": "Mon, 06 Jul 2026 22:01:13 GMT"
+      "title": "AI Productivity Gains Are Years Away, Deutsche Bank’s Reid Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-07/ai-productivity-gains-are-years-away-deutsche-bank-s-reid-says",
+      "published": "Tue, 07 Jul 2026 10:08:11 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Japan Drives Asia Offshore Bonds to Record, Surpassing China Era",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-06/japan-drives-asia-offshore-bonds-to-record-surpassing-china-era",
-      "published": "Mon, 06 Jul 2026 22:00:00 GMT"
+      "title": "A Once-Great Copper Miner Faces a Reckoning Just as AI Power Demand Soars",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-07/codelco-confronts-debt-output-concerns-as-copper-demand-soars-on-ai",
+      "published": "Tue, 07 Jul 2026 10:00:26 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Rivian Offers 75 Million Shares to Meet US Energy Loan Terms",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-06/electric-vehicle-maker-rivian-offers-to-sell-75-million-shares",
-      "published": "Mon, 06 Jul 2026 21:26:22 GMT"
+      "title": "Chile revisa el futuro de Codelco en medio del boom mundial de la demanda de cobre",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-07/codelco-enfrenta-crisis-en-pleno-auge-del-cobre-y-la-ia-mraha8al",
+      "published": "Tue, 07 Jul 2026 10:00:24 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Hamilton Lane Raises $3.8 Billion Fund Targeting Mid-Market Private Equity Deals",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-06/hamilton-lane-raises-3-8-billion-fund-video",
-      "published": "Mon, 06 Jul 2026 21:46:31 GMT"
+      "title": "Barclays Sees Forint Rally Over as Tough Road to Euro Starts",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-07/early-forint-bull-barclays-sees-rally-fading-as-euro-work-begins",
+      "published": "Tue, 07 Jul 2026 05:00:00 GMT"
     }
   ],
   "summary": {
