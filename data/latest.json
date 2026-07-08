@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-07-08 07:36 KST",
+  "as_of_kst": "2026-07-08 18:55 KST",
   "as_of_date": "2026-07-08",
   "as_of_weekday": "WED",
-  "build_unix": 1783463803,
+  "build_unix": 1783504540,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 8051.33,
-      "change": -37.01,
-      "change_pct": -0.46,
+      "price": 7246.79,
+      "change": -409.52,
+      "change_pct": -5.35,
       "spark": [
-        8476.48,
-        8303.41,
         7648.09,
         8088.34,
-        8051.33
+        8051.33,
+        7656.31,
+        7246.79
       ],
-      "as_of": "2026-07-06"
+      "as_of": "2026-07-08"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 69737.69,
-      "change": -6.38,
-      "change_pct": -0.01,
+      "price": 66819.05,
+      "change": -1437.91,
+      "change_pct": -2.11,
       "spark": [
-        70062.32,
-        70474.96,
         68733.15,
         69744.07,
-        69737.69
+        69737.69,
+        68256.96,
+        66819.05
       ],
-      "as_of": "2026-07-07"
+      "as_of": "2026-07-08"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 23616.32,
-      "change": 266.29,
-      "change_pct": 1.14,
+      "price": 24199.46,
+      "change": 702.57,
+      "change_pct": 2.99,
       "spark": [
-        23026.68,
-        22881.02,
         23055.03,
         23350.03,
-        23616.32
+        23616.32,
+        23496.89,
+        24199.46
       ],
-      "as_of": "2026-07-07"
+      "as_of": "2026-07-08"
     },
     "csi300": {
       "key": "csi300",
@@ -118,17 +118,17 @@
       "name": "CSI 300",
       "region": "CHINA",
       "kind": "broad",
-      "price": 4842.17,
-      "change": 29.87,
-      "change_pct": 0.62,
+      "price": 4755.53,
+      "change": -86.64,
+      "change_pct": -1.79,
       "spark": [
-        4926.92,
         4979.43,
         4958.98,
         4812.3,
-        4842.17
+        4842.17,
+        4755.53
       ],
-      "as_of": "2026-07-07"
+      "as_of": "2026-07-08"
     },
     "ftse": {
       "key": "ftse",
@@ -136,17 +136,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10665.88,
-      "change": 14.08,
-      "change_pct": 0.13,
+      "price": 10500.27,
+      "change": -165.63,
+      "change_pct": -1.55,
       "spark": [
-        10478.3,
         10652.9,
         10679.0,
         10651.8,
-        10665.88
+        10665.9,
+        10500.27
       ],
-      "as_of": "2026-07-07"
+      "as_of": "2026-07-08"
     },
     "dax": {
       "key": "dax",
@@ -154,50 +154,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 25817.89,
-      "change": 38.58,
-      "change_pct": 0.15,
+      "price": 24886.5,
+      "change": -578.75,
+      "change_pct": -2.27,
       "spark": [
-        24995.81,
-        25040.28,
         25580.88,
         25779.31,
-        25817.89
+        25817.89,
+        25465.25,
+        24886.5
       ],
-      "as_of": "2026-07-07"
+      "as_of": "2026-07-08"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1512.87,
+      "rate": 1507.97,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 162.16,
+      "rate": 162.42,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1408,
+      "rate": 1.1413,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7929,
+      "rate": 6.7987,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
       "rate": 101.12,
-      "change": 0.27,
-      "change_pct": 0.27,
+      "change": -0.02,
+      "change_pct": -0.02,
       "kind": "index"
     }
   },
@@ -207,27 +207,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 72.35,
-      "change": 3.8,
-      "change_pct": 5.54
+      "price": 74.63,
+      "change": 4.19,
+      "change_pct": 5.95
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4112.5,
-      "change": -42.6,
-      "change_pct": -1.03
+      "price": 4057.9,
+      "change": -87.4,
+      "change_pct": -2.11
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 63594.31,
-      "change": -400.71,
-      "change_pct": -0.63
+      "price": 62031.68,
+      "change": -1265.71,
+      "change_pct": -2.0
     },
     "ust10y": {
       "key": "ust10y",
@@ -243,12 +243,24 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 16.13,
-      "change": 0.56,
-      "change_pct": 3.6
+      "price": 18.59,
+      "change": 2.46,
+      "change_pct": 15.25
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Kalshi traders see slim odds U.S. government will take a stake in OpenAI this year",
+      "url": "https://www.cnbc.com/2026/07/07/kalshi-traders-give-low-odds-the-us-takes-a-stake-in-openai-in-2026.html",
+      "published": "Tue, 07 Jul 2026 22:51:08 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Wednesday's big stock stories: What’s likely to move the market in the next trading session",
+      "url": "https://www.cnbc.com/2026/07/07/wednesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+      "published": "Tue, 07 Jul 2026 23:31:23 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Josh Brown likes this 'sleeping giant' AI play and Magnificent 7 member",
@@ -274,160 +286,148 @@
       "published": "Tue, 07 Jul 2026 15:45:33 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "A breakout in Broadcom may be forming. How to trade it if it materializes",
-      "url": "https://www.cnbc.com/2026/07/07/a-breakout-in-broadcom-may-be-forming-how-to-trade-it-if-it-materializes.html",
-      "published": "Tue, 07 Jul 2026 14:56:24 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Only one SpaceX analyst out of all the bulls Tuesday is calling for the stock to drop. Here's why",
-      "url": "https://www.cnbc.com/2026/07/07/only-one-spacex-analyst-is-calling-for-the-stock-to-drop-heres-why.html",
-      "published": "Tue, 07 Jul 2026 16:04:14 GMT"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Best Buy and Apple flag a price shock for shoppers",
-      "url": "https://finance.yahoo.com/economy/articles/best-buy-apple-flag-price-203300039.html",
-      "published": "2026-07-06T20:33:00Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Kids and Congressmen Just Love SpaceX Stock",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/kids-congressmen-just-love-spacex-141933375.html",
-      "published": "2026-07-06T14:19:33Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Halliburton Stock Offers an Unusual Contrarian Opportunity for Daredevils",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/halliburton-stock-offers-unusual-contrarian-142144201.html",
-      "published": "2026-07-06T14:21:44Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Costco Wholesale Corporation (COST) Benefits from Investors’ Focus on Resilient Businesses",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/costco-wholesale-corporation-cost-benefits-142209292.html",
-      "published": "2026-07-06T14:22:09Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Invitation Homes' Quarterly Earnings Preview: What You Need to Know",
-      "url": "https://finance.yahoo.com/real-estate/articles/invitation-homes-quarterly-earnings-preview-141545925.html",
-      "published": "2026-07-06T14:15:45Z"
-    },
-    {
       "source": "Yahoo Finance",
       "title": "Bank of America warns America now has 2 economies",
       "url": "https://finance.yahoo.com/economy/articles/bank-america-warns-america-now-202300727.html",
       "published": "2026-07-07T20:23:00Z"
     },
     {
-      "source": "MarketWatch Top",
-      "title": "Tesla’s stock could rise 20% thanks to the potential for a SpaceX merger, analyst says",
-      "url": "https://www.marketwatch.com/story/teslas-stock-could-rise-20-thanks-to-the-potential-for-a-spacex-merger-analyst-says-0d64693e?mod=mw_rss_topstories",
-      "published": "Tue, 07 Jul 2026 22:34:00 GMT"
+      "source": "Yahoo Finance",
+      "title": "What is the bingo savings challenge? Here's how it works — and how much you can save.",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/bingo-savings-challenge-153459727.html",
+      "published": "2026-07-06T15:34:59Z"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Rate buydown vs. closing costs vs. price reduction",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/rate-buydown-vs-closing-costs-vs-price-reduction-160106245.html",
+      "published": "2026-07-06T16:01:06Z"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Weekly survey of mortgage lenders with the lowest rates: Rates bubble higher",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/weekly-survey-mortgage-lenders-with-the-best-lowest-rates-july-9-170834159.html",
+      "published": "2025-11-03T17:08:34Z"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Mortgage and refinance rates today, Monday, July 6: Purchase rates currently higher than refinance rates",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-rates-today-monday-july-6-purchase-rates-currently-higher-than-refi-rates-100000511.html",
+      "published": "2026-07-06T10:00:00Z"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "CoreWeave stock sinks as mag 7 move rattles investors",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-stock-sinks-mag-7-213300871.html",
+      "published": "2026-07-07T21:33:00Z"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Crude prices rise as U.S. launches strikes on Iran shortly after canceling its license to sell oil",
-      "url": "https://www.marketwatch.com/story/oil-prices-rise-as-the-u-s-cancels-irans-license-to-sell-oil-030635fc?mod=mw_rss_topstories",
-      "published": "Tue, 07 Jul 2026 22:11:00 GMT"
+      "title": "Oil prices jump by the most in two months after Trump suggests U.S.-Iran cease-fire is over",
+      "url": "https://www.marketwatch.com/story/oil-prices-jump-by-the-most-in-two-months-after-trump-suggests-u-s-iran-cease-fire-is-over-9fa7caee?mod=mw_rss_topstories",
+      "published": "Wed, 08 Jul 2026 09:21:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Think the U.S. stock market is too heavily exposed to AI? It’s even worse abroad.",
-      "url": "https://www.marketwatch.com/story/think-the-u-s-stock-market-is-too-heavily-exposed-to-ai-its-even-worse-abroad-7524d770?mod=mw_rss_topstories",
-      "published": "Tue, 07 Jul 2026 21:59:00 GMT"
+      "title": "I’m 73 and still work full time. Can I avoid paying taxes on my Social Security benefits?",
+      "url": "https://www.marketwatch.com/story/im-73-and-still-work-full-time-can-i-avoid-paying-taxes-on-my-social-security-benefits-06ecc7c2?mod=mw_rss_topstories",
+      "published": "Wed, 08 Jul 2026 09:16:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "GameStop investors clear the way for a fresh attempt at buying eBay",
-      "url": "https://www.marketwatch.com/story/gamestop-investors-clear-the-way-for-a-fresh-attempt-at-buying-ebay-8231871d?mod=mw_rss_topstories",
-      "published": "Tue, 07 Jul 2026 21:37:00 GMT"
+      "title": "Dakota Johnson quickly sells $6 million midcentury modern home in L.A.",
+      "url": "https://www.marketwatch.com/story/dakota-johnson-quickly-sells-6-million-midcentury-modern-home-in-l-a-b6fb5e00?mod=mw_rss_topstories",
+      "published": "Wed, 08 Jul 2026 09:01:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘The money would have been life-changing’: My father told my grandmother to slash my inheritance. Is that fair?",
-      "url": "https://www.marketwatch.com/story/the-money-would-have-been-life-changing-my-father-told-my-grandmother-to-slash-my-inheritance-is-that-fair-3808b6d1?mod=mw_rss_topstories",
-      "published": "Tue, 07 Jul 2026 21:30:00 GMT"
+      "title": "After selling her $5 million Westchester home, Drew Barrymore shows off her RV",
+      "url": "https://www.marketwatch.com/story/after-selling-her-5-million-westchester-home-drew-barrymore-shows-off-her-rv-1d2cccf7?mod=mw_rss_topstories",
+      "published": "Wed, 08 Jul 2026 08:58:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘I’ve plenty of time on my hands’: Advisers bombard me with offers of free steak dinners. Is it wrong to go for the food?",
-      "url": "https://www.marketwatch.com/story/ive-plenty-of-time-on-my-hands-advisers-bombard-me-with-offers-for-free-steak-is-it-wrong-to-go-for-the-food-1b139f98?mod=mw_rss_topstories",
-      "published": "Tue, 07 Jul 2026 21:30:00 GMT"
+      "title": "Alibaba just had its best day in 10 months. Is it time for China techs to catch up?",
+      "url": "https://www.marketwatch.com/story/alibaba-just-had-its-best-day-in-10-months-is-it-time-for-china-techs-to-catch-up-8ccc3f7c?mod=mw_rss_topstories",
+      "published": "Wed, 08 Jul 2026 08:57:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "It was the world’s hottest stock market. Now South Korea’s stock market has entered bear-market territory",
+      "url": "https://www.marketwatch.com/story/it-was-the-worlds-hottest-stock-market-now-south-koreas-stock-market-index-has-entered-bear-market-territory-95d70e3d?mod=mw_rss_topstories",
+      "published": "Wed, 08 Jul 2026 08:53:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Nasdaq sinks as AI worries hit chipmakers",
-      "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-fall-after-samsungs-record-profit-fails-to-allay-chip-jitters-4778520",
-      "published": "2026-07-07 22:25:28"
+      "title": "UK sells £750 million of treasury gilts due 2028",
+      "url": "https://www.investing.com/news/company-news/uk-sells-750-million-of-treasury-gilts-due-2028-93CH-4780955",
+      "published": "2026-07-08 09:32:44"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 4 Generac Holdings For: 7 July",
-      "url": "https://www.investing.com/news/filings/form-4-generac-holdings-for-7-july-93CH-4780462",
-      "published": "2026-07-07 22:25:22"
+      "title": "Dollar rises  as Trump signals pessimism over U.S-Iran deal",
+      "url": "https://www.investing.com/news/forex-news/asia-fx-yen-hovers-near-40year-low-kiwi-jumps-after-rbnz-hike-4780661",
+      "published": "2026-07-08 09:32:39"
     },
     {
       "source": "Investing.com News",
-      "title": "FCC denies US firm with Chinese links approval to provide telecom services",
-      "url": "https://www.investing.com/news/stock-market-news/fcc-denies-us-firm-with-chinese-links-approval-to-provide-telecom-services-4780436",
-      "published": "2026-07-07 22:25:13"
+      "title": "US stock futures tumble as Trump says Iran deal is ’over’; oil climbs",
+      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-tumble-as-trump-says-iran-deal-is-over-oil-climbs-4780920",
+      "published": "2026-07-08 09:30:48"
     },
     {
       "source": "Investing.com News",
-      "title": "Bernie Sanders urges Platner to quit Maine Senate race as Democrats vie to succeed him",
-      "url": "https://www.investing.com/news/politics-news/bernie-sanders-urges-platner-to-quit-maine-senate-race-as-democrats-vie-to-succeed-him-4779846",
-      "published": "2026-07-07 22:24:51"
+      "title": "Oil surges, stocks tumble as Trump declares Iran MOU ’over’",
+      "url": "https://www.investing.com/news/economy-news/oil-jumps-and-bonds-dip-as-us-strikes-iran-4780549",
+      "published": "2026-07-08 09:30:31"
     },
     {
       "source": "Investing.com News",
-      "title": "Venezuelan volunteers dig graves for quake victims as US defends government relief effort",
-      "url": "https://www.investing.com/news/world-news/us-aid-to-venezuela-after-quakes-exceeds-310-million-says-us-charge-daffaires-4779662",
-      "published": "2026-07-07 22:24:37"
+      "title": "European energy stocks rally as oil rises after Trump says ceasefire ’is over’",
+      "url": "https://www.investing.com/news/stock-market-news/european-energy-stocks-gain-as-oil-rises-on-fresh-usiran-strikes-4780779",
+      "published": "2026-07-08 09:30:17"
     },
     {
       "source": "Investing.com News",
-      "title": "Cigna’s SWOT analysis: stock navigates PBM transition challenges",
-      "url": "https://www.investing.com/news/swot-analysis/cignas-swot-analysis-stock-navigates-pbm-transition-challenges-93CH-4780461",
-      "published": "2026-07-07 22:24:26"
+      "title": "Earnings call transcript: ZIGUP posts strong H2 2026 results as cash rises",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-zigup-posts-strong-h2-2026-results-as-cash-rises-93CH-4780954",
+      "published": "2026-07-08 09:30:10"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "US Strikes Iran and Blocks Oil Sales in New Threats to Ceasefire",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-07/us-revokes-waiver-allowing-iran-oil-sales-after-tanker-attacks",
-      "published": "Tue, 07 Jul 2026 19:08:45 GMT"
+      "title": "Temasek CIO: Iran Conflict Resolution Needs More Time",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-08/temasek-cio-iran-conflict-resolution-needs-more-time-video",
+      "published": "Wed, 08 Jul 2026 09:48:02 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Oil Jumps on Iran Attack, Asian Stocks Set to Drop: Markets Wrap",
+      "title": "Stocks Fall as Trump Puts Mideast Back in Focus: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-07-07/oil-jumps-on-iran-attack-asian-stocks-set-to-drop-markets-wrap",
       "published": "Tue, 07 Jul 2026 22:10:50 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Oil Surges as US Strikes Targets in Iran Following Ship Attacks",
+      "title": "Temasek-Backed Foundation Healthcare Falls in Singapore Debut",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-07/temasek-backed-foundation-healthcare-set-for-singapore-debut",
+      "published": "Tue, 07 Jul 2026 23:00:00 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Alibaba Shares Jump Most in 10 Months as Rebound Hopes Grow",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-08/alibaba-s-shares-jump-most-in-ten-months-as-earnings-hopes-grow",
+      "published": "Wed, 08 Jul 2026 07:11:48 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Indonesia Faces Possible Cut to Frontier Market by S&amp;P Dow Jones",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-07/s-p-dow-jones-signals-possible-frontier-market-cut-for-indonesia",
+      "published": "Tue, 07 Jul 2026 23:18:52 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Oil Surges After Trump Says US Ceasefire With Iran Is Over",
       "url": "https://www.bloomberg.com/news/articles/2026-07-07/latest-oil-market-news-and-analysis-for-july-8",
       "published": "Tue, 07 Jul 2026 22:01:08 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Sumitomo Mitsui Trust Inks $2 Billion Partnership With Morrison",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-07/sumitomo-mitsui-trust-inks-2-billion-partnership-with-morrison",
-      "published": "Tue, 07 Jul 2026 21:58:56 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Exxon Sees $3.7 Billion Profit Surge From War-Driven Oil Rally",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-07/exxon-sees-3-7-billion-profit-surge-from-war-driven-oil-rally",
-      "published": "Tue, 07 Jul 2026 21:29:00 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "US Judge Rejects DOJ Subpoena Over 2020 Georgia Election",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-07/us-judge-rejects-doj-subpoena-related-to-2020-georgia-election",
-      "published": "Tue, 07 Jul 2026 20:52:08 GMT"
     }
   ],
   "summary": {
