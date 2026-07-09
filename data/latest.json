@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-07-09 07:32 KST",
+  "as_of_kst": "2026-07-09 19:37 KST",
   "as_of_date": "2026-07-09",
   "as_of_weekday": "THU",
-  "build_unix": 1783549928,
+  "build_unix": 1783593456,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 7656.31,
-      "change": -395.02,
-      "change_pct": -4.91,
+      "price": 7291.91,
+      "change": 45.12,
+      "change_pct": 0.62,
       "spark": [
-        8303.41,
-        7648.09,
         8088.34,
         8051.33,
-        7656.31
+        7656.31,
+        7246.79,
+        7291.91
       ],
-      "as_of": "2026-07-07"
+      "as_of": "2026-07-09"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 68256.96,
-      "change": -1480.73,
-      "change_pct": -2.12,
+      "price": 67743.85,
+      "change": 924.8,
+      "change_pct": 1.38,
       "spark": [
-        70474.96,
-        68733.15,
         69744.07,
         69737.69,
-        68256.96
+        68256.96,
+        66819.05,
+        67743.85
       ],
-      "as_of": "2026-07-08"
+      "as_of": "2026-07-09"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 23496.89,
-      "change": -119.43,
-      "change_pct": -0.51,
+      "price": 24030.18,
+      "change": -169.28,
+      "change_pct": -0.7,
       "spark": [
-        22881.02,
-        23055.03,
         23350.03,
         23616.32,
-        23496.89
+        23496.89,
+        24199.46,
+        24030.18
       ],
-      "as_of": "2026-07-08"
+      "as_of": "2026-07-09"
     },
     "csi300": {
       "key": "csi300",
@@ -118,17 +118,17 @@
       "name": "CSI 300",
       "region": "CHINA",
       "kind": "broad",
-      "price": 4842.17,
-      "change": 29.87,
-      "change_pct": 0.62,
+      "price": 4876.31,
+      "change": 34.14,
+      "change_pct": 0.71,
       "spark": [
-        4926.92,
         4979.43,
         4958.98,
         4812.3,
-        4842.17
+        4842.17,
+        4876.31
       ],
-      "as_of": "2026-07-08"
+      "as_of": "2026-07-09"
     },
     "ftse": {
       "key": "ftse",
@@ -136,17 +136,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10489.04,
-      "change": -176.86,
-      "change_pct": -1.66,
+      "price": 10424.88,
+      "change": -64.12,
+      "change_pct": -0.61,
       "spark": [
-        10652.9,
         10679.0,
         10651.8,
         10665.9,
-        10489.04
+        10489.0,
+        10424.88
       ],
-      "as_of": "2026-07-08"
+      "as_of": "2026-07-09"
     },
     "dax": {
       "key": "dax",
@@ -154,48 +154,48 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 25465.25,
-      "change": -352.64,
-      "change_pct": -1.37,
+      "price": 24968.5,
+      "change": 71.05,
+      "change_pct": 0.29,
       "spark": [
-        25040.28,
-        25580.88,
         25779.31,
         25817.89,
-        25465.25
+        25465.25,
+        24897.45,
+        24968.5
       ],
-      "as_of": "2026-07-08"
+      "as_of": "2026-07-09"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1505.5699,
+      "rate": 1512.1801,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 162.58,
+      "rate": 162.42,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1421,
+      "rate": 1.1435,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7969,
+      "rate": 6.7831,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 101.07,
+      "rate": 100.98,
       "change": -0.07,
       "change_pct": -0.07,
       "kind": "index"
@@ -207,27 +207,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 74.69,
-      "change": 4.25,
-      "change_pct": 6.03
+      "price": 73.8,
+      "change": 0.28,
+      "change_pct": 0.38
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4084.2,
-      "change": -61.1,
-      "change_pct": -1.47
+      "price": 4114.1,
+      "change": 43.2,
+      "change_pct": 1.06
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 62220.02,
-      "change": -1077.38,
-      "change_pct": -1.7
+      "price": 62852.8,
+      "change": 595.23,
+      "change_pct": 0.96
     },
     "ust10y": {
       "key": "ust10y",
@@ -243,12 +243,18 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 16.9,
-      "change": 0.77,
-      "change_pct": 4.77
+      "price": 16.87,
+      "change": -0.03,
+      "change_pct": -0.18
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Thursday's big stock stories: What’s likely to move the market in the next trading session",
+      "url": "https://www.cnbc.com/2026/07/08/thursdays-stock-stories-whats-likely-to-move-the-market.html",
+      "published": "Thu, 09 Jul 2026 00:14:25 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "SpaceX is racing toward orbital data centers. Here are ways to play this emerging technology",
@@ -280,154 +286,148 @@
       "published": "Wed, 08 Jul 2026 18:02:06 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "'Magnificent Seven' stocks are the cheapest in a decade, by one measure",
-      "url": "https://www.cnbc.com/2026/07/08/magnificent-seven-stocks-are-the-cheapest-in-a-decade-by-one-measure.html",
-      "published": "Wed, 08 Jul 2026 17:16:12 GMT"
+      "source": "Yahoo Finance",
+      "title": "AT&T leaves rivals flat-footed as bankrupt carrier folds",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/t-leaves-rivals-flat-footed-183300288.html",
+      "published": "2026-07-08T18:33:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Bank of America warns America now has 2 economies",
-      "url": "https://finance.yahoo.com/economy/articles/bank-america-warns-america-now-202300727.html",
-      "published": "2026-07-07T20:23:00Z"
+      "title": "Here’s Why Chewy Inc. (CHWY) is a Top Mid-Cap Stock to Own for Decades",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-chewy-inc-chwy-top-223617176.html",
+      "published": "2026-07-07T22:36:17Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Dollar Firms on Stock Weakness and Hawkish Williams",
-      "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-firms-stock-weakness-hawkish-143247687.html",
-      "published": "2026-07-07T14:32:47Z"
+      "title": "UBS Asserts Celsius Holdings Inc. (CELH) is a Buy Despite Price Target Cut",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-asserts-celsius-holdings-inc-223632027.html",
+      "published": "2026-07-07T22:36:32Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "AI startup CEO pleaded guilty in US to trading on insider tips from lawyers",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ai-startup-ceo-pleaded-guilty-143543113.html",
-      "published": "2026-07-07T14:35:43Z"
+      "title": "IAMGOLD Corporation (IAG) Strengthens Financial Position with $850M Credit Facility amid 12% Mineral Resource Increase",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/iamgold-corporation-iag-strengthens-financial-223644930.html",
+      "published": "2026-07-07T22:36:44Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Weather Problems Create a Buying Opportunity in Wheat Prices Here",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/weather-problems-create-buying-opportunity-142900839.html",
-      "published": "2026-07-07T14:29:00Z"
+      "title": "Oklo Inc. (OKLO) A Top Mid-Cap Stock to Own For Decades Following Groves Isotope Test Reactor Approval",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-inc-oklo-top-mid-223716261.html",
+      "published": "2026-07-07T22:37:16Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "As prices fall, crack spread signals a split in oil markets",
-      "url": "https://finance.yahoo.com/energy/articles/prices-fall-crack-spread-signals-143125610.html",
-      "published": "2026-07-07T14:31:25Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Market Update: CMCSA, GAP",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_47549_MarketUpdate_1783532732000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "published": "2026-07-08T17:45:32Z"
+      "title": "Mark Cuban’s Advice For His Younger Self, ‘I Wish Someone Told Me To Be…’",
+      "url": "https://finance.yahoo.com/small-business/articles/mark-cuban-advice-younger-self-223128844.html",
+      "published": "2026-07-07T22:31:28Z"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Did you mess up on your taxes? The IRS just made it easier to avoid paying a penalty.",
-      "url": "https://www.marketwatch.com/story/did-you-mess-up-on-your-taxes-the-irs-just-made-it-easier-to-avoid-paying-a-penalty-20d60ae6?mod=mw_rss_topstories",
-      "published": "Wed, 08 Jul 2026 21:40:00 GMT"
+      "title": "‘The money would have been life-changing’: My father told my grandmother to slash my inheritance. Is that fair?",
+      "url": "https://www.marketwatch.com/story/the-money-would-have-been-life-changing-my-father-told-my-grandmother-to-slash-my-inheritance-is-that-fair-3808b6d1?mod=mw_rss_topstories",
+      "published": "Thu, 09 Jul 2026 10:00:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Oil prices extend gains after hours as U.S. forces conduct additional strikes on Iran",
-      "url": "https://www.marketwatch.com/story/oil-prices-jump-by-the-most-in-two-months-after-trump-suggests-u-s-iran-cease-fire-is-over-9fa7caee?mod=mw_rss_topstories",
-      "published": "Wed, 08 Jul 2026 21:16:00 GMT"
+      "title": "‘I get $1,460 in Social Security’: My millionaire ex-husband, 74, refuses to pay alimony. What can I do?",
+      "url": "https://www.marketwatch.com/story/i-get-1-460-in-social-security-my-millionaire-ex-husband-74-refuses-to-pay-alimony-what-can-i-do-c5e60824?mod=mw_rss_topstories",
+      "published": "Thu, 09 Jul 2026 10:00:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Investors haven’t been this bullish on the dollar in a decade. How the buck can keep climbing.",
-      "url": "https://www.marketwatch.com/story/traders-havent-been-this-bullish-on-the-dollar-in-a-decade-how-the-buck-can-keep-climbing-2e2bb287?mod=mw_rss_topstories",
-      "published": "Wed, 08 Jul 2026 21:01:00 GMT"
+      "title": "Major drugmaker loses $27 billion in market value after failed trial",
+      "url": "https://www.marketwatch.com/story/major-drugmaker-loses-27-billion-in-market-value-after-failed-trial-b891fc61?mod=mw_rss_topstories",
+      "published": "Thu, 09 Jul 2026 09:53:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "This chart shows stamp prices over the years as USPS hikes postage again this weekend",
-      "url": "https://www.marketwatch.com/story/this-chart-shows-stamp-prices-over-the-years-as-usps-hikes-postage-again-this-weekend-affbb84b?mod=mw_rss_topstories",
-      "published": "Wed, 08 Jul 2026 20:35:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "The Strait of Hormuz is back under ‘full-conflict conditions’ — and energy markets are scrambling",
-      "url": "https://www.marketwatch.com/story/oil-surges-as-strait-of-hormuz-is-back-into-full-conflict-conditions-6ef59562?mod=mw_rss_topstories",
-      "published": "Wed, 08 Jul 2026 20:32:00 GMT"
+      "title": "SK Hynix Nasdaq listing may become the second-largest equity offering ever, trailing only SpaceX’s",
+      "url": "https://www.marketwatch.com/story/sk-hynix-nasdaq-listing-may-become-the-second-largest-equity-offering-ever-trailing-only-spacexs-8dca5afa?mod=mw_rss_topstories",
+      "published": "Thu, 09 Jul 2026 09:38:00 GMT"
     },
     {
       "source": "MarketWatch Top",
       "title": "‘I’d hate to end up with an unexpected tax bill’: I’m 73 and still work full time. Can I avoid paying taxes on my Social Security benefits?",
       "url": "https://www.marketwatch.com/story/im-73-and-still-work-full-time-can-i-avoid-paying-taxes-on-my-social-security-benefits-06ecc7c2?mod=mw_rss_topstories",
-      "published": "Wed, 08 Jul 2026 20:30:00 GMT"
+      "published": "Thu, 09 Jul 2026 09:30:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Former Dallas Cowboys cheerleader Reece Weaver buys $750,000 home in Alabama after sudden exit from squad",
+      "url": "https://www.marketwatch.com/story/former-dallas-cowboys-cheerleader-reece-weaver-buys-750-000-home-in-alabama-after-sudden-exit-from-squad-71796a9b?mod=mw_rss_topstories",
+      "published": "Thu, 09 Jul 2026 09:01:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 4 PC Connection Inc For: 8 July",
-      "url": "https://www.investing.com/news/filings/form-4-pc-connection-inc-for-8-july-93CH-4782706",
-      "published": "2026-07-08 21:46:10"
+      "title": "Wolfe Research downgrades Ryan Specialty stock rating on valuation",
+      "url": "https://www.investing.com/news/analyst-ratings/wolfe-research-downgrades-ryan-specialty-stock-rating-on-valuation-93CH-4783476",
+      "published": "2026-07-09 10:26:52"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 4 Jabil Circuit  For: 8 July",
-      "url": "https://www.investing.com/news/filings/form-4-jabil-circuit--for-8-july-93CH-4782705",
-      "published": "2026-07-08 21:45:55"
+      "title": "Wolfe Research downgrades Arthur J. Gallagher stock rating on valuation",
+      "url": "https://www.investing.com/news/analyst-ratings/wolfe-research-downgrades-arthur-j-gallagher-stock-rating-on-valuation-93CH-4783475",
+      "published": "2026-07-09 10:26:48"
     },
     {
       "source": "Investing.com News",
-      "title": "Jefferies resumes Agilent stock coverage with Hold rating",
-      "url": "https://www.investing.com/news/analyst-ratings/jefferies-resumes-agilent-stock-coverage-with-hold-rating-93CH-4782704",
-      "published": "2026-07-08 21:44:40"
+      "title": "Equitable Holdings stock downgraded by Wolfe on merger concerns",
+      "url": "https://www.investing.com/news/analyst-ratings/equitable-holdings-stock-downgraded-by-wolfe-on-merger-concerns-93CH-4783474",
+      "published": "2026-07-09 10:26:44"
     },
     {
       "source": "Investing.com News",
-      "title": "Big Tech joins Calgary Stampede oil bash, as Canada courts data centers",
-      "url": "https://www.investing.com/news/stock-market-news/big-tech-joins-calgary-stampede-oil-bash-as-canada-courts-data-centers-4781060",
-      "published": "2026-07-08 21:44:27"
+      "title": "Mizuho downgrades Tractor Supply stock rating on weak trends",
+      "url": "https://www.investing.com/news/analyst-ratings/mizuho-downgrades-tractor-supply-stock-rating-on-weak-trends-93CH-4783473",
+      "published": "2026-07-09 10:26:43"
     },
     {
       "source": "Investing.com News",
-      "title": "Senate committee to vote on bill to tighten US ban on Chinese vehicles",
-      "url": "https://www.investing.com/news/stock-market-news/senate-committee-to-vote-on-bill-to-tighten-us-ban-on-chinese-vehicles-4782680",
-      "published": "2026-07-08 21:44:08"
+      "title": "Analysis-Trump cut to food security survey could make measuring US hunger harder",
+      "url": "https://www.investing.com/news/politics-news/analysistrump-cut-to-food-security-survey-could-make-measuring-us-hunger-harder-4783421",
+      "published": "2026-07-09 10:24:50"
     },
     {
       "source": "Investing.com News",
-      "title": "Fatal ICE shooting in Houston sparks demands for transparency, independent probe",
-      "url": "https://www.investing.com/news/world-news/fatal-ice-shooting-in-houston-sparks-demands-for-transparency-independent-investigation-4782148",
-      "published": "2026-07-08 21:43:48"
+      "title": "SpaceX and AI startup wealth fuels demand for private jets",
+      "url": "https://www.investing.com/news/stock-market-news/spacex-and-ai-startup-wealth-fuels-demand-for-private-jets-4783419",
+      "published": "2026-07-09 10:24:35"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Oil Extends Surge as Fresh US Strikes Against Iran Rattle Market",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-08/latest-oil-market-news-and-analysis-for-july-9",
-      "published": "Wed, 08 Jul 2026 22:01:34 GMT"
+      "title": "Fuel Prices Show Inflation Is Still a Risk for Markets",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-07-09/fuel-prices-show-inflation-is-still-a-risk-for-markets",
+      "published": "Thu, 09 Jul 2026 10:36:14 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Harley-Davidson’s Credit Ratings Get Cut to Junk By S&amp;P",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-08/harley-davidson-s-credit-ratings-get-cut-to-junk-by-s-p",
-      "published": "Wed, 08 Jul 2026 22:17:03 GMT"
+      "title": "Rain-Soaked China Braces For 'Gargantuan' Typhoon (Video)",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-09/rain-soaked-china-braces-for-gargantuan-typhoon-video",
+      "published": "Thu, 09 Jul 2026 10:35:44 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "SK Hynix US Offering Is More Than Seven Times Oversubscribed",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-08/sk-hynix-us-offering-is-more-than-seven-times-oversubscribed",
-      "published": "Wed, 08 Jul 2026 22:16:51 GMT"
+      "title": "Nigerian Stocks Vault Past South Korea’s Kospi to Claim World’s Top Returns",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-09/nigeria-stocks-jump-south-korea-s-kospi-to-hand-most-dollar-returns",
+      "published": "Thu, 09 Jul 2026 10:26:46 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Oil Gains, US Stock Futures Drop on New Strikes: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-08/stock-market-today-dow-s-p-live-updates",
-      "published": "Wed, 08 Jul 2026 22:09:37 GMT"
+      "title": "Jupiter Fund Cut Treasuries to Zero as Inflation Risks Rise",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-09/jupiter-fund-ditches-us-treasuries-in-favor-of-european-bonds",
+      "published": "Thu, 09 Jul 2026 05:15:00 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Fmr. HUD Secretary on Toyota’s Texas Shift, Mexico Trade",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-08/former-hud-secretary-on-toyota-s-plant-expansion-video",
-      "published": "Wed, 08 Jul 2026 21:50:08 GMT"
+      "title": "Hormuz Shipping Grinds to Near Halt After US, Iran Strikes",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-09/hormuz-traffic-grinds-to-a-near-halt-as-ceasefire-under-threat",
+      "published": "Thu, 09 Jul 2026 03:05:51 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Trump Says Ukraine Can Make Patriot Missiles",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-08/trump-says-ukraine-can-make-patriot-missiles",
-      "published": "Wed, 08 Jul 2026 21:59:52 GMT"
+      "title": "Serbia Holds Rates as Election Welfare Plans Signal Price Risks",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-09/serbia-holds-rates-as-election-welfare-plans-signal-price-risks",
+      "published": "Thu, 09 Jul 2026 10:02:04 GMT"
     }
   ],
   "summary": {
