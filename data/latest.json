@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-07-10 07:49 KST",
+  "as_of_kst": "2026-07-10 19:34 KST",
   "as_of_date": "2026-07-10",
   "as_of_weekday": "FRI",
-  "build_unix": 1783637356,
+  "build_unix": 1783679690,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 7246.79,
-      "change": -409.52,
-      "change_pct": -5.35,
+      "price": 7475.94,
+      "change": 184.03,
+      "change_pct": 2.52,
       "spark": [
-        7648.09,
-        8088.34,
         8051.33,
         7656.31,
-        7246.79
+        7246.79,
+        7291.91,
+        7475.94
       ],
-      "as_of": "2026-07-08"
+      "as_of": "2026-07-10"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 66819.05,
-      "change": -1437.91,
-      "change_pct": -2.11,
+      "price": 68557.73,
+      "change": 813.88,
+      "change_pct": 1.2,
       "spark": [
-        68733.15,
-        69744.07,
         69737.69,
         68256.96,
-        66819.05
+        66819.05,
+        67743.85,
+        68557.73
       ],
-      "as_of": "2026-07-09"
+      "as_of": "2026-07-10"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 24199.46,
-      "change": 702.57,
-      "change_pct": 2.99,
+      "price": 24175.12,
+      "change": 144.94,
+      "change_pct": 0.6,
       "spark": [
-        23055.03,
-        23350.03,
         23616.32,
         23496.89,
-        24199.46
+        24199.46,
+        24030.18,
+        24175.12
       ],
-      "as_of": "2026-07-09"
+      "as_of": "2026-07-10"
     },
     "csi300": {
       "key": "csi300",
@@ -118,17 +118,17 @@
       "name": "CSI 300",
       "region": "CHINA",
       "kind": "broad",
-      "price": 4842.17,
-      "change": 29.87,
-      "change_pct": 0.62,
+      "price": 4780.79,
+      "change": -61.38,
+      "change_pct": -1.27,
       "spark": [
-        4926.92,
         4979.43,
         4958.98,
         4812.3,
-        4842.17
+        4842.17,
+        4780.79
       ],
-      "as_of": "2026-07-09"
+      "as_of": "2026-07-10"
     },
     "ftse": {
       "key": "ftse",
@@ -136,17 +136,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10472.45,
-      "change": -16.55,
-      "change_pct": -0.16,
+      "price": 10485.07,
+      "change": 12.57,
+      "change_pct": 0.12,
       "spark": [
-        10679.0,
         10651.8,
         10665.9,
         10489.0,
-        10472.45
+        10472.5,
+        10485.07
       ],
-      "as_of": "2026-07-09"
+      "as_of": "2026-07-10"
     },
     "dax": {
       "key": "dax",
@@ -154,48 +154,48 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 24897.45,
-      "change": -567.8,
-      "change_pct": -2.23,
+      "price": 25122.71,
+      "change": 4.44,
+      "change_pct": 0.02,
       "spark": [
-        25580.88,
-        25779.31,
         25817.89,
         25465.25,
-        24897.45
+        24897.45,
+        25118.27,
+        25122.71
       ],
-      "as_of": "2026-07-09"
+      "as_of": "2026-07-10"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1506.22,
+      "rate": 1504.5,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 162.34,
+      "rate": 161.74,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1436,
+      "rate": 1.1435,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7926,
+      "rate": 6.7639,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 100.94,
+      "rate": 100.83,
       "change": -0.11,
       "change_pct": -0.11,
       "kind": "index"
@@ -207,27 +207,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 71.85,
-      "change": -1.67,
-      "change_pct": -2.27
+      "price": 71.92,
+      "change": -0.16,
+      "change_pct": -0.22
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4133.3,
-      "change": 62.4,
-      "change_pct": 1.53
+      "price": 4121.4,
+      "change": -9.2,
+      "change_pct": -0.22
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 63292.46,
-      "change": 1034.89,
-      "change_pct": 1.66
+      "price": 64376.91,
+      "change": 1183.76,
+      "change_pct": 1.87
     },
     "ust10y": {
       "key": "ust10y",
@@ -243,9 +243,9 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 15.84,
-      "change": -1.06,
-      "change_pct": -6.27
+      "price": 15.95,
+      "change": 0.11,
+      "change_pct": 0.69
     }
   },
   "headlines_raw": [
@@ -254,6 +254,12 @@
       "title": "Here are analysts' favorite Nasdaq 100 stocks for the second half",
       "url": "https://www.cnbc.com/2026/07/09/here-are-analysts-favorite-nasdaq-100-stocks-for-the-second-half.html",
       "published": "Thu, 09 Jul 2026 20:00:33 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Friday's big stock stories: What’s likely to move the market in the next trading session",
+      "url": "https://www.cnbc.com/2026/07/09/fridays-big-stock-stories-whats-likely-to-move-the-market.html",
+      "published": "Thu, 09 Jul 2026 23:24:11 GMT"
     },
     {
       "source": "CNBC Markets",
@@ -280,46 +286,70 @@
       "published": "Thu, 09 Jul 2026 20:11:25 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "The SK Hynix ADR listing is coming Friday. What it means for U.S. memory stocks",
-      "url": "https://www.cnbc.com/2026/07/09/sk-hynix-adr-listing-comes-friday-what-it-means-for-us-memory-stocks.html",
-      "published": "Thu, 09 Jul 2026 16:07:13 GMT"
+      "source": "Yahoo Finance",
+      "title": "Fed minutes expose deep divide over interest-rate outlook",
+      "url": "https://finance.yahoo.com/economy/policy/articles/fed-minutes-expose-deep-divide-141700465.html",
+      "published": "2026-07-09T14:17:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "AT&T leaves rivals flat-footed as bankrupt carrier folds",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/t-leaves-rivals-flat-footed-183300288.html",
-      "published": "2026-07-08T18:33:00Z"
+      "title": "What drives the price of gold?",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/what-drives-gold-price-171825145.html",
+      "published": "2026-07-08T17:18:25Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "State Street’s Triple Play: Capturing the U.S. Broad Market Benchmarks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-triple-play-capturing-150606114.html",
-      "published": "2026-07-08T15:06:06Z"
+      "title": "Raisin review (2026): Is this high-yield savings marketplace trustworthy?",
+      "url": "https://finance.yahoo.com/personal-finance/banking/review/raisin-review-154213864.html",
+      "published": "2025-04-29T15:42:13Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Is Crinetics Pharmaceuticals, Inc. (CRNX) Stock a Buying Opportunity After a 44% Pullback?",
-      "url": "https://finance.yahoo.com/healthcare/articles/crinetics-pharmaceuticals-inc-crnx-stock-150440290.html",
-      "published": "2026-07-08T15:04:40Z"
+      "title": "Mortgage rate predictions for the next five years: What you can expect",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-rate-predictions-for-the-next-five-years-what-you-can-expect-195826935.html",
+      "published": "2025-08-18T19:58:26Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Is Genmab A/S (GMAB) Stock Undervalued After Positive Epkinly DLBCL Trial Results?",
-      "url": "https://finance.yahoo.com/healthcare/articles/genmab-gmab-stock-undervalued-positive-150448785.html",
-      "published": "2026-07-08T15:04:48Z"
+      "title": "First Foundation Bank review (2026): Personal and business banking with competitive online rates",
+      "url": "https://finance.yahoo.com/personal-finance/banking/review/first-foundation-bank-review-135949322.html",
+      "published": "2025-05-30T13:59:49Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "The Hour-Long Project We Never Would’ve Started",
-      "url": "https://finance.yahoo.com/technology/ai/articles/hour-long-project-never-ve-150032472.html",
-      "published": "2026-07-08T15:00:32Z"
+      "title": "If you invested $10,000 in Bitcoin, Trump meme coin, and gold when Trump took office, here's what you'd have today",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/invested-10-000-bitcoin-trump-222200005.html",
+      "published": "2026-07-09T22:22:00Z"
     },
     {
-      "source": "Yahoo Finance",
-      "title": "This $6.9 Billion ETF Delivers Consistent Dividends Without Eroding Share Price Like Covered Calls",
-      "url": "https://finance.yahoo.com/markets/options/articles/6-9-billion-etf-delivers-150954916.html",
-      "published": "2026-07-08T15:09:54Z"
+      "source": "MarketWatch Top",
+      "title": "‘I get $1,460 in Social Security’: My millionaire ex-husband, 74, refuses to pay alimony. What can I do?",
+      "url": "https://www.marketwatch.com/story/i-get-1-460-in-social-security-my-millionaire-ex-husband-74-refuses-to-pay-alimony-what-can-i-do-c5e60824?mod=mw_rss_topstories",
+      "published": "Fri, 10 Jul 2026 10:00:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "As AI spending concerns grow, here’s the bet to make ahead of critical stress test, says veteran Jefferies strategist",
+      "url": "https://www.marketwatch.com/story/as-ai-spending-concerns-grow-heres-the-bet-to-make-ahead-of-critical-stress-test-says-veteran-jefferies-strategist-4503ba4f?mod=mw_rss_topstories",
+      "published": "Fri, 10 Jul 2026 09:31:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "My insurance company said my roof lost a few tiles. Loss adjusters found $10,000 in storm damage. How could this happen?",
+      "url": "https://www.marketwatch.com/story/my-insurance-company-said-my-roof-lost-a-few-tiles-loss-adjusters-found-10-000-in-storm-damage-how-could-this-happen-8e1cb8bf?mod=mw_rss_topstories",
+      "published": "Fri, 10 Jul 2026 09:15:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "SK Hynix raises $26.5 billion in U.S. offering. What to know about the stock.",
+      "url": "https://www.marketwatch.com/story/sk-hynix-is-about-to-hit-the-u-s-market-heres-what-to-know-about-the-deal-1c873fa4?mod=mw_rss_topstories",
+      "published": "Fri, 10 Jul 2026 07:28:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Bidding war breaks out for easyJet as Apollo tops rival private-equity group’s bid",
+      "url": "https://www.marketwatch.com/story/bidding-war-breaks-out-for-easyjet-as-apollo-tops-rival-private-equity-groups-bid-d75ffd3c?mod=mw_rss_topstories",
+      "published": "Fri, 10 Jul 2026 06:40:00 GMT"
     },
     {
       "source": "MarketWatch Top",
@@ -328,106 +358,76 @@
       "published": "Thu, 09 Jul 2026 22:30:00 GMT"
     },
     {
-      "source": "MarketWatch Top",
-      "title": "Why a hidden divergence between the VIX and Nasdaq volatility has the smart money on edge",
-      "url": "https://www.marketwatch.com/story/why-a-hidden-divergence-between-the-vix-and-nasdaq-volatility-has-the-smart-money-on-edge-cda23cc0?mod=mw_rss_topstories",
-      "published": "Thu, 09 Jul 2026 22:19:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "SK Hynix is about to hit the U.S. market. Here’s what to know about the deal.",
-      "url": "https://www.marketwatch.com/story/sk-hynix-is-about-to-hit-the-u-s-market-heres-what-to-know-about-the-deal-1c873fa4?mod=mw_rss_topstories",
-      "published": "Thu, 09 Jul 2026 22:07:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "‘I’ve no idea how they got her number’: My student-loan servicer called a friend after I missed a payment. Is that legal?",
-      "url": "https://www.marketwatch.com/story/ive-no-idea-how-they-got-her-number-my-student-loan-servicer-called-a-friend-after-i-missed-a-payment-is-that-legal-28ef698e?mod=mw_rss_topstories",
-      "published": "Thu, 09 Jul 2026 22:00:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Can Walmart help the Fed harness real-time U.S. economic data? We’re about to find out.",
-      "url": "https://www.marketwatch.com/story/can-walmart-help-the-fed-harness-real-time-u-s-economic-data-were-about-to-find-out-e625925a?mod=mw_rss_topstories",
-      "published": "Thu, 09 Jul 2026 21:52:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "A junior employee saved this company six figures using AI. Here’s how.",
-      "url": "https://www.marketwatch.com/story/a-junior-employee-saved-this-company-six-figures-using-ai-heres-how-ca4335d3?mod=mw_rss_topstories",
-      "published": "Thu, 09 Jul 2026 21:29:00 GMT"
+      "source": "Investing.com News",
+      "title": "EU tells Instagram, Facebook to change addictive features or risk fines",
+      "url": "https://www.investing.com/news/stock-market-news/eu-tells-instagram-facebook-to-change-addictive-features-or-risk-fines-4785728",
+      "published": "2026-07-10 10:25:14"
     },
     {
       "source": "Investing.com News",
-      "title": "US House to vote on bill to make daylight saving time permanent",
-      "url": "https://www.investing.com/news/commodities-news/us-house-to-vote-on-bill-to-make-daylight-saving-time-permanent-4785146",
-      "published": "2026-07-09 22:48:30"
+      "title": "SK Hynix’s marquee US debut to test AI appetite",
+      "url": "https://www.investing.com/news/stock-market-news/sk-hynix-set-for-marquee-us-debut-in-test-for-ai-appetite-4785365",
+      "published": "2026-07-10 10:24:56"
     },
     {
       "source": "Investing.com News",
-      "title": "Neurocrine Biosciences chief regulatory officer sells $2.6m stock",
-      "url": "https://www.investing.com/news/insider-trading-news/neurocrine-biosciences-chief-regulatory-officer-sells-26m-stock-93CH-4785144",
-      "published": "2026-07-09 22:45:57"
+      "title": "Wall Street futures steady as tech bargain-hunting, Iran diplomatic overtures lift",
+      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-after-wall-st-rises-on-trump-iran-remarks-4785239",
+      "published": "2026-07-10 10:23:51"
     },
     {
       "source": "Investing.com News",
-      "title": "SK Hynix raises $26.5 billion in US offering after pricing ADRs at $149",
-      "url": "https://www.investing.com/news/stock-market-news/sk-hynix-us-listing-more-than-seven-times-oversubscribed-source-says-4782931",
-      "published": "2026-07-09 22:42:21"
+      "title": "Yen surges from 40-year lows on GPIF domestic investment push; dollar flat",
+      "url": "https://www.investing.com/news/forex-news/japanese-yen-surges-on-pension-investment-plan-dollar-loses-ground-4785287",
+      "published": "2026-07-10 10:22:42"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 144 Arcus Biosciences For: 9 July",
-      "url": "https://www.investing.com/news/filings/form-144-arcus-biosciences-for-9-july-93CH-4785142",
-      "published": "2026-07-09 22:39:06"
+      "title": "Berenberg cuts Dürr on auto capex dependence amid EV transition risks",
+      "url": "https://www.investing.com/news/stock-market-news/berenberg-cuts-durr-on-auto-capex-dependence-amid-ev-transition-risks-4785781",
+      "published": "2026-07-10 10:21:43"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 4 EverCommerce Inc For: 9 July",
-      "url": "https://www.investing.com/news/filings/form-4-evercommerce-inc-for-9-july-93CH-4785141",
-      "published": "2026-07-09 22:37:10"
-    },
-    {
-      "source": "Investing.com News",
-      "title": "Two Hands completes CSE delisting, seeks name change to Quantum X",
-      "url": "https://www.investing.com/news/company-news/two-hands-completes-cse-delisting-seeks-name-change-to-quantum-x-93CH-4785139",
-      "published": "2026-07-09 22:36:44"
+      "title": "EU escalating probe into Meta’s addictive design risks to children",
+      "url": "https://www.investing.com/news/stock-market-news/eu-escalating-probe-into-metas-addictive-design-risks-to-children-4785780",
+      "published": "2026-07-10 10:21:41"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "SK Hynix Raises $26.5 Billion in Top US Debut by a Foreign Firm",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-09/sk-hynix-is-said-to-price-us-share-offering-at-149-apiece-mrdz562z",
-      "published": "Thu, 09 Jul 2026 20:43:40 GMT"
+      "title": "Belle Burden’s Strangers Is Sparking a Financial Revolution",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-10/belle-burden-s-memoir-is-sparking-a-financial-revolution-video",
+      "published": "Fri, 10 Jul 2026 10:15:08 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Asian Stocks Set to Gain After US Chipmakers Rally: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-09/stock-market-today-dow-s-p-live-updates",
-      "published": "Thu, 09 Jul 2026 22:08:45 GMT"
+      "title": "Gold Heads for Weekly Loss as Traders Consider Iran, Rates Path",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-09/gold-steadies-as-traders-weigh-mideast-fighting-rate-outlook",
+      "published": "Thu, 09 Jul 2026 23:03:10 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Oil Steady at End of Volatile Week as Traders Assess Iran Risks",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-09/latest-oil-market-news-and-analysis-for-july-10",
-      "published": "Thu, 09 Jul 2026 22:04:02 GMT"
+      "title": "Traders Hedge for FX Volatility Return as Fed Uncertainty Builds",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-10/traders-hedge-for-fx-volatility-return-as-fed-uncertainty-builds",
+      "published": "Fri, 10 Jul 2026 10:09:13 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Tanger CEO: ‘Incredible Traffic’ Tied to World Cup",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-09/tanger-ceo-incredible-traffic-tied-to-world-cup-video",
-      "published": "Thu, 09 Jul 2026 21:39:50 GMT"
+      "title": "South Africa’s Absa Faces Deeper Slide as Analysts Turn Cautious",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-10/south-africa-s-absa-faces-deeper-slide-as-analysts-turn-cautious",
+      "published": "Fri, 10 Jul 2026 10:05:10 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Willow Wealth CEO on Responsibly Growing Private Markets",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-09/willow-wealth-ceo-on-responsibly-growing-private-markets-video",
-      "published": "Thu, 09 Jul 2026 21:34:47 GMT"
+      "title": "Pfizer Vaccine Dispute Hits Polish, Romania Air Traffic Agencies",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-10/pfizer-vaccine-dispute-hits-polish-romania-air-traffic-agencies",
+      "published": "Fri, 10 Jul 2026 10:03:09 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Activist Donerail Urges Beazer Homes to Engage With Suitors",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-09/activist-donerail-urges-beazer-homes-to-engage-with-suitors",
-      "published": "Thu, 09 Jul 2026 21:29:25 GMT"
+      "title": "BMW, Volkswagen Sales Decline on Worsening Slump in China",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-10/bmw-s-car-sales-decline-after-30-plunge-in-china",
+      "published": "Fri, 10 Jul 2026 08:57:47 GMT"
     }
   ],
   "summary": {
