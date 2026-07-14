@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-07-14 07:26 KST",
+  "as_of_kst": "2026-07-14 18:26 KST",
   "as_of_date": "2026-07-14",
   "as_of_weekday": "TUE",
-  "build_unix": 1783981597,
+  "build_unix": 1784021177,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 7475.94,
-      "change": 184.03,
-      "change_pct": 2.52,
+      "price": 6856.83,
+      "change": 49.9,
+      "change_pct": 0.73,
       "spark": [
-        8051.33,
-        7656.31,
         7246.79,
         7291.91,
-        7475.94
+        7475.94,
+        6806.93,
+        6856.83
       ],
-      "as_of": "2026-07-10"
+      "as_of": "2026-07-14"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 68557.73,
-      "change": 813.88,
-      "change_pct": 1.2,
+      "price": 67743.5,
+      "change": 500.77,
+      "change_pct": 0.74,
       "spark": [
-        69737.69,
-        68256.96,
         66819.05,
         67743.85,
-        68557.73
+        68557.73,
+        67242.73,
+        67743.5
       ],
-      "as_of": "2026-07-13"
+      "as_of": "2026-07-14"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 24175.12,
-      "change": 144.94,
-      "change_pct": 0.6,
+      "price": 24340.73,
+      "change": 127.01,
+      "change_pct": 0.52,
       "spark": [
-        23616.32,
-        23496.89,
         24199.46,
         24030.18,
-        24175.12
+        24175.12,
+        24213.72,
+        24340.73
       ],
-      "as_of": "2026-07-13"
+      "as_of": "2026-07-14"
     },
     "csi300": {
       "key": "csi300",
@@ -118,17 +118,17 @@
       "name": "CSI 300",
       "region": "CHINA",
       "kind": "broad",
-      "price": 4780.79,
-      "change": -95.52,
-      "change_pct": -1.96,
+      "price": 4796.5,
+      "change": 15.71,
+      "change_pct": 0.33,
       "spark": [
-        4842.0,
         4792.26,
         4755.53,
         4876.31,
-        4780.79
+        4780.79,
+        4796.5
       ],
-      "as_of": "2026-07-13"
+      "as_of": "2026-07-14"
     },
     "ftse": {
       "key": "ftse",
@@ -136,17 +136,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10498.29,
-      "change": 0.99,
-      "change_pct": 0.01,
+      "price": 10441.52,
+      "change": -56.78,
+      "change_pct": -0.54,
       "spark": [
-        10665.9,
         10489.0,
         10472.5,
         10497.3,
-        10498.29
+        10498.3,
+        10441.52
       ],
-      "as_of": "2026-07-13"
+      "as_of": "2026-07-14"
     },
     "dax": {
       "key": "dax",
@@ -154,50 +154,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 25067.09,
-      "change": -51.18,
-      "change_pct": -0.2,
+      "price": 24977.12,
+      "change": -137.13,
+      "change_pct": -0.55,
       "spark": [
-        25817.89,
-        25465.25,
         24897.45,
         25118.27,
-        25067.09
+        25067.09,
+        25114.25,
+        24977.12
       ],
-      "as_of": "2026-07-13"
+      "as_of": "2026-07-14"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1497.02,
+      "rate": 1495.0601,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 162.42,
+      "rate": 162.24,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1387,
+      "rate": 1.1403,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7709,
+      "rate": 6.7775,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 101.28,
-      "change": 0.31,
-      "change_pct": 0.3,
+      "rate": 101.07,
+      "change": -0.21,
+      "change_pct": -0.21,
       "kind": "index"
     }
   },
@@ -207,27 +207,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 77.91,
-      "change": 6.5,
-      "change_pct": 9.1
+      "price": 80.14,
+      "change": 2.0,
+      "change_pct": 2.56
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4011.5,
-      "change": -92.6,
-      "change_pct": -2.26
+      "price": 4026.3,
+      "change": 29.3,
+      "change_pct": 0.73
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 63980.48,
-      "change": 222.26,
-      "change_pct": 0.35
+      "price": 62614.43,
+      "change": 375.31,
+      "change_pct": 0.6
     },
     "ust10y": {
       "key": "ust10y",
@@ -243,9 +243,9 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 17.16,
-      "change": 2.13,
-      "change_pct": 14.17
+      "price": 17.29,
+      "change": 0.13,
+      "change_pct": 0.76
     }
   },
   "headlines_raw": [
@@ -287,147 +287,147 @@
     },
     {
       "source": "Yahoo Finance",
-      "title": "This is how rich SpaceX workers are after the IPO",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/rich-spacex-workers-ipo-143700468.html",
-      "published": "2026-07-12T14:37:00Z"
+      "title": "Goldman Sachs quietly snags a corner of America's retirement money",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-quietly-snags-corner-003700514.html",
+      "published": "2026-07-13T00:37:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Starbucks Is Serving Up Your Coffee with a Side of AI. What That Means for SBUX Stock.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/starbucks-serving-coffee-side-ai-134502494.html",
-      "published": "2026-07-12T13:45:02Z"
+      "title": "World stocks dip as oil rises after Trump's Hormuz levy threat",
+      "url": "https://finance.yahoo.com/markets/world-indices/articles/asia-markets-choppy-threat-trump-012723429.html",
+      "published": "2026-07-14T08:50:54Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Grok’s Ongoing Market Share Decline Raises Questions About SpaceX’s AI Strategy Post-IPO",
-      "url": "https://finance.yahoo.com/technology/ai/articles/grok-ongoing-market-share-decline-140002731.html",
-      "published": "2026-07-12T14:00:02Z"
+      "title": "China's exports ride AI boom as domestic economy struggles",
+      "url": "https://finance.yahoo.com/economy/articles/chinas-june-trade-tops-forecasts-025658981.html",
+      "published": "2026-07-14T08:18:02Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "A Costco worker earns $33 per hour, but is a millionaire with a house and a pool — here's how he built his wealth",
-      "url": "https://finance.yahoo.com/small-business/articles/costco-worker-earns-33-per-140000866.html",
-      "published": "2026-07-12T14:00:00Z"
+      "title": "Oil hits four-week high as US-Iran conflict escalates",
+      "url": "https://finance.yahoo.com/news/oil-climbs-one-month-high-010106262.html",
+      "published": "2026-07-14T08:04:13Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Should You Buy Microsoft Corporation (MSFT)’s Shares?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/buy-microsoft-corporation-msft-shares-140104517.html",
-      "published": "2026-07-12T14:01:04Z"
+      "title": "Samsung Electronics denies report that it is exploring US listing",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-explores-potential-us-listing-073750137.html",
+      "published": "2026-07-14T07:37:50Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Mark Cuban has strong words on AI companies and job losses",
-      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-strong-words-ai-140700495.html",
-      "published": "2026-07-12T14:07:00Z"
+      "title": "Shein targets up to $3bn in Hong Kong IPO, could launch by August – report",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/shein-targets-3bn-hong-kong-091753472.html",
+      "published": "2026-07-14T09:17:53Z"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Why a borrowing binge by investors is a warning sign for the stock market",
-      "url": "https://www.marketwatch.com/story/why-a-borrowing-binge-by-investors-is-a-warning-sign-for-the-stock-market-996ee446?mod=mw_rss_topstories",
-      "published": "Mon, 13 Jul 2026 22:19:00 GMT"
+      "title": "Oil prices see largest two-day percentage gain in four months on U.S.-Iran fighting",
+      "url": "https://www.marketwatch.com/story/oil-prices-see-largest-two-day-percentage-gain-in-four-months-on-u-s-iran-fighting-040d7163?mod=mw_rss_topstories",
+      "published": "Tue, 14 Jul 2026 09:17:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "SpaceX’s stock threatens to fall below the IPO price. Do investors face a ‘crisis’ if it does?",
-      "url": "https://www.marketwatch.com/story/spacexs-stock-threatens-to-fall-below-the-ipo-price-do-investors-face-a-crisis-if-it-does-2f330b09?mod=mw_rss_topstories",
-      "published": "Mon, 13 Jul 2026 22:08:00 GMT"
+      "title": "One of the world’s weakest currencies makes this Asian capital the world’s cheapest major city — for now",
+      "url": "https://www.marketwatch.com/story/one-of-the-worlds-cheapest-currencies-makes-this-asian-capital-the-worlds-cheapest-major-city-for-now-84f8a9b5?mod=mw_rss_topstories",
+      "published": "Tue, 14 Jul 2026 09:12:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "‘Impeccably designed’: You can rent Orlando Bloom’s former Beverly Hills estate for just $31,000 a month",
+      "url": "https://www.marketwatch.com/story/impeccably-designed-you-can-rent-orlando-blooms-former-beverly-hills-estate-for-just-31-000-a-month-760c3a9c?mod=mw_rss_topstories",
+      "published": "Tue, 14 Jul 2026 09:02:00 GMT"
     },
     {
       "source": "MarketWatch Top",
       "title": "The U.S. is maxing out its strategic oil reserves as Trump vows to control the Strait of Hormuz",
       "url": "https://www.marketwatch.com/story/the-u-s-is-maxing-out-its-strategic-oil-reserves-as-trump-vows-to-control-the-strait-of-hormuz-b71f88a9?mod=mw_rss_topstories",
-      "published": "Mon, 13 Jul 2026 21:04:00 GMT"
+      "published": "Tue, 14 Jul 2026 02:30:00 GMT"
     },
     {
       "source": "MarketWatch Top",
       "title": "Sandisk’s stock is plunging, but some analysts are getting even more bullish",
       "url": "https://www.marketwatch.com/story/sandisks-stock-is-plunging-but-some-analysts-are-getting-even-more-bullish-cba3472f?mod=mw_rss_topstories",
-      "published": "Mon, 13 Jul 2026 21:04:00 GMT"
+      "published": "Tue, 14 Jul 2026 00:55:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Lindsey Graham died from a rare heart condition. Here’s how to know if you’re at risk.",
-      "url": "https://www.marketwatch.com/story/lindsey-graham-died-from-a-rare-heart-condition-heres-how-to-know-if-youre-at-risk-8ca5a618?mod=mw_rss_topstories",
-      "published": "Mon, 13 Jul 2026 20:48:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "You don’t have to be rich to be financially independent. Here’s how to take control of your money.",
-      "url": "https://www.marketwatch.com/story/you-dont-have-to-be-rich-to-be-financially-independent-heres-how-to-take-control-of-your-money-5345f146?mod=mw_rss_topstories",
-      "published": "Mon, 13 Jul 2026 20:39:00 GMT"
+      "title": "‘It’s heartbreaking’: My brother claimed Social Security at 70. He died from cancer after one payment. Why wait to claim?",
+      "url": "https://www.marketwatch.com/story/its-heartbreaking-my-brother-claimed-social-security-at-70-he-died-from-cancer-after-one-payment-why-wait-to-claim-491669b6?mod=mw_rss_topstories",
+      "published": "Mon, 13 Jul 2026 23:30:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Block, Inc. director Eisen sells $1.4m in common stock",
-      "url": "https://www.investing.com/news/insider-trading-news/block-inc-director-eisen-sells-14m-in-common-stock-93CH-4789559",
-      "published": "2026-07-13 22:16:20"
+      "title": "Headlam shares drop over 16% as net debt widens, review begins",
+      "url": "https://www.investing.com/news/stock-market-news/headlam-shares-drop-over-16-as-net-debt-widens-review-begins-93CH-4790001",
+      "published": "2026-07-14 09:10:31"
     },
     {
       "source": "Investing.com News",
-      "title": "Concrete pumping director Brent Stevens sells $1.08m in stock",
-      "url": "https://www.investing.com/news/insider-trading-news/concrete-pumping-director-brent-stevens-sells-108m-in-stock-93CH-4789558",
-      "published": "2026-07-13 22:16:15"
+      "title": "OHLA stock tumbles after J.P.Morgan sells 6% stake",
+      "url": "https://www.investing.com/news/stock-market-news/ohla-stock-tumbles-after-jpmorgan-sells-6-stake-93CH-4790000",
+      "published": "2026-07-14 09:08:05"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 144 Accelerant Holdings For: 13 July",
-      "url": "https://www.investing.com/news/filings/form-144-accelerant-holdings-for-13-july-93CH-4789557",
-      "published": "2026-07-13 22:15:37"
+      "title": "New York becomes the first state to impose a data center moratorium",
+      "url": "https://www.investing.com/news/stock-market-news/new-york-becomes-the-first-state-to-impose-a-data-center-moratorium-4789994",
+      "published": "2026-07-14 09:07:08"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 144 Ranger Energy Services For: 13 July",
-      "url": "https://www.investing.com/news/filings/form-144-ranger-energy-services-for-13-july-93CH-4789556",
-      "published": "2026-07-13 22:15:29"
+      "title": "Resumption of hostilities in Middle East underlines instability, says BoE Governor Bailey",
+      "url": "https://www.investing.com/news/economy-news/resumption-of-hostilities-in-middle-east-underlines-instability-says-boe-governor-bailey-4789993",
+      "published": "2026-07-14 09:06:49"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 144 CrowdStrike Holdings For: 13 July",
-      "url": "https://www.investing.com/news/filings/form-144-crowdstrike-holdings-for-13-july-93CH-4789555",
-      "published": "2026-07-13 22:15:29"
-    },
-    {
-      "source": "Investing.com News",
-      "title": "Form 144 Nexxen International Ltd. For: 13 July",
-      "url": "https://www.investing.com/news/filings/form-144-nexxen-international-ltd-for-13-july-93CH-4789554",
-      "published": "2026-07-13 22:15:21"
+      "title": "Earnings call transcript: Mycronic posts record orders in Q2 2026 as shares fall 13.4%",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-mycronic-posts-record-orders-in-q2-2026-as-shares-fall-134-93CH-4789992",
+      "published": "2026-07-14 09:06:41"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Gold Miners Cadillac, Amapa Minerals Add to Canada IPO Rebound",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-13/gold-miners-cadillac-amapa-minerals-add-to-canada-ipo-rebound",
-      "published": "Mon, 13 Jul 2026 22:10:10 GMT"
+      "title": "India’s Birla Taps MUFG for $1.5 Billion to Fund Shell Asset Buy",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-14/india-s-birla-taps-mufg-for-1-5-billion-shell-acquisition-loan",
+      "published": "Tue, 14 Jul 2026 09:03:39 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Oil Holds Gains as Iran Stokes Inflation Worries: Markets Wrap",
+      "title": "US Stocks, Treasuries Steady Before Warsh and CPI: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-07-13/oil-holds-gains-as-iran-stokes-inflation-worries-markets-wrap",
       "published": "Mon, 13 Jul 2026 22:05:56 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Oil Holds Jump After Trump Reinstates Blockade on Iranian Ships",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-13/latest-oil-market-news-and-analysis-for-july-14",
-      "published": "Mon, 13 Jul 2026 22:01:33 GMT"
+      "title": "BofA Warns Stock Bulls to Consider Curbing Aggressive Buying",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-14/bofa-warns-stock-bulls-to-consider-curbing-aggressive-buying",
+      "published": "Tue, 14 Jul 2026 09:02:43 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Wells Fargo’s Mike Mayo: Citi My Top Pick of Big Banks",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-13/wells-fargo-s-mike-mayo-citi-my-top-pick-of-big-banks-video",
-      "published": "Mon, 13 Jul 2026 21:47:45 GMT"
+      "title": "BP Flags $1 Billion Writedown From Low Carbon Business",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-14/bp-flags-1-billion-writedown-from-gas-and-low-carbon-business",
+      "published": "Tue, 14 Jul 2026 06:25:15 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "After Biden Denied Alabama Coal Waste Bid, Trump Reverses Course",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-13/biden-denied-alabama-bid-to-permit-coal-waste-trump-proposes-to-okay",
-      "published": "Mon, 13 Jul 2026 21:41:57 GMT"
+      "title": "Traders Boost BOE and ECB Rate-Hike Bets After Oil Price Surge",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-14/traders-boost-boe-ecb-rate-hike-bets-after-oil-price-surge",
+      "published": "Tue, 14 Jul 2026 08:00:15 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "First Public Fusion Firm Jumps in Wall Street Trading Debut",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-13/first-public-fusion-company-surges-in-wall-street-trading-debut",
-      "published": "Mon, 13 Jul 2026 16:18:05 GMT"
+      "title": "Asian Oil Buyers Look to US Crude as Iran War Intensifies",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-14/asian-oil-buyers-look-to-us-crude-again-as-iran-war-intensifies",
+      "published": "Tue, 14 Jul 2026 06:38:31 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Oil hits $87 as battle for Strait of Hormuz alarms energy markets",
+      "url": "https://www.ft.com/content/2d899824-5f94-4f0c-81fc-c54a0750e498",
+      "published": "Tue, 14 Jul 2026 09:21:43 GMT"
     }
   ],
   "summary": {
