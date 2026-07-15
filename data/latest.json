@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-07-15 07:29 KST",
+  "as_of_kst": "2026-07-15 18:28 KST",
   "as_of_date": "2026-07-15",
   "as_of_weekday": "WED",
-  "build_unix": 1784068151,
+  "build_unix": 1784107739,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -10,15 +10,15 @@
       "name": "S&P 500",
       "region": "USA",
       "kind": "broad",
-      "price": 7543.59,
-      "change": 28.25,
-      "change_pct": 0.38,
+      "price": 7515.34,
+      "change": -60.05,
+      "change_pct": -0.79,
       "spark": [
+        7503.85,
         7482.71,
         7543.64,
         7575.39,
-        7515.34,
-        7543.59
+        7515.34
       ],
       "as_of": "2026-07-14"
     },
@@ -28,15 +28,15 @@
       "name": "NASDAQ Composite",
       "region": "USA",
       "kind": "tech",
-      "price": 26107.01,
-      "change": 233.83,
-      "change_pct": 0.9,
+      "price": 25873.18,
+      "change": -408.43,
+      "change_pct": -1.55,
       "spark": [
+        25818.69,
         25870.65,
         26206.89,
         26281.61,
-        25873.18,
-        26107.01
+        25873.18
       ],
       "as_of": "2026-07-14"
     },
@@ -46,15 +46,15 @@
       "name": "Dow Jones 30",
       "region": "USA",
       "kind": "value",
-      "price": 52508.27,
-      "change": 9.63,
-      "change_pct": 0.02,
+      "price": 52498.64,
+      "change": -138.37,
+      "change_pct": -0.26,
       "spark": [
+        52925.15,
         52348.39,
         52487.41,
         52637.01,
-        52498.64,
-        52508.27
+        52498.64
       ],
       "as_of": "2026-07-14"
     },
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 6806.93,
-      "change": -669.01,
-      "change_pct": -8.95,
+      "price": 7284.41,
+      "change": 477.48,
+      "change_pct": 7.01,
       "spark": [
-        7656.31,
         7246.79,
         7291.91,
         7475.94,
-        6806.93
+        6806.93,
+        7284.41
       ],
-      "as_of": "2026-07-13"
+      "as_of": "2026-07-15"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 67242.73,
-      "change": -1315.0,
-      "change_pct": -1.92,
+      "price": 68751.51,
+      "change": 1508.78,
+      "change_pct": 2.24,
       "spark": [
-        68256.96,
         66819.05,
         67743.85,
         68557.73,
-        67242.73
+        67242.73,
+        68751.51
       ],
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-15"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 24213.72,
-      "change": 38.6,
-      "change_pct": 0.16,
+      "price": 24681.1,
+      "change": 467.38,
+      "change_pct": 1.93,
       "spark": [
-        23496.89,
         24199.46,
         24030.18,
         24175.12,
-        24213.72
+        24213.72,
+        24681.1
       ],
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-15"
     },
     "csi300": {
       "key": "csi300",
@@ -118,17 +118,17 @@
       "name": "CSI 300",
       "region": "CHINA",
       "kind": "broad",
-      "price": 4780.79,
-      "change": -95.52,
-      "change_pct": -1.96,
+      "price": 4786.78,
+      "change": 5.99,
+      "change_pct": 0.13,
       "spark": [
-        4842.0,
         4792.26,
         4755.53,
         4876.31,
-        4780.79
+        4780.79,
+        4786.78
       ],
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-15"
     },
     "ftse": {
       "key": "ftse",
@@ -136,17 +136,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10529.39,
-      "change": 31.09,
-      "change_pct": 0.3,
+      "price": 10516.69,
+      "change": 18.39,
+      "change_pct": 0.18,
       "spark": [
         10489.0,
         10472.5,
         10497.3,
         10498.3,
-        10529.39
+        10516.69
       ],
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-15"
     },
     "dax": {
       "key": "dax",
@@ -154,50 +154,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 25114.25,
-      "change": 47.16,
-      "change_pct": 0.19,
+      "price": 25030.29,
+      "change": -83.96,
+      "change_pct": -0.33,
       "spark": [
-        25465.25,
         24897.45,
         25118.27,
         25067.09,
-        25114.25
+        25114.25,
+        25030.29
       ],
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-15"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1488.38,
+      "rate": 1491.0,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 162.23,
+      "rate": 162.43,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1423,
+      "rate": 1.1427,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7624,
+      "rate": 6.7609,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 100.94,
-      "change": -0.34,
-      "change_pct": -0.33,
+      "rate": 100.92,
+      "change": -0.36,
+      "change_pct": -0.35,
       "kind": "index"
     }
   },
@@ -207,45 +207,45 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 79.95,
-      "change": 1.81,
-      "change_pct": 2.32
+      "price": 79.82,
+      "change": 0.48,
+      "change_pct": 0.6
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4057.1,
-      "change": 60.1,
-      "change_pct": 1.5
+      "price": 4036.8,
+      "change": -24.3,
+      "change_pct": -0.6
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 64919.65,
-      "change": 2680.53,
-      "change_pct": 4.31
+      "price": 64794.7,
+      "change": -161.41,
+      "change_pct": -0.25
     },
     "ust10y": {
       "key": "ust10y",
       "symbol": "^TNX",
       "name": "10Y UST Yield",
       "unit": "%",
-      "price": 4.59,
-      "change": -0.02,
-      "change_pct": -0.52
+      "price": 4.61,
+      "change": 0.04,
+      "change_pct": 0.88
     },
     "vix": {
       "key": "vix",
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 16.5,
-      "change": -0.66,
-      "change_pct": -3.85
+      "price": 16.2,
+      "change": -0.96,
+      "change_pct": -5.59
     }
   },
   "headlines_raw": [
@@ -287,141 +287,147 @@
     },
     {
       "source": "Yahoo Finance",
-      "title": "Target's problems aren't what you think they are",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/targets-problems-arent-think-201058966.html",
-      "published": "2026-07-13T20:10:58Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Stocks Fall on Weakness in Chipmakers and Renewed US-Iran Hostilities",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-fall-weakness-chipmakers-renewed-141439777.html",
-      "published": "2026-07-13T14:14:39Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "AMD Is Following Nvidia’s Playbook. Here’s Why Investors Should Pay Attention.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amd-following-nvidia-playbook-why-142016457.html",
-      "published": "2026-07-13T14:20:16Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "What You Need To Know Ahead of AvalonBay Communities' Earnings Release",
-      "url": "https://finance.yahoo.com/real-estate/articles/know-ahead-avalonbay-communities-earnings-142141729.html",
-      "published": "2026-07-13T14:21:41Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Thanks to Escalating Iran Tensions, Delta Air Lines Stock Could Face Turbulence. How to Trade It Here.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/thanks-escalating-iran-tensions-delta-142103671.html",
-      "published": "2026-07-13T14:21:03Z"
-    },
-    {
-      "source": "Yahoo Finance",
       "title": "BMW's U.S. business is delivering when it matters most",
       "url": "https://finance.yahoo.com/markets/stocks/articles/bmws-u-business-delivering-matters-033300819.html",
       "published": "2026-07-14T03:33:00Z"
     },
     {
-      "source": "MarketWatch Top",
-      "title": "‘It’s heartbreaking’: My brother claimed Social Security at 70. He died from cancer after one payment. Why wait to claim?",
-      "url": "https://www.marketwatch.com/story/its-heartbreaking-my-brother-claimed-social-security-at-70-he-died-from-cancer-after-one-payment-why-wait-to-claim-491669b6?mod=mw_rss_topstories",
-      "published": "Tue, 14 Jul 2026 22:15:00 GMT"
+      "source": "Yahoo Finance",
+      "title": "Weekly survey of mortgage lenders with the lowest rates: Rates bubble higher",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/weekly-survey-mortgage-lenders-with-the-best-lowest-rates-july-13-170834159.html",
+      "published": "2025-11-03T17:08:34Z"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Gold forecast and tracker: Where will prices land in 2026?",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-forecast-and-tracker-where-will-prices-land-in-2026-130000340.html",
+      "published": "2026-04-15T13:00:00Z"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "SpaceX stock drops. Here's what to do next.",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/spacex-stock-drops-heres-what-to-do-next-141704338.html",
+      "published": "2026-06-17T14:17:04Z"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Judge Blasts Trump’s ‘Improper’ $10 Billion Lawsuit Against IRS",
+      "url": "https://finance.yahoo.com/economy/policy/articles/judge-blasts-trump-improper-10-231801135.html",
+      "published": "2026-07-13T23:18:01Z"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Massive AI spending has unexpected effect on U.S. inflation",
+      "url": "https://finance.yahoo.com/economy/articles/massive-ai-spending-unexpected-effect-090300525.html",
+      "published": "2026-07-14T09:03:00Z"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Your monthly Netflix bill is up 29% in just over a year. Critics say Washington needs to fix it.",
-      "url": "https://www.marketwatch.com/story/your-monthly-netflix-bill-is-up-29-in-just-over-a-year-critics-say-washington-needs-to-fix-it-bcab6e5b?mod=mw_rss_topstories",
-      "published": "Tue, 14 Jul 2026 22:11:00 GMT"
+      "title": "Stripe and Advent reportedly team up to bid for battered PayPal. Michael Burry says the offer isn’t enough.",
+      "url": "https://www.marketwatch.com/story/a-53-billion-lifeline-stripe-and-advent-reportedly-team-up-to-bid-for-battered-paypal-3bc6fcc2?mod=mw_rss_topstories",
+      "published": "Wed, 15 Jul 2026 09:20:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Three powerful forces are draining family wealth — and your estate plan is completely unprepared",
-      "url": "https://www.marketwatch.com/story/the-great-wealth-transfer-is-real-but-the-irs-or-a-nursing-home-might-get-your-money-first-d0c46676?mod=mw_rss_topstories",
-      "published": "Tue, 14 Jul 2026 21:38:00 GMT"
+      "title": "‘I don’t want to sound callous’: Nobody knows when they’ll die. Don’t base when you claim Social Security on that.",
+      "url": "https://www.marketwatch.com/story/i-dont-want-to-sound-callous-nobody-knows-when-theyll-die-dont-base-when-you-claim-social-security-on-that-53370fad?mod=mw_rss_topstories",
+      "published": "Wed, 15 Jul 2026 09:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "What IBM’s profit warning means: Hardware is ‘eating everyone’s lunch’",
-      "url": "https://www.marketwatch.com/story/what-ibms-profit-warning-means-hardware-is-eating-everyones-lunch-c6878824?mod=mw_rss_topstories",
-      "published": "Tue, 14 Jul 2026 21:10:00 GMT"
+      "title": "ASML is scrambling to build more capacity after blockbuster beat-and-raise quarter",
+      "url": "https://www.marketwatch.com/story/asml-is-scrambling-to-build-more-capacity-after-blockbuster-beat-and-raise-quarter-89e2febb?mod=mw_rss_topstories",
+      "published": "Wed, 15 Jul 2026 09:04:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Taco Bell reportedly being investigated by health officials, as cyclosporiasis outbreak spreads",
-      "url": "https://www.marketwatch.com/story/officials-are-reportedly-looking-into-taco-bell-as-source-of-parasite-outbreak-remains-elusive-3ead0a1f?mod=mw_rss_topstories",
-      "published": "Tue, 14 Jul 2026 21:09:00 GMT"
+      "title": "Still struggling to find a buyer, actress Aubrey Plaza cuts price of $5 million L.A. home",
+      "url": "https://www.marketwatch.com/story/still-struggling-to-find-a-buyer-actress-aubrey-plaza-cuts-price-of-5-million-l-a-home-2907691c?mod=mw_rss_topstories",
+      "published": "Wed, 15 Jul 2026 08:58:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Wall Street has set a sky-high bar for companies to clear this earnings season. They just might pull it off.",
-      "url": "https://www.marketwatch.com/story/wall-street-has-set-a-sky-high-bar-for-companies-to-clear-this-earnings-season-they-just-might-pull-it-off-45731862?mod=mw_rss_topstories",
-      "published": "Tue, 14 Jul 2026 21:03:00 GMT"
+      "title": "I’m 67 with a $140,000 pension. Should I wait until 70 to claim Social Security so my wife gets more?",
+      "url": "https://www.marketwatch.com/story/im-67-with-a-140-000-pension-should-i-wait-until-70-to-claim-social-security-so-my-wife-gets-more-63759d48?mod=mw_rss_topstories",
+      "published": "Wed, 15 Jul 2026 07:19:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Brace for $4 gas again: How U.S.-Iran tensions are threatening to end the price break at the pump",
+      "url": "https://www.marketwatch.com/story/brace-for-4-gas-again-how-u-s-iran-tensions-are-threatening-to-end-the-price-break-at-the-pump-343a76e1?mod=mw_rss_topstories",
+      "published": "Wed, 15 Jul 2026 00:28:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Writers Guild sues to block Paramount deal, saying it would hurt writers",
-      "url": "https://www.investing.com/news/stock-market-news/writers-guild-sues-to-block-paramount-deal-saying-it-would-hurt-writers-4791612",
-      "published": "2026-07-14 22:24:27"
+      "title": "Axfood Q2 2026 slides: profit rises amid deflation, sales lag",
+      "url": "https://www.investing.com/news/company-news/axfood-q2-2026-slides-profit-rises-amid-deflation-sales-lag-93CH-4792423",
+      "published": "2026-07-15 08:43:16"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: Aehr Test Systems tops Q4 2026 forecasts, stock jumps 29%",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-aehr-test-systems-tops-q4-2026-forecasts-stock-jumps-29-93CH-4791974",
-      "published": "2026-07-14 22:22:51"
+      "title": "SK Hynix dips in US premarket after 27% rally; Seoul shares close up 8.8%",
+      "url": "https://www.investing.com/news/stock-market-news/sk-hynix-seoul-shares-rally-on-us-tech-gains-upbeat-analyst-calls-4792139",
+      "published": "2026-07-15 08:43:15"
     },
     {
       "source": "Investing.com News",
-      "title": "Phoenix Education Q3 2026 slides: flat revenue, margins compress",
-      "url": "https://www.investing.com/news/company-news/phoenix-education-q3-2026-slides-flat-revenue-margins-compress-93CH-4791973",
-      "published": "2026-07-14 22:21:09"
+      "title": "Earnings call transcript: Public Property Invest posts strong Q2 2026 operating gains",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-public-property-invest-posts-strong-q2-2026-operating-gains-93CH-4792422",
+      "published": "2026-07-15 08:40:12"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 4 HIVE Digital Technologies Ltd For: 14 July",
-      "url": "https://www.investing.com/news/filings/form-4-hive-digital-technologies-ltd-for-14-july-93CH-4791972",
-      "published": "2026-07-14 22:21:08"
+      "title": "Ashtead Technology shares climb on full year outlook",
+      "url": "https://www.investing.com/news/stock-market-news/ashtead-technology-shares-climb-on-full-year-outlook-93CH-4792421",
+      "published": "2026-07-15 08:38:58"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 4 Full House Resorts Inc For: 14 July",
-      "url": "https://www.investing.com/news/filings/form-4-full-house-resorts-inc-for-14-july-93CH-4791971",
-      "published": "2026-07-14 22:21:06"
+      "title": "Why is Axfood stock tumbling today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-axfood-stock-tumbling-today-93CH-4792418",
+      "published": "2026-07-15 08:38:32"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Israel kills four people in Gaza, including a child, medics say",
+      "url": "https://www.investing.com/news/world-news/israel-kills-four-people-in-gaza-including-a-child-medics-say-4792417",
+      "published": "2026-07-15 08:36:54"
     },
     {
       "source": "FT Markets",
-      "title": "IBM shares plunge 25% as customers shift spending to AI",
-      "url": "https://www.ft.com/content/da478c37-7a32-415d-9f30-3b2981149f95",
-      "published": "Tue, 14 Jul 2026 20:11:17 GMT"
+      "title": "Barratt Redrow launches £400mn buyback after investor pressure",
+      "url": "https://www.ft.com/content/f3c2ab09-eda2-4de0-89bb-613b1771f146",
+      "published": "Wed, 15 Jul 2026 07:36:38 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Everything is awesome for banks",
-      "url": "https://www.ft.com/content/6d9ea937-a83a-430f-8f5b-68fb27e15058",
-      "published": "Tue, 14 Jul 2026 20:00:00 GMT"
+      "title": "Stripe and Advent make $53bn bid for PayPal",
+      "url": "https://www.ft.com/content/3738e814-9470-4d7d-94a6-ac5e001a968e",
+      "published": "Wed, 15 Jul 2026 05:54:23 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Oil touches $87 as battle for Strait of Hormuz alarms energy markets",
-      "url": "https://www.ft.com/content/2d899824-5f94-4f0c-81fc-c54a0750e498",
-      "published": "Tue, 14 Jul 2026 16:00:59 GMT"
+      "title": "Wall Street banks are AI stocks now",
+      "url": "https://www.ft.com/content/b77558d3-5f7d-480b-94b3-df6141e7104c",
+      "published": "Wed, 15 Jul 2026 05:30:09 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Brussels to propose easing banks’ capital requirements",
-      "url": "https://www.ft.com/content/f8c00d09-1cbd-4e40-86c5-55f5ab24700d",
-      "published": "Tue, 14 Jul 2026 13:06:24 GMT"
+      "title": "What could go wrong",
+      "url": "https://www.ft.com/content/1ec6fcd5-da94-4112-af03-2190a142976e",
+      "published": "Wed, 15 Jul 2026 05:00:09 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "UK borrowing costs hit highest level since May as oil surges",
-      "url": "https://www.ft.com/content/107fc895-14db-4003-baa0-d81ed29c477f",
-      "published": "Tue, 14 Jul 2026 12:49:14 GMT"
+      "title": "Chipmaker CXMT seeks $10bn in largest China IPO since 2010",
+      "url": "https://www.ft.com/content/fcfbcbc0-181f-49ce-bda8-c4133e09695c",
+      "published": "Wed, 15 Jul 2026 04:55:25 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "The payments darling in Trump’s crosshairs",
-      "url": "https://www.ft.com/content/efbec9a7-a3d9-45e6-8ade-c0660f31ecc7",
-      "published": "Tue, 14 Jul 2026 10:00:11 GMT"
+      "title": "As good as it gets in banking?",
+      "url": "https://www.ft.com/content/24138204-9b32-47cb-be1a-e00774999431",
+      "published": "Wed, 15 Jul 2026 04:00:38 GMT"
     }
   ],
   "summary": {
