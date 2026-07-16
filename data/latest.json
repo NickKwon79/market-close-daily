@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-07-16 07:28 KST",
+  "as_of_kst": "2026-07-16 18:35 KST",
   "as_of_date": "2026-07-16",
   "as_of_weekday": "THU",
-  "build_unix": 1784154513,
+  "build_unix": 1784194515,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 6856.83,
-      "change": 49.9,
-      "change_pct": 0.73,
+      "price": 6820.6,
+      "change": -463.81,
+      "change_pct": -6.37,
       "spark": [
-        7246.79,
-        7291.91,
         7475.94,
         6806.93,
-        6856.83
+        6856.83,
+        7284.41,
+        6820.6
       ],
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-16"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 67743.5,
-      "change": 500.77,
-      "change_pct": 0.74,
+      "price": 66835.54,
+      "change": -1915.97,
+      "change_pct": -2.79,
       "spark": [
-        66819.05,
-        67743.85,
         68557.73,
         67242.73,
-        67743.5
+        67743.5,
+        68751.51,
+        66835.54
       ],
-      "as_of": "2026-07-15"
+      "as_of": "2026-07-16"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 24340.73,
-      "change": 127.01,
-      "change_pct": 0.52,
+      "price": 25008.6,
+      "change": 327.5,
+      "change_pct": 1.33,
       "spark": [
-        24199.46,
-        24030.18,
         24175.12,
         24213.72,
-        24340.73
+        24340.73,
+        24681.1,
+        25008.6
       ],
-      "as_of": "2026-07-15"
+      "as_of": "2026-07-16"
     },
     "csi300": {
       "key": "csi300",
@@ -118,17 +118,17 @@
       "name": "CSI 300",
       "region": "CHINA",
       "kind": "broad",
-      "price": 4780.79,
-      "change": -95.52,
-      "change_pct": -1.96,
+      "price": 4698.43,
+      "change": -82.36,
+      "change_pct": -1.72,
       "spark": [
-        4842.0,
         4792.26,
         4755.53,
         4876.31,
-        4780.79
+        4780.79,
+        4698.43
       ],
-      "as_of": "2026-07-15"
+      "as_of": "2026-07-16"
     },
     "ftse": {
       "key": "ftse",
@@ -136,17 +136,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10515.92,
-      "change": -13.48,
-      "change_pct": -0.13,
+      "price": 10479.59,
+      "change": -36.31,
+      "change_pct": -0.35,
       "spark": [
-        10472.5,
         10497.3,
         10498.3,
         10529.4,
-        10515.92
+        10515.9,
+        10479.59
       ],
-      "as_of": "2026-07-15"
+      "as_of": "2026-07-16"
     },
     "dax": {
       "key": "dax",
@@ -154,50 +154,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 25147.03,
-      "change": 32.78,
-      "change_pct": 0.13,
+      "price": 24922.42,
+      "change": -77.11,
+      "change_pct": -0.31,
       "spark": [
-        24897.45,
-        25118.27,
         25067.09,
         25114.25,
-        25147.03
+        25147.03,
+        24999.53,
+        24922.42
       ],
-      "as_of": "2026-07-15"
+      "as_of": "2026-07-16"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1486.47,
+      "rate": 1478.98,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 162.09,
+      "rate": 162.18,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1471,
+      "rate": 1.1465,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7579,
+      "rate": 6.7666,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 100.5,
-      "change": -0.44,
-      "change_pct": -0.44,
+      "rate": 100.54,
+      "change": 0.04,
+      "change_pct": 0.04,
       "kind": "index"
     }
   },
@@ -207,27 +207,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 80.23,
-      "change": 0.89,
-      "change_pct": 1.12
+      "price": 79.3,
+      "change": -0.3,
+      "change_pct": -0.38
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4069.2,
-      "change": 8.1,
-      "change_pct": 0.2
+      "price": 4038.5,
+      "change": -5.5,
+      "change_pct": -0.14
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 64845.99,
-      "change": -110.12,
-      "change_pct": -0.17
+      "price": 64049.07,
+      "change": -663.3,
+      "change_pct": -1.03
     },
     "ust10y": {
       "key": "ust10y",
@@ -243,9 +243,9 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 15.67,
-      "change": -0.83,
-      "change_pct": -5.03
+      "price": 15.82,
+      "change": 0.15,
+      "change_pct": 0.96
     }
   },
   "headlines_raw": [
@@ -293,141 +293,141 @@
     },
     {
       "source": "Yahoo Finance",
-      "title": "Tripadvisor (TRIP) Advanced as Market Accepted Asset Sale",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tripadvisor-trip-advanced-market-accepted-141901766.html",
-      "published": "2026-07-14T14:19:01Z"
+      "title": "Foreign transaction fees explained: How much they can cost you and how to avoid them",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/foreign-transaction-fees-explained-161910930.html",
+      "published": "2026-07-14T16:19:10Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Liberty Capital Corporation (GLIBK): Rebranded for Expansion",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/liberty-capital-corporation-glibk-rebranded-142043953.html",
-      "published": "2026-07-14T14:20:43Z"
+      "title": "Mortgage & refinance rates today, Tuesday, July 14, 2026: Rates mixed this morning",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage--refinance-rates-today-tuesday-july-14-2026-rates-mixed-this-morning-100000024.html",
+      "published": "2026-07-14T10:00:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Paxos Labs Moves Nearly $30M Through Robinhood Chain",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/paxos-labs-moves-nearly-30m-141600269.html",
-      "published": "2026-07-14T14:16:00Z"
+      "title": "Oil Tanker Stocks Set Up Amid Trump's Flip-Flop On Hormuz Toll",
+      "url": "https://www.investors.com/news/oil-tanker-stocks-buy-points-trump-hormuz-toll-roils-industry/?src=A00220&yptr=yahoo",
+      "published": "2026-07-14T21:21:33Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Stocks Rally on Fed-Friendly CPI Report",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-rally-fed-friendly-cpi-141304766.html",
-      "published": "2026-07-14T14:13:04Z"
+      "title": "June CPI breakdown: Gas prices fell, but grocery bills kept climbing",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/june-cpi-breakdown-gas-prices-fell-but-grocery-bills-kept-climbing-184930928.html",
+      "published": "2026-07-14T18:49:30Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Lawmakers Kick Off House Hearing With Kevin Warsh",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-bank-earnings-07-14-2026/card/lawmakers-kick-off-house-hearing-with-kevin-warsh-MA4nwQnzQ4BkFCR5PjWs?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-07-14T14:20:09Z"
+      "title": "The Real Risk Inside Broadcom Stock",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/real-risk-inside-broadcom-stock-212246307.html",
+      "published": "2026-07-14T21:22:46Z"
     },
     {
       "source": "MarketWatch Top",
-      "title": "You are missing the bond deal of the decade — and it is guaranteed to beat inflation",
-      "url": "https://www.marketwatch.com/story/you-are-missing-the-bond-deal-of-the-decade-and-it-is-guaranteed-to-beat-inflation-0f1d6cf8?mod=mw_rss_topstories",
-      "published": "Wed, 15 Jul 2026 22:21:00 GMT"
+      "title": "TSMC posts record quarter — but expectations are now ‘exceptionally high,’ says fund manager",
+      "url": "https://www.marketwatch.com/story/tsmc-posts-record-quarter-but-expectations-are-now-exceptionally-high-says-fund-manager-145cd3ab?mod=mw_rss_topstories",
+      "published": "Thu, 16 Jul 2026 09:32:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Small-cap outperformance is persisting — and these 15 quality stocks pay rich dividends",
-      "url": "https://www.marketwatch.com/story/small-cap-outperformance-is-persisting-and-these-15-quality-stocks-pay-rich-dividends-5a814386?mod=mw_rss_topstories",
-      "published": "Wed, 15 Jul 2026 22:20:00 GMT"
+      "title": "Alec and Hilaria Baldwin pull $19 million Hamptons home off the market—again",
+      "url": "https://www.marketwatch.com/story/alec-and-hilaria-baldwin-pull-19-million-hamptons-home-off-the-marketagain-6505ebdd?mod=mw_rss_topstories",
+      "published": "Thu, 16 Jul 2026 09:01:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "This powerful stock-market momentum trade has hit a wall after seeing biggest unwind since 2001",
-      "url": "https://www.marketwatch.com/story/this-powerful-stock-market-momentum-trade-has-hit-a-wall-after-seeing-biggest-unwind-since-2001-52ad4151?mod=mw_rss_topstories",
-      "published": "Wed, 15 Jul 2026 22:10:00 GMT"
+      "title": "AI is so big, it’s now impossible for investors to avoid",
+      "url": "https://www.marketwatch.com/story/ai-is-so-big-its-now-impossible-for-investors-to-avoid-9271e03f?mod=mw_rss_topstories",
+      "published": "Thu, 16 Jul 2026 00:59:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "A big dividend cut and a $2 billion charge: Conagra’s results signal more pain ahead for food industry",
-      "url": "https://www.marketwatch.com/story/a-big-dividend-cut-and-a-2-billion-charge-conagras-results-signal-more-pain-ahead-for-food-industry-8613bd71?mod=mw_rss_topstories",
-      "published": "Wed, 15 Jul 2026 21:43:00 GMT"
+      "title": "United Airlines gets hit by a $6 billion added-fuel-cost headwind",
+      "url": "https://www.marketwatch.com/story/united-airlines-gets-hit-by-a-6-billion-added-fuel-cost-headwind-dacb07b6?mod=mw_rss_topstories",
+      "published": "Thu, 16 Jul 2026 00:25:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "SpaceX’s stock breaks below its IPO price for the first time. Why it could still fall further.",
-      "url": "https://www.marketwatch.com/story/spacexs-stock-breaks-below-its-ipo-price-for-the-first-time-8826dc9a?mod=mw_rss_topstories",
-      "published": "Wed, 15 Jul 2026 21:40:00 GMT"
+      "title": "The trucking market is tighter than it’s been in years — but investors are upbeat on J.B. Hunt",
+      "url": "https://www.marketwatch.com/story/the-trucking-market-is-tighter-than-its-been-in-years-but-investors-are-upbeat-on-j-b-hunt-af0f1587?mod=mw_rss_topstories",
+      "published": "Thu, 16 Jul 2026 00:22:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "What makes this cyclospora outbreak different — and why it might not end until August",
-      "url": "https://www.marketwatch.com/story/what-makes-this-cyclospora-outbreak-different-and-why-it-might-not-end-until-august-e54cd0b1?mod=mw_rss_topstories",
-      "published": "Wed, 15 Jul 2026 21:27:00 GMT"
+      "title": "‘They cut off online access’: My mother’s bank balance plummeted after her death. What’s going on?",
+      "url": "https://www.marketwatch.com/story/they-cut-off-online-access-my-mothers-bank-balance-plummeted-after-her-death-whats-going-on-8e8f3aa2?mod=mw_rss_topstories",
+      "published": "Thu, 16 Jul 2026 00:00:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 4 Pagerduty Inc For: 15 July",
-      "url": "https://www.investing.com/news/filings/form-4-pagerduty-inc-for-15-july-93CH-4794487",
-      "published": "2026-07-15 22:18:09"
+      "title": "Citi initiates Hikma with Buy, says strategic reset can unlock growth",
+      "url": "https://www.investing.com/news/analyst-ratings/citi-initiates-hikma-with-buy-says-strategic-reset-can-unlock-growth-4794994",
+      "published": "2026-07-16 09:16:07"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 144 Clover Health Investments For: 15 July",
-      "url": "https://www.investing.com/news/filings/form-144-clover-health-investments-for-15-july-93CH-4794486",
-      "published": "2026-07-15 22:18:08"
+      "title": "Earnings call transcript: ITAB Group posts stronger profit in Q2 2026",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-itab-group-posts-stronger-profit-in-q2-2026-93CH-4794990",
+      "published": "2026-07-16 09:14:59"
     },
     {
       "source": "Investing.com News",
-      "title": "Bitcoin turns marginally lower as soft U.S. Inflation data offset by Iran tensions",
-      "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-rebounds-to-near-65k-as-rate-jitters-ease-iran-tensions-limit-gains-4792215",
-      "published": "2026-07-15 22:17:08"
+      "title": "GH Research stock jumps on Eli Lilly-Atai acquisition talks",
+      "url": "https://www.investing.com/news/stock-market-news/gh-research-stock-jumps-on-eli-lillyatai-acquisition-talks-93CH-4794989",
+      "published": "2026-07-16 09:14:41"
     },
     {
       "source": "Investing.com News",
-      "title": "Tesla driver accelerated into house in fatal Texas crash, NTSB says",
-      "url": "https://www.investing.com/news/stock-market-news/tesla-driver-accelerated-into-house-in-fatal-texas-crash-ntsb-says-4794485",
-      "published": "2026-07-15 22:12:33"
+      "title": "Eli Lilly in talks to acquire AtaiBeckley, shares jump 53%",
+      "url": "https://www.investing.com/news/stock-market-news/eli-lilly-in-talks-to-acquire-ataibeckley-shares-jump-53-93CH-4794988",
+      "published": "2026-07-16 09:14:38"
     },
     {
       "source": "Investing.com News",
-      "title": "PayPal rallies 17% on report Stripe, Advent made $53 billion bid",
-      "url": "https://www.investing.com/news/stock-market-news/stripe-advent-offer-to-buy-paypal-for-over-53-bln-reuters-4792137",
-      "published": "2026-07-15 22:12:09"
+      "title": "Baidu stock jumps on dual-primary Hong Kong listing plan",
+      "url": "https://www.investing.com/news/stock-market-news/baidu-stock-jumps-on-dualprimary-hong-kong-listing-plan-93CH-4794987",
+      "published": "2026-07-16 09:14:36"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 4 Microsoft Corporation For: 15 July",
-      "url": "https://www.investing.com/news/filings/form-4-microsoft-corporation-for-15-july-93CH-4794484",
-      "published": "2026-07-15 22:09:07"
+      "title": "UBS sees copper market deficit supporting long positions",
+      "url": "https://www.investing.com/news/commodities-news/ubs-sees-copper-market-deficit-supporting-long-positions-93CH-4794986",
+      "published": "2026-07-16 09:14:34"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Latest Oil Market News and Analysis for July 16",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-15/latest-oil-market-news-and-analysis-for-july-16",
-      "published": "Wed, 15 Jul 2026 22:02:01 GMT"
+      "title": "US Stocks Stall as AI Rally Faces Fresh Scrutiny: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-15/stock-market-today-dow-s-p-live-updates",
+      "published": "Wed, 15 Jul 2026 22:07:47 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Stocks Rise as Inflation Data Outweighs Chip Rout: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-14/asian-stocks-poised-to-track-us-gains-on-soft-cpi-markets-wrap",
-      "published": "Tue, 14 Jul 2026 22:06:21 GMT"
+      "title": "Wheat Hits Two-Year High as Black Sea Attacks Spur Supply Fears",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-16/wheat-holds-near-two-month-high-after-black-sea-attacks",
+      "published": "Thu, 16 Jul 2026 03:13:35 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "JPMorgan Leads $3 Billion Financing for Warburg’s Pantherx Buy",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-15/jpmorgan-leads-3-billion-financing-for-warburg-s-pantherx-buy",
-      "published": "Wed, 15 Jul 2026 21:08:24 GMT"
+      "title": "Partners Group Slumps as Popular Funds Weigh on Growth",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-15/partners-group-s-assets-under-management-rise-to-186-billion",
+      "published": "Wed, 15 Jul 2026 16:16:20 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Emerging Currencies Gain as Traders Cut Back Fed Bets on US PPI",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-15/emerging-stocks-rise-as-asia-tech-rally-offsets-gold-miner-slump",
-      "published": "Wed, 15 Jul 2026 10:29:22 GMT"
+      "title": "Pound Hits One-Year High as Fiscal Fears Ease, Bears Retreat",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-16/pound-index-hits-one-year-high-on-mahmood-for-chancellor-reports",
+      "published": "Thu, 16 Jul 2026 02:33:26 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "The Optimistic Case for the Hochul Data Center Pause",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-07-15/the-optimistic-case-for-the-hochul-data-center-pause",
-      "published": "Wed, 15 Jul 2026 20:52:38 GMT"
+      "title": "South Korea to Halt New Listings of Single Stock Leveraged ETFs",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-16/south-korea-to-halt-new-listings-of-single-stock-leveraged-etfs",
+      "published": "Thu, 16 Jul 2026 07:20:00 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Education Firm Anima Sinks Over 30% as Analysts Pan M&A Deal",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-15/brazil-education-firm-anima-plunges-30-as-analysts-pan-m-a-deal",
-      "published": "Wed, 15 Jul 2026 15:11:58 GMT"
+      "title": "Asian Gas Prices Near Four-Month High on Mideast Tensions",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-16/asian-gas-prices-rise-to-highest-since-march-on-mideast-tensions",
+      "published": "Thu, 16 Jul 2026 03:43:20 GMT"
     }
   ],
   "summary": {
