@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-07-17 07:28 KST",
+  "as_of_kst": "2026-07-17 18:27 KST",
   "as_of_date": "2026-07-17",
   "as_of_weekday": "FRI",
-  "build_unix": 1784240905,
+  "build_unix": 1784280444,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,15 +64,15 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 7284.41,
-      "change": 427.58,
-      "change_pct": 6.24,
+      "price": 6820.6,
+      "change": -463.81,
+      "change_pct": -6.37,
       "spark": [
-        7291.91,
         7475.94,
         6806.93,
         6856.83,
-        7284.41
+        7284.41,
+        6820.6
       ],
       "as_of": "2026-07-16"
     },
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 68751.51,
-      "change": 1008.01,
-      "change_pct": 1.49,
+      "price": 64141.12,
+      "change": -2694.42,
+      "change_pct": -4.03,
       "spark": [
-        67743.85,
-        68557.73,
         67242.73,
         67743.5,
-        68751.51
+        68751.51,
+        66835.54,
+        64141.12
       ],
-      "as_of": "2026-07-16"
+      "as_of": "2026-07-17"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 24681.1,
-      "change": 340.37,
-      "change_pct": 1.4,
+      "price": 24562.24,
+      "change": -446.36,
+      "change_pct": -1.78,
       "spark": [
-        24030.18,
-        24175.12,
         24213.72,
         24340.73,
-        24681.1
+        24681.1,
+        25008.6,
+        24562.24
       ],
-      "as_of": "2026-07-16"
+      "as_of": "2026-07-17"
     },
     "csi300": {
       "key": "csi300",
@@ -118,17 +118,17 @@
       "name": "CSI 300",
       "region": "CHINA",
       "kind": "broad",
-      "price": 4780.79,
-      "change": -95.52,
-      "change_pct": -1.96,
+      "price": 4529.1,
+      "change": -251.69,
+      "change_pct": -5.26,
       "spark": [
-        4842.0,
         4792.26,
         4755.53,
         4876.31,
-        4780.79
+        4780.79,
+        4529.1
       ],
-      "as_of": "2026-07-16"
+      "as_of": "2026-07-17"
     },
     "ftse": {
       "key": "ftse",
@@ -136,17 +136,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10572.24,
-      "change": 56.34,
-      "change_pct": 0.54,
+      "price": 10546.19,
+      "change": -26.01,
+      "change_pct": -0.25,
       "spark": [
-        10497.3,
         10498.3,
         10529.4,
         10515.9,
-        10572.24
+        10572.2,
+        10546.19
       ],
-      "as_of": "2026-07-16"
+      "as_of": "2026-07-17"
     },
     "dax": {
       "key": "dax",
@@ -154,50 +154,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 24999.53,
-      "change": -147.5,
-      "change_pct": -0.59,
+      "price": 24667.63,
+      "change": -247.86,
+      "change_pct": -0.99,
       "spark": [
-        25118.27,
-        25067.09,
         25114.25,
         25147.03,
-        24999.53
+        24999.53,
+        24915.49,
+        24667.63
       ],
-      "as_of": "2026-07-16"
+      "as_of": "2026-07-17"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1477.76,
+      "rate": 1484.83,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 162.07,
+      "rate": 162.42,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1447,
+      "rate": 1.1444,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7632,
+      "rate": 6.7763,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 100.71,
-      "change": 0.21,
-      "change_pct": 0.21,
+      "rate": 100.78,
+      "change": 0.05,
+      "change_pct": 0.05,
       "kind": "index"
     }
   },
@@ -207,27 +207,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 79.04,
-      "change": -0.56,
-      "change_pct": -0.7
+      "price": 79.44,
+      "change": 0.49,
+      "change_pct": 0.62
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 3979.7,
-      "change": -64.3,
-      "change_pct": -1.59
+      "price": 4000.7,
+      "change": 15.1,
+      "change_pct": 0.38
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 63982.42,
-      "change": -729.95,
-      "change_pct": -1.13
+      "price": 62898.9,
+      "change": -890.38,
+      "change_pct": -1.4
     },
     "ust10y": {
       "key": "ust10y",
@@ -243,12 +243,18 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 16.73,
-      "change": 1.06,
-      "change_pct": 6.76
+      "price": 18.47,
+      "change": 1.74,
+      "change_pct": 10.4
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Friday's big stock stories: What’s likely to move the market in the next trading session",
+      "url": "https://www.cnbc.com/2026/07/16/fridays-big-stock-stories-whats-likely-to-move-the-market.html",
+      "published": "Thu, 16 Jul 2026 22:52:31 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Nearly 80 S&P 500 companies report earnings next week. These names tend to beat expectations",
@@ -280,110 +286,116 @@
       "published": "Thu, 16 Jul 2026 16:10:11 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "This retailer on Josh Brown's Best Stocks list continues rising while its biggest rival falls",
-      "url": "https://www.cnbc.com/2026/07/16/this-retailer-on-josh-browns-best-stocks-list-continues-rising-while-its-biggest-rival-falls.html",
-      "published": "Thu, 16 Jul 2026 15:00:01 GMT"
+      "source": "Yahoo Finance",
+      "title": "Anthropic IPO: What to know before you buy the stock",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/anthropic-ipo-what-to-know-before-you-buy-the-stock-170741665.html",
+      "published": "2026-06-16T17:07:41Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Citi Finds Microsoft (MSFT) as One of the Top AI Vendors",
-      "url": "https://finance.yahoo.com/technology/ai/articles/citi-finds-microsoft-msft-one-145527924.html",
-      "published": "2026-07-15T14:55:27Z"
+      "title": "How to get a 3%-down mortgage",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/3-down-payment-mortgage-225443404.html",
+      "published": "2024-01-26T22:54:43Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Chipotle’s COO Uses This Test to Find People to Promote. Here Are the 4 Attributes He Seeks.",
-      "url": "https://finance.yahoo.com/small-business/articles/chipotle-coo-uses-test-people-145556207.html",
-      "published": "2026-07-15T14:55:56Z"
+      "title": "How to buy a house: The ultimate guide for first-time home buyers",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/first-time-home-buyer-195246478.html",
+      "published": "2024-01-26T22:46:06Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Morgan Stanley Reiterates Nvidia (NVDA) As its Top Semiconductor Pick",
-      "url": "https://finance.yahoo.com/technology/articles/morgan-stanley-reiterates-nvidia-nvda-145559408.html",
-      "published": "2026-07-15T14:55:59Z"
+      "title": "Limited-time offer: Earn up to $500 in travel credits with a Capital One business credit card",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/limited-time-offer-earn-up-to-500-in-travel-credits-with-a-capital-one-business-credit-card-191731905.html",
+      "published": "2026-07-15T19:17:31Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "International Business Machines (IBM) Among the Best Quantum Stocks To Buy",
-      "url": "https://finance.yahoo.com/technology/ai/articles/international-business-machines-ibm-among-145627984.html",
-      "published": "2026-07-15T14:56:27Z"
+      "title": "What is a money market account, and how does it work?",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/what-is-money-market-account-132821980.html",
+      "published": "2023-12-15T22:50:19Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "BlackBerry Stock Looks Strong at a 5-Year High with Double-Digit Growth in Revenue and Earnings Ahead",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/blackberry-stock-looks-strong-5-145003346.html",
-      "published": "2026-07-15T14:50:03Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Chagee (CHA): The Fastest Growing Consumer Stock to Buy Now",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/chagee-cha-fastest-growing-consumer-144826018.html",
-      "published": "2026-07-15T14:48:26Z"
+      "title": "Stock Market Today, July 15: Markets Rise on Cooler Inflation and Strong Earnings Start",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-july-15-211613156.html",
+      "published": "2026-07-15T21:16:13Z"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘It’s heartbreaking’: My brother claimed Social Security at 70. He died from cancer after one payment. Why wait to claim?",
-      "url": "https://www.marketwatch.com/story/its-heartbreaking-my-brother-claimed-social-security-at-70-he-died-from-cancer-after-one-payment-why-wait-to-claim-491669b6?mod=mw_rss_topstories",
-      "published": "Thu, 16 Jul 2026 22:00:00 GMT"
+      "title": "Buyer snaps up Josh Duhamel’s $3 million L.A. home as actor embraces his Minnesota ‘doomsday prepper’ cabin",
+      "url": "https://www.marketwatch.com/story/buyer-snaps-up-josh-duhamels-3-million-l-a-home-as-actor-embraces-his-minnesota-doomsday-prepper-cabin-6666879e?mod=mw_rss_topstories",
+      "published": "Fri, 17 Jul 2026 09:01:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "He backed Tesla and SpaceX before anyone else — here is the ‘impossible’ bet Tim Draper is making now",
-      "url": "https://www.marketwatch.com/story/he-backed-tesla-and-spacex-before-anyone-else-here-is-the-impossible-bet-he-is-making-now-025e00ef?mod=mw_rss_topstories",
-      "published": "Thu, 16 Jul 2026 21:45:00 GMT"
+      "title": "Micron has turned into ‘the most important stock in the market.’ So is it time to worry?",
+      "url": "https://www.marketwatch.com/story/micron-has-turned-into-the-most-important-stock-in-the-market-so-is-it-time-to-worry-71e335bf?mod=mw_rss_topstories",
+      "published": "Fri, 17 Jul 2026 02:11:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Alphabet’s stock falls as Gemini delays suggest Google is struggling to keep up in the AI race",
-      "url": "https://www.marketwatch.com/story/alphabets-stock-falls-as-gemini-delays-suggest-google-is-struggling-to-keep-up-in-the-ai-race-4d821205?mod=mw_rss_topstories",
-      "published": "Thu, 16 Jul 2026 21:32:00 GMT"
+      "title": "Netflix is getting stingier about its viewing data, and Wall Street isn’t happy",
+      "url": "https://www.marketwatch.com/story/netflix-is-getting-stingier-about-its-viewing-data-and-wall-street-isnt-happy-15033db1?mod=mw_rss_topstories",
+      "published": "Fri, 17 Jul 2026 00:14:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "You are missing the bond deal of the decade — and it is guaranteed to beat inflation",
-      "url": "https://www.marketwatch.com/story/you-are-missing-the-bond-deal-of-the-decade-and-it-is-guaranteed-to-beat-inflation-0f1d6cf8?mod=mw_rss_topstories",
-      "published": "Thu, 16 Jul 2026 21:17:00 GMT"
+      "title": "10 U.S. metro areas where builders are slashing prices on new homes",
+      "url": "https://www.marketwatch.com/story/10-u-s-metro-areas-where-builders-are-slashing-prices-on-new-homes-1eb19355?mod=mw_rss_topstories",
+      "published": "Fri, 17 Jul 2026 00:10:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘They are relentless’: A scammer is trying to change the email on my empty Robinhood account. What do they have to gain?",
-      "url": "https://www.marketwatch.com/story/they-are-relentless-a-scammer-is-trying-to-change-the-email-on-my-empty-robinhood-account-what-do-they-have-to-gain-26103dac?mod=mw_rss_topstories",
-      "published": "Thu, 16 Jul 2026 21:15:00 GMT"
+      "title": "Palo Alto Networks’ stock has been on a tear — and it could go even higher, according to these bulls",
+      "url": "https://www.marketwatch.com/story/palo-alto-networks-stock-has-been-on-a-tear-and-it-could-go-even-higher-according-to-these-bulls-1ddde6f4?mod=mw_rss_topstories",
+      "published": "Thu, 16 Jul 2026 23:38:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Semiconductor stocks are on the verge of a bear market. Is the thrill in the chips trade gone?",
-      "url": "https://www.marketwatch.com/story/semiconductor-stocks-are-on-the-verge-of-a-bear-market-is-the-thrill-in-the-chips-trade-gone-592eded7?mod=mw_rss_topstories",
-      "published": "Thu, 16 Jul 2026 21:02:00 GMT"
+      "title": "As SpaceX’s stock notches first close below IPO price, the company is gearing up for a crucial launch",
+      "url": "https://www.marketwatch.com/story/spacexs-starship-is-set-for-takeoff-and-its-floundering-stock-could-use-the-lift-ec5629d5?mod=mw_rss_topstories",
+      "published": "Thu, 16 Jul 2026 23:36:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 4 Four Corners Property Trust Inc For: 16 July",
-      "url": "https://www.investing.com/news/filings/form-4-four-corners-property-trust-inc-for-16-july-93CH-4797200",
-      "published": "2026-07-16 22:09:16"
+      "title": "Airlines resume some Middle East flights but disruption continues",
+      "url": "https://www.investing.com/news/stock-market-news/airlines-resume-some-middle-east-flights-but-disruption-continues-4797785",
+      "published": "2026-07-17 09:24:25"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 144 ServiceTitan For: 16 July",
-      "url": "https://www.investing.com/news/filings/form-144-servicetitan-for-16-july-93CH-4797199",
-      "published": "2026-07-16 22:09:16"
+      "title": "Burberry Q1 FY27 slides: 5% sales growth, Americas up 12%",
+      "url": "https://www.investing.com/news/company-news/burberry-q1-fy27-slides-5-sales-growth-americas-up-12-93CH-4797784",
+      "published": "2026-07-17 09:24:10"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Earnings call transcript: 5paisa Q1 2027 revenue rises 14% as stock falls 4.7%",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-5paisa-q1-2027-revenue-rises-14-as-stock-falls-47-93CH-4797783",
+      "published": "2026-07-17 09:24:05"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "European chip stocks fall after sharp U.S. peers’ selloff",
+      "url": "https://www.investing.com/news/stock-market-news/european-chip-stocks-fall-after-sharp-us-peers-selloff-4797767",
+      "published": "2026-07-17 09:23:27"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "EKF Diagnostics buys back 50,000 shares at 25.5p each",
+      "url": "https://www.investing.com/news/company-news/ekf-diagnostics-buys-back-50000-shares-at-255p-each-93CH-4797782",
+      "published": "2026-07-17 09:22:30"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Nobia Q2 2026 slides: margins expand as Nordic market weakens",
+      "url": "https://www.investing.com/news/company-news/nobia-q2-2026-slides-margins-expand-as-nordic-market-weakens-93CH-4797780",
+      "published": "2026-07-17 09:21:29"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Intuitive Surgical Drops as ACA Changes, GLP-1s Weigh on Growth",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-16/intuitive-surgical-drops-as-aca-changes-glp-1s-weigh-on-growth",
-      "published": "Thu, 16 Jul 2026 22:12:17 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Bank Rally Hits Short Sellers Betting on Australia Lending Slump",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-16/bank-rally-hits-short-sellers-betting-on-australia-lending-slump",
-      "published": "Thu, 16 Jul 2026 22:09:31 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Asia Stocks to Track US Slide on Chipmaker Selloff: Markets Wrap",
+      "title": "Nasdaq 100 Futures Tumble 2% as Chip Rout Deepens: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-07-16/stock-market-today-dow-s-p-live-updates",
       "published": "Thu, 16 Jul 2026 22:05:23 GMT"
     },
@@ -395,39 +407,27 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "CoreLogic in Talks to Sweeten Terms on Struggling Debt Sale",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-16/corelogic-in-talks-to-sweeten-terms-on-struggling-debt-sale",
-      "published": "Thu, 16 Jul 2026 21:32:22 GMT"
+      "title": "US Corporate Insiders Are Selling Stocks at a Near Record Pace",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-17/us-corporate-insiders-are-selling-stocks-at-a-near-record-pace",
+      "published": "Fri, 17 Jul 2026 08:51:55 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "How the Iran War Is Rewiring the Oil Market",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-16/how-the-iran-war-is-rewiring-the-oil-market",
-      "published": "Thu, 16 Jul 2026 21:12:59 GMT"
+      "title": "US Equity Futures Slide as Chip Selloff Prompts Sector Rotation",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-17/us-stock-index-futures-slide-as-jitters-grow-on-chip-selloff",
+      "published": "Fri, 17 Jul 2026 08:13:01 GMT"
     },
     {
-      "source": "FT Markets",
-      "title": "Trump Media to sell high-speed access to president’s social media posts",
-      "url": "https://www.ft.com/content/32db576f-4f53-47d2-b00c-2ad4e906952c?syn-25a6b1a6=1",
-      "published": "Thu, 16 Jul 2026 20:56:38 GMT"
+      "source": "Bloomberg Markets",
+      "title": "Amundi Wants Oil, Gas in EU’s New Energy-Transition Fund Class",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-17/amundi-wants-oil-gas-in-eu-s-new-energy-transition-fund-class",
+      "published": "Fri, 17 Jul 2026 08:32:00 GMT"
     },
     {
-      "source": "FT Markets",
-      "title": "Should private credit be public?",
-      "url": "https://www.ft.com/content/bb109ebb-9f60-4771-a8c2-ebfdcb0b457b?syn-25a6b1a6=1",
-      "published": "Thu, 16 Jul 2026 20:00:00 GMT"
-    },
-    {
-      "source": "FT Markets",
-      "title": "Dassault Systèmes in talks to buy drug trial software company for about $2bn",
-      "url": "https://www.ft.com/content/72c335dd-11c9-4ba0-bd11-41414df06d97?syn-25a6b1a6=1",
-      "published": "Thu, 16 Jul 2026 18:12:05 GMT"
-    },
-    {
-      "source": "FT Markets",
-      "title": "Crypto.com valuation hits $20bn after investment from Citadel Securities",
-      "url": "https://www.ft.com/content/21d76406-b5ae-409b-8120-be8a885c02fd?syn-25a6b1a6=1",
-      "published": "Thu, 16 Jul 2026 18:00:08 GMT"
+      "source": "Bloomberg Markets",
+      "title": "Zepto Is Said to Face Sharply Lower Valuation for India IPO",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-17/zepto-is-said-to-face-sharply-lower-valuation-for-india-ipo",
+      "published": "Fri, 17 Jul 2026 08:29:06 GMT"
     }
   ],
   "summary": {
