@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-07-21 07:30 KST",
+  "as_of_kst": "2026-07-21 19:02 KST",
   "as_of_date": "2026-07-21",
   "as_of_weekday": "TUE",
-  "build_unix": 1784586614,
+  "build_unix": 1784628171,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 6820.6,
-      "change": -463.81,
-      "change_pct": -6.37,
+      "price": 6747.95,
+      "change": 231.68,
+      "change_pct": 3.56,
       "spark": [
-        7475.94,
-        6806.93,
         6856.83,
         7284.41,
-        6820.6
+        6820.6,
+        6516.27,
+        6747.95
       ],
-      "as_of": "2026-07-16"
+      "as_of": "2026-07-21"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 64141.12,
-      "change": -2694.42,
-      "change_pct": -4.03,
+      "price": 66232.19,
+      "change": 2091.07,
+      "change_pct": 3.26,
       "spark": [
-        67242.73,
         67743.5,
         68751.51,
         66835.54,
-        64141.12
+        64141.12,
+        66232.19
       ],
-      "as_of": "2026-07-17"
+      "as_of": "2026-07-21"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 24562.24,
-      "change": -446.36,
-      "change_pct": -1.78,
+      "price": 25132.29,
+      "change": -10.76,
+      "change_pct": -0.04,
       "spark": [
-        24213.72,
-        24340.73,
         24681.1,
         25008.6,
-        24562.24
+        24562.24,
+        25143.05,
+        25132.29
       ],
-      "as_of": "2026-07-20"
+      "as_of": "2026-07-21"
     },
     "csi300": {
       "key": "csi300",
@@ -118,17 +118,17 @@
       "name": "CSI 300",
       "region": "CHINA",
       "kind": "broad",
-      "price": 4529.1,
-      "change": -169.34,
-      "change_pct": -3.6,
+      "price": 4739.23,
+      "change": 210.13,
+      "change_pct": 4.64,
       "spark": [
-        4695.38,
         4796.5,
         4786.78,
         4698.44,
-        4529.1
+        4529.1,
+        4739.23
       ],
-      "as_of": "2026-07-20"
+      "as_of": "2026-07-21"
     },
     "ftse": {
       "key": "ftse",
@@ -136,17 +136,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10524.76,
-      "change": -75.64,
-      "change_pct": -0.71,
+      "price": 10544.62,
+      "change": 19.82,
+      "change_pct": 0.19,
       "spark": [
-        10529.4,
         10515.9,
         10572.2,
         10600.4,
-        10524.76
+        10524.8,
+        10544.62
       ],
-      "as_of": "2026-07-20"
+      "as_of": "2026-07-21"
     },
     "dax": {
       "key": "dax",
@@ -154,50 +154,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 24830.98,
-      "change": -84.51,
-      "change_pct": -0.34,
+      "price": 24945.64,
+      "change": 98.95,
+      "change_pct": 0.4,
       "spark": [
-        25114.25,
-        25147.03,
         24999.53,
         24915.49,
-        24830.98
+        24830.98,
+        24846.69,
+        24945.64
       ],
-      "as_of": "2026-07-20"
+      "as_of": "2026-07-21"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1475.24,
+      "rate": 1476.39,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 162.48,
+      "rate": 162.66,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1416,
+      "rate": 1.1427,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7664,
+      "rate": 6.7651,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 101.0,
-      "change": 0.25,
-      "change_pct": 0.25,
+      "rate": 100.91,
+      "change": -0.08,
+      "change_pct": -0.08,
       "kind": "index"
     }
   },
@@ -207,27 +207,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 82.58,
-      "change": 0.09,
-      "change_pct": 0.11
+      "price": 83.16,
+      "change": -0.07,
+      "change_pct": -0.08
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4010.8,
-      "change": -1.9,
-      "change_pct": -0.05
+      "price": 4072.5,
+      "change": 62.2,
+      "change_pct": 1.55
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 65172.89,
-      "change": 482.09,
-      "change_pct": 0.75
+      "price": 66249.48,
+      "change": 1019.45,
+      "change_pct": 1.56
     },
     "ust10y": {
       "key": "ust10y",
@@ -243,12 +243,18 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 18.65,
-      "change": -0.12,
-      "change_pct": -0.64
+      "price": 17.51,
+      "change": -1.14,
+      "change_pct": -6.11
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Tuesday's big stock stories: What’s likely to move the market in the next trading session",
+      "url": "https://www.cnbc.com/2026/07/20/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+      "published": "Mon, 20 Jul 2026 23:12:07 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Tech stocks to buy after the big semiconductor pullback, according to UBS",
@@ -280,154 +286,148 @@
       "published": "Mon, 20 Jul 2026 16:31:10 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "JPMorgan likes this missile and aircraft systems maker. Here's why",
-      "url": "https://www.cnbc.com/2026/07/20/jpmorgan-likes-this-missile-and-aircraft-systems-maker-heres-why.html",
-      "published": "Mon, 20 Jul 2026 14:30:01 GMT"
+      "source": "Yahoo Finance",
+      "title": "EU fines Chinese company AliExpress €550m over sale of illegal goods",
+      "url": "https://finance.yahoo.com/media-advertising/articles/eu-fines-chinese-company-aliexpress-095050907.html",
+      "published": "2026-07-21T09:50:50Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Major car dealer cuts 40% of its locations, issues serious warning",
-      "url": "https://finance.yahoo.com/small-business/articles/major-car-dealer-cuts-40-014700349.html",
-      "published": "2026-07-19T16:54:17Z"
+      "title": "Exclusive-Boeing asks US to intervene over record EU loan to Airbus",
+      "url": "https://finance.yahoo.com/economy/policy/articles/exclusive-boeing-asks-us-intervene-093610195.html",
+      "published": "2026-07-21T09:36:10Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Lionsgate Stock Surges on Buyout Buzz. How to Play LION Here.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/lionsgate-stock-surges-buyout-buzz-134502330.html",
-      "published": "2026-07-19T13:45:02Z"
+      "title": "Dollar softens as investors weigh Middle East jitters against inflation data",
+      "url": "https://finance.yahoo.com/news/dollar-near-one-week-high-013614377.html",
+      "published": "2026-07-21T09:17:05Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "A retiree has $1 million and a $100K pension — here's why waiting until 70 for Social Security could be the smart play",
-      "url": "https://finance.yahoo.com/markets/articles/retiree-1-million-100k-pension-133000639.html",
-      "published": "2026-07-19T13:30:00Z"
+      "title": "Stock market today: Nasdaq leads Dow, S&P 500 futures higher as chip stocks revive",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-july-21-dow-sp-500-nasdaq-084631499.html",
+      "published": "2026-07-21T08:46:31Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Apple Intelligence Just Got the Green Light in China. What That Means for AAPL Stock.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/apple-intelligence-just-got-green-140002408.html",
-      "published": "2026-07-19T14:00:02Z"
+      "title": "ADNOC Approves $6.2 Billion Gas Project in Abu Dhabi",
+      "url": "https://finance.yahoo.com/energy/articles/adnoc-approves-6-2-billion-084900461.html",
+      "published": "2026-07-21T08:49:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Why Analysts Still See Nvidia as the Top Chip Stock to Buy for Q2 Earnings Season",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-analysts-still-see-nvidia-131502019.html",
-      "published": "2026-07-19T13:15:02Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Weekly Stock List",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_47669_StockPicks_1784548244000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "published": "2026-07-20T11:50:44Z"
+      "title": "Netflix Stock Is Down 26% in 2026. Is This the Ultimate Buying Opportunity, or Is More Downside Ahead?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/netflix-stock-down-26-2026-093500376.html",
+      "published": "2026-07-21T09:35:00Z"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Why cheap Chinese AI models could actually be a boon for Nvidia, Micron and other chip stocks",
-      "url": "https://www.marketwatch.com/story/why-cheap-chinese-ai-models-could-actually-be-a-boon-for-nvidia-micron-and-other-chip-stocks-8dd4baba?mod=mw_rss_topstories",
-      "published": "Mon, 20 Jul 2026 22:21:00 GMT"
+      "title": "China contemplates tit-for-tat  export controls against U.S. on AI technologies: report",
+      "url": "https://www.marketwatch.com/story/china-contemplates-tit-for-tat-export-controls-against-u-s-on-ai-technologies-report-e6493c74?mod=mw_rss_topstories",
+      "published": "Tue, 21 Jul 2026 09:12:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "We have $8 million in traditional IRAs. Should we tap them to buy a house — and take the tax hit?",
-      "url": "https://www.marketwatch.com/story/we-have-8-million-in-traditional-iras-should-we-tap-them-to-buy-a-house-and-take-the-tax-hit-c2478daa?mod=mw_rss_topstories",
-      "published": "Mon, 20 Jul 2026 22:00:00 GMT"
+      "title": "Montana home of Kelly Clarkson’s late ex-husband Brandon Blackstock listed for $2.9 million",
+      "url": "https://www.marketwatch.com/story/montana-home-of-kelly-clarksons-late-ex-husbandbrandon-blackstock-listed-for-2-9-million-f1a5a7b4?mod=mw_rss_topstories",
+      "published": "Tue, 21 Jul 2026 09:03:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Oil prices could surpass $120 per barrel if disruptions in Strait of Hormuz don’t ease, says Goldman Sachs",
+      "url": "https://www.marketwatch.com/story/oil-prices-could-surpass-120-per-barrel-if-disruptions-in-strait-of-hormuz-dont-ease-says-goldman-sachs-047f8f88?mod=mw_rss_topstories",
+      "published": "Tue, 21 Jul 2026 09:00:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Jamie Dimon says he wouldn’t buy Treasurys. ‘I don’t understand the upside.’",
+      "url": "https://www.marketwatch.com/story/jamie-dimon-says-he-wouldnt-buy-treasurys-i-dont-understand-the-upside-dfcdf012?mod=mw_rss_topstories",
+      "published": "Tue, 21 Jul 2026 07:51:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Your healthcare could now cost $185,500 in retirement — and that doesn’t include long-term care",
+      "url": "https://www.marketwatch.com/story/your-healthcare-could-now-cost-185-500-in-retirement-and-that-doesnt-include-long-term-care-5f4f6da8?mod=mw_rss_topstories",
+      "published": "Tue, 21 Jul 2026 04:01:00 GMT"
     },
     {
       "source": "MarketWatch Top",
       "title": "U.S. hits Canada with stiff new tariffs, escalating trade tensions",
       "url": "https://www.marketwatch.com/story/u-s-hits-canada-with-stiff-new-tariffs-escalating-trade-tensions-4a97065f?mod=mw_rss_topstories",
-      "published": "Mon, 20 Jul 2026 21:53:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Americans are skipping lettuce and salads as investigation into cyclospora outbreak continues",
-      "url": "https://www.marketwatch.com/story/americans-are-skipping-lettuce-and-salads-as-investigation-into-cyclospora-outbreak-continues-562499b6?mod=mw_rss_topstories",
-      "published": "Mon, 20 Jul 2026 21:44:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Global oil prices settle at one-month high despite new Iran ceasefire proposal, as blockade on Saudi Arabia by Yemen’s Houthis keeps market on edge",
-      "url": "https://www.marketwatch.com/story/oil-prices-surge-stock-futures-dip-as-fighting-between-u-s-and-iran-intensifies-6fb37c79?mod=mw_rss_topstories",
-      "published": "Mon, 20 Jul 2026 21:11:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Lumentum’s stock just got a lot more interesting — and Barclays has turned bullish",
-      "url": "https://www.marketwatch.com/story/lumentums-stock-just-got-a-lot-more-interesting-and-barclays-has-turned-bullish-e00e3395?mod=mw_rss_topstories",
-      "published": "Mon, 20 Jul 2026 21:05:00 GMT"
+      "published": "Tue, 21 Jul 2026 00:13:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: W. R. Berkley tops Q2 2026 estimates, shares slip",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-w-r-berkley-tops-q2-2026-estimates-shares-slip-93CH-4801769",
-      "published": "2026-07-20 22:12:33"
+      "title": "MONY Group H1 2026 slides: record revenue, SuperSaveClub hits 2.5m",
+      "url": "https://www.investing.com/news/company-news/mony-group-h1-2026-slides-record-revenue-supersaveclub-hits-25m-93CH-4802325",
+      "published": "2026-07-21 09:31:49"
     },
     {
       "source": "Investing.com News",
-      "title": "New York army veteran in custody after fire set outside ICE offices",
-      "url": "https://www.investing.com/news/world-news/arrest-made-after-incendiary-device-thrown-at-fbi-building-in-new-york-cnn-reports-4801264",
-      "published": "2026-07-20 22:12:24"
+      "title": "Thrivent Financial sells Gloo Holdings stock, totaling $56,785",
+      "url": "https://www.investing.com/news/insider-trading-news/thrivent-financial-sells-gloo-holdings-stock-totaling-56785-93CH-4802324",
+      "published": "2026-07-21 09:31:15"
     },
     {
       "source": "Investing.com News",
-      "title": "ASEAN’s top diplomats meet in shadow of US-Iran conflict",
-      "url": "https://www.investing.com/news/world-news/aseans-top-diplomats-meet-in-shadow-of-usiran-conflict-4801768",
-      "published": "2026-07-20 22:06:27"
+      "title": "Synaptics SVP Lisa Bodensteiner sells $51,735 in company stock",
+      "url": "https://www.investing.com/news/insider-trading-news/synaptics-svp-lisa-bodensteiner-sells-51735-in-company-stock-93CH-4802323",
+      "published": "2026-07-21 09:31:08"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: ServisFirst Bancorp tops revenue in Q2 2026, shares rise",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-servisfirst-bancorp-tops-revenue-in-q2-2026-shares-rise-93CH-4801767",
-      "published": "2026-07-20 22:05:40"
+      "title": "WM Technology director Brenda Freeman sells $22,944 in shares",
+      "url": "https://www.investing.com/news/insider-trading-news/wm-technology-director-brenda-freeman-sells-22944-in-shares-93CH-4802322",
+      "published": "2026-07-21 09:30:53"
     },
     {
       "source": "Investing.com News",
-      "title": "US DOJ says it is probing Harvard over financial aid programs",
-      "url": "https://www.investing.com/news/general-news/us-doj-says-it-is-probing-harvard-over-financial-aid-programs-4801694",
-      "published": "2026-07-20 22:00:28"
+      "title": "German investor morale rises more than expected in July, ZEW finds",
+      "url": "https://www.investing.com/news/economic-indicators/german-investor-morale-rises-more-than-expected-in-july-zew-finds-4802321",
+      "published": "2026-07-21 09:30:35"
     },
     {
       "source": "Investing.com News",
-      "title": "Alsea lowers 2026 earnings growth forecast on weak spending, currency headwinds",
-      "url": "https://www.investing.com/news/stock-market-news/alsea-lowers-2026-earnings-growth-forecast-on-weak-spending-currency-headwinds-4801766",
-      "published": "2026-07-20 22:00:12"
+      "title": "Form 4 Synaptics Incorporated For: 21 July",
+      "url": "https://www.investing.com/news/filings/form-4-synaptics-incorporated-for-21-july-93CH-4802320",
+      "published": "2026-07-21 09:30:28"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Latest Oil Market News and Analysis for July 20",
+      "title": "Latest Oil Market News and Analysis for July 21",
       "url": "https://www.bloomberg.com/news/articles/2026-07-20/latest-oil-market-news-and-analysis-for-july-20",
       "published": "Mon, 20 Jul 2026 22:11:54 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Conflict Rattles Stocks, Bonds as Oil Holds Gains: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-20/stock-market-today-dow-s-p-live-updates",
-      "published": "Mon, 20 Jul 2026 22:09:48 GMT"
+      "title": "The Great British Takeover Tops $60 Billion After Mitie Deal",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-21/the-great-british-takeover-tops-60-billion-after-mitie-deal",
+      "published": "Tue, 21 Jul 2026 09:41:15 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Gilts Rattled on Andy Burnham’s First Day as Fiscal Fears Return",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-20/gilts-fall-as-burnham-s-fiscal-flexibility-comments-spook-market",
-      "published": "Mon, 20 Jul 2026 15:07:58 GMT"
+      "title": "Danantara Hires Banks for Planned Second Dollar Bond Sale",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-21/danantara-hires-banks-for-planned-second-dollar-bond-sale",
+      "published": "Tue, 21 Jul 2026 09:36:00 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Netflix Taps US High-Grade Bond Market With $1 Billion Debt Sale",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-20/netflix-returns-to-the-high-grade-bond-market-after-2024-debut",
-      "published": "Mon, 20 Jul 2026 14:46:23 GMT"
+      "title": "Zalando Avoids Fine as German Regulator Ends Disclosure Probe",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-21/zalando-avoids-fine-as-german-regulator-ends-disclosure-probe",
+      "published": "Tue, 21 Jul 2026 09:33:16 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Latin America Outperforms as Emerging Market Currencies Gain",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-20/emerging-market-stocks-mixed-as-investors-weigh-iran-tensions",
-      "published": "Mon, 20 Jul 2026 04:45:06 GMT"
+      "title": "Goldman Says Brent Could Top $120 If Hormuz Disruptions Persist",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-21/goldman-says-brent-could-top-120-if-hormuz-disruptions-persist",
+      "published": "Tue, 21 Jul 2026 03:22:23 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Goldman Sells $2.5 Billion Preferreds Following Spread Low",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-20/goldman-offers-preferred-stock-days-after-post-crisis-spread-low",
-      "published": "Mon, 20 Jul 2026 12:56:59 GMT"
+      "title": "Gilts Climb as Investors Await More Policy Details From Burnham",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-21/gilts-steady-as-investors-await-more-policy-details-from-burnham",
+      "published": "Tue, 21 Jul 2026 07:33:01 GMT"
     }
   ],
   "summary": {
