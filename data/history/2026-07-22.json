@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-07-22 07:26 KST",
+  "as_of_kst": "2026-07-22 19:00 KST",
   "as_of_date": "2026-07-22",
   "as_of_weekday": "WED",
-  "build_unix": 1784672773,
+  "build_unix": 1784714405,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 6516.27,
-      "change": -304.33,
-      "change_pct": -4.46,
+      "price": 6797.7,
+      "change": 49.75,
+      "change_pct": 0.74,
       "spark": [
-        6806.93,
-        6856.83,
         7284.41,
         6820.6,
-        6516.27
+        6516.27,
+        6747.95,
+        6797.7
       ],
-      "as_of": "2026-07-20"
+      "as_of": "2026-07-22"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 64141.12,
-      "change": -2694.42,
-      "change_pct": -4.03,
+      "price": 66115.6,
+      "change": -116.59,
+      "change_pct": -0.18,
       "spark": [
-        67242.73,
-        67743.5,
         68751.51,
         66835.54,
-        64141.12
+        64141.12,
+        66232.19,
+        66115.6
       ],
-      "as_of": "2026-07-21"
+      "as_of": "2026-07-22"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 25143.05,
-      "change": 580.81,
-      "change_pct": 2.36,
+      "price": 24892.66,
+      "change": -239.63,
+      "change_pct": -0.95,
       "spark": [
-        24340.73,
-        24681.1,
         25008.6,
         24562.24,
-        25143.05
+        25143.05,
+        25132.29,
+        24892.66
       ],
-      "as_of": "2026-07-21"
+      "as_of": "2026-07-22"
     },
     "csi300": {
       "key": "csi300",
@@ -118,17 +118,17 @@
       "name": "CSI 300",
       "region": "CHINA",
       "kind": "broad",
-      "price": 4529.1,
-      "change": -169.34,
-      "change_pct": -3.6,
+      "price": 4717.24,
+      "change": 188.14,
+      "change_pct": 4.15,
       "spark": [
-        4695.38,
         4796.5,
         4786.78,
         4698.44,
-        4529.1
+        4529.1,
+        4717.24
       ],
-      "as_of": "2026-07-21"
+      "as_of": "2026-07-22"
     },
     "ftse": {
       "key": "ftse",
@@ -136,17 +136,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10585.91,
-      "change": 61.11,
-      "change_pct": 0.58,
+      "price": 10686.58,
+      "change": 100.68,
+      "change_pct": 0.95,
       "spark": [
-        10515.9,
         10572.2,
         10600.4,
         10524.8,
-        10585.91
+        10585.9,
+        10686.58
       ],
-      "as_of": "2026-07-21"
+      "as_of": "2026-07-22"
     },
     "dax": {
       "key": "dax",
@@ -154,50 +154,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 24846.69,
-      "change": 15.71,
-      "change_pct": 0.06,
+      "price": 25123.85,
+      "change": 112.5,
+      "change_pct": 0.45,
       "spark": [
-        25147.03,
-        24999.53,
         24915.49,
         24830.98,
-        24846.69
+        24846.69,
+        25011.35,
+        25123.85
       ],
-      "as_of": "2026-07-21"
+      "as_of": "2026-07-22"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1480.1801,
+      "rate": 1479.2,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 163.18,
+      "rate": 163.03,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1403,
+      "rate": 1.1408,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7651,
+      "rate": 6.7608,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 101.19,
-      "change": 0.2,
-      "change_pct": 0.2,
+      "rate": 101.14,
+      "change": -0.04,
+      "change_pct": -0.03,
       "kind": "index"
     }
   },
@@ -207,27 +207,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 84.63,
-      "change": 1.4,
-      "change_pct": 1.68
+      "price": 88.31,
+      "change": 3.4,
+      "change_pct": 4.0
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4084.0,
-      "change": 73.7,
-      "change_pct": 1.84
+      "price": 4121.2,
+      "change": 50.1,
+      "change_pct": 1.23
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 66224.0,
-      "change": 993.97,
-      "change_pct": 1.52
+      "price": 65894.02,
+      "change": -611.1,
+      "change_pct": -0.92
     },
     "ust10y": {
       "key": "ust10y",
@@ -243,12 +243,18 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 17.05,
-      "change": -1.6,
-      "change_pct": -8.58
+      "price": 17.47,
+      "change": 0.42,
+      "change_pct": 2.46
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Wednesday's big stock stories: What’s likely to move the market in the next trading session",
+      "url": "https://www.cnbc.com/2026/07/21/wednesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+      "published": "Tue, 21 Jul 2026 23:22:47 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Time for a crypto comeback? Traders bet that this stock will lead the way",
@@ -280,10 +286,10 @@
       "published": "Tue, 21 Jul 2026 15:30:01 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "How to use options to play 'a sizable reversion move' in Micron over the next few days",
-      "url": "https://www.cnbc.com/2026/07/21/how-to-use-options-to-play-a-sizable-reversion-move-in-micron-over-the-next-few-days.html",
-      "published": "Tue, 21 Jul 2026 14:26:51 GMT"
+      "source": "Yahoo Finance",
+      "title": "Bank of America CEO warns inflation will back Fed into a corner",
+      "url": "https://finance.yahoo.com/economy/articles/bank-america-ceo-sobering-verdict-033300805.html",
+      "published": "2026-07-21T03:33:00Z"
     },
     {
       "source": "Yahoo Finance",
@@ -293,111 +299,99 @@
     },
     {
       "source": "Yahoo Finance",
-      "title": "Strategy stock rises after the company raises $263 million without selling bitcoin",
-      "url": "https://finance.yahoo.com/markets/stocks/article/strategy-stock-rises-after-the-company-raises-263-million-without-selling-bitcoin-140454002.html",
-      "published": "2026-07-20T14:04:54Z"
+      "title": "How tariffs increase car insurance costs",
+      "url": "https://finance.yahoo.com/personal-finance/insurance/article/car-insurance-tariffs-210219697.html",
+      "published": "2025-04-11T21:02:19Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "There’s a Trainwreck Happening in Cattle Prices. Here’s What You Need to Watch This Week.",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/trainwreck-happening-cattle-prices-watch-140654335.html",
-      "published": "2026-07-20T14:06:54Z"
+      "title": "Bitcoin and ethereum prices today, Monday, July 20, 2026: Crypto prices mixed as second half 2026 outlooks conflict",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-july-20-2026-crypto-prices-mixed-as-second-half-2026-outlooks-conflict-151956982.html",
+      "published": "2026-07-20T15:19:56Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Google Stock: Alphabet Readies AI Chip With Built-In Gemini Brains",
-      "url": "https://www.investors.com/news/technology/google-stock-ai-chip-frozen-earnings-ironwood/?src=A00220&yptr=yahoo",
-      "published": "2026-07-20T14:03:46Z"
+      "title": "How to file a renters insurance claim — and what to do if a claim is denied",
+      "url": "https://finance.yahoo.com/personal-finance/insurance/article/how-to-file-a-renters-insurance-claim-165131785.html",
+      "published": "2026-07-20T16:51:31Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Will Lincoln Educational Services (LINC) Benefit from Reskilling Amid AI Adoption?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/lincoln-educational-services-linc-benefit-135818420.html",
-      "published": "2026-07-20T13:58:18Z"
+      "title": "Higher-For-Longer Oil Scenario Is Here To Stay",
+      "url": "https://finance.yahoo.com/energy/articles/higher-longer-oil-scenario-stay-000000279.html",
+      "published": "2026-07-21T00:00:00Z"
     },
     {
-      "source": "Yahoo Finance",
-      "title": "Analyst Report: General Electric Co",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_2999_AnalystReport_1784654558000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "published": "2026-07-21T17:22:38Z"
+      "source": "MarketWatch Top",
+      "title": "Goldman Sachs and Morgan Stanley had a monster quarter. Analysts say these giants could be next.",
+      "url": "https://www.marketwatch.com/story/goldman-sachs-and-morgan-stanley-had-a-monster-quarter-analysts-say-these-giants-could-be-next-47b42e15?mod=mw_rss_topstories",
+      "published": "Wed, 22 Jul 2026 09:44:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "I have children from my first marriage. Should my second husband inherit my house if I die?",
+      "url": "https://www.marketwatch.com/story/i-have-children-from-my-first-marriage-should-my-second-husband-inherit-my-house-if-i-die-d9bd8687?mod=mw_rss_topstories",
+      "published": "Wed, 22 Jul 2026 09:15:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Matt Damon’s carefully-curated property portfolio",
+      "url": "https://www.marketwatch.com/story/matt-damons-carefully-curated-property-portfolio-162d984b?mod=mw_rss_topstories",
+      "published": "Wed, 22 Jul 2026 09:02:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "There’s a mathematical formula to determining when Trump will TACO — and here’s when a pivot is expected",
+      "url": "https://www.marketwatch.com/story/theres-a-mathematical-formula-to-determining-when-trump-will-taco-and-heres-when-a-pivot-is-expected-3d49a664?mod=mw_rss_topstories",
+      "published": "Wed, 22 Jul 2026 08:10:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Here’s the surprising twist to the news OpenAI products went rogue and tried to steal an exam",
+      "url": "https://www.marketwatch.com/story/heres-the-surprising-twist-to-the-news-openai-products-went-rogue-and-tried-to-steal-an-exam-660e0128?mod=mw_rss_topstories",
+      "published": "Wed, 22 Jul 2026 07:55:00 GMT"
     },
     {
       "source": "MarketWatch Top",
       "title": "Super Micro’s stock soars as its margins unexpectedly double",
       "url": "https://www.marketwatch.com/story/super-micros-stock-soars-as-its-margins-unexpectedly-double-8aa83784?mod=mw_rss_topstories",
-      "published": "Tue, 21 Jul 2026 22:11:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "SpaceX’s stock snaps brutal losing streak ahead of key Starship rocket launch",
-      "url": "https://www.marketwatch.com/story/spacexs-stock-looks-to-snap-brutal-losing-streak-as-it-heads-for-one-of-its-best-days-yet-74220273?mod=mw_rss_topstories",
-      "published": "Tue, 21 Jul 2026 20:59:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "I will definitely claim Social Security early. Why do so few people talk about the elephant in the room?",
-      "url": "https://www.marketwatch.com/story/i-will-claim-social-security-early-why-do-so-few-people-talk-about-the-elephant-in-the-room-64820675?mod=mw_rss_topstories",
-      "published": "Tue, 21 Jul 2026 20:30:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Why energy stocks still look so cheap, even after their big rally this month",
-      "url": "https://www.marketwatch.com/story/why-energy-stocks-still-look-so-cheap-even-after-their-big-rally-this-month-7f1a298b?mod=mw_rss_topstories",
-      "published": "Tue, 21 Jul 2026 20:27:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Why Micron and other chip stocks are bouncing back so strongly",
-      "url": "https://www.marketwatch.com/story/why-micron-and-other-chip-stocks-are-bouncing-back-so-strongly-3f6d3cee?mod=mw_rss_topstories",
-      "published": "Tue, 21 Jul 2026 20:12:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Forget Nvidia. These 5 S&P 500 stocks are quietly going all in on AI.",
-      "url": "https://www.marketwatch.com/story/forget-nvidia-these-5-s-p-500-stocks-are-quietly-going-all-in-on-ai-68642f84?mod=mw_rss_topstories",
-      "published": "Tue, 21 Jul 2026 20:09:00 GMT"
+      "published": "Wed, 22 Jul 2026 00:33:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Dell stock jumps on rival Supermicro’s strong margin guidance",
-      "url": "https://www.investing.com/news/stock-market-news/dell-stock-jumps-on-rival-supermicros-strong-margin-guidance-93CH-4804378",
-      "published": "2026-07-21 22:07:45"
+      "title": "Euro and sterling hold firm ahead of ECB call as Bank Indonesia holds rates steady",
+      "url": "https://www.investing.com/news/forex-news/asia-fx-yen-slides-past-163-as-oil-risks-pressure-importers-won-holds-resilient-4804625",
+      "published": "2026-07-22 09:47:15"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 4 El Pollo Loco Holdings Inc For: 21 July",
-      "url": "https://www.investing.com/news/filings/form-4-el-pollo-loco-holdings-inc-for-21-july-93CH-4804377",
-      "published": "2026-07-21 22:04:55"
+      "title": "Earnings call transcript: Adtraction posts strong Q2 2026 growth as stock rises",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-adtraction-posts-strong-q2-2026-growth-as-stock-rises-93CH-4805059",
+      "published": "2026-07-22 09:42:51"
     },
     {
       "source": "Investing.com News",
-      "title": "Mercuria Asia invests in SuperX through convertible note deal",
-      "url": "https://www.investing.com/news/company-news/mercuria-asia-invests-in-superx-through-convertible-note-deal-93CH-4804376",
-      "published": "2026-07-21 22:04:29"
+      "title": "Jefferies shuffles Swiss food stocks: Danone downgraded, Nestle raised to Buy",
+      "url": "https://www.investing.com/news/stock-market-news/jefferies-shuffles-swiss-food-stocks-danone-downgraded-nestle-raised-to-buy-4805058",
+      "published": "2026-07-22 09:42:34"
     },
     {
       "source": "Investing.com News",
-      "title": "AAR Q4 FY26 slides: 26% sales growth, margins expand despite acquisitions",
-      "url": "https://www.investing.com/news/company-news/aar-q4-fy26-slides-26-sales-growth-margins-expand-despite-acquisitions-93CH-4804375",
-      "published": "2026-07-21 22:02:07"
+      "title": "Hiring demand shows signs of improvement, Randstad executives say",
+      "url": "https://www.investing.com/news/stock-market-news/hiring-demand-shows-signs-of-improvement-randstad-executives-say-4805057",
+      "published": "2026-07-22 09:42:29"
     },
     {
       "source": "Investing.com News",
-      "title": "El Pollo Loco Holdings director Sardar Biglari sells $183,810 in shares",
-      "url": "https://www.investing.com/news/insider-trading-news/el-pollo-loco-holdings-director-sardar-biglari-sells-183810-in-shares-93CH-4804374",
-      "published": "2026-07-21 22:01:34"
+      "title": "Earnings call transcript: Swedencare Q2 2026 stock sinks 15% on weak outlook",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-swedencare-q2-2026-stock-sinks-15-on-weak-outlook-93CH-4805056",
+      "published": "2026-07-22 09:40:58"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: East West Bancorp posts Q2 2026 beat, shares slip",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-east-west-bancorp-posts-q2-2026-beat-shares-slip-93CH-4804373",
-      "published": "2026-07-21 22:01:15"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "KKR Commercial Real Estate Lender Studies Potential Sale, Merger",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-21/kkr-commercial-real-estate-lender-studies-potential-sale-merger",
-      "published": "Tue, 21 Jul 2026 22:17:55 GMT"
+      "title": "VAT H1 2026 slides: record orders meet margin pressure in AI ramp",
+      "url": "https://www.investing.com/news/company-news/vat-h1-2026-slides-record-orders-meet-margin-pressure-in-ai-ramp-93CH-4805054",
+      "published": "2026-07-22 09:39:36"
     },
     {
       "source": "Bloomberg Markets",
@@ -407,27 +401,33 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Asian Stocks Set for Gains as Chipmakers Rebound: Markets Wrap",
+      "title": "Stocks Fall Ahead of Alphabet as Brent Hits $95: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-07-21/stock-market-today-dow-s-p-live-updates",
       "published": "Tue, 21 Jul 2026 22:07:30 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Hong Kong Home Prices Set for 19% Rebound Over Two Years: BI",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-21/hong-kong-home-prices-set-for-19-rebound-over-two-years-bi",
-      "published": "Tue, 21 Jul 2026 22:04:00 GMT"
+      "title": "Prologis Makes £14 Billion Best and Final Offer for UK’s Segro",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-22/prologis-makes-14-billion-best-and-final-offer-for-uk-s-segro",
+      "published": "Wed, 22 Jul 2026 09:27:02 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Moody’s Lifts Argentina Debt Rating in Fresh Boost to Milei",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-21/moody-s-lifts-argentina-credit-rating-in-fresh-in-boost-to-milei",
-      "published": "Tue, 21 Jul 2026 20:53:04 GMT"
+      "title": "Middle East Shipping Threats Rise as Owners Plot Best Course",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-22/key-oil-chokepoints-in-mideast-face-disruption-as-threats-mount",
+      "published": "Wed, 22 Jul 2026 06:50:05 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Banks Wrap Up Loan Backing SoftBank’s $5.4 Billion Robotics Bet",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-21/banks-wrap-up-loan-backing-softbank-s-5-4-billion-robotics-bet",
-      "published": "Tue, 21 Jul 2026 21:05:03 GMT"
+      "title": "TPG Eyes Sale to Japan Hotel REIT for $860 Million",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-22/tpg-said-to-eye-tokyo-sale-to-japan-hotel-reit-for-860-million",
+      "published": "Wed, 22 Jul 2026 07:31:40 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Kuwait Set to Issue Dollar Bonds as Iran Strikes Batter Country",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-22/kuwait-set-to-issue-dollar-bonds-as-iran-strikes-batter-country",
+      "published": "Wed, 22 Jul 2026 09:16:26 GMT"
     }
   ],
   "summary": {
