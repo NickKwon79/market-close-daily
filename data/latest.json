@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-07-24 07:30 KST",
+  "as_of_kst": "2026-07-24 18:56 KST",
   "as_of_date": "2026-07-24",
   "as_of_weekday": "FRI",
-  "build_unix": 1784845820,
+  "build_unix": 1784886960,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 6797.7,
-      "change": 49.75,
-      "change_pct": 0.74,
+      "price": 6690.62,
+      "change": -406.27,
+      "change_pct": -5.72,
       "spark": [
-        7284.41,
-        6820.6,
         6516.27,
         6747.95,
-        6797.7
+        6797.7,
+        7096.89,
+        6690.62
       ],
-      "as_of": "2026-07-22"
+      "as_of": "2026-07-24"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 66115.6,
-      "change": -116.59,
-      "change_pct": -0.18,
+      "price": 64611.15,
+      "change": -1811.45,
+      "change_pct": -2.73,
       "spark": [
-        68751.51,
-        66835.54,
         64141.12,
         66232.19,
-        66115.6
+        66115.6,
+        66422.6,
+        64611.15
       ],
-      "as_of": "2026-07-23"
+      "as_of": "2026-07-24"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 24892.66,
-      "change": -239.63,
-      "change_pct": -0.95,
+      "price": 24963.23,
+      "change": -247.58,
+      "change_pct": -0.98,
       "spark": [
-        25008.6,
-        24562.24,
         25143.05,
         25132.29,
-        24892.66
+        24892.66,
+        25210.81,
+        24963.23
       ],
-      "as_of": "2026-07-23"
+      "as_of": "2026-07-24"
     },
     "csi300": {
       "key": "csi300",
@@ -118,17 +118,17 @@
       "name": "CSI 300",
       "region": "CHINA",
       "kind": "broad",
-      "price": 4529.1,
-      "change": -169.34,
-      "change_pct": -3.6,
+      "price": 4649.19,
+      "change": 120.09,
+      "change_pct": 2.65,
       "spark": [
-        4695.38,
         4796.5,
         4786.78,
         4698.44,
-        4529.1
+        4529.1,
+        4649.19
       ],
-      "as_of": "2026-07-23"
+      "as_of": "2026-07-24"
     },
     "ftse": {
       "key": "ftse",
@@ -136,17 +136,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10639.17,
-      "change": -77.83,
-      "change_pct": -0.73,
+      "price": 10678.03,
+      "change": 38.83,
+      "change_pct": 0.36,
       "spark": [
-        10600.4,
         10524.8,
         10585.9,
         10717.0,
-        10639.17
+        10639.2,
+        10678.03
       ],
-      "as_of": "2026-07-23"
+      "as_of": "2026-07-24"
     },
     "dax": {
       "key": "dax",
@@ -154,50 +154,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 25155.41,
-      "change": 144.06,
-      "change_pct": 0.58,
+      "price": 25000.94,
+      "change": 237.82,
+      "change_pct": 0.96,
       "spark": [
-        24915.49,
-        24830.98,
         24846.69,
         25011.35,
-        25155.41
+        25155.41,
+        24763.12,
+        25000.94
       ],
-      "as_of": "2026-07-23"
+      "as_of": "2026-07-24"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1474.11,
+      "rate": 1462.48,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 163.85,
+      "rate": 163.7,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.138,
+      "rate": 1.1391,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7667,
+      "rate": 6.7718,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 101.44,
-      "change": 0.3,
-      "change_pct": 0.29,
+      "rate": 101.38,
+      "change": -0.05,
+      "change_pct": -0.05,
       "kind": "index"
     }
   },
@@ -207,27 +207,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 92.16,
-      "change": 5.33,
-      "change_pct": 6.14
+      "price": 89.06,
+      "change": -3.13,
+      "change_pct": -3.4
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4052.0,
-      "change": -94.9,
-      "change_pct": -2.29
+      "price": 4058.6,
+      "change": 12.0,
+      "change_pct": 0.3
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 65123.12,
-      "change": -977.68,
-      "change_pct": -1.48
+      "price": 65076.37,
+      "change": 31.56,
+      "change_pct": 0.05
     },
     "ust10y": {
       "key": "ust10y",
@@ -243,12 +243,18 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 18.7,
-      "change": 2.06,
-      "change_pct": 12.38
+      "price": 18.61,
+      "change": -0.09,
+      "change_pct": -0.48
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Friday's big stock stories: What’s likely to move the market in the next trading session",
+      "url": "https://www.cnbc.com/2026/07/23/fridays-big-stock-stories-whats-likely-to-move-the-market.html",
+      "published": "Thu, 23 Jul 2026 23:08:57 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Josh Brown says the stock market is ‘broadening out.' Here’s how to play it",
@@ -280,12 +286,6 @@
       "published": "Thu, 23 Jul 2026 15:23:03 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "Risk/reward is favorable to buy Kimberly-Clark at current prices, Jay Woods says",
-      "url": "https://www.cnbc.com/2026/07/23/risk/reward-is-favorable-to-buy-kimberly-clark-at-current-prices-jay-woods-says.html",
-      "published": "Thu, 23 Jul 2026 20:40:53 GMT"
-    },
-    {
       "source": "Yahoo Finance",
       "title": "The oil spike everyone feared never showed up",
       "url": "https://finance.yahoo.com/energy/articles/oil-spike-everyone-feared-never-020300378.html",
@@ -293,33 +293,63 @@
     },
     {
       "source": "Yahoo Finance",
-      "title": "Jim Cramer Defends His Dell Stance as Investors Complain About Missing Out",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-defends-dell-stance-145543736.html",
-      "published": "2026-07-22T14:55:43Z"
+      "title": "What is private mortgage insurance (PMI)? Definition, cost, and how to avoid it",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/what-is-pmi-private-mortgage-insurance-193818313.html",
+      "published": "2024-02-01T19:38:18Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Supermicro stock jumps on gross margin raise amid record $60 billion backlog",
-      "url": "https://finance.yahoo.com/markets/article/supermicro-stock-jumps-on-gross-margin-raise-amid-record-60-billion-backlog-223037795.html",
-      "published": "2026-07-21T22:30:37Z"
+      "title": "Mastercard (MA) Moat Looks Unbreakable — Except For One Growing Threat",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/mastercard-ma-moat-looks-unbreakable-215218647.html",
+      "published": "2026-07-22T21:52:18Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "FTAI Aviation Jumps On $1.5 Billion Deal For New Power Unit",
-      "url": "https://www.investors.com/news/ge-vernova-ftai-aviation-turbines-ai-energy-data-centers/?src=A00220&yptr=yahoo",
-      "published": "2026-07-22T14:52:01Z"
+      "title": "AMD, Cerebras Strike AI Chip Deals",
+      "url": "https://www.investors.com/news/technology/amd-stock-cerebras-rise-ai-chip-deals/?src=A00220&yptr=yahoo",
+      "published": "2026-07-22T21:57:44Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Investor’s Skepticism Weighed on MercadoLibre (MELI)",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/investor-skepticism-weighed-mercadolibre-meli-145244637.html",
-      "published": "2026-07-22T14:52:44Z"
+      "title": "Mortgage rate predictions through 2030: What to expect",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-rate-predictions-through-2030-what-to-expect-195826935.html",
+      "published": "2025-08-18T19:58:26Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Nike Continues a Troubled 2026 But Has Potential to Double According to Morningstar",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nike-continues-troubled-2026-potential-145322250.html",
-      "published": "2026-07-22T14:53:22Z"
+      "title": "Tesla Stock Drops as Musk Speaks",
+      "url": "https://www.barrons.com/livecoverage/tesla-stock-price-earnings-elon-musk-ai-evs/card/tesla-stock-drops-as-elon-musk-speaks-LSfRvT1RBIXuhhdHSomw?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-07-22T21:52:10Z"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Here’s what each additional month of Iran-conflict disruption means for oil prices",
+      "url": "https://www.marketwatch.com/story/heres-what-each-additional-month-of-iran-conflict-disruption-means-for-oil-prices-e980e9d9?mod=mw_rss_topstories",
+      "published": "Fri, 24 Jul 2026 09:49:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "I am a 63-year-old semiretired physician. If I saved $2 million for retirement, should my Social Security become optional?",
+      "url": "https://www.marketwatch.com/story/i-am-a-63-year-old-semiretired-physician-if-you-have-saved-2-million-for-retirement-should-social-security-be-optional-0de70d53?mod=mw_rss_topstories",
+      "published": "Fri, 24 Jul 2026 09:30:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Hollywood home of Martin Short’s late daughter is listed for $1.8 million",
+      "url": "https://www.marketwatch.com/story/hollywood-home-of-martin-shorts-late-daughter-is-listed-for-1-8-million-632e4a12?mod=mw_rss_topstories",
+      "published": "Fri, 24 Jul 2026 09:03:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Wise Group shares tank after U.S. bank charter rejected. What’s next for the fintech.",
+      "url": "https://www.marketwatch.com/story/wise-group-shares-tank-after-u-s-bank-charter-rejected-whats-next-for-the-fintech-91be430f?mod=mw_rss_topstories",
+      "published": "Fri, 24 Jul 2026 08:06:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Most FDA advisers say peptides like BPC-157 and TB-500 should be made available in the U.S. Here’s what happens next.",
+      "url": "https://www.marketwatch.com/story/peptides-could-soon-become-widely-available-in-the-u-s-heres-what-happens-next-ead02287?mod=mw_rss_topstories",
+      "published": "Thu, 23 Jul 2026 23:43:00 GMT"
     },
     {
       "source": "MarketWatch Top",
@@ -328,82 +358,46 @@
       "published": "Thu, 23 Jul 2026 22:12:00 GMT"
     },
     {
-      "source": "MarketWatch Top",
-      "title": "Most FDA advisers say peptides like BPC-157 and TB-500 should be made available in the U.S. Here’s what happens next.",
-      "url": "https://www.marketwatch.com/story/peptides-could-soon-become-widely-available-in-the-u-s-heres-what-happens-next-ead02287?mod=mw_rss_topstories",
-      "published": "Thu, 23 Jul 2026 22:08:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "S&P 500 flashes sell signals — options traders are bracing for wild swings in Apple, Meta and Microsoft",
-      "url": "https://www.marketwatch.com/story/s-p-500-flashes-sell-signals-options-traders-are-bracing-for-wild-swings-in-apple-meta-and-microsoft-83ff7d65?mod=mw_rss_topstories",
-      "published": "Thu, 23 Jul 2026 22:03:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Yes, the AI stock selloff looks terrifying. But it might actually save the bull market.",
-      "url": "https://www.marketwatch.com/story/yes-the-ai-stock-selloff-looks-terrifying-but-it-might-actually-save-the-bull-market-3bef59be?mod=mw_rss_topstories",
-      "published": "Thu, 23 Jul 2026 22:02:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "AMD’s rivalry with Nvidia is increasingly moving into a new realm",
-      "url": "https://www.marketwatch.com/story/amds-rivalry-with-nvidia-is-increasingly-moving-into-a-new-realm-ac63eceb?mod=mw_rss_topstories",
-      "published": "Thu, 23 Jul 2026 21:59:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "The stock market’s calm is cracking. Here’s how to prepare for an August shock.",
-      "url": "https://www.marketwatch.com/story/the-stock-markets-calm-surface-is-cracking-heres-how-to-prepare-for-an-august-shock-7d655813?mod=mw_rss_topstories",
-      "published": "Thu, 23 Jul 2026 21:53:00 GMT"
+      "source": "Investing.com News",
+      "title": "Indian government seeks time on minister resignation demand",
+      "url": "https://www.investing.com/news/world-news/india-youth-protest-leaders-to-hold-talks-with-government-but-protests-will-continue-4810452",
+      "published": "2026-07-24 09:54:25"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: Intel tops Q2 2026 estimates as shares rebound after hours",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-intel-tops-q2-2026-estimates-as-shares-rebound-after-hours-93CH-4810201",
-      "published": "2026-07-23 22:12:56"
+      "title": "Why is Intel stock surging today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-intel-stock-surging-today-93CH-4810897",
+      "published": "2026-07-24 09:52:46"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: Boston Beer Q2 2026 shares slip after mixed results",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-boston-beer-q2-2026-shares-slip-after-mixed-results-93CH-4810200",
-      "published": "2026-07-23 22:12:55"
+      "title": "Why is Tenet Healthcare stock surging today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-tenet-healthcare-stock-surging-today-93CH-4810896",
+      "published": "2026-07-24 09:52:33"
     },
     {
       "source": "Investing.com News",
-      "title": "US warns against excessive yen volatility, calls for BOJ rate hikes",
-      "url": "https://www.investing.com/news/economy-news/us-warns-against-excessive-yen-volatility-calls-for-boj-rate-hikes-4810192",
-      "published": "2026-07-23 22:12:27"
+      "title": "Earnings call transcript: Schweiter lifts margins in H1 2026 as stock rises",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-schweiter-lifts-margins-in-h1-2026-as-stock-rises-93CH-4810895",
+      "published": "2026-07-24 09:49:38"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: SAP Q2 2026 miss offsets strong cloud growth",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-sap-q2-2026-miss-offsets-strong-cloud-growth-93CH-4810199",
-      "published": "2026-07-23 22:12:22"
+      "title": "Form 4 Rhinebeck Bancorp Inc For: 24 July",
+      "url": "https://www.investing.com/news/filings/form-4-rhinebeck-bancorp-inc-for-24-july-93CH-4810894",
+      "published": "2026-07-24 09:49:26"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: Betterware de México posts huge Q2 2026 beat",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-betterware-de-mexico-posts-huge-q2-2026-beat-93CH-4810198",
-      "published": "2026-07-23 22:11:29"
-    },
-    {
-      "source": "Investing.com News",
-      "title": "Earnings call transcript: Associated Banc-Corp tops Q2 2026 estimates",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-associated-banccorp-tops-q2-2026-estimates-93CH-4810197",
-      "published": "2026-07-23 22:10:35"
+      "title": "Morgan Stanley sees Hong Kong market recovery in late July/early August",
+      "url": "https://www.investing.com/news/stock-market-news/morgan-stanley-sees-hong-kong-market-recovery-in-late-julyearly-august-93CH-4810893",
+      "published": "2026-07-24 09:48:19"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Trive-Backed Lyntris Files For US IPO, Joining Defense Rush",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-23/trive-backed-lyntris-files-for-us-ipo-joining-defense-rush",
-      "published": "Thu, 23 Jul 2026 22:17:25 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Asian Stocks Set to Fall as Oil Surges Past $100: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-23/stock-market-today-dow-s-p-live-updates",
-      "published": "Thu, 23 Jul 2026 22:06:16 GMT"
+      "title": "Goldman, BofA See 2024 Flashback in China Before Politburo Meets",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-23/china-revives-stimulus-memories-from-2024-as-decision-time-nears",
+      "published": "Thu, 23 Jul 2026 23:00:00 GMT"
     },
     {
       "source": "Bloomberg Markets",
@@ -413,21 +407,27 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Advent to Hire Morgan Stanley to Sell Its Tigre Stake",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-23/advent-is-said-to-hire-morgan-stanley-to-sell-its-tigre-stake",
-      "published": "Thu, 23 Jul 2026 21:38:05 GMT"
+      "title": "Tanker Exits Red Sea Dark as China Ship Heads Toward Strait",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-24/tanker-exits-red-sea-dark-as-another-china-ship-heads-to-strait",
+      "published": "Fri, 24 Jul 2026 06:01:34 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Overseas Buyers In Hot Pursuit of US Crude as Wars Escalate",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-23/overseas-buyers-in-hot-pursuit-of-us-crude-as-wars-escalate",
-      "published": "Thu, 23 Jul 2026 21:17:29 GMT"
+      "title": "Trump to Take Up Manila’s Concerns With Xi, Philippines Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-24/trump-to-take-up-manila-s-concerns-with-xi-philippines-says",
+      "published": "Fri, 24 Jul 2026 01:22:04 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Goldman Offers Way to Trade AI Junk Bonds $250 Million at a Time",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-23/goldman-offers-way-to-trade-ai-junk-bonds-250-million-at-a-time",
-      "published": "Thu, 23 Jul 2026 20:41:12 GMT"
+      "title": "Stocks Get Some Relief as Brent Slips Below $100: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-23/stock-market-today-dow-s-p-live-updates",
+      "published": "Thu, 23 Jul 2026 22:06:16 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Japan Is Whipsawing Wall Street’s CLO Machine, Study Shows",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-23/clo-price-swings-dictated-by-tokyo-wharton-led-study-shows",
+      "published": "Thu, 23 Jul 2026 22:59:07 GMT"
     }
   ],
   "summary": {
