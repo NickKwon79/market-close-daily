@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-07-27 07:29 KST",
+  "as_of_kst": "2026-07-27 19:54 KST",
   "as_of_date": "2026-07-27",
   "as_of_weekday": "MON",
-  "build_unix": 1785104945,
+  "build_unix": 1785149641,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 6690.62,
-      "change": -406.27,
-      "change_pct": -5.72,
+      "price": 6755.75,
+      "change": 65.13,
+      "change_pct": 0.97,
       "spark": [
-        6516.27,
         6747.95,
         6797.7,
         7096.89,
-        6690.62
+        6690.62,
+        6755.75
       ],
-      "as_of": "2026-07-24"
+      "as_of": "2026-07-27"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 64611.15,
-      "change": -1811.45,
-      "change_pct": -2.73,
+      "price": 64931.19,
+      "change": 320.04,
+      "change_pct": 0.5,
       "spark": [
-        64141.12,
         66232.19,
         66115.6,
         66422.6,
-        64611.15
+        64611.15,
+        64931.19
       ],
-      "as_of": "2026-07-24"
+      "as_of": "2026-07-27"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 24963.23,
-      "change": -247.58,
-      "change_pct": -0.98,
+      "price": 25207.18,
+      "change": 243.95,
+      "change_pct": 0.98,
       "spark": [
-        25143.05,
         25132.29,
         24892.66,
         25210.81,
-        24963.23
+        24963.23,
+        25207.18
       ],
-      "as_of": "2026-07-24"
+      "as_of": "2026-07-27"
     },
     "csi300": {
       "key": "csi300",
@@ -118,17 +118,17 @@
       "name": "CSI 300",
       "region": "CHINA",
       "kind": "broad",
-      "price": 4529.1,
-      "change": -169.34,
-      "change_pct": -3.6,
+      "price": 4702.43,
+      "change": 173.33,
+      "change_pct": 3.83,
       "spark": [
-        4695.38,
         4796.5,
         4786.78,
         4698.44,
-        4529.1
+        4529.1,
+        4702.43
       ],
-      "as_of": "2026-07-24"
+      "as_of": "2026-07-27"
     },
     "ftse": {
       "key": "ftse",
@@ -136,17 +136,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10736.2,
-      "change": 97.0,
-      "change_pct": 0.91,
+      "price": 10784.08,
+      "change": 47.88,
+      "change_pct": 0.45,
       "spark": [
-        10524.8,
         10585.9,
         10717.0,
         10639.2,
-        10736.2
+        10736.2,
+        10784.08
       ],
-      "as_of": "2026-07-24"
+      "as_of": "2026-07-27"
     },
     "dax": {
       "key": "dax",
@@ -154,50 +154,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 25099.0,
-      "change": 335.88,
-      "change_pct": 1.36,
+      "price": 25512.93,
+      "change": 413.93,
+      "change_pct": 1.65,
       "spark": [
-        24846.69,
         25011.35,
         25155.41,
         24763.12,
-        25099.0
+        25099.0,
+        25512.93
       ],
-      "as_of": "2026-07-24"
+      "as_of": "2026-07-27"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1459.42,
+      "rate": 1468.99,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 163.7,
+      "rate": 163.58,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1393,
+      "rate": 1.1401,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7617,
+      "rate": 6.7544,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 101.28,
-      "change": -0.19,
-      "change_pct": -0.18,
+      "rate": 101.26,
+      "change": -0.21,
+      "change_pct": -0.21,
       "kind": "index"
     }
   },
@@ -207,45 +207,45 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 84.02,
-      "change": -5.29,
-      "change_pct": -5.92
+      "price": 83.02,
+      "change": -6.29,
+      "change_pct": -7.04
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4090.2,
-      "change": 22.6,
-      "change_pct": 0.56
+      "price": 4102.7,
+      "change": 35.1,
+      "change_pct": 0.86
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 65173.99,
-      "change": 862.18,
-      "change_pct": 1.34
+      "price": 65299.46,
+      "change": -40.84,
+      "change_pct": -0.06
     },
     "ust10y": {
       "key": "ust10y",
       "symbol": "^TNX",
       "name": "10Y UST Yield",
       "unit": "%",
-      "price": 4.68,
-      "change": -0.02,
-      "change_pct": -0.51
+      "price": 4.7,
+      "change": 0.05,
+      "change_pct": 0.99
     },
     "vix": {
       "key": "vix",
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 18.58,
-      "change": -0.12,
-      "change_pct": -0.64
+      "price": 17.6,
+      "change": -0.98,
+      "change_pct": -5.27
     }
   },
   "headlines_raw": [
@@ -293,141 +293,141 @@
     },
     {
       "source": "Yahoo Finance",
-      "title": "Dow Jones Futures Rise, Oil Prices Dive Amid Iran News; Apple Leads Earnings Wave, Fed Meeting Ahead",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-apple-earnings-iran-news-fed-meeting-ai-stocks/?src=A00220&yptr=yahoo",
-      "published": "2026-07-26T22:03:52Z"
+      "title": "China chip champ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/china-chip-champ-104015853.html",
+      "published": "2026-07-27T10:40:15Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "U.S. Jet Fuel Costs Soar as Iran War Hits Airlines Again",
-      "url": "https://finance.yahoo.com/energy/articles/u-jet-fuel-costs-soar-210000933.html",
-      "published": "2026-07-26T21:00:00Z"
+      "title": "Shein will struggle to justify $40-50 billion Hong Kong IPO valuation",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/shein-struggle-justify-40-50-103706246.html",
+      "published": "2026-07-27T10:37:06Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Argentina’s Oil Production Soars as Vaca Muerta Breaks New Records",
-      "url": "https://finance.yahoo.com/energy/articles/argentina-oil-production-soars-vaca-190000618.html",
-      "published": "2026-07-26T19:00:00Z"
+      "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise as oil tumbles, investors brace for busy week",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-july-27-dow-sp-500-nasdaq-080412540.html",
+      "published": "2026-07-27T08:04:12Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Arizona State launches degree on becoming an influencer — exactly the career more than half of Gen Z adults dream of",
-      "url": "https://finance.yahoo.com/small-business/articles/arizona-state-launches-degree-becoming-180000860.html",
-      "published": "2026-07-26T18:00:00Z"
+      "title": "A paid-off inherited home can still cost thousands per month — attorneys explain how to protect yourself",
+      "url": "https://finance.yahoo.com/real-estate/articles/paid-off-inherited-home-still-103000569.html",
+      "published": "2026-07-27T10:30:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "PINK vs. XLV: How Do These Two Health Care ETFs Match Up?",
-      "url": "https://finance.yahoo.com/healthcare/articles/pink-vs-xlv-two-health-220001342.html",
-      "published": "2026-07-26T22:00:01Z"
+      "title": "VW H1 operating profit falls 11.6% on US ID.4 exit, China slump",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/vw-h1-operating-profit-falls-104128960.html",
+      "published": "2026-07-27T10:41:28Z"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Oil prices sink, stock futures rally as U.S. and Iran pause attacks, Wall Street awaits busy week",
-      "url": "https://www.marketwatch.com/story/oil-prices-sink-stock-futures-rally-as-u-s-and-iran-pause-attacks-wall-street-awaits-busy-week-75030e00?mod=mw_rss_topstories",
-      "published": "Sun, 26 Jul 2026 22:16:00 GMT"
+      "title": "‘It’s a high price to pay’: My adviser says I don’t need a withdrawal plan for my $2.3 million portfolio. Is he right?",
+      "url": "https://www.marketwatch.com/story/its-a-high-price-to-pay-my-adviser-says-i-dont-need-a-withdrawal-plan-for-my-2-3-million-portfolio-is-he-right-06cb1eb2?mod=mw_rss_topstories",
+      "published": "Mon, 27 Jul 2026 10:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "I will definitely claim Social Security early. Why do so few people talk about the elephant in the room?",
-      "url": "https://www.marketwatch.com/story/i-will-claim-social-security-early-why-do-so-few-people-talk-about-the-elephant-in-the-room-64820675?mod=mw_rss_topstories",
-      "published": "Sun, 26 Jul 2026 20:00:00 GMT"
+      "title": "Oil prices see largest one-day declines in two months amid pause in strikes",
+      "url": "https://www.marketwatch.com/story/oil-prices-see-largest-one-day-declines-in-two-months-amid-pause-in-strikes-d819160a?mod=mw_rss_topstories",
+      "published": "Mon, 27 Jul 2026 10:06:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘It’s nothing personal’: Should I tell my 96-year-old stepmother that I don’t want her inheritance?",
-      "url": "https://www.marketwatch.com/story/it-would-feel-like-a-burden-my-stepmother-96-owns-the-house-i-grew-up-in-is-it-wrong-to-tell-her-i-dont-want-to-inherit-it-9d5810c2?mod=mw_rss_topstories",
-      "published": "Sun, 26 Jul 2026 19:30:00 GMT"
+      "title": "Fivefold increase for Chinese chip maker CXMT in Shanghai debut",
+      "url": "https://www.marketwatch.com/story/fivefold-increase-for-chinese-chip-maker-cxmt-in-shanghai-debut-2861827e?mod=mw_rss_topstories",
+      "published": "Mon, 27 Jul 2026 09:51:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "There’s a technical ‘triple threat’ for stocks, but also places investors can hide",
-      "url": "https://www.marketwatch.com/story/theres-a-technical-triple-threat-for-stocks-but-also-places-investors-can-hide-59108c6b?mod=mw_rss_topstories",
-      "published": "Sun, 26 Jul 2026 19:15:00 GMT"
+      "title": "‘I feel lucky’: I’m 71 and inherited $20,000. What should I do with this money?",
+      "url": "https://www.marketwatch.com/story/i-feel-lucky-im-71-and-inherited-20-000-what-should-i-do-with-this-money-1ab90925?mod=mw_rss_topstories",
+      "published": "Mon, 27 Jul 2026 09:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘Time will tell whether that was a good bet’: My adviser got me a full SpaceX IPO allocation. Was I lucky?",
-      "url": "https://www.marketwatch.com/story/time-will-tell-whether-that-was-a-good-bet-my-adviser-got-me-a-full-spacex-ipo-allocation-was-i-lucky-7f319645?mod=mw_rss_topstories",
-      "published": "Sun, 26 Jul 2026 19:01:00 GMT"
+      "title": "A look at Cher’s $85 million Malibu home, after she spent $1 million in legal fees in lawsuit",
+      "url": "https://www.marketwatch.com/story/a-look-at-chers-85-million-malibu-home-after-she-spent-1-million-in-legal-fees-in-lawsuit-6b42822c?mod=mw_rss_topstories",
+      "published": "Mon, 27 Jul 2026 09:03:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "I am a 63-year-old semiretired physician. If I saved $2 million for retirement, should my Social Security become optional?",
-      "url": "https://www.marketwatch.com/story/i-am-a-63-year-old-semiretired-physician-if-you-have-saved-2-million-for-retirement-should-social-security-be-optional-0de70d53?mod=mw_rss_topstories",
-      "published": "Sun, 26 Jul 2026 18:30:00 GMT"
+      "title": "‘Ransom Canyon’ star Josh Duhamel: The self-described ‘doomsday prepper’ quickly sells $3.4 million L.A. home",
+      "url": "https://www.marketwatch.com/story/ransom-canyon-starjosh-duhamel-the-self-described-doomsday-prepper-quickly-sells-3-4-million-l-a-home-49acb826?mod=mw_rss_topstories",
+      "published": "Mon, 27 Jul 2026 09:02:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Iran says it will halt strikes as long as US bombing pause holds",
-      "url": "https://www.investing.com/news/commodities-news/iran-will-halt-attacks-as-long-as-us-maintains-pause-iranian-source-says-after-trump-calls-off-strikes-4812898",
-      "published": "2026-07-26 21:54:30"
+      "title": "China calls on US to stop AI sanctions",
+      "url": "https://www.investing.com/news/economy-news/china-calls-on-us-to-stop-ai-sanctions-93CH-4813481",
+      "published": "2026-07-27 10:52:25"
     },
     {
       "source": "Investing.com News",
-      "title": "Russia stocks lower at close of trade; MOEX Russia Index unchanged",
-      "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-unchanged-4812915",
-      "published": "2026-07-26 21:25:03"
+      "title": "Bank of Hawaii beats second quarter earnings expectations",
+      "url": "https://www.investing.com/news/earnings/bank-of-hawaii-beats-second-quarter-earnings-expectations-93CH-4813480",
+      "published": "2026-07-27 10:52:20"
     },
     {
       "source": "Investing.com News",
-      "title": "Are Midterm Elections a headwind for stocks?",
-      "url": "https://www.investing.com/news/stock-market-news/are-midterm-elections-a-headwind-for-stocks-4812914",
-      "published": "2026-07-26 21:24:17"
+      "title": "Why is Żabka stock collapsing today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-zabka-stock-collapsing-today-93CH-4813479",
+      "published": "2026-07-27 10:52:17"
     },
     {
       "source": "Investing.com News",
-      "title": "Why this analyst says Reconciliation 3.0 is still a long shot even as it shrinks",
-      "url": "https://www.investing.com/news/stock-market-news/why-this-analyst-says-reconciliation-30-is-still-a-long-shot-even-as-it-shrinks-4812913",
-      "published": "2026-07-26 20:16:08"
+      "title": "The Ensign earnings beat by $0.08, revenue topped estimates",
+      "url": "https://www.investing.com/news/earnings/the-ensign-earnings-beat-by-008-revenue-topped-estimates-4813478",
+      "published": "2026-07-27 10:52:06"
     },
     {
       "source": "Investing.com News",
-      "title": "Baker Hughes declares $0.23 quarterly dividend",
-      "url": "https://www.investing.com/news/company-news/baker-hughes-declares-023-quarterly-dividend-93CH-4812912",
-      "published": "2026-07-26 20:08:34"
+      "title": "Hochtief pares decline after raising 2026 profit guidance",
+      "url": "https://www.investing.com/news/stock-market-news/hochtief-pares-decline-after-raising-2026-profit-guidance-93CH-4813472",
+      "published": "2026-07-27 10:51:04"
     },
     {
       "source": "Investing.com News",
-      "title": "Suspect in Berlin Pride attack shot dead by police",
-      "url": "https://www.investing.com/news/world-news/police-hunting-for-berlin-pride-attacker-name-islamist-suspect-4812844",
-      "published": "2026-07-26 19:54:25"
+      "title": "Bernstein SocGen cuts Charter Communications stock price target on broadband woes",
+      "url": "https://www.investing.com/news/analyst-ratings/bernstein-socgen-cuts-charter-communications-stock-price-target-on-broadband-woes-93CH-4813471",
+      "published": "2026-07-27 10:50:58"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Latest Oil Market News and Analysis for July 27",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-26/latest-oil-market-news-and-analysis-for-july-27",
-      "published": "Sun, 26 Jul 2026 22:02:41 GMT"
+      "title": "AT&T Cuts Through Europe’s Summer Lull With Five-Part Bond Deal",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-27/at-t-kick-starts-sale-of-five-part-euro-sterling-bond-offering",
+      "published": "Mon, 27 Jul 2026 07:51:23 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Kiwi Will Outpace Euro on Widening Rate Gap, Strategists Say",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-26/kiwi-will-outpace-euro-on-widening-rate-gap-strategists-say",
-      "published": "Sun, 26 Jul 2026 21:00:39 GMT"
+      "title": "Whipsawing Oil Prices Muddy Traders’ Outlook on Fed Meeting",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-07-27/whipsawing-oil-prices-muddy-traders-outlook-on-fed-meeting",
+      "published": "Mon, 27 Jul 2026 10:43:31 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Kioxia Faces More Volatility as Leveraged ETFs Hit Japan Stocks",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-26/kioxia-faces-more-volatility-as-leveraged-etfs-hit-japan-stocks",
-      "published": "Sun, 26 Jul 2026 21:00:00 GMT"
+      "title": "Gold Climbs as Pause in Mideast Fighting Curbs Inflation Risk",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-26/gold-climbs-after-pause-in-mideast-fighting-cuts-inflation-fears",
+      "published": "Sun, 26 Jul 2026 22:46:32 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Bond Traders on Edge as Risks of Fed Rate Hike This Week Mount",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-26/bond-traders-on-edge-as-risks-of-fed-rate-hike-this-week-mount",
-      "published": "Sun, 26 Jul 2026 19:00:00 GMT"
+      "title": "Russia’s Novorossiysk Resumed Crude Loadings After Days of Halt",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-27/russia-s-novorossiysk-resumed-crude-loadings-after-days-of-halt",
+      "published": "Mon, 27 Jul 2026 10:32:36 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Traders Are Getting a New Tool to Wager on the Biggest US Stocks",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-26/traders-are-getting-a-new-tool-to-wager-on-the-biggest-us-stocks",
-      "published": "Sun, 26 Jul 2026 14:00:00 GMT"
+      "title": "Laopu Gold Sees Earnings Growth Slowing as Bullion Retreats",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-27/laopu-gold-sees-first-half-profit-slowing-amid-dropping-prices",
+      "published": "Mon, 27 Jul 2026 08:55:03 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Modi Punctured as Awakened India Students Force Retreat",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-26/modi-punctured-as-awakened-india-students-force-swift-retreat",
-      "published": "Sun, 26 Jul 2026 02:30:00 GMT"
+      "title": "German Lender NordLB to Expand Into Fund Finance and CLOs",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-27/german-lender-nordlb-to-expand-into-fund-finance-and-clos",
+      "published": "Mon, 27 Jul 2026 10:20:01 GMT"
     }
   ],
   "summary": {
