@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-07-28 07:33 KST",
+  "as_of_kst": "2026-07-28 19:08 KST",
   "as_of_date": "2026-07-28",
   "as_of_weekday": "TUE",
-  "build_unix": 1785191602,
+  "build_unix": 1785233281,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -11,13 +11,13 @@
       "region": "USA",
       "kind": "broad",
       "price": 7413.18,
-      "change": 4.88,
-      "change_pct": 0.07,
+      "change": 1.2,
+      "change_pct": 0.02,
       "spark": [
-        7443.28,
         7509.2,
         7498.96,
         7408.3,
+        7411.98,
         7413.18
       ],
       "as_of": "2026-07-27"
@@ -29,13 +29,13 @@
       "region": "USA",
       "kind": "tech",
       "price": 24932.08,
-      "change": -205.61,
-      "change_pct": -0.82,
+      "change": -43.74,
+      "change_pct": -0.18,
       "spark": [
-        25508.07,
         25837.21,
         25690.9,
         25137.69,
+        24975.82,
         24932.08
       ],
       "as_of": "2026-07-27"
@@ -47,13 +47,13 @@
       "region": "USA",
       "kind": "value",
       "price": 52210.08,
-      "change": 498.43,
-      "change_pct": 0.96,
+      "change": 262.83,
+      "change_pct": 0.51,
       "spark": [
-        51839.26,
         52224.64,
         52218.58,
         51711.65,
+        51947.25,
         52210.08
       ],
       "as_of": "2026-07-27"
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 7096.89,
-      "change": 299.19,
-      "change_pct": 4.4,
+      "price": 6023.66,
+      "change": -732.09,
+      "change_pct": -10.84,
       "spark": [
-        6820.6,
-        6516.27,
-        6747.95,
         6797.7,
-        7096.89
+        7096.89,
+        6690.62,
+        6755.75,
+        6023.66
       ],
-      "as_of": "2026-07-23"
+      "as_of": "2026-07-28"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 66422.6,
-      "change": 307.0,
-      "change_pct": 0.46,
+      "price": 62364.92,
+      "change": -2566.27,
+      "change_pct": -3.95,
       "spark": [
-        66835.54,
-        64141.12,
-        66232.19,
         66115.6,
-        66422.6
+        66422.6,
+        64611.15,
+        64931.19,
+        62364.92
       ],
-      "as_of": "2026-07-27"
+      "as_of": "2026-07-28"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 25210.81,
-      "change": 318.15,
-      "change_pct": 1.28,
+      "price": 25310.85,
+      "change": 103.67,
+      "change_pct": 0.41,
       "spark": [
-        24562.24,
-        25143.05,
-        25132.29,
         24892.66,
-        25210.81
+        25210.81,
+        24963.23,
+        25207.18,
+        25310.85
       ],
-      "as_of": "2026-07-27"
+      "as_of": "2026-07-28"
     },
     "csi300": {
       "key": "csi300",
@@ -118,16 +118,16 @@
       "name": "CSI 300",
       "region": "CHINA",
       "kind": "broad",
-      "price": 4529.1,
-      "change": -169.34,
-      "change_pct": -3.6,
+      "price": 4569.52,
+      "change": 40.42,
+      "change_pct": 0.89,
       "spark": [
-        4796.5,
         4786.78,
         4698.44,
-        4529.1
+        4529.1,
+        4569.52
       ],
-      "as_of": "2026-07-27"
+      "as_of": "2026-07-28"
     },
     "ftse": {
       "key": "ftse",
@@ -135,17 +135,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10781.75,
-      "change": 142.55,
-      "change_pct": 1.34,
+      "price": 10846.13,
+      "change": 64.33,
+      "change_pct": 0.6,
       "spark": [
-        10524.8,
         10585.9,
         10717.0,
         10639.2,
-        10781.75
+        10781.8,
+        10846.13
       ],
-      "as_of": "2026-07-27"
+      "as_of": "2026-07-28"
     },
     "dax": {
       "key": "dax",
@@ -153,50 +153,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 24763.12,
-      "change": -392.29,
-      "change_pct": -1.56,
+      "price": 25526.41,
+      "change": 165.38,
+      "change_pct": 0.65,
       "spark": [
-        24830.98,
-        24846.69,
-        25011.35,
         25155.41,
-        24763.12
+        24763.12,
+        25099.0,
+        25361.03,
+        25526.41
       ],
-      "as_of": "2026-07-27"
+      "as_of": "2026-07-28"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1464.9,
+      "rate": 1460.72,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 163.61,
+      "rate": 163.88,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1373,
+      "rate": 1.1358,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7544,
+      "rate": 6.7698,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 101.51,
-      "change": 0.08,
-      "change_pct": 0.08,
+      "rate": 101.61,
+      "change": 0.14,
+      "change_pct": 0.14,
       "kind": "index"
     }
   },
@@ -206,27 +206,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 81.97,
-      "change": -7.34,
-      "change_pct": -8.22
+      "price": 80.53,
+      "change": -2.08,
+      "change_pct": -2.52
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4075.4,
-      "change": 7.8,
-      "change_pct": 0.19
+      "price": 4020.0,
+      "change": -54.5,
+      "change_pct": -1.34
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 64533.7,
-      "change": -806.6,
-      "change_pct": -1.23
+      "price": 63268.01,
+      "change": -456.89,
+      "change_pct": -0.72
     },
     "ust10y": {
       "key": "ust10y",
@@ -234,17 +234,17 @@
       "name": "10Y UST Yield",
       "unit": "%",
       "price": 4.64,
-      "change": -0.06,
-      "change_pct": -1.32
+      "change": -0.04,
+      "change_pct": -0.81
     },
     "vix": {
       "key": "vix",
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 18.67,
-      "change": -0.03,
-      "change_pct": -0.16
+      "price": 18.86,
+      "change": 0.19,
+      "change_pct": 1.02
     }
   },
   "headlines_raw": [
@@ -292,33 +292,51 @@
     },
     {
       "source": "Yahoo Finance",
-      "title": "After 80 stores close, 63-year-old chain gives Chapter 11 warning",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/80-stores-close-63-old-150700367.html",
-      "published": "2026-07-26T15:07:00Z"
+      "title": "Stock market today: S&P 500, Nasdaq futures slide as chip sell-off deepens",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-july-28-dow-sp-500-nasdaq-082832371.html",
+      "published": "2026-07-28T08:28:32Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "ICE uses a $125 million Thomson Reuters deal to access your credit card data without a warrant",
-      "url": "https://finance.yahoo.com/economy/policy/articles/ice-uses-125-million-thomson-140000150.html",
-      "published": "2026-07-26T14:00:00Z"
+      "title": "Mortgage and refinance interest rates today, Tuesday, July 28, 2026: Rates lower as fighting in Iran on pause",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-tuesday-july-28-2026-rates-lower-as-fighting-in-iran-on-pause-100000181.html",
+      "published": "2026-07-28T10:00:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Mobileye Stock Is Down Despite Strong Results as Its Founder Steps Down. View the CEO Switch as a Reset, Not a Red Flag.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/mobileye-stock-down-despite-strong-140002566.html",
-      "published": "2026-07-26T14:00:02Z"
+      "title": "HELOC and home equity loan rates today, Tuesday, July 28, 2026: Besides rates, how to choose between a HELOC or HEL",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-tuesday-july-28-2026-besides-rates-how-to-choose-between-a-heloc-or-hel-100000292.html",
+      "published": "2026-07-27T10:00:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Shein flags tariff hits after posting quarterly loss ahead of Hong Kong IPO",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/shein-reveals-key-financials-ahead-134128865.html",
-      "published": "2026-07-26T13:41:28Z"
+      "title": "The bond market's danger zone is becoming the new normal: Chart of the Day",
+      "url": "https://finance.yahoo.com/markets/article/the-bond-markets-danger-zone-is-becoming-the-new-normal-chart-of-the-day-100000676.html",
+      "published": "2026-07-28T10:00:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Intel Corp Shows Strong Q2 Results and Free Cash Flow - Shorting INTC Puts is Still the Best Play",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/intel-corp-shows-strong-q2-133002161.html",
-      "published": "2026-07-26T13:30:02Z"
+      "title": "Best CD rates today, Tuesday, July 28, 2026: Lock in up to 4.15% APY today",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-tuesday-july-28-2026-lock-in-up-to-415-apy-today-100000665.html",
+      "published": "2026-07-28T10:00:00Z"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "‘I’m in my peak earning years’: I’m working beyond 70. Will that help increase my Social Security?",
+      "url": "https://www.marketwatch.com/story/im-in-my-peak-earning-years-im-working-beyond-70-will-that-help-increase-my-social-security-b0fd84da?mod=mw_rss_topstories",
+      "published": "Tue, 28 Jul 2026 09:15:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Actor Orlando Bloom tries again to sell Malibu beach house — now for $10 million",
+      "url": "https://www.marketwatch.com/story/actor-orlando-bloom-tries-again-to-sell-malibu-beach-house-now-for-10-million-3e9cf1c4?mod=mw_rss_topstories",
+      "published": "Tue, 28 Jul 2026 09:01:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Nvidia’s potential new deal with OpenAI would revive a spooky tech-bubble habit, analyst warns",
+      "url": "https://www.marketwatch.com/story/nvidias-potential-new-deal-with-openai-would-revive-a-spooky-tech-bubble-habit-analyst-warns-ae34ed64?mod=mw_rss_topstories",
+      "published": "Tue, 28 Jul 2026 01:19:00 GMT"
     },
     {
       "source": "MarketWatch Top",
@@ -339,94 +357,76 @@
       "published": "Mon, 27 Jul 2026 21:46:00 GMT"
     },
     {
-      "source": "MarketWatch Top",
-      "title": "Nvidia’s potential new deal with OpenAI would revive a spooky tech-bubble habit, analyst warns",
-      "url": "https://www.marketwatch.com/story/nvidias-potential-new-deal-with-openai-would-revive-a-spooky-tech-bubble-habit-analyst-warns-ae34ed64?mod=mw_rss_topstories",
-      "published": "Mon, 27 Jul 2026 21:46:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Stop snacking. Restricting eating for only 8 or 9 hours a day may keep your mind sharp.",
-      "url": "https://www.marketwatch.com/story/stop-snacking-restricting-eating-for-only-8-or-9-hours-a-day-may-keep-your-mind-sharp-1dc7e495?mod=mw_rss_topstories",
-      "published": "Mon, 27 Jul 2026 21:37:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "More cracks emerge in AI-related bonds as Meta, Microsoft earnings loom",
-      "url": "https://www.marketwatch.com/story/more-cracks-emerge-in-ai-related-bonds-as-meta-microsoft-earnings-loom-04275db2?mod=mw_rss_topstories",
-      "published": "Mon, 27 Jul 2026 21:35:00 GMT"
+      "source": "Investing.com News",
+      "title": "Wolfe sees solid earnings season despite tech stock concerns",
+      "url": "https://www.investing.com/news/stock-market-news/wolfe-sees-solid-earnings-season-despite-tech-stock-concerns-93CH-4815909",
+      "published": "2026-07-28 09:51:03"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: Sanmina tops Q3 2026 estimates, shares slip after hours",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-sanmina-tops-q3-2026-estimates-shares-slip-after-hours-93CH-4815205",
-      "published": "2026-07-27 22:06:36"
+      "title": "Trump to host Netanyahu amid diplomatic efforts to restart U.S.-Iran talks",
+      "url": "https://www.investing.com/news/economy-news/trump-to-host-netanyahu-amid-diplomatic-efforts-to-restart-usiran-talks-4815908",
+      "published": "2026-07-28 09:51:02"
     },
     {
       "source": "Investing.com News",
-      "title": "Porsche to axe one in five jobs by 2035 as China, EV woes bite",
-      "url": "https://www.investing.com/news/stock-market-news/porsche-to-cut-another-5000-jobs-4814148",
-      "published": "2026-07-27 22:06:31"
+      "title": "Jefferies downgrades Clorox stock rating on soft trends, CEO change",
+      "url": "https://www.investing.com/news/analyst-ratings/jefferies-downgrades-clorox-stock-rating-on-soft-trends-ceo-change-93CH-4815907",
+      "published": "2026-07-28 09:50:59"
     },
     {
       "source": "Investing.com News",
-      "title": "F5 Q3 FY26 slides: systems revenue surges 32%, outlook raised",
-      "url": "https://www.investing.com/news/company-news/f5-q3-fy26-slides-systems-revenue-surges-32-outlook-raised-93CH-4815204",
-      "published": "2026-07-27 22:06:15"
+      "title": "Meta, BlackRock partner on $14 billion El Paso data center",
+      "url": "https://www.investing.com/news/stock-market-news/meta-blackrock-partner-on-14-billion-el-paso-data-center-4815906",
+      "published": "2026-07-28 09:49:35"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: Rambus tops Q2 EPS forecast, stock rises after hours",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-rambus-tops-q2-eps-forecast-stock-rises-after-hours-93CH-4815203",
-      "published": "2026-07-27 22:04:31"
+      "title": "France braces for fourth major heatwave as crews tackle Bordeaux blaze",
+      "url": "https://www.investing.com/news/world-news/france-braces-for-fourth-major-heatwave-as-crews-tackle-bordeaux-blaze-4815584",
+      "published": "2026-07-28 09:49:12"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 4 BOK Financial Corporation For: 27 July",
-      "url": "https://www.investing.com/news/filings/form-4-bok-financial-corporation-for-27-july-93CH-4815202",
-      "published": "2026-07-27 22:04:05"
-    },
-    {
-      "source": "Investing.com News",
-      "title": "Form 4 First Financial Bankshares Inc For: 27 July",
-      "url": "https://www.investing.com/news/filings/form-4-first-financial-bankshares-inc-for-27-july-93CH-4815201",
-      "published": "2026-07-27 22:03:57"
+      "title": "Earnings call transcript: Quartix H1 2026 profit rises as EPS falls on tax charge",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-quartix-h1-2026-profit-rises-as-eps-falls-on-tax-charge-93CH-4815905",
+      "published": "2026-07-28 09:49:07"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "BlackRock Dodges AI Bond-Trading Flop After Offering Junk Yields",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-27/blackrock-dodges-ai-bond-flop-as-12-3-billion-debt-deal-rallies",
-      "published": "Mon, 27 Jul 2026 20:56:01 GMT"
+      "title": "AI Greed Turns Into Fear as Tech Stocks Keep Sinking",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-07-28/ai-greed-turns-into-fear-as-tech-stocks-keep-sinking",
+      "published": "Tue, 28 Jul 2026 10:02:43 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Oil Extends Decline, Asian Stocks Set for Losses: Markets Wrap",
+      "title": "Paschi, BPM Advisers Working on Merger to Foil Intesa’s Bid",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-27/paschi-banco-bpm-advisers-working-on-deal-with-cash-component",
+      "published": "Mon, 27 Jul 2026 16:30:16 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Elevate Campuses Said to Launch $267 Million India IPO in August",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-28/elevate-campuses-said-to-launch-267-million-india-ipo-in-august",
+      "published": "Tue, 28 Jul 2026 09:47:08 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Gold Declines as Traders Weigh Prospects for Interest-Rate Hike",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-27/gold-holds-gain-as-trump-sounds-optimism-over-us-iran-talks",
+      "published": "Mon, 27 Jul 2026 23:21:45 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Singapore’s MAS Flags AI Pullback as Threat to Global Markets",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-28/singapore-s-mas-flags-ai-pullback-as-threat-to-global-markets",
+      "published": "Tue, 28 Jul 2026 09:30:00 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Stocks Waver as Rotation From Chips Gathers Pace: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-07-27/stock-market-today-dow-s-p-live-updates",
       "published": "Mon, 27 Jul 2026 22:08:16 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Latest Oil Market News and Analysis for July 28",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-27/latest-oil-market-news-and-analysis-for-july-28",
-      "published": "Mon, 27 Jul 2026 22:02:24 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "BlackRock Raises $12.5 Billion of Debt for Meta Data Center",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-27/blackrock-raises-12-5-billion-of-debt-for-meta-data-center",
-      "published": "Mon, 27 Jul 2026 21:47:14 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Curium Is Said to Near About $7 Billion Acquisition of Lantheus",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-27/curium-is-said-to-near-about-7-billion-acquisition-of-lantheus",
-      "published": "Mon, 27 Jul 2026 21:22:16 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "CME’s Debut of 24/7 Gold Futures Trading Met With Strong Demand",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-27/cme-s-debut-of-24-7-gold-futures-trading-met-with-strong-demand",
-      "published": "Mon, 27 Jul 2026 21:18:31 GMT"
     }
   ],
   "summary": {
