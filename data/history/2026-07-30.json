@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-07-30 07:28 KST",
+  "as_of_kst": "2026-07-30 18:59 KST",
   "as_of_date": "2026-07-30",
   "as_of_weekday": "THU",
-  "build_unix": 1785364085,
+  "build_unix": 1785405551,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 6023.66,
-      "change": -732.09,
-      "change_pct": -10.84,
+      "price": 5593.56,
+      "change": -69.68,
+      "change_pct": -1.23,
       "spark": [
-        6797.7,
-        7096.89,
         6690.62,
         6755.75,
-        6023.66
+        6023.66,
+        5663.24,
+        5593.56
       ],
-      "as_of": "2026-07-28"
+      "as_of": "2026-07-30"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 62364.92,
-      "change": -2566.27,
-      "change_pct": -3.95,
+      "price": 61867.43,
+      "change": 433.24,
+      "change_pct": 0.71,
       "spark": [
-        66115.6,
-        66422.6,
         64611.15,
         64931.19,
-        62364.92
+        62364.92,
+        61434.19,
+        61867.43
       ],
-      "as_of": "2026-07-29"
+      "as_of": "2026-07-30"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 25310.85,
-      "change": 103.67,
-      "change_pct": 0.41,
+      "price": 25858.88,
+      "change": 50.96,
+      "change_pct": 0.2,
       "spark": [
-        24892.66,
-        25210.81,
         24963.23,
         25207.18,
-        25310.85
+        25310.85,
+        25807.92,
+        25858.88
       ],
-      "as_of": "2026-07-29"
+      "as_of": "2026-07-30"
     },
     "csi300": {
       "key": "csi300",
@@ -118,14 +118,14 @@
       "name": "CSI 300",
       "region": "CHINA",
       "kind": "broad",
-      "price": 4529.1,
-      "change": -169.34,
-      "change_pct": -3.6,
+      "price": 4549.72,
+      "change": 20.62,
+      "change_pct": 0.46,
       "spark": [
-        4698.44,
-        4529.1
+        4529.1,
+        4549.72
       ],
-      "as_of": "2026-07-29"
+      "as_of": "2026-07-30"
     },
     "ftse": {
       "key": "ftse",
@@ -133,17 +133,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10908.41,
-      "change": 37.41,
-      "change_pct": 0.34,
+      "price": 10951.75,
+      "change": 43.35,
+      "change_pct": 0.4,
       "spark": [
-        10639.2,
         10736.2,
         10781.8,
         10871.0,
-        10908.41
+        10908.4,
+        10951.75
       ],
-      "as_of": "2026-07-29"
+      "as_of": "2026-07-30"
     },
     "dax": {
       "key": "dax",
@@ -151,50 +151,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 25464.01,
-      "change": 102.98,
-      "change_pct": 0.41,
+      "price": 25478.03,
+      "change": 17.55,
+      "change_pct": 0.07,
       "spark": [
-        25155.41,
-        24763.12,
         25099.0,
         25361.03,
-        25464.01
+        25464.01,
+        25460.48,
+        25478.03
       ],
-      "as_of": "2026-07-29"
+      "as_of": "2026-07-30"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1443.3199,
+      "rate": 1435.01,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 163.44,
+      "rate": 163.29,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1471,
+      "rate": 1.1469,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7656,
+      "rate": 6.744,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
       "rate": 100.8,
-      "change": -0.58,
-      "change_pct": -0.57,
+      "change": -0.0,
+      "change_pct": -0.0,
       "kind": "index"
     }
   },
@@ -204,27 +204,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 84.27,
-      "change": 5.01,
-      "change_pct": 6.32
+      "price": 84.09,
+      "change": -0.37,
+      "change_pct": -0.44
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4132.5,
-      "change": 96.2,
-      "change_pct": 2.38
+      "price": 4125.2,
+      "change": 90.5,
+      "change_pct": 2.24
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 63951.25,
-      "change": 79.89,
-      "change_pct": 0.13
+      "price": 64491.51,
+      "change": 583.34,
+      "change_pct": 0.91
     },
     "ust10y": {
       "key": "ust10y",
@@ -240,12 +240,30 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 20.66,
-      "change": 2.45,
-      "change_pct": 13.45
+      "price": 19.54,
+      "change": -1.12,
+      "change_pct": -5.42
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Microsoft aces earnings call, while Meta frustration grows: 'Do we just need to be a bit more patient?'",
+      "url": "https://www.cnbc.com/2026/07/29/microsoft-aces-earnings-call-while-meta-frustration-grows-do-we-just-need-to-be-a-bit-more-patient.html",
+      "published": "Thu, 30 Jul 2026 00:55:21 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "What a divided Fed means for investors",
+      "url": "https://www.cnbc.com/2026/07/29/fed-meeting-interest-rates-warsh-stocks-bonds.html",
+      "published": "Wed, 29 Jul 2026 23:36:34 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Thursday's big stock stories: What’s likely to move the market in the next trading session",
+      "url": "https://www.cnbc.com/2026/07/29/thursdays-big-stock-stories-whats-likely-to-move-the-market.html",
+      "published": "Wed, 29 Jul 2026 23:52:10 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Another bank raised its CD rate to 4%. Where to lock in the best yields",
@@ -265,24 +283,6 @@
       "published": "Wed, 29 Jul 2026 19:18:00 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "Caterpillar is downgraded on growing data center buildout backlash. The shares are falling",
-      "url": "https://www.cnbc.com/2026/07/29/caterpillar-is-downgraded-on-growing-data-center-buildout-backlash.html",
-      "published": "Wed, 29 Jul 2026 16:32:13 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "There's a big rotation happening in the market. Two stocks to watch with attractive charts",
-      "url": "https://www.cnbc.com/2026/07/29/theres-a-big-rotation-happening-in-the-market-two-stocks-to-watch-with-attractive-charts.html",
-      "published": "Wed, 29 Jul 2026 15:00:01 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "As Adobe monetizes AI, here's a way to trade it and hedge against risks",
-      "url": "https://www.cnbc.com/2026/07/29/as-adobe-monetizes-ai-heres-a-way-to-trade-it-and-hedge-against-risks.html",
-      "published": "Wed, 29 Jul 2026 14:30:01 GMT"
-    },
-    {
       "source": "Yahoo Finance",
       "title": "National beer and wine distributor files Chapter 11 bankruptcy",
       "url": "https://finance.yahoo.com/small-business/articles/giant-wine-spirits-brand-files-170700174.html",
@@ -290,141 +290,141 @@
     },
     {
       "source": "Yahoo Finance",
-      "title": "Tesla stock hasn't been this oversold in more than a year",
-      "url": "https://finance.yahoo.com/markets/stocks/article/tesla-stock-hasnt-been-this-oversold-in-more-than-a-year-143054225.html",
-      "published": "2026-07-28T14:30:54Z"
+      "title": "How to save cash: 7 ways to protect and grow your liquid savings",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/how-to-save-cash-grow-liquid-savings-162718210.html",
+      "published": "2026-07-28T16:27:18Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "EBay, former executives to pay $56 million to settle couple's harassment case",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ebay-former-executives-pay-56-142904099.html",
-      "published": "2026-07-28T14:29:04Z"
+      "title": "Will the housing market crash in 2026? What the first half of the year tells us",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/will-the-housing-market-crash-in-2026-what-the-first-half-of-the-year-tells-us-170038540.html",
+      "published": "2024-07-05T17:00:38Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Altria Group (MO): A Winner in President Trump’s Stock Portfolio?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/altria-group-mo-winner-president-142310835.html",
-      "published": "2026-07-28T14:23:10Z"
+      "title": "Understanding the Fed's rate decisions: Do we want high or low interest rates​?",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/do-we-want-high-or-low-interest-rates-223031516.html",
+      "published": "2024-12-27T22:30:31Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Jamie Dimon says market risks are 'bigger than other people think' – and he's not buying stocks right now",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jamie-dimon-says-market-risks-142000924.html",
-      "published": "2026-07-28T14:20:00Z"
+      "title": "My spouse just died — do I have to pay off their credit card debt?",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/my-spouse-just-died--do-i-have-to-pay-off-their-credit-card-debt-211343681.html",
+      "published": "2025-03-19T21:13:43Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Secretary Bessent cracks down on non-profit tax loopholes",
-      "url": "https://finance.yahoo.com/economy/policy/articles/secretary-bessent-cracks-down-non-160600716.html",
-      "published": "2026-07-28T16:06:00Z"
+      "title": "Overlooked AI stock is growing faster than Nvidia",
+      "url": "https://finance.yahoo.com/technology/ai/articles/overlooked-ai-stock-growing-faster-013700188.html",
+      "published": "2026-07-30T01:37:00Z"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Chipotle lifts its sales forecast even as a lettuce-linked outbreak slows foot traffic",
-      "url": "https://www.marketwatch.com/story/chipotle-lifts-its-sales-forecast-even-as-a-lettuce-linked-outbreak-slows-foot-traffic-2249eeab?mod=mw_rss_topstories",
-      "published": "Wed, 29 Jul 2026 22:22:00 GMT"
+      "title": "The World Cup winners wore Adidas shirts. But the company’s investors are still crying foul.",
+      "url": "https://www.marketwatch.com/story/the-world-cup-winners-wore-adidas-shirts-but-the-companys-investors-are-still-crying-foul-2224d39a?mod=mw_rss_topstories",
+      "published": "Thu, 30 Jul 2026 09:29:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "My girlfriend is 62. Can she claim her late husband’s full Social Security benefit — or does she have to wait?",
-      "url": "https://www.marketwatch.com/story/my-girlfriend-is-62-can-she-claim-her-late-husbands-full-social-security-benefit-or-does-she-have-to-wait-315c0fa1?mod=mw_rss_topstories",
-      "published": "Wed, 29 Jul 2026 22:01:00 GMT"
+      "title": "My friend and her husband own extensive real estate. How can her children from a previous marriage get their fair share?",
+      "url": "https://www.marketwatch.com/story/my-friend-and-her-husband-own-extensive-real-estate-how-can-her-children-from-a-previous-marriage-get-their-fair-share-3eb17c20?mod=mw_rss_topstories",
+      "published": "Thu, 30 Jul 2026 09:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Stocks and bonds see wild ‘Fed Day’ swings as Wall Street’s ‘crash cushion’ evaporates",
-      "url": "https://www.marketwatch.com/story/stocks-and-bonds-see-wild-fed-day-swings-as-wall-streets-crash-cushion-evaporates-ffcbdbbc?mod=mw_rss_topstories",
-      "published": "Wed, 29 Jul 2026 21:56:00 GMT"
+      "title": "‘The View’ Host Joy Behar finally finds a buyer for $7 million Hamptons home after 2 years",
+      "url": "https://www.marketwatch.com/story/the-view-host-joy-behar-finally-finds-a-buyer-for-7-million-hamptons-home-after-2-years-17c0652a?mod=mw_rss_topstories",
+      "published": "Thu, 30 Jul 2026 09:02:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Bond market is calling Warsh’s bluff on inflation fight as yields surge",
-      "url": "https://www.marketwatch.com/story/bond-market-is-calling-warshs-bluff-on-inflation-fight-as-yields-surge-4700f9b5?mod=mw_rss_topstories",
-      "published": "Wed, 29 Jul 2026 21:43:00 GMT"
+      "title": "Samsung delivers record-setting profits, but the shares still can’t catch a break from investors.",
+      "url": "https://www.marketwatch.com/story/samsung-delivers-record-setting-profits-but-the-shares-still-cant-catch-a-break-from-investors-daefa19a?mod=mw_rss_topstories",
+      "published": "Thu, 30 Jul 2026 08:39:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Rising Medicare Part D premiums could drive more people into Medicare Advantage plans",
-      "url": "https://www.marketwatch.com/story/rising-part-d-premiums-could-drive-more-people-into-medicare-advantage-plans-32c2a392?mod=mw_rss_topstories",
-      "published": "Wed, 29 Jul 2026 21:43:00 GMT"
+      "title": "Investors are overlooking healthcare stocks and should consider these top picks, says JPMorgan",
+      "url": "https://www.marketwatch.com/story/one-of-the-markets-most-durable-growth-sectors-has-been-passed-over-for-ai-says-jpmorgan-b726011c?mod=mw_rss_topstories",
+      "published": "Thu, 30 Jul 2026 07:57:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Starbucks is becoming cool again. Here’s how it pulled off its turnaround.",
-      "url": "https://www.marketwatch.com/story/starbucks-is-becoming-cool-again-heres-how-it-pulled-off-its-turnaround-d2949e64?mod=mw_rss_topstories",
-      "published": "Wed, 29 Jul 2026 21:09:00 GMT"
+      "title": "Ford’s big-truck bet is paying off — and Wall Street is taking notice",
+      "url": "https://www.marketwatch.com/story/fords-big-truck-bet-is-paying-off-and-wall-street-is-taking-notice-6a1de0fb?mod=mw_rss_topstories",
+      "published": "Thu, 30 Jul 2026 01:02:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: Sprouts Farmers Market posts Q2 2026 EPS beat",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-sprouts-farmers-market-posts-q2-2026-eps-beat-93CH-4821975",
-      "published": "2026-07-29 22:15:51"
+      "title": "Earnings call transcript: Coca-Cola Bottlers Japan posts H1 profit turnaround in 2026",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-cocacola-bottlers-japan-posts-h1-profit-turnaround-in-2026-93CH-4823073",
+      "published": "2026-07-30 09:56:01"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: Teladoc shares sink after Q2 2026 revenue miss",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-teladoc-shares-sink-after-q2-2026-revenue-miss-93CH-4821974",
-      "published": "2026-07-29 22:15:49"
+      "title": "Evercore ISI cuts Meta stock price target to $820 on AI spending concerns",
+      "url": "https://www.investing.com/news/analyst-ratings/evercore-isi-cuts-meta-stock-price-target-to-820-on-ai-spending-concerns-93CH-4823070",
+      "published": "2026-07-30 09:54:58"
     },
     {
       "source": "Investing.com News",
-      "title": "Woodward Q3 FY26 slides: strong results, shares fall on outlook",
-      "url": "https://www.investing.com/news/company-news/woodward-q3-fy26-slides-strong-results-shares-fall-on-outlook-93CH-4821973",
-      "published": "2026-07-29 22:15:43"
+      "title": "Truist raises Glaukos stock price target to $215 on higher estimates",
+      "url": "https://www.investing.com/news/analyst-ratings/truist-raises-glaukos-stock-price-target-to-215-on-higher-estimates-93CH-4823069",
+      "published": "2026-07-30 09:54:57"
     },
     {
       "source": "Investing.com News",
-      "title": "Form 4 HARRISON STREET REAL ESTATE FUND LLC For: 29 July",
-      "url": "https://www.investing.com/news/filings/form-4-harrison-street-real-estate-fund-llc-for-29-july-93CH-4821972",
-      "published": "2026-07-29 22:15:10"
+      "title": "Canaccord reiterates Buy on Meta stock, $930 target on AI gains",
+      "url": "https://www.investing.com/news/analyst-ratings/canaccord-reiterates-buy-on-meta-stock-930-target-on-ai-gains-93CH-4823068",
+      "published": "2026-07-30 09:54:57"
     },
     {
       "source": "Investing.com News",
-      "title": "Regional Management Q2 2026 slides: EPS beats amid revenue miss",
-      "url": "https://www.investing.com/news/company-news/regional-management-q2-2026-slides-eps-beats-amid-revenue-miss-93CH-4821971",
-      "published": "2026-07-29 22:15:05"
+      "title": "Truist reiterates Buy on Fortinet stock citing product strength",
+      "url": "https://www.investing.com/news/analyst-ratings/truist-reiterates-buy-on-fortinet-stock-citing-product-strength-93CH-4823067",
+      "published": "2026-07-30 09:54:57"
     },
     {
       "source": "Investing.com News",
-      "title": "Insperity Q2 2026 slides show margin recovery amid workforce decline",
-      "url": "https://www.investing.com/news/company-news/insperity-q2-2026-slides-show-margin-recovery-amid-workforce-decline-93CH-4821970",
-      "published": "2026-07-29 22:14:45"
+      "title": "Evercore ISI raises Microsoft stock price target on Azure growth",
+      "url": "https://www.investing.com/news/analyst-ratings/evercore-isi-raises-microsoft-stock-price-target-on-azure-growth-93CH-4823066",
+      "published": "2026-07-30 09:54:57"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Asian Stocks to Fall as Fed Keeps Rates on Hold: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-29/stock-market-today-dow-s-p-live-updates",
-      "published": "Wed, 29 Jul 2026 22:11:13 GMT"
+      "title": "PGIM Sees Hawkish Fed Tilt in September With Three Hikes",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-30/pgim-sees-hawkish-fed-tilt-in-september-with-three-hikes-video",
+      "published": "Thu, 30 Jul 2026 09:47:35 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Stocks Fall as 30-Year Bond Yields Surge After Fed | The Close 7/29/2026",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-29/the-close-7-29-2026-video",
-      "published": "Wed, 29 Jul 2026 22:10:30 GMT"
+      "title": "US-Iran Talks ‘Ongoing’ to Normalize Situation, Pakistan Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-30/us-iran-talks-ongoing-to-normalize-situation-pakistan-says",
+      "published": "Thu, 30 Jul 2026 07:43:36 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Latest Oil Market News and Analysis for July 30",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-29/latest-oil-market-news-and-analysis-for-july-30",
-      "published": "Wed, 29 Jul 2026 22:01:33 GMT"
+      "title": "Shell Profit Surges to $9.8 Billion on Oil Trading and Refining Gains",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-30/shell-reports-profit-surge-as-oil-trading-and-refining-boom",
+      "published": "Thu, 30 Jul 2026 06:05:42 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Goldman-Backed Biotech Attovia Seeks $212.5 Million in US IPO",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-29/goldman-backed-biotech-attovia-seeks-212-5-million-in-us-ipo",
-      "published": "Wed, 29 Jul 2026 21:53:01 GMT"
+      "title": "Lloyds Banking Group CEO on Earnings, 2030 Plan",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-30/lloyds-banking-group-ceo-on-earnings-result-2030-plan-video",
+      "published": "Thu, 30 Jul 2026 09:22:03 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "The US Is Making the Most Fuel Since Pre-Covid. It’s Not Enough.",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-29/the-us-is-making-the-most-fuel-since-pre-covid-it-s-not-enough",
-      "published": "Wed, 29 Jul 2026 17:49:55 GMT"
+      "title": "Credit Buyers Seek Refuge in Short-Dated Debt to Dodge Rate Risk",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-30/credit-buyers-seek-refuge-in-short-dated-debt-to-dodge-rate-risk",
+      "published": "Thu, 30 Jul 2026 09:22:03 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "NZ Markets Watchdog CEO on Leave as Workplace Culture Reviewed",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-29/nz-markets-watchdog-ceo-on-leave-as-workplace-culture-reviewed",
-      "published": "Wed, 29 Jul 2026 21:34:48 GMT"
+      "title": "India's Fastest-Ageing State's Blueprint For Elder Care",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-30/vd-satheesan-kerala-min-ageing-population-chunk",
+      "published": "Thu, 30 Jul 2026 08:13:25 GMT"
     }
   ],
   "summary": {
