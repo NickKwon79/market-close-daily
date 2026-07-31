@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-07-31 07:35 KST",
+  "as_of_kst": "2026-07-31 19:05 KST",
   "as_of_date": "2026-07-31",
   "as_of_weekday": "FRI",
-  "build_unix": 1785450905,
+  "build_unix": 1785492349,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 5663.24,
-      "change": -360.42,
-      "change_pct": -5.98,
+      "price": 6595.45,
+      "change": 1001.89,
+      "change_pct": 17.91,
       "spark": [
-        7096.89,
-        6690.62,
         6755.75,
         6023.66,
-        5663.24
+        5663.24,
+        5593.56,
+        6595.45
       ],
-      "as_of": "2026-07-29"
+      "as_of": "2026-07-31"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 61434.19,
-      "change": -930.73,
-      "change_pct": -1.49,
+      "price": 64362.02,
+      "change": 2494.59,
+      "change_pct": 4.03,
       "spark": [
-        66422.6,
-        64611.15,
         64931.19,
         62364.92,
-        61434.19
+        61434.19,
+        61867.43,
+        64362.02
       ],
-      "as_of": "2026-07-30"
+      "as_of": "2026-07-31"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 25807.92,
-      "change": 497.07,
-      "change_pct": 1.96,
+      "price": 25884.43,
+      "change": 25.55,
+      "change_pct": 0.1,
       "spark": [
-        25210.81,
-        24963.23,
         25207.18,
         25310.85,
-        25807.92
+        25807.92,
+        25858.88,
+        25884.43
       ],
-      "as_of": "2026-07-30"
+      "as_of": "2026-07-31"
     },
     "ftse": {
       "key": "ftse",
@@ -118,17 +118,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10897.27,
-      "change": -11.13,
-      "change_pct": -0.1,
+      "price": 10960.58,
+      "change": 63.28,
+      "change_pct": 0.58,
       "spark": [
-        10736.2,
         10781.8,
         10871.0,
         10908.4,
-        10897.27
+        10897.3,
+        10960.58
       ],
-      "as_of": "2026-07-30"
+      "as_of": "2026-07-31"
     },
     "dax": {
       "key": "dax",
@@ -136,50 +136,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 25460.48,
-      "change": -3.53,
-      "change_pct": -0.01,
+      "price": 25830.44,
+      "change": 218.41,
+      "change_pct": 0.85,
       "spark": [
-        24763.12,
-        25099.0,
         25361.03,
         25464.01,
-        25460.48
+        25460.48,
+        25612.03,
+        25830.44
       ],
-      "as_of": "2026-07-30"
+      "as_of": "2026-07-31"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1421.6,
+      "rate": 1437.0,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 159.73,
+      "rate": 159.94,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.153,
+      "rate": 1.151,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7438,
+      "rate": 6.7406,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 99.97,
-      "change": -0.83,
-      "change_pct": -0.82,
+      "rate": 100.15,
+      "change": 0.14,
+      "change_pct": 0.14,
       "kind": "index"
     }
   },
@@ -189,27 +189,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 84.21,
-      "change": -0.25,
-      "change_pct": -0.3
+      "price": 83.64,
+      "change": 0.05,
+      "change_pct": 0.06
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4166.0,
-      "change": 131.3,
-      "change_pct": 3.25
+      "price": 4112.0,
+      "change": 11.9,
+      "change_pct": 0.29
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 64885.93,
-      "change": 977.76,
-      "change_pct": 1.53
+      "price": 63588.62,
+      "change": -1136.69,
+      "change_pct": -1.76
     },
     "ust10y": {
       "key": "ust10y",
@@ -225,9 +225,9 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 17.09,
-      "change": -3.57,
-      "change_pct": -17.28
+      "price": 16.8,
+      "change": -0.29,
+      "change_pct": -1.7
     }
   },
   "headlines_raw": [
@@ -269,123 +269,123 @@
     },
     {
       "source": "Yahoo Finance",
-      "title": "Markets react to Fed's July interest rate decision",
-      "url": "https://finance.yahoo.com/economy/policy/articles/markets-react-feds-july-interest-210558874.html",
-      "published": "2026-07-29T21:05:58Z"
-    },
-    {
-      "source": "Yahoo Finance",
       "title": "Jim Cramer says this post-earnings sell-off is a golden buying opportunity",
       "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-post-earnings-221700892.html",
       "published": "2026-07-29T22:17:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "SoFi Earnings, Revenue Top Estimates. Here's Why Fintech Stock Tumbled.",
-      "url": "https://www.investors.com/news/technology/sofi-stock-sofi-earnings-news-q22026/?src=A00220&yptr=yahoo",
-      "published": "2026-07-29T14:47:38Z"
+      "title": "Types of life insurance: A complete guide",
+      "url": "https://finance.yahoo.com/personal-finance/insurance/article/types-of-life-insurance-173512440.html",
+      "published": "2026-07-29T17:35:12Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Dear SoFi Stock Fans, Mark Your Calendars for July 29",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-sofi-stock-fans-mark-144518711.html",
-      "published": "2026-07-29T14:45:18Z"
+      "title": "How the Fed's rate decision affects your bank accounts, loans, credit cards, and investments",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/how-the-feds-rate-decision-affects-your-bank-accounts-loans-credit-cards-and-investments-220526730.html",
+      "published": "2024-12-17T22:05:26Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Do Wall Street Analysts Like Freeport-McMoRan Stock?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-freeport-mcmoran-144517280.html",
-      "published": "2026-07-29T14:45:17Z"
+      "title": "How many Americans have no savings?",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/how-many-americans-have-no-savings-192530574.html",
+      "published": "2026-07-29T19:25:30Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Why Ericsson’s Worst Day in Three Years Wasn’t About This Quarter’s Numbers",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-ericsson-worst-day-three-144514841.html",
-      "published": "2026-07-29T14:45:14Z"
+      "title": "Long-term care insurance explained",
+      "url": "https://finance.yahoo.com/personal-finance/insurance/article/long-term-care-insurance-194903621.html",
+      "published": "2026-07-29T19:49:03Z"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Fed interest-rate decision rocks Wall Street's inflation fears",
+      "url": "https://finance.yahoo.com/economy/policy/articles/fed-interest-rate-decision-rocks-163300252.html",
+      "published": "2026-07-30T16:33:00Z"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Jersey Mike’s spent almost ‘zero dollars’ on digital marketing. That’s now changing.",
-      "url": "https://www.marketwatch.com/story/jersey-mikes-spent-almost-zero-dollars-on-digital-marketing-thats-now-changing-9738485d?mod=mw_rss_topstories",
-      "published": "Thu, 30 Jul 2026 22:24:00 GMT"
+      "title": "‘Don’t get suckered like I did’: I paid $185 to the wrong passport website. Can I get my money back?",
+      "url": "https://www.marketwatch.com/story/dont-get-suckered-like-i-did-i-paid-185-to-the-wrong-passport-website-can-i-get-my-money-back-3a781412?mod=mw_rss_topstories",
+      "published": "Fri, 31 Jul 2026 10:00:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Implosion of Situational Awareness hedge fund has Wall Street betting the bottom is in for the AI trade",
-      "url": "https://www.marketwatch.com/story/implosion-of-situational-awareness-has-wall-street-betting-the-bottom-is-in-for-the-ai-trade-05d9f346?mod=mw_rss_topstories",
-      "published": "Thu, 30 Jul 2026 22:09:00 GMT"
+      "title": "I’m 75 and afraid to let my retirement fund dip below $1 million. Am I being too aggressive?",
+      "url": "https://www.marketwatch.com/story/im-75-and-afraid-to-let-my-retirement-fund-dip-below-1-million-am-i-being-too-aggressive-6b780ef9?mod=mw_rss_topstories",
+      "published": "Fri, 31 Jul 2026 10:00:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Get ready to buy the dip in tech stocks. Why the recent selling won’t break the bull market.",
-      "url": "https://www.marketwatch.com/story/get-ready-to-buy-the-dip-in-tech-stocks-why-the-recent-selling-wont-break-the-bull-market-900699f5?mod=mw_rss_topstories",
-      "published": "Thu, 30 Jul 2026 21:45:00 GMT"
+      "title": "South Korea’s chip giants just logged their biggest rally ever. What it means for the global AI trade.",
+      "url": "https://www.marketwatch.com/story/south-koreas-chip-giants-just-logged-their-biggest-rally-ever-what-it-means-for-the-global-ai-trade-94d7e914?mod=mw_rss_topstories",
+      "published": "Fri, 31 Jul 2026 09:48:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Can credit cards survive AI shopping? Why Mastercard’s CEO says they’ll ‘prevail’ in this new era.",
-      "url": "https://www.marketwatch.com/story/can-credit-cards-survive-ai-shopping-why-mastercards-ceo-says-theyll-prevail-in-this-new-era-8f8a660c?mod=mw_rss_topstories",
-      "published": "Thu, 30 Jul 2026 21:45:00 GMT"
+      "title": "My friend and her husband own real estate. How can her children from a previous marriage get their fair share?",
+      "url": "https://www.marketwatch.com/story/my-friend-and-her-husband-own-extensive-real-estate-how-can-her-children-from-a-previous-marriage-get-their-fair-share-3eb17c20?mod=mw_rss_topstories",
+      "published": "Fri, 31 Jul 2026 09:46:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Software stocks are fading — but these 4 could shine through the rest of the year",
-      "url": "https://www.marketwatch.com/story/software-stocks-are-fading-but-these-4-could-shine-through-the-rest-of-the-year-2c4dbe22?mod=mw_rss_topstories",
-      "published": "Thu, 30 Jul 2026 21:24:00 GMT"
+      "title": "If Social Security’s funding crisis is the elephant in the room, this is the mouse everyone has overlooked. You have been warned.",
+      "url": "https://www.marketwatch.com/story/if-social-securitys-funding-crisis-is-the-elephant-in-the-room-this-is-the-mouse-everyone-has-overlooked-you-have-been-warned-b95c450d?mod=mw_rss_topstories",
+      "published": "Fri, 31 Jul 2026 09:35:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Meta’s stock falls hard. Here’s why the company is in Wall Street’s doghouse.",
-      "url": "https://www.marketwatch.com/story/metas-stock-is-falling-hard-heres-why-the-company-is-in-wall-streets-doghouse-afae2f55?mod=mw_rss_topstories",
-      "published": "Thu, 30 Jul 2026 20:31:00 GMT"
+      "title": "Diane Keaton’s stunning $23 million dream home in L.A. finally finds a buyer",
+      "url": "https://www.marketwatch.com/story/diane-keatons-stunning-23-million-dream-home-in-l-a-finally-finds-a-buyer-52f1373e?mod=mw_rss_topstories",
+      "published": "Fri, 31 Jul 2026 08:59:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Why is Reddit stock sliding today?",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-reddit-stock-sliding-today-93CH-4826474",
-      "published": "2026-07-30 22:16:47"
+      "title": "REN 1H26 slides: net profit surges 42% on tax gains, stock slips",
+      "url": "https://www.investing.com/news/company-news/ren-1h26-slides-net-profit-surges-42-on-tax-gains-stock-slips-93CH-4827265",
+      "published": "2026-07-31 09:52:57"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: Floor & Decor tops Q2 2026 estimates, shares jump",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-floor--decor-tops-q2-2026-estimates-shares-jump-93CH-4826473",
-      "published": "2026-07-30 22:16:45"
+      "title": "Earnings call transcript: Daiwa Industries posts record Q1 2026 beat",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-daiwa-industries-posts-record-q1-2026-beat-93CH-4827264",
+      "published": "2026-07-31 09:52:22"
     },
     {
       "source": "Investing.com News",
-      "title": "Amazon Q2 2026 slides: AWS surges 37%, free cash flow turns negative",
-      "url": "https://www.investing.com/news/company-news/amazon-q2-2026-slides-aws-surges-37-free-cash-flow-turns-negative-93CH-4826472",
-      "published": "2026-07-30 22:16:17"
+      "title": "Raiffeisen Bank beats estimates on strong fees and low provisions",
+      "url": "https://www.investing.com/news/earnings/raiffeisen-bank-beats-estimates-on-strong-fees-and-low-provisions-93CH-4827263",
+      "published": "2026-07-31 09:50:44"
     },
     {
       "source": "Investing.com News",
-      "title": "Yen spikes as media report says Japanese government intervened in currency markets",
-      "url": "https://www.investing.com/news/forex-news/asia-fx-subdued-as-dollar-steadies-after-fed-hold-boe-boj-loom-4822313",
-      "published": "2026-07-30 22:15:58"
+      "title": "Linde quarterly sales rise 9%, plans to invest $1 bln in Phoenix chip expansion",
+      "url": "https://www.investing.com/news/earnings/linde-quarterly-sales-rise-9-plans-to-invest-1-bln-in-phoenix-chip-expansion-4827262",
+      "published": "2026-07-31 09:50:38"
     },
     {
       "source": "Investing.com News",
-      "title": "LPL Financial Q2 2026 slides: record earnings, strategic expansion drive growth",
-      "url": "https://www.investing.com/news/company-news/lpl-financial-q2-2026-slides-record-earnings-strategic-expansion-drive-growth-93CH-4826469",
-      "published": "2026-07-30 22:15:36"
+      "title": "REN H1 2026 slides: profit surges 42% on tax gains, shares slip",
+      "url": "https://www.investing.com/news/company-news/ren-h1-2026-slides-profit-surges-42-on-tax-gains-shares-slip-93CH-4827260",
+      "published": "2026-07-31 09:48:57"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: GoDaddy beats Q2 2026 estimates but shares fall",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-godaddy-beats-q2-2026-estimates-but-shares-fall-93CH-4826468",
-      "published": "2026-07-30 22:15:32"
+      "title": "Mizuho upgrades Circle Internet stock rating to neutral, cuts price target",
+      "url": "https://www.investing.com/news/analyst-ratings/mizuho-upgrades-circle-internet-stock-rating-to-neutral-cuts-price-target-93CH-4827259",
+      "published": "2026-07-31 09:48:54"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Asia Stocks to Gain After US Rally, Yen Holds Jump: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-30/stock-market-today-dow-s-p-live-updates",
-      "published": "Thu, 30 Jul 2026 22:15:33 GMT"
+      "title": "Asian Stocks Post Biggest Gain in Four Months on AI Optimism",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-31/asian-stocks-post-biggest-gain-in-four-months-on-ai-optimism",
+      "published": "Fri, 31 Jul 2026 03:38:10 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Weak Yen Offers Toyota an Earnings Respite From Tariffs, War",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-30/weak-yen-offers-toyota-an-earnings-respite-from-tariffs-war",
-      "published": "Thu, 30 Jul 2026 20:00:00 GMT"
+      "title": "Foreign Investors Shun Nigeria’s World-Beating Equities",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-31/foreign-investors-shun-nigeria-s-world-beating-equities",
+      "published": "Fri, 31 Jul 2026 09:36:55 GMT"
     },
     {
       "source": "Bloomberg Markets",
@@ -395,21 +395,21 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Reddit Projects Strong Sales, But No New AI Deals",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-30/reddit-projects-strong-third-quarter-sales-growth",
-      "published": "Thu, 30 Jul 2026 20:10:55 GMT"
+      "title": "Peter Frankopan on Trump’s Iran ‘War of Choice'",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-31/peter-frankopan-on-trump-s-iran-war-of-choice-video",
+      "published": "Fri, 31 Jul 2026 09:32:39 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Coinbase Posts Loss as Revenue Drops for Another Quarter",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-30/coinbase-posts-loss-as-revenue-drops-for-third-straight-quarter",
-      "published": "Thu, 30 Jul 2026 20:43:33 GMT"
+      "title": "Dollar Heads for Worst Week in Three Months as Fed Doubts Grow",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-31/dollar-heads-for-worst-week-in-three-months-as-fed-doubts-grow",
+      "published": "Fri, 31 Jul 2026 09:30:55 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Amazon Tops Estimates | Closing Bell",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-30/amazon-tops-estimates-closing-bell-video",
-      "published": "Thu, 30 Jul 2026 21:09:32 GMT"
+      "title": "Yen Swings in Choppy Trading as Intervention Rally Sputters",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-30/yen-surges-after-japan-intervened-in-market-again-ahead-of-boj",
+      "published": "Thu, 30 Jul 2026 22:52:16 GMT"
     }
   ],
   "summary": {
