@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-08-03 07:27 KST",
+  "as_of_kst": "2026-08-03 19:54 KST",
   "as_of_date": "2026-08-03",
   "as_of_weekday": "MON",
-  "build_unix": 1785709627,
+  "build_unix": 1785754477,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 6595.45,
-      "change": 1001.89,
-      "change_pct": 17.91,
+      "price": 6257.45,
+      "change": -338.0,
+      "change_pct": -5.12,
       "spark": [
-        6755.75,
         6023.66,
         5663.24,
         5593.56,
-        6595.45
+        6595.45,
+        6257.45
       ],
-      "as_of": "2026-07-31"
+      "as_of": "2026-08-03"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 64362.02,
-      "change": 2494.59,
-      "change_pct": 4.03,
+      "price": 63754.9,
+      "change": -607.12,
+      "change_pct": -0.94,
       "spark": [
-        64931.19,
         62364.92,
         61434.19,
         61867.43,
-        64362.02
+        64362.02,
+        63754.9
       ],
-      "as_of": "2026-07-31"
+      "as_of": "2026-08-03"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 25884.43,
-      "change": 25.55,
-      "change_pct": 0.1,
+      "price": 26009.4,
+      "change": 124.97,
+      "change_pct": 0.48,
       "spark": [
-        25207.18,
         25310.85,
         25807.92,
         25858.88,
-        25884.43
+        25884.43,
+        26009.4
       ],
-      "as_of": "2026-07-31"
+      "as_of": "2026-08-03"
     },
     "ftse": {
       "key": "ftse",
@@ -118,17 +118,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10868.1,
-      "change": -29.2,
-      "change_pct": -0.27,
+      "price": 10866.32,
+      "change": -1.78,
+      "change_pct": -0.02,
       "spark": [
-        10781.8,
         10871.0,
         10908.4,
         10897.3,
-        10868.1
+        10868.1,
+        10866.32
       ],
-      "as_of": "2026-07-31"
+      "as_of": "2026-08-03"
     },
     "dax": {
       "key": "dax",
@@ -136,50 +136,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 25629.24,
-      "change": 17.21,
-      "change_pct": 0.07,
+      "price": 25987.22,
+      "change": 357.98,
+      "change_pct": 1.4,
       "spark": [
-        25361.03,
         25464.01,
         25460.48,
         25612.03,
-        25629.24
+        25629.24,
+        25987.22
       ],
-      "as_of": "2026-07-31"
+      "as_of": "2026-08-03"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1436.6,
+      "rate": 1426.97,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 157.43,
+      "rate": 156.85,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1551,
+      "rate": 1.1527,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7448,
+      "rate": 6.7406,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 99.59,
-      "change": -0.21,
-      "change_pct": -0.21,
+      "rate": 99.85,
+      "change": 0.05,
+      "change_pct": 0.05,
       "kind": "index"
     }
   },
@@ -189,27 +189,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 80.0,
-      "change": -4.67,
-      "change_pct": -5.52
+      "price": 79.54,
+      "change": -5.13,
+      "change_pct": -6.06
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4129.7,
-      "change": 80.6,
-      "change_pct": 1.99
+      "price": 4105.6,
+      "change": 56.5,
+      "change_pct": 1.4
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 63512.72,
-      "change": 749.4,
-      "change_pct": 1.19
+      "price": 62602.01,
+      "change": -879.99,
+      "change_pct": -1.39
     },
     "ust10y": {
       "key": "ust10y",
@@ -225,12 +225,18 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 15.99,
-      "change": -1.1,
-      "change_pct": -6.44
+      "price": 15.96,
+      "change": -0.03,
+      "change_pct": -0.19
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "This optical sensor stock is struggling. Truist says it’s time to buy the dip",
+      "url": "https://www.cnbc.com/2026/08/03/this-optical-sensor-stock-is-struggling-truist-says-its-time-to-buy-the-dip.html",
+      "published": "Mon, 03 Aug 2026 10:23:09 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Top Wall Street analysts are bullish on these 3 dividend stocks for passive income",
@@ -262,12 +268,6 @@
       "published": "Sat, 01 Aug 2026 13:44:01 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "Scoop up more yield amid Fed rate uncertainty with these portfolio tweaks",
-      "url": "https://www.cnbc.com/2026/07/31/scoop-up-more-yield-amid-fed-rate-uncertainty-with-these-portfolio-tweaks.html",
-      "published": "Fri, 31 Jul 2026 19:28:51 GMT"
-    },
-    {
       "source": "Yahoo Finance",
       "title": "Warren Buffett keeps pointing at the same ETF for a reason",
       "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-keeps-pointing-same-160300409.html",
@@ -275,27 +275,27 @@
     },
     {
       "source": "Yahoo Finance",
-      "title": "Japan to vow coordination with US on weak yen in historic battle",
-      "url": "https://finance.yahoo.com/markets/currencies/articles/japan-vow-coordination-us-weak-210127634.html",
-      "published": "2026-08-02T21:28:28Z"
+      "title": "Much 'to do' about yen intervention",
+      "url": "https://finance.yahoo.com/markets/currencies/articles/much-yen-intervention-103529921.html",
+      "published": "2026-08-03T10:35:29Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Dow Jones Futures Due As Trump Shifts On Iran; SpaceX, AMD, Sandisk, Eli Lilly Earnings Loom",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-spacex-amd-sandisk-eli-lilly-earnings-loom/?src=A00220&yptr=yahoo",
-      "published": "2026-08-02T16:56:50Z"
+      "title": "Japan's Nissan sees profit for latest quarter but warns of Middle East and China woes",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/japans-nissan-sees-profit-latest-102327579.html",
+      "published": "2026-08-03T10:23:27Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Shoppers made 158 million chargeback disputes in 2025 as 'friendly fraud' surged 29% — and businesses pay the price",
-      "url": "https://finance.yahoo.com/small-business/articles/shoppers-made-158-million-chargeback-153000950.html",
-      "published": "2026-08-02T15:30:00Z"
+      "title": "Exclusive-Fed's Williams expects inflation to ease, says Fed will act if it doesn't",
+      "url": "https://finance.yahoo.com/economy/policy/articles/exclusive-feds-williams-expects-inflation-100542847.html",
+      "published": "2026-08-03T10:20:13Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Tesla Rival BYD Ramping Up Sales On Overseas Demand, Flash Charging",
-      "url": "https://www.investors.com/news/tesla-rival-byd-sales-overseas-demand-flash-charging/?src=A00220&yptr=yahoo",
-      "published": "2026-08-02T14:59:50Z"
+      "title": "‘Thank you, Mr. Tariff!’: Trump says his tariffs led to the biggest deficit drop 'in history.’ Are they still working?",
+      "url": "https://finance.yahoo.com/economy/policy/articles/thank-mr-tariff-trump-says-101500164.html",
+      "published": "2026-08-03T10:15:00Z"
     },
     {
       "source": "Yahoo Finance",
@@ -305,111 +305,111 @@
     },
     {
       "source": "MarketWatch Top",
-      "title": "We’re in our 60s with $1.5 million. Would a trust be more effective than a will to prevent conflict among our heirs?",
-      "url": "https://www.marketwatch.com/story/we-already-have-wills-were-in-our-60s-with-1-5-million-how-do-we-prevent-family-drama-among-our-heirs-bf7b0eb1?mod=mw_rss_topstories",
-      "published": "Sun, 02 Aug 2026 17:00:00 GMT"
+      "title": "AstraZeneca tie-up talks with Bristol-Myers Squibb are moving stocks. Analysts are puzzled.",
+      "url": "https://www.marketwatch.com/story/astrazeneca-tie-up-talks-with-bristol-myers-squibb-are-moving-stocks-analysts-are-puzzled-7ae60fef?mod=mw_rss_topstories",
+      "published": "Mon, 03 Aug 2026 10:43:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "My girlfriend is 62. Can she claim her late husband’s full Social Security benefit — or does she have to wait?",
-      "url": "https://www.marketwatch.com/story/my-girlfriend-is-62-can-she-claim-her-late-husbands-full-social-security-benefit-or-does-she-have-to-wait-315c0fa1?mod=mw_rss_topstories",
-      "published": "Sun, 02 Aug 2026 16:00:00 GMT"
+      "title": "Oil prices fall to three-week low after Trump calls off planned attack",
+      "url": "https://www.marketwatch.com/story/oil-prices-fall-to-three-week-low-after-trump-calls-off-planned-attack-631a8683?mod=mw_rss_topstories",
+      "published": "Mon, 03 Aug 2026 10:26:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Here’s what’s worth streaming in August 2026 on Netflix, Hulu, HBO Max and more",
-      "url": "https://www.marketwatch.com/story/heres-whats-worth-streaming-in-august-2026-on-netflix-hulu-hbo-max-and-more-21b78a08?mod=mw_rss_topstories",
-      "published": "Sun, 02 Aug 2026 15:19:00 GMT"
+      "title": "Should wealthier Americans forgo their Social Security benefits as a charitable gesture?",
+      "url": "https://www.marketwatch.com/story/should-wealthier-americans-forgo-their-social-security-benefits-as-a-charitable-gesture-2c7b6801?mod=mw_rss_topstories",
+      "published": "Mon, 03 Aug 2026 10:00:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "My ex-husband’s sister died — so why is Fidelity asking me for her death certificate?",
-      "url": "https://www.marketwatch.com/story/its-like-buying-a-lottery-ticket-fidelity-asked-for-my-former-sister-in-laws-death-certificate-does-this-mean-im-due-a-windfall-2ebdcd69?mod=mw_rss_topstories",
-      "published": "Sun, 02 Aug 2026 14:00:00 GMT"
+      "title": "Warsh tightened more by pausing than by lifting rates, this bond-market veteran argues. Here’s the math.",
+      "url": "https://www.marketwatch.com/story/warsh-tightened-more-by-pausing-than-by-lifting-rates-this-bond-market-veteran-argues-heres-the-math-31cb15a1?mod=mw_rss_topstories",
+      "published": "Mon, 03 Aug 2026 09:18:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "S&P 500 profit growth is getting even wilder as Amazon makes its mark",
-      "url": "https://www.marketwatch.com/story/s-p-500-profit-growth-is-getting-even-wilder-as-amazon-makes-its-mark-5ddf2082?mod=mw_rss_topstories",
-      "published": "Sun, 02 Aug 2026 14:00:00 GMT"
+      "title": "‘My head hit the driver’s window’: A teenager T-boned our car. Will Medicare pay my hospital bills?",
+      "url": "https://www.marketwatch.com/story/my-head-hit-the-drivers-window-a-teenager-t-boned-our-car-will-medicare-pay-my-hospital-bills-0552d90d?mod=mw_rss_topstories",
+      "published": "Mon, 03 Aug 2026 09:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "If Social Security’s funding crisis is the elephant in the room, this is the mouse everyone has overlooked. You have been warned.",
-      "url": "https://www.marketwatch.com/story/if-social-securitys-funding-crisis-is-the-elephant-in-the-room-this-is-the-mouse-everyone-has-overlooked-you-have-been-warned-b95c450d?mod=mw_rss_topstories",
-      "published": "Sun, 02 Aug 2026 13:30:00 GMT"
+      "title": "Joint U.S.-Japanese intervention  boosts the yen — but will it be enough?",
+      "url": "https://www.marketwatch.com/story/joint-u-s-japanese-intervention-boosts-the-yen-but-will-it-be-enough-069451f5?mod=mw_rss_topstories",
+      "published": "Mon, 03 Aug 2026 09:07:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Oman, mediators in final stages of negotiations with Iran on Hormuz - Report",
-      "url": "https://www.investing.com/news/economy-news/iran-threatens-regional-energy-fields-if-the-us-launches-fresh-attacks-4829658",
-      "published": "2026-08-02 22:07:32"
+      "title": "WestJet flight attendants to end strike post wage deal",
+      "url": "https://www.investing.com/news/stock-market-news/westjet-flight-attendants-to-end-strike-post-wage-deal-4830481",
+      "published": "2026-08-03 10:43:36"
     },
     {
       "source": "Investing.com News",
-      "title": "Ukrainian drones kill eight in Russia and strike Wildberries warehouse, governors say",
-      "url": "https://www.investing.com/news/stock-market-news/ukrainian-drones-kill-two-in-russia-strike-wildberries-warehouse-governors-say-4829675",
-      "published": "2026-08-02 21:48:34"
+      "title": "Goldman Sachs warns on Fed communication strategy risks",
+      "url": "https://www.investing.com/news/stock-market-news/goldman-sachs-warns-on-fed-communication-strategy-risks-93CH-4830480",
+      "published": "2026-08-03 10:43:11"
     },
     {
       "source": "Investing.com News",
-      "title": "Russia stocks higher at close of trade; MOEX Russia Index up 0.75%",
-      "url": "https://www.investing.com/news/stock-market-news/russia-stocks-higher-at-close-of-trade-moex-russia-index-up-075-4829716",
-      "published": "2026-08-02 21:20:04"
+      "title": "Analysis-Japan’s fight with yen bears goes on after joint rescue",
+      "url": "https://www.investing.com/news/economy-news/analysisjapans-fight-with-yen-bears-goes-on-after-joint-rescue-4830428",
+      "published": "2026-08-03 10:43:01"
     },
     {
       "source": "Investing.com News",
-      "title": "Ukrainian drone kills one child, injures two in playground in Russia’s Belgorod region",
-      "url": "https://www.investing.com/news/world-news/ukrainian-drone-kills-one-child-injures-two-in-playground-in-russias-belgorod-region-4829715",
-      "published": "2026-08-02 21:18:25"
+      "title": "Bank Indonesia wants more lending from commercial banks, acting governor says",
+      "url": "https://www.investing.com/news/economy-news/bank-indonesia-wants-more-lending-from-commercial-banks-acting-governor-says-4830479",
+      "published": "2026-08-03 10:42:43"
     },
     {
       "source": "Investing.com News",
-      "title": "Death toll from migrant rush into Spanish enclave in North Africa rises to 72",
-      "url": "https://www.investing.com/news/world-news/death-toll-from-migrant-rush-into-ceuta-rises-to-72-4829701",
-      "published": "2026-08-02 21:18:24"
+      "title": "Yen jumps as Tokyo and Washington confirm joint FX intervention; dollar flattens",
+      "url": "https://www.investing.com/news/forex-news/yen-extends-rally-on-prospects-of-further-usjapan-fx-intervention-4829743",
+      "published": "2026-08-03 10:42:07"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Earnings call transcript: Narayana Hrudayalaya beats Q1 2026 estimates as shares fall",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-narayana-hrudayalaya-beats-q1-2026-estimates-as-shares-fall-93CH-4830477",
+      "published": "2026-08-03 10:41:57"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Latest Oil Market News and Analysis for Aug. 3",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-02/latest-oil-market-news-and-analysis-for-aug-3",
-      "published": "Sun, 02 Aug 2026 22:02:28 GMT"
+      "title": "The US Has a Lot at Stake in Rare Intervention to Prop Up Yen",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-08-03/the-us-has-a-lot-at-stake-in-rare-intervention-to-prop-up-yen",
+      "published": "Mon, 03 Aug 2026 10:49:40 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Oil Slumps, US Futures Rise on Iran Talks Optimism: Markets Wrap",
+      "title": "Prysmian Reaches Deal to Buy US Electrical Maker Atkore",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-03/prysmian-strikes-deal-to-buy-us-electrical-maker-atkore",
+      "published": "Mon, 03 Aug 2026 05:32:04 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Fed’s Williams Says Interest Rates Are Well Positioned: Reuters",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-03/fed-s-williams-says-interest-rates-are-well-positioned-reuters",
+      "published": "Mon, 03 Aug 2026 10:35:56 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "JPY/USD: Why the US Helped Japan Intervention to Prop Up Yen",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-03/jpy-usd-why-the-us-helped-japan-intervention-to-prop-up-yen",
+      "published": "Mon, 03 Aug 2026 10:35:49 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Stocks Rise as Oil Plunge Eases Pressure on Yields: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-08-02/oil-slumps-us-futures-rise-on-iran-talks-optimism-markets-wrap",
       "published": "Sun, 02 Aug 2026 22:09:16 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Trump Says Yen Intervention Is Signal of Friendship With Japan",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-02/trump-says-yen-intervention-is-signal-of-friendship-with-japan",
-      "published": "Sun, 02 Aug 2026 22:01:33 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Trump Says US Intervention in Yen Was ‘A Signal of Friendship’",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-02/trump-says-us-intervention-in-yen-was-a-signal-of-friendship",
-      "published": "Sun, 02 Aug 2026 21:53:50 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "AstraZeneca Is Said to Have Explored Bristol Myers Merger",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-02/astrazeneca-is-said-to-have-explored-bristol-myers-mega-merger",
-      "published": "Sun, 02 Aug 2026 20:13:51 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Yen Traders Brace for More Intervention With US at Japan’s Side",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-02/yen-traders-brace-for-more-intervention-with-us-at-japan-s-side",
-      "published": "Sun, 02 Aug 2026 12:47:40 GMT"
-    },
-    {
-      "source": "FT Markets",
-      "title": "America’s biggest companies report ‘rock solid’ profits as consumers face higher costs",
-      "url": "https://www.ft.com/content/b4f150ea-9ea3-4bb4-b1e0-014cf1f0df26?syn-25a6b1a6=1",
-      "published": "Sun, 02 Aug 2026 16:00:06 GMT"
+      "title": "Mamdani’s Rent Freeze Heaps Pressure on a Teetering CMBS Deal",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-03/mamdani-s-rent-freeze-heaps-pressure-on-a-teetering-cmbs-deal",
+      "published": "Mon, 03 Aug 2026 10:30:00 GMT"
     }
   ],
   "summary": {
