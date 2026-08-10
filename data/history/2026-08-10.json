@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-08-10 06:57 KST",
+  "as_of_kst": "2026-08-10 17:57 KST",
   "as_of_date": "2026-08-10",
   "as_of_weekday": "MON",
-  "build_unix": 1786312653,
+  "build_unix": 1786352261,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 6258.77,
-      "change": -37.61,
-      "change_pct": -0.6,
+      "price": 6299.66,
+      "change": 40.89,
+      "change_pct": 0.65,
       "spark": [
-        6257.45,
         6358.95,
         6598.26,
         6296.38,
-        6258.77
+        6258.77,
+        6299.66
       ],
-      "as_of": "2026-08-07"
+      "as_of": "2026-08-10"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 65606.71,
-      "change": -76.55,
-      "change_pct": -0.12,
+      "price": 66970.22,
+      "change": 1363.51,
+      "change_pct": 2.08,
       "spark": [
-        63754.9,
         63957.53,
         66300.44,
         65683.26,
-        65606.71
+        65606.71,
+        66970.22
       ],
-      "as_of": "2026-08-07"
+      "as_of": "2026-08-10"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 25668.03,
-      "change": 137.75,
-      "change_pct": 0.54,
+      "price": 25937.49,
+      "change": 269.46,
+      "change_pct": 1.05,
       "spark": [
-        26009.4,
         25852.92,
         25915.82,
         25530.28,
-        25668.03
+        25668.03,
+        25937.49
       ],
-      "as_of": "2026-08-07"
+      "as_of": "2026-08-10"
     },
     "ftse": {
       "key": "ftse",
@@ -118,17 +118,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10901.1,
-      "change": 33.2,
-      "change_pct": 0.31,
+      "price": 10872.13,
+      "change": -28.97,
+      "change_pct": -0.27,
       "spark": [
-        10857.7,
         10879.4,
         10888.3,
         10867.9,
-        10901.1
+        10901.1,
+        10872.13
       ],
-      "as_of": "2026-08-07"
+      "as_of": "2026-08-10"
     },
     "dax": {
       "key": "dax",
@@ -136,30 +136,30 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 26319.45,
-      "change": 179.32,
-      "change_pct": 0.69,
+      "price": 26363.43,
+      "change": 43.98,
+      "change_pct": 0.17,
       "spark": [
-        26001.31,
         26202.35,
         26126.3,
         26140.13,
-        26319.45
+        26319.45,
+        26363.43
       ],
-      "as_of": "2026-08-07"
+      "as_of": "2026-08-10"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1407.33,
+      "rate": 1418.48,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 157.68,
+      "rate": 158.67,
       "kind": "direct"
     },
     "EURUSD": {
@@ -171,15 +171,15 @@
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7372,
+      "rate": 6.7442,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 99.6,
-      "change": -0.37,
-      "change_pct": -0.37,
+      "rate": 99.64,
+      "change": 0.04,
+      "change_pct": 0.04,
       "kind": "index"
     }
   },
@@ -189,27 +189,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 78.18,
-      "change": 0.89,
-      "change_pct": 1.15
+      "price": 79.0,
+      "change": 0.82,
+      "change_pct": 1.05
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4399.7,
-      "change": 157.7,
-      "change_pct": 3.72
+      "price": 4408.1,
+      "change": 67.4,
+      "change_pct": 1.55
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 65157.71,
-      "change": 253.02,
-      "change_pct": 0.39
+      "price": 65206.55,
+      "change": 361.66,
+      "change_pct": 0.56
     },
     "ust10y": {
       "key": "ust10y",
@@ -225,9 +225,9 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 14.9,
-      "change": -0.25,
-      "change_pct": -1.65
+      "price": 15.47,
+      "change": 0.57,
+      "change_pct": 3.83
     }
   },
   "headlines_raw": [
@@ -269,39 +269,63 @@
     },
     {
       "source": "Yahoo Finance",
-      "title": "BofA points to the Eli Lilly market that could outsize the U.S.",
-      "url": "https://finance.yahoo.com/healthcare/articles/bofa-points-eli-lilly-market-183300957.html",
-      "published": "2026-08-08T18:33:00Z"
+      "title": "Bank of America spots new curveball for Magnificent Seven stocks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-spots-curveball-magnificent-030700311.html",
+      "published": "2026-08-09T03:07:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "UPS Completed Its Amazon Volume Pullback. Is the Turnaround Finally Working?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ups-completed-amazon-volume-pullback-205917884.html",
-      "published": "2026-08-09T20:59:17Z"
+      "title": "Broadcom (AVGO) Pairs AI Chip Boom With A Software Security Push",
+      "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-avgo-pairs-ai-chip-204234966.html",
+      "published": "2026-08-08T20:42:34Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Dow Jones Futures Loom As Market Bulls Rule; Cisco, Lumentum Earnings Ahead",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-warren-buffett-cisco-lumentum-earnings/?src=A00220&yptr=yahoo",
-      "published": "2026-08-09T20:58:45Z"
+      "title": "U.S. Energy Helps Cushion Global Supply Shock From Hormuz",
+      "url": "https://finance.yahoo.com/energy/articles/u-energy-helps-cushion-global-230000293.html",
+      "published": "2026-08-08T23:00:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Core Scientific (CORZ) Shareholders Rejected a $9B Sale. Does the AMD Deal Vindicate Them?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/core-scientific-corz-shareholders-rejected-203304503.html",
-      "published": "2026-08-09T20:33:04Z"
+      "title": "Mortgage and refinance interest rates today, Saturday, August 8, 2026: Rates mixed this weekend",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-8-2026-rates-mixed-this-weekend-100000461.html",
+      "published": "2026-08-08T10:00:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Berkshire breaks 14-quarter selling streak with $23.5B of stock buys — $10B went to 1 company at a private price",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/berkshire-breaks-14-quarter-selling-194000465.html",
-      "published": "2026-08-09T19:40:00Z"
+      "title": "Best CD rates today, Saturday, August 8, 2026: Best CD account earns 4.15% APY",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-august-8-2026-best-cd-account-earns-415-apy-100000008.html",
+      "published": "2026-08-08T10:00:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "‘Your Knowledge of Money and How It Works Is Nil’: Suze Orman to 62-Year-Old Who Nearly Locked His Wife Into $605 a Month",
-      "url": "https://finance.yahoo.com/markets/articles/knowledge-money-works-nil-suze-214457992.html",
-      "published": "2026-08-09T21:44:57Z"
+      "title": "When Leverage Goes Wrong on Wall Street",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/leverage-goes-wrong-wall-street-214537005.html",
+      "published": "2026-08-08T21:45:37Z"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Berkshire Hathaway finally started spending its nearly $400 billion in cash — on one stock it knows very well",
+      "url": "https://www.marketwatch.com/story/berkshire-hathaway-finally-started-spending-its-nearly-400-billion-in-cash-on-one-stock-it-knows-very-well-f9d56389?mod=mw_rss_topstories",
+      "published": "Mon, 10 Aug 2026 08:21:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "U.S. stock futures flat as investors await inflation data, grapple with more Iran uncertainty",
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-investors-await-inflation-data-grapple-with-more-iran-uncertainty-133212d2?mod=mw_rss_topstories",
+      "published": "Mon, 10 Aug 2026 03:02:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "‘I’m easing into retirement’: I’m getting an $80,000 pension payout. Where can I invest it safely?",
+      "url": "https://www.marketwatch.com/story/im-easing-into-retirement-im-getting-an-80-000-pension-payout-where-can-i-invest-it-safely-6653d810?mod=mw_rss_topstories",
+      "published": "Mon, 10 Aug 2026 00:00:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "If I marry my girlfriend, 67, will she lose her Supplemental Security Income and divorced spouse benefits?",
+      "url": "https://www.marketwatch.com/story/if-i-marry-my-girlfriend-67-will-she-lose-her-supplemental-security-income-and-divorced-spouse-benefits-9340bab9?mod=mw_rss_topstories",
+      "published": "Sun, 09 Aug 2026 23:30:00 GMT"
     },
     {
       "source": "MarketWatch Top",
@@ -316,100 +340,76 @@
       "published": "Sun, 09 Aug 2026 16:00:00 GMT"
     },
     {
-      "source": "MarketWatch Top",
-      "title": "S&P 500 sales growth is at a nearly 5-year high. Here’s what’s behind the surge.",
-      "url": "https://www.marketwatch.com/story/s-p-500-sales-growth-is-at-a-nearly-5-year-high-heres-whats-behind-the-surge-a4ccf06d?mod=mw_rss_topstories",
-      "published": "Sun, 09 Aug 2026 14:00:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "‘I don’t wish to be cold-hearted’: My elderly relative can no longer care for himself. Am I wrong to leave his care to the state?",
-      "url": "https://www.marketwatch.com/story/i-dont-wish-to-be-cold-hearted-my-elderly-relative-can-no-longer-care-for-himself-am-i-wrong-to-leave-his-care-to-the-state-8d546b32?mod=mw_rss_topstories",
-      "published": "Sun, 09 Aug 2026 13:30:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "‘This has been an emotionally difficult time’: My brother has cancer and my father is 94. How do I shoulder this responsibility?",
-      "url": "https://www.marketwatch.com/story/this-has-been-an-emotionally-difficult-time-my-brother-has-cancer-and-my-father-is-94-how-do-i-shoulder-this-responsibility-9da09dc4?mod=mw_rss_topstories",
-      "published": "Sun, 09 Aug 2026 13:00:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "I got two email invitations from friends. Is this a phishing scam — or am I suddenly popular?",
-      "url": "https://www.marketwatch.com/story/i-got-two-email-invitations-from-friends-is-this-a-phishing-scam-or-am-i-suddenly-popular-d9680aa8?mod=mw_rss_topstories",
-      "published": "Sun, 09 Aug 2026 12:30:00 GMT"
+      "source": "Investing.com News",
+      "title": "Bank of America sees Treasury curve biased to steepen",
+      "url": "https://www.investing.com/news/stock-market-news/bank-of-america-sees-treasury-curve-biased-to-steepen-93CH-4848057",
+      "published": "2026-08-10 08:36:58"
     },
     {
       "source": "Investing.com News",
-      "title": "Russia stocks lower at close of trade; MOEX Russia Index unchanged",
-      "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-unchanged-4847756",
-      "published": "2026-08-09 21:20:03"
+      "title": "Why is Silence Therapeutics stock surging today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-silence-therapeutics-stock-surging-today-93CH-4848056",
+      "published": "2026-08-10 08:36:48"
     },
     {
       "source": "Investing.com News",
-      "title": "Yemen’s Houthis attack Saudi refinery after kingdom signs defence pact",
-      "url": "https://www.investing.com/news/commodities-news/yemens-houthis-say-they-attacked-saudi-aramco-jazan-refinery-fire-extinguished-4847714",
-      "published": "2026-08-09 19:42:26"
+      "title": "Euro zone investor morale turns positive in August, Sentix survey shows",
+      "url": "https://www.investing.com/news/economic-indicators/euro-zone-investor-morale-turns-positive-in-august-sentix-survey-shows-4848055",
+      "published": "2026-08-10 08:36:07"
     },
     {
       "source": "Investing.com News",
-      "title": "Bitcoin hits overbought MFI at $65,500 resistance: Live levels",
-      "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-tests-62k-support-with-breakout-looming-live-levels-93CH-4829888",
-      "published": "2026-08-09 19:02:19"
+      "title": "Why is Aumovio stock rallying today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-aumovio-stock-rallying-today-93CH-4848045",
+      "published": "2026-08-10 08:32:36"
     },
     {
       "source": "Investing.com News",
-      "title": "Iran says Oman deal is in ’final stages’ but US must act to open Hormuz",
-      "url": "https://www.investing.com/news/commodities-news/iran-says-oman-deal-is-in-final-stages-but-us-must-act-to-open-hormuz-4847732",
-      "published": "2026-08-09 18:48:30"
+      "title": "European gas rebounds above 2% as Hormuz uncertainty scuttles supply hopes",
+      "url": "https://www.investing.com/news/commodities-news/european-gas-rebounds-above-2-as-hormuz-uncertainty-scuttles-supply-hopes-4847902",
+      "published": "2026-08-10 08:31:03"
     },
     {
       "source": "Investing.com News",
-      "title": "Trump says U.S. is ’low-keying it’ with Iran as its economy struggles",
-      "url": "https://www.investing.com/news/economy-news/fire-at-saudi-aramcos-jazan-refinery-extinguished-no-injuries-reported-4847703",
-      "published": "2026-08-09 17:22:16"
-    },
-    {
-      "source": "Investing.com News",
-      "title": "Warsh wants a Fed that plays a smaller role in markets",
-      "url": "https://www.investing.com/news/economy-news/warsh-wants-a-fed-that-plays-a-smaller-role-in-markets-4847750",
-      "published": "2026-08-09 16:01:07"
+      "title": "Oil steady as Iran tempers hopes of swift Hormuz reopening",
+      "url": "https://www.investing.com/news/commodities-news/oil-rises-as-uncertainty-continues-over-reopening-of-strait-4847759",
+      "published": "2026-08-10 08:30:56"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "China Bets on AI Stocks as It Races Against US for Chip, Tech Dominance",
-      "url": "https://www.bloomberg.com/news/features/2026-08-09/china-bets-on-ai-stocks-as-it-races-against-us-for-chip-tech-dominance",
-      "published": "Sun, 09 Aug 2026 21:00:19 GMT"
+      "title": "Stocks Hold Near Record Highs, Oil Ticks Higher: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-09/stock-market-today-dow-s-p-live-updates",
+      "published": "Sun, 09 Aug 2026 22:11:01 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Aussie-Yen Is Set to Approach Three-Decade High, Analysts Say",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-09/aussie-yen-is-set-to-approach-three-decade-high-analysts-say",
-      "published": "Sun, 09 Aug 2026 21:00:00 GMT"
+      "title": "Latest Oil Market News and Analysis for Aug. 10",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-09/latest-oil-market-news-and-analysis-for-aug-10",
+      "published": "Sun, 09 Aug 2026 22:02:45 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Australian Wheat Crop Rebounds at Crucial Time for Global Supply",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-09/australian-wheat-crop-rebounds-at-crucial-time-for-global-supply",
-      "published": "Sun, 09 Aug 2026 21:00:00 GMT"
+      "title": "Emerging-Market Stocks, Currencies Gain After Soft US Jobs Data",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-10/emerging-market-stocks-currencies-gain-after-soft-us-jobs-data",
+      "published": "Mon, 10 Aug 2026 04:25:49 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Hungarian Central Banker Touts Benefits of Joining Euro Area",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-09/hungarian-central-banker-touts-benefits-of-joining-euro-area",
-      "published": "Sun, 09 Aug 2026 17:23:31 GMT"
+      "title": "US CPI and Iran Conflict to Dictate the Market: 3-Minutes MLIV",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-10/us-cpi-and-iran-conflict-to-dictate-the-market-mliv-video",
+      "published": "Mon, 10 Aug 2026 08:12:19 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Bloomberg This Weekend 08/09/2026",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-09/bloomberg-this-weekend-08-09-2026-video",
-      "published": "Sun, 09 Aug 2026 15:57:13 GMT"
+      "title": "NYT CEO Meredith Kopit Levien on Running a Media Brand in the Age of AI",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-10/nyt-ceo-meredith-kopit-levien-on-running-a-media-brand-in-the-age-of-ai",
+      "published": "Mon, 10 Aug 2026 08:00:16 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "By The Way: Headline You May Have Missed",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-09/by-the-way-headline-you-may-have-missed-video",
-      "published": "Sun, 09 Aug 2026 15:25:27 GMT"
+      "title": "Odd Lots: NYT’s CEO on Media Brands in the Age of AI (Podcast)",
+      "url": "https://www.bloomberg.com/news/audio/2026-08-10/odd-lots-nyt-s-ceo-on-media-brands-in-the-age-of-ai-podcast",
+      "published": "Mon, 10 Aug 2026 08:00:00 GMT"
     }
   ],
   "summary": {
