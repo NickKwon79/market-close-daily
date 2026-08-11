@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-08-11 07:06 KST",
+  "as_of_kst": "2026-08-11 17:30 KST",
   "as_of_date": "2026-08-11",
   "as_of_weekday": "TUE",
-  "build_unix": 1786399569,
+  "build_unix": 1786437028,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 6258.77,
-      "change": -37.61,
-      "change_pct": -0.6,
+      "price": 6345.53,
+      "change": 45.87,
+      "change_pct": 0.73,
       "spark": [
-        6257.45,
-        6358.95,
         6598.26,
         6296.38,
-        6258.77
+        6258.77,
+        6299.66,
+        6345.53
       ],
-      "as_of": "2026-08-07"
+      "as_of": "2026-08-11"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,15 +82,15 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 65606.71,
-      "change": -76.55,
-      "change_pct": -0.12,
+      "price": 66970.22,
+      "change": 1363.51,
+      "change_pct": 2.08,
       "spark": [
-        63754.9,
         63957.53,
         66300.44,
         65683.26,
-        65606.71
+        65606.71,
+        66970.22
       ],
       "as_of": "2026-08-10"
     },
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 25668.03,
-      "change": 137.75,
-      "change_pct": 0.54,
+      "price": 25652.82,
+      "change": -284.67,
+      "change_pct": -1.1,
       "spark": [
-        26009.4,
-        25852.92,
         25915.82,
         25530.28,
-        25668.03
+        25668.03,
+        25937.49,
+        25652.82
       ],
-      "as_of": "2026-08-10"
+      "as_of": "2026-08-11"
     },
     "ftse": {
       "key": "ftse",
@@ -118,17 +118,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10862.5,
-      "change": -38.6,
-      "change_pct": -0.35,
+      "price": 10825.45,
+      "change": -37.05,
+      "change_pct": -0.34,
       "spark": [
-        10879.4,
         10888.3,
         10867.9,
         10901.1,
-        10862.5
+        10862.5,
+        10825.45
       ],
-      "as_of": "2026-08-10"
+      "as_of": "2026-08-11"
     },
     "dax": {
       "key": "dax",
@@ -136,50 +136,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 26319.45,
-      "change": 179.32,
-      "change_pct": 0.69,
+      "price": 26268.56,
+      "change": -55.32,
+      "change_pct": -0.21,
       "spark": [
-        26001.31,
-        26202.35,
         26126.3,
         26140.13,
-        26319.45
+        26319.45,
+        26323.88,
+        26268.56
       ],
-      "as_of": "2026-08-10"
+      "as_of": "2026-08-11"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1417.71,
+      "rate": 1416.97,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 159.28,
+      "rate": 159.29,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1547,
+      "rate": 1.1538,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7442,
+      "rate": 6.7446,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 99.81,
-      "change": 0.21,
-      "change_pct": 0.21,
+      "rate": 99.88,
+      "change": 0.07,
+      "change_pct": 0.07,
       "kind": "index"
     }
   },
@@ -189,27 +189,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 82.3,
-      "change": 4.12,
-      "change_pct": 5.27
+      "price": 84.31,
+      "change": 2.18,
+      "change_pct": 2.65
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4448.6,
-      "change": 107.9,
-      "change_pct": 2.49
+      "price": 4421.4,
+      "change": 59.6,
+      "change_pct": 1.37
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 63905.18,
-      "change": -939.71,
-      "change_pct": -1.45
+      "price": 63992.76,
+      "change": 82.18,
+      "change_pct": 0.13
     },
     "ust10y": {
       "key": "ust10y",
@@ -225,12 +225,18 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 15.46,
-      "change": 0.56,
-      "change_pct": 3.76
+      "price": 15.48,
+      "change": 0.02,
+      "change_pct": 0.13
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Tuesday's big stock stories: What’s likely to move the market in the next trading session",
+      "url": "https://www.cnbc.com/2026/08/10/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+      "published": "Mon, 10 Aug 2026 22:54:50 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Here's how the market may react to July's CPI report, according to JPMorgan",
@@ -262,154 +268,148 @@
       "published": "Mon, 10 Aug 2026 16:09:32 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "An update on two Best Stocks breakouts. One is now failing, but the other is partying on",
-      "url": "https://www.cnbc.com/2026/08/10/an-update-on-two-best-stocks-breakouts-one-is-now-failing-but-the-other-is-partying-on.html",
-      "published": "Mon, 10 Aug 2026 16:42:15 GMT"
+      "source": "Yahoo Finance",
+      "title": "S&P 500 Positive Profit Surprises Trending Above 5-Year Average",
+      "url": "https://www.barrons.com/livecoverage/sunday0809/card/s-p-500-positive-profit-surprises-trending-above-5-year-average-SFZldkmcNCFSSVbQa79W?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-08-09T21:01:02Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Jeff Bezos breaks his own Amazon record",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jeff-bezos-breaks-own-amazon-140700871.html",
-      "published": "2026-08-09T14:07:00Z"
+      "title": "UPS Completed Its Amazon Volume Pullback. Is the Turnaround Finally Working?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ups-completed-amazon-volume-pullback-205917884.html",
+      "published": "2026-08-09T20:59:17Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Advanced Micro Devices Reported Record Revenue. AMD Stock Sank Anyway.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-reported-record-131502549.html",
-      "published": "2026-08-09T13:15:02Z"
+      "title": "Apple's Favorite Bullying Tactic Just Died in China. It Could Cost You Hundreds on Your Next iPhone.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/apples-favorite-bullying-tactic-just-210637752.html",
+      "published": "2026-08-09T21:06:37Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Dear Intuitive Machines Stock Fans, Mark Your Calendars for August 13",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-intuitive-machines-stock-fans-130002352.html",
-      "published": "2026-08-09T13:00:02Z"
+      "title": "Core Scientific (CORZ) Shareholders Rejected a $9B Sale. Does the AMD Deal Vindicate Them?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/core-scientific-corz-shareholders-rejected-203304503.html",
+      "published": "2026-08-09T20:33:04Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Dear Baidu Stock Fans, Mark Your Calendars for August 18",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-baidu-stock-fans-mark-130002368.html",
-      "published": "2026-08-09T13:00:02Z"
+      "title": "Is Medtronic (MDT) Becoming a Turnaround Story?",
+      "url": "https://finance.yahoo.com/healthcare/articles/medtronic-mdt-becoming-turnaround-story-234359487.html",
+      "published": "2026-08-09T23:43:59Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Dear Palo Alto Stock Fans, Mark Your Calendars for September 1",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-palo-alto-stock-fans-130002528.html",
-      "published": "2026-08-09T13:00:02Z"
+      "title": "Atrium Mortgage Investment Q2 Earnings Call Highlights",
+      "url": "https://finance.yahoo.com/real-estate/articles/atrium-mortgage-investment-q2-earnings-210350418.html",
+      "published": "2026-08-09T21:03:50Z"
     },
     {
-      "source": "Yahoo Finance",
-      "title": "Top Semiconductor Stock Outpacing Nvidia With a 36% Gain Over 6 Months",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/top-semiconductor-stock-outpacing-nvidia-132000887.html",
-      "published": "2026-08-09T13:20:00Z"
+      "source": "MarketWatch Top",
+      "title": "The Bessent bond-market scorecard doesn’t look as strong as it once did",
+      "url": "https://www.marketwatch.com/story/the-bessent-bond-market-scorecard-doesnt-look-as-strong-as-it-once-did-afe2f93e?mod=mw_rss_topstories",
+      "published": "Tue, 11 Aug 2026 07:35:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "‘The market is obviously on fire’: Is it a mistake to take $1,000 from my brokerage account to pay my car loan?",
+      "url": "https://www.marketwatch.com/story/the-market-is-obviously-on-fire-is-it-a-mistake-to-take-1-000-from-my-brokerage-account-to-pay-my-car-loan-65800d1f?mod=mw_rss_topstories",
+      "published": "Tue, 11 Aug 2026 06:15:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Nvidia teams with Wall Street firms to help finance $500 billion for AI infrastructure",
+      "url": "https://www.marketwatch.com/story/nvidia-teams-with-wall-street-firms-to-help-finance-500-billion-for-ai-infrastructure-2c4805a5?mod=mw_rss_topstories",
+      "published": "Tue, 11 Aug 2026 02:28:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "‘Her bank accounts were stripped bare by Medicaid’: My late friend had $20,000 in credit-card debt. Will her life insurance pay for it?",
+      "url": "https://www.marketwatch.com/story/her-bank-accounts-were-stripped-bare-by-medicaid-my-late-friend-had-20-000-in-credit-card-debt-will-her-life-insurance-pay-for-it-17ee9792?mod=mw_rss_topstories",
+      "published": "Tue, 11 Aug 2026 02:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
       "title": "Rocket Lab reveals some big plans, but its stock is dropping on mixed earnings",
       "url": "https://www.marketwatch.com/story/rocket-lab-reveals-some-big-plans-but-its-stock-is-dropping-on-mixed-earnings-4012ba2b?mod=mw_rss_topstories",
-      "published": "Mon, 10 Aug 2026 21:37:00 GMT"
+      "published": "Tue, 11 Aug 2026 01:03:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Wall Street thinks inflation is under control. Here’s why investors shouldn’t buy it.",
-      "url": "https://www.marketwatch.com/story/fed-chair-kevin-warsh-promises-2-inflation-but-skyrocketing-u-s-debt-makes-that-a-pipe-dream-ba448651?mod=mw_rss_topstories",
-      "published": "Mon, 10 Aug 2026 21:32:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "I looked into buying a house in Singapore as an investment. Here’s why I didn’t — despite the 2% mortgage rate.",
-      "url": "https://www.marketwatch.com/story/i-looked-into-buying-a-house-in-singapore-as-an-investment-heres-why-i-didnt-despite-the-2-mortgage-rate-50c79bcf?mod=mw_rss_topstories",
-      "published": "Mon, 10 Aug 2026 21:14:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Workers are worried, but there’s no sign AI is muscling people out of their jobs on a massive scale",
-      "url": "https://www.marketwatch.com/story/workers-are-worried-but-theres-no-sign-ai-is-muscling-people-out-of-their-jobs-on-a-massive-scale-8eb92638?mod=mw_rss_topstories",
-      "published": "Mon, 10 Aug 2026 20:35:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "EBay may dodge a GameStop takeover — but there’s a new twist in the Ryan Cohen saga",
-      "url": "https://www.marketwatch.com/story/ebay-may-dodge-a-gamestop-takeover-but-theres-a-new-twist-in-the-ryan-cohen-saga-d779b753?mod=mw_rss_topstories",
-      "published": "Mon, 10 Aug 2026 20:17:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Should wealthier Americans forgo their Social Security benefits as a charitable gesture?",
-      "url": "https://www.marketwatch.com/story/should-wealthier-americans-forgo-their-social-security-benefits-as-a-charitable-gesture-2c7b6801?mod=mw_rss_topstories",
-      "published": "Mon, 10 Aug 2026 20:00:00 GMT"
+      "title": "This is the ZIP code with the hottest housing market in the country right now",
+      "url": "https://www.marketwatch.com/story/this-is-the-hottest-zip-code-where-homes-are-selling-fast-2c642716?mod=mw_rss_topstories",
+      "published": "Tue, 11 Aug 2026 00:15:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: FiscalNote Q2 2026 miss deepens as stock stays near lows",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-fiscalnote-q2-2026-miss-deepens-as-stock-stays-near-lows-93CH-4850470",
-      "published": "2026-08-10 21:42:10"
+      "title": "Russia says it struck military-related warehouses and steel works in overnight Ukraine strikes",
+      "url": "https://www.investing.com/news/stock-market-news/russia-says-it-struck-militaryrelated-warehouses-and-steel-works-in-overnight-ukraine-strikes-4850912",
+      "published": "2026-08-11 08:12:37"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: Rapid7 beats Q2 2026 estimates and shares jump 9%",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-rapid7-beats-q2-2026-estimates-and-shares-jump-9-93CH-4850469",
-      "published": "2026-08-10 21:41:32"
+      "title": "Why is Babcock & Wilcox stock surging today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-babcock--wilcox-stock-surging-today-93CH-4850911",
+      "published": "2026-08-11 08:12:28"
     },
     {
       "source": "Investing.com News",
-      "title": "Hirequest earnings beat by $0.09, revenue topped estimates",
-      "url": "https://www.investing.com/news/earnings/hirequest-earnings-beat-by-009-revenue-topped-estimates-4850468",
-      "published": "2026-08-10 21:41:17"
+      "title": "Genuit stock slips as H1 profit falls on Middle East, weather hit",
+      "url": "https://www.investing.com/news/earnings/genuit-stock-dips-as-h1-profit-falls-on-middle-east-weather-hit-4850898",
+      "published": "2026-08-11 08:11:42"
     },
     {
       "source": "Investing.com News",
-      "title": "Sana Biotechnology falls 5% despite beating earnings estimates",
-      "url": "https://www.investing.com/news/earnings/sana-biotechnology-falls-5-despite-beating-earnings-estimates-93CH-4850467",
-      "published": "2026-08-10 21:40:45"
+      "title": "Intel upsizes stock offering to $20 bln, shares up in premarket",
+      "url": "https://www.investing.com/news/stock-market-news/intel-upsizes-stock-offering-to-20-bln-4850818",
+      "published": "2026-08-11 08:08:52"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: GoPro posts Q2 2026 miss as stock slips after hours",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-gopro-posts-q2-2026-miss-as-stock-slips-after-hours-93CH-4850466",
-      "published": "2026-08-10 21:40:10"
+      "title": "Cloudflare prices $2.175 billion convertible notes offering",
+      "url": "https://www.investing.com/news/company-news/cloudflare-prices-2175-billion-convertible-notes-offering-93CH-4850910",
+      "published": "2026-08-11 08:08:32"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: Entravision Q2 2026 revenue jumps 126% as stock sinks",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-entravision-q2-2026-revenue-jumps-126-as-stock-sinks-93CH-4850465",
-      "published": "2026-08-10 21:40:06"
+      "title": "German yields rebound to highest since Aug. 3 as energy spike stokes fear",
+      "url": "https://www.investing.com/news/forex-news/german-yields-rebound-to-highest-since-aug-3-as-energy-spike-stokes-fear-4850909",
+      "published": "2026-08-11 08:08:13"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Outsiders Pay $6,500 for Help With Sorority Rush",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-10/outsiders-pay-6-500-for-help-with-sorority-rush-video",
-      "published": "Mon, 10 Aug 2026 21:45:03 GMT"
+      "title": "Latest Oil Market News and Analysis for Aug. 11",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-10/latest-oil-market-news-and-analysis-for-aug-11",
+      "published": "Mon, 10 Aug 2026 22:02:35 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Trump Touts $3B in Mineral Project to Counter China",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-10/trump-touts-3b-in-mineral-project-to-counter-china-video",
-      "published": "Mon, 10 Aug 2026 21:43:16 GMT"
+      "title": "Retail Footfall Fell on Lower Tourism, Says Spinneys CEO",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-11/retail-footfall-fell-on-lower-tourism-says-spinneys-ceo-video",
+      "published": "Tue, 11 Aug 2026 08:04:39 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Hims & Hers Lowers Profit Forecast, Shares Drop",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-10/hims-hers-lowers-profit-forecast-shares-drop-video",
-      "published": "Mon, 10 Aug 2026 21:22:55 GMT"
+      "title": "Aluminum Extends Rally After Brazilian Plant Cuts Output to 50%",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-11/aluminum-hits-seven-week-high-as-hormuz-impasse-threatens-supply",
+      "published": "Tue, 11 Aug 2026 05:16:45 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Chicago Taps Fitch Senior Director as New CFO Amid Rash of Exits",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-10/chicago-taps-fitch-senior-director-as-new-cfo-amid-rash-of-exits-msnqjmd6",
-      "published": "Mon, 10 Aug 2026 21:20:20 GMT"
+      "title": "Trump Makes New Demands on Iran as Deal Hopes Dim",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-11/trump-makes-new-demands-on-iran-as-deal-hopes-dim-video",
+      "published": "Tue, 11 Aug 2026 04:34:59 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Yen Weakens as Intervention Efforts Proving to Be Short-Lived",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-10/yen-underperforms-g-10-peers-as-intervention-boost-fades",
-      "published": "Mon, 10 Aug 2026 03:26:41 GMT"
+      "title": "AI Boom Helps Singapore Shake Off Iran War Stress | Insight with Haslinda Amin 8/11/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-11/insight-with-haslinda-amin-08-11-2026-video",
+      "published": "Tue, 11 Aug 2026 07:42:17 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Gautam Adani Wins Dismissal of US Securities Fraud Charges",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-10/gautam-adani-wins-dismissal-of-us-securities-fraud-charges",
-      "published": "Mon, 10 Aug 2026 19:44:24 GMT"
+      "title": "DayOne Data Centers Is Said to Confidentially File for $5 Billion IPO in US",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-11/dayone-data-centers-said-to-confidentially-file-for-5-billion-ipo-us",
+      "published": "Tue, 11 Aug 2026 07:37:15 GMT"
     }
   ],
   "summary": {
