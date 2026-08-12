@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-08-12 07:10 KST",
+  "as_of_kst": "2026-08-12 17:48 KST",
   "as_of_date": "2026-08-12",
   "as_of_weekday": "WED",
-  "build_unix": 1786486251,
+  "build_unix": 1786524495,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 6299.66,
-      "change": 40.89,
-      "change_pct": 0.65,
+      "price": 6579.04,
+      "change": 233.51,
+      "change_pct": 3.68,
       "spark": [
-        6358.95,
-        6598.26,
         6296.38,
         6258.77,
-        6299.66
+        6299.66,
+        6345.53,
+        6579.04
       ],
-      "as_of": "2026-08-10"
+      "as_of": "2026-08-12"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 66970.22,
-      "change": 1363.51,
-      "change_pct": 2.08,
+      "price": 67524.06,
+      "change": 553.84,
+      "change_pct": 0.83,
       "spark": [
-        63957.53,
         66300.44,
         65683.26,
         65606.71,
-        66970.22
+        66970.22,
+        67524.06
       ],
-      "as_of": "2026-08-10"
+      "as_of": "2026-08-12"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 25937.49,
-      "change": 269.46,
-      "change_pct": 1.05,
+      "price": 25440.17,
+      "change": -212.65,
+      "change_pct": -0.83,
       "spark": [
-        25852.92,
-        25915.82,
         25530.28,
         25668.03,
-        25937.49
+        25937.49,
+        25652.82,
+        25440.17
       ],
-      "as_of": "2026-08-11"
+      "as_of": "2026-08-12"
     },
     "ftse": {
       "key": "ftse",
@@ -118,17 +118,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10844.19,
-      "change": -18.31,
-      "change_pct": -0.17,
+      "price": 10833.03,
+      "change": -11.17,
+      "change_pct": -0.1,
       "spark": [
-        10888.3,
         10867.9,
         10901.1,
         10862.5,
-        10844.19
+        10844.2,
+        10833.03
       ],
-      "as_of": "2026-08-11"
+      "as_of": "2026-08-12"
     },
     "dax": {
       "key": "dax",
@@ -136,50 +136,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 26323.88,
-      "change": 4.43,
-      "change_pct": 0.02,
+      "price": 26431.83,
+      "change": 40.41,
+      "change_pct": 0.15,
       "spark": [
-        26202.35,
-        26126.3,
         26140.13,
         26319.45,
-        26323.88
+        26323.88,
+        26391.42,
+        26431.83
       ],
-      "as_of": "2026-08-11"
+      "as_of": "2026-08-12"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1412.4399,
+      "rate": 1416.3199,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 159.28,
+      "rate": 159.32,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1546,
+      "rate": 1.1541,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7365,
+      "rate": 6.7439,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 99.81,
-      "change": 0.0,
-      "change_pct": 0.0,
+      "rate": 99.86,
+      "change": 0.04,
+      "change_pct": 0.04,
       "kind": "index"
     }
   },
@@ -189,27 +189,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 83.43,
-      "change": 1.3,
-      "change_pct": 1.58
+      "price": 83.5,
+      "change": 0.3,
+      "change_pct": 0.36
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4430.0,
-      "change": 68.2,
-      "change_pct": 1.56
+      "price": 4465.0,
+      "change": 82.0,
+      "change_pct": 1.87
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 63660.32,
-      "change": -250.27,
-      "change_pct": -0.39
+      "price": 63753.56,
+      "change": 201.68,
+      "change_pct": 0.32
     },
     "ust10y": {
       "key": "ust10y",
@@ -225,12 +225,18 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 15.28,
-      "change": -0.18,
-      "change_pct": -1.16
+      "price": 15.3,
+      "change": 0.02,
+      "change_pct": 0.13
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Wednesday's big stock stories: What’s likely to move the market in the next trading session",
+      "url": "https://www.cnbc.com/2026/08/11/wednesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+      "published": "Tue, 11 Aug 2026 23:37:38 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Investors poured $2.3 billion into this riskier corner of the bond market in July",
@@ -262,12 +268,6 @@
       "published": "Mon, 10 Aug 2026 19:00:19 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "Berkshire shares appear to be breaking out. Katie Stockton says it's a timely buying opportunity",
-      "url": "https://www.cnbc.com/2026/08/10/berkshire-shares-appear-to-be-breaking-out-katie-stockton-says-its-a-timely-buying-opportunity.html",
-      "published": "Mon, 10 Aug 2026 17:51:33 GMT"
-    },
-    {
       "source": "Yahoo Finance",
       "title": "Billionaire sues ex-employee over alleged theft",
       "url": "https://finance.yahoo.com/markets/crypto/articles/billionaire-sues-ex-employee-over-005000617.html",
@@ -275,27 +275,27 @@
     },
     {
       "source": "Yahoo Finance",
-      "title": "What Makes Cerebras Systems (CBRS) a Bullish Bet?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/makes-cerebras-systems-cbrs-bullish-133954698.html",
-      "published": "2026-08-10T13:39:54Z"
+      "title": "Ceva Tops Q2 Targets On Edge AI Tech Licensing",
+      "url": "https://www.investors.com/news/technology/ceva-stock-q2-2026-earnings/?src=A00220&yptr=yahoo",
+      "published": "2026-08-10T20:53:05Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Ryanair’s Profits Slumped, but Is the Market Overlooking Its Biggest Advantage?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ryanair-profits-slumped-market-overlooking-134026952.html",
-      "published": "2026-08-10T13:40:26Z"
+      "title": "Johnson & Johnson vs Abbott Laboratories: Which Healthcare Giant Offers the More Compelling Growth Story After Earnings?",
+      "url": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-vs-abbott-laboratories-204959195.html",
+      "published": "2026-08-10T20:49:59Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Chip equipment stocks rise after Taiwan Semiconductor revenue surges 45%",
-      "url": "https://finance.yahoo.com/markets/stocks/article/chip-equipment-stocks-rise-after-taiwan-semiconductor-revenue-surges-45-133813616.html",
-      "published": "2026-08-10T13:38:13Z"
+      "title": "HOOD Stock Alert: Robinhood Set to Launch Crypto Trading in UK This Week",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/hood-stock-alert-robinhood-set-204945572.html",
+      "published": "2026-08-10T20:49:45Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Are Wall Street Analysts Bullish on Corteva Stock?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-bullish-corteva-133419231.html",
-      "published": "2026-08-10T13:34:19Z"
+      "title": "Air Taxi Maker Flies On Deal To Buy Boeing Subsidiaries",
+      "url": "https://www.investors.com/news/archer-aviation-achr-boeing-wisk-aero-skygrid-insitu-acquisition/?src=A00220&yptr=yahoo",
+      "published": "2026-08-10T20:46:51Z"
     },
     {
       "source": "Yahoo Finance",
@@ -305,111 +305,111 @@
     },
     {
       "source": "MarketWatch Top",
-      "title": "Is $1 million enough for a household to retire? The answer keeps changing.",
-      "url": "https://www.marketwatch.com/story/is-1-million-enough-for-a-household-to-retire-the-answer-keeps-changing-aee84a83?mod=mw_rss_topstories",
-      "published": "Tue, 11 Aug 2026 22:00:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Super Micro’s earnings report brings more good news, and the stock is climbing",
-      "url": "https://www.marketwatch.com/story/super-micros-earnings-report-brings-more-good-news-and-the-stock-is-climbing-30e5ca89?mod=mw_rss_topstories",
-      "published": "Tue, 11 Aug 2026 21:49:00 GMT"
+      "title": "A stock just surged on news Situational Awareness had bought it. But its current fate is unclear.",
+      "url": "https://www.marketwatch.com/story/a-stock-just-surged-on-news-situational-awareness-had-bought-it-but-its-current-fate-is-unclear-00f17a97?mod=mw_rss_topstories",
+      "published": "Wed, 12 Aug 2026 08:22:00 GMT"
     },
     {
       "source": "MarketWatch Top",
       "title": "CoreWeave’s stock soars as earnings show major AI momentum",
       "url": "https://www.marketwatch.com/story/coreweaves-stock-soars-as-earnings-show-major-ai-momentum-d3a5bede?mod=mw_rss_topstories",
-      "published": "Tue, 11 Aug 2026 21:17:00 GMT"
+      "published": "Wed, 12 Aug 2026 00:17:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "I found a $100 bill in the communal washer at my Airbnb. What should I do?",
-      "url": "https://www.marketwatch.com/story/im-dreaming-of-cocktails-at-chateau-marmont-i-found-100-in-my-airbnbs-communal-washer-what-should-i-do-9694ecca?mod=mw_rss_topstories",
-      "published": "Tue, 11 Aug 2026 21:15:00 GMT"
+      "title": "Super Micro’s earnings report brings more good news, and the stock is climbing",
+      "url": "https://www.marketwatch.com/story/super-micros-earnings-report-brings-more-good-news-and-the-stock-is-climbing-30e5ca89?mod=mw_rss_topstories",
+      "published": "Wed, 12 Aug 2026 00:16:00 GMT"
     },
     {
       "source": "MarketWatch Top",
       "title": "Lumentum sees sales more than double as AI demand swells",
       "url": "https://www.marketwatch.com/story/lumentum-sees-sales-more-than-double-as-ai-demand-swells-6ebe6ef1?mod=mw_rss_topstories",
-      "published": "Tue, 11 Aug 2026 21:12:00 GMT"
+      "published": "Wed, 12 Aug 2026 00:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘The market is obviously on fire’: Should I take $1,000 from my brokerage account to pay off my car loan?",
-      "url": "https://www.marketwatch.com/story/the-market-is-obviously-on-fire-is-it-a-mistake-to-take-1-000-from-my-brokerage-account-to-pay-my-car-loan-65800d1f?mod=mw_rss_topstories",
-      "published": "Tue, 11 Aug 2026 21:00:00 GMT"
+      "title": "‘I unexpectedly came into some money’: Is putting $20,000 into CDs a smart move?",
+      "url": "https://www.marketwatch.com/story/i-unexpectedly-came-into-some-money-is-putting-20-000-into-cds-a-smart-move-6c410458?mod=mw_rss_topstories",
+      "published": "Tue, 11 Aug 2026 22:30:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Is $1 million enough for a household to retire? The answer keeps changing.",
+      "url": "https://www.marketwatch.com/story/is-1-million-enough-for-a-household-to-retire-the-answer-keeps-changing-aee84a83?mod=mw_rss_topstories",
+      "published": "Tue, 11 Aug 2026 22:00:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Energy Vault Q2 2026 slides: backlog doubles, AI wins accelerate",
-      "url": "https://www.investing.com/news/company-news/energy-vault-q2-2026-slides-backlog-doubles-ai-wins-accelerate-93CH-4852913",
-      "published": "2026-08-11 21:54:17"
+      "title": "Earnings call transcript: Evoke holds revenue steady in H1 2026 as duties bite",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-evoke-holds-revenue-steady-in-h1-2026-as-duties-bite-93CH-4853975",
+      "published": "2026-08-12 08:44:44"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: SES Q2 2026 revenue miss tempers margin gains",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-ses-q2-2026-revenue-miss-tempers-margin-gains-93CH-4852912",
-      "published": "2026-08-11 21:54:05"
+      "title": "Tata chair Chandrasekaran to step down after tension with controlling charity arm",
+      "url": "https://www.investing.com/news/stock-market-news/tata-sons-chandrasekaran-resigns-but-to-complete-term-source-says-4853682",
+      "published": "2026-08-12 08:43:09"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: ESS Tech Q2 2026 loss widens as Bridge ramps",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-ess-tech-q2-2026-loss-widens-as-bridge-ramps-93CH-4852911",
-      "published": "2026-08-11 21:53:44"
+      "title": "Why is Anadolu Efes stock sliding today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-anadolu-efes-stock-sliding-today-93CH-4853966",
+      "published": "2026-08-12 08:43:02"
     },
     {
       "source": "Investing.com News",
-      "title": "Polar Power issues convertible preferred stock and warrants in $999,700 private placement",
-      "url": "https://www.investing.com/news/sec-filings/polar-power-issues-convertible-preferred-stock-and-warrants-in-999700-private-placement-93CH-4852910",
-      "published": "2026-08-11 21:52:53"
+      "title": "Deutsche Konsum Q3 2026 slides: FFO surges amid restructuring",
+      "url": "https://www.investing.com/news/company-news/deutsche-konsum-q3-2026-slides-ffo-surges-amid-restructuring-93CH-4853952",
+      "published": "2026-08-12 08:41:46"
     },
     {
       "source": "Investing.com News",
-      "title": "Air Canada sells 25% stake in Aeroplan for $2.5 billion",
-      "url": "https://www.investing.com/news/company-news/air-canada-sells-25-stake-in-aeroplan-for-25-billion-93CH-4852909",
-      "published": "2026-08-11 21:52:32"
+      "title": "Earnings call transcript: Kamux Q2 2026 profit slips as diesel pressure bites",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-kamux-q2-2026-profit-slips-as-diesel-pressure-bites-93CH-4853951",
+      "published": "2026-08-12 08:41:38"
     },
     {
       "source": "Investing.com News",
-      "title": "SEC clears JFB-XTEND merger, closing set for September 1",
-      "url": "https://www.investing.com/news/company-news/sec-clears-jfbxtend-merger-closing-set-for-september-1-93CH-4852908",
-      "published": "2026-08-11 21:52:31"
+      "title": "Why is Gap stock sliding today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-gap-stock-sliding-today-93CH-4853950",
+      "published": "2026-08-12 08:40:56"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "The Chinese AI Model Rattling Silicon Valley and Washington",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-11/the-chinese-ai-model-rattling-silicon-valley-and-washington",
-      "published": "Tue, 11 Aug 2026 22:00:04 GMT"
+      "title": "Korea to Require Mock Trading for Single-Stock Leveraged ETFs",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-12/korea-to-require-mock-trading-for-single-stock-leveraged-etfs",
+      "published": "Wed, 12 Aug 2026 08:27:41 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Bitwise Cuts 14% of Jobs With Crypto Industry Under Pressure",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-11/bitwise-cuts-14-of-jobs-with-crypto-industry-under-pressure",
-      "published": "Tue, 11 Aug 2026 21:57:52 GMT"
+      "title": "JPY/USD: Why Yen Intervention by Japan and US Has Limited Impact",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-12/jpy-usd-why-yen-intervention-by-japan-and-us-has-limited-impact",
+      "published": "Wed, 12 Aug 2026 08:19:59 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Pakistan Says Deal Is Close Even as Iran, US Harden Stances",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-11/iran-hormuz-strait-to-remain-shut-until-conditions-met-video",
-      "published": "Tue, 11 Aug 2026 21:34:44 GMT"
+      "title": "Solar Eclipse to Flip the Off Switch on Europe’s Solar Farms",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-11/a-solar-eclipse-will-flip-the-off-switch-on-europe-s-solar-farms",
+      "published": "Tue, 11 Aug 2026 16:20:31 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Fmr. FDA, CDC Official on Cyclospora, Food Safety Issues",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-11/fmr-fda-cdc-official-on-cyclospora-food-safety-issues-video",
-      "published": "Tue, 11 Aug 2026 21:31:34 GMT"
+      "title": "Machinery Maker DMG Mori Seeks $300 Million in Japan Share Sale",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-12/machinery-maker-dmg-mori-seeks-300-million-in-japan-share-sale",
+      "published": "Wed, 12 Aug 2026 07:45:11 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Deep Dive Into The US' Critical Minerals Investment",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-11/deep-dive-into-the-us-critical-minerals-investment-video",
-      "published": "Tue, 11 Aug 2026 21:24:34 GMT"
+      "title": "US Yields Will Go Much Higher Next Year: 3-Minutes MLIV",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-12/us-yields-will-go-much-higher-next-year-3-minutes-mliv-video",
+      "published": "Wed, 12 Aug 2026 07:44:48 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Yen Inches Toward 160 Per Dollar, Raising Intervention Concerns",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-11/yen-slides-toward-160-per-dollar-raising-intervention-concerns",
-      "published": "Tue, 11 Aug 2026 10:03:19 GMT"
+      "title": "Activist Elliott Names Candidates for Board of Northern Star",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-12/activist-investor-elliott-demands-board-revamp-at-northern-star",
+      "published": "Wed, 12 Aug 2026 06:06:49 GMT"
     }
   ],
   "summary": {
