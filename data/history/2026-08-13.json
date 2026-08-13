@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-08-13 07:09 KST",
+  "as_of_kst": "2026-08-13 17:51 KST",
   "as_of_date": "2026-08-13",
   "as_of_weekday": "THU",
-  "build_unix": 1786572583,
+  "build_unix": 1786611082,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 6345.53,
-      "change": 45.87,
-      "change_pct": 0.73,
+      "price": 6813.34,
+      "change": 234.3,
+      "change_pct": 3.56,
       "spark": [
-        6598.26,
-        6296.38,
         6258.77,
         6299.66,
-        6345.53
+        6345.53,
+        6579.04,
+        6813.34
       ],
-      "as_of": "2026-08-11"
+      "as_of": "2026-08-13"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 66970.22,
-      "change": 1363.51,
-      "change_pct": 2.08,
+      "price": 68308.59,
+      "change": 784.53,
+      "change_pct": 1.16,
       "spark": [
-        63957.53,
-        66300.44,
         65683.26,
         65606.71,
-        66970.22
+        66970.22,
+        67524.06,
+        68308.59
       ],
-      "as_of": "2026-08-12"
+      "as_of": "2026-08-13"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 25652.82,
-      "change": -284.67,
-      "change_pct": -1.1,
+      "price": 25396.51,
+      "change": -43.66,
+      "change_pct": -0.17,
       "spark": [
-        25915.82,
-        25530.28,
         25668.03,
         25937.49,
-        25652.82
+        25652.82,
+        25440.17,
+        25396.51
       ],
-      "as_of": "2026-08-12"
+      "as_of": "2026-08-13"
     },
     "ftse": {
       "key": "ftse",
@@ -118,17 +118,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10833.15,
-      "change": -11.05,
-      "change_pct": -0.1,
+      "price": 10803.27,
+      "change": -29.93,
+      "change_pct": -0.28,
       "spark": [
-        10867.9,
         10901.1,
         10862.5,
         10844.2,
-        10833.15
+        10833.2,
+        10803.27
       ],
-      "as_of": "2026-08-12"
+      "as_of": "2026-08-13"
     },
     "dax": {
       "key": "dax",
@@ -136,50 +136,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 26391.42,
-      "change": 67.54,
-      "change_pct": 0.26,
+      "price": 26445.33,
+      "change": 114.26,
+      "change_pct": 0.43,
       "spark": [
-        26126.3,
-        26140.13,
         26319.45,
         26323.88,
-        26391.42
+        26391.42,
+        26331.07,
+        26445.33
       ],
-      "as_of": "2026-08-12"
+      "as_of": "2026-08-13"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1416.86,
+      "rate": 1422.78,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 159.43,
+      "rate": 159.39,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1527,
+      "rate": 1.1531,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.736,
+      "rate": 6.743,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 99.99,
-      "change": 0.17,
-      "change_pct": 0.17,
+      "rate": 99.98,
+      "change": -0.03,
+      "change_pct": -0.03,
       "kind": "index"
     }
   },
@@ -189,27 +189,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 82.58,
-      "change": -0.62,
-      "change_pct": -0.75
+      "price": 81.67,
+      "change": -1.6,
+      "change_pct": -1.92
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4469.0,
-      "change": 86.0,
-      "change_pct": 1.96
+      "price": 4431.1,
+      "change": 22.2,
+      "change_pct": 0.5
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 63407.1,
-      "change": -144.77,
-      "change_pct": -0.23
+      "price": 63708.9,
+      "change": 306.46,
+      "change_pct": 0.48
     },
     "ust10y": {
       "key": "ust10y",
@@ -225,9 +225,9 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 14.55,
-      "change": -0.73,
-      "change_pct": -4.78
+      "price": 14.69,
+      "change": 0.14,
+      "change_pct": 0.96
     }
   },
   "headlines_raw": [
@@ -236,6 +236,12 @@
       "title": "Everything is going right for the financials sector. Why that is",
       "url": "https://www.cnbc.com/2026/08/12/everything-is-going-right-for-the-financials-sector-why-that-is.html",
       "published": "Wed, 12 Aug 2026 20:01:52 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Thursday's big stock stories: What’s likely to move the market in the next trading session",
+      "url": "https://www.cnbc.com/2026/08/12/thursdays-big-stock-stories-whats-likely-to-move-the-market.html",
+      "published": "Wed, 12 Aug 2026 23:30:28 GMT"
     },
     {
       "source": "CNBC Markets",
@@ -262,12 +268,6 @@
       "published": "Wed, 12 Aug 2026 14:29:52 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "Investors poured $2.3 billion into this riskier corner of the bond market in July",
-      "url": "https://www.cnbc.com/2026/08/11/investors-poured-2point3-billion-into-this-riskier-corner-of-the-bond-market-in-july.html",
-      "published": "Tue, 11 Aug 2026 19:12:11 GMT"
-    },
-    {
       "source": "Yahoo Finance",
       "title": "Bank of America sends blunt message to Nvidia stock investors",
       "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-sends-blunt-message-174700491.html",
@@ -275,141 +275,141 @@
     },
     {
       "source": "Yahoo Finance",
-      "title": "Trump says 401(k)s are up ‘double and triple’ as America enters golden age — are you all set to get rich?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/trump-says-401-k-double-141000644.html",
-      "published": "2026-08-11T14:10:00Z"
+      "title": "Argus Just Upgraded Boeing Stock. Here's Why.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/argus-just-upgraded-boeing-stock-203316133.html",
+      "published": "2026-08-11T20:33:16Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Unlocking Alibaba’s (BABA) Transformation Beyond Distribution",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/unlocking-alibaba-baba-transformation-beyond-140836873.html",
-      "published": "2026-08-11T14:08:36Z"
+      "title": "Stock Market Today: Dow Skids, Oil Pops As Iran Says This On Hormuz; SpaceX Shares Take A Dive (Live Coverage)",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-trump-us-iran-spacex-rocket-lab-rklb/?src=A00220&yptr=yahoo",
+      "published": "2026-08-11T20:32:59Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Are Wall Street Analysts Predicting Fastenal Stock Will Climb or Sink?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-predicting-fastenal-140622245.html",
-      "published": "2026-08-11T14:06:22Z"
+      "title": "What is a good savings account interest rate in 2026?",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/what-is-a-good-savings-account-interest-rate-173915779.html",
+      "published": "2024-03-21T17:39:15Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Hedge Funds are Bullish on AstraZeneca PLC (AZN)",
-      "url": "https://finance.yahoo.com/healthcare/articles/hedge-funds-bullish-astrazeneca-plc-140427321.html",
-      "published": "2026-08-11T14:04:27Z"
+      "title": "Ambiq Micro Stock Rises On Chipmaker's Beat-And-Raise Report",
+      "url": "https://www.investors.com/news/technology/ambiq-micro-stock-ambq-q2-2026-earnings/?src=A00220&yptr=yahoo",
+      "published": "2026-08-11T20:39:26Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Market Update: BTI, MCHP, APTV, TWLO, CAVA",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_47898_MarketUpdate_1786560461000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "published": "2026-08-12T18:47:41Z"
+      "title": "AARP issues urgent call on Medicare drug costs",
+      "url": "https://finance.yahoo.com/healthcare/articles/aarp-issues-urgent-call-medicare-221700862.html",
+      "published": "2026-08-12T22:17:00Z"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Can I claim 50% of my husband’s Social Security now — and switch to my higher benefit at 70?",
-      "url": "https://www.marketwatch.com/story/can-i-claim-50-of-my-husbands-social-security-now-and-switch-to-my-higher-benefit-at-70-5518700b?mod=mw_rss_topstories",
-      "published": "Wed, 12 Aug 2026 22:00:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Super Micro gives a big sales forecast, but analysts wonder how long the momentum can last",
-      "url": "https://www.marketwatch.com/story/super-micro-stock-is-rallying-after-results-heres-what-wall-street-is-saying-631e9253?mod=mw_rss_topstories",
-      "published": "Wed, 12 Aug 2026 22:00:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "SpaceX’s stock is getting a Grok-fueled boost",
-      "url": "https://www.marketwatch.com/story/spacexs-stock-is-getting-a-grok-fueled-boost-e99497b4?mod=mw_rss_topstories",
-      "published": "Wed, 12 Aug 2026 21:59:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Alphabet’s stock slips as Nvidia’s $500 billion financing deal threatens custom chips",
-      "url": "https://www.marketwatch.com/story/alphabets-stock-slips-as-nvidias-500-billion-financing-deal-threatens-custom-chips-c4166a59?mod=mw_rss_topstories",
-      "published": "Wed, 12 Aug 2026 21:55:00 GMT"
+      "title": "Lenovo profits soar past expectations on AI computers, servers and services",
+      "url": "https://www.marketwatch.com/story/lenovo-profits-soar-past-expectations-on-ai-computers-servers-and-services-162e11e6?mod=mw_rss_topstories",
+      "published": "Thu, 13 Aug 2026 07:20:00 GMT"
     },
     {
       "source": "MarketWatch Top",
       "title": "Cisco sees record results from an AI ‘supercycle,’ but its stock pulls back",
       "url": "https://www.marketwatch.com/story/cisco-sees-record-results-from-an-ai-supercycle-but-its-stock-pulls-back-2635b81a?mod=mw_rss_topstories",
-      "published": "Wed, 12 Aug 2026 21:19:00 GMT"
+      "published": "Thu, 13 Aug 2026 01:16:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Goldman’s latest deal underscores how ‘boomer candy’ ETFs are now big business on Wall Street",
-      "url": "https://www.marketwatch.com/story/goldmans-latest-deal-underscores-how-boomer-candy-etfs-are-now-big-business-on-wall-street-5520109d?mod=mw_rss_topstories",
-      "published": "Wed, 12 Aug 2026 21:12:00 GMT"
+      "title": "My wife can claim $900 at 62. Should she take it now — or wait for her spousal benefit?",
+      "url": "https://www.marketwatch.com/story/i-want-her-to-choose-the-best-strategy-my-wifes-social-security-is-just-900-should-she-claim-spousal-benefit-at-62-e3ef621d?mod=mw_rss_topstories",
+      "published": "Thu, 13 Aug 2026 01:00:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "I found a $100 bill in the communal washer at my Airbnb. What should I do?",
+      "url": "https://www.marketwatch.com/story/im-dreaming-of-cocktails-at-chateau-marmont-i-found-100-in-my-airbnbs-communal-washer-what-should-i-do-9694ecca?mod=mw_rss_topstories",
+      "published": "Thu, 13 Aug 2026 00:45:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "‘The market is obviously on fire’: Should I take $1,000 from my brokerage account to pay off my car loan?",
+      "url": "https://www.marketwatch.com/story/the-market-is-obviously-on-fire-is-it-a-mistake-to-take-1-000-from-my-brokerage-account-to-pay-my-car-loan-65800d1f?mod=mw_rss_topstories",
+      "published": "Thu, 13 Aug 2026 00:30:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Is $1 million enough for a household to retire? The answer keeps changing.",
+      "url": "https://www.marketwatch.com/story/is-1-million-enough-for-a-household-to-retire-the-answer-keeps-changing-aee84a83?mod=mw_rss_topstories",
+      "published": "Thu, 13 Aug 2026 00:00:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Harmonic Q2 2026 slides: broadband transformation drives 54% growth",
-      "url": "https://www.investing.com/news/company-news/harmonic-q2-2026-slides-broadband-transformation-drives-54-growth-93CH-4856365",
-      "published": "2026-08-12 22:04:54"
+      "title": "Why is Virgin Galactic stock sliding today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-virgin-galactic-stock-sliding-today-93CH-4856915",
+      "published": "2026-08-13 08:46:26"
     },
     {
       "source": "Investing.com News",
-      "title": "Stem Q2 2026 slides: margins hit record despite revenue decline",
-      "url": "https://www.investing.com/news/company-news/stem-q2-2026-slides-margins-hit-record-despite-revenue-decline-93CH-4856364",
-      "published": "2026-08-12 22:04:30"
+      "title": "Earnings call transcript: FINEOS H1 2026 profit rises as recurring revenue grows",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-fineos-h1-2026-profit-rises-as-recurring-revenue-grows-93CH-4856914",
+      "published": "2026-08-13 08:45:43"
     },
     {
       "source": "Investing.com News",
-      "title": "Midea America names Justin Reinke as new president",
-      "url": "https://www.investing.com/news/company-news/midea-america-names-justin-reinke-as-new-president-93CH-4856363",
-      "published": "2026-08-12 22:04:26"
+      "title": "Shelly H1 2026 slides: profit surges 46% on margin gains, installer growth",
+      "url": "https://www.investing.com/news/company-news/shelly-h1-2026-slides-profit-surges-46-on-margin-gains-installer-growth-93CH-4856913",
+      "published": "2026-08-13 08:45:26"
     },
     {
       "source": "Investing.com News",
-      "title": "flyExclusive Q2 2026 slides: revenue beats, profitability inflection",
-      "url": "https://www.investing.com/news/company-news/flyexclusive-q2-2026-slides-revenue-beats-profitability-inflection-93CH-4856362",
-      "published": "2026-08-12 22:04:00"
+      "title": "Earnings call transcript: Moreld posts strong Q2 2026 rebound as stock nears high",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-moreld-posts-strong-q2-2026-rebound-as-stock-nears-high-93CH-4856906",
+      "published": "2026-08-13 08:44:53"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: Hyperion DeFi posts record Q2 2026 profit on HYPE gains",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-hyperion-defi-posts-record-q2-2026-profit-on-hype-gains-93CH-4856361",
-      "published": "2026-08-12 22:03:51"
+      "title": "Earnings call transcript: OHLA posts stronger H1 2026 margins as legal risks ease",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-ohla-posts-stronger-h1-2026-margins-as-legal-risks-ease-93CH-4856905",
+      "published": "2026-08-13 08:42:08"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: Spire Global posts mixed Q2 2026 results as stock falls",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-spire-global-posts-mixed-q2-2026-results-as-stock-falls-93CH-4856360",
-      "published": "2026-08-12 22:02:39"
+      "title": "Axactor Q2 2026 slides: EUR 320m revaluation, balance sheet rebuilt",
+      "url": "https://www.investing.com/news/company-news/axactor-q2-2026-slides-eur-320m-revaluation-balance-sheet-rebuilt-93CH-4856897",
+      "published": "2026-08-13 08:41:53"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "ANZ Profit Rises on Deposit Growth, Expansion in Business Loans",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-12/anz-profit-rises-on-deposit-growth-expansion-in-business-loans",
-      "published": "Wed, 12 Aug 2026 21:42:51 GMT"
+      "title": "Lenovo’s AI-Driven Revenue Boost Sends Stock to New Record",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-13/lenovo-shares-surge-19-after-revenue-beat-renews-ai-optimism",
+      "published": "Thu, 13 Aug 2026 05:47:26 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Kushner, Iger Buy Lakers for Record-Breaking $12.5 Billion",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-12/kushner-iger-buy-lakers-for-record-12-5-billion-video",
-      "published": "Wed, 12 Aug 2026 21:39:45 GMT"
+      "title": "CK Hutchison Profit Jumps Sharply on Oil, Retail Strength",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-13/ck-hutchison-profit-jumps-sharply-on-oil-retail-strength",
+      "published": "Thu, 13 Aug 2026 08:35:53 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Indonesian Tech Firm GoTo Cut From MSCI Indexes in Review",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-12/indonesian-tech-firm-goto-cut-from-msci-indexes-in-review",
-      "published": "Wed, 12 Aug 2026 21:36:12 GMT"
+      "title": "Trucking Is Booming Again, And Drivers Aren't Happy About It",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-13/trucking-is-booming-again-and-drivers-aren-t-happy-video",
+      "published": "Thu, 13 Aug 2026 08:10:38 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Singer Vehicle Founder on Louis Vuitton Partnership",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-12/singer-vehicle-founder-on-louis-vuitton-partnership-video",
-      "published": "Wed, 12 Aug 2026 21:35:10 GMT"
+      "title": "Adyen Soars Most in Year After Acquisitions Boost Sales Outlook",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-13/adyen-boosts-revenue-outlook-as-clients-process-more-payments",
+      "published": "Thu, 13 Aug 2026 05:40:52 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "S&P 500 Closes Near Record High on Tame Inflation: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-11/stock-market-today-dow-s-p-live-updates",
-      "published": "Tue, 11 Aug 2026 22:07:25 GMT"
+      "title": "Trucking Is Booming Again, And Drivers Aren’t Happy About It",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-13/trucking-is-booming-again-and-drivers-aren-t-happy-about-it",
+      "published": "Thu, 13 Aug 2026 08:00:16 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Former CDC Official on the Cyclospora Outbreak",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-12/former-cdc-official-on-the-cyclospora-outbreak-video",
-      "published": "Wed, 12 Aug 2026 21:30:45 GMT"
+      "title": "Odd Lots: Trucking Is Booming But Drivers Aren’t Happy (Podcast)",
+      "url": "https://www.bloomberg.com/news/audio/2026-08-13/odd-lots-trucking-is-booming-but-drivers-aren-t-happy-podcast",
+      "published": "Thu, 13 Aug 2026 08:00:00 GMT"
     }
   ],
   "summary": {
