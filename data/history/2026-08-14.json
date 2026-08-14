@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-08-14 07:09 KST",
+  "as_of_kst": "2026-08-14 17:45 KST",
   "as_of_date": "2026-08-14",
   "as_of_weekday": "FRI",
-  "build_unix": 1786658986,
+  "build_unix": 1786697119,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 6579.04,
-      "change": 233.51,
-      "change_pct": 3.68,
+      "price": 6977.94,
+      "change": 164.6,
+      "change_pct": 2.42,
       "spark": [
-        6296.38,
-        6258.77,
         6299.66,
         6345.53,
-        6579.04
+        6579.04,
+        6813.34,
+        6977.94
       ],
-      "as_of": "2026-08-12"
+      "as_of": "2026-08-14"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 67524.06,
-      "change": 553.84,
-      "change_pct": 0.83,
+      "price": 68713.8,
+      "change": 405.2,
+      "change_pct": 0.59,
       "spark": [
-        66300.44,
-        65683.26,
         65606.71,
         66970.22,
-        67524.06
+        67524.06,
+        68308.59,
+        68713.8
       ],
-      "as_of": "2026-08-13"
+      "as_of": "2026-08-14"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 25440.17,
-      "change": -212.65,
-      "change_pct": -0.83,
+      "price": 25116.85,
+      "change": -279.66,
+      "change_pct": -1.1,
       "spark": [
-        25530.28,
-        25668.03,
         25937.49,
         25652.82,
-        25440.17
+        25440.17,
+        25396.51,
+        25116.85
       ],
-      "as_of": "2026-08-13"
+      "as_of": "2026-08-14"
     },
     "ftse": {
       "key": "ftse",
@@ -118,17 +118,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10772.67,
-      "change": -60.53,
-      "change_pct": -0.56,
+      "price": 10740.83,
+      "change": -31.87,
+      "change_pct": -0.3,
       "spark": [
-        10901.1,
         10862.5,
         10844.2,
         10833.2,
-        10772.67
+        10772.7,
+        10740.83
       ],
-      "as_of": "2026-08-13"
+      "as_of": "2026-08-14"
     },
     "dax": {
       "key": "dax",
@@ -136,50 +136,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 26331.07,
-      "change": -60.35,
-      "change_pct": -0.23,
+      "price": 26419.0,
+      "change": 119.26,
+      "change_pct": 0.45,
       "spark": [
-        26140.13,
-        26319.45,
         26323.88,
         26391.42,
-        26331.07
+        26331.07,
+        26299.74,
+        26419.0
       ],
-      "as_of": "2026-08-13"
+      "as_of": "2026-08-14"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1418.21,
+      "rate": 1412.5601,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 159.47,
+      "rate": 159.33,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1534,
+      "rate": 1.1558,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7423,
+      "rate": 6.7409,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 99.97,
-      "change": -0.04,
-      "change_pct": -0.04,
+      "rate": 99.74,
+      "change": -0.22,
+      "change_pct": -0.23,
       "kind": "index"
     }
   },
@@ -189,27 +189,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 81.21,
-      "change": -2.06,
-      "change_pct": -2.47
+      "price": 82.51,
+      "change": 1.26,
+      "change_pct": 1.55
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4407.1,
-      "change": -1.8,
-      "change_pct": -0.04
+      "price": 4400.7,
+      "change": 37.1,
+      "change_pct": 0.85
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 63500.76,
-      "change": 98.33,
-      "change_pct": 0.16
+      "price": 62747.82,
+      "change": -654.35,
+      "change_pct": -1.03
     },
     "ust10y": {
       "key": "ust10y",
@@ -226,11 +226,17 @@
       "name": "VIX",
       "unit": "",
       "price": 14.63,
-      "change": 0.08,
-      "change_pct": 0.55
+      "change": 0.0,
+      "change_pct": 0.0
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Friday's big stock stories: What’s likely to move the market in the next trading session",
+      "url": "https://www.cnbc.com/2026/08/13/fridays-big-stock-stories-whats-likely-to-move-the-market.html",
+      "published": "Thu, 13 Aug 2026 22:56:04 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "These charts show why stocks keep rallying. Profit margins are the highest on record",
@@ -262,18 +268,6 @@
       "published": "Thu, 13 Aug 2026 14:31:42 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "Retailer Five Below has surged this year thanks to viral squishy toys. Jefferies sees more gains ahead",
-      "url": "https://www.cnbc.com/2026/08/13/five-has-surged-this-year-thanks-to-viral-squishy-toys-jefferies-sees-more-gains-ahead.html",
-      "published": "Thu, 13 Aug 2026 11:41:08 GMT"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Bank of America sends blunt message to Nvidia stock investors",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-sends-blunt-message-174700491.html",
-      "published": "2026-08-12T17:47:00Z"
-    },
-    {
       "source": "Yahoo Finance",
       "title": "AARP issues urgent call on Medicare drug costs",
       "url": "https://finance.yahoo.com/healthcare/articles/aarp-issues-urgent-call-medicare-221700862.html",
@@ -281,27 +275,51 @@
     },
     {
       "source": "Yahoo Finance",
-      "title": "Berkshire Hathaway Just Gave Investors a Clue About When to Buy the Stock",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-just-gave-investors-143052189.html",
-      "published": "2026-08-12T14:30:52Z"
+      "title": "National Vision Holdings, Inc. Q2 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/national-vision-holdings-inc-q2-211927322.html",
+      "published": "2026-08-12T21:19:27Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Joby Aviation Makes Push Into Defense With $500 Million Acquisition. What It Means for JOBY Stock.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/joby-aviation-makes-push-defense-143002263.html",
-      "published": "2026-08-12T14:30:02Z"
+      "title": "T1 Energy Inc Q2 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/energy/articles/t1-energy-inc-q2-2026-211739838.html",
+      "published": "2026-08-12T21:17:39Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Operational Traction Restores Investors’ Confidence in Cracker Barrel Old Country Store (CBRL)",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/operational-traction-restores-investors-confidence-142809528.html",
-      "published": "2026-08-12T14:28:09Z"
+      "title": "Paramount Skydance (PSKY) Insiders Retain Stakes Despite Tax Sales",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/paramount-skydance-psky-executives-sold-211643420.html",
+      "published": "2026-08-12T21:16:43Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "IBD 50 Stocks To Watch: Obesity Drug Giant Eli Lilly Offers New Buy Point",
-      "url": "https://www.investors.com/research/eli-lilly-stock-lly-buy-point/?src=A00220&yptr=yahoo",
-      "published": "2026-08-12T14:29:08Z"
+      "title": "Avino Silver & Gold Mines Ltd. Q2 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/avino-silver-gold-mines-ltd-212045885.html",
+      "published": "2026-08-12T21:20:45Z"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Are Altruist's technology and low fees enough to tame the giants?",
+      "url": "https://finance.yahoo.com/technology/articles/altruists-technology-low-fees-enough-211636333.html",
+      "published": "2026-08-12T21:16:36Z"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Reddit is joining the S&P 500 after months of speculation. Analysts have these concerns.",
+      "url": "https://www.marketwatch.com/story/reddit-is-joining-the-s-p-500-after-months-of-speculation-analysts-have-these-concerns-21f81f77?mod=mw_rss_topstories",
+      "published": "Fri, 14 Aug 2026 00:19:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "‘My wife and I are both retired’: Should we dip into our $2.3 million investments to pay off our 2.9% $300,000 mortgage?",
+      "url": "https://www.marketwatch.com/story/my-wife-and-i-are-both-retired-do-we-dip-into-our-2-3-million-fund-to-pay-off-our-300-000-mortgage-at-2-9-2d23d1df?mod=mw_rss_topstories",
+      "published": "Thu, 13 Aug 2026 22:31:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Dell’s stock has beaten Micron and AMD this year — and now it’s adding to its gains",
+      "url": "https://www.marketwatch.com/story/dells-stock-has-beaten-micron-and-amd-this-year-and-now-its-adding-to-its-gains-11c00117?mod=mw_rss_topstories",
+      "published": "Thu, 13 Aug 2026 22:09:00 GMT"
     },
     {
       "source": "MarketWatch Top",
@@ -322,94 +340,76 @@
       "published": "Thu, 13 Aug 2026 22:05:00 GMT"
     },
     {
-      "source": "MarketWatch Top",
-      "title": "‘It feels like a medical miracle’: How did a single QR code coupon cut my $618 Walgreens prescription to $15?",
-      "url": "https://www.marketwatch.com/story/it-feels-like-a-medical-miracle-how-did-a-single-qr-code-coupon-cut-my-618-walgreens-prescription-to-15-524a1151?mod=mw_rss_topstories",
-      "published": "Thu, 13 Aug 2026 22:00:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "I found a $100 bill in the communal washer at my Airbnb. What should I do?",
-      "url": "https://www.marketwatch.com/story/im-dreaming-of-cocktails-at-chateau-marmont-i-found-100-in-my-airbnbs-communal-washer-what-should-i-do-9694ecca?mod=mw_rss_topstories",
-      "published": "Thu, 13 Aug 2026 22:00:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Workday’s stock sees a record surge. Could a buyout spark a software revival?",
-      "url": "https://www.marketwatch.com/story/workdays-stock-sees-a-record-surge-could-a-buyout-spark-a-software-revival-f2bd9219?mod=mw_rss_topstories",
-      "published": "Thu, 13 Aug 2026 21:34:00 GMT"
+      "source": "Investing.com News",
+      "title": "ZenaTech’s ZenaDrone Begins In-House PCB Flight Tests, Advancing Toward NDAA-Compliant Blue UAS Certification",
+      "url": "https://www.investing.com/news/press-releases/zenatechs-zenadrone-begins-inhouse-pcb-flight-tests-advancing-toward-ndaacompliant-blue-uas-certification-4859966",
+      "published": "2026-08-14 08:31:28"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: Digimarc beats Q2 2026 estimates but shares fall",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-digimarc-beats-q2-2026-estimates-but-shares-fall-93CH-4859446",
-      "published": "2026-08-13 21:59:05"
+      "title": "Unicycive Therapeutics Announces Second Quarter 2026 Financial Results and Provides Business Update",
+      "url": "https://www.investing.com/news/press-releases/unicycive-therapeutics-announces-second-quarter-2026-financial-results-and-provides-business-update-4859964",
+      "published": "2026-08-14 08:31:27"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: KinderCare Learning Q2 2026 miss sparks sharp selloff",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-kindercare-learning-q2-2026-miss-sparks-sharp-selloff-93CH-4859445",
-      "published": "2026-08-13 21:59:03"
+      "title": "Safe Pro Group and the U.S. Army Enter Cooperative Research and Development Agreement for Unified Intelligence",
+      "url": "https://www.investing.com/news/press-releases/safe-pro-group-and-the-us-army-enter-cooperative-research-and-development-agreement-for-unified-intelligence-4859965",
+      "published": "2026-08-14 08:31:27"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: Applied Materials beats Q3 2026 estimates, shares fall",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-applied-materials-beats-q3-2026-estimates-shares-fall-93CH-4859444",
-      "published": "2026-08-13 21:58:55"
+      "title": "Algorhythm Holdings to Announce its Financial Results for the Second Quarter of 2026",
+      "url": "https://www.investing.com/news/press-releases/algorhythm-holdings-to-announce-its-financial-results-for-the-second-quarter-of-2026-4859961",
+      "published": "2026-08-14 08:31:26"
     },
     {
       "source": "Investing.com News",
-      "title": "Caliber Q2 2026 slides: tokenization push amid revenue headwinds",
-      "url": "https://www.investing.com/news/company-news/caliber-q2-2026-slides-tokenization-push-amid-revenue-headwinds-93CH-4859443",
-      "published": "2026-08-13 21:57:51"
+      "title": "Rocket Doctor Expands In-Network Access for More Than 100,000 Additional Eligible Members in New York",
+      "url": "https://www.investing.com/news/press-releases/rocket-doctor-expands-innetwork-access-for-more-than-100000-additional-eligible-members-in-new-york-4859962",
+      "published": "2026-08-14 08:31:26"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: TSS Inc. misses Q2 2026 revenue forecast, shares sink",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-tss-inc-misses-q2-2026-revenue-forecast-shares-sink-93CH-4859442",
-      "published": "2026-08-13 21:57:09"
-    },
-    {
-      "source": "Investing.com News",
-      "title": "Openlane completes $274.9 million secondary offering, company repurchases shares",
-      "url": "https://www.investing.com/news/sec-filings/openlane-completes-2749-million-secondary-offering-company-repurchases-shares-93CH-4859440",
-      "published": "2026-08-13 21:56:48"
+      "title": "CitroTech Provides Q2 2026 Business Update in Letter to Shareholders",
+      "url": "https://www.investing.com/news/press-releases/citrotech-provides-q2-2026-business-update-in-letter-to-shareholders-4859963",
+      "published": "2026-08-14 08:31:26"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "SEC Delays Crypto Regulation Meeting in Latest Industry Setback",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-13/sec-delays-crypto-regulation-meeting-in-latest-industry-setback",
-      "published": "Thu, 13 Aug 2026 21:53:17 GMT"
+      "title": "A Historic El Niño Is Coming That Could Cost the World Trillions",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-14/a-historic-el-nino-could-cost-the-world-trillions-video",
+      "published": "Fri, 14 Aug 2026 08:12:50 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Judge Orders Kalshi to Stop Offering Most Wagers in Washington",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-13/judge-orders-kalshi-to-stop-offering-most-wagers-in-washington",
-      "published": "Thu, 13 Aug 2026 21:46:16 GMT"
+      "title": "Providence Agrees to Buy UK Property Valuation Provider Hometrack",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-14/providence-agrees-to-buy-uk-property-valuation-provider-hometrack",
+      "published": "Fri, 14 Aug 2026 08:07:44 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Yen Edges Toward 160 Despite Takaichi’s Support for BOJ Hike",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-13/yen-remains-on-160-watch-despite-takaichi-s-support-for-boj-hike",
-      "published": "Thu, 13 Aug 2026 09:29:56 GMT"
+      "title": "Stocks Churn as US Threats Against Iran Lift Crude: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-13/asian-stocks-set-for-gains-as-us-inflation-cools-markets-wrap",
+      "published": "Thu, 13 Aug 2026 22:10:41 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "NYC Pied-a-Terre Tax Can Proceed for Now, Appeals Court Says",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-13/nyc-pied-a-terre-tax-can-proceed-for-now-appeals-court-says",
-      "published": "Thu, 13 Aug 2026 19:48:50 GMT"
+      "title": "Odd Lots: A Historic El Niño That Could Cost Trillions (Podcast)",
+      "url": "https://www.bloomberg.com/news/audio/2026-08-14/odd-lots-a-historic-el-nino-that-could-cost-trillions-podcast",
+      "published": "Fri, 14 Aug 2026 08:00:00 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Gold Declines as Sliding Inflation Reinforces Fed Hold Bets",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-12/gold-steadies-after-tame-us-inflation-data-eases-rate-hike-bets",
-      "published": "Wed, 12 Aug 2026 23:14:51 GMT"
+      "title": "Ferrovial to End Amsterdam Listing as Trading Shifts to US",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-14/ferrovial-to-end-amsterdam-listing-as-trading-shifts-to-us",
+      "published": "Fri, 14 Aug 2026 06:13:14 GMT"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Why It’s So Hard to Measure the Economy’s Real Potential",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-08-13/why-it-s-so-hard-to-measure-the-economy-s-real-potential",
-      "published": "Thu, 13 Aug 2026 21:06:00 GMT"
+      "source": "FT Markets",
+      "title": "Karthik Sankaran on the case for yen intervention",
+      "url": "https://www.ft.com/content/8278a799-8289-47c3-8d53-72de93ededdc?syn-25a6b1a6=1",
+      "published": "Fri, 14 Aug 2026 05:30:03 GMT"
     }
   ],
   "summary": {
