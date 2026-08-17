@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-08-17 06:43 KST",
+  "as_of_kst": "2026-08-17 17:07 KST",
   "as_of_date": "2026-08-17",
   "as_of_weekday": "MON",
-  "build_unix": 1786916589,
+  "build_unix": 1786954043,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 68713.8,
-      "change": 405.2,
-      "change_pct": 0.59,
+      "price": 69220.25,
+      "change": 506.45,
+      "change_pct": 0.74,
       "spark": [
-        65606.71,
         66970.22,
         67524.06,
         68308.59,
-        68713.8
+        68713.8,
+        69220.25
       ],
-      "as_of": "2026-08-14"
+      "as_of": "2026-08-17"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 25116.85,
-      "change": -279.66,
-      "change_pct": -1.1,
+      "price": 25490.22,
+      "change": 373.37,
+      "change_pct": 1.49,
       "spark": [
-        25937.49,
         25652.82,
         25440.17,
         25396.51,
-        25116.85
+        25116.85,
+        25490.22
       ],
-      "as_of": "2026-08-14"
+      "as_of": "2026-08-17"
     },
     "ftse": {
       "key": "ftse",
@@ -118,17 +118,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10750.1,
-      "change": -22.6,
-      "change_pct": -0.21,
+      "price": 10786.91,
+      "change": 36.81,
+      "change_pct": 0.34,
       "spark": [
-        10862.5,
         10844.2,
         10833.2,
         10772.7,
-        10750.1
+        10750.1,
+        10786.91
       ],
-      "as_of": "2026-08-14"
+      "as_of": "2026-08-17"
     },
     "dax": {
       "key": "dax",
@@ -136,50 +136,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 26440.31,
-      "change": 140.57,
-      "change_pct": 0.53,
+      "price": 26481.72,
+      "change": 41.41,
+      "change_pct": 0.16,
       "spark": [
-        26323.88,
         26391.42,
         26331.07,
         26299.74,
-        26440.31
+        26440.31,
+        26481.72
       ],
-      "as_of": "2026-08-14"
+      "as_of": "2026-08-17"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1416.48,
+      "rate": 1411.72,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 159.31,
+      "rate": 159.43,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.157,
+      "rate": 1.1609,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7322,
+      "rate": 6.7377,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 99.67,
-      "change": -0.29,
-      "change_pct": -0.29,
+      "rate": 99.36,
+      "change": -0.31,
+      "change_pct": -0.31,
       "kind": "index"
     }
   },
@@ -189,27 +189,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 82.4,
-      "change": 1.15,
-      "change_pct": 1.42
+      "price": 82.1,
+      "change": -0.3,
+      "change_pct": -0.36
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4437.3,
-      "change": 73.7,
-      "change_pct": 1.69
+      "price": 4461.2,
+      "change": 80.8,
+      "change_pct": 1.84
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 62834.53,
-      "change": -189.79,
-      "change_pct": -0.3
+      "price": 63400.12,
+      "change": 581.47,
+      "change_pct": 0.93
     },
     "ust10y": {
       "key": "ust10y",
@@ -225,9 +225,9 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 14.25,
-      "change": -0.38,
-      "change_pct": -2.6
+      "price": 14.93,
+      "change": 0.68,
+      "change_pct": 4.77
     }
   },
   "headlines_raw": [
@@ -275,33 +275,39 @@
     },
     {
       "source": "Yahoo Finance",
-      "title": "NVIDIA’s $3 Billion Bet on the Power Behind AI",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-3-billion-bet-power-202314612.html",
-      "published": "2026-08-16T20:23:14Z"
+      "title": "Morgan Stanley sends a blunt Tesla message to investors",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-sends-blunt-tesla-010300423.html",
+      "published": "2026-08-16T01:03:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Stellantis’ (STLA) Big Turnaround Bet Hits A North American Snag",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stellantis-stla-big-turnaround-bet-200858626.html",
-      "published": "2026-08-16T20:08:58Z"
+      "title": "Jim Cramer Was Happy The Market “Cared” About D-Wave Quantum – But Not How You Think",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-happy-market-cared-212804288.html",
+      "published": "2026-08-15T21:28:04Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Google’s (GOOGL) Latest AI Model Arrives Amid A Bigger Balancing Act",
-      "url": "https://finance.yahoo.com/technology/ai/articles/google-googl-latest-ai-model-194743447.html",
-      "published": "2026-08-16T19:47:43Z"
+      "title": "Jim Cramer Said DoorDash, Inc. (NASDAQ:DASH) Was Shorted On Uber Which Was A Bad Trade",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-said-doordash-inc-212910159.html",
+      "published": "2026-08-15T21:29:10Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Pony.ai (PONY) and Uber (UBER) Team Up For A Bigger Bet",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/pony-ai-pony-uber-uber-193130272.html",
-      "published": "2026-08-16T19:31:30Z"
+      "title": "Jim Cramer Didn’t Think Figma, Inc. (NYSE:FIG) Was Treated The Way It Should Have Been",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-didn-t-think-213003428.html",
+      "published": "2026-08-15T21:30:03Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Historic retailer gets lifeline after warning it could collapse",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/historic-retailer-gets-lifeline-warning-220700487.html",
-      "published": "2026-08-15T22:07:00Z"
+      "title": "Jim Cramer Was Worried About Potential Impact On Salesforce Inc. (NYSE:CRM)’s Dreamforce Conference",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-worried-potential-impact-213039883.html",
+      "published": "2026-08-15T21:30:39Z"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "U.S. stock futures little changed as investors ponder the Fed’s next move",
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-little-changed-as-investors-ponder-the-feds-next-move-27bcbea4?mod=mw_rss_topstories",
+      "published": "Mon, 17 Aug 2026 03:02:00 GMT"
     },
     {
       "source": "MarketWatch Top",
@@ -334,82 +340,76 @@
       "published": "Sun, 16 Aug 2026 13:00:00 GMT"
     },
     {
-      "source": "MarketWatch Top",
-      "title": "The Mediterranean diet is the best out there. Here’s why Americans struggle with it.",
-      "url": "https://www.marketwatch.com/story/the-mediterranean-diet-is-the-best-out-there-heres-why-americans-struggle-with-it-081f3fe7?mod=mw_rss_topstories",
-      "published": "Sun, 16 Aug 2026 12:00:00 GMT"
+      "source": "Investing.com News",
+      "title": "Earnings call transcript: HIAG posts strong H1 2026 profit growth as stock edges up",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-hiag-posts-strong-h1-2026-profit-growth-as-stock-edges-up-93CH-4862282",
+      "published": "2026-08-17 07:51:02"
     },
     {
       "source": "Investing.com News",
-      "title": "Nvidia’s neocloud funding could drive significant revenue stream - Morgan Stanley",
-      "url": "https://www.investing.com/news/company-news/nvidias-neocloud-funding-could-drive-significant-revenue-stream--morgan-stanley-4862014",
-      "published": "2026-08-16 21:21:34"
+      "title": "Why is Argen-X stock surging today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-argenx-stock-surging-today-93CH-4862279",
+      "published": "2026-08-17 07:49:14"
     },
     {
       "source": "Investing.com News",
-      "title": "Russia stocks lower at close of trade; MOEX Russia Index down 4.29%",
-      "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-down-429-4862013",
-      "published": "2026-08-16 21:20:03"
+      "title": "Taiwan’s president says record defence spending an investment in peace",
+      "url": "https://www.investing.com/news/economy-news/taiwan-president-says-record-defence-spending-is-investment-in-peace-4862224",
+      "published": "2026-08-17 07:48:26"
     },
     {
       "source": "Investing.com News",
-      "title": "New Zealand’s a2 Milk posts 44% fall in full-year profit",
-      "url": "https://www.investing.com/news/stock-market-news/new-zealands-a2-milk-posts-44-fall-in-fullyear-profit-4862012",
-      "published": "2026-08-16 21:06:26"
+      "title": "Mink Brook Asset Management boosts DLH Holdings stake with $9,431 stock buy",
+      "url": "https://www.investing.com/news/insider-trading-news/mink-brook-asset-management-boosts-dlh-holdings-stake-with-9431-stock-buy-93CH-4862278",
+      "published": "2026-08-17 07:46:15"
     },
     {
       "source": "Investing.com News",
-      "title": "Ferrari’s electric car Luce sells for $40 million at charity auction",
-      "url": "https://www.investing.com/news/company-news/ferraris-electric-car-luce-sells-for-40-million-at-charity-auction-4862011",
-      "published": "2026-08-16 20:51:14"
+      "title": "Why is TomTom stock sliding today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-tomtom-stock-sliding-today-93CH-4862277",
+      "published": "2026-08-17 07:46:02"
     },
     {
       "source": "Investing.com News",
-      "title": "Scholastic EVP, pres. CBG Sasha Quinton sells over $1.2m in stock",
-      "url": "https://www.investing.com/news/insider-trading-news/scholastic-evp-pres-cbg-sasha-quinton-sells-over-12m-in-stock-93CH-4862008",
-      "published": "2026-08-16 19:32:31"
-    },
-    {
-      "source": "Investing.com News",
-      "title": "SharkNinja CCO Neil Shah sells $5.5m in company stock",
-      "url": "https://www.investing.com/news/insider-trading-news/sharkninja-cco-neil-shah-sells-55m-in-company-stock-93CH-4862007",
-      "published": "2026-08-16 19:32:25"
+      "title": "Goldman Sachs reinstates Etsy stock coverage with neutral rating",
+      "url": "https://www.investing.com/news/analyst-ratings/goldman-sachs-reinstates-etsy-stock-coverage-with-neutral-rating-93CH-4862264",
+      "published": "2026-08-17 07:44:58"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "US 20-Year Bond Sale to Test Demand as Yield Curve Steepens",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-16/us-20-year-bond-sale-to-test-demand-as-yield-curve-steepens",
-      "published": "Sun, 16 Aug 2026 19:00:00 GMT"
+      "title": "Argenx Soars on Latest Trial Success for Autoimmune Drug Vyvgart",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-17/argenx-soars-on-latest-trial-success-for-autoimmune-drug-vyvgart",
+      "published": "Mon, 17 Aug 2026 08:03:36 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Bloomberg This Weekend | Meta on Trial, the Race To Replace Gov. DeSantis, and Pet Longevity",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-16/bloomberg-this-weekend-8-16-2026-video",
-      "published": "Sun, 16 Aug 2026 16:34:39 GMT"
+      "title": "How to Train AI Models After OpenAI-Hugging Face Hack",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-17/how-to-train-ai-models-after-openai-hugging-face-hack",
+      "published": "Mon, 17 Aug 2026 08:00:01 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Fed’s Internal Rate Debate Faces New Scrutiny",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-16/fed-s-internal-rate-debate-faces-new-scrutiny-video",
-      "published": "Sun, 16 Aug 2026 15:34:42 GMT"
+      "title": "Odd Lots: OpenAI, Hugging Face and the AI Danger (Podcast)",
+      "url": "https://www.bloomberg.com/news/audio/2026-08-17/odd-lots-openai-hugging-face-and-the-ai-danger-podcast",
+      "published": "Mon, 17 Aug 2026 08:00:00 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Inside the Business of Ultra Luxury Travel",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-16/inside-the-business-of-ultra-luxury-travel-video",
-      "published": "Sun, 16 Aug 2026 15:26:07 GMT"
+      "title": "Traders Get Pickier in Emerging-Market Inflation-Linked Debt",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-16/traders-get-pickier-after-big-run-in-886-billion-em-debt-market",
+      "published": "Sun, 16 Aug 2026 12:30:00 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Donalds Looks to Build on DeSantis Legacy",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-16/donalds-looks-to-build-on-desantis-legacy-video",
-      "published": "Sun, 16 Aug 2026 15:17:25 GMT"
+      "title": "Yes Bank Makes Bond Market Comeback Years After AT1 Write-Off",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-17/yes-bank-makes-bond-market-comeback-years-after-at1-write-off",
+      "published": "Mon, 17 Aug 2026 07:51:53 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Beef Prices Stay High as US Cattle Supply Shrinks",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-16/beef-prices-stay-high-as-us-cattle-supply-shrinks-video",
-      "published": "Sun, 16 Aug 2026 15:05:43 GMT"
+      "title": "Chinese Steel Output Tumbles as Economic Conditions Worsen",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-17/chinese-steel-production-tumbles-as-economic-conditions-worsen",
+      "published": "Mon, 17 Aug 2026 07:23:11 GMT"
     }
   ],
   "summary": {
