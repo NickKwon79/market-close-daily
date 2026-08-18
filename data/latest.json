@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-08-18 06:49 KST",
+  "as_of_kst": "2026-08-18 17:03 KST",
   "as_of_date": "2026-08-18",
   "as_of_weekday": "TUE",
-  "build_unix": 1787003373,
+  "build_unix": 1787040214,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -10,15 +10,15 @@
       "name": "S&P 500",
       "region": "USA",
       "kind": "broad",
-      "price": 7745.06,
-      "change": -40.7,
-      "change_pct": -0.52,
+      "price": 7785.76,
+      "change": -13.23,
+      "change_pct": -0.17,
       "spark": [
+        7753.11,
         7728.2,
         7748.5,
         7798.99,
-        7785.76,
-        7745.06
+        7785.76
       ],
       "as_of": "2026-08-17"
     },
@@ -28,15 +28,15 @@
       "name": "NASDAQ Composite",
       "region": "USA",
       "kind": "tech",
-      "price": 26644.91,
-      "change": -84.25,
-      "change_pct": -0.32,
+      "price": 26729.16,
+      "change": -73.87,
+      "change_pct": -0.28,
       "spark": [
+        26605.36,
         26445.45,
         26588.49,
         26803.03,
-        26729.16,
-        26644.91
+        26729.16
       ],
       "as_of": "2026-08-17"
     },
@@ -46,15 +46,15 @@
       "name": "Dow Jones 30",
       "region": "USA",
       "kind": "value",
-      "price": 53459.78,
-      "change": -272.63,
-      "change_pct": -0.51,
+      "price": 53732.41,
+      "change": -107.58,
+      "change_pct": -0.2,
       "spark": [
+        53975.98,
         53791.85,
         53770.27,
         53839.99,
-        53732.41,
-        53459.78
+        53732.41
       ],
       "as_of": "2026-08-17"
     },
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 6977.94,
-      "change": 164.6,
-      "change_pct": 2.42,
+      "price": 6869.83,
+      "change": -108.11,
+      "change_pct": -1.55,
       "spark": [
-        6299.66,
         6345.53,
         6579.04,
         6813.34,
-        6977.94
+        6977.94,
+        6869.83
       ],
-      "as_of": "2026-08-14"
+      "as_of": "2026-08-18"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 68713.8,
-      "change": 405.2,
-      "change_pct": 0.59,
+      "price": 67460.73,
+      "change": -1253.07,
+      "change_pct": -1.82,
       "spark": [
-        65606.71,
         66970.22,
         67524.06,
         68308.59,
-        68713.8
+        68713.8,
+        67460.73
       ],
-      "as_of": "2026-08-17"
+      "as_of": "2026-08-18"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 25116.85,
-      "change": -279.66,
-      "change_pct": -1.1,
+      "price": 25506.02,
+      "change": 389.17,
+      "change_pct": 1.55,
       "spark": [
-        25937.49,
         25652.82,
         25440.17,
         25396.51,
-        25116.85
+        25116.85,
+        25506.02
       ],
-      "as_of": "2026-08-17"
+      "as_of": "2026-08-18"
     },
     "ftse": {
       "key": "ftse",
@@ -118,17 +118,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10720.3,
-      "change": -29.8,
-      "change_pct": -0.28,
+      "price": 10726.55,
+      "change": -23.55,
+      "change_pct": -0.22,
       "spark": [
         10844.2,
         10833.2,
         10772.7,
         10750.1,
-        10720.3
+        10726.55
       ],
-      "as_of": "2026-08-17"
+      "as_of": "2026-08-18"
     },
     "dax": {
       "key": "dax",
@@ -136,50 +136,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 26338.61,
-      "change": -101.7,
-      "change_pct": -0.38,
+      "price": 26199.82,
+      "change": -240.49,
+      "change_pct": -0.91,
       "spark": [
         26391.42,
         26331.07,
         26299.74,
         26440.31,
-        26338.61
+        26199.82
       ],
-      "as_of": "2026-08-17"
+      "as_of": "2026-08-18"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1414.8101,
+      "rate": 1411.61,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 159.38,
+      "rate": 159.72,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1582,
+      "rate": 1.1575,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.731,
+      "rate": 6.742,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 99.58,
-      "change": -0.09,
-      "change_pct": -0.09,
+      "rate": 99.63,
+      "change": -0.04,
+      "change_pct": -0.04,
       "kind": "index"
     }
   },
@@ -189,48 +189,54 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 84.95,
-      "change": 2.55,
-      "change_pct": 3.09
+      "price": 84.4,
+      "change": -0.1,
+      "change_pct": -0.12
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4473.1,
-      "change": 92.7,
-      "change_pct": 2.12
+      "price": 4454.3,
+      "change": 36.5,
+      "change_pct": 0.83
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 64316.04,
-      "change": 1497.39,
-      "change_pct": 2.38
+      "price": 64115.88,
+      "change": -390.38,
+      "change_pct": -0.61
     },
     "ust10y": {
       "key": "ust10y",
       "symbol": "^TNX",
       "name": "10Y UST Yield",
       "unit": "%",
-      "price": 4.72,
-      "change": 0.03,
-      "change_pct": 0.6
+      "price": 4.7,
+      "change": 0.06,
+      "change_pct": 1.19
     },
     "vix": {
       "key": "vix",
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 15.19,
-      "change": 0.94,
-      "change_pct": 6.6
+      "price": 15.9,
+      "change": 1.65,
+      "change_pct": 11.58
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Tuesday's big stock stories: What’s likely to move the market in the next trading session",
+      "url": "https://www.cnbc.com/2026/08/17/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+      "published": "Mon, 17 Aug 2026 23:48:03 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Goldman says AI productivity gains are not here yet. But these stocks will benefit most when they begin",
@@ -262,12 +268,6 @@
       "published": "Mon, 17 Aug 2026 16:59:55 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "Prediction market traders see roughly 1-in-4 odds Paramount’s bid to buy Warner Bros. Discovery fails",
-      "url": "https://www.cnbc.com/2026/08/17/pskys-wbd-bid-has-1-in-4-odds-of-falling-through-kalshi-traders-say.html",
-      "published": "Mon, 17 Aug 2026 17:43:40 GMT"
-    },
-    {
       "source": "Yahoo Finance",
       "title": "Warren Buffett's Berkshire raises stake in world's largest airline",
       "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffetts-berkshire-raises-stake-214700937.html",
@@ -275,33 +275,39 @@
     },
     {
       "source": "Yahoo Finance",
-      "title": "Vivian Tu says investors carrying credit card debt need to stop and pay it off first. The math says she's right",
-      "url": "https://finance.yahoo.com/markets/articles/vivian-tu-says-investors-carrying-130000844.html",
-      "published": "2026-08-16T13:00:00Z"
+      "title": "NVIDIA’s $3 Billion Bet on the Power Behind AI",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-3-billion-bet-power-202314612.html",
+      "published": "2026-08-16T20:23:14Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "'A serious mistake': Moody's Analytics economist says the Fed is putting the economy at risk with its silence",
-      "url": "https://finance.yahoo.com/economy/policy/articles/serious-mistake-moodys-analytics-economist-125500943.html",
-      "published": "2026-08-16T12:55:00Z"
+      "title": "Stellantis’ (STLA) Big Turnaround Bet Hits A North American Snag",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stellantis-stla-big-turnaround-bet-200858626.html",
+      "published": "2026-08-16T20:08:58Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Greg Abel Starts Spending: Berkshire’s Cash Hoard Finally Gets Put to Work",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/greg-abel-starts-spending-berkshire-125459967.html",
-      "published": "2026-08-16T12:54:59Z"
+      "title": "Have Middle East Oil Flows Rebounded to 15 Million Bpd as U.S. Claims?",
+      "url": "https://finance.yahoo.com/energy/articles/middle-east-oil-flows-rebounded-230000187.html",
+      "published": "2026-08-16T23:00:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Investors in Microsoft Love Shorting Out-of-the-Money MSFT Puts",
-      "url": "https://finance.yahoo.com/markets/options/articles/investors-microsoft-love-shorting-money-131502468.html",
-      "published": "2026-08-16T13:15:02Z"
+      "title": "After Being Left for Dead, These High-Yield Stocks Look to Rally Again. Here's How to Play It.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/being-left-dead-high-yield-010002559.html",
+      "published": "2026-08-17T01:00:02Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "World's biggest wealth fund buys $1.2 billion of SpaceX stock",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/worlds-biggest-wealth-fund-buys-130300566.html",
-      "published": "2026-08-16T13:03:00Z"
+      "title": "5-star analyst sets alarming SpaceX stock price target",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/5-star-analyst-sets-alarming-030700322.html",
+      "published": "2026-08-18T03:07:00Z"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Why this popular Treasury-bond ETF is trading at its lowest since 2004",
+      "url": "https://www.marketwatch.com/story/why-this-popular-treasury-bond-etf-is-trading-at-its-lowest-since-2004-27de9a77?mod=mw_rss_topstories",
+      "published": "Mon, 17 Aug 2026 22:33:00 GMT"
     },
     {
       "source": "MarketWatch Top",
@@ -334,82 +340,76 @@
       "published": "Mon, 17 Aug 2026 20:43:00 GMT"
     },
     {
-      "source": "MarketWatch Top",
-      "title": "A new set of Trump tariffs for Canada could take effect Wednesday. Here’s what’s at stake.",
-      "url": "https://www.marketwatch.com/story/a-new-set-of-trump-tariffs-for-canada-could-take-effect-wednesday-heres-whats-at-stake-8aa0eeb8?mod=mw_rss_topstories",
-      "published": "Mon, 17 Aug 2026 20:28:00 GMT"
+      "source": "Investing.com News",
+      "title": "BHP, Port Hedland unions fail to reach wage deal; talks to resume on August 25",
+      "url": "https://www.investing.com/news/stock-market-news/australias-bhp-unions-fail-to-reach-wage-deal-4864265",
+      "published": "2026-08-18 07:54:30"
     },
     {
       "source": "Investing.com News",
-      "title": "Lockheed Martin wins $153 million in defense contracts",
-      "url": "https://www.investing.com/news/stock-market-news/lockheed-martin-wins-153-million-in-defense-contracts-93CH-4864006",
-      "published": "2026-08-17 21:24:43"
+      "title": "Kainos shares surges nearly 22% as strong demand lifts full-year outlook",
+      "url": "https://www.investing.com/news/stock-market-news/kainos-shares-surges-nearly-22-as-strong-demand-lifts-fullyear-outlook-4864442",
+      "published": "2026-08-18 07:53:38"
     },
     {
       "source": "Investing.com News",
-      "title": "Google to buy Spirit Airlines business data for $10 million",
-      "url": "https://www.investing.com/news/stock-market-news/google-to-buy-spirit-airlines-business-data-for-10-million-4864005",
-      "published": "2026-08-17 21:24:28"
+      "title": "Jefferies downgrades ADCB, Alinma to Hold as MENA bank outlook diverges",
+      "url": "https://www.investing.com/news/stock-market-news/jefferies-downgrades-adcb-alinma-to-hold-as-mena-bank-outlook-diverges-4864441",
+      "published": "2026-08-18 07:53:12"
     },
     {
       "source": "Investing.com News",
-      "title": "Jefferies cuts York Space Systems stock price target on guidance cut",
-      "url": "https://www.investing.com/news/analyst-ratings/jefferies-cuts-york-space-systems-stock-price-target-on-guidance-cut-93CH-4864004",
-      "published": "2026-08-17 21:20:51"
+      "title": "Elopak Q2 2026 slides: revenue rises 5% as supply woes weigh",
+      "url": "https://www.investing.com/news/company-news/elopak-q2-2026-slides-revenue-rises-5-as-supply-woes-weigh-93CH-4864440",
+      "published": "2026-08-18 07:52:51"
     },
     {
       "source": "Investing.com News",
-      "title": "CalPrivate Bank names Andra Frazier as chief credit officer",
-      "url": "https://www.investing.com/news/company-news/calprivate-bank-names-andra-frazier-as-chief-credit-officer-93CH-4864003",
-      "published": "2026-08-17 21:20:27"
+      "title": "Garanti BBVA receives approval for $100m bond issuance",
+      "url": "https://www.investing.com/news/company-news/garanti-bbva-receives-approval-for-100m-bond-issuance-93CH-4864437",
+      "published": "2026-08-18 07:50:35"
     },
     {
       "source": "Investing.com News",
-      "title": "Parsons wins $665M Army contract for support services",
-      "url": "https://www.investing.com/news/stock-market-news/parsons-wins-665m-army-contract-for-support-services-93CH-4864002",
-      "published": "2026-08-17 21:20:18"
-    },
-    {
-      "source": "Investing.com News",
-      "title": "Russia stocks lower at close of trade; MOEX Russia Index down 2.10%",
-      "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-down-210-4864001",
-      "published": "2026-08-17 21:20:02"
+      "title": "Brookfield targets Australia’s Reliance again with $2.9 billion bid",
+      "url": "https://www.investing.com/news/stock-market-news/australias-reliance-worldwide-receives-29-billion-takeover-bid-from-brookfield-4864096",
+      "published": "2026-08-18 07:49:14"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Bolivia Ups Diesel Costs for Big Buyers to Tame Supply Shock",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-17/bolivia-hikes-diesel-prices-for-big-buyers-to-tame-supply-shock",
-      "published": "Mon, 17 Aug 2026 18:59:36 GMT"
+      "title": "Stocks Fall as Bond Selloff Saps Risk Appetite: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-17/stock-market-today-dow-s-p-live-updates",
+      "published": "Mon, 17 Aug 2026 22:07:13 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Guggenheim Rushes to Clarify 77% Earnings Drop After Loan Slides",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-17/guggenheim-rushes-to-clarify-77-earnings-drop-after-loan-slides",
-      "published": "Mon, 17 Aug 2026 21:23:39 GMT"
+      "title": "Worsening Copper Supply Crunch Drives Key Spread Wider",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-18/supply-crunch-grips-copper-market-as-key-spread-flares-out",
+      "published": "Tue, 18 Aug 2026 02:43:45 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Hydro-Quebec Inks $36 Billion Energy Deal With Newfoundland",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-17/hydro-quebec-reaches-36-billion-energy-deal-with-newfoundland",
-      "published": "Mon, 17 Aug 2026 16:24:56 GMT"
+      "title": "Germany Is Set to Sell 30-Year Bonds at Highest Yield Since 2011",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-18/germany-is-set-to-sell-30-year-bonds-at-highest-yield-since-2011",
+      "published": "Tue, 18 Aug 2026 07:37:19 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Test Your ETF Knowledge In Our IQ Test",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-17/test-your-etf-knowledge-in-our-iq-test-video",
-      "published": "Mon, 17 Aug 2026 21:08:58 GMT"
+      "title": "Situational Awareness Sold Taiyo Yuden Shares to Citadel",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-18/situational-awareness-sold-taiyo-yuden-shares-to-citadel-others-msy5e92j",
+      "published": "Tue, 18 Aug 2026 04:13:47 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "EM Currencies Rise on Softer Dollar and Stronger Risk Appetite",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-17/emerging-currencies-rise-to-record-high-as-fed-hike-bets-ease",
-      "published": "Mon, 17 Aug 2026 05:40:17 GMT"
+      "title": "Tanker Stops in Hormuz as Iran Raises Efforts to Control Strait",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-18/tanker-stops-in-hormuz-as-iran-raises-efforts-to-control-strait",
+      "published": "Tue, 18 Aug 2026 07:17:28 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "We Will Take Risks If Clients Willing: Legum",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-17/we-will-take-risks-if-clients-willing-legum-video",
-      "published": "Mon, 17 Aug 2026 20:54:02 GMT"
+      "title": "US Stock-Index Futures Drop as Bond Yields and Oil Prices Rise",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-18/us-stock-index-futures-drop-as-bond-yields-oil-prices-rise",
+      "published": "Tue, 18 Aug 2026 06:51:50 GMT"
     }
   ],
   "summary": {
