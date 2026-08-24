@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-08-24 06:45 KST",
+  "as_of_kst": "2026-08-24 17:11 KST",
   "as_of_date": "2026-08-24",
   "as_of_weekday": "MON",
-  "build_unix": 1787521508,
+  "build_unix": 1787559062,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 6912.95,
-      "change": 60.37,
-      "change_pct": 0.88,
+      "price": 6696.96,
+      "change": -215.99,
+      "change_pct": -3.12,
       "spark": [
-        6977.94,
         6869.83,
         6471.17,
         6852.58,
-        6912.95
+        6912.95,
+        6696.96
       ],
-      "as_of": "2026-08-21"
+      "as_of": "2026-08-24"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 66016.36,
-      "change": -200.43,
-      "change_pct": -0.3,
+      "price": 65528.09,
+      "change": -488.27,
+      "change_pct": -0.74,
       "spark": [
-        69220.25,
         67460.73,
         65326.42,
         66216.79,
-        66016.36
+        66016.36,
+        65528.09
       ],
-      "as_of": "2026-08-21"
+      "as_of": "2026-08-24"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 26009.46,
-      "change": 310.97,
-      "change_pct": 1.21,
+      "price": 25490.78,
+      "change": -518.68,
+      "change_pct": -1.99,
       "spark": [
-        25453.23,
         25471.15,
         25495.07,
         25698.49,
-        26009.46
+        26009.46,
+        25490.78
       ],
-      "as_of": "2026-08-21"
+      "as_of": "2026-08-24"
     },
     "ftse": {
       "key": "ftse",
@@ -118,17 +118,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10816.6,
-      "change": 68.4,
-      "change_pct": 0.64,
+      "price": 10813.34,
+      "change": -3.26,
+      "change_pct": -0.03,
       "spark": [
-        10720.3,
         10728.0,
         10743.4,
         10748.2,
-        10816.6
+        10816.6,
+        10813.34
       ],
-      "as_of": "2026-08-21"
+      "as_of": "2026-08-24"
     },
     "dax": {
       "key": "dax",
@@ -136,50 +136,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 26136.56,
-      "change": 153.52,
-      "change_pct": 0.59,
+      "price": 26057.89,
+      "change": -78.67,
+      "change_pct": -0.3,
       "spark": [
-        26338.61,
         26128.36,
         26091.33,
         25983.04,
-        26136.56
+        26136.56,
+        26057.89
       ],
-      "as_of": "2026-08-21"
+      "as_of": "2026-08-24"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1385.79,
+      "rate": 1384.15,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 158.85,
+      "rate": 159.2,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1681,
+      "rate": 1.1669,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7118,
+      "rate": 6.7229,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 98.8,
-      "change": -0.1,
-      "change_pct": -0.1,
+      "rate": 98.97,
+      "change": 0.17,
+      "change_pct": 0.18,
       "kind": "index"
     }
   },
@@ -189,27 +189,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 87.06,
-      "change": -0.77,
-      "change_pct": -0.88
+      "price": 85.51,
+      "change": -1.55,
+      "change_pct": -1.78
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4680.6,
-      "change": 164.3,
-      "change_pct": 3.64
+      "price": 4696.3,
+      "change": 72.2,
+      "change_pct": 1.56
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 77632.73,
-      "change": 549.31,
-      "change_pct": 0.71
+      "price": 77297.39,
+      "change": -457.88,
+      "change_pct": -0.59
     },
     "ust10y": {
       "key": "ust10y",
@@ -225,9 +225,9 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 15.13,
-      "change": -0.88,
-      "change_pct": -5.5
+      "price": 15.95,
+      "change": 0.82,
+      "change_pct": 5.42
     }
   },
   "headlines_raw": [
@@ -269,39 +269,51 @@
     },
     {
       "source": "Yahoo Finance",
-      "title": "Iconic fast-food fried chicken chain closes over 300 restaurants",
-      "url": "https://finance.yahoo.com/small-business/articles/iconic-fast-food-fried-chicken-184700958.html",
-      "published": "2026-08-22T18:47:00Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Dow Jones Futures Due With Market At Key Point; Nvidia, Tariffs, Warsh In Focus",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-rally-nvidia-crowdstrike-warsh/?src=A00220&yptr=yahoo",
-      "published": "2026-08-23T21:23:43Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Gilead’s Revenue Is Accelerating, But are its Acquisitions Worth the Cost?",
-      "url": "https://finance.yahoo.com/healthcare/articles/gilead-revenue-accelerating-acquisitions-worth-195747159.html",
-      "published": "2026-08-23T19:57:47Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Pfizer vs. Gilead: Which Drugmaker Has the Stronger Growth Story?",
-      "url": "https://finance.yahoo.com/healthcare/articles/pfizer-vs-gilead-drugmaker-stronger-195408536.html",
-      "published": "2026-08-23T19:54:08Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Zoetis Earnings Reveal a Divided Business, But Can its Pipeline Restore Growth?",
-      "url": "https://finance.yahoo.com/healthcare/articles/zoetis-earnings-reveal-divided-business-194924344.html",
-      "published": "2026-08-23T19:49:24Z"
-    },
-    {
-      "source": "Yahoo Finance",
       "title": "91-year-old supermarket chain closes stores, lays off employees",
       "url": "https://finance.yahoo.com/economy/articles/91-old-supermarket-chain-closes-231700441.html",
       "published": "2026-08-22T23:17:00Z"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "David Einhorn Just Bet $61.5 Million on PayPal. Why PYPL Looks Cheap Again.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/david-einhorn-just-bet-61-201730899.html",
+      "published": "2026-08-22T20:17:30Z"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Nvidia Q2 Preview: Strong Earnings and Low Valuation Set the Stage for Upside",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-q2-preview-strong-earnings-205208968.html",
+      "published": "2026-08-22T20:52:08Z"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "The Gas Turbine Shortage Just Became AI’s Biggest Constraint",
+      "url": "https://finance.yahoo.com/energy/articles/gas-turbine-shortage-just-became-210000180.html",
+      "published": "2026-08-22T21:00:00Z"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Is Alphabet’s Search Risk Really Priced In? Stress-Testing Rosenblatt’s $410 Thesis",
+      "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-search-risk-really-priced-195602365.html",
+      "published": "2026-08-22T19:56:02Z"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Gold, silver rally off ugly crash, but investors remain on edge",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/gold-silver-rally-off-ugly-013700131.html",
+      "published": "2026-08-24T01:37:00Z"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "There are six stocks that hedge funds and mutual funds are both overweight — and SpaceX is one",
+      "url": "https://www.marketwatch.com/story/there-are-six-stocks-that-hedge-funds-and-mutual-funds-are-both-overweight-and-spacex-is-one-2a17ffb1?mod=mw_rss_topstories",
+      "published": "Mon, 24 Aug 2026 08:10:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Stock futures flat as U.S. and Canada appear headed for trade war",
+      "url": "https://www.marketwatch.com/story/stock-futures-slip-as-u-s-and-canada-appear-headed-for-trade-war-a9814b24?mod=mw_rss_topstories",
+      "published": "Mon, 24 Aug 2026 03:02:00 GMT"
     },
     {
       "source": "MarketWatch Top",
@@ -328,88 +340,76 @@
       "published": "Sun, 23 Aug 2026 17:30:00 GMT"
     },
     {
-      "source": "MarketWatch Top",
-      "title": "‘The estrangement isn’t about politics’: My daughter hasn’t spoken to me for 4 years. Do I leave her a monthly annuity?",
-      "url": "https://www.marketwatch.com/story/its-truly-a-tragedy-my-daughter-hasnt-spoken-to-me-for-4-years-but-it-has-nothing-to-do-with-politics-86c4bcf6?mod=mw_rss_topstories",
-      "published": "Sun, 23 Aug 2026 17:00:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "‘She looked into COBRA’: My friend was laid off and lost her health insurance. How can she find affordable coverage?",
-      "url": "https://www.marketwatch.com/story/shes-desperate-my-friend-was-laid-off-and-lost-her-health-insurance-how-can-she-find-affordable-coverage-3b17b553?mod=mw_rss_topstories",
-      "published": "Sun, 23 Aug 2026 16:45:00 GMT"
+      "source": "Investing.com News",
+      "title": "Why is BW Offshore stock sliding today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-bw-offshore-stock-sliding-today-93CH-4872797",
+      "published": "2026-08-24 07:50:49"
     },
     {
       "source": "Investing.com News",
-      "title": "Russia stocks lower at close of trade; MOEX Russia Index unchanged",
-      "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-unchanged-4872476",
-      "published": "2026-08-23 21:20:04"
+      "title": "Norway will drill in Arctic regardless of EU’s position, says energy minister",
+      "url": "https://www.investing.com/news/stock-market-news/norway-will-drill-in-arctic-regardless-of-eus-position-says-energy-minister-4872633",
+      "published": "2026-08-24 07:48:32"
     },
     {
       "source": "Investing.com News",
-      "title": "Japan’s stock market setup looks similar to late 2023. Here’s what it means",
-      "url": "https://www.investing.com/news/stock-market-news/japans-stock-market-setup-looks-similar-to-late-2023-heres-what-it-means-4872475",
-      "published": "2026-08-23 20:34:32"
+      "title": "AI trade In focus, Iran sanctions loom - What’s moving markets",
+      "url": "https://www.investing.com/news/economy-news/ai-trade-in-focus-iran-sanctions-loom--whats-moving-markets-4872721",
+      "published": "2026-08-24 07:47:25"
     },
     {
       "source": "Investing.com News",
-      "title": "Italy extends diesel tax cut to Wednesday amid rising fuel prices",
-      "url": "https://www.investing.com/news/commodities-news/italy-extends-diesel-tax-cut-to-wednesday-amid-rising-fuel-prices-93CH-4872473",
-      "published": "2026-08-23 19:39:57"
+      "title": "Stifel initiates Jersey Mike’s Subs stock with buy rating",
+      "url": "https://www.investing.com/news/analyst-ratings/stifel-initiates-jersey-mikes-subs-stock-with-buy-rating-93CH-4872796",
+      "published": "2026-08-24 07:46:55"
     },
     {
       "source": "Investing.com News",
-      "title": "Bitcoin coils in bull flag near $77K: Live levels",
-      "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-coiled-at-63591-with-volatility-at-6month-lows-live-levels-93CH-4862234",
-      "published": "2026-08-23 19:02:13"
+      "title": "Earnings call transcript: BW Offshore cuts 2026 outlook as BW Opal delay hits Q2 2026",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-bw-offshore-cuts-2026-outlook-as-bw-opal-delay-hits-q2-2026-93CH-4872795",
+      "published": "2026-08-24 07:40:36"
     },
     {
       "source": "Investing.com News",
-      "title": "Burry exits Alibaba, builds large JD.com position over valuation concerns",
-      "url": "https://www.investing.com/news/stock-market-news/burry-exits-alibaba-builds-large-jdcom-position-over-valuation-concerns-4872469",
-      "published": "2026-08-23 18:23:46"
-    },
-    {
-      "source": "Investing.com News",
-      "title": "Turkey’s central bank to restart one-week repo auctions",
-      "url": "https://www.investing.com/news/economy-news/turkeys-central-bank-to-restart-oneweek-repo-auctions-93CH-4872468",
-      "published": "2026-08-23 18:02:49"
+      "title": "European shares slip as tech drags; Iran sanctions in focus",
+      "url": "https://www.investing.com/news/economy-news/european-shares-slip-as-tech-drags-iran-sanctions-in-focus-4872794",
+      "published": "2026-08-24 07:36:23"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "US Long Bonds Risk Deeper Selloff Without Clear Warsh Guidance",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-23/us-long-bonds-risk-deeper-selloff-without-clear-warsh-guidance",
-      "published": "Sun, 23 Aug 2026 19:30:00 GMT"
+      "title": "The Nigerian Industrial Behemoth That Could Reshape the African Economy",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-24/the-nigerian-industrial-behemoth-that-could-reshape-the-african-economy",
+      "published": "Mon, 24 Aug 2026 08:00:01 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Bloomberg This Weekend 8/23/2026",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-23/bloomberg-this-weekend-8-23-2026-video",
-      "published": "Sun, 23 Aug 2026 16:19:56 GMT"
+      "title": "Odd Lots: Dangote Could Reshape the African Economy (Podcast)",
+      "url": "https://www.bloomberg.com/news/audio/2026-08-24/odd-lots-dangote-could-reshape-the-african-economy-podcast",
+      "published": "Mon, 24 Aug 2026 08:00:00 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "BTW: Headlines You May Have Missed",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-23/btw-headlines-you-may-have-missed-video",
-      "published": "Sun, 23 Aug 2026 15:14:22 GMT"
+      "title": "Stocks Fall as High-Stakes Week Gets Underway: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-23/stock-market-today-dow-s-p-live-updates",
+      "published": "Sun, 23 Aug 2026 22:10:35 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "AI Takes Center Court at the US Open",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-23/ai-takes-center-court-at-the-us-open-video",
-      "published": "Sun, 23 Aug 2026 14:57:31 GMT"
+      "title": "‘It’s a Carry World’: EM Trade Posts Longest Run Since 2008",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-23/-it-s-a-carry-world-em-trade-notches-longest-run-since-2008",
+      "published": "Sun, 23 Aug 2026 12:30:00 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Fed Faces High Stakes Test at Jackson Hole",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-23/fed-faces-high-stakes-test-at-jackson-hole-video",
-      "published": "Sun, 23 Aug 2026 14:47:34 GMT"
+      "title": "European Stocks Steady as Investor Focus Shifts to Economic Data",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-24/european-stocks-steady-as-investor-focus-shifts-to-economic-data",
+      "published": "Mon, 24 Aug 2026 07:15:50 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Rep. McCormick Warns Against Slowing AI Buildout",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-23/rep-mccormick-warns-against-slowing-ai-buildout-video",
-      "published": "Sun, 23 Aug 2026 14:29:34 GMT"
+      "title": "Expect Volatility with a Negative Skew: 3-Minutes MLIV",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-24/markets-in-3-minutes-8-24-2026-video",
+      "published": "Mon, 24 Aug 2026 07:13:32 GMT"
     }
   ],
   "summary": {
