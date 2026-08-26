@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-08-26 06:52 KST",
+  "as_of_kst": "2026-08-26 17:08 KST",
   "as_of_date": "2026-08-26",
   "as_of_weekday": "WED",
-  "build_unix": 1787694771,
+  "build_unix": 1787731701,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 6696.96,
-      "change": -215.99,
-      "change_pct": -3.12,
+      "price": 6808.21,
+      "change": 65.47,
+      "change_pct": 0.97,
       "spark": [
-        6869.83,
-        6471.17,
         6852.58,
         6912.95,
-        6696.96
+        6696.96,
+        6742.74,
+        6808.21
       ],
-      "as_of": "2026-08-24"
+      "as_of": "2026-08-26"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 65528.09,
-      "change": -488.27,
-      "change_pct": -0.74,
+      "price": 66262.16,
+      "change": 405.73,
+      "change_pct": 0.62,
       "spark": [
-        67460.73,
-        65326.42,
         66216.79,
         66016.36,
-        65528.09
+        65528.09,
+        65856.43,
+        66262.16
       ],
-      "as_of": "2026-08-25"
+      "as_of": "2026-08-26"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 25517.33,
-      "change": -492.13,
-      "change_pct": -1.89,
+      "price": 25652.6,
+      "change": 141.5,
+      "change_pct": 0.55,
       "spark": [
-        25471.15,
-        25495.07,
         25698.49,
         26009.46,
-        25517.33
+        25517.33,
+        25511.1,
+        25652.6
       ],
-      "as_of": "2026-08-25"
+      "as_of": "2026-08-26"
     },
     "ftse": {
       "key": "ftse",
@@ -118,17 +118,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10886.16,
-      "change": 31.86,
-      "change_pct": 0.29,
+      "price": 10862.85,
+      "change": -23.35,
+      "change_pct": -0.21,
       "spark": [
-        10743.4,
         10748.2,
         10816.6,
         10854.3,
-        10886.16
+        10886.2,
+        10862.85
       ],
-      "as_of": "2026-08-25"
+      "as_of": "2026-08-26"
     },
     "dax": {
       "key": "dax",
@@ -136,50 +136,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 26266.14,
-      "change": 159.54,
-      "change_pct": 0.61,
+      "price": 26245.26,
+      "change": -20.88,
+      "change_pct": -0.08,
       "spark": [
-        26091.33,
         25983.04,
         26136.56,
         26106.6,
-        26266.14
+        26266.14,
+        26245.26
       ],
-      "as_of": "2026-08-25"
+      "as_of": "2026-08-26"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1382.21,
+      "rate": 1384.2,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 159.17,
+      "rate": 158.96,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1678,
+      "rate": 1.1675,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7104,
+      "rate": 6.7086,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 98.89,
-      "change": -0.11,
-      "change_pct": -0.11,
+      "rate": 98.97,
+      "change": 0.05,
+      "change_pct": 0.05,
       "kind": "index"
     }
   },
@@ -189,27 +189,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 81.11,
-      "change": -3.9,
-      "change_pct": -4.59
+      "price": 79.88,
+      "change": -2.48,
+      "change_pct": -3.01
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4715.9,
-      "change": 75.1,
-      "change_pct": 1.62
+      "price": 4684.5,
+      "change": 46.4,
+      "change_pct": 1.0
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 78589.97,
-      "change": -374.52,
-      "change_pct": -0.47
+      "price": 78922.62,
+      "change": 357.64,
+      "change_pct": 0.46
     },
     "ust10y": {
       "key": "ust10y",
@@ -225,9 +225,9 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 15.45,
-      "change": -0.4,
-      "change_pct": -2.52
+      "price": 15.68,
+      "change": 0.23,
+      "change_pct": 1.49
     }
   },
   "headlines_raw": [
@@ -236,6 +236,18 @@
       "title": "Nvidia's 'expectations premium' dogs the stock after earnings. Here's what analysts are watching",
       "url": "https://www.cnbc.com/2026/08/25/nvidias-expectations-premium-dogs-the-stock-after-earnings.html",
       "published": "Tue, 25 Aug 2026 20:21:10 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Wednesday's big stock stories: What’s likely to move the market in the next trading session",
+      "url": "https://www.cnbc.com/2026/08/25/wednesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+      "published": "Tue, 25 Aug 2026 23:29:27 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "'Big Short' investor Danny Moses calls 10-year yield, Nvidia the two most important assets for markets right now",
+      "url": "https://www.cnbc.com/2026/08/25/big-short-investor-calls-10-year-yield-nvidia-the-two-most-important-assets-for-markets.html",
+      "published": "Tue, 25 Aug 2026 22:45:04 GMT"
     },
     {
       "source": "CNBC Markets",
@@ -256,160 +268,148 @@
       "published": "Tue, 25 Aug 2026 15:46:44 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "A lesser known area of the AI market is set for its biggest boom since 2022. Buy this stock to play the trend, Morgan Stanley says",
-      "url": "https://www.cnbc.com/2026/08/25/-buy-this-stock-to-play-boom-in-one-area-of-ai-morgan-stanley-says.html",
-      "published": "Tue, 25 Aug 2026 14:11:19 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Netflix is primed to move higher as viewer engagement improves, Wolfe Research says",
-      "url": "https://www.cnbc.com/2026/08/25/netflix-is-primed-to-move-higher-as-viewer-engagement-improves-wolfe-research-says.html",
-      "published": "Tue, 25 Aug 2026 11:52:28 GMT"
+      "source": "Yahoo Finance",
+      "title": "Louis Navellier has blunt message on Nvidia’s reign before earnings",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/louis-navellier-blunt-message-nvidia-214700439.html",
+      "published": "2026-08-25T21:47:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Stanley Druckenmiller and Cathie Wood agree on 2 tech giant stocks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stanley-druckenmiller-cathie-wood-agree-191300323.html",
-      "published": "2026-08-24T19:13:00Z"
+      "title": "Stock Indices Finish Mostly Lower on Chipmaker Weakness",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-indices-finish-mostly-lower-203846692.html",
+      "published": "2026-08-24T20:38:46Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Strategy earmarks $1.6 billion cash pool for treasury operations, buybacks",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/strategy-earmarks-1-6-billion-132902331.html",
-      "published": "2026-08-24T13:29:02Z"
+      "title": "Alibaba Stock Wavers As AI Push Drives $10 Billion Share Sale",
+      "url": "https://www.investors.com/news/technology/alibaba-stock-falls-as-ai-push-drives-10-billion-share-sale/?src=A00220&yptr=yahoo",
+      "published": "2026-08-24T20:34:32Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Are Wall Street Analysts Bullish on Cooper Companies Stock?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-bullish-cooper-132737636.html",
-      "published": "2026-08-24T13:27:37Z"
+      "title": "A $900 Million Reason to Be Excited About XPEV Stock, Even After Disappointing Earnings Results",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/900-million-reason-excited-xpev-203154382.html",
+      "published": "2026-08-24T20:31:54Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Equinor and Aker BP Make New North Sea Gas Discovery",
-      "url": "https://finance.yahoo.com/energy/articles/equinor-aker-bp-north-sea-133000325.html",
-      "published": "2026-08-24T13:30:00Z"
+      "title": "Stock Market Today: Dow Up As Trump Says This On Canada; Nvidia Shares Skid Despite AI Move",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-economic-d-day-alibaba-stock-baba/?src=A00220&yptr=yahoo",
+      "published": "2026-08-24T20:43:08Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "KLA (KLAC) Gains From Advanced Nodes, HBM and Packaging",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/kla-klac-gains-advanced-nodes-132424736.html",
-      "published": "2026-08-24T13:24:24Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "The AI Opportunity Qualcomm Investors May Be Underestimating",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ai-opportunity-qualcomm-investors-may-133001759.html",
-      "published": "2026-08-24T13:30:01Z"
+      "title": "These 3 Sectors Will Outperform if the Fed Hikes Rates",
+      "url": "https://www.barrons.com/articles/fed-rates-energy-material-stocks-dc6851d3?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-08-24T20:40:00Z"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Why Meta’s stock could see a 50% rally, thanks to an overlooked AI wild card",
-      "url": "https://www.marketwatch.com/story/why-metas-stock-could-see-a-50-rally-thanks-to-an-overlooked-ai-wild-card-28cea54b?mod=mw_rss_topstories",
-      "published": "Tue, 25 Aug 2026 21:01:00 GMT"
+      "title": "Are older Americans spoiling the economy for everyone else?",
+      "url": "https://www.marketwatch.com/story/are-older-americans-spoiling-the-economy-for-everyone-else-064b5820?mod=mw_rss_topstories",
+      "published": "Wed, 26 Aug 2026 01:41:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Am I too old for Roth conversions? I’m 84 and my wife is 77. We have $8 million saved.",
-      "url": "https://www.marketwatch.com/story/am-i-too-old-for-roth-conversions-im-84-and-my-wife-is-77-we-have-8-million-saved-fb08fccd?mod=mw_rss_topstories",
-      "published": "Tue, 25 Aug 2026 21:00:00 GMT"
+      "title": "5 cheap U.S. cities to retire in — if you can deal with this one thing",
+      "url": "https://www.marketwatch.com/story/5-cheap-u-s-cities-to-retire-in-if-you-can-deal-with-this-one-thing-fbda5d1a?mod=mw_rss_topstories",
+      "published": "Wed, 26 Aug 2026 01:35:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Callaway Golf’s apology for ad showing woman being shoved to the ground exposes a major industry blind spot",
-      "url": "https://www.marketwatch.com/story/callaway-golfs-apology-for-ad-showing-woman-being-shoved-to-the-ground-exposes-a-major-industry-blind-spot-41101a13?mod=mw_rss_topstories",
-      "published": "Tue, 25 Aug 2026 21:00:00 GMT"
+      "title": "My father-in-law passed away, leaving a house with tenants. Do I evict them?",
+      "url": "https://www.marketwatch.com/story/my-father-in-law-passed-away-leaving-a-house-with-tenants-do-i-evict-them-f974428c?mod=mw_rss_topstories",
+      "published": "Wed, 26 Aug 2026 00:30:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Why AMD can beat rivals Intel and Nvidia in the market for data-center CPUs",
-      "url": "https://www.marketwatch.com/story/why-amd-can-beat-rivals-intel-and-nvidia-in-the-market-for-data-center-cpus-e49a53f1?mod=mw_rss_topstories",
-      "published": "Tue, 25 Aug 2026 20:59:00 GMT"
+      "title": "‘My main goal is to help people’: I’m single, 74, with $10 million burning a hole in my pocket. What should I do?",
+      "url": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
+      "published": "Wed, 26 Aug 2026 00:01:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "This driverless-truck company could be a ‘long-term winner’ in a market Tesla plans to enter soon",
-      "url": "https://www.marketwatch.com/story/this-driverless-truck-company-could-be-a-long-term-winner-in-a-market-tesla-plans-to-enter-soon-193bc8fe?mod=mw_rss_topstories",
-      "published": "Tue, 25 Aug 2026 20:56:00 GMT"
+      "title": "‘It’s the ultimate regifting’: My mom gave me a house. Should I transfer it back to her to reduce capital gains?",
+      "url": "https://www.marketwatch.com/story/its-the-ultimate-regifting-my-mom-gave-me-a-house-should-i-transfer-it-back-to-her-to-reduce-capital-gains-e357f49c?mod=mw_rss_topstories",
+      "published": "Tue, 25 Aug 2026 23:01:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "SpaceX to build Musk’s vision for a spaceport that until now ‘only existed in science fiction’",
-      "url": "https://www.marketwatch.com/story/spacex-to-build-musks-vision-for-a-spaceport-that-until-now-only-existed-in-science-fiction-f8482712?mod=mw_rss_topstories",
-      "published": "Tue, 25 Aug 2026 20:54:00 GMT"
+      "title": "Dick’s Sporting Goods’ epic drop hits other footwear giants, as shoppers sour on retro sneakers",
+      "url": "https://www.marketwatch.com/story/dicks-sporting-goods-stock-is-having-its-worst-day-ever-as-sneakers-arent-selling-without-deeper-discounts-5a868358?mod=mw_rss_topstories",
+      "published": "Tue, 25 Aug 2026 22:57:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Ginkgo Bioworks CFO Steven Coen sells $2,302 in stock",
-      "url": "https://www.investing.com/news/insider-trading-news/ginkgo-bioworks-cfo-steven-coen-sells-2302-in-stock-93CH-4875989",
-      "published": "2026-08-25 21:30:57"
+      "title": "Wolfe Research reiterates SpaceX stock rating on launch expansion",
+      "url": "https://www.investing.com/news/analyst-ratings/wolfe-research-reiterates-spacex-stock-rating-on-launch-expansion-93CH-4876426",
+      "published": "2026-08-26 07:48:58"
     },
     {
       "source": "Investing.com News",
-      "title": "Amazon Web Services CEO Matthew Garman sells $3.77 million in AMZN stock",
-      "url": "https://www.investing.com/news/insider-trading-news/amazon-web-services-ceo-matthew-garman-sells-377-million-in-amzn-stock-93CH-4875990",
-      "published": "2026-08-25 21:30:57"
+      "title": "Earnings call transcript: Inission Q2 2026 sales rise 18.7% as stock jumps 9.1%",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-inission-q2-2026-sales-rise-187-as-stock-jumps-91-93CH-4876425",
+      "published": "2026-08-26 07:43:09"
     },
     {
       "source": "Investing.com News",
-      "title": "Trading Day: Oil, yields slide",
-      "url": "https://www.investing.com/news/economy-news/oil-yields-slide-4875984",
-      "published": "2026-08-25 21:30:35"
+      "title": "Why is SAP stock sliding today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-sap-stock-sliding-today-93CH-4876424",
+      "published": "2026-08-26 07:42:05"
     },
     {
       "source": "Investing.com News",
-      "title": "Mexico stocks higher at close of trade; S&P/BMV IPC up 0.79%",
-      "url": "https://www.investing.com/news/stock-market-news/mexico-stocks-higher-at-close-of-trade-spbmv-ipc-up-079-4875987",
-      "published": "2026-08-25 21:30:06"
+      "title": "Why is Hochschild Mining stock surging today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-hochschild-mining-stock-surging-today-93CH-4876421",
+      "published": "2026-08-26 07:41:48"
     },
     {
       "source": "Investing.com News",
-      "title": "Dynatrace upgraded by Morgan Stanley as observability demand boosts growth",
-      "url": "https://www.investing.com/news/stock-market-news/dynatrace-upgraded-by-morgan-stanley-as-observability-demand-boosts-growth-4875986",
-      "published": "2026-08-25 21:29:26"
+      "title": "Hochschild Mining profit surges in H1, raises cost guidance; shares climb",
+      "url": "https://www.investing.com/news/earnings/hochschild-mining-profit-surges-in-h1-raises-cost-guidance-4876366",
+      "published": "2026-08-26 07:37:20"
     },
     {
       "source": "Investing.com News",
-      "title": "Explainer-What are H-1B visas for skilled workers and what changes loom?",
-      "url": "https://www.investing.com/news/stock-market-news/explainerwhat-are-h1b-visas-for-skilled-workers-and-what-changes-loom-4875972",
-      "published": "2026-08-25 21:25:28"
+      "title": "Nxera to receive $10m milestone as partner’s Alzheimer’s drug enters phase 2",
+      "url": "https://www.investing.com/news/company-news/nxera-to-receive-10m-milestone-as-partners-alzheimers-drug-enters-phase-2-93CH-4876420",
+      "published": "2026-08-26 07:36:45"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Gold Edges Up After Four-Day Gain as Traders Eye Treasury Moves",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-24/gold-holds-near-three-month-high-as-traders-weigh-treasury-moves",
-      "published": "Mon, 24 Aug 2026 23:57:26 GMT"
+      "title": "PwC International Can’t Exit Evergrande Case, HK Court Rules",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-26/pwc-international-can-t-exit-evergrande-case-hk-court-rules",
+      "published": "Wed, 26 Aug 2026 07:06:48 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "2026 Best Cities for Work Revealed",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-25/2026-best-cities-for-work-revealed-video",
-      "published": "Tue, 25 Aug 2026 21:27:59 GMT"
+      "title": "Shein Backers Said to Agree to Six-Month Lock-Up on New IPO Shares",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-26/shein-backers-said-to-agree-to-six-month-lock-up-on-new-ipo-shares",
+      "published": "Wed, 26 Aug 2026 07:47:26 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "How LeBron James Scored $300 Million From Insurers",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-25/how-lebron-james-scored-300-million-from-insurers-video",
-      "published": "Tue, 25 Aug 2026 21:26:25 GMT"
+      "title": "US Stocks and Treasuries Slip as Nvidia, PCE Loom: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-25/asian-stocks-set-to-gain-as-oil-extends-declines-markets-wrap",
+      "published": "Tue, 25 Aug 2026 22:08:45 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Northrop CEO on Defense Spending, Golden Dome System",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-25/northrop-ceo-on-defense-spending-golden-dome-system-video",
-      "published": "Tue, 25 Aug 2026 21:17:47 GMT"
+      "title": "Nano Nuclear Energy Bring Microreactors to UAE",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-26/nano-nuclear-energy-bring-microreactors-to-uae-video",
+      "published": "Wed, 26 Aug 2026 07:37:51 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Conference Board CEO: Consumers Worried About the Future",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-25/conference-board-ceo-consumers-worried-about-the-future-video",
-      "published": "Tue, 25 Aug 2026 21:16:55 GMT"
+      "title": "Natural Gas Eclipses Oil as Key Inflation Risk for European Debt",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-26/natural-gas-eclipses-oil-as-key-inflation-risk-for-european-debt",
+      "published": "Wed, 26 Aug 2026 07:16:17 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "The Mormon Church Is Putting Its Real Estate Empire to Work",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-25/the-mormon-church-is-putting-its-real-estate-empire-to-work",
-      "published": "Tue, 25 Aug 2026 21:00:07 GMT"
+      "title": "Zimbabwe’s Economic Turnaround Breaks With the Past",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-26/zimbabwe-s-economic-turnaround-breaks-with-the-past-video",
+      "published": "Wed, 26 Aug 2026 07:13:30 GMT"
     }
   ],
   "summary": {
