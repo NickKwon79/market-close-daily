@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-08-29 04:32 KST",
+  "as_of_kst": "2026-08-29 12:14 KST",
   "as_of_date": "2026-08-29",
   "as_of_weekday": "SAT",
-  "build_unix": 1787945525,
+  "build_unix": 1787973241,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -10,15 +10,15 @@
       "name": "S&P 500",
       "region": "USA",
       "kind": "broad",
-      "price": 7710.98,
-      "change": -20.01,
-      "change_pct": -0.26,
+      "price": 7711.76,
+      "change": -19.23,
+      "change_pct": -0.25,
       "spark": [
         7652.86,
         7677.28,
         7675.7,
         7730.99,
-        7710.98
+        7711.76
       ],
       "as_of": "2026-08-28"
     },
@@ -28,15 +28,15 @@
       "name": "NASDAQ Composite",
       "region": "USA",
       "kind": "tech",
-      "price": 26408.73,
-      "change": -132.62,
-      "change_pct": -0.5,
+      "price": 26402.42,
+      "change": -138.93,
+      "change_pct": -0.52,
       "spark": [
         25980.19,
         26151.3,
         26130.2,
         26541.35,
-        26408.73
+        26402.42
       ],
       "as_of": "2026-08-28"
     },
@@ -46,15 +46,15 @@
       "name": "Dow Jones 30",
       "region": "USA",
       "kind": "value",
-      "price": 53555.72,
-      "change": -13.72,
-      "change_pct": -0.03,
+      "price": 53560.0,
+      "change": -9.44,
+      "change_pct": -0.02,
       "spark": [
         53417.16,
         53577.4,
         53463.88,
         53569.44,
-        53555.72
+        53560.0
       ],
       "as_of": "2026-08-28"
     },
@@ -118,15 +118,15 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10824.26,
-      "change": 31.76,
-      "change_pct": 0.29,
+      "price": 10792.5,
+      "change": -85.6,
+      "change_pct": -0.79,
       "spark": [
+        10816.6,
         10854.3,
         10886.2,
         10878.1,
-        10792.5,
-        10824.26
+        10792.5
       ],
       "as_of": "2026-08-28"
     },
@@ -136,15 +136,15 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 26569.99,
-      "change": 202.75,
-      "change_pct": 0.77,
+      "price": 26367.24,
+      "change": 81.28,
+      "change_pct": 0.31,
       "spark": [
+        26136.56,
         26106.6,
         26266.14,
         26285.96,
-        26367.24,
-        26569.99
+        26367.24
       ],
       "as_of": "2026-08-28"
     }
@@ -153,33 +153,33 @@
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1378.45,
+      "rate": 1375.67,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 160.07,
+      "rate": 160.04,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1589,
+      "rate": 1.1587,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7255,
+      "rate": 6.7208,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 99.67,
-      "change": 0.51,
-      "change_pct": 0.52,
+      "rate": 99.16,
+      "change": -0.01,
+      "change_pct": -0.01,
       "kind": "index"
     }
   },
@@ -189,27 +189,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 83.29,
-      "change": -0.24,
-      "change_pct": -0.29
+      "price": 83.44,
+      "change": -0.09,
+      "change_pct": -0.11
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4510.9,
-      "change": -98.8,
-      "change_pct": -2.14
+      "price": 4504.1,
+      "change": -105.6,
+      "change_pct": -2.29
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 77647.98,
-      "change": -2609.56,
-      "change_pct": -3.25
+      "price": 77688.24,
+      "change": -2569.3,
+      "change_pct": -3.2
     },
     "ust10y": {
       "key": "ust10y",
@@ -233,6 +233,12 @@
   "headlines_raw": [
     {
       "source": "CNBC Markets",
+      "title": "Stocks wrap up winning week even as inflation becomes top of mind for investors",
+      "url": "https://www.cnbc.com/2026/08/28/stocks-post-winning-week-as-inflation-becomes-top-of-mind-for-traders.html",
+      "published": "Fri, 28 Aug 2026 20:28:04 GMT"
+    },
+    {
+      "source": "CNBC Markets",
       "title": "Bolster your portfolio with these dividend-paying cash cows as midterms approach",
       "url": "https://www.cnbc.com/2026/08/28/bolster-your-portfolio-with-these-dividend-paying-cash-cows-as-midterms-approach.html",
       "published": "Fri, 28 Aug 2026 18:41:20 GMT"
@@ -241,7 +247,7 @@
       "source": "CNBC Markets",
       "title": "U.S. appeals court rules against prediction markets, sets up likely fight at Supreme Court",
       "url": "https://www.cnbc.com/2026/08/28/appeals-court-rules-against-prediction-markets-tees-up-scotus-fight.html",
-      "published": "Fri, 28 Aug 2026 19:05:23 GMT"
+      "published": "Sat, 29 Aug 2026 02:23:52 GMT"
     },
     {
       "source": "CNBC Markets",
@@ -262,12 +268,6 @@
       "published": "Fri, 28 Aug 2026 18:10:55 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "Stocks are entering a tough period. Top small-cap strategist says buy these steady quality names",
-      "url": "https://www.cnbc.com/2026/08/28/buy-these-small-mid-cap-names-to-withstand-rocky-markets-jefferies.html",
-      "published": "Fri, 28 Aug 2026 14:32:15 GMT"
-    },
-    {
       "source": "Yahoo Finance",
       "title": "Bank of America doubles down on Nvidia stock",
       "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-doubles-down-nvidia-153054071.html",
@@ -275,111 +275,129 @@
     },
     {
       "source": "Yahoo Finance",
-      "title": "Gold Fields (GFI) Rides A Gold Price Surge To Record Cash Flow",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/gold-fields-gfi-rides-gold-092911735.html",
-      "published": "2026-08-27T09:29:11Z"
+      "title": "Target (TGT) Rallied in 2026. Can its Turnaround Start Producing Margin Growth?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/target-tgt-rallied-2026-turnaround-210334424.html",
+      "published": "2026-08-27T21:03:34Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Druckenmiller tells former protégé Bessent his $4B bond buyback plan could spiral — and mortgage rates may not budge",
-      "url": "https://finance.yahoo.com/economy/policy/articles/druckenmiller-tells-former-prot-g-093000190.html",
-      "published": "2026-08-27T09:30:00Z"
+      "title": "Can Regeneron (REGN)’s Rare-Disease Win Move the Earnings Needle?",
+      "url": "https://finance.yahoo.com/healthcare/articles/regeneron-regn-rare-disease-win-210410578.html",
+      "published": "2026-08-27T21:04:10Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Mercury Systems (MRCY) Is Sitting On A Record Pile Of Orders",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/mercury-systems-mrcy-sitting-record-094015155.html",
-      "published": "2026-08-27T09:40:15Z"
+      "title": "Deutsche (DB) Completed a €1B Buyback and Started Another €500M Program. Is Its 60% Payout Target Sustainable?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/deutsche-db-completed-1b-buyback-210816041.html",
+      "published": "2026-08-27T21:08:16Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Target’s (TGT) Turnaround Shows Real Traction, But The Fine Print Matters",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/target-tgt-turnaround-shows-real-091859742.html",
-      "published": "2026-08-27T09:18:59Z"
+      "title": "Build-A-Bear Workshop, Inc. Q2 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/build-bear-workshop-inc-q2-210400513.html",
+      "published": "2026-08-27T21:04:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Even Elon Musk Now Admits Natural Gas Isn't Going Away. Here's What That Means for Nuclear Energy Stocks, Including NuScale Power and Oklo",
-      "url": "https://finance.yahoo.com/energy/articles/even-elon-musk-now-admits-093500867.html",
-      "published": "2026-08-27T09:35:00Z"
+      "title": "183-year-old giant tool company closes factory, lays off dozens",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/183-old-giant-tool-company-160300042.html",
+      "published": "2026-08-28T16:03:00Z"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Meet Generation Renter — young Americans who no longer expect to ever own a home",
-      "url": "https://www.marketwatch.com/story/meet-generation-renter-young-americans-who-no-longer-expect-ever-to-own-a-home-3cff63a9?mod=mw_rss_topstories",
-      "published": "Fri, 28 Aug 2026 19:01:00 GMT"
+      "title": "My mother, 91, has dementia. Every bank says I need her signature to unlock her $100,000 stock certificate. What can I do?",
+      "url": "https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories",
+      "published": "Fri, 28 Aug 2026 23:00:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Should I use my financial institution’s ‘free’ advisers?",
-      "url": "https://www.marketwatch.com/story/should-i-use-my-financial-institutions-free-advisers-or-hire-an-independent-78b7eff4?mod=mw_rss_topstories",
-      "published": "Fri, 28 Aug 2026 17:00:00 GMT"
+      "title": "Does a 2% beneficiary inherit 100% if the 98% beneficiary dies in a car accident? Asking for a friend.",
+      "url": "https://www.marketwatch.com/story/does-a-2-beneficiary-inherit-100-if-the-98-beneficiary-dies-in-a-car-accident-asking-for-a-friend-67aacc06?mod=mw_rss_topstories",
+      "published": "Fri, 28 Aug 2026 22:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "I’m turning 70. Here’s how I’m making this decade the richest of my retirement.",
-      "url": "https://www.marketwatch.com/story/im-turning-70-heres-how-im-making-this-decade-the-richest-of-my-retirement-ae351f90?mod=mw_rss_topstories",
-      "published": "Fri, 28 Aug 2026 16:48:00 GMT"
+      "title": "Microsoft’s stock seals its longest winning streak of the year as AI software fears fade",
+      "url": "https://www.marketwatch.com/story/microsofts-stock-seals-its-longest-winning-streak-of-the-year-as-ai-software-fears-fade-e5669f5b?mod=mw_rss_topstories",
+      "published": "Fri, 28 Aug 2026 21:34:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "The biggest risk to retirement plans may no longer be a stock market crash or inflation",
-      "url": "https://www.marketwatch.com/story/your-portfolio-can-recover-from-a-bear-market-but-can-it-survive-you-living-to-110-cc6d344c?mod=mw_rss_topstories",
-      "published": "Fri, 28 Aug 2026 16:46:00 GMT"
+      "title": "‘We are committed Christians’: Our son and daughter-in-law cut us off over politics. Should we change our $3 million will?",
+      "url": "https://www.marketwatch.com/story/we-are-hurt-our-son-and-daughter-in-law-cut-off-contact-with-us-over-politics-should-we-change-our-3-million-will-f763b761?mod=mw_rss_topstories",
+      "published": "Fri, 28 Aug 2026 21:31:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "I’m 56 with $1.4 million and want to retire in 5 years. Do I move to California, New York or overseas?",
-      "url": "https://www.marketwatch.com/story/im-56-with-1-4-million-and-want-to-retire-in-5-years-do-i-move-to-california-new-york-or-overseas-7cf10b08?mod=mw_rss_topstories",
-      "published": "Fri, 28 Aug 2026 16:44:00 GMT"
+      "title": "Nvidia’s revenue forecast is so huge that Wall Street wonders if SpaceX is the reason",
+      "url": "https://www.marketwatch.com/story/nvidias-revenue-forecast-is-so-huge-that-wall-street-wonders-if-spacex-is-the-reason-1ee7a8a9?mod=mw_rss_topstories",
+      "published": "Fri, 28 Aug 2026 20:58:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Is it a bad idea to withdraw from my retirement account to pay off my last $1,000 in credit-card debt?",
-      "url": "https://www.marketwatch.com/story/is-it-a-bad-idea-to-withdraw-from-my-retirement-account-to-pay-off-my-last-1-000-in-credit-card-debt-2adb80be?mod=mw_rss_topstories",
-      "published": "Fri, 28 Aug 2026 16:31:00 GMT"
+      "title": "My contractor handed my $42,000 pool upgrade to a subcontractor I had already rejected. What can I do?",
+      "url": "https://www.marketwatch.com/story/my-contractor-handed-my-42-000-pool-upgrade-to-a-subcontractor-i-had-already-rejected-what-can-i-do-dce41b2b?mod=mw_rss_topstories",
+      "published": "Fri, 28 Aug 2026 20:45:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Argentina beef exports to US face test from Trump proposal",
-      "url": "https://www.investing.com/news/stock-market-news/argentina-beef-exports-to-us-face-test-from-trump-proposal-4881755",
-      "published": "2026-08-28 18:54:33"
+      "title": "VirTra Inc. director Grant Barber buys $10,136 of its stock",
+      "url": "https://www.investing.com/news/insider-trading-news/virtra-inc-director-grant-barber-buys-10136-of-its-stock-93CH-4881927",
+      "published": "2026-08-29 02:46:10"
     },
     {
       "source": "Investing.com News",
-      "title": "Aroundtown completes €250 million share buyback program",
-      "url": "https://www.investing.com/news/company-news/aroundtown-completes-250-million-share-buyback-program-93CH-4881754",
-      "published": "2026-08-28 18:52:31"
+      "title": "Iranian trade plunges 35% as U.S. steps up economic pressure",
+      "url": "https://www.investing.com/news/economy-news/iranian-trade-plunges-35-as-us-steps-up-economic-pressure-4881926",
+      "published": "2026-08-29 02:41:32"
     },
     {
       "source": "Investing.com News",
-      "title": "Brazil weighs lending curbs as household debt stress mounts",
-      "url": "https://www.investing.com/news/economy-news/brazil-weighs-lending-curbs-as-household-debt-stress-mounts-4881753",
-      "published": "2026-08-28 18:48:29"
+      "title": "OpenAI to end partnership with SpaceX’s Cursor",
+      "url": "https://www.investing.com/news/stock-market-news/openai-to-end-partnership-with-spacexs-cursor-4881924",
+      "published": "2026-08-29 02:06:48"
     },
     {
       "source": "Investing.com News",
-      "title": "Horizon Kinetics holding corp director Alice Brennan buys $5,200 stock",
-      "url": "https://www.investing.com/news/insider-trading-news/horizon-kinetics-holding-corp-director-alice-brennan-buys-5200-stock-93CH-4881752",
-      "published": "2026-08-28 18:46:13"
+      "title": "War weighs on Iran’s economy as US intensifies sanctions",
+      "url": "https://www.investing.com/news/stock-market-news/war-weighs-on-irans-economy-as-us-intensifies-sanctions-4881923",
+      "published": "2026-08-29 02:06:32"
     },
     {
       "source": "Investing.com News",
-      "title": "Why is Strategy stock sliding today?",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-strategy-stock-sliding-today-93CH-4881751",
-      "published": "2026-08-28 18:44:54"
+      "title": "Indian bank stocks show widest exchange price gap in decades",
+      "url": "https://www.investing.com/news/stock-market-news/indian-bank-stocks-show-widest-exchange-price-gap-in-decades-4881922",
+      "published": "2026-08-29 02:01:53"
     },
     {
       "source": "Investing.com News",
-      "title": "Aroundtown buys back 75,549 shares in latest week",
-      "url": "https://www.investing.com/news/company-news/aroundtown-buys-back-75549-shares-in-latest-week-93CH-4881749",
-      "published": "2026-08-28 18:44:35"
+      "title": "CoreWeave GC Kristen McVeety sells $184,854 in stock",
+      "url": "https://www.investing.com/news/insider-trading-news/coreweave-gc-kristen-mcveety-sells-184854-in-stock-93CH-4881921",
+      "published": "2026-08-29 02:01:37"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Wall Street Bets, Personal Finance Is Broken: Must-Read Books",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-28/tom-scarlet-and-zijia-pick-their-must-read-books-video",
-      "published": "Fri, 28 Aug 2026 19:25:46 GMT"
+      "title": "Trump Teleprompter Pays $170,000 to End Insider Trading Probe",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-29/trump-teleprompter-pays-170-000-to-end-insider-trading-probe",
+      "published": "Sat, 29 Aug 2026 01:50:31 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Panama Canal Congestion Drives Gas Tankers to Unusual Routes",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-28/panama-canal-congestion-drives-gas-tankers-to-unusual-routes",
+      "published": "Fri, 28 Aug 2026 09:36:05 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Wall Street Week | Debt & Consequences, Defying Fiscal Gravity, Hollywood Gets Democratized",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-28/wall-street-week-defying-fiscal-gravity-video",
+      "published": "Fri, 28 Aug 2026 23:12:33 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Former FDIC Chair Sheila Bair on Inflation, Regulatory Landscape",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-28/sheila-bair-on-inflation-regulatory-landscape-video",
+      "published": "Fri, 28 Aug 2026 23:02:46 GMT"
     },
     {
       "source": "Bloomberg Markets",
@@ -388,28 +406,10 @@
       "published": "Thu, 27 Aug 2026 22:08:04 GMT"
     },
     {
-      "source": "Bloomberg Markets",
-      "title": "Warsh's Portfolio Impact, Stubborn Inflation | Bloomberg Money 8/28/2026",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-28/bloomberg-money-8-28-2026-video",
-      "published": "Fri, 28 Aug 2026 18:56:17 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Kevin Warsh’s Pivot",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-08-28/kevin-warsh-s-pivot",
-      "published": "Fri, 28 Aug 2026 18:53:24 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Warsh Makes Big Promises at Jackson Hole, Experts React",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-28/experts-react-to-warsh-s-jackson-hole-speech-video",
-      "published": "Fri, 28 Aug 2026 18:52:03 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Trump Announces Plan to Let Ranchers Process Their Own Food",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-28/trump-to-let-ranchers-process-their-own-food-video",
-      "published": "Fri, 28 Aug 2026 18:35:01 GMT"
+      "source": "FT Markets",
+      "title": "Trump says US to take control of 65bn barrels of Venezuelan oil",
+      "url": "https://www.ft.com/content/2f88581f-4fbc-46a2-8127-830bb630c2f2?syn-25a6b1a6=1",
+      "published": "Sat, 29 Aug 2026 00:36:22 GMT"
     }
   ],
   "summary": {
