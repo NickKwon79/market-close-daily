@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-09-01 00:17 KST",
+  "as_of_kst": "2026-09-01 09:42 KST",
   "as_of_date": "2026-09-01",
   "as_of_weekday": "TUE",
-  "build_unix": 1788189467,
+  "build_unix": 1788223360,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -10,15 +10,15 @@
       "name": "S&P 500",
       "region": "USA",
       "kind": "broad",
-      "price": 7672.25,
-      "change": -39.51,
-      "change_pct": -0.51,
+      "price": 7686.14,
+      "change": -25.62,
+      "change_pct": -0.33,
       "spark": [
         7677.28,
         7675.7,
         7730.99,
         7711.76,
-        7672.25
+        7686.14
       ],
       "as_of": "2026-08-31"
     },
@@ -28,15 +28,15 @@
       "name": "NASDAQ Composite",
       "region": "USA",
       "kind": "tech",
-      "price": 26287.81,
-      "change": -114.61,
-      "change_pct": -0.43,
+      "price": 26370.89,
+      "change": -31.53,
+      "change_pct": -0.12,
       "spark": [
         26151.3,
         26130.2,
         26541.35,
         26402.42,
-        26287.81
+        26370.89
       ],
       "as_of": "2026-08-31"
     },
@@ -46,15 +46,15 @@
       "name": "Dow Jones 30",
       "region": "USA",
       "kind": "value",
-      "price": 53199.31,
-      "change": -360.68,
-      "change_pct": -0.67,
+      "price": 53185.9,
+      "change": -374.09,
+      "change_pct": -0.7,
       "spark": [
         53577.4,
         53463.88,
         53569.44,
         53559.99,
-        53199.31
+        53185.9
       ],
       "as_of": "2026-08-31"
     },
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 6788.88,
-      "change": -123.49,
-      "change_pct": -1.79,
+      "price": 6767.72,
+      "change": -21.16,
+      "change_pct": -0.31,
       "spark": [
-        6696.96,
         6742.74,
         6808.21,
         6912.37,
-        6788.88
+        6788.88,
+        6767.72
       ],
-      "as_of": "2026-08-31"
+      "as_of": "2026-09-01"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 66405.56,
-      "change": 273.59,
-      "change_pct": 0.41,
+      "price": 65703.82,
+      "change": -701.74,
+      "change_pct": -1.06,
       "spark": [
-        65528.09,
         65856.43,
         66262.16,
         66131.98,
-        66405.56
+        66405.56,
+        65703.82
       ],
-      "as_of": "2026-08-31"
+      "as_of": "2026-09-01"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,15 +100,15 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 25566.99,
-      "change": -17.8,
-      "change_pct": -0.07,
+      "price": 25584.79,
+      "change": 19.05,
+      "change_pct": 0.07,
       "spark": [
+        25517.33,
         25511.1,
         25652.97,
         25565.74,
-        25584.79,
-        25566.99
+        25584.79
       ],
       "as_of": "2026-08-31"
     },
@@ -136,15 +136,15 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 26293.45,
-      "change": -276.54,
-      "change_pct": -1.04,
+      "price": 26569.99,
+      "change": 202.75,
+      "change_pct": 0.77,
       "spark": [
+        26106.6,
         26266.14,
         26285.96,
         26367.24,
-        26569.99,
-        26293.45
+        26569.99
       ],
       "as_of": "2026-08-31"
     }
@@ -153,33 +153,33 @@
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1368.52,
+      "rate": 1368.98,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 159.76,
+      "rate": 159.73,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1617,
+      "rate": 1.1627,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7078,
+      "rate": 6.71,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 99.43,
-      "change": -0.27,
-      "change_pct": -0.28,
+      "rate": 99.37,
+      "change": -0.33,
+      "change_pct": -0.33,
       "kind": "index"
     }
   },
@@ -189,27 +189,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 85.35,
-      "change": 1.95,
-      "change_pct": 2.34
+      "price": 86.59,
+      "change": 3.19,
+      "change_pct": 3.82
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4480.6,
-      "change": 2.5,
-      "change_pct": 0.06
+      "price": 4507.7,
+      "change": 29.6,
+      "change_pct": 0.66
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 78315.98,
-      "change": 485.69,
-      "change_pct": 0.62
+      "price": 78698.4,
+      "change": 868.11,
+      "change_pct": 1.12
     },
     "ust10y": {
       "key": "ust10y",
@@ -218,54 +218,54 @@
       "unit": "%",
       "price": 4.76,
       "change": 0.04,
-      "change_pct": 0.76
+      "change_pct": 0.81
     },
     "vix": {
       "key": "vix",
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 15.16,
-      "change": 0.73,
-      "change_pct": 5.06
+      "price": 14.92,
+      "change": 0.49,
+      "change_pct": 3.4
     }
   },
   "headlines_raw": [
     {
       "source": "CNBC Markets",
-      "title": "This aluminum stock is bound to bounce back, UBS says",
-      "url": "https://www.cnbc.com/2026/08/31/this-aluminum-stock-is-bound-to-bounce-back-ubs-says.html",
-      "published": "Mon, 31 Aug 2026 14:37:13 GMT"
+      "title": "Tuesday's big stock stories: What’s likely to move the market in the next trading session",
+      "url": "https://www.cnbc.com/2026/08/31/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+      "published": "Mon, 31 Aug 2026 23:41:02 GMT"
     },
     {
       "source": "CNBC Markets",
-      "title": "Two stocks on Josh Brown's list have been huge winners. How he's trading them now",
-      "url": "https://www.cnbc.com/2026/08/31/two-stocks-on-josh-browns-list-have-been-huge-winners-how-hes-trading-them-now.html",
-      "published": "Mon, 31 Aug 2026 15:00:01 GMT"
+      "title": "Avoid these potential earnings 'blow-ups', says Wolfe Research",
+      "url": "https://www.cnbc.com/2026/08/31/avoid-these-potential-earnings-blow-ups-says-wolfe-research.html",
+      "published": "Mon, 31 Aug 2026 20:49:03 GMT"
     },
     {
       "source": "CNBC Markets",
-      "title": "Why is Micron so cheap? AI rally leader has the third-lowest valuation in the S&P 500",
-      "url": "https://www.cnbc.com/2026/08/31/why-is-micron-so-cheap-ai-rally-leader-has-the-third-lowest-valuation-in-the-sp-500.html",
-      "published": "Mon, 31 Aug 2026 13:48:23 GMT"
+      "title": "Where to find some of the highest CD rates heading into September",
+      "url": "https://www.cnbc.com/2026/08/31/where-to-find-some-of-the-highest-cd-rates-heading-into-september.html",
+      "published": "Mon, 31 Aug 2026 19:17:55 GMT"
     },
     {
       "source": "CNBC Markets",
-      "title": "Here are Monday's biggest analyst calls: Nvidia, Apple, SpaceX, Dell, Deere, Broadcom, Costco, Redcat & more",
-      "url": "https://www.cnbc.com/2026/08/31/monday-big-wall-street-analyst-calls-like-nvidia.html",
-      "published": "Mon, 31 Aug 2026 12:10:23 GMT"
+      "title": "AI data centers need massive amounts of cooling. Jenny Harrington is buying this HVAC stock",
+      "url": "https://www.cnbc.com/2026/08/31/ai-is-creating-a-boom-in-cooling-demand-jenny-harrington-is-buying-this-hvac-stock.html",
+      "published": "Mon, 31 Aug 2026 18:59:00 GMT"
     },
     {
       "source": "CNBC Markets",
-      "title": "Deere has been on fire in 2026. Baird sees even more returns ahead",
-      "url": "https://www.cnbc.com/2026/08/31/deere-has-been-on-fire-in-2026-baird-sees-even-more-returns-ahead.html",
-      "published": "Mon, 31 Aug 2026 10:38:30 GMT"
+      "title": "This software outperformer reports earnings this week. Jay Woods says to watch these key levels",
+      "url": "https://www.cnbc.com/2026/08/31/snowflake-reports-earnings-soon-watch-these-levels-jay-woods-says.html",
+      "published": "Mon, 31 Aug 2026 17:02:16 GMT"
     },
     {
       "source": "CNBC Markets",
-      "title": "Top Wall Street analysts suggest these 3 dividend stocks for consistent income",
-      "url": "https://www.cnbc.com/2026/08/30/top-analysts-suggest-these-dividend-stocks-for-consistent-income.html",
-      "published": "Sun, 30 Aug 2026 10:42:13 GMT"
+      "title": "Wall Street is headed for a winning month. Why September may be a different story",
+      "url": "https://www.cnbc.com/2026/08/31/wall-street-heads-for-winning-month-september-may-be-a-different-story.html",
+      "published": "Mon, 31 Aug 2026 16:10:22 GMT"
     },
     {
       "source": "Yahoo Finance",
@@ -275,141 +275,141 @@
     },
     {
       "source": "Yahoo Finance",
-      "title": "Tech stocks today: Apple stock slips as Tim Cook prepares to step down",
-      "url": "https://finance.yahoo.com/technology/live/tech-stocks-today-apple-ceo-steps-down-nvidia-mag-7-145623375.html",
-      "published": "2026-08-31T14:56:23Z"
+      "title": "Victoria's Secret stock soars nearly 300% as GLP-1 weight-loss drugs help reshape lingerie buying habits",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/victorias-secret-stock-soars-nearly-130000704.html",
+      "published": "2026-08-30T13:00:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Micron Technology (MU) Gains Driven by Earnings Upgrades",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-technology-mu-gains-driven-145610534.html",
-      "published": "2026-08-31T14:56:10Z"
+      "title": "Everything I Learned from My Hot Chart Summer, and How My 21 Stocks Picks Have Performed.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/everything-learned-hot-chart-summer-133002092.html",
+      "published": "2026-08-30T13:30:02Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Building AI Infrastructure: Alpha Compute CEO Brittany Kaiser, Live at Nasdaq",
-      "url": "https://finance.yahoo.com/technology/ai/articles/building-ai-infrastructure-alpha-compute-145215261.html",
-      "published": "2026-08-31T14:52:15Z"
+      "title": "Josh Brown Says ‘Take a Break From AI CapEx World,’ Highlights His 2 Top Healthcare Stock Picks",
+      "url": "https://finance.yahoo.com/healthcare/articles/josh-brown-says-break-ai-134507001.html",
+      "published": "2026-08-30T13:45:07Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "From Decline to Momentum: Primo Brands’ (PRMB) Impressive Q2 Comeback",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/decline-momentum-primo-brands-prmb-144924534.html",
-      "published": "2026-08-31T14:49:24Z"
+      "title": "A Major $12.9 Billion Catalyst Is Brewing for Nvidia Stock",
+      "url": "https://finance.yahoo.com/technology/ai/articles/major-12-9-billion-catalyst-141502070.html",
+      "published": "2026-08-30T14:15:02Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "The Overlooked AI Bet That Could Outperform NVIDIA by 2027",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/overlooked-ai-bet-could-outperform-150034236.html",
-      "published": "2026-08-31T15:00:34Z"
+      "title": "US leveraged single-stock ETF boom shows signs of cooling",
+      "url": "https://finance.yahoo.com/markets/options/articles/us-leveraged-single-stock-etf-130300313.html",
+      "published": "2026-08-30T13:03:00Z"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Amazon’s stock slips as the FTC alleges billions of dollars in hidden ad fees",
+      "url": "https://www.marketwatch.com/story/amazons-stock-slips-as-the-ftc-alleges-billions-of-dollars-in-hidden-ad-fees-4ae44ee4?mod=mw_rss_topstories",
+      "published": "Mon, 31 Aug 2026 22:24:00 GMT"
     },
     {
       "source": "MarketWatch Top",
       "title": "‘I’m leaving money on the table’: I’m 64 and my husband is 70. Should I take spousal benefits or wait for my own?",
       "url": "https://www.marketwatch.com/story/im-leaving-money-on-the-table-im-64-and-my-husband-is-70-should-i-take-spousal-benefits-or-wait-for-my-own-2490f5cd?mod=mw_rss_topstories",
-      "published": "Mon, 31 Aug 2026 15:00:00 GMT"
+      "published": "Mon, 31 Aug 2026 22:00:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘We are committed Christians’: Our son and daughter-in-law cut us off over politics. Should we change our $3 million will?",
-      "url": "https://www.marketwatch.com/story/we-are-hurt-our-son-and-daughter-in-law-cut-off-contact-with-us-over-politics-should-we-change-our-3-million-will-f763b761?mod=mw_rss_topstories",
-      "published": "Mon, 31 Aug 2026 14:45:00 GMT"
+      "title": "The S&P 500 usually falls in September. Why this year should be different.",
+      "url": "https://www.marketwatch.com/story/the-s-p-500-usually-falls-in-september-why-this-year-should-be-different-77ebb626?mod=mw_rss_topstories",
+      "published": "Mon, 31 Aug 2026 21:36:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Wall Street banks are keeping astronomical price targets on SpaceX’s stock as it struggles to achieve post-IPO exit velocity",
-      "url": "https://www.marketwatch.com/story/wall-street-banks-are-keeping-astronomical-price-targets-on-spacexs-stock-as-it-tries-to-blast-off-again-0e21a0e4?mod=mw_rss_topstories",
-      "published": "Mon, 31 Aug 2026 14:23:00 GMT"
+      "title": "‘Neither of us attended college’: At 62, how can we afford to put our granddaughter through college?",
+      "url": "https://www.marketwatch.com/story/her-life-was-very-challenging-before-we-got-custody-at-62-how-can-we-afford-to-put-our-granddaughter-through-college-b9d550bb?mod=mw_rss_topstories",
+      "published": "Mon, 31 Aug 2026 21:34:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Global oil prices top $91 a barrel after U.S. and Iran exchange fire for the first time in a month",
-      "url": "https://www.marketwatch.com/story/brent-oil-tops-90-after-first-u-s-and-iran-fighting-in-a-month-3b818e19?mod=mw_rss_topstories",
-      "published": "Mon, 31 Aug 2026 14:18:00 GMT"
+      "title": "Vanguard’s S&P 500 index fund changed how we invest — but there may be a smarter way to get into the market",
+      "url": "https://www.marketwatch.com/story/vanguards-s-p-500-index-fund-changed-how-we-invest-but-there-may-be-a-smarter-way-to-get-into-the-market-a54a612c?mod=mw_rss_topstories",
+      "published": "Mon, 31 Aug 2026 21:33:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "My contractor handed my $42,000 pool upgrade to a subcontractor I had already rejected. What can I do?",
-      "url": "https://www.marketwatch.com/story/my-contractor-handed-my-42-000-pool-upgrade-to-a-subcontractor-i-had-already-rejected-what-can-i-do-dce41b2b?mod=mw_rss_topstories",
-      "published": "Mon, 31 Aug 2026 14:00:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "My friend is charging everyone $80 to attend her 30th birthday party. She says it’s to cover the open bar. Is it rude to not go?",
-      "url": "https://www.marketwatch.com/story/my-friend-is-charging-everyone-80-to-attend-her-30th-birthday-party-she-says-its-to-cover-the-open-bar-is-it-rude-to-not-go-d60b3b5b?mod=mw_rss_topstories",
-      "published": "Mon, 31 Aug 2026 13:58:00 GMT"
+      "title": "Maybe the snowbirds are right? One state dominates this list of best places to retire.",
+      "url": "https://www.marketwatch.com/story/maybe-the-snowbirds-are-right-one-state-dominates-this-list-of-best-places-to-retire-ab506160?mod=mw_rss_topstories",
+      "published": "Mon, 31 Aug 2026 21:23:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: Ensurge details battery progress in Q2 2025 as shares fall",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-ensurge-details-battery-progress-in-q2-2025-as-shares-fall-93CH-4883037",
-      "published": "2026-08-31 15:05:13"
+      "title": "Universal Safety Products director Milton Ault III buys $101,429 in stock",
+      "url": "https://www.investing.com/news/insider-trading-news/universal-safety-products-director-milton-ault-iii-buys-101429-in-stock-93CH-4883403",
+      "published": "2026-09-01 00:30:59"
     },
     {
       "source": "Investing.com News",
-      "title": "DA Davidson raises GitLab stock price target on consumption trends",
-      "url": "https://www.investing.com/news/analyst-ratings/da-davidson-raises-gitlab-stock-price-target-on-consumption-trends-93CH-4883036",
-      "published": "2026-08-31 15:02:55"
+      "title": "Grail CEO Joshua Ofman sells $425,098 in company stock",
+      "url": "https://www.investing.com/news/insider-trading-news/grail-ceo-joshua-ofman-sells-425098-in-company-stock-93CH-4883404",
+      "published": "2026-09-01 00:30:59"
     },
     {
       "source": "Investing.com News",
-      "title": "Malibu Boats stock rating held at Neutral by DA Davidson on industry caution",
-      "url": "https://www.investing.com/news/analyst-ratings/malibu-boats-stock-rating-held-at-neutral-by-da-davidson-on-industry-caution-93CH-4883035",
-      "published": "2026-08-31 15:02:48"
+      "title": "InnSuites Hospitality Trust CEO Wirth sells $802.6m in stock",
+      "url": "https://www.investing.com/news/insider-trading-news/innsuites-hospitality-trust-ceo-wirth-sells-8026m-in-stock-93CH-4883401",
+      "published": "2026-09-01 00:30:58"
     },
     {
       "source": "Investing.com News",
-      "title": "DA Davidson raises Airbnb stock price target on experiences growth",
-      "url": "https://www.investing.com/news/analyst-ratings/da-davidson-raises-airbnb-stock-price-target-on-experiences-growth-93CH-4883034",
-      "published": "2026-08-31 15:02:44"
+      "title": "South Korea’s Aug exports up 68.7% y/y, expand for 15th straight month",
+      "url": "https://www.investing.com/news/economic-indicators/south-koreas-aug-exports-up-687-yy-expand-for-15th-straight-month-4883402",
+      "published": "2026-09-01 00:30:58"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: SAIC tops Q2 2026 estimates and raises guidance",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-saic-tops-q2-2026-estimates-and-raises-guidance-93CH-4883033",
-      "published": "2026-08-31 15:02:40"
+      "title": "Universal Technical Institute director buys $21,800 in stock",
+      "url": "https://www.investing.com/news/insider-trading-news/universal-technical-institute-director-buys-21800-in-stock-93CH-4883400",
+      "published": "2026-09-01 00:30:52"
     },
     {
       "source": "Investing.com News",
-      "title": "Trump to host oil executives after accusing refiners of gouging consumers",
-      "url": "https://www.investing.com/news/stock-market-news/trump-to-host-oil-executives-after-accusing-refiners-of-gouging-consumers-4882409",
-      "published": "2026-08-31 15:01:38"
+      "title": "U.S. stock futures steady as markets digest rate risks, Iran escalation",
+      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-as-markets-digest-rate-risks-iran-escalation-4883399",
+      "published": "2026-09-01 00:30:24"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Ex-Congressman Santos Banned for Life by Kalshi After CFTC Case",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-31/ex-congressman-santos-banned-for-life-by-kalshi-after-cftc-case",
-      "published": "Mon, 31 Aug 2026 15:09:39 GMT"
+      "title": "Australia Housing Boom Shows Signs of Cracking",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-01/australia-housing-boom-shows-signs-of-cracking-video",
+      "published": "Tue, 01 Sep 2026 00:36:56 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "How to Fix Our Broken Unemployment System",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-31/opinion-how-to-fix-our-broken-unemployment-system-video",
-      "published": "Mon, 31 Aug 2026 15:05:45 GMT"
+      "title": "Asian Bonds Under Pressure as Oil Extends Advance: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-31/asian-stocks-to-fall-as-iran-flare-up-boosts-oil-markets-wrap",
+      "published": "Mon, 31 Aug 2026 22:06:14 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "'Shadow Homebuyers' Wait on Affordability Improvement",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-31/-shadow-homebuyers-wait-on-affordability-improvement-video",
-      "published": "Mon, 31 Aug 2026 15:03:12 GMT"
+      "title": "Japan’s Companies Boost Capital Investment as Profits Surge",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-01/japan-s-companies-boost-capital-investment-as-profits-surge",
+      "published": "Tue, 01 Sep 2026 00:05:47 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "PG&E Falls on Liability Bill; Nvidia Rises on Chip Investment | Stock Movers",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-31/pg-e-falls-on-liability-bill-nvidia-rises-on-chips-video",
-      "published": "Mon, 31 Aug 2026 15:01:51 GMT"
+      "title": "Japan Bonds Face Test at 10-Year Sale as Yield Approaches 3%",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-31/japan-bonds-face-test-at-10-year-sale-as-yield-approaches-3",
+      "published": "Mon, 31 Aug 2026 22:00:12 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Stocks Fall as US-Iran Strikes Spur Rally in Oil: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-30/stock-market-today-dow-s-p-live-updates",
-      "published": "Sun, 30 Aug 2026 22:13:50 GMT"
+      "title": "‘First Real Test’: Australia Property Fiasco Puts Private Credit on Edge",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-31/-first-real-test-australia-fiasco-has-private-credit-on-edge",
+      "published": "Mon, 31 Aug 2026 11:38:54 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Latest Oil Market News and Analysis for Aug. 31",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-30/latest-oil-market-news-and-analysis-for-aug-31",
-      "published": "Sun, 30 Aug 2026 22:06:01 GMT"
+      "title": "Latest Oil Market News and Analysis for Sept. 1",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-31/latest-oil-market-news-and-analysis-for-sept-1",
+      "published": "Mon, 31 Aug 2026 22:03:46 GMT"
     }
   ],
   "summary": {
