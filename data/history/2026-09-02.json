@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-09-02 08:27 KST",
+  "as_of_kst": "2026-09-02 21:14 KST",
   "as_of_date": "2026-09-02",
   "as_of_weekday": "WED",
-  "build_unix": 1788305272,
+  "build_unix": 1788351254,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -14,9 +14,9 @@
       "change": -54.67,
       "change_pct": -0.71,
       "spark": [
+        7677.28,
         7675.7,
         7730.99,
-        7711.76,
         7686.14,
         7631.47
       ],
@@ -32,9 +32,9 @@
       "change": -271.12,
       "change_pct": -1.03,
       "spark": [
+        26151.3,
         26130.2,
         26541.35,
-        26402.42,
         26370.89,
         26099.77
       ],
@@ -50,9 +50,9 @@
       "change": -419.02,
       "change_pct": -0.79,
       "spark": [
+        53577.4,
         53463.88,
         53569.44,
-        53559.99,
         53185.9,
         52766.88
       ],
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 6820.02,
-      "change": 31.14,
-      "change_pct": 0.46,
+      "price": 6562.72,
+      "change": -273.08,
+      "change_pct": -3.99,
       "spark": [
-        6742.74,
         6808.21,
         6912.37,
-        6788.88,
-        6820.02
+        6820.02,
+        6835.8,
+        6562.72
       ],
-      "as_of": "2026-08-31"
+      "as_of": "2026-09-02"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 66311.93,
-      "change": -93.63,
-      "change_pct": -0.14,
+      "price": 64325.64,
+      "change": -1889.7,
+      "change_pct": -2.85,
       "spark": [
-        65856.43,
         66262.16,
         66131.98,
-        66405.56,
-        66311.93
+        66311.93,
+        66215.34,
+        64325.64
       ],
-      "as_of": "2026-09-01"
+      "as_of": "2026-09-02"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 25566.99,
-      "change": -17.8,
+      "price": 25311.21,
+      "change": -18.52,
       "change_pct": -0.07,
       "spark": [
-        25511.1,
         25652.97,
         25565.74,
-        25584.79,
-        25566.99
+        25566.99,
+        25329.73,
+        25311.21
       ],
-      "as_of": "2026-09-01"
+      "as_of": "2026-09-02"
     },
     "ftse": {
       "key": "ftse",
@@ -118,17 +118,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10824.3,
-      "change": 31.8,
-      "change_pct": 0.29,
+      "price": 10760.51,
+      "change": -28.79,
+      "change_pct": -0.27,
       "spark": [
-        10854.3,
         10886.2,
         10878.1,
         10792.5,
-        10824.3
+        10789.3,
+        10760.51
       ],
-      "as_of": "2026-09-01"
+      "as_of": "2026-09-02"
     },
     "dax": {
       "key": "dax",
@@ -136,50 +136,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 26258.11,
-      "change": -311.88,
-      "change_pct": -1.17,
+      "price": 25856.54,
+      "change": -113.57,
+      "change_pct": -0.44,
       "spark": [
-        26266.14,
         26285.96,
         26367.24,
-        26569.99,
-        26258.11
+        26258.11,
+        25970.11,
+        25856.54
       ],
-      "as_of": "2026-09-01"
+      "as_of": "2026-09-02"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1374.29,
+      "rate": 1362.03,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 160.2,
+      "rate": 159.6,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1596,
+      "rate": 1.1582,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.726,
+      "rate": 6.7095,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 99.65,
-      "change": 0.22,
-      "change_pct": 0.23,
+      "rate": 99.75,
+      "change": 0.08,
+      "change_pct": 0.08,
       "kind": "index"
     }
   },
@@ -189,27 +189,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 90.79,
-      "change": 5.03,
-      "change_pct": 5.87
+      "price": 89.31,
+      "change": -0.91,
+      "change_pct": -1.01
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4376.8,
-      "change": -54.3,
-      "change_pct": -1.23
+      "price": 4379.6,
+      "change": 31.6,
+      "change_pct": 0.73
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 77279.38,
-      "change": -1269.25,
-      "change_pct": -1.62
+      "price": 76750.36,
+      "change": -653.27,
+      "change_pct": -0.84
     },
     "ust10y": {
       "key": "ust10y",
@@ -225,12 +225,18 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 16.34,
-      "change": 1.42,
-      "change_pct": 9.52
+      "price": 16.24,
+      "change": -0.1,
+      "change_pct": -0.61
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Dell has more than tripled in 2026. Two analysts say it has more room to run after earnings",
+      "url": "https://www.cnbc.com/2026/09/02/dell-has-more-than-tripled-in-2026-two-analysts-say-it-has-more-room-to-run.html",
+      "published": "Wed, 02 Sep 2026 11:32:14 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Wednesday's big stock stories: What’s likely to move the market in the next trading session",
@@ -262,12 +268,6 @@
       "published": "Tue, 01 Sep 2026 14:29:55 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "One aerospace stock got hit by a SpaceX announcement. Two analysts say buy the dip",
-      "url": "https://www.cnbc.com/2026/09/01/howmet-was-hit-hard-by-a-spacex-move-two-analysts-say-buy-the-dip.html",
-      "published": "Tue, 01 Sep 2026 15:36:37 GMT"
-    },
-    {
       "source": "Yahoo Finance",
       "title": "Denny’s rival dining chain files for Chapter 11 bankruptcy",
       "url": "https://finance.yahoo.com/small-business/articles/denny-rival-dining-chain-files-153300154.html",
@@ -275,141 +275,141 @@
     },
     {
       "source": "Yahoo Finance",
-      "title": "Firearms retailer files Chapter 11 bankruptcy as gun sales drop",
-      "url": "https://finance.yahoo.com/small-business/articles/firearms-retailer-files-chapter-11-153300921.html",
-      "published": "2026-08-31T15:33:00Z"
+      "title": "Dow Jones Futures Rise As Oil Prices Fall; Dell, Credo, Palo Alto Are Earnings Movers",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-dell-credo-palo-alto-earnings-oil-prices-jump/?src=A00220&yptr=yahoo",
+      "published": "2026-09-02T11:46:54Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "161-year-old kids clothing giant closes 29 more stores",
-      "url": "https://finance.yahoo.com/small-business/articles/161-old-kids-clothing-giant-171700918.html",
-      "published": "2026-08-31T17:17:00Z"
+      "title": "‘Only in America’: Trump hails Nvidia’s record $96.2B quarter and Micron’s massive $250B US bet — are you cashing in?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/only-america-trump-hails-nvidia-114000861.html",
+      "published": "2026-09-02T11:40:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Stocks Fall as Rising Geopolitical Risks Boost Crude Oil and Bond Yields",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-fall-rising-geopolitical-risks-151113745.html",
-      "published": "2026-08-31T15:11:13Z"
+      "title": "September Is Usually Ugly For Stocks — Why This Year Is Different",
+      "url": "https://www.investors.com/etfs-and-funds/sectors/sp500-september-is-usually-ugly-for-stocks-why-this-year-is-different/?src=A00220&yptr=yahoo",
+      "published": "2026-09-02T11:30:54Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "How Flowserve Corporation (FLS) is Positioned for Long-Term Success in the Nuclear Market",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/flowserve-positioned-long-term-success-151105058.html",
-      "published": "2026-08-31T15:11:05Z"
+      "title": "Bitcoin and ethereum prices today, Wednesday, September 2, 2026: Crypto prices tumble as Iran war reignites",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-september-2-2026-crypto-prices-tumble-as-iran-war-reignites-112639522.html",
+      "published": "2026-09-02T11:26:39Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "FDIC defeats $1.71 billion claim over Silicon Valley Bank collapse, US judge rules",
-      "url": "https://finance.yahoo.com/economy/policy/articles/fdic-defeats-1-71-billion-151108719.html",
-      "published": "2026-08-31T15:11:08Z"
+      "title": "Costco shuts down a key service with no notice",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/costco-shuts-down-key-no-011218190.html",
+      "published": "2026-09-02T01:12:18Z"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘It’s not fair’: My twin brother and I were left houses by our parents. Can I make him pay his share for taxes and upkeep?",
-      "url": "https://www.marketwatch.com/story/its-not-fair-my-twin-brother-and-i-were-left-houses-by-our-parents-can-i-make-him-pay-his-share-for-taxes-and-upkeep-43feb780?mod=mw_rss_topstories",
-      "published": "Tue, 01 Sep 2026 23:15:00 GMT"
+      "title": "Europe’s largest airline warns of jet-fuel prices hitting $140 this winter as it cuts capacity",
+      "url": "https://www.marketwatch.com/story/europes-largest-airline-warns-of-jet-fuel-prices-at-140-this-winter-as-it-cuts-capacity-ba7821a9?mod=mw_rss_topstories",
+      "published": "Wed, 02 Sep 2026 11:31:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Dow drops below a key chart level, warning of more trouble ahead",
-      "url": "https://www.marketwatch.com/story/dow-drops-below-a-key-chart-level-warning-of-more-trouble-ahead-ec3eb664?mod=mw_rss_topstories",
-      "published": "Tue, 01 Sep 2026 21:56:00 GMT"
+      "title": "Chevron outlines $7 billion plan to expand in Venezuela",
+      "url": "https://www.marketwatch.com/story/chevron-outlines-7-billion-plan-to-expand-in-venezuela-3cc5ef7c?mod=mw_rss_topstories",
+      "published": "Wed, 02 Sep 2026 11:07:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Dell’s AI servers drive a stellar earnings performance, and a raised outlook",
-      "url": "https://www.marketwatch.com/story/dells-ai-servers-drive-a-stellar-earnings-performance-and-a-raised-outlook-86476ace?mod=mw_rss_topstories",
-      "published": "Tue, 01 Sep 2026 21:52:00 GMT"
+      "title": "MongoDB shares tumble despite strong earnings on ‘disappointing’ news for investors",
+      "url": "https://www.marketwatch.com/story/mongodb-shares-tumble-despite-strong-earnings-on-disappointing-news-for-investors-5ee13c7b?mod=mw_rss_topstories",
+      "published": "Wed, 02 Sep 2026 10:58:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Palo Alto Networks’ stock falls despite strong AI cybersecurity demand",
-      "url": "https://www.marketwatch.com/story/palo-alto-networks-stock-climbs-as-demand-for-ai-cybersecurity-powers-an-earnings-beat-4b39578c?mod=mw_rss_topstories",
-      "published": "Tue, 01 Sep 2026 21:43:00 GMT"
+      "title": "Stocks that rise when the S&P 500 falls are keeping up with the rest of Wall Street. It’s weird.",
+      "url": "https://www.marketwatch.com/story/stocks-that-rise-when-the-s-p-500-falls-are-weirdly-keeping-up-with-the-rest-of-wall-street-0cf76f31?mod=mw_rss_topstories",
+      "published": "Wed, 02 Sep 2026 10:55:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Which workers are using AI surprisingly often? Dry cleaners and construction workers.",
-      "url": "https://www.marketwatch.com/story/which-workers-are-using-ai-surprisingly-often-dry-cleaners-and-construction-workers-b0ea5655?mod=mw_rss_topstories",
-      "published": "Tue, 01 Sep 2026 21:02:00 GMT"
+      "title": "‘Neither of us attended college’: At 62, how can we afford to put our granddaughter through college?",
+      "url": "https://www.marketwatch.com/story/her-life-was-very-challenging-before-we-got-custody-at-62-how-can-we-afford-to-put-our-granddaughter-through-college-b9d550bb?mod=mw_rss_topstories",
+      "published": "Wed, 02 Sep 2026 10:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "This could be the 10-year Treasury’s tipping point into the danger zone",
-      "url": "https://www.marketwatch.com/story/this-could-be-the-10-year-treasurys-tipping-point-into-the-danger-zone-891cd45d?mod=mw_rss_topstories",
-      "published": "Tue, 01 Sep 2026 20:36:00 GMT"
+      "title": "We’re in our 60s. My wife and I have $345,000 in annual pensions and $1 million in 403(b)s. Is it too late for Roth conversions?",
+      "url": "https://www.marketwatch.com/story/were-in-our-60s-my-wife-and-i-have-345-000-in-annual-pensions-and-1-million-in-403-b-s-is-it-too-late-for-roth-conversions-5df35d42?mod=mw_rss_topstories",
+      "published": "Wed, 02 Sep 2026 09:15:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Analysis-Not just Nvidia: these power and cooling firms are riding the trillion-dollar data centre boom",
-      "url": "https://www.investing.com/news/stock-market-news/analysisnot-just-nvidia-these-power-and-cooling-firms-are-riding-the-trilliondollar-data-centre-boom-4884721",
-      "published": "2026-09-01 23:13:12"
+      "title": "H.C. Wainwright reiterates Telix Pharmaceuticals stock rating on trial completion",
+      "url": "https://www.investing.com/news/analyst-ratings/hc-wainwright-reiterates-telix-pharmaceuticals-stock-rating-on-trial-completion-93CH-4885979",
+      "published": "2026-09-02 11:50:47"
     },
     {
       "source": "Investing.com News",
-      "title": "South Korea August inflation +3.1% y/y, weaker than expected",
-      "url": "https://www.investing.com/news/economic-indicators/south-korea-august-inflation-31-yy-weaker-than-expected-4884720",
-      "published": "2026-09-01 23:12:39"
+      "title": "Ming Yang Smart Energy controlling shareholder group cuts stake to 24.95%",
+      "url": "https://www.investing.com/news/company-news/ming-yang-smart-energy-controlling-shareholder-group-cuts-stake-to-2495-93CH-4885978",
+      "published": "2026-09-02 11:48:54"
     },
     {
       "source": "Investing.com News",
-      "title": "Government borrowing costs rise anew, adding to pressure on global policymakers",
-      "url": "https://www.investing.com/news/economy-news/global-bond-rout-deepens-as-japan-yield-hits-key-threshold-4883562",
-      "published": "2026-09-01 23:07:10"
+      "title": "Stewart Information acquires Tower Title telecom unit",
+      "url": "https://www.investing.com/news/company-news/stewart-information-acquires-tower-title-telecom-unit-93CH-4885977",
+      "published": "2026-09-02 11:48:37"
     },
     {
       "source": "Investing.com News",
-      "title": "Trump selects Hung Cao to serve as US Navy secretary",
-      "url": "https://www.investing.com/news/stock-market-news/trump-selects-hung-cao-to-serve-as-us-navy-secretary-4884719",
-      "published": "2026-09-01 23:06:34"
+      "title": "Goldman upgrades Deutsche Bank on improving revenue, operating leverage",
+      "url": "https://www.investing.com/news/stock-market-news/goldman-upgrades-deutsche-bank-on-improving-revenue-operating-leverage-4885976",
+      "published": "2026-09-02 11:46:44"
     },
     {
       "source": "Investing.com News",
-      "title": "Dell Q2 FY27 slides: AI server backlog hits $95B, revenue up 58%",
-      "url": "https://www.investing.com/news/company-news/dell-q2-fy27-slides-ai-server-backlog-hits-95b-revenue-up-58-93CH-4884718",
-      "published": "2026-09-01 23:03:28"
+      "title": "Gold extends losses to 3-week low as stronger dollar, Fed hike bets weigh",
+      "url": "https://www.investing.com/news/commodities-news/gold-falls-as-oil-bond-yields-and-fed-hike-bets-climb-on-iran-escalation-4885255",
+      "published": "2026-09-02 11:45:47"
     },
     {
       "source": "Investing.com News",
-      "title": "Roblox director Andrea Wong sells RBLX shares worth $22,979",
-      "url": "https://www.investing.com/news/insider-trading-news/roblox-director-andrea-wong-sells-rblx-shares-worth-22979-93CH-4884717",
-      "published": "2026-09-01 23:02:24"
+      "title": "cbdMD to acquire Twinlab supplement brands for $30M revenue boost",
+      "url": "https://www.investing.com/news/company-news/cbdmd-to-acquire-twinlab-supplement-brands-for-30m-revenue-boost-93CH-4885973",
+      "published": "2026-09-02 11:44:36"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Latest Oil Market News and Analysis for Sept. 2",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-01/latest-oil-market-news-and-analysis-for-sept-2",
-      "published": "Tue, 01 Sep 2026 22:04:01 GMT"
+      "title": "Markets Would React Poorly if Fed Holds Rates: Seder",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-02/markets-would-react-poorly-if-fed-holds-rates-seder-video",
+      "published": "Wed, 02 Sep 2026 12:07:12 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Seraphim Launches New ETF to Target Pure-Play Space Investors",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-01/seraphim-launches-new-etf-to-target-pure-play-space-investors",
-      "published": "Tue, 01 Sep 2026 23:01:00 GMT"
+      "title": "European and UK Bond Rout Continues as Gas Prices Climb",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-02/european-and-uk-bonds-extend-losses-as-gas-prices-edge-higher",
+      "published": "Wed, 02 Sep 2026 09:39:56 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Ambani’s Streaming Site Eyes Millions of Indian Diaspora",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-01/ambani-s-streaming-site-eyes-millions-of-indian-diaspora",
-      "published": "Tue, 01 Sep 2026 22:50:00 GMT"
+      "title": "Venezuela’s New Crop of Oil Barons Step Up the Dealmaking",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-09-02/venezuela-s-new-crop-of-oil-barons-step-up-the-dealmaking",
+      "published": "Wed, 02 Sep 2026 12:02:06 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Asian Stocks Set for Declines as Oil Extends Gains: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-01/stock-market-today-dow-s-p-live-updates",
-      "published": "Tue, 01 Sep 2026 22:07:33 GMT"
+      "title": "Apollo’s Slok Sees Iran War, Tariffs Driving US Yields Higher",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-02/apollo-s-slok-sees-war-tariffs-driving-us-yields-higher-video",
+      "published": "Wed, 02 Sep 2026 11:51:24 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Using Smart Devices to Improve Sleep",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-01/using-smart-devices-to-improve-sleep-video",
-      "published": "Tue, 01 Sep 2026 21:59:57 GMT"
+      "title": "Senegal To Rework Debt as It Reaches New IMF Deal",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-02/senegal-to-rework-debt-as-it-reaches-new-imf-deal-video",
+      "published": "Wed, 02 Sep 2026 11:50:51 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Bessent’s Bond Gains Wiped Out as Treasury Yields Jump Again",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-01/bessent-s-bond-gains-wiped-out-as-30-year-yields-jump-once-again",
-      "published": "Tue, 01 Sep 2026 21:03:35 GMT"
+      "title": "Wren House Is Said to Near Deal for GIC’s Data Center Stake",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-02/wren-house-is-said-to-near-deal-for-gic-s-data-center-stake",
+      "published": "Wed, 02 Sep 2026 11:47:15 GMT"
     }
   ],
   "summary": {
