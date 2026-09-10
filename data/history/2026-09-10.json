@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-09-10 08:25 KST",
+  "as_of_kst": "2026-09-10 21:19 KST",
   "as_of_date": "2026-09-10",
   "as_of_weekday": "THU",
-  "build_unix": 1788996314,
+  "build_unix": 1789042785,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 6954.52,
-      "change": -40.87,
-      "change_pct": -0.58,
+      "price": 7033.92,
+      "change": -17.72,
+      "change_pct": -0.25,
       "spark": [
-        6562.72,
-        6579.48,
         6687.21,
         6995.39,
-        6954.52
+        6954.52,
+        7051.64,
+        7033.92
       ],
-      "as_of": "2026-09-08"
+      "as_of": "2026-09-10"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 65269.33,
-      "change": -1130.52,
-      "change_pct": -1.7,
+      "price": 65270.95,
+      "change": 128.17,
+      "change_pct": 0.2,
       "spark": [
-        64325.64,
-        64214.48,
         65020.94,
         66399.84,
-        65269.33
+        65269.33,
+        65142.78,
+        65270.95
       ],
-      "as_of": "2026-09-09"
+      "as_of": "2026-09-10"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 25317.18,
-      "change": -95.94,
-      "change_pct": -0.38,
+      "price": 24954.47,
+      "change": -320.49,
+      "change_pct": -1.27,
       "spark": [
-        25311.21,
-        25213.31,
         25650.87,
         25413.12,
-        25317.18
+        25317.18,
+        25274.96,
+        24954.47
       ],
-      "as_of": "2026-09-09"
+      "as_of": "2026-09-10"
     },
     "ftse": {
       "key": "ftse",
@@ -118,17 +118,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10811.7,
-      "change": -10.4,
-      "change_pct": -0.1,
+      "price": 10623.0,
+      "change": -47.1,
+      "change_pct": -0.44,
       "spark": [
-        10756.5,
-        10831.5,
         10831.1,
         10822.1,
-        10811.7
+        10811.7,
+        10670.1,
+        10623.0
       ],
-      "as_of": "2026-09-09"
+      "as_of": "2026-09-10"
     },
     "dax": {
       "key": "dax",
@@ -136,50 +136,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 26007.63,
-      "change": 1.1,
-      "change_pct": 0.0,
+      "price": 25541.44,
+      "change": -35.01,
+      "change_pct": -0.14,
       "spark": [
-        25839.33,
-        26003.32,
         26046.4,
         26006.53,
-        26007.63
+        26007.63,
+        25576.45,
+        25541.44
       ],
-      "as_of": "2026-09-09"
+      "as_of": "2026-09-10"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1339.4399,
+      "rate": 1344.67,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 153.39,
+      "rate": 153.48,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.164,
+      "rate": 1.1618,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7105,
+      "rate": 6.6978,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 98.78,
-      "change": -0.06,
-      "change_pct": -0.06,
+      "rate": 98.99,
+      "change": 0.22,
+      "change_pct": 0.23,
       "kind": "index"
     }
   },
@@ -189,27 +189,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 97.12,
-      "change": 4.09,
-      "change_pct": 4.4
+      "price": 99.04,
+      "change": 2.99,
+      "change_pct": 3.11
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4444.2,
-      "change": 50.3,
-      "change_pct": 1.14
+      "price": 4415.0,
+      "change": -1.0,
+      "change_pct": -0.02
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 78100.26,
-      "change": -338.32,
-      "change_pct": -0.43
+      "price": 77731.81,
+      "change": -527.71,
+      "change_pct": -0.67
     },
     "ust10y": {
       "key": "ust10y",
@@ -225,12 +225,18 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 16.46,
-      "change": 0.74,
-      "change_pct": 4.71
+      "price": 17.03,
+      "change": 0.57,
+      "change_pct": 3.46
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Piper Sandler says AI is causing 'insatiable demand' for compute capacity. These two stocks will benefit most",
+      "url": "https://www.cnbc.com/2026/09/10/piper-sandler-says-these-compute-stocks-will-benefit-from-high-demand.html",
+      "published": "Thu, 10 Sep 2026 11:26:15 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Dump these loser stocks this fall, Wolfe Research says. It could help cut next year's tax bill",
@@ -262,154 +268,148 @@
       "published": "Wed, 09 Sep 2026 16:21:46 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "Apple is expected to announce foldable iPhone. What it means for the stock",
-      "url": "https://www.cnbc.com/2026/09/09/apple-is-expected-to-announce-foldable-iphone-what-it-means-for-the-stock.html",
-      "published": "Wed, 09 Sep 2026 18:08:56 GMT"
+      "source": "Yahoo Finance",
+      "title": "Porsche completes Bugatti Rimac exit, lifts cash flow outlook",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/porsche-completes-bugatti-rimac-exit-120423105.html",
+      "published": "2026-09-10T12:04:23Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Sugar Prices Are Climbing Higher. How to Trade Them Here.",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/sugar-prices-climbing-higher-trade-153205875.html",
-      "published": "2026-09-08T15:32:05Z"
+      "title": "Dow Jones Futures Rise, Oil Prices Keep Climbing; Inflation Data Due.",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-yields-meta-spacex-apple-iphone-inflation-data/?src=A00220&yptr=yahoo",
+      "published": "2026-09-10T11:56:25Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Andrew Sather: “Most Investors Are Missing Why” Coca-Cola Is Outperforming",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/andrew-sather-most-investors-missing-153234071.html",
-      "published": "2026-09-08T15:32:34Z"
+      "title": "Netflix (NFLX) Shares Pressured by Weak Q2 Outlook",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/netflix-nflx-shares-pressured-weak-115559393.html",
+      "published": "2026-09-10T11:55:59Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Middle East Hostilities Underpin Crude Oil Prices",
-      "url": "https://finance.yahoo.com/energy/articles/middle-east-hostilities-underpin-crude-152954672.html",
-      "published": "2026-09-08T15:29:54Z"
+      "title": "Should You Be Bullish on Intel Corporation (INTC)?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bullish-intel-corporation-intc-115408821.html",
+      "published": "2026-09-10T11:54:08Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "An AI Stock Launched a Rack-Scale System 30x Faster Than Nvidia’s GPUs. Here’s Why It Is Still a Risky Buy.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ai-stock-launched-rack-scale-152605499.html",
-      "published": "2026-09-08T15:26:05Z"
+      "title": "Exiting Insmed (INSM) Following Disappointing Key Drug Uptake",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exiting-insmed-insm-following-disappointing-115232758.html",
+      "published": "2026-09-10T11:52:32Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Bank of America Is Bullish on SK hynix Stock as the Memory Chip Market Stays Tight",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-bullish-sk-hynix-153622945.html",
-      "published": "2026-09-08T15:36:22Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "The Kroger Co. (KR) Shares Weighed by Inflation Pressure and Slowing Sales",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/kroger-co-kr-shares-weighed-153940365.html",
-      "published": "2026-09-08T15:39:40Z"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Diesel prices hit another record high. If you’re shocked, wait until you see your grocery bill.",
-      "url": "https://www.marketwatch.com/story/diesel-prices-hit-another-record-high-if-youre-shocked-wait-until-you-see-your-grocery-bill-afee7076?mod=mw_rss_topstories",
-      "published": "Wed, 09 Sep 2026 22:51:00 GMT"
+      "title": "This 61-Year-Old Man's Stock Bet Made Him More Than Nvidia's CEO",
+      "url": "https://www.investors.com/etfs-and-funds/sectors/sp500-mans-stock-bet-made-him-more-than-nvidias-ceo/?src=A00220&yptr=yahoo",
+      "published": "2026-09-10T11:49:52Z"
     },
     {
       "source": "MarketWatch Top",
       "title": "I’m a single 58-year-old veteran in California with $1.5 million and a VA pension. Can I retire?",
       "url": "https://www.marketwatch.com/story/im-a-single-58-year-old-veteran-with-1-5-million-in-assets-and-a-va-pension-can-i-afford-to-retire-9fadfd41?mod=mw_rss_topstories",
-      "published": "Wed, 09 Sep 2026 22:30:00 GMT"
+      "published": "Thu, 10 Sep 2026 12:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Home-insurance premiums just hit a record high. Here’s where they spiked the most.",
-      "url": "https://www.marketwatch.com/story/home-insurance-premiums-just-hit-a-record-high-heres-where-they-spiked-the-most-658ee4d9?mod=mw_rss_topstories",
-      "published": "Wed, 09 Sep 2026 22:21:00 GMT"
+      "title": "Apple’s stock rises after iPhone reveal. The company is walking a ‘tightrope’ on pricing, say analysts.",
+      "url": "https://www.marketwatch.com/story/apples-stock-rises-after-iphone-reveal-the-company-is-walking-a-tightrope-on-pricing-say-analysts-813898ac?mod=mw_rss_topstories",
+      "published": "Thu, 10 Sep 2026 12:01:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Hunter Biden’s memecoin flops, falling 95% just hours after launch",
-      "url": "https://www.marketwatch.com/story/hunter-bidens-memecoin-flops-falling-95-just-hours-after-launch-3e9307d0?mod=mw_rss_topstories",
-      "published": "Wed, 09 Sep 2026 22:02:00 GMT"
+      "title": "With the copper price surfing all-time highs, here’s what one CEO thinks about the sector long term",
+      "url": "https://www.marketwatch.com/story/with-the-copper-price-surfing-all-time-highs-heres-what-one-ceo-thinks-about-the-sector-long-term-0213d051?mod=mw_rss_topstories",
+      "published": "Thu, 10 Sep 2026 11:42:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘We fear financial exploitation’: Who will manage our finances if my wife and I become incapacitated?",
-      "url": "https://www.marketwatch.com/story/we-fear-financial-exploitation-who-will-manage-our-finances-if-my-wife-and-i-become-incapacitated-32efc180?mod=mw_rss_topstories",
-      "published": "Wed, 09 Sep 2026 22:00:00 GMT"
+      "title": "Investors are missing the good news right in front of them, this Wall Street strategist argues",
+      "url": "https://www.marketwatch.com/story/investors-are-missing-the-good-news-right-in-front-of-them-this-wall-street-strategist-argues-aaf27342?mod=mw_rss_topstories",
+      "published": "Thu, 10 Sep 2026 11:22:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "The bull market’s biggest enemy right now could be Bessent’s interventions",
-      "url": "https://www.marketwatch.com/story/the-bull-markets-biggest-enemy-right-now-could-be-bessents-interventions-134bbe78?mod=mw_rss_topstories",
-      "published": "Wed, 09 Sep 2026 21:17:00 GMT"
+      "title": "I have two sons. Should I allow one son to build a $400,000 house on my land?",
+      "url": "https://www.marketwatch.com/story/i-have-two-sons-should-i-allow-one-son-to-build-a-400-000-house-on-my-property-im-not-permitted-to-subdivide-the-land-5ec23b62?mod=mw_rss_topstories",
+      "published": "Thu, 10 Sep 2026 11:15:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "History shows the bar to disrupt AI is surprisingly high, says Bank of America",
+      "url": "https://www.marketwatch.com/story/history-shows-the-bar-to-disrupt-ai-is-surprisingly-high-says-bank-of-america-ddf543d4?mod=mw_rss_topstories",
+      "published": "Thu, 10 Sep 2026 11:01:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Factbox-Foldable iPhone, pricier 18 Pro unveiled in Apple’s first event under Ternus",
-      "url": "https://www.investing.com/news/stock-market-news/factboxfoldable-iphone-pricier-18-pro-unveiled-in-apples-first-event-under-ternus-4894517",
-      "published": "2026-09-09 23:06:35"
+      "title": "RBC bullish on Technip Energies as record backlog boosts earnings outlook",
+      "url": "https://www.investing.com/news/stock-market-news/rbc-bullish-on-technip-energies-as-record-backlog-boosts-earnings-outlook-4895833",
+      "published": "2026-09-10 12:15:14"
     },
     {
       "source": "Investing.com News",
-      "title": "Microchip at Citi 2026 Global TMT Conference: recovery broadens",
-      "url": "https://www.investing.com/news/transcripts/microchip-at-citi-2026-global-tmt-conference-recovery-broadens-93CH-4894731",
-      "published": "2026-09-09 23:05:25"
+      "title": "International Paper at Jefferies Global Industrials Conference 2026: focus tightens",
+      "url": "https://www.investing.com/news/transcripts/international-paper-at-jefferies-global-industrials-conference-2026-focus-tightens-93CH-4895831",
+      "published": "2026-09-10 12:15:00"
     },
     {
       "source": "Investing.com News",
-      "title": "PACS Group CEO Jason Hulse Murray sells $2.2m in stock",
-      "url": "https://www.investing.com/news/insider-trading-news/pacs-group-ceo-jason-hulse-murray-sells-22m-in-stock-93CH-4894730",
-      "published": "2026-09-09 23:00:56"
+      "title": "AGCO at Jefferies Global Industrials Conference 2026: growth plan in focus",
+      "url": "https://www.investing.com/news/transcripts/agco-at-jefferies-global-industrials-conference-2026-growth-plan-in-focus-93CH-4895829",
+      "published": "2026-09-10 12:14:57"
     },
     {
       "source": "Investing.com News",
-      "title": "United Therapeutics at Cantor healthcare conference: fibrosis push widens",
-      "url": "https://www.investing.com/news/transcripts/united-therapeutics-at-cantor-healthcare-conference-fibrosis-push-widens-93CH-4894729",
-      "published": "2026-09-09 23:00:37"
+      "title": "Retail investors cautious on Apple after event, Webull UK’s Saunders says",
+      "url": "https://www.investing.com/news/stock-market-news/retail-investors-cautious-on-apple-after-event-webull-uks-saunders-says-4895830",
+      "published": "2026-09-10 12:14:57"
     },
     {
       "source": "Investing.com News",
-      "title": "Box at Citi’s 2026 Global TMT Conference: AI drives growth",
-      "url": "https://www.investing.com/news/transcripts/box-at-citis-2026-global-tmt-conference-ai-drives-growth-93CH-4894727",
-      "published": "2026-09-09 22:58:55"
+      "title": "Freshpet at barclays consumer conference: rivals, margins and growth",
+      "url": "https://www.investing.com/news/transcripts/freshpet-at-barclays-consumer-conference-rivals-margins-and-growth-93CH-4895828",
+      "published": "2026-09-10 12:14:08"
     },
     {
       "source": "Investing.com News",
-      "title": "Community Health Systems at Wells Fargo conference: guidance trimmed",
-      "url": "https://www.investing.com/news/transcripts/community-health-systems-at-wells-fargo-conference-guidance-trimmed-93CH-4894726",
-      "published": "2026-09-09 22:57:22"
+      "title": "StoneX reiterates Buy on Malibu Boats stock, $40 target maintained",
+      "url": "https://www.investing.com/news/analyst-ratings/stonex-reiterates-buy-on-malibu-boats-stock-40-target-maintained-93CH-4895827",
+      "published": "2026-09-10 12:13:05"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Asian Stocks to Drop as Oil Stokes Inflation Fears: Markets Wrap",
+      "title": "US Stocks Slip Before PPI Data, Oracle Earnings: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-09-09/stock-market-today-dow-s-p-live-updates",
       "published": "Wed, 09 Sep 2026 22:13:56 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Latest Oil Market News and Analysis for Sept. 10",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-09/latest-oil-market-news-and-analysis-for-sept-10",
-      "published": "Wed, 09 Sep 2026 22:04:56 GMT"
+      "title": "Wall Street Is Betting On a Split Congress With Midterms on Tap",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-10/wall-street-is-betting-on-a-split-congress-with-midterms-on-tap",
+      "published": "Thu, 10 Sep 2026 12:00:48 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Famous Brazil Judge Yanked From ‘Fake News’ Probe That Made Him",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-09/famous-brazil-judge-yanked-from-fake-news-probe-that-made-him",
-      "published": "Wed, 09 Sep 2026 23:05:57 GMT"
+      "title": "Saudis Tell OPEC That Output Slumped Again to Lowest Since 1990",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-10/saudis-tell-opec-that-output-slumped-again-to-lowest-since-1990",
+      "published": "Thu, 10 Sep 2026 12:00:00 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Port of LA Hits Three-Month Record as Cargo Peak Stretches On",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-09/port-of-la-hits-three-month-record-as-cargo-peak-stretches-on",
-      "published": "Wed, 09 Sep 2026 22:29:41 GMT"
+      "title": "Rob Arnott Sells His Index Crown, Keeps $30 Billion in Assets",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-10/rob-arnott-sells-his-index-crown-keeps-30-billion-in-assets",
+      "published": "Thu, 10 Sep 2026 12:00:00 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Citadel Securities Urges SEC to Take Oversight of Some Wagers",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-09/citadel-securities-urges-sec-to-take-oversight-of-some-wagers",
-      "published": "Wed, 09 Sep 2026 22:18:32 GMT"
+      "title": "Intesa Investors Back Share Issue to Finance Paschi Offer",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-10/intesa-investors-back-share-issue-to-finance-monte-paschi-bid",
+      "published": "Thu, 10 Sep 2026 10:01:17 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Carney Woos Investors on Deals for Data Centers, Mines and LNG",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-09/carney-woos-investors-on-deals-for-data-centers-mines-and-lng",
-      "published": "Wed, 09 Sep 2026 22:10:20 GMT"
+      "title": "US Stock Futures Today: American Eagle, Cooper, Meta, Rackspace",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-10/us-stock-futures-today-american-eagle-cooper-meta-rackspace",
+      "published": "Thu, 10 Sep 2026 11:48:07 GMT"
     }
   ],
   "summary": {
