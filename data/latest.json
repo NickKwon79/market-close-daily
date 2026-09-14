@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-09-14 08:18 KST",
+  "as_of_kst": "2026-09-14 23:20 KST",
   "as_of_date": "2026-09-14",
   "as_of_weekday": "MON",
-  "build_unix": 1789341493,
+  "build_unix": 1789395626,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -10,17 +10,17 @@
       "name": "S&P 500",
       "region": "USA",
       "kind": "broad",
-      "price": 7656.98,
-      "change": 65.28,
-      "change_pct": 0.86,
+      "price": 7610.45,
+      "change": -46.53,
+      "change_pct": -0.61,
       "spark": [
-        7718.6,
         7673.52,
         7636.36,
         7591.7,
-        7656.98
+        7656.98,
+        7610.45
       ],
-      "as_of": "2026-09-11"
+      "as_of": "2026-09-14"
     },
     "nasdaq": {
       "key": "nasdaq",
@@ -28,17 +28,17 @@
       "name": "NASDAQ Composite",
       "region": "USA",
       "kind": "tech",
-      "price": 26333.04,
-      "change": 251.32,
-      "change_pct": 0.96,
+      "price": 26092.67,
+      "change": -240.37,
+      "change_pct": -0.91,
       "spark": [
-        26506.99,
         26421.41,
         26253.34,
         26081.72,
-        26333.04
+        26333.04,
+        26092.67
       ],
-      "as_of": "2026-09-11"
+      "as_of": "2026-09-14"
     },
     "dow": {
       "key": "dow",
@@ -46,17 +46,17 @@
       "name": "Dow Jones 30",
       "region": "USA",
       "kind": "value",
-      "price": 52573.29,
-      "change": 509.19,
-      "change_pct": 0.98,
+      "price": 52419.16,
+      "change": -154.13,
+      "change_pct": -0.29,
       "spark": [
-        53414.25,
         52786.07,
         52380.66,
         52064.1,
-        52573.29
+        52573.29,
+        52419.16
       ],
-      "as_of": "2026-09-11"
+      "as_of": "2026-09-14"
     },
     "kospi": {
       "key": "kospi",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 6909.91,
-      "change": -124.01,
-      "change_pct": -1.76,
+      "price": 6684.37,
+      "change": -225.54,
+      "change_pct": -3.26,
       "spark": [
-        6995.39,
         6954.52,
         7051.64,
         7033.92,
-        6909.91
+        6909.91,
+        6684.37
       ],
-      "as_of": "2026-09-11"
+      "as_of": "2026-09-14"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 64011.34,
-      "change": -1259.61,
-      "change_pct": -1.93,
+      "price": 63492.99,
+      "change": -518.35,
+      "change_pct": -0.81,
       "spark": [
-        66399.84,
         65269.33,
         65142.78,
         65270.95,
-        64011.34
+        64011.34,
+        63492.99
       ],
-      "as_of": "2026-09-11"
+      "as_of": "2026-09-14"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 24805.63,
-      "change": -148.84,
-      "change_pct": -0.6,
+      "price": 24917.6,
+      "change": 111.97,
+      "change_pct": 0.45,
       "spark": [
-        25413.12,
         25317.18,
         25274.96,
         24954.47,
-        24805.63
+        24805.63,
+        24917.6
       ],
-      "as_of": "2026-09-11"
+      "as_of": "2026-09-14"
     },
     "ftse": {
       "key": "ftse",
@@ -118,17 +118,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10650.4,
-      "change": 41.5,
-      "change_pct": 0.39,
+      "price": 10712.71,
+      "change": 62.31,
+      "change_pct": 0.59,
       "spark": [
-        10822.1,
         10811.7,
         10670.1,
         10608.9,
-        10650.4
+        10650.4,
+        10712.71
       ],
-      "as_of": "2026-09-11"
+      "as_of": "2026-09-14"
     },
     "dax": {
       "key": "dax",
@@ -136,50 +136,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 25568.56,
-      "change": 207.41,
-      "change_pct": 0.82,
+      "price": 25447.64,
+      "change": -120.92,
+      "change_pct": -0.47,
       "spark": [
-        26006.53,
         26007.63,
         25576.45,
         25361.15,
-        25568.56
+        25568.56,
+        25447.64
       ],
-      "as_of": "2026-09-11"
+      "as_of": "2026-09-14"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1342.9,
+      "rate": 1346.88,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 153.69,
+      "rate": 154.75,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1593,
+      "rate": 1.1539,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.6974,
+      "rate": 6.6989,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 99.14,
-      "change": 0.02,
-      "change_pct": 0.02,
+      "rate": 99.66,
+      "change": 0.54,
+      "change_pct": 0.55,
       "kind": "index"
     }
   },
@@ -189,48 +189,72 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 102.39,
-      "change": 2.34,
-      "change_pct": 2.34
+      "price": 103.98,
+      "change": 3.93,
+      "change_pct": 3.93
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4382.3,
-      "change": 16.1,
-      "change_pct": 0.37
+      "price": 4314.6,
+      "change": -51.6,
+      "change_pct": -1.18
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 76629.4,
-      "change": -641.07,
-      "change_pct": -0.83
+      "price": 78571.53,
+      "change": 1733.38,
+      "change_pct": 2.26
     },
     "ust10y": {
       "key": "ust10y",
       "symbol": "^TNX",
       "name": "10Y UST Yield",
       "unit": "%",
-      "price": 4.97,
-      "change": 0.03,
-      "change_pct": 0.63
+      "price": 5.0,
+      "change": 0.02,
+      "change_pct": 0.46
     },
     "vix": {
       "key": "vix",
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 15.84,
-      "change": -2.0,
-      "change_pct": -11.21
+      "price": 17.28,
+      "change": 1.44,
+      "change_pct": 9.09
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "JPMorgan double upgraded a data center stock that struck a deal with Nvidia earlier this year",
+      "url": "https://www.cnbc.com/2026/09/14/jpmorgan-double-upgraded-a-data-center-stock-that-struck-a-deal-with-nvidia.html",
+      "published": "Mon, 14 Sep 2026 14:03:26 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Here are Monday's biggest analyst calls: Nvidia, SpaceX, Apple, GM, Netflix, Affirm, Caterpillar, Broadcom & more",
+      "url": "https://www.cnbc.com/2026/09/14/monday-wall-street-analyst-calls-like-nvidia.html",
+      "published": "Mon, 14 Sep 2026 12:17:46 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "General Motors has an 'underappreciated' growth driver, UBS says",
+      "url": "https://www.cnbc.com/2026/09/14/chevrolets-maker-has-an-underappreciated-way-to-grow-ubs-says.html",
+      "published": "Mon, 14 Sep 2026 11:29:22 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "A buy now, pay later stock has been sliding. It's worth scooping up, Wolfe Research says",
+      "url": "https://www.cnbc.com/2026/09/14/affirm-has-been-sliding-buy-it-now-wolfe-research-says.html",
+      "published": "Mon, 14 Sep 2026 10:45:23 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Top Wall Street analysts recommend these 3 dividend stocks for higher returns",
@@ -244,172 +268,148 @@
       "published": "Sun, 13 Sep 2026 11:54:40 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "Oil's roundtrip back to $100. Why China could determine what happens next",
-      "url": "https://www.cnbc.com/2026/09/12/oils-roundtrip-back-to-100-why-china-could-determine-what-happens-next.html",
-      "published": "Sat, 12 Sep 2026 12:40:05 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Why data centers could be the next big market for catastrophe bonds",
-      "url": "https://www.cnbc.com/2026/09/12/ai-data-centers-catastrophe-bonds-insurance.html",
-      "published": "Sat, 12 Sep 2026 05:00:01 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Buffett's confidence in troubled decade-old acquisition finally pays off",
-      "url": "https://www.cnbc.com/2026/09/12/buffetts-confidence-in-troubled-decade-old-acquisition-finally-pays-off.html",
-      "published": "Sat, 12 Sep 2026 13:20:04 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Dan Chung rebuilt a decimated Alger Management after 9/11. He's still finding the market's winners",
-      "url": "https://www.cnbc.com/2026/09/11/dan-chung-rebuilt-a-decimated-alger-management-after-9/11-hes-still-finding-the-markets-winners.html",
-      "published": "Fri, 11 Sep 2026 20:21:01 GMT"
+      "source": "Yahoo Finance",
+      "title": "Stock Market Today (Sept. 14, 2026): S&P 500 falls on rising oil prices, sagging AI stocks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-14-133832281.html",
+      "published": "2026-09-14T13:38:32Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Jewelry chain closes 53 stores after shutting down 2 brands",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jewelry-chain-closes-53-stores-213700154.html",
-      "published": "2026-09-12T21:37:00Z"
+      "title": "Bitmine Purchases Another $68 Million Of Ethereum",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/bitmine-purchases-another-68-million-140500872.html",
+      "published": "2026-09-14T14:05:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Dow Jones Futures Fall, Techs Tumble As Anthropic Leads Call For AI Slowdown; Fed Meeting Ahead",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-meeting-anthropic-amodei-openai-altman-spacex-musk-ai-model-slowdown/?src=A00220&yptr=yahoo",
-      "published": "2026-09-13T22:51:56Z"
+      "title": "Kalshi To Offer U.S. Stock And Commodities Trading",
+      "url": "https://finance.yahoo.com/markets/options/articles/kalshi-offer-u-stock-commodities-140300562.html",
+      "published": "2026-09-14T14:03:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Further Oil Price Spikes Could Rekindle Recession Fears",
-      "url": "https://finance.yahoo.com/economy/policy/articles/further-oil-price-spikes-could-210000970.html",
-      "published": "2026-09-13T21:00:00Z"
+      "title": "Tech stocks today: AI warnings send shock through chip stocks",
+      "url": "https://finance.yahoo.com/technology/live/tech-stocks-today-ai-warnings-send-shock-through-chip-stocks-140134624.html",
+      "published": "2026-09-14T14:01:34Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Is Chewy’s (CHWY) Margin Story Losing Steam, or Is a 48% Drop the Opportunity?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/chewy-chwy-margin-story-losing-195717174.html",
-      "published": "2026-09-13T19:57:17Z"
+      "title": "Strategy Again Leaves Bitcoin Holdings Unchanged",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/strategy-again-leaves-bitcoin-holdings-140100959.html",
+      "published": "2026-09-14T14:01:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "DraftKings and Flutter Jump After Court Rules Prediction Markets Are Gambling, Not Federally Regulated Trading",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/draftkings-flutter-jump-court-rules-194622553.html",
-      "published": "2026-09-13T19:46:22Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Musk sent governments a message about the robot economy",
-      "url": "https://finance.yahoo.com/economy/articles/musk-sent-governments-message-robot-174700228.html",
-      "published": "2026-09-12T17:47:00Z"
+      "title": "Another coffeehouse files for Chapter 11 as costs, prices rise",
+      "url": "https://finance.yahoo.com/small-business/articles/another-coffeehouse-files-chapter-11-033545256.html",
+      "published": "2026-09-14T03:35:45Z"
     },
     {
       "source": "MarketWatch Top",
-      "title": "These are the 10 biggest retirement fears — and what you can do about them",
-      "url": "https://www.marketwatch.com/story/these-are-the-10-biggest-retirement-fears-and-what-you-can-do-about-them-4dde8b9c?mod=mw_rss_topstories",
-      "published": "Sun, 13 Sep 2026 21:10:00 GMT"
+      "title": "Couples with a big age gap need more money — they have to plan for two retirements",
+      "url": "https://www.marketwatch.com/story/couples-with-a-big-age-gap-need-more-money-they-have-to-plan-for-two-retirements-1454b8c2?mod=mw_rss_topstories",
+      "published": "Mon, 14 Sep 2026 14:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "I’m locked into a 10-year annuity and now I’m strapped for cash. What are my options?",
-      "url": "https://www.marketwatch.com/story/im-locked-into-a-10-year-annuity-and-now-im-strapped-for-cash-what-are-my-options-e6463c91?mod=mw_rss_topstories",
-      "published": "Sun, 13 Sep 2026 20:59:00 GMT"
+      "title": "Novo Nordisk is changing its name and its culture to try to compete in the GLP-1 diet-drug wars",
+      "url": "https://www.marketwatch.com/story/novo-drops-nordisk-in-corporate-refresh-to-take-on-lilly-in-the-weight-loss-wars-a406161a?mod=mw_rss_topstories",
+      "published": "Mon, 14 Sep 2026 14:05:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Your Social Security COLA could go up another $71 per month in 2027. That’s not necessarily good news.",
-      "url": "https://www.marketwatch.com/story/your-social-security-check-could-go-up-another-71-next-year-thats-not-necessarily-good-news-f952c08a?mod=mw_rss_topstories",
-      "published": "Sun, 13 Sep 2026 20:40:00 GMT"
+      "title": "Here’s how to prepare your portfolio for the Fed’s next interest-rate moves",
+      "url": "https://www.marketwatch.com/story/heres-how-to-prepare-your-portfolio-for-the-feds-next-interest-rate-moves-ac306c90?mod=mw_rss_topstories",
+      "published": "Mon, 14 Sep 2026 13:45:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "This simple mistake can give your money to the wrong person when you die. Here’s how to protect your estate.",
-      "url": "https://www.marketwatch.com/story/this-simple-mistake-can-cost-your-loved-ones-their-share-of-your-estate-heres-how-to-protect-your-money-99374a95?mod=mw_rss_topstories",
-      "published": "Sun, 13 Sep 2026 20:30:00 GMT"
+      "title": "Micron, Nvidia and other chip stocks fall after tech leaders call for an AI slowdown. Here’s what to know.",
+      "url": "https://www.marketwatch.com/story/how-investors-are-reacting-to-the-ai-pause-calls-from-anthropic-and-other-frontier-labs-f69391b8?mod=mw_rss_topstories",
+      "published": "Mon, 14 Sep 2026 13:37:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "How to trade a well-paying job for more work-life balance — without going broke",
-      "url": "https://www.marketwatch.com/story/how-to-trade-a-well-paying-job-for-more-work-life-balance-without-going-broke-794de555?mod=mw_rss_topstories",
-      "published": "Sun, 13 Sep 2026 20:17:00 GMT"
+      "title": "‘He does not have a spouse or children’: My son has a serious genetic disease. What should I do with my $1.3 million estate?",
+      "url": "https://www.marketwatch.com/story/he-does-not-have-a-spouse-or-children-my-son-has-a-serious-genetic-disease-what-should-i-do-with-my-1-3-million-estate-98cdccf9?mod=mw_rss_topstories",
+      "published": "Mon, 14 Sep 2026 13:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "The future of retirement? Work until you die.",
-      "url": "https://www.marketwatch.com/story/the-future-of-retirement-work-until-you-die-6d0e5341?mod=mw_rss_topstories",
-      "published": "Sun, 13 Sep 2026 19:56:00 GMT"
+      "title": "AI has been carrying the stock market. An industry pause could pull the rug out, warns this Wall Street giant.",
+      "url": "https://www.marketwatch.com/story/ai-has-carried-the-stock-market-an-industry-pause-could-pull-the-rug-out-warns-this-wall-street-giant-3272c960?mod=mw_rss_topstories",
+      "published": "Mon, 14 Sep 2026 12:11:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Diplomacy stumbles with postponement of meeting on Strait of Hormuz proposal",
-      "url": "https://www.investing.com/news/commodities-news/diplomacy-stumbles-with-postponement-of-meeting-on-strait-of-hormuz-proposal-4898762",
-      "published": "2026-09-13 23:06:29"
+      "title": "Aquestive at H.C. Wainwright conference: anaphylm launch in focus",
+      "url": "https://www.investing.com/news/transcripts/aquestive-at-hc-wainwright-conference-anaphylm-launch-in-focus-93CH-4899803",
+      "published": "2026-09-14 13:36:19"
     },
     {
       "source": "Investing.com News",
-      "title": "Anthropic tells investors it will be profitable for second straight quarter, FT reports",
-      "url": "https://www.investing.com/news/stock-market-news/anthropic-tells-investors-it-will-be-profitable-for-second-straight-quarter-ft-reports-4898761",
-      "published": "2026-09-13 23:00:29"
+      "title": "All eyes on Kestra Medical earnings amid defibrillator market push",
+      "url": "https://www.investing.com/news/earnings/all-eyes-on-kestra-medical-earnings-amid-defibrillator-market-push-93CH-4899802",
+      "published": "2026-09-14 13:35:37"
     },
     {
       "source": "Investing.com News",
-      "title": "Oil prices jump more than $3 after new strikes on Saudi, Strait of Hormuz",
-      "url": "https://www.investing.com/news/commodities-news/oil-prices-jump-more-than-3-after-new-strikes-on-saudi-strait-of-hormuz-4898759",
-      "published": "2026-09-13 22:24:25"
+      "title": "Nasdaq leads U.S. stocks lower at the open on AI development slowdown calls",
+      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-slide-on-calls-to-slow-ai-development-meast-escalation-4898779",
+      "published": "2026-09-14 13:35:18"
     },
     {
       "source": "Investing.com News",
-      "title": "Bitcoin little changed at $77k as rate pressure clashes with diversification case",
-      "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-to-77200-as-rate-pressure-clashes-with-diversification-case-4898694",
-      "published": "2026-09-13 21:59:53"
+      "title": "Dropbox stock hits 52-week high at 36.42 USD",
+      "url": "https://www.investing.com/news/company-news/dropbox-stock-hits-52week-high-at-3642-usd-93CH-4899801",
+      "published": "2026-09-14 13:34:48"
     },
     {
       "source": "Investing.com News",
-      "title": "Russia stocks lower at close of trade; MOEX Russia Index down 1.21%",
-      "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-down-121-4898756",
-      "published": "2026-09-13 21:20:02"
+      "title": "Why is Crown Castle stock sliding today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-crown-castle-stock-sliding-today-93CH-4899800",
+      "published": "2026-09-14 13:34:43"
     },
     {
       "source": "Investing.com News",
-      "title": "Definium to present phase 3 anxiety disorder trial results Monday",
-      "url": "https://www.investing.com/news/company-news/definium-to-present-phase-3-anxiety-disorder-trial-results-monday-93CH-4898754",
-      "published": "2026-09-13 21:04:38"
+      "title": "A10 Networks appoints Mary C. Henry to board of directors, expands board size",
+      "url": "https://www.investing.com/news/sec-filings/a10-networks-appoints-mary-c-henry-to-board-of-directors-expands-board-size-93CH-4899799",
+      "published": "2026-09-14 13:33:16"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "A $7 Billion Gas Bill Sees Developing Asian Nations Sour on LNG",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-13/a-7-billion-gas-bill-sees-developing-asian-nations-sour-on-lng",
-      "published": "Sun, 13 Sep 2026 23:00:00 GMT"
+      "title": "Aon Seeks to Raise $13.5 Billion From Bond Sale to Fund USI Deal",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-14/aon-kicks-off-seven-part-us-dollar-bond-sale-for-usi-takeover",
+      "published": "Mon, 14 Sep 2026 12:23:05 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Trump’s Drug-Pricing Push to Cut Access Outside US, Study Finds",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-13/trump-s-drug-pricing-push-to-cut-access-outside-us-study-finds",
-      "published": "Sun, 13 Sep 2026 22:30:00 GMT"
+      "title": "JD.com Unit Pays SEC $500,000 Over ‘Sham Transactions’",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-11/jd-com-unit-agrees-to-pay-sec-500-000-over-sham-transactions",
+      "published": "Fri, 11 Sep 2026 22:37:09 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Latest Oil Market News and Analysis for Sept. 14",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-13/latest-oil-market-news-and-analysis-for-sept-14",
-      "published": "Sun, 13 Sep 2026 22:01:52 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "US Stock Futures Fall on AI Warning, Oil Gains: Markets Wrap",
+      "title": "Stocks Fall as AI Slowdown Worries Hit Chipmakers: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-09-13/us-stock-futures-fall-on-ai-warning-oil-gains-markets-wrap",
       "published": "Sun, 13 Sep 2026 22:06:01 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Hormuz Meeting With Iran and Gulf Nations Delayed, Oman Says",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-13/hormuz-meeting-with-iran-and-gulf-nations-postponed-oman-says",
-      "published": "Sun, 13 Sep 2026 19:17:03 GMT"
+      "title": "Junk Firms Are Refinancing Debt Early on Fear Costs to Rise",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-14/junk-firms-are-refinancing-debt-early-on-fear-costs-will-rise",
+      "published": "Mon, 14 Sep 2026 12:00:54 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "A 5% Treasury Yield Is Raising New Risks for Markets, Economy",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-13/a-5-treasury-yield-is-raising-new-risks-for-markets-economy",
-      "published": "Sun, 13 Sep 2026 19:00:00 GMT"
+      "title": "NextEra, Dominion Offer Virginia Aid to Smooth $67 Billion Deal",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-14/nextera-dominion-offer-virginia-aid-to-smooth-67-billion-deal",
+      "published": "Mon, 14 Sep 2026 13:36:02 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Amundi Buys Two-Year Treasuries To Insure Against Growth Slowdown",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-14/amundi-buys-two-year-treasuries-to-insure-against-growth-slowdown",
+      "published": "Mon, 14 Sep 2026 08:54:45 GMT"
     }
   ],
   "summary": {
