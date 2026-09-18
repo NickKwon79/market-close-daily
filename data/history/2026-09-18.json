@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-09-18 08:36 KST",
+  "as_of_kst": "2026-09-18 21:19 KST",
   "as_of_date": "2026-09-18",
   "as_of_weekday": "FRI",
-  "build_unix": 1789688170,
+  "build_unix": 1789733965,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 6717.97,
-      "change": 90.71,
-      "change_pct": 1.37,
+      "price": 6894.23,
+      "change": 178.82,
+      "change_pct": 2.66,
       "spark": [
-        7033.92,
-        6909.91,
         6684.37,
         6627.26,
-        6717.97
+        6717.97,
+        6715.41,
+        6894.23
       ],
-      "as_of": "2026-09-16"
+      "as_of": "2026-09-18"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 63923.0,
-      "change": 438.9,
-      "change_pct": 0.69,
+      "price": 65018.95,
+      "change": 882.7,
+      "change_pct": 1.38,
       "spark": [
-        65270.95,
-        64011.34,
         63492.99,
         63484.1,
-        63923.0
+        63923.0,
+        64136.25,
+        65018.95
       ],
-      "as_of": "2026-09-17"
+      "as_of": "2026-09-18"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 24713.78,
-      "change": 46.54,
-      "change_pct": 0.19,
+      "price": 24750.78,
+      "change": 146.49,
+      "change_pct": 0.6,
       "spark": [
-        24954.47,
-        24805.63,
         24917.6,
         24667.24,
-        24713.78
+        24713.78,
+        24604.29,
+        24750.78
       ],
-      "as_of": "2026-09-17"
+      "as_of": "2026-09-18"
     },
     "ftse": {
       "key": "ftse",
@@ -118,17 +118,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10688.5,
-      "change": 30.4,
-      "change_pct": 0.29,
+      "price": 10705.35,
+      "change": -110.75,
+      "change_pct": -1.02,
       "spark": [
-        10608.9,
-        10650.4,
         10697.6,
         10658.1,
-        10688.5
+        10688.5,
+        10816.1,
+        10705.35
       ],
-      "as_of": "2026-09-17"
+      "as_of": "2026-09-18"
     },
     "dax": {
       "key": "dax",
@@ -136,50 +136,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 25537.75,
-      "change": 135.47,
-      "change_pct": 0.53,
+      "price": 25441.01,
+      "change": -275.7,
+      "change_pct": -1.07,
       "spark": [
-        25361.15,
-        25568.56,
         25440.81,
         25402.28,
-        25537.75
+        25537.75,
+        25716.71,
+        25441.01
       ],
-      "as_of": "2026-09-17"
+      "as_of": "2026-09-18"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1380.27,
+      "rate": 1388.28,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 156.02,
+      "rate": 157.87,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.148,
+      "rate": 1.1464,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.706,
+      "rate": 6.6883,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 100.24,
-      "change": -0.07,
-      "change_pct": -0.07,
+      "rate": 100.52,
+      "change": 0.3,
+      "change_pct": 0.3,
       "kind": "index"
     }
   },
@@ -189,27 +189,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 101.06,
-      "change": -1.37,
-      "change_pct": -1.34
+      "price": 96.31,
+      "change": -5.6,
+      "change_pct": -5.5
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4381.7,
-      "change": -5.8,
-      "change_pct": -0.13
+      "price": 4413.2,
+      "change": 13.5,
+      "change_pct": 0.31
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 76337.19,
-      "change": 186.87,
-      "change_pct": 0.25
+      "price": 77953.57,
+      "change": 1549.8,
+      "change_pct": 2.03
     },
     "ust10y": {
       "key": "ust10y",
@@ -226,11 +226,35 @@
       "name": "VIX",
       "unit": "",
       "price": 15.44,
-      "change": -2.27,
-      "change_pct": -12.82
+      "change": 0.0,
+      "change_pct": 0.0
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Netflix is headed for its worst year since 2022. Wells Fargo thinks a comeback is unlikely",
+      "url": "https://www.cnbc.com/2026/09/18/netflix-is-in-the-doldrums-a-comeback-is-unlikely-wells-fargo-says.html",
+      "published": "Fri, 18 Sep 2026 11:58:49 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Apple to fly higher as new, more expensive iPhones hit market, Evercore ISI says",
+      "url": "https://www.cnbc.com/2026/09/18/apple-to-fly-even-higher-on-new-iphone-launches-evercore-isi-says.html",
+      "published": "Fri, 18 Sep 2026 11:22:46 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "AI trade rebound sparks flurry of unusually bullish options activity",
+      "url": "https://www.cnbc.com/2026/09/18/ai-trade-rebound-sparks-flurry-of-unusually-bullish-options-activity.html",
+      "published": "Fri, 18 Sep 2026 11:20:56 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Tyson Foods is set to come back on several tailwinds, JPMorgan says",
+      "url": "https://www.cnbc.com/2026/09/18/tyson-foods-is-set-to-come-back-on-several-tailwinds-jpmorgan-says.html",
+      "published": "Fri, 18 Sep 2026 10:39:42 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "As Fed raises rates, income investors can buy these bonds for solid yields and a portfolio cushion",
@@ -244,172 +268,148 @@
       "published": "Thu, 17 Sep 2026 19:13:00 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "One cybersecurity stock has lagged of late. Jay Woods says the charts are now turning bullish",
-      "url": "https://www.cnbc.com/2026/09/17/one-cybersecurity-stock-has-lagged-of-late-jay-woods-says-the-charts-are-now-turning-bullish.html",
-      "published": "Thu, 17 Sep 2026 18:23:02 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "AI is giving this cybersecurity stock more juice. Steve Grasso says ride the momentum",
-      "url": "https://www.cnbc.com/2026/09/17/investor-steve-grasso-is-buying-cloudflare.html",
-      "published": "Thu, 17 Sep 2026 17:34:19 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Generac shares surge on big Amazon deal. Wall Street thinks the generator stock has more to go",
-      "url": "https://www.cnbc.com/2026/09/17/generac-shares-surge-on-amazon-deal-wall-street-thinks-it-has-more-to-go-.html",
-      "published": "Thu, 17 Sep 2026 15:55:51 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "There's a biotech stock on Josh Brown's list that's ignoring the market noise and pushing higher",
-      "url": "https://www.cnbc.com/2026/09/17/theres-a-biotech-stock-on-josh-browns-list-thats-ignoring-the-market-noise-and-pushing-higher.html",
-      "published": "Thu, 17 Sep 2026 15:34:04 GMT"
+      "source": "Yahoo Finance",
+      "title": "What Happens to Ethereum Price Now That the Clarity Act Has Failed",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/happens-ethereum-price-now-clarity-000633865.html",
+      "published": "2026-09-17T00:06:33Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Mysterious trader moves $122 million ahead of Fed's 2 p.m. decision",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/mysterious-trader-moves-122-million-164740089.html",
-      "published": "2026-09-16T16:47:40Z"
+      "title": "AXT Inc. (AXTI) Draws Bullish Analyst Attention — Here’s Why",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/axt-inc-axti-draws-bullish-010252885.html",
+      "published": "2026-09-17T01:02:52Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "CareTrust REIT’s (CTRE) $400M Bet Extends A Record Year",
-      "url": "https://finance.yahoo.com/real-estate/articles/caretrust-reit-ctre-400m-bet-160209188.html",
-      "published": "2026-09-16T16:02:09Z"
+      "title": "What is the Federal Reserve?",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/what-is-the-federal-reserve-205012702.html",
+      "published": "2024-04-22T20:50:12Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Bitget Publishes 45th Consecutive Monthly Proof-of-Reserves Report at 122% Reserve Ratio",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/bitget-publishes-45th-consecutive-monthly-160021181.html",
-      "published": "2026-09-16T16:00:21Z"
+      "title": "A look at the federal funds rate over the past 50 years: How has it changed?",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/historical-fed-interest-rates-200947944.html",
+      "published": "2024-07-11T20:09:47Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Is Broadridge Financial Stock Underperforming the S&P 500?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/broadridge-financial-stock-underperforming-p-155958681.html",
-      "published": "2026-09-16T15:59:58Z"
+      "title": "GE Vernova and Vineyard Wind Settle $300M-Plus Offshore Wind Dispute",
+      "url": "https://finance.yahoo.com/energy/articles/ge-vernova-vineyard-wind-settle-024435837.html",
+      "published": "2026-09-17T02:44:35Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Aptiv (APTV) Turns Chip Partnerships Into A Physical AI Bet",
-      "url": "https://finance.yahoo.com/technology/ai/articles/aptiv-aptv-turns-chip-partnerships-155643163.html",
-      "published": "2026-09-16T15:56:43Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "American Airlines Sees Strong Demand, but Fuel Spike Threatens Profit Outlook",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/american-airlines-sees-strong-demand-160226689.html",
-      "published": "2026-09-16T16:02:26Z"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "The 10-year Treasury is having its worst run in over 100 years. Why investors are buying bonds anyway.",
-      "url": "https://www.marketwatch.com/story/the-bond-market-is-seeing-trouble-why-investors-are-buying-now-anyway-065a2f9f?mod=mw_rss_topstories",
-      "published": "Thu, 17 Sep 2026 21:22:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Micron, Intel and other chip stocks are furthering their strong comebacks",
-      "url": "https://www.marketwatch.com/story/micron-intel-and-other-chip-stocks-are-furthering-their-strong-comebacks-14b1ecac?mod=mw_rss_topstories",
-      "published": "Thu, 17 Sep 2026 21:22:00 GMT"
+      "title": "These 2 Words From Fed Chair Kevin Warsh Sunk the Dow, S&P 500, and Nasdaq, and Put Wall Street on Notice",
+      "url": "https://finance.yahoo.com/economy/policy/articles/2-words-fed-chair-kevin-001101303.html",
+      "published": "2026-09-17T00:11:01Z"
     },
     {
       "source": "MarketWatch Top",
       "title": "Wall Street is betting Trump backs down on Iran — but what if the ‘TACO’ trade fails this time?",
       "url": "https://www.marketwatch.com/story/wall-street-is-betting-trump-backs-down-on-iran-but-what-if-the-taco-trade-fails-this-time-53845c77?mod=mw_rss_topstories",
-      "published": "Thu, 17 Sep 2026 21:09:00 GMT"
+      "published": "Fri, 18 Sep 2026 11:51:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Tesla’s upcoming product frenzy could leave investors disappointed",
-      "url": "https://www.marketwatch.com/story/teslas-upcoming-product-frenzy-could-leave-investors-disappointed-18619fb3?mod=mw_rss_topstories",
-      "published": "Thu, 17 Sep 2026 20:23:00 GMT"
+      "title": "The 10-year Treasury is having its worst run in over 100 years. Why investors are buying bonds anyway.",
+      "url": "https://www.marketwatch.com/story/the-bond-market-is-seeing-trouble-why-investors-are-buying-now-anyway-065a2f9f?mod=mw_rss_topstories",
+      "published": "Fri, 18 Sep 2026 11:50:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Pet insurance or savings account: What’s the best way to plan for a big vet bill?",
-      "url": "https://www.marketwatch.com/story/pet-insurance-or-savings-account-whats-the-best-way-to-plan-for-a-big-vet-bill-f9f22f33?mod=mw_rss_topstories",
-      "published": "Thu, 17 Sep 2026 20:19:00 GMT"
+      "title": "A sideways market and rising earnings are presenting a buying opportunity for this crucial sector",
+      "url": "https://www.marketwatch.com/story/a-sideways-market-and-rising-earnings-are-presenting-opportunities-not-seen-since-chatgpt-first-launched-0c37f89d?mod=mw_rss_topstories",
+      "published": "Fri, 18 Sep 2026 11:34:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Pokémon has turned 30, and Target is set to cash in on the anniversary craze",
-      "url": "https://www.marketwatch.com/story/pokemon-has-turned-30-and-target-is-set-to-cash-in-on-the-anniversary-craze-f5eb2af1?mod=mw_rss_topstories",
-      "published": "Thu, 17 Sep 2026 20:13:00 GMT"
+      "title": "More Americans are about to get scammed by the coming peptide rush",
+      "url": "https://www.marketwatch.com/story/more-americans-are-about-to-get-scammed-by-the-coming-peptide-rush-c835bc3d?mod=mw_rss_topstories",
+      "published": "Fri, 18 Sep 2026 11:23:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Warren Buffett exits Berkshire Hathaway as his son Howard becomes chairman",
+      "url": "https://www.marketwatch.com/story/warren-buffett-exits-as-berkshire-hathaway-as-his-son-howard-becomes-chairman-095cc4f9?mod=mw_rss_topstories",
+      "published": "Fri, 18 Sep 2026 10:55:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "The Fed’s never been so confident on economic growth. What investors should do now, according to KKR.",
+      "url": "https://www.marketwatch.com/story/the-feds-never-been-so-confident-on-economic-growth-what-investors-should-do-now-according-to-kkr-b2eef2ee?mod=mw_rss_topstories",
+      "published": "Fri, 18 Sep 2026 10:08:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Dell Technologies director-owner Silver Lake sells $263,126 in stock",
-      "url": "https://www.investing.com/news/insider-trading-news/dell-technologies-directorowner-silver-lake-sells-263126-in-stock-93CH-4906561",
-      "published": "2026-09-17 23:31:21"
+      "title": "U.S. Treasury curve flattens as long-end yields ease off multi-year peaks",
+      "url": "https://www.investing.com/news/forex-news/euro-zone-yields-head-for-weekly-decline-as-postfed-rally-soothes-duration-fears-4906685",
+      "published": "2026-09-18 12:16:35"
     },
     {
       "source": "Investing.com News",
-      "title": "PACS Group president & COO Joshua Jergensen sells $1.73m in stock",
-      "url": "https://www.investing.com/news/insider-trading-news/pacs-group-president--coo-joshua-jergensen-sells-173m-in-stock-93CH-4906559",
-      "published": "2026-09-17 23:31:18"
+      "title": "Has long-term dollar strength arrived? Standard Chartered weighs in.",
+      "url": "https://www.investing.com/news/economy-news/has-longterm-dollar-strength-arrived-standard-chartered-weighs-in-4907250",
+      "published": "2026-09-18 12:16:13"
     },
     {
       "source": "Investing.com News",
-      "title": "Cricut CEO Ashish Arora sells $1.01m in CRCT shares",
-      "url": "https://www.investing.com/news/insider-trading-news/cricut-ceo-ashish-arora-sells-101m-in-crct-shares-93CH-4906560",
-      "published": "2026-09-17 23:31:18"
+      "title": "Truist Financial president & CEO Michael Lyons buys $1m in stock",
+      "url": "https://www.investing.com/news/insider-trading-news/truist-financial-president--ceo-michael-lyons-buys-1m-in-stock-93CH-4907249",
+      "published": "2026-09-18 12:16:05"
     },
     {
       "source": "Investing.com News",
-      "title": "Saudis and Houthis exchange strikes, Yemenis flee by boat as Middle East war spreads",
-      "url": "https://www.investing.com/news/commodities-news/trump-hopes-iran-war-nearing-end-as-houthisaudi-fighting-escalates-4904794",
-      "published": "2026-09-17 23:25:07"
+      "title": "Can global equities keep rising? UBS sees these factors driving upside",
+      "url": "https://www.investing.com/news/stock-market-news/can-global-equities-keep-rising-ubs-sees-these-factors-driving-upside-4907230",
+      "published": "2026-09-18 12:11:43"
     },
     {
       "source": "Investing.com News",
-      "title": "How Bessent, America’s bond salesman, cornered Japan on big spending",
-      "url": "https://www.investing.com/news/economy-news/how-bessent-americas-bond-salesman-cornered-japan-on-big-spending-4906555",
-      "published": "2026-09-17 23:24:53"
+      "title": "Joby aircraft completes first autonomous cross-country US flight",
+      "url": "https://www.investing.com/news/company-news/joby-aircraft-completes-first-autonomous-crosscountry-us-flight-93CH-4907227",
+      "published": "2026-09-18 12:08:35"
     },
     {
       "source": "Investing.com News",
-      "title": "Caris Life Sciences vice chairman Brille sells $12.1 million shares",
-      "url": "https://www.investing.com/news/insider-trading-news/caris-life-sciences-vice-chairman-brille-sells-121-million-shares-93CH-4906556",
-      "published": "2026-09-17 23:16:10"
+      "title": "Philip Morris raises quarterly dividend 8.8% to $1.60 per share",
+      "url": "https://www.investing.com/news/company-news/philip-morris-raises-quarterly-dividend-88-to-160-per-share-93CH-4907226",
+      "published": "2026-09-18 12:08:30"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "France Bond Risk Gauge Reaches New Milestone on Budget Risks",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-18/french-yield-premium-rises-to-one-percentage-point-on-debt-risks",
+      "published": "Fri, 18 Sep 2026 10:49:42 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "CSN Asset Sales Gain Momentum With New CEO, Fueling Bond Rally",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-18/csn-asset-sales-gain-momentum-with-new-ceo-fueling-bond-rally",
+      "published": "Fri, 18 Sep 2026 12:03:11 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Stalling Argentine Recovery Is a Risk for Milei’s Reelection Bid",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-18/stalling-argentine-recovery-is-a-risk-for-milei-s-reelection-bid",
+      "published": "Fri, 18 Sep 2026 12:00:00 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Airtel Money Is Said to Trim IPO Size Ahead of Deal Kick Off",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-17/airtel-money-is-said-to-trim-ipo-size-ahead-of-deal-kick-off",
+      "published": "Thu, 17 Sep 2026 16:43:09 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Yen Declines After BOJ Hike, US Said to Hold Off on New China Tariffs",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-18/bloomberg-brief-09-18-2026-video",
+      "published": "Fri, 18 Sep 2026 11:48:23 GMT"
     },
     {
       "source": "Bloomberg Markets",
       "title": "Latest Oil Market News and Analysis for Sept. 18",
       "url": "https://www.bloomberg.com/news/articles/2026-09-17/latest-oil-market-news-and-analysis-for-sept-18",
       "published": "Thu, 17 Sep 2026 22:05:55 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Asian Stocks to Gain on Lower Oil, US Bonds Rally: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-17/stock-market-today-dow-s-p-live-updates",
-      "published": "Thu, 17 Sep 2026 22:14:33 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Shareholders Revolt After Crypto Hoarders’ $50 Billion Crash",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-17/shareholder-revolt-hits-crypto-hoarders-after-50-billion-crash",
-      "published": "Thu, 17 Sep 2026 12:00:05 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "01.AI's Kai-Fu Lee on Pacing Frontier AI Development",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-17/01-ai-s-kai-fu-lee-on-pacing-frontier-ai-development-video",
-      "published": "Thu, 17 Sep 2026 21:49:49 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Macerich CEO: Consumers Are Spending, but Are Selective",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-17/macerich-ceo-consumers-are-spending-but-are-selective-video",
-      "published": "Thu, 17 Sep 2026 21:48:50 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Schwab Is Neutral on Equities, Favorable on Commodities, Sonders Says",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-17/schwab-is-neutral-on-equities-favorable-on-commodities-video",
-      "published": "Thu, 17 Sep 2026 21:47:36 GMT"
     }
   ],
   "summary": {
