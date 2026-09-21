@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-09-21 08:21 KST",
+  "as_of_kst": "2026-09-21 23:26 KST",
   "as_of_date": "2026-09-21",
   "as_of_weekday": "MON",
-  "build_unix": 1789946464,
+  "build_unix": 1790000807,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -10,17 +10,17 @@
       "name": "S&P 500",
       "region": "USA",
       "kind": "broad",
-      "price": 7650.5,
-      "change": 12.74,
-      "change_pct": 0.17,
+      "price": 7721.9,
+      "change": 71.4,
+      "change_pct": 0.93,
       "spark": [
-        7619.98,
         7585.73,
         7551.81,
         7637.76,
-        7650.5
+        7650.5,
+        7721.9
       ],
-      "as_of": "2026-09-18"
+      "as_of": "2026-09-21"
     },
     "nasdaq": {
       "key": "nasdaq",
@@ -28,17 +28,17 @@
       "name": "NASDAQ Composite",
       "region": "USA",
       "kind": "tech",
-      "price": 26522.54,
-      "change": 104.24,
-      "change_pct": 0.39,
+      "price": 26919.63,
+      "change": 397.09,
+      "change_pct": 1.5,
       "spark": [
-        26186.41,
         25981.57,
         25978.43,
         26418.3,
-        26522.54
+        26522.54,
+        26919.63
       ],
-      "as_of": "2026-09-18"
+      "as_of": "2026-09-21"
     },
     "dow": {
       "key": "dow",
@@ -46,17 +46,17 @@
       "name": "Dow Jones 30",
       "region": "USA",
       "kind": "value",
-      "price": 51682.64,
-      "change": -95.4,
-      "change_pct": -0.18,
+      "price": 51924.86,
+      "change": 242.22,
+      "change_pct": 0.47,
       "spark": [
-        52421.2,
         52093.11,
         51461.9,
         51778.04,
-        51682.64
+        51682.64,
+        51924.86
       ],
-      "as_of": "2026-09-18"
+      "as_of": "2026-09-21"
     },
     "kospi": {
       "key": "kospi",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 6894.23,
-      "change": 178.82,
-      "change_pct": 2.66,
+      "price": 7007.72,
+      "change": 113.49,
+      "change_pct": 1.65,
       "spark": [
-        6684.37,
         6627.26,
         6717.97,
         6715.41,
-        6894.23
+        6894.23,
+        7007.72
       ],
-      "as_of": "2026-09-18"
+      "as_of": "2026-09-21"
     },
     "nikkei": {
       "key": "nikkei",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 24750.78,
-      "change": 146.49,
-      "change_pct": 0.6,
+      "price": 25042.71,
+      "change": 291.93,
+      "change_pct": 1.18,
       "spark": [
-        24917.6,
         24667.24,
         24713.78,
         24604.29,
-        24750.78
+        24750.78,
+        25042.71
       ],
-      "as_of": "2026-09-18"
+      "as_of": "2026-09-21"
     },
     "ftse": {
       "key": "ftse",
@@ -118,17 +118,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10659.1,
-      "change": -157.0,
-      "change_pct": -1.45,
+      "price": 10729.55,
+      "change": 70.45,
+      "change_pct": 0.66,
       "spark": [
-        10697.6,
         10658.1,
         10688.5,
         10816.1,
-        10659.1
+        10659.1,
+        10729.55
       ],
-      "as_of": "2026-09-18"
+      "as_of": "2026-09-21"
     },
     "dax": {
       "key": "dax",
@@ -136,50 +136,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 25304.06,
-      "change": -412.65,
-      "change_pct": -1.6,
+      "price": 25555.31,
+      "change": 251.25,
+      "change_pct": 0.99,
       "spark": [
-        25440.81,
         25402.28,
         25537.75,
         25716.71,
-        25304.06
+        25304.06,
+        25555.31
       ],
-      "as_of": "2026-09-18"
+      "as_of": "2026-09-21"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1385.6801,
+      "rate": 1372.88,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 156.93,
+      "rate": 157.38,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1484,
+      "rate": 1.1473,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.6883,
+      "rate": 6.6836,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 100.27,
-      "change": 0.05,
-      "change_pct": 0.05,
+      "rate": 100.38,
+      "change": 0.16,
+      "change_pct": 0.16,
       "kind": "index"
     }
   },
@@ -189,48 +189,66 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 95.89,
-      "change": -4.41,
-      "change_pct": -4.4
+      "price": 92.03,
+      "change": -8.27,
+      "change_pct": -8.25
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4411.4,
-      "change": -13.5,
-      "change_pct": -0.31
+      "price": 4376.5,
+      "change": -48.4,
+      "change_pct": -1.09
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 81232.49,
-      "change": -1.19,
-      "change_pct": -0.0
+      "price": 85647.23,
+      "change": 4504.62,
+      "change_pct": 5.55
     },
     "ust10y": {
       "key": "ust10y",
       "symbol": "^TNX",
       "name": "10Y UST Yield",
       "unit": "%",
-      "price": 5.0,
-      "change": 0.05,
-      "change_pct": 1.03
+      "price": 4.97,
+      "change": -0.03,
+      "change_pct": -0.54
     },
     "vix": {
       "key": "vix",
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 14.81,
-      "change": -0.63,
-      "change_pct": -4.08
+      "price": 14.72,
+      "change": -0.09,
+      "change_pct": -0.61
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "JPMorgan says this uranium stock can rally more than 50%",
+      "url": "https://www.cnbc.com/2026/09/21/jpmorgan-says-this-uranium-stock-can-rally-more-than-50percent.html",
+      "published": "Mon, 21 Sep 2026 14:00:24 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "FanDuel's turnaround is taking time. Think twice before scooping up shares of its owner, Rothschild & Co says",
+      "url": "https://www.cnbc.com/2026/09/21/fanduels-turnaround-is-taking-too-much-time-rothschild-co-says.html",
+      "published": "Mon, 21 Sep 2026 12:22:00 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "This struggling home furnishings stock is on the cusp of a comeback, Jefferies says",
+      "url": "https://www.cnbc.com/2026/09/21/arhaus-could-be-on-the-cusp-of-a-comeback-jefferies-says.html",
+      "published": "Mon, 21 Sep 2026 11:47:28 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Top Wall Street analysts find these 3 stocks attractive as long-term investments",
@@ -247,169 +265,151 @@
       "source": "CNBC Markets",
       "title": "Morgan Stanley says stocks like Warner Music are a table-pounding buy right now",
       "url": "https://www.cnbc.com/2026/09/20/buy-stocks-such-as-warner-music-morgan-stanley-says-.html",
-      "published": "Sun, 20 Sep 2026 12:10:13 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "The S&P 500 just logged another losing week, yet these stocks could be due for a bounce",
-      "url": "https://www.cnbc.com/2026/09/19/the-sp-500-just-logged-another-losing-week-these-stocks-could-be-due-for-a-bounce.html",
-      "published": "Sat, 19 Sep 2026 13:02:42 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Buffett takes next step in plan to keep Berkshire from straying",
-      "url": "https://www.cnbc.com/2026/09/19/warren-buffett-takes-next-step-in-plan-to-keep-berkshire-from-straying.html",
-      "published": "Sat, 19 Sep 2026 12:43:56 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Three words from Kevin Warsh have Wall Street wondering how far the Fed will go with rate hikes",
-      "url": "https://www.cnbc.com/2026/09/18/three-words-from-kevin-warsh-have-wall-street-wondering-how-far-the-fed-will-go-with-rate-hikes.html",
-      "published": "Fri, 18 Sep 2026 18:28:31 GMT"
+      "published": "Mon, 21 Sep 2026 11:43:31 GMT"
     },
     {
       "source": "Yahoo Finance",
-      "title": "80-year-old discount fashion chain closing 120 stores",
-      "url": "https://finance.yahoo.com/small-business/articles/tj-maxx-rival-closing-120-181700076.html",
-      "published": "2026-09-19T23:02:22Z"
+      "title": "Stock Market Today: Dow Rallies As Nvidia Nears Entry; Oil Dips On Iran Hopes (Live Coverage)",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-treasury-yields-nvidia-stock-nvda-buy-point/?src=A00220&yptr=yahoo",
+      "published": "2026-09-21T14:14:33Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Dow Jones Futures Rise; Can The Market Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-robinhood-sandisk-amd-moderna-surge-buy-areas/?src=A00220&yptr=yahoo",
-      "published": "2026-09-20T23:08:32Z"
+      "title": "RWE to develop 400MW battery system at Moerdijk power station",
+      "url": "https://finance.yahoo.com/energy/articles/rwe-develop-400mw-battery-system-140949443.html",
+      "published": "2026-09-21T14:09:49Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Alphabet (GOOGL)’s Google Bets on Finland’s Cold Weather and Nuclear Power for its Next AI Buildout",
-      "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-googl-google-bets-finland-230634716.html",
-      "published": "2026-09-20T23:06:34Z"
+      "title": "Stock market today: Dow, S&P 500, Nasdaq rise as oil falls, anticipation builds for Trump-Xi summit",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-21-dow-sp-500-nasdaq-080214605.html",
+      "published": "2026-09-21T08:02:14Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Paramount (PSKY) Turns California’s Own Words Against it in Warner Bros. (WBD) Bond Fight",
-      "url": "https://finance.yahoo.com/media-advertising/articles/paramount-psky-turns-california-own-230245287.html",
-      "published": "2026-09-20T23:02:45Z"
+      "title": "Oura publicly files for initial public offering, looks to raise $2.2 billion",
+      "url": "https://finance.yahoo.com/technology/article/oura-publicly-files-for-initial-public-offering-looks-to-raise-22-billion-140523751.html",
+      "published": "2026-09-21T14:05:23Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Stellantis (STLA) Recalls 200,000 More Jeeps, its Latest Entry in a Record Recall Year",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stellantis-stla-recalls-200-000-225734007.html",
-      "published": "2026-09-20T22:57:34Z"
+      "title": "Here’s What Lifted BrightSpring Health Services (BTSG)",
+      "url": "https://finance.yahoo.com/healthcare/articles/lifted-brightspring-health-services-btsg-140139645.html",
+      "published": "2026-09-21T14:01:39Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Chevron CEO sends a strong message on oil price and the economy",
-      "url": "https://finance.yahoo.com/energy/articles/chevron-ceo-sends-strong-message-164700338.html",
-      "published": "2026-09-20T16:47:00Z"
+      "title": "AI build-out Strengthens Credo Technology Group Holding Ltd (CRDO)",
+      "url": "https://finance.yahoo.com/technology/ai/articles/ai-build-strengthens-credo-technology-135854858.html",
+      "published": "2026-09-21T13:58:54Z"
     },
     {
       "source": "MarketWatch Top",
-      "title": "I have $125,000 in credit-card debt. Will $17,000 a month in income, including disability, affect my bankruptcy?",
-      "url": "https://www.marketwatch.com/story/i-am-drowning-in-debt-i-have-125-000-in-credit-card-debt-will-9-000-in-disability-income-affect-my-bankruptcy-f897c131?mod=mw_rss_topstories",
-      "published": "Sun, 20 Sep 2026 17:30:00 GMT"
+      "title": "‘She says it’s just money’: My friend pays for everything. I should be grateful, but I can’t stand her anymore.",
+      "url": "https://www.marketwatch.com/story/she-says-its-just-money-my-friend-pays-for-everything-i-should-be-grateful-but-i-cant-stand-her-anymore-2e7c5c10?mod=mw_rss_topstories",
+      "published": "Mon, 21 Sep 2026 14:20:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘My main goal is to help people’: I’m single, 74, with $10 million burning a hole in my pocket. What should I do?",
-      "url": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
-      "published": "Sun, 20 Sep 2026 16:30:00 GMT"
+      "title": "Novo Nordisk’s stock tumbles as doubts persist about Ozempic maker’s goals for 2030",
+      "url": "https://www.marketwatch.com/story/novo-nordisk-stock-tumbles-as-ozempic-maker-sets-out-2030-goals-8a5a8d2d?mod=mw_rss_topstories",
+      "published": "Mon, 21 Sep 2026 13:32:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "My rental property is paid off, but I need cash. Is this a bad time to take out a $50,000 HELOC?",
-      "url": "https://www.marketwatch.com/story/my-rental-property-is-paid-off-but-i-need-cash-is-this-a-bad-time-to-take-out-a-50-000-heloc-d094bbc5?mod=mw_rss_topstories",
-      "published": "Sun, 20 Sep 2026 15:00:00 GMT"
+      "title": "Why one Warren Buffett–inspired fund manager is betting big on Chinese stocks",
+      "url": "https://www.marketwatch.com/story/why-one-buffett-inspired-fund-manager-is-betting-big-on-chinese-stocks-b7b8a51e?mod=mw_rss_topstories",
+      "published": "Mon, 21 Sep 2026 13:30:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Snoopy cups at Starbucks and McDonald’s SpongeBob toys are commanding huge markups on eBay",
-      "url": "https://www.marketwatch.com/story/starbuckss-snoopy-cups-and-mcdonalds-spongebob-toys-are-commanding-huge-markups-on-ebay-ed3e514d?mod=mw_rss_topstories",
-      "published": "Sun, 20 Sep 2026 14:08:00 GMT"
+      "title": "Record diesel prices are exposing pain points in the stock market and economy",
+      "url": "https://www.marketwatch.com/story/record-diesel-prices-are-exposing-pain-points-in-the-stock-market-and-economy-a2079b04?mod=mw_rss_topstories",
+      "published": "Mon, 21 Sep 2026 12:50:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘My total balance should be $20 million’: I invested $1.1 million in a crypto platform. Have I lost it all?",
-      "url": "https://www.marketwatch.com/story/my-total-balance-should-be-worth-20-million-i-invested-1-1-million-in-a-crypto-platform-have-i-lost-it-all-d22da562?mod=mw_rss_topstories",
-      "published": "Sun, 20 Sep 2026 14:00:00 GMT"
+      "title": "‘I’m burned out’: I’m constantly helping my cousin who is running out of money. Is it too much to expect his sister to help?",
+      "url": "https://www.marketwatch.com/story/im-burned-out-im-constantly-helping-my-cousin-who-is-running-out-of-money-is-it-too-much-to-expect-his-sister-to-help-540def9a?mod=mw_rss_topstories",
+      "published": "Mon, 21 Sep 2026 12:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "China is chasing SpaceX and setting its sights on the global space economy",
-      "url": "https://www.marketwatch.com/story/china-is-chasing-spacex-and-setting-its-sights-on-the-global-space-economy-3b9e37ff?mod=mw_rss_topstories",
-      "published": "Sun, 20 Sep 2026 13:53:00 GMT"
+      "title": "A sudden end to the Iran war would strike a blow against oil prices and energy stocks. Yet company insiders are buying.",
+      "url": "https://www.marketwatch.com/story/a-sudden-end-to-the-iran-war-would-strike-a-blow-against-oil-prices-and-energy-stocks-yet-company-insiders-are-buying-673899a0?mod=mw_rss_topstories",
+      "published": "Mon, 21 Sep 2026 11:49:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Oil rises after Houthi attack on Saudi capital",
-      "url": "https://www.investing.com/news/commodities-news/oil-rises-after-houthi-attack-on-saudi-capital-4908199",
-      "published": "2026-09-20 22:18:25"
+      "title": "US spirits maker Sazerac launches takeover bid for Germany’s Berentzen",
+      "url": "https://www.investing.com/news/stock-market-news/us-spirits-maker-sazerac-launches-takeover-bid-for-germanys-berentzen-4908271",
+      "published": "2026-09-21 14:19:26"
     },
     {
       "source": "Investing.com News",
-      "title": "Jefferies stays bullish on S&P 500, sees 9,000 by end-2027",
-      "url": "https://www.investing.com/news/stock-market-news/jefferies-stays-bullish-on-sp-500-sees-9000-by-end2027-4908198",
-      "published": "2026-09-20 22:03:44"
+      "title": "Czech Republic approves Tesla’s FSD after earlier safety concerns",
+      "url": "https://www.investing.com/news/stock-market-news/czech-republic-approves-teslas-fsd-after-earlier-safety-concerns-4909315",
+      "published": "2026-09-21 14:18:51"
     },
     {
       "source": "Investing.com News",
-      "title": "Midterm elections: What do equity markets typically do and what is priced?",
-      "url": "https://www.investing.com/news/stock-market-news/midterm-elections-what-do-equity-markets-typically-do-and-what-is-priced-4908197",
-      "published": "2026-09-20 22:01:14"
+      "title": "Paramount settles states’ challenge to Warner Bros merger, Bloomberg News reports",
+      "url": "https://www.investing.com/news/stock-market-news/paramountsettles-states-challenge-to-warner-bros-merger-bloomberg-news-reports-4909314",
+      "published": "2026-09-21 14:18:34"
     },
     {
       "source": "Investing.com News",
-      "title": "Russia stocks lower at close of trade; MOEX Russia Index unchanged",
-      "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-unchanged-4908195",
-      "published": "2026-09-20 21:20:03"
+      "title": "Dollar Index consolidates at 100.09 in bull trap danger zone: Live",
+      "url": "https://www.investing.com/news/stock-market-news/dollar-index-consolidates-at-10009-in-bull-trap-danger-zone-live-93CH-4909312",
+      "published": "2026-09-21 14:17:44"
     },
     {
       "source": "Investing.com News",
-      "title": "Specialised Therapeutics expands Incyte partnership to Australia",
-      "url": "https://www.investing.com/news/company-news/specialised-therapeutics-expands-incyte-partnership-to-australia-93CH-4908193",
-      "published": "2026-09-20 20:04:37"
+      "title": "NVIDIA reclaims key MAs at $223.33, eyes $228 resistance: Live",
+      "url": "https://www.investing.com/news/stock-market-news/nvidia-reclaims-key-mas-at-22333-eyes-228-resistance-live-93CH-4909311",
+      "published": "2026-09-21 14:17:19"
     },
     {
       "source": "Investing.com News",
-      "title": "Bitcoin trapped between $78K support and $82K resistance: Live levels",
-      "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-trapped-in-76k81k-rectangle-live-breakout-levels-93CH-4898873",
-      "published": "2026-09-20 19:02:10"
+      "title": "Alphabet tests $357 resistance where 200MA meets Fib: Live",
+      "url": "https://www.investing.com/news/stock-market-news/alphabet-tests-357-resistance-where-200ma-meets-fib-live-93CH-4909310",
+      "published": "2026-09-21 14:17:14"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Insurance Australia Says Greensill Settlement Isn’t Finalized",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-20/insurance-australia-says-greensill-settlement-isn-t-finalized",
-      "published": "Sun, 20 Sep 2026 23:11:41 GMT"
+      "title": "AI Boom Is Making Diversifying Investments Tough for Wall Street",
+      "url": "https://www.bloomberg.com/news/features/2026-09-20/ai-boom-is-making-diversifying-investments-tough-for-wall-street",
+      "published": "Sun, 20 Sep 2026 21:00:01 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Black Sea Shipping Turmoil Hits Wheat Market, Amplifies Inflation Risks",
-      "url": "https://www.bloomberg.com/news/features/2026-09-20/black-sea-shipping-turmoil-hits-wheat-market-amplifies-inflation-risks",
-      "published": "Sun, 20 Sep 2026 23:01:01 GMT"
+      "title": "US-China Have Time to Discuss Trade Truce Extension, Greer Says",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-21/us-china-have-time-for-trade-truce-extension-greer-video",
+      "published": "Mon, 21 Sep 2026 13:51:20 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Australia’s Labor Government Extends Slide in Opinion Polls",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-20/australia-s-labor-government-extends-slide-in-opinion-polls",
-      "published": "Sun, 20 Sep 2026 22:52:18 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Latest Oil Market News and Analysis for Sept. 21",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-20/latest-oil-market-news-and-analysis-for-sept-21",
-      "published": "Sun, 20 Sep 2026 22:05:05 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Yen Vulnerable With Japan on Holiday After BOJ Disappoints",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-20/yen-is-vulnerable-with-japan-on-holiday-after-boj-disappoints",
-      "published": "Sun, 20 Sep 2026 08:00:00 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "US Stock Futures Up Ahead of Talks, Dollar Steady: Markets Wrap",
+      "title": "Stocks, Bonds Climb as Oil Falls on US-Iran Hopes: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-09-20/us-stock-futures-up-ahead-of-talks-dollar-steady-markets-wrap",
       "published": "Sun, 20 Sep 2026 22:14:48 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "US Stocks Climb Ahead of Trump-Xi Meeting as Oil Slips",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-21/us-stock-futures-climb-ahead-of-trump-xi-meeting-as-oil-slips",
+      "published": "Mon, 21 Sep 2026 12:14:29 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Russia Set to Extend Diesel Export Ban Beyond End of September",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-21/russia-set-to-extend-diesel-export-ban-beyond-end-of-september",
+      "published": "Mon, 21 Sep 2026 13:41:49 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "USTR Greer on China Trade, Diesel Exports, Canada",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-21/ustr-greer-on-china-trade-diesel-exports-canada-video",
+      "published": "Mon, 21 Sep 2026 13:21:25 GMT"
     }
   ],
   "summary": {
