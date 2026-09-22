@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-09-22 09:13 KST",
+  "as_of_kst": "2026-09-22 21:46 KST",
   "as_of_date": "2026-09-22",
   "as_of_weekday": "TUE",
-  "build_unix": 1790035980,
+  "build_unix": 1790081213,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 6894.23,
-      "change": 178.82,
-      "change_pct": 2.66,
+      "price": 7017.91,
+      "change": 10.19,
+      "change_pct": 0.15,
       "spark": [
-        6684.37,
-        6627.26,
         6717.97,
         6715.41,
-        6894.23
+        6894.23,
+        7007.72,
+        7017.91
       ],
-      "as_of": "2026-09-18"
+      "as_of": "2026-09-22"
     },
     "nikkei": {
       "key": "nikkei",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 24750.78,
-      "change": 146.49,
-      "change_pct": 0.6,
+      "price": 25087.75,
+      "change": 45.04,
+      "change_pct": 0.18,
       "spark": [
-        24917.6,
-        24667.24,
         24713.78,
         24604.29,
-        24750.78
+        24750.78,
+        25042.71,
+        25087.75
       ],
-      "as_of": "2026-09-21"
+      "as_of": "2026-09-22"
     },
     "ftse": {
       "key": "ftse",
@@ -118,17 +118,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10659.1,
-      "change": -157.0,
-      "change_pct": -1.45,
+      "price": 10751.1,
+      "change": 12.1,
+      "change_pct": 0.11,
       "spark": [
-        10697.6,
-        10658.1,
         10688.5,
         10816.1,
-        10659.1
+        10659.1,
+        10739.0,
+        10751.1
       ],
-      "as_of": "2026-09-21"
+      "as_of": "2026-09-22"
     },
     "dax": {
       "key": "dax",
@@ -136,50 +136,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 25304.06,
-      "change": -412.65,
-      "change_pct": -1.6,
+      "price": 25733.25,
+      "change": 158.24,
+      "change_pct": 0.62,
       "spark": [
-        25440.81,
-        25402.28,
         25537.75,
         25716.71,
-        25304.06
+        25304.06,
+        25575.01,
+        25733.25
       ],
-      "as_of": "2026-09-21"
+      "as_of": "2026-09-22"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1368.8101,
+      "rate": 1357.48,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 157.35,
+      "rate": 157.05,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1471,
+      "rate": 1.1463,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.6948,
+      "rate": 6.6883,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 100.41,
-      "change": 0.19,
-      "change_pct": 0.19,
+      "rate": 100.39,
+      "change": -0.04,
+      "change_pct": -0.04,
       "kind": "index"
     }
   },
@@ -189,48 +189,66 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 92.14,
-      "change": -8.16,
-      "change_pct": -8.14
+      "price": 90.27,
+      "change": -5.51,
+      "change_pct": -5.75
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4412.6,
-      "change": -12.3,
-      "change_pct": -0.28
+      "price": 4376.9,
+      "change": -7.0,
+      "change_pct": -0.16
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 86412.23,
-      "change": 5269.62,
-      "change_pct": 6.49
+      "price": 85988.96,
+      "change": -613.95,
+      "change_pct": -0.71
     },
     "ust10y": {
       "key": "ust10y",
       "symbol": "^TNX",
       "name": "10Y UST Yield",
       "unit": "%",
-      "price": 4.96,
+      "price": 4.93,
       "change": -0.03,
-      "change_pct": -0.7
+      "change_pct": -0.69
     },
     "vix": {
       "key": "vix",
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 14.87,
-      "change": 0.06,
-      "change_pct": 0.41
+      "price": 14.64,
+      "change": -0.23,
+      "change_pct": -1.55
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Here are Tuesday's biggest analyst calls: Nvidia, Netflix, Broadcom, SanDisk, Meta, CoreWeave & more",
+      "url": "https://www.cnbc.com/2026/09/22/big-wall-street-analyst-calls-tuesday.html",
+      "published": "Tue, 22 Sep 2026 12:34:09 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "This security technology stock has an 'underappreciated' edge, Jefferies says",
+      "url": "https://www.cnbc.com/2026/09/22/this-security-technology-stock-has-an-underappreciated-edge-jefferies-says.html",
+      "published": "Tue, 22 Sep 2026 11:11:59 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Sandisk has gained more than 600% in 2026. It still has room to run, Rosenblatt says",
+      "url": "https://www.cnbc.com/2026/09/22/sndk-is-up-600percent-in-2026-and-has-more-room-to-run-rosenblatt-says.html",
+      "published": "Tue, 22 Sep 2026 10:41:03 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Investors discover their new favorite consumer AI play in Meta. Options volume is surging",
@@ -250,130 +268,136 @@
       "published": "Mon, 21 Sep 2026 18:38:01 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "This stock could double if 'tokenization' trend takes on hold on Wall Street",
-      "url": "https://www.cnbc.com/2026/09/21/this-stock-could-double-if-tokenization-trend-takes-on-hold-on-wall-street.html",
-      "published": "Mon, 21 Sep 2026 17:45:01 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "AI stock valuations may have peaked. Trivariate Research thinks these shares can keep working",
-      "url": "https://www.cnbc.com/2026/09/21/ai-stock-valuations-may-have-peaked-trivariate-thinks-these-shares-can-keep-working.html",
-      "published": "Mon, 21 Sep 2026 16:56:21 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Cybersecurity stocks are back with a bang. These four are on Josh Brown's list",
-      "url": "https://www.cnbc.com/2026/09/21/cybersecurity-stocks-are-back-with-a-bang-these-four-are-on-josh-browns-list.html",
-      "published": "Mon, 21 Sep 2026 15:43:44 GMT"
+      "source": "Yahoo Finance",
+      "title": "Bank of America says buy tumbling shares of aviation giant",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-says-buy-tumbling-143700198.html",
+      "published": "2026-09-21T14:37:00Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Jim Cramer sends strong signal to Apple stock investors",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-sends-strong-signal-163300406.html",
-      "published": "2026-09-20T16:33:00Z"
+      "title": "Oil falls to two-week low as Gulf supply outlook improves",
+      "url": "https://finance.yahoo.com/energy/articles/oil-rises-slightly-ahead-potential-003404571.html",
+      "published": "2026-09-22T12:28:03Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "'This could be something more substantial': Wall Street braces for more Fed rate hikes",
-      "url": "https://finance.yahoo.com/economy/policy/article/this-could-be-something-more-substantial-wall-street-braces-for-more-fed-rate-hikes-123400710.html",
-      "published": "2026-09-20T12:34:00Z"
+      "title": "Why AMD's new $1 trillion valuation makes perfect sense",
+      "url": "https://finance.yahoo.com/markets/stocks/article/why-amds-new-1-trillion-valuation-makes-perfect-sense-093453726.html",
+      "published": "2026-09-22T09:34:53Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Michael Burry says he only invests in ‘three-legged dogs’ — though five legs would be even better",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-says-only-invests-123000511.html",
-      "published": "2026-09-20T12:30:00Z"
+      "title": "3M’s CEO Says the Turnaround Is Ahead of Schedule, But PFAS Litigation Keeps Resurfacing",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3m-ceo-says-turnaround-ahead-122451020.html",
+      "published": "2026-09-22T12:24:51Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Is 63 the ideal age of retirement Americans think it is? Probably not — here’s why",
-      "url": "https://finance.yahoo.com/small-business/articles/63-ideal-age-retirement-americans-124500294.html",
-      "published": "2026-09-20T12:45:00Z"
+      "title": "Multifamily REITs Are Finally Showing Signs of Recovery — Why Baron Increased UDR (UDR)",
+      "url": "https://finance.yahoo.com/real-estate/articles/multifamily-reits-finally-showing-signs-122342590.html",
+      "published": "2026-09-22T12:23:42Z"
     },
     {
       "source": "Yahoo Finance",
-      "title": "Meta’s New AI Agent Could Be the Missing Piece for META Stock",
-      "url": "https://finance.yahoo.com/technology/ai/articles/meta-ai-agent-could-missing-130002359.html",
-      "published": "2026-09-20T13:00:02Z"
+      "title": "Global diesel shortage from Iran, Ukraine wars to last into 2027",
+      "url": "https://finance.yahoo.com/energy/articles/global-diesel-shortage-iran-ukraine-181721706.html",
+      "published": "2026-09-21T18:17:21Z"
     },
     {
-      "source": "Yahoo Finance",
-      "title": "Burger chain cancels breakfast at hundreds of restaurants",
-      "url": "https://finance.yahoo.com/small-business/articles/fast-food-giant-cancels-breakfast-041519870.html",
-      "published": "2026-09-21T04:15:19Z"
+      "source": "MarketWatch Top",
+      "title": "Princeton’s 15-year run as the nation’s top-ranked university is over. MIT is now No. 1.",
+      "url": "https://www.marketwatch.com/story/princetons-15-year-run-as-the-nations-top-college-is-over-mit-is-now-no-1-e9f17169?mod=mw_rss_topstories",
+      "published": "Tue, 22 Sep 2026 12:43:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Wall Street and AI ruined your ‘diversified’ portfolio",
+      "url": "https://www.marketwatch.com/story/wall-street-and-ai-ruined-your-diversified-portfolio-f1255373?mod=mw_rss_topstories",
+      "published": "Tue, 22 Sep 2026 12:24:00 GMT"
     },
     {
       "source": "MarketWatch Top",
       "title": "Meta’s stock is enjoying its best month in 13 years thanks to the company’s hot new AI assistant",
       "url": "https://www.marketwatch.com/story/metas-stock-is-enjoying-its-best-month-in-more-than-two-years-thanks-to-the-companys-hot-new-ai-assistant-bf106291?mod=mw_rss_topstories",
-      "published": "Mon, 21 Sep 2026 22:01:00 GMT"
+      "published": "Tue, 22 Sep 2026 12:02:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "AT&T’s stock looks like the smartest bet in the wireless sector, analyst says",
-      "url": "https://www.marketwatch.com/story/at-ts-stock-looks-like-the-smartest-bet-in-the-wireless-sector-analyst-says-6e773d63?mod=mw_rss_topstories",
-      "published": "Mon, 21 Sep 2026 21:57:00 GMT"
+      "title": "How this market-beating fund is constantly shifting to keep up with the AI trade",
+      "url": "https://www.marketwatch.com/story/how-this-market-beating-fund-is-constantly-shifting-to-keep-up-with-the-ai-trade-cf8536e0?mod=mw_rss_topstories",
+      "published": "Tue, 22 Sep 2026 11:55:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Bitcoin hits an 8-month high — and sends a clear message about risk appetite right now",
-      "url": "https://www.marketwatch.com/story/bitcoin-hits-an-8-month-high-and-sends-a-clear-message-about-risk-appetite-right-now-edc7b9a5?mod=mw_rss_topstories",
-      "published": "Mon, 21 Sep 2026 21:47:00 GMT"
+      "title": "Financial conditions are tightening. Here’s why stock investors should pay attention.",
+      "url": "https://www.marketwatch.com/story/financial-conditions-are-tightening-heres-why-stock-investors-should-pay-attention-a7d12134?mod=mw_rss_topstories",
+      "published": "Tue, 22 Sep 2026 11:48:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "My husband and I are in our 50s and have no kids. We have $2 million in IRAs and 401(k)s. Do we really need a will?",
-      "url": "https://www.marketwatch.com/story/my-husband-and-i-are-in-our-50s-and-have-no-kids-we-have-2-million-do-we-need-a-will-62fb422f?mod=mw_rss_topstories",
-      "published": "Mon, 21 Sep 2026 21:30:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "As the S&P 500 nears a new record high, there are signs of weakness below the surface",
-      "url": "https://www.marketwatch.com/story/as-the-s-p-500-nears-a-new-record-high-there-are-cracks-below-the-surface-6df3e90d?mod=mw_rss_topstories",
-      "published": "Mon, 21 Sep 2026 21:17:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "These beaten-down stocks could bounce back in January, if history is any guide",
-      "url": "https://www.marketwatch.com/story/these-beaten-down-stocks-could-bounce-back-in-january-if-history-is-any-guide-865a3f6b?mod=mw_rss_topstories",
-      "published": "Mon, 21 Sep 2026 21:06:00 GMT"
+      "title": "Oil could top $150 a barrel if supplies further tighten, Bank of America warns",
+      "url": "https://www.marketwatch.com/story/oil-could-top-150-a-barrel-if-supplies-further-tighten-bank-of-america-warns-2fcd5bd3?mod=mw_rss_topstories",
+      "published": "Tue, 22 Sep 2026 11:26:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "BancFirst declares quarterly dividend and trust preferred interest payment",
-      "url": "https://www.investing.com/news/sec-filings/bancfirst-declares-quarterly-dividend-and-trust-preferred-interest-payment-93CH-4909757",
-      "published": "2026-09-21 23:46:07"
+      "title": "Standard Chartered at Bank of America conference: growth, AI and caution",
+      "url": "https://www.investing.com/news/transcripts/standard-chartered-at-bank-of-america-conference-growth-ai-and-caution-93CH-4910807",
+      "published": "2026-09-22 12:34:12"
     },
     {
       "source": "Investing.com News",
-      "title": "TriplePoint Private Venture Credit announces leadership changes and board reduction",
-      "url": "https://www.investing.com/news/sec-filings/triplepoint-private-venture-credit-announces-leadership-changes-and-board-reduction-93CH-4909756",
-      "published": "2026-09-21 23:42:34"
+      "title": "’Not your father’s Sandisk’: Rosenblatt starts coverage at Buy",
+      "url": "https://www.investing.com/news/stock-market-news/not-your-fathers-sandisk-rosenblatt-starts-coverage-at-buy-4910803",
+      "published": "2026-09-22 12:33:10"
     },
     {
       "source": "Investing.com News",
-      "title": "Meta announces AI shopping partnership with Spotify",
-      "url": "https://www.investing.com/news/stock-market-news/meta-announces-ai-shopping-partnership-with-spotify-4909755",
-      "published": "2026-09-21 23:42:17"
+      "title": "Hyliion adds dual listing on NYSE Texas exchange",
+      "url": "https://www.investing.com/news/company-news/hyliion-adds-dual-listing-on-nyse-texas-exchange-93CH-4910799",
+      "published": "2026-09-22 12:32:33"
     },
     {
       "source": "Investing.com News",
-      "title": "Telos chairman & CEO John Wood sells $389,411 in shares",
-      "url": "https://www.investing.com/news/insider-trading-news/telos-chairman--ceo-john-wood-sells-389411-in-shares-93CH-4909744",
-      "published": "2026-09-21 23:31:12"
+      "title": "Accelevation seeks $720 million in IPO with backer Olympus",
+      "url": "https://www.investing.com/news/stock-market-news/accelevation-seeks-720-million-in-ipo-with-backer-olympus-93CH-4910797",
+      "published": "2026-09-22 12:32:20"
     },
     {
       "source": "Investing.com News",
-      "title": "Nasdaq notches record-high close, AI optimism reignites and Treasury yields retreat",
-      "url": "https://www.investing.com/news/stock-market-news/wall-st-futures-rise-as-ai-stocks-gain-oil-prices-slide-4908497",
-      "published": "2026-09-21 23:19:04"
+      "title": "Why is Rush Street Interactive stock rallying today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-rush-street-interactive-stock-rallying-today-93CH-4910793",
+      "published": "2026-09-22 12:32:10"
     },
     {
       "source": "Investing.com News",
-      "title": "Texas Governor Abbott halts all state-issued permits for data centers until grid audit is complete",
-      "url": "https://www.investing.com/news/commodities-news/texas-gov-abbott-halts-all-stateissued-permits-for-data-centers-until-grid-audit-is-complete-4909646",
-      "published": "2026-09-21 23:18:33"
+      "title": "Why the Pentagon Keeps Funding This Small Cap (Nasdaq: MDWD)",
+      "url": "https://www.investing.com/news/company-news/why-the-pentagon-keeps-funding-this-small-cap-nasdaq-mdwd-4910775",
+      "published": "2026-09-22 12:31:12"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "US Stocks Hold Gains Ahead of Trump’s UN Speech: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-21/stock-market-today-dow-s-p-live-updates",
+      "published": "Mon, 21 Sep 2026 22:18:13 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "US Stock Futures Drift After AI-Driven Rally, Oil Prices Slip",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-22/us-stock-futures-drift-after-ai-driven-rally-oil-prices-slip",
+      "published": "Tue, 22 Sep 2026 12:29:15 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Radiant World Sent Mizuho Fake Glencore Email, Court Filing Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-22/radiant-world-sent-mizuho-fake-glencore-email-court-filing-says",
+      "published": "Tue, 22 Sep 2026 12:26:08 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Riskiest Stocks Lose Performance Edge as Interest Rates Climb",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-22/riskiest-stocks-lose-performance-edge-as-interest-rates-climb",
+      "published": "Tue, 22 Sep 2026 12:22:16 GMT"
     },
     {
       "source": "Bloomberg Markets",
@@ -383,33 +407,9 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Macron and Trump Discuss Kyiv and Moscow Halting Energy Strikes",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-21/macron-and-trump-discuss-kyiv-and-moscow-halting-energy-strikes",
-      "published": "Mon, 21 Sep 2026 23:47:37 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Asian Stocks to Gain on Tech Optimism, Oil Falls: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-21/stock-market-today-dow-s-p-live-updates",
-      "published": "Mon, 21 Sep 2026 22:18:13 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Vietnam’s Leader Declares US Trade Deal Close",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-21/vietnam-s-leader-declares-us-trade-deal-close-video",
-      "published": "Mon, 21 Sep 2026 23:00:23 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Ecuador Asks US Daily to Help Curb $30 Billion Cocaine Trade",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-21/ecuador-asks-us-daily-for-help-curbing-30-billion-cocaine-trade",
-      "published": "Mon, 21 Sep 2026 22:00:44 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Paramount settles lawsuits, allowing for Warner Bros. deal",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-21/paramount-settles-suits-allowing-for-warner-bros-deal-video",
-      "published": "Mon, 21 Sep 2026 22:29:35 GMT"
+      "title": "AI Rally Loses Steam, US-China Talks Persist",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-22/bloomberg-brief-09-22-2026-video",
+      "published": "Tue, 22 Sep 2026 12:10:01 GMT"
     }
   ],
   "summary": {
