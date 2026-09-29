@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-09-29 10:08 KST",
+  "as_of_kst": "2026-09-29 23:14 KST",
   "as_of_date": "2026-09-29",
   "as_of_weekday": "TUE",
-  "build_unix": 1790644097,
+  "build_unix": 1790691288,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -10,17 +10,17 @@
       "name": "S&P 500",
       "region": "USA",
       "kind": "broad",
-      "price": 7683.69,
-      "change": -59.72,
-      "change_pct": -0.77,
+      "price": 7682.62,
+      "change": -1.07,
+      "change_pct": -0.01,
       "spark": [
-        7764.64,
         7706.03,
         7704.13,
         7743.41,
-        7683.69
+        7683.69,
+        7682.62
       ],
-      "as_of": "2026-09-28"
+      "as_of": "2026-09-29"
     },
     "nasdaq": {
       "key": "nasdaq",
@@ -28,17 +28,17 @@
       "name": "NASDAQ Composite",
       "region": "USA",
       "kind": "tech",
-      "price": 26820.38,
-      "change": -248.34,
-      "change_pct": -0.92,
+      "price": 26820.96,
+      "change": 0.57,
+      "change_pct": 0.0,
       "spark": [
-        27244.28,
         26936.04,
         26939.37,
         27068.72,
-        26820.38
+        26820.38,
+        26820.96
       ],
-      "as_of": "2026-09-28"
+      "as_of": "2026-09-29"
     },
     "dow": {
       "key": "dow",
@@ -46,17 +46,17 @@
       "name": "Dow Jones 30",
       "region": "USA",
       "kind": "value",
-      "price": 51481.51,
-      "change": -347.11,
-      "change_pct": -0.67,
+      "price": 51398.16,
+      "change": -83.35,
+      "change_pct": -0.16,
       "spark": [
-        51863.69,
         51511.59,
         51349.98,
         51828.62,
-        51481.51
+        51481.51,
+        51398.16
       ],
-      "as_of": "2026-09-28"
+      "as_of": "2026-09-29"
     },
     "kospi": {
       "key": "kospi",
@@ -64,15 +64,15 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 6864.46,
-      "change": -216.46,
-      "change_pct": -3.06,
+      "price": 6870.81,
+      "change": -18.93,
+      "change_pct": -0.27,
       "spark": [
-        6894.23,
         7007.72,
         7017.91,
         7080.92,
-        6864.46
+        6889.74,
+        6870.81
       ],
       "as_of": "2026-09-29"
     },
@@ -82,15 +82,15 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 65276.69,
-      "change": -1087.51,
-      "change_pct": -1.64,
+      "price": 65481.27,
+      "change": -396.35,
+      "change_pct": -0.6,
       "spark": [
-        64136.25,
         65018.95,
         65513.99,
         66364.2,
-        65276.69
+        65877.62,
+        65481.27
       ],
       "as_of": "2026-09-29"
     },
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 24510.09,
-      "change": -251.04,
-      "change_pct": -1.01,
+      "price": 24523.57,
+      "change": -118.94,
+      "change_pct": -0.48,
       "spark": [
-        25042.71,
-        25087.75,
         24834.12,
         24761.13,
-        24510.09
+        24510.09,
+        24642.51,
+        24523.57
       ],
-      "as_of": "2026-09-28"
+      "as_of": "2026-09-29"
     },
     "ftse": {
       "key": "ftse",
@@ -118,17 +118,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10695.3,
-      "change": 15.3,
-      "change_pct": 0.14,
+      "price": 10671.3,
+      "change": -13.6,
+      "change_pct": -0.13,
       "spark": [
-        10739.0,
-        10708.3,
         10705.3,
         10680.0,
-        10695.3
+        10695.3,
+        10684.9,
+        10671.3
       ],
-      "as_of": "2026-09-28"
+      "as_of": "2026-09-29"
     },
     "dax": {
       "key": "dax",
@@ -136,50 +136,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 25408.64,
-      "change": 142.11,
-      "change_pct": 0.56,
+      "price": 25492.19,
+      "change": 117.77,
+      "change_pct": 0.46,
       "spark": [
-        25575.01,
-        25578.85,
         25410.63,
         25266.53,
-        25408.64
+        25408.64,
+        25374.42,
+        25492.19
       ],
-      "as_of": "2026-09-28"
+      "as_of": "2026-09-29"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1358.98,
+      "rate": 1354.3101,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 157.46,
+      "rate": 157.38,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.137,
+      "rate": 1.1347,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7098,
+      "rate": 6.6968,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 101.23,
-      "change": 0.26,
-      "change_pct": 0.25,
+      "rate": 101.38,
+      "change": 0.18,
+      "change_pct": 0.18,
       "kind": "index"
     }
   },
@@ -189,48 +189,72 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 93.34,
-      "change": 0.93,
-      "change_pct": 1.01
+      "price": 91.32,
+      "change": -1.28,
+      "change_pct": -1.38
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4150.6,
-      "change": -170.6,
-      "change_pct": -3.95
+      "price": 4197.4,
+      "change": 29.0,
+      "change_pct": 0.7
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 83030.99,
-      "change": -1427.09,
-      "change_pct": -1.69
+      "price": 83918.72,
+      "change": 416.11,
+      "change_pct": 0.5
     },
     "ust10y": {
       "key": "ust10y",
       "symbol": "^TNX",
       "name": "10Y UST Yield",
       "unit": "%",
-      "price": 5.24,
-      "change": 0.06,
-      "change_pct": 1.08
+      "price": 5.26,
+      "change": 0.02,
+      "change_pct": 0.32
     },
     "vix": {
       "key": "vix",
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 16.07,
-      "change": 1.2,
-      "change_pct": 8.07
+      "price": 15.94,
+      "change": -0.13,
+      "change_pct": -0.81
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Here are Tuesday's biggest analyst calls: Nvidia, SpaceX, Apple, Netflix, Kroger, AutoZone & more",
+      "url": "https://www.cnbc.com/2026/09/29/biggest-stocks-by-analyst-calls-tuesday.html",
+      "published": "Tue, 29 Sep 2026 12:16:35 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Higher rates are wreaking havoc on these two ETFs. Traders see one bouncing back",
+      "url": "https://www.cnbc.com/2026/09/29/higher-rates-are-wreaking-havoc-on-these-two-etfs-traders-see-one-bouncing-back.html",
+      "published": "Tue, 29 Sep 2026 11:28:27 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Netflix has sold off in September. Deutsche Bank says buy the dip",
+      "url": "https://www.cnbc.com/2026/09/29/netflix-has-sold-off-in-september-deutsche-bank-says-buy-the-dip.html",
+      "published": "Tue, 29 Sep 2026 10:42:18 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "SpaceX is poised for a big comeback after recent struggles, says TD Cowen",
+      "url": "https://www.cnbc.com/2026/09/29/spacex-is-poised-for-a-big-comeback-after-recent-struggles-says-td-cowen.html",
+      "published": "Tue, 29 Sep 2026 10:24:03 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Higher rates will create winners and losers in bonds, says UBS. Where the bank sees opportunity",
@@ -242,30 +266,6 @@
       "title": "Tuesday's big stock stories: What’s likely to move the market in the next trading session",
       "url": "https://www.cnbc.com/2026/09/28/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html",
       "published": "Mon, 28 Sep 2026 23:42:06 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Nearly half the stocks in the S&P 500 are at cross purposes with the rest of the market",
-      "url": "https://www.cnbc.com/2026/09/28/nearly-half-of-the-stocks-in-the-sp-500-are-working-against-it.html",
-      "published": "Mon, 28 Sep 2026 17:53:31 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "'Take or pay': AI companies are taking a risky page from the energy sector's playbook",
-      "url": "https://www.cnbc.com/2026/09/28/ai-companies-take-a-page-from-the-energy-sectors-finance-playbook.html",
-      "published": "Mon, 28 Sep 2026 16:44:39 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Bond market alarms are ringing on Wall Street. Here's what's ahead",
-      "url": "https://www.cnbc.com/2026/09/25/stock-market-next-week-outlook-for-sept-28-oct-2-2026.html",
-      "published": "Fri, 25 Sep 2026 20:16:52 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Shares of Akamai surge after deal with Anthropic. What Wall Street is saying",
-      "url": "https://www.cnbc.com/2026/09/25/shares-of-akamai-surge-after-deal-with-anthropic-what-wall-street-is-saying.html",
-      "published": "Fri, 25 Sep 2026 15:33:13 GMT"
     },
     {
       "source": "Yahoo Finance",
@@ -305,111 +305,111 @@
     },
     {
       "source": "MarketWatch Top",
-      "title": "AMD makes a big bet on the next era of AI with World Labs acquisition",
-      "url": "https://www.marketwatch.com/story/amd-makes-a-big-bet-on-the-next-era-of-ai-7f8a3b3c?mod=mw_rss_topstories",
-      "published": "Tue, 29 Sep 2026 00:03:00 GMT"
+      "title": "The No. 1 mistake beginners make with travel cards, according to The Points Guy",
+      "url": "https://www.marketwatch.com/story/the-no-1-mistake-beginners-make-with-travel-cards-according-to-the-points-guy-3502e859?mod=mw_rss_topstories",
+      "published": "Tue, 29 Sep 2026 14:13:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘We lived within our means’: I earned $30,000 as a pastor and still retired comfortably. Why don’t you tell people that?",
-      "url": "https://www.marketwatch.com/story/we-lived-within-our-means-i-earned-30-000-as-a-pastor-and-still-retired-comfortably-why-dont-you-tell-people-that-6b9f231e?mod=mw_rss_topstories",
-      "published": "Mon, 28 Sep 2026 23:00:00 GMT"
+      "title": "My kids don’t want my decades’ worth of stuff. Here’s how I’m learning to let go of it.",
+      "url": "https://www.marketwatch.com/story/my-kids-dont-want-my-decades-worth-of-stuff-heres-how-im-learning-to-let-go-of-it-74f91da6?mod=mw_rss_topstories",
+      "published": "Tue, 29 Sep 2026 14:00:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘I want to make her proud’: My mother, a divorcée, died and I’m her executor. Do I need to file for probate?",
-      "url": "https://www.marketwatch.com/story/i-want-to-make-her-proud-my-mother-a-divorcee-died-and-im-her-executor-do-i-need-to-file-for-probate-a39b1123?mod=mw_rss_topstories",
-      "published": "Mon, 28 Sep 2026 22:45:00 GMT"
+      "title": "Junk bonds are heading for worst month since 2022 after punishing global selloff",
+      "url": "https://www.marketwatch.com/story/junk-bonds-are-heading-for-worst-month-since-2022-after-punishing-global-selloff-12b70a3e?mod=mw_rss_topstories",
+      "published": "Tue, 29 Sep 2026 14:00:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘I’m never selling’: I’m 47 and buy bitcoin with every dollar I earn. Am I crazy?",
-      "url": "https://www.marketwatch.com/story/im-never-selling-im-47-and-buy-bitcoin-with-every-dollar-i-earn-am-i-crazy-364d2a64?mod=mw_rss_topstories",
-      "published": "Mon, 28 Sep 2026 22:35:00 GMT"
+      "title": "Before you invest in the Oura IPO, understand what you’re buying",
+      "url": "https://www.marketwatch.com/story/before-you-invest-in-the-oura-ipo-understand-what-youre-buying-1d88d868?mod=mw_rss_topstories",
+      "published": "Tue, 29 Sep 2026 13:45:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "SpaceX’s next big growth engine isn’t rockets — it’s this play on AI power, analysts say",
-      "url": "https://www.marketwatch.com/story/spacexs-next-big-growth-engine-isnt-rockets-its-this-play-on-ai-power-analysts-say-11963aeb?mod=mw_rss_topstories",
-      "published": "Mon, 28 Sep 2026 22:03:00 GMT"
+      "title": "Two stock picks from a money manager who expects small-caps to roar in 2027",
+      "url": "https://www.marketwatch.com/story/two-stock-picks-from-a-money-manager-who-expects-small-caps-to-roar-in-2027-70de9c4d?mod=mw_rss_topstories",
+      "published": "Tue, 29 Sep 2026 13:39:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Nvidia makes a statement with historic $150 billion buyback announcement",
-      "url": "https://www.marketwatch.com/story/nvidia-makes-a-statement-with-historic-150-billion-buyback-announcement-bfab5a22?mod=mw_rss_topstories",
-      "published": "Mon, 28 Sep 2026 21:27:00 GMT"
+      "title": "Dolly Parton planned for her estate. The fight with her nephew shows why that matters.",
+      "url": "https://www.marketwatch.com/story/dolly-parton-planned-for-her-estate-the-fight-with-her-nephew-shows-why-that-matters-b7e57c26?mod=mw_rss_topstories",
+      "published": "Tue, 29 Sep 2026 12:42:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Oil prices rise for second session on continued Middle East supply concern",
-      "url": "https://www.investing.com/news/commodities-news/oil-prices-rise-for-second-session-on-continued-middle-east-supply-concern-4921465",
-      "published": "2026-09-29 00:36:47"
+      "title": "Affiliated Managers Group stock hits 52-week low at 19.07 USD",
+      "url": "https://www.investing.com/news/company-news/affiliated-managers-group-stock-hits-52week-low-at-1907-usd-93CH-4922928",
+      "published": "2026-09-29 13:49:46"
     },
     {
       "source": "Investing.com News",
-      "title": "Fed’s Cook sees further inflationary pressures ahead",
-      "url": "https://www.investing.com/news/economy-news/feds-cook-sees-further-inflationary-pressures-ahead-4920948",
-      "published": "2026-09-29 00:36:31"
+      "title": "Senegal’s $44 billion debt dilemma: To whom does it owe money and why it matters",
+      "url": "https://www.investing.com/news/economy-news/explainersenegals-44-billion-debt-dilemma-to-whom-does-it-owe-money-and-why-it-matters-4922665",
+      "published": "2026-09-29 13:49:04"
     },
     {
       "source": "Investing.com News",
-      "title": "Julong announces $897,750 private placement of shares and warrants",
-      "url": "https://www.investing.com/news/company-news/julong-announces-897750-private-placement-of-shares-and-warrants-93CH-4921464",
-      "published": "2026-09-29 00:36:30"
+      "title": "S&P, Nasdaq open higher on oil retreat, tech optimism",
+      "url": "https://www.investing.com/news/stock-market-news/sp-nasdaq-open-higher-on-oil-retreat-tech-optimism-4922926",
+      "published": "2026-09-29 13:48:48"
     },
     {
       "source": "Investing.com News",
-      "title": "Virtuix Holdings director Brett Moyer sells $10,353 in stock",
-      "url": "https://www.investing.com/news/insider-trading-news/virtuix-holdings-director-brett-moyer-sells-10353-in-stock-93CH-4921461",
-      "published": "2026-09-29 00:31:07"
+      "title": "Repligen stock price target reaffirmed at $225 by UBS on growth outlook",
+      "url": "https://www.investing.com/news/analyst-ratings/repligen-stock-price-target-reaffirmed-at-225-by-ubs-on-growth-outlook-93CH-4922925",
+      "published": "2026-09-29 13:48:44"
     },
     {
       "source": "Investing.com News",
-      "title": "Crowdstrike CEO George Kurtz sells $5.16m in shares",
-      "url": "https://www.investing.com/news/insider-trading-news/crowdstrike-ceo-george-kurtz-sells-516m-in-shares-93CH-4921459",
-      "published": "2026-09-29 00:31:01"
+      "title": "Why is Carvana stock rallying today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-carvana-stock-rallying-today-93CH-4922924",
+      "published": "2026-09-29 13:46:40"
     },
     {
       "source": "Investing.com News",
-      "title": "Samsung, affiliates to invest $1 billion in AI infrastructure firm Helix",
-      "url": "https://www.investing.com/news/stock-market-news/samsung-affiliates-to-invest-1-billion-in-ai-infrastructure-firm-helix-4921450",
-      "published": "2026-09-29 00:21:18"
+      "title": "QumulusAI stock falls amid $240.9M Nvidia GPU contracts",
+      "url": "https://www.investing.com/news/stock-market-news/qumulusai-stock-surges-on-2409m-nvidia-gpu-contracts-4922854",
+      "published": "2026-09-29 13:46:02"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Gold Trades Near Seven-Week Low as Rate-Hike Pressure Mounts",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-29/gold-trades-near-seven-week-low-as-rate-hike-pressure-mounts",
-      "published": "Tue, 29 Sep 2026 00:02:41 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Treasuries Stabilize After Selloff, Stocks Slip: Markets Wrap",
+      "title": "Stocks Churn After Rout as Brent Falls Below $105: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-09-28/stock-market-today-dow-s-p-live-updates",
       "published": "Mon, 28 Sep 2026 22:11:04 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Why Earnings Growth Remain a Key Buffer Against Yield Risks",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-29/rodda-earnings-growth-key-buffer-against-yield-risks-video",
-      "published": "Tue, 29 Sep 2026 00:25:13 GMT"
+      "title": "Trump Drive for Minerals Leads Cove Capital to Eye Central Asia",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-29/trump-drive-for-minerals-leads-cove-capital-to-eye-central-asia",
+      "published": "Tue, 29 Sep 2026 14:05:05 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Latest Oil Market News and Analysis for Sept. 29",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-28/latest-oil-market-news-and-analysis-for-sept-29",
-      "published": "Mon, 28 Sep 2026 22:02:33 GMT"
+      "title": "Hungary’s Kurali, OTP Bank CEO Back Path to Euro Accession",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-29/hungary-s-kurali-urges-sticking-to-path-toward-euro-accession",
+      "published": "Tue, 29 Sep 2026 13:01:04 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Citi Recommends Buying China’s 30-Year Bonds on Weak Growth",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-28/citi-recommends-buying-china-s-30-year-bonds-on-weak-growth-view",
-      "published": "Mon, 28 Sep 2026 11:02:52 GMT"
+      "title": "Builders vs Buyers: Who Wins in the UK's New Home Deposit Scheme?",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-29/who-wins-in-the-uk-s-new-home-deposit-scheme-video",
+      "published": "Tue, 29 Sep 2026 13:50:50 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Flashlight Capital Urges Secom to Raise Stake in Korea’s S-1",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-29/flashlight-capital-urges-secom-to-raise-stake-in-korea-s-s-1",
-      "published": "Tue, 29 Sep 2026 00:00:00 GMT"
+      "title": "Paramount Kicks Off High-Grade Bond Sale for Warner Bros. Deal",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-29/paramount-kicks-off-high-grade-bond-sale-for-warner-bros-deal",
+      "published": "Tue, 29 Sep 2026 13:50:08 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Muni Bonds on Track for Worst Monthly Loss Since 1987 on Iran, Inflation",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-29/muni-bonds-on-track-for-worst-monthly-loss-since-1987-on-iran-inflation",
+      "published": "Tue, 29 Sep 2026 13:50:06 GMT"
     }
   ],
   "summary": {
