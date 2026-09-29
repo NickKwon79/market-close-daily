@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-09-29 00:47 KST",
+  "as_of_kst": "2026-09-29 10:08 KST",
   "as_of_date": "2026-09-29",
   "as_of_weekday": "TUE",
-  "build_unix": 1790610435,
+  "build_unix": 1790644097,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -10,15 +10,15 @@
       "name": "S&P 500",
       "region": "USA",
       "kind": "broad",
-      "price": 7678.46,
-      "change": -64.95,
-      "change_pct": -0.84,
+      "price": 7683.69,
+      "change": -59.72,
+      "change_pct": -0.77,
       "spark": [
         7764.64,
         7706.03,
         7704.13,
         7743.41,
-        7678.46
+        7683.69
       ],
       "as_of": "2026-09-28"
     },
@@ -28,15 +28,15 @@
       "name": "NASDAQ Composite",
       "region": "USA",
       "kind": "tech",
-      "price": 26791.95,
-      "change": -276.77,
-      "change_pct": -1.02,
+      "price": 26820.38,
+      "change": -248.34,
+      "change_pct": -0.92,
       "spark": [
         27244.28,
         26936.04,
         26939.37,
         27068.72,
-        26791.95
+        26820.38
       ],
       "as_of": "2026-09-28"
     },
@@ -46,15 +46,15 @@
       "name": "Dow Jones 30",
       "region": "USA",
       "kind": "value",
-      "price": 51456.35,
-      "change": -372.27,
-      "change_pct": -0.72,
+      "price": 51481.51,
+      "change": -347.11,
+      "change_pct": -0.67,
       "spark": [
         51863.69,
         51511.59,
         51349.98,
         51828.62,
-        51456.35
+        51481.51
       ],
       "as_of": "2026-09-28"
     },
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 7080.92,
-      "change": 63.01,
-      "change_pct": 0.9,
+      "price": 6864.46,
+      "change": -216.46,
+      "change_pct": -3.06,
       "spark": [
-        6715.41,
         6894.23,
         7007.72,
         7017.91,
-        7080.92
+        7080.92,
+        6864.46
       ],
-      "as_of": "2026-09-28"
+      "as_of": "2026-09-29"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 66364.2,
-      "change": 850.21,
-      "change_pct": 1.3,
+      "price": 65276.69,
+      "change": -1087.51,
+      "change_pct": -1.64,
       "spark": [
-        63923.0,
         64136.25,
         65018.95,
         65513.99,
-        66364.2
+        66364.2,
+        65276.69
       ],
-      "as_of": "2026-09-28"
+      "as_of": "2026-09-29"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,15 +100,15 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 24642.51,
-      "change": 132.42,
-      "change_pct": 0.54,
+      "price": 24510.09,
+      "change": -251.04,
+      "change_pct": -1.01,
       "spark": [
+        25042.71,
         25087.75,
         24834.12,
         24761.13,
-        24510.09,
-        24642.51
+        24510.09
       ],
       "as_of": "2026-09-28"
     },
@@ -118,15 +118,15 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10700.44,
-      "change": 5.14,
-      "change_pct": 0.05,
+      "price": 10695.3,
+      "change": 15.3,
+      "change_pct": 0.14,
       "spark": [
+        10739.0,
         10708.3,
         10705.3,
         10680.0,
-        10695.3,
-        10700.44
+        10695.3
       ],
       "as_of": "2026-09-28"
     },
@@ -136,15 +136,15 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 25407.11,
-      "change": -1.53,
-      "change_pct": -0.01,
+      "price": 25408.64,
+      "change": 142.11,
+      "change_pct": 0.56,
       "spark": [
+        25575.01,
         25578.85,
         25410.63,
         25266.53,
-        25408.64,
-        25407.11
+        25408.64
       ],
       "as_of": "2026-09-28"
     }
@@ -153,13 +153,13 @@
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1360.36,
+      "rate": 1358.98,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 157.44,
+      "rate": 157.46,
       "kind": "direct"
     },
     "EURUSD": {
@@ -171,15 +171,15 @@
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.6994,
+      "rate": 6.7098,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 101.18,
-      "change": 0.21,
-      "change_pct": 0.21,
+      "rate": 101.23,
+      "change": 0.26,
+      "change_pct": 0.25,
       "kind": "index"
     }
   },
@@ -189,83 +189,83 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 95.48,
-      "change": 3.07,
-      "change_pct": 3.32
+      "price": 93.34,
+      "change": 0.93,
+      "change_pct": 1.01
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4157.2,
-      "change": -164.0,
-      "change_pct": -3.8
+      "price": 4150.6,
+      "change": -170.6,
+      "change_pct": -3.95
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 83220.22,
-      "change": -1237.87,
-      "change_pct": -1.47
+      "price": 83030.99,
+      "change": -1427.09,
+      "change_pct": -1.69
     },
     "ust10y": {
       "key": "ust10y",
       "symbol": "^TNX",
       "name": "10Y UST Yield",
       "unit": "%",
-      "price": 5.26,
-      "change": 0.07,
-      "change_pct": 1.45
+      "price": 5.24,
+      "change": 0.06,
+      "change_pct": 1.08
     },
     "vix": {
       "key": "vix",
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 16.36,
-      "change": 1.49,
-      "change_pct": 10.02
+      "price": 16.07,
+      "change": 1.2,
+      "change_pct": 8.07
     }
   },
   "headlines_raw": [
     {
       "source": "CNBC Markets",
-      "title": "Muse AI agent led Meta Platforms into the Best Stocks in the Market list. What Josh Brown thinks",
-      "url": "https://www.cnbc.com/2026/09/28/muse-ai-agent-led-meta-platforms-into-the-best-stocks-in-the-market-list.html",
-      "published": "Mon, 28 Sep 2026 15:07:40 GMT"
+      "title": "Higher rates will create winners and losers in bonds, says UBS. Where the bank sees opportunity",
+      "url": "https://www.cnbc.com/2026/09/28/higher-rates-will-create-winners-and-losers-in-bonds-says-ubs.html",
+      "published": "Mon, 28 Sep 2026 19:09:46 GMT"
     },
     {
       "source": "CNBC Markets",
-      "title": "IonQ has been on fire this month. Bank of America says buy the quantum computing stock",
-      "url": "https://www.cnbc.com/2026/09/28/ionq-has-been-on-fire-this-month-bank-of-america-says-buy-the-quantum-computing-stock.html",
-      "published": "Mon, 28 Sep 2026 14:41:45 GMT"
+      "title": "Tuesday's big stock stories: What’s likely to move the market in the next trading session",
+      "url": "https://www.cnbc.com/2026/09/28/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+      "published": "Mon, 28 Sep 2026 23:42:06 GMT"
     },
     {
       "source": "CNBC Markets",
-      "title": "Which 10-year yield level will really start to hit stocks? Here's what history suggests",
-      "url": "https://www.cnbc.com/2026/09/28/which-10-year-yield-level-will-really-start-to-hit-stocks.html",
-      "published": "Mon, 28 Sep 2026 14:20:30 GMT"
+      "title": "Nearly half the stocks in the S&P 500 are at cross purposes with the rest of the market",
+      "url": "https://www.cnbc.com/2026/09/28/nearly-half-of-the-stocks-in-the-sp-500-are-working-against-it.html",
+      "published": "Mon, 28 Sep 2026 17:53:31 GMT"
     },
     {
       "source": "CNBC Markets",
-      "title": "Here are Monday's biggest analyst calls: Nvidia, SpaceX, Apple, Micron, Coinbase, Tesla, Sweetgreen & more",
-      "url": "https://www.cnbc.com/2026/09/28/biggest-wall-street-analyst-calls-on-monday.html",
-      "published": "Mon, 28 Sep 2026 12:22:20 GMT"
+      "title": "'Take or pay': AI companies are taking a risky page from the energy sector's playbook",
+      "url": "https://www.cnbc.com/2026/09/28/ai-companies-take-a-page-from-the-energy-sectors-finance-playbook.html",
+      "published": "Mon, 28 Sep 2026 16:44:39 GMT"
     },
     {
       "source": "CNBC Markets",
-      "title": "Bank of America says to scoop up shares of this cruise line operator at a discount",
-      "url": "https://www.cnbc.com/2026/09/28/bofa-says-to-scoop-up-shares-of-this-cruise-line-operator-at-a-discount.html",
-      "published": "Mon, 28 Sep 2026 11:57:48 GMT"
+      "title": "Bond market alarms are ringing on Wall Street. Here's what's ahead",
+      "url": "https://www.cnbc.com/2026/09/25/stock-market-next-week-outlook-for-sept-28-oct-2-2026.html",
+      "published": "Fri, 25 Sep 2026 20:16:52 GMT"
     },
     {
       "source": "CNBC Markets",
-      "title": "Agentic AI will drive Micron to new heights, says Baird",
-      "url": "https://www.cnbc.com/2026/09/28/agentic-ai-will-drive-micron-to-new-heights-says-baird.html",
-      "published": "Mon, 28 Sep 2026 10:11:53 GMT"
+      "title": "Shares of Akamai surge after deal with Anthropic. What Wall Street is saying",
+      "url": "https://www.cnbc.com/2026/09/25/shares-of-akamai-surge-after-deal-with-anthropic-what-wall-street-is-saying.html",
+      "published": "Fri, 25 Sep 2026 15:33:13 GMT"
     },
     {
       "source": "Yahoo Finance",
@@ -305,111 +305,111 @@
     },
     {
       "source": "MarketWatch Top",
-      "title": "These Gen Z-ers are choosing ETFs over sports bets. How younger investors told us they’re building wealth.",
-      "url": "https://www.marketwatch.com/story/how-is-gen-z-investing-their-money-over-a-dozen-share-their-strategies-for-todays-market-c8a418da?mod=mw_rss_topstories",
-      "published": "Mon, 28 Sep 2026 15:13:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "‘I want to make her proud’: My mother, a divorcée, died and I’m her executor. Do I need to file for probate?",
-      "url": "https://www.marketwatch.com/story/i-want-to-make-her-proud-my-mother-a-divorcee-died-and-im-her-executor-do-i-need-to-file-for-probate-a39b1123?mod=mw_rss_topstories",
-      "published": "Mon, 28 Sep 2026 15:00:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "From $6 eggs to $50,000 cars, these charts show how inflation has defined the past 5 years",
-      "url": "https://www.marketwatch.com/story/from-6-eggs-to-50-000-cars-these-charts-show-how-inflation-has-defined-the-past-5-years-3c7b9ab9?mod=mw_rss_topstories",
-      "published": "Mon, 28 Sep 2026 14:57:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Choosing these AI-exposed college majors could dent your job prospects — and lower your pay",
-      "url": "https://www.marketwatch.com/story/choosing-these-ai-exposed-college-majors-could-dent-your-job-prospects-and-lower-your-pay-b80576cb?mod=mw_rss_topstories",
-      "published": "Mon, 28 Sep 2026 14:55:00 GMT"
+      "title": "AMD makes a big bet on the next era of AI with World Labs acquisition",
+      "url": "https://www.marketwatch.com/story/amd-makes-a-big-bet-on-the-next-era-of-ai-7f8a3b3c?mod=mw_rss_topstories",
+      "published": "Tue, 29 Sep 2026 00:03:00 GMT"
     },
     {
       "source": "MarketWatch Top",
       "title": "‘We lived within our means’: I earned $30,000 as a pastor and still retired comfortably. Why don’t you tell people that?",
       "url": "https://www.marketwatch.com/story/we-lived-within-our-means-i-earned-30-000-as-a-pastor-and-still-retired-comfortably-why-dont-you-tell-people-that-6b9f231e?mod=mw_rss_topstories",
-      "published": "Mon, 28 Sep 2026 14:30:00 GMT"
+      "published": "Mon, 28 Sep 2026 23:00:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "‘I want to make her proud’: My mother, a divorcée, died and I’m her executor. Do I need to file for probate?",
+      "url": "https://www.marketwatch.com/story/i-want-to-make-her-proud-my-mother-a-divorcee-died-and-im-her-executor-do-i-need-to-file-for-probate-a39b1123?mod=mw_rss_topstories",
+      "published": "Mon, 28 Sep 2026 22:45:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "‘I’m never selling’: I’m 47 and buy bitcoin with every dollar I earn. Am I crazy?",
+      "url": "https://www.marketwatch.com/story/im-never-selling-im-47-and-buy-bitcoin-with-every-dollar-i-earn-am-i-crazy-364d2a64?mod=mw_rss_topstories",
+      "published": "Mon, 28 Sep 2026 22:35:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "SpaceX’s next big growth engine isn’t rockets — it’s this play on AI power, analysts say",
+      "url": "https://www.marketwatch.com/story/spacexs-next-big-growth-engine-isnt-rockets-its-this-play-on-ai-power-analysts-say-11963aeb?mod=mw_rss_topstories",
+      "published": "Mon, 28 Sep 2026 22:03:00 GMT"
     },
     {
       "source": "MarketWatch Top",
       "title": "Nvidia makes a statement with historic $150 billion buyback announcement",
       "url": "https://www.marketwatch.com/story/nvidia-makes-a-statement-with-historic-150-billion-buyback-announcement-bfab5a22?mod=mw_rss_topstories",
-      "published": "Mon, 28 Sep 2026 14:28:00 GMT"
+      "published": "Mon, 28 Sep 2026 21:27:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Trump to unveil planned $15 billion Iowa steel project",
-      "url": "https://www.investing.com/news/commodities-news/trump-to-unveil-planned-15-billion-iowa-steel-project-4920589",
-      "published": "2026-09-28 15:43:23"
+      "title": "Oil prices rise for second session on continued Middle East supply concern",
+      "url": "https://www.investing.com/news/commodities-news/oil-prices-rise-for-second-session-on-continued-middle-east-supply-concern-4921465",
+      "published": "2026-09-29 00:36:47"
     },
     {
       "source": "Investing.com News",
-      "title": "Coastal Financial addresses Bluevine acquisition by Valley National Bancorp",
-      "url": "https://www.investing.com/news/sec-filings/coastal-financial-addresses-bluevine-acquisition-by-valley-national-bancorp-93CH-4920842",
-      "published": "2026-09-28 15:42:43"
+      "title": "Fed’s Cook sees further inflationary pressures ahead",
+      "url": "https://www.investing.com/news/economy-news/feds-cook-sees-further-inflationary-pressures-ahead-4920948",
+      "published": "2026-09-29 00:36:31"
     },
     {
       "source": "Investing.com News",
-      "title": "Why is Cardinal Energy stock climbing today?",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-cardinal-energy-stock-climbing-today-93CH-4920840",
-      "published": "2026-09-28 15:42:17"
+      "title": "Julong announces $897,750 private placement of shares and warrants",
+      "url": "https://www.investing.com/news/company-news/julong-announces-897750-private-placement-of-shares-and-warrants-93CH-4921464",
+      "published": "2026-09-29 00:36:30"
     },
     {
       "source": "Investing.com News",
-      "title": "Lexicon Pharmaceuticals surges as Cantor Fitzgerald sees unencumbered path in HCM",
-      "url": "https://www.investing.com/news/stock-market-news/lexicon-pharmaceuticals-surges-as-cantor-fitzgerald-sees-unencumbered-path-in-hcm-4920838",
-      "published": "2026-09-28 15:40:23"
+      "title": "Virtuix Holdings director Brett Moyer sells $10,353 in stock",
+      "url": "https://www.investing.com/news/insider-trading-news/virtuix-holdings-director-brett-moyer-sells-10353-in-stock-93CH-4921461",
+      "published": "2026-09-29 00:31:07"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: Moving Image Technologies posts lower Q4 revenue in 2026",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-moving-image-technologies-posts-lower-q4-revenue-in-2026-93CH-4920837",
-      "published": "2026-09-28 15:38:53"
+      "title": "Crowdstrike CEO George Kurtz sells $5.16m in shares",
+      "url": "https://www.investing.com/news/insider-trading-news/crowdstrike-ceo-george-kurtz-sells-516m-in-shares-93CH-4921459",
+      "published": "2026-09-29 00:31:01"
     },
     {
       "source": "Investing.com News",
-      "title": "Meta stock falls as OpenAI ’o’ agent threatens historic rally",
-      "url": "https://www.investing.com/news/stock-market-news/meta-stock-falls-as-openai-o-agent-threatens-historic-rally-4920833",
-      "published": "2026-09-28 15:38:53"
+      "title": "Samsung, affiliates to invest $1 billion in AI infrastructure firm Helix",
+      "url": "https://www.investing.com/news/stock-market-news/samsung-affiliates-to-invest-1-billion-in-ai-infrastructure-firm-helix-4921450",
+      "published": "2026-09-29 00:21:18"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Goldman Says High-Yield Debt Deluge Is Overwhelming Investors",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-28/goldman-says-high-yield-debt-deluge-is-overwhelming-investors",
-      "published": "Mon, 28 Sep 2026 15:36:31 GMT"
+      "title": "Gold Trades Near Seven-Week Low as Rate-Hike Pressure Mounts",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-29/gold-trades-near-seven-week-low-as-rate-hike-pressure-mounts",
+      "published": "Tue, 29 Sep 2026 00:02:41 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Nasdaq 100 Tumbles as ‘Three-Headed Monster’ Forces Pullback",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-28/us-stocks-decline-as-middle-east-stalemate-pushes-oil-higher",
-      "published": "Mon, 28 Sep 2026 11:15:52 GMT"
+      "title": "Treasuries Stabilize After Selloff, Stocks Slip: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-28/stock-market-today-dow-s-p-live-updates",
+      "published": "Mon, 28 Sep 2026 22:11:04 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Stocks Fall as US-Iran Standoff Boosts Bond Yields: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-27/stock-market-today-dow-s-p-live-updates",
-      "published": "Sun, 27 Sep 2026 22:15:52 GMT"
+      "title": "Why Earnings Growth Remain a Key Buffer Against Yield Risks",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-29/rodda-earnings-growth-key-buffer-against-yield-risks-video",
+      "published": "Tue, 29 Sep 2026 00:25:13 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "SEC Sends ‘Critical’ Reminder on Hard-to-Value Private Assets",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-28/sec-sends-critical-reminder-on-hard-to-value-private-assets",
-      "published": "Mon, 28 Sep 2026 15:25:15 GMT"
+      "title": "Latest Oil Market News and Analysis for Sept. 29",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-28/latest-oil-market-news-and-analysis-for-sept-29",
+      "published": "Mon, 28 Sep 2026 22:02:33 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "AI Skeptic Rajiv Jain Embraces the Tech Trade He Once Shunned",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-28/ai-skeptic-rajiv-jain-embraces-the-tech-trade-he-once-shunned",
-      "published": "Mon, 28 Sep 2026 15:25:08 GMT"
+      "title": "Citi Recommends Buying China’s 30-Year Bonds on Weak Growth",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-28/citi-recommends-buying-china-s-30-year-bonds-on-weak-growth-view",
+      "published": "Mon, 28 Sep 2026 11:02:52 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "UBS Faces 9% Profit Hit From Swiss Capital Plan, RBC Says",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-28/ubs-faces-9-profit-hit-from-latest-swiss-capital-plan-rbc-says",
-      "published": "Mon, 28 Sep 2026 14:20:03 GMT"
+      "title": "Flashlight Capital Urges Secom to Raise Stake in Korea’s S-1",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-29/flashlight-capital-urges-secom-to-raise-stake-in-korea-s-s-1",
+      "published": "Tue, 29 Sep 2026 00:00:00 GMT"
     }
   ],
   "summary": {
