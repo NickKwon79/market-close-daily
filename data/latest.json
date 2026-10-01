@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-10-01 09:40 KST",
+  "as_of_kst": "2026-10-01 23:40 KST",
   "as_of_date": "2026-10-01",
   "as_of_weekday": "THU",
-  "build_unix": 1790815219,
+  "build_unix": 1790865657,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -10,17 +10,17 @@
       "name": "S&P 500",
       "region": "USA",
       "kind": "broad",
-      "price": 7651.54,
-      "change": -19.3,
-      "change_pct": -0.25,
+      "price": 7647.15,
+      "change": -4.39,
+      "change_pct": -0.06,
       "spark": [
-        7704.13,
         7743.41,
         7683.69,
         7670.84,
-        7651.54
+        7651.54,
+        7647.15
       ],
-      "as_of": "2026-09-30"
+      "as_of": "2026-10-01"
     },
     "nasdaq": {
       "key": "nasdaq",
@@ -28,17 +28,17 @@
       "name": "NASDAQ Composite",
       "region": "USA",
       "kind": "tech",
-      "price": 26861.06,
-      "change": 63.53,
-      "change_pct": 0.24,
+      "price": 26872.9,
+      "change": 11.84,
+      "change_pct": 0.04,
       "spark": [
-        26939.37,
         27068.72,
         26820.38,
         26797.54,
-        26861.06
+        26861.06,
+        26872.9
       ],
-      "as_of": "2026-09-30"
+      "as_of": "2026-10-01"
     },
     "dow": {
       "key": "dow",
@@ -46,17 +46,17 @@
       "name": "Dow Jones 30",
       "region": "USA",
       "kind": "value",
-      "price": 50906.05,
-      "change": -443.87,
-      "change_pct": -0.86,
+      "price": 50751.66,
+      "change": -154.39,
+      "change_pct": -0.3,
       "spark": [
-        51349.98,
         51828.62,
         51481.51,
         51349.92,
-        50906.05
+        50906.05,
+        50751.66
       ],
-      "as_of": "2026-09-30"
+      "as_of": "2026-10-01"
     },
     "kospi": {
       "key": "kospi",
@@ -64,15 +64,15 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 6803.96,
-      "change": -66.85,
-      "change_pct": -0.97,
+      "price": 6971.35,
+      "change": 133.31,
+      "change_pct": 1.95,
       "spark": [
-        7017.91,
         7080.92,
         6889.74,
         6870.81,
-        6803.96
+        6838.04,
+        6971.35
       ],
       "as_of": "2026-10-01"
     },
@@ -82,15 +82,15 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 67387.09,
-      "change": 1905.82,
-      "change_pct": 2.91,
+      "price": 68956.72,
+      "change": 2203.0,
+      "change_pct": 3.3,
       "spark": [
-        65513.99,
         66364.2,
         65877.62,
         65481.27,
-        67387.09
+        66753.72,
+        68956.72
       ],
       "as_of": "2026-10-01"
     },
@@ -100,15 +100,15 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 24523.57,
-      "change": -118.94,
-      "change_pct": -0.48,
+      "price": 24613.27,
+      "change": 89.7,
+      "change_pct": 0.37,
       "spark": [
-        24834.12,
         24761.13,
         24510.09,
         24642.51,
-        24523.57
+        24523.57,
+        24613.27
       ],
       "as_of": "2026-09-30"
     },
@@ -118,17 +118,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10636.7,
-      "change": -48.2,
-      "change_pct": -0.45,
+      "price": 10432.08,
+      "change": -173.92,
+      "change_pct": -1.64,
       "spark": [
-        10705.3,
-        10680.0,
         10695.3,
         10684.9,
-        10636.7
+        10636.7,
+        10606.0,
+        10432.08
       ],
-      "as_of": "2026-09-30"
+      "as_of": "2026-10-01"
     },
     "dax": {
       "key": "dax",
@@ -136,50 +136,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 25399.21,
-      "change": 24.79,
-      "change_pct": 0.1,
+      "price": 25003.73,
+      "change": -195.46,
+      "change_pct": -0.78,
       "spark": [
-        25410.63,
-        25266.53,
         25408.64,
         25374.42,
-        25399.21
+        25399.21,
+        25199.19,
+        25003.73
       ],
-      "as_of": "2026-09-30"
+      "as_of": "2026-10-01"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1362.08,
+      "rate": 1359.73,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 157.85,
+      "rate": 157.4,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1335,
+      "rate": 1.1285,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.703,
+      "rate": 6.6987,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 101.49,
-      "change": 0.11,
-      "change_pct": 0.11,
+      "rate": 101.79,
+      "change": 0.34,
+      "change_pct": 0.33,
       "kind": "index"
     }
   },
@@ -189,71 +189,53 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 90.56,
-      "change": 1.18,
-      "change_pct": 1.32
+      "price": 91.53,
+      "change": 1.11,
+      "change_pct": 1.23
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4172.3,
-      "change": -7.4,
-      "change_pct": -0.18
+      "price": 4192.1,
+      "change": 5.4,
+      "change_pct": 0.13
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 83454.02,
-      "change": -168.41,
-      "change_pct": -0.2
+      "price": 84058.86,
+      "change": 505.01,
+      "change_pct": 0.6
     },
     "ust10y": {
       "key": "ust10y",
       "symbol": "^TNX",
       "name": "10Y UST Yield",
       "unit": "%",
-      "price": 5.29,
-      "change": 0.04,
-      "change_pct": 0.72
+      "price": 5.32,
+      "change": 0.03,
+      "change_pct": 0.49
     },
     "vix": {
       "key": "vix",
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 16.34,
-      "change": 0.3,
-      "change_pct": 1.87
+      "price": 17.32,
+      "change": 0.98,
+      "change_pct": 6.0
     }
   },
   "headlines_raw": [
     {
       "source": "CNBC Markets",
-      "title": "Thursday's big stock stories: What’s likely to move the market in the next trading session",
-      "url": "https://www.cnbc.com/2026/09/30/thursdays-big-stock-stories-whats-likely-to-move-the-market.html",
-      "published": "Wed, 30 Sep 2026 23:07:50 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "This driverless trucking stock could be a double or more. Here’s why I’m buying despite the risks",
-      "url": "https://www.cnbc.com/2026/09/30/this-driverless-trucking-stock-could-be-a-double-or-more-heres-why-im-buying-despite-the-risks.html",
-      "published": "Wed, 30 Sep 2026 18:49:30 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "The hottest trade of the year so far isn't AI. It's tanker stocks",
-      "url": "https://www.cnbc.com/2026/09/30/the-hottest-trade-of-the-year-so-far-isnt-ai-its-tanker-stocks.html",
-      "published": "Wed, 30 Sep 2026 17:28:26 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Kalshi traders see high odds Anthropic's IPO is announced this year",
-      "url": "https://www.cnbc.com/2026/09/30/kalshi-traders-see-high-odds-anthropics-ipo-is-announced-this-year-.html",
-      "published": "Wed, 30 Sep 2026 17:27:49 GMT"
+      "title": "This dollar store stock will get a boost from a shaky economy, Loop Capital says",
+      "url": "https://www.cnbc.com/2026/10/01/this-dollar-store-stock-will-benefit-from-a-shaky-economy-loop-capital-says.html",
+      "published": "Thu, 01 Oct 2026 14:06:58 GMT"
     },
     {
       "source": "CNBC Markets",
@@ -263,9 +245,27 @@
     },
     {
       "source": "CNBC Markets",
-      "title": "These two chip stocks could join the elite $2 trillion tech giant club, says top analyst",
-      "url": "https://www.cnbc.com/2026/09/30/these-chip-stocks-could-join-the-2-trillion-tech-giant-club-says-top-analyst.html",
-      "published": "Wed, 30 Sep 2026 16:03:07 GMT"
+      "title": "IPO postponements are accelerating in third quarter, even beyond Oura",
+      "url": "https://www.cnbc.com/2026/09/29/ipo-postponements-are-accelerating-in-third-quarter-even-beyond-oura.html",
+      "published": "Tue, 29 Sep 2026 21:05:26 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Get paid even more on your cash holdings with this strategy",
+      "url": "https://www.cnbc.com/2026/09/29/get-paid-even-more-on-your-cash-holdings-with-this-strategy.html",
+      "published": "Tue, 29 Sep 2026 19:26:23 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "I sold UnitedHealth shares when the business stumbled. Here's why I'm buying again",
+      "url": "https://www.cnbc.com/2026/09/29/i-sold-unitedhealth-shares-when-the-business-stumbled-heres-why-im-buying-again.html",
+      "published": "Tue, 29 Sep 2026 16:46:53 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Micron earnings this week could test whether the memory boom has more room to run",
+      "url": "https://www.cnbc.com/2026/09/29/micron-earnings-this-week-could-test-whether-the-memory-boom-has-more-room-to-run.html",
+      "published": "Tue, 29 Sep 2026 19:00:15 GMT"
     },
     {
       "source": "Yahoo Finance",
@@ -305,111 +305,111 @@
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘I have $400,000 in equity’: I’m 80. Should I sell my house because of dangerous stairs — or spend thousands renovating?",
-      "url": "https://www.marketwatch.com/story/i-have-a-low-interest-rate-im-80-years-old-should-i-move-out-of-my-house-because-of-dangerous-stairs-389c3c7b?mod=mw_rss_topstories",
-      "published": "Thu, 01 Oct 2026 00:20:00 GMT"
+      "title": "‘I want to make her proud’: My mother, a divorcée, died and I’m her executor. Do I need to file for probate?",
+      "url": "https://www.marketwatch.com/story/i-want-to-make-her-proud-my-mother-a-divorcee-died-and-im-her-executor-do-i-need-to-file-for-probate-a39b1123?mod=mw_rss_topstories",
+      "published": "Thu, 01 Oct 2026 14:30:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "‘I’m never selling’: I’m 47 and buy bitcoin with every dollar I earn. Am I crazy?",
+      "url": "https://www.marketwatch.com/story/im-never-selling-im-47-and-buy-bitcoin-with-every-dollar-i-earn-am-i-crazy-364d2a64?mod=mw_rss_topstories",
+      "published": "Thu, 01 Oct 2026 14:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
       "title": "I’m 71 and still working. I earn $108,000 a year. Am I doing the right thing?",
       "url": "https://www.marketwatch.com/story/im-71-and-still-working-i-earn-108-000-a-year-am-i-doing-the-right-thing-aaedcaa4?mod=mw_rss_topstories",
-      "published": "Thu, 01 Oct 2026 00:11:00 GMT"
+      "published": "Thu, 01 Oct 2026 14:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Google shows it’s not out of the AI race just yet",
-      "url": "https://www.marketwatch.com/story/google-shows-its-not-out-of-the-ai-race-just-yet-75e19860?mod=mw_rss_topstories",
-      "published": "Wed, 30 Sep 2026 22:51:00 GMT"
+      "title": "More than 10 million older adults are now living in poverty as Social Security cuts loom: ‘I don’t know how anyone is making it’",
+      "url": "https://www.marketwatch.com/story/more-than-10-million-older-adults-are-now-living-in-poverty-as-social-security-cuts-loom-i-dont-know-how-anyone-is-making-it-237ab798?mod=mw_rss_topstories",
+      "published": "Thu, 01 Oct 2026 14:00:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "The 15 worst-performing S&P 500 stocks during a dismal September",
-      "url": "https://www.marketwatch.com/story/the-15-worst-performing-s-p-500-stocks-during-a-dismal-september-991f8a07?mod=mw_rss_topstories",
-      "published": "Wed, 30 Sep 2026 21:22:00 GMT"
+      "title": "These bond strategies can help you get a safe 5% return on your cash",
+      "url": "https://www.marketwatch.com/story/these-bond-strategies-can-help-you-get-a-safe-5-return-on-your-cash-5fa45ccd?mod=mw_rss_topstories",
+      "published": "Thu, 01 Oct 2026 13:52:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Trump touts economic wins in battleground states — like a $54 billion Alaskan pipeline — as the midterms draw closer",
-      "url": "https://www.marketwatch.com/story/trump-touts-economic-wins-in-battleground-states-like-a-54-billion-alaskan-pipeline-as-the-midterms-draw-closer-46db0149?mod=mw_rss_topstories",
-      "published": "Wed, 30 Sep 2026 21:16:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "How the ‘AI put’ has become the only thing that matters for stocks",
-      "url": "https://www.marketwatch.com/story/this-is-the-big-risk-that-stock-investors-should-be-watching-as-rising-bond-yields-menace-markets-904cae0a?mod=mw_rss_topstories",
-      "published": "Wed, 30 Sep 2026 20:59:00 GMT"
+      "title": "Why Micron’s big earnings report isn’t lifting the stock",
+      "url": "https://www.marketwatch.com/story/why-microns-big-earnings-report-isnt-lifting-the-stock-b965af83?mod=mw_rss_topstories",
+      "published": "Thu, 01 Oct 2026 13:52:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "South Korea ordered to pay Elliott $48.49 million in Samsung merger case",
-      "url": "https://www.investing.com/news/stock-market-news/south-korea-ordered-to-pay-elliott-4849-million-in-samsung-merger-case-4926142",
-      "published": "2026-10-01 00:31:29"
+      "title": "Sgi stock hits 52-week low at 60.35 USD",
+      "url": "https://www.investing.com/news/company-news/sgi-stock-hits-52week-low-at-6035-usd-93CH-4927780",
+      "published": "2026-10-01 14:34:56"
     },
     {
       "source": "Investing.com News",
-      "title": "Medifast director Daniel Chard sells $226,288 in company shares",
-      "url": "https://www.investing.com/news/insider-trading-news/medifast-director-daniel-chard-sells-226288-in-company-shares-93CH-4926141",
-      "published": "2026-10-01 00:31:04"
+      "title": "McKesson extends CVS deal; shares rise",
+      "url": "https://www.investing.com/news/stock-market-news/mckesson-extends-cvs-deal-shares-rise-4927779",
+      "published": "2026-10-01 14:34:54"
     },
     {
       "source": "Investing.com News",
-      "title": "Crowdstrike CEO George Kurtz sells $5.16m in company stock",
-      "url": "https://www.investing.com/news/insider-trading-news/crowdstrike-ceo-george-kurtz-sells-516m-in-company-stock-93CH-4926140",
-      "published": "2026-10-01 00:31:01"
+      "title": "Varo Energy CEO says defence spending boosts refining demand",
+      "url": "https://www.investing.com/news/stock-market-news/varo-energy-ceo-says-defence-spending-boosts-refining-demand-93CH-4927778",
+      "published": "2026-10-01 14:34:40"
     },
     {
       "source": "Investing.com News",
-      "title": "Second judge blocks Trump’s $100,000 fee for new H-1B worker visas",
-      "url": "https://www.investing.com/news/economy-news/second-judge-blocks-trumps-100000-fee-for-new-h1b-worker-visas-4926131",
-      "published": "2026-10-01 00:30:39"
+      "title": "Natural gas storage surpasses forecast, impacting market dynamics",
+      "url": "https://www.investing.com/news/economic-indicators/natural-gas-storage-surpasses-forecast-impacting-market-dynamics-93CH-4927776",
+      "published": "2026-10-01 14:32:08"
     },
     {
       "source": "Investing.com News",
-      "title": "Transurban to buy $4.5 billion of Sydney toll-road stakes from CPP Investments",
-      "url": "https://www.investing.com/news/stock-market-news/transurban-to-buy-45-billion-of-sydney-tollroad-stakes-from-cpp-investments-4926132",
-      "published": "2026-10-01 00:25:38"
+      "title": "Exclusive-US tells France and Germany to release diesel stocks or face US export ban, sources say",
+      "url": "https://www.investing.com/news/commodities-news/exclusiveus-tells-france-and-germany-to-release-diesel-stocks-or-face-us-export-ban-sources-say-4926478",
+      "published": "2026-10-01 14:31:24"
     },
     {
       "source": "Investing.com News",
-      "title": "South Korea September exports rise 83.5% y/y to monthly record",
-      "url": "https://www.investing.com/news/economic-indicators/south-korea-september-exports-rise-835-yy-to-monthly-record-4926130",
-      "published": "2026-10-01 00:24:31"
+      "title": "Rex American Resources COB Stuart Rose sells $2.13m in shares",
+      "url": "https://www.investing.com/news/insider-trading-news/rex-american-resources-cob-stuart-rose-sells-213m-in-shares-93CH-4927771",
+      "published": "2026-10-01 14:31:04"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "China’s Property Crisis: From Evergrande Collapse to Beijing’s Latest Measures",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-01/china-s-property-crisis-from-evergrande-collapse-to-beijing-s-latest-measures",
-      "published": "Thu, 01 Oct 2026 00:24:59 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Gina Rinehart Backed Lynas to Buy Rare Earths Miner Meteoric",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-30/gina-rinehart-backed-lynas-to-buy-rare-earths-miner-meteoric",
-      "published": "Wed, 30 Sep 2026 23:40:47 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Latest Oil Market News and Analysis for Oct. 1",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-30/latest-oil-market-news-and-analysis-for-oct-1",
-      "published": "Wed, 30 Sep 2026 22:02:36 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Passengers Avert Crash by Tackling Pilot Who Stabbed Colleague",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-30/passengers-avert-crash-tackling-pilot-video",
-      "published": "Wed, 30 Sep 2026 20:10:50 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Gold Steady as Softer Inflation Data Tempers Fed Rate-Hike Bets",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-01/gold-steady-as-softer-inflation-data-tempers-fed-rate-hike-bets",
-      "published": "Thu, 01 Oct 2026 00:08:16 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "US Stock Futures Advance, Bond Yields in Focus: Markets Wrap",
+      "title": "Stocks Fall After Manufacturing Data as Oil Climbs: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-09-30/stock-market-today-dow-s-p-live-updates",
       "published": "Wed, 30 Sep 2026 22:19:53 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Russia Grain Reroute Falls Short as War Hits Black Sea",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-01/russia-s-grain-rerouting-falls-short-as-war-hits-black-sea-ports",
+      "published": "Thu, 01 Oct 2026 09:03:12 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "US Manufacturing Expansion Continues as Prices Jump",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-01/us-manufacturing-expansion-continues-as-prices-jump-video",
+      "published": "Thu, 01 Oct 2026 14:26:18 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "The Deal: Atlanta Braves Investor on Selling",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-01/the-deal-atlanta-braves-investor-on-selling-video",
+      "published": "Thu, 01 Oct 2026 14:26:17 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "M&A Slips 10% in Setback for Potential Record Year",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-01/m-a-slips-10-in-setback-for-potential-record-year-video",
+      "published": "Thu, 01 Oct 2026 14:25:17 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "The Rise of the 80/20 Portfolio Among ETF Investors",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-01/the-rise-of-the-80-20-portfolio-among-etf-investors",
+      "published": "Thu, 01 Oct 2026 14:22:01 GMT"
     }
   ],
   "summary": {
