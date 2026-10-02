@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-10-02 09:59 KST",
+  "as_of_kst": "2026-10-02 23:02 KST",
   "as_of_date": "2026-10-02",
   "as_of_weekday": "FRI",
-  "build_unix": 1790902753,
+  "build_unix": 1790949752,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -10,17 +10,17 @@
       "name": "S&P 500",
       "region": "USA",
       "kind": "broad",
-      "price": 7666.45,
-      "change": 14.91,
-      "change_pct": 0.19,
+      "price": 7739.2,
+      "change": 72.75,
+      "change_pct": 0.95,
       "spark": [
-        7743.41,
         7683.69,
         7670.84,
         7651.54,
-        7666.45
+        7666.45,
+        7739.2
       ],
-      "as_of": "2026-10-01"
+      "as_of": "2026-10-02"
     },
     "nasdaq": {
       "key": "nasdaq",
@@ -28,17 +28,17 @@
       "name": "NASDAQ Composite",
       "region": "USA",
       "kind": "tech",
-      "price": 26871.6,
-      "change": 10.54,
-      "change_pct": 0.04,
+      "price": 27297.48,
+      "change": 425.88,
+      "change_pct": 1.58,
       "spark": [
-        27068.72,
         26820.38,
         26797.54,
         26861.06,
-        26871.6
+        26871.6,
+        27297.48
       ],
-      "as_of": "2026-10-01"
+      "as_of": "2026-10-02"
     },
     "dow": {
       "key": "dow",
@@ -46,17 +46,17 @@
       "name": "Dow Jones 30",
       "region": "USA",
       "kind": "value",
-      "price": 50926.56,
-      "change": 20.51,
-      "change_pct": 0.04,
+      "price": 51175.53,
+      "change": 248.97,
+      "change_pct": 0.49,
       "spark": [
-        51828.62,
         51481.51,
         51349.92,
         50906.05,
-        50926.56
+        50926.56,
+        51175.53
       ],
-      "as_of": "2026-10-01"
+      "as_of": "2026-10-02"
     },
     "kospi": {
       "key": "kospi",
@@ -64,15 +64,15 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 6975.22,
-      "change": 137.18,
-      "change_pct": 2.01,
+      "price": 7003.74,
+      "change": 32.39,
+      "change_pct": 0.46,
       "spark": [
-        7080.92,
         6889.74,
         6870.81,
         6838.04,
-        6975.22
+        6971.35,
+        7003.74
       ],
       "as_of": "2026-10-02"
     },
@@ -82,15 +82,15 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 68411.49,
-      "change": 1657.77,
-      "change_pct": 2.48,
+      "price": 68309.46,
+      "change": -647.26,
+      "change_pct": -0.94,
       "spark": [
-        66364.2,
         65877.62,
         65481.27,
         66753.72,
-        68411.49
+        68956.72,
+        68309.46
       ],
       "as_of": "2026-10-02"
     },
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 24613.27,
-      "change": 89.7,
-      "change_pct": 0.37,
+      "price": 23972.29,
+      "change": -640.98,
+      "change_pct": -2.6,
       "spark": [
-        24761.13,
         24510.09,
         24642.51,
         24523.57,
-        24613.27
+        24613.27,
+        23972.29
       ],
-      "as_of": "2026-09-30"
+      "as_of": "2026-10-02"
     },
     "ftse": {
       "key": "ftse",
@@ -118,17 +118,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10606.0,
-      "change": -30.7,
-      "change_pct": -0.29,
+      "price": 10489.72,
+      "change": 61.42,
+      "change_pct": 0.59,
       "spark": [
-        10680.0,
-        10695.3,
         10684.9,
         10636.7,
-        10606.0
+        10606.0,
+        10428.3,
+        10489.72
       ],
-      "as_of": "2026-10-01"
+      "as_of": "2026-10-02"
     },
     "dax": {
       "key": "dax",
@@ -136,50 +136,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 25199.19,
-      "change": -200.02,
-      "change_pct": -0.79,
+      "price": 25283.31,
+      "change": 343.96,
+      "change_pct": 1.38,
       "spark": [
-        25266.53,
-        25408.64,
         25374.42,
         25399.21,
-        25199.19
+        25199.19,
+        24939.35,
+        25283.31
       ],
-      "as_of": "2026-10-01"
+      "as_of": "2026-10-02"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1363.48,
+      "rate": 1345.38,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 158.14,
+      "rate": 157.53,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1238,
+      "rate": 1.1278,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.7045,
+      "rate": 6.6987,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 102.07,
-      "change": 0.62,
-      "change_pct": 0.61,
+      "rate": 101.8,
+      "change": -0.3,
+      "change_pct": -0.3,
       "kind": "index"
     }
   },
@@ -189,48 +189,60 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 93.15,
-      "change": 2.73,
-      "change_pct": 3.02
+      "price": 89.86,
+      "change": -3.01,
+      "change_pct": -3.24
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4190.4,
-      "change": 3.7,
-      "change_pct": 0.09
+      "price": 4219.3,
+      "change": 17.0,
+      "change_pct": 0.4
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 84770.18,
-      "change": 1216.33,
-      "change_pct": 1.46
+      "price": 86659.27,
+      "change": 1806.17,
+      "change_pct": 2.13
     },
     "ust10y": {
       "key": "ust10y",
       "symbol": "^TNX",
       "name": "10Y UST Yield",
       "unit": "%",
-      "price": 5.24,
-      "change": -0.06,
-      "change_pct": -1.06
+      "price": 5.2,
+      "change": -0.03,
+      "change_pct": -0.65
     },
     "vix": {
       "key": "vix",
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 16.39,
-      "change": 0.05,
-      "change_pct": 0.31
+      "price": 15.72,
+      "change": -0.67,
+      "change_pct": -4.09
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Airbnb is looking cheaper than usual. KeyBanc says to buy it now",
+      "url": "https://www.cnbc.com/2026/10/02/airbnb-is-looking-cheaper-than-usual-keybanc-says-to-buy-it-now.html",
+      "published": "Fri, 02 Oct 2026 11:59:53 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Nike falls to 13-year low. Why analysts don't think the selling is over yet",
+      "url": "https://www.cnbc.com/2026/10/02/nike-falls-to-13-year-low-analysts-say-the-selling-isnt-over-yet.html",
+      "published": "Fri, 02 Oct 2026 11:29:05 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Friday's big stock stories: What’s likely to move the market in the next trading session",
@@ -254,18 +266,6 @@
       "title": "Generate more portfolio income in volatile times with these options strategies",
       "url": "https://www.cnbc.com/2026/10/01/generate-more-portfolio-income-in-volatile-times-with-these-options-strategies.html",
       "published": "Thu, 01 Oct 2026 19:00:46 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "How Muse could be coming next for Apple's golden goose",
-      "url": "https://www.cnbc.com/2026/10/01/how-muse-could-be-coming-next-for-apples-golden-goose.html",
-      "published": "Thu, 01 Oct 2026 17:07:12 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "This dollar store stock will get a boost from a shaky economy, Loop Capital says",
-      "url": "https://www.cnbc.com/2026/10/01/this-dollar-store-stock-will-benefit-from-a-shaky-economy-loop-capital-says.html",
-      "published": "Thu, 01 Oct 2026 14:06:58 GMT"
     },
     {
       "source": "Yahoo Finance",
@@ -305,111 +305,111 @@
     },
     {
       "source": "MarketWatch Top",
-      "title": "I’m 71 and still working. I earn $108,000 a year. Am I doing the right thing?",
-      "url": "https://www.marketwatch.com/story/im-71-and-still-working-i-earn-108-000-a-year-am-i-doing-the-right-thing-aaedcaa4?mod=mw_rss_topstories",
-      "published": "Fri, 02 Oct 2026 00:30:00 GMT"
+      "title": "‘I don’t want to die on the sales floor’: I’m 67 and earn $19.50 an hour at a big-box store. When can I finally retire?",
+      "url": "https://www.marketwatch.com/story/i-dont-want-to-die-on-the-sales-floor-im-67-and-earn-19-50-an-hour-at-a-big-box-store-when-can-i-finally-retire-369abcf9?mod=mw_rss_topstories",
+      "published": "Fri, 02 Oct 2026 14:00:00 GMT"
     },
     {
       "source": "MarketWatch Top",
       "title": "My wife never went back to work after raising our kids. Do I have to share my retirement savings 50/50?",
       "url": "https://www.marketwatch.com/story/my-wife-never-went-back-to-work-after-raising-our-kids-do-i-have-to-share-my-retirement-savings-50-50-f0727f82?mod=mw_rss_topstories",
-      "published": "Fri, 02 Oct 2026 00:15:00 GMT"
+      "published": "Fri, 02 Oct 2026 13:45:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Here’s who’s joining the S&P 500 in the index’s latest shakeup",
-      "url": "https://www.marketwatch.com/story/heres-whos-joining-the-s-p-500-in-the-indexs-latest-shakeup-07280a15?mod=mw_rss_topstories",
-      "published": "Fri, 02 Oct 2026 00:14:00 GMT"
+      "title": "Three reasons this Wall Street market-making powerhouse says investors should reload on stocks right now",
+      "url": "https://www.marketwatch.com/story/three-reasons-why-this-wall-street-market-making-powerhouse-says-investors-should-reload-on-stocks-now-8e19ecce?mod=mw_rss_topstories",
+      "published": "Fri, 02 Oct 2026 13:30:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "This could be the worst year ever for Nike’s stock, with sales set to fall further",
-      "url": "https://www.marketwatch.com/story/nikes-troubles-are-mounting-and-sales-could-fall-further-2c19699d?mod=mw_rss_topstories",
-      "published": "Fri, 02 Oct 2026 00:13:00 GMT"
+      "title": "‘I have $400,000 in equity’: I’m 80. Should I sell my house because of dangerous stairs — or spend thousands renovating?",
+      "url": "https://www.marketwatch.com/story/i-have-a-low-interest-rate-im-80-years-old-should-i-move-out-of-my-house-because-of-dangerous-stairs-389c3c7b?mod=mw_rss_topstories",
+      "published": "Fri, 02 Oct 2026 13:30:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "The hidden silver lining of high interest rates: safer, cheaper retirement income",
-      "url": "https://www.marketwatch.com/story/the-hidden-silver-lining-of-high-interest-rates-safer-cheaper-retirement-income-36e2e077?mod=mw_rss_topstories",
-      "published": "Thu, 01 Oct 2026 21:27:00 GMT"
+      "title": "Tesla’s EV sales beat Wall Street’s expectations again, and the stock jumps",
+      "url": "https://www.marketwatch.com/story/tesla-ev-sales-beat-wall-streets-expectations-again-and-the-stock-jumps-294a4f53?mod=mw_rss_topstories",
+      "published": "Fri, 02 Oct 2026 13:30:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "The stock market is anything but normal right now — and these charts show it",
-      "url": "https://www.marketwatch.com/story/the-stock-market-is-anything-but-normal-right-now-and-these-charts-show-it-91ea187d?mod=mw_rss_topstories",
-      "published": "Thu, 01 Oct 2026 21:01:00 GMT"
+      "title": "I’m 71 and still working. I earn $108,000 a year. Am I doing the right thing?",
+      "url": "https://www.marketwatch.com/story/im-71-and-still-working-i-earn-108-000-a-year-am-i-doing-the-right-thing-aaedcaa4?mod=mw_rss_topstories",
+      "published": "Fri, 02 Oct 2026 13:00:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "U.S. stock futures drift higher with nonfarm payrolls in focus",
-      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-drift-higher-with-nonfarm-payrolls-in-focus-4928740",
-      "published": "2026-10-02 00:43:53"
+      "title": "Proto Labs stock hits 52-week high at 98.51 USD",
+      "url": "https://www.investing.com/news/company-news/proto-labs-stock-hits-52week-high-at-9851-usd-93CH-4930020",
+      "published": "2026-10-02 13:48:09"
     },
     {
       "source": "Investing.com News",
-      "title": "Moderna to replace Warner Bros Discovery  on Nasdaq 100",
-      "url": "https://www.investing.com/news/stock-market-news/moderna-to-join-nasdaq-100-replacing-warner-bros-discovery-4928725",
-      "published": "2026-10-02 00:42:22"
+      "title": "Karat Packaging Inc stock hits all-time high of 54.78 USD",
+      "url": "https://www.investing.com/news/company-news/karat-packaging-inc-stock-hits-alltime-high-of-5478-usd-93CH-4930019",
+      "published": "2026-10-02 13:47:06"
     },
     {
       "source": "Investing.com News",
-      "title": "Judge restores court-appointed Seattle federal prosecutor fired by Trump",
-      "url": "https://www.investing.com/news/stock-market-news/us-judge-restores-courtappointed-top-federal-prosecutor-trump-fired-in-seattle-4928101",
-      "published": "2026-10-02 00:31:20"
+      "title": "Oxford Biomedica grants share options to chief operating officer",
+      "url": "https://www.investing.com/news/company-news/oxford-biomedica-grants-share-options-to-chief-operating-officer-93CH-4930011",
+      "published": "2026-10-02 13:44:28"
     },
     {
       "source": "Investing.com News",
-      "title": "Venu Holding Corp director Thomas Finke buys $75,900 in shares",
-      "url": "https://www.investing.com/news/insider-trading-news/venu-holding-corp-director-thomas-finke-buys-75900-in-shares-93CH-4928736",
-      "published": "2026-10-02 00:31:06"
+      "title": "Nvidia stock hits all-time high of 236.57 USD",
+      "url": "https://www.investing.com/news/company-news/nvidia-stock-hits-alltime-high-of-23657-usd-93CH-4930010",
+      "published": "2026-10-02 13:44:24"
     },
     {
       "source": "Investing.com News",
-      "title": "Capital Southwest director Thomas buys $50,005 in company stock",
-      "url": "https://www.investing.com/news/insider-trading-news/capital-southwest-director-thomas-buys-50005-in-company-stock-93CH-4928737",
-      "published": "2026-10-02 00:31:06"
+      "title": "Wall St opens higher as softer payrolls data, lower yields lift sentiment",
+      "url": "https://www.investing.com/news/stock-market-news/wall-st-opens-higher-as-softer-payrolls-data-lower-yields-lift-sentiment-4930009",
+      "published": "2026-10-02 13:43:38"
     },
     {
       "source": "Investing.com News",
-      "title": "McDonald’s sells Hong Kong store for $15.3 million",
-      "url": "https://www.investing.com/news/stock-market-news/mcdonalds-sells-hong-kong-store-for-153-million-93CH-4928727",
-      "published": "2026-10-02 00:24:02"
+      "title": "David Ellison says combined Paramount and Warner Bros Discovery will be named Skydance",
+      "url": "https://www.investing.com/news/stock-market-news/david-ellison-says-combined-paramount-and-warner-bros-discovery-will-be-named-skydance-4930008",
+      "published": "2026-10-02 13:43:16"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Treasuries Rebound as Global Bond Rout Continues",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-02/treasuries-rebound-as-global-bond-rout-continues-video",
-      "published": "Fri, 02 Oct 2026 00:52:57 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Asian Bonds Rise After Treasury Rally, Stocks Fall: Markets Wrap",
+      "title": "Stocks, Bonds Rise as Weak Jobs Curb Fed-Hike Bets: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-10-01/asian-stocks-to-fall-on-oil-rally-bonds-in-focus-markets-wrap",
       "published": "Thu, 01 Oct 2026 22:15:32 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "US May Add Carrier and 10,000 Troops to Mideast, Official Says",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-02/us-may-add-carrier-and-10-000-troops-to-middle-east-video",
-      "published": "Fri, 02 Oct 2026 00:40:13 GMT"
+      "title": "Dollar Falls as Traders Pare Fed-Hike Bets After Jobs Data",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-02/dollar-falls-as-traders-pare-fed-hike-bets-after-soft-jobs-data",
+      "published": "Fri, 02 Oct 2026 13:00:28 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Anthropic Said to Target Mega-IPO Before Thanksgiving Holiday",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-02/anthropic-said-to-target-ipo-before-thanksgiving-holiday-video",
-      "published": "Fri, 02 Oct 2026 00:40:06 GMT"
+      "title": "Copper Heads for Weekly Loss on Chinese Demand Concern",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-02/copper-heads-for-weekly-loss-as-high-energy-costs-limit-demand",
+      "published": "Fri, 02 Oct 2026 02:41:24 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Nvidia-Backed Firmus Eyes $30 Billion Valuation in Australia IPO",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-01/firmus-eyes-30-billion-valuation-in-australian-ipo-afr-reports",
-      "published": "Thu, 01 Oct 2026 22:30:03 GMT"
+      "title": "US Stocks Advance After Cooler-Than-Expected Employment Data",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-02/us-stock-futures-advance-ahead-of-september-payrolls-data",
+      "published": "Fri, 02 Oct 2026 11:47:39 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Gold Steadies as Easing US Bond Yields Reduce Rate-Hike Bets",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-02/gold-steadies-as-easing-us-bond-yields-reduce-rate-hike-bets",
-      "published": "Fri, 02 Oct 2026 00:14:23 GMT"
+      "title": "KKR, Blackstone Are Among Suitors for Windshield Repairer Cary",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-02/kkr-blackstone-are-among-suitors-for-windshield-repairer-cary",
+      "published": "Fri, 02 Oct 2026 13:48:17 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Nordic Business Group Mulls Expanding Into Critical Minerals",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-02/nordic-business-alliance-weighs-expanding-into-critical-minerals",
+      "published": "Fri, 02 Oct 2026 05:41:41 GMT"
     }
   ],
   "summary": {
