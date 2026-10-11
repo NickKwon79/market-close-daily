@@ -1,0 +1,451 @@
+{
+  "as_of_kst": "2026-10-11 09:19 KST",
+  "as_of_date": "2026-10-11",
+  "as_of_weekday": "SUN",
+  "build_unix": 1791677982,
+  "indexes": {
+    "sp500": {
+      "key": "sp500",
+      "symbol": "^GSPC",
+      "name": "S&P 500",
+      "region": "USA",
+      "kind": "broad",
+      "price": 7811.54,
+      "change": 46.18,
+      "change_pct": 0.59,
+      "spark": [
+        7773.95,
+        7818.93,
+        7801.77,
+        7765.36,
+        7811.54
+      ],
+      "as_of": "2026-10-09"
+    },
+    "nasdaq": {
+      "key": "nasdaq",
+      "symbol": "^IXIC",
+      "name": "NASDAQ Composite",
+      "region": "USA",
+      "kind": "tech",
+      "price": 27366.17,
+      "change": 172.83,
+      "change_pct": 0.64,
+      "spark": [
+        27477.31,
+        27599.79,
+        27538.69,
+        27193.34,
+        27366.17
+      ],
+      "as_of": "2026-10-09"
+    },
+    "dow": {
+      "key": "dow",
+      "symbol": "^DJI",
+      "name": "Dow Jones 30",
+      "region": "USA",
+      "kind": "value",
+      "price": 51654.95,
+      "change": 423.31,
+      "change_pct": 0.83,
+      "spark": [
+        51267.9,
+        51521.28,
+        51179.87,
+        51231.64,
+        51654.95
+      ],
+      "as_of": "2026-10-09"
+    },
+    "kospi": {
+      "key": "kospi",
+      "symbol": "^KS11",
+      "name": "KOSPI",
+      "region": "KOREA",
+      "kind": "broad",
+      "price": 6625.93,
+      "change": -177.97,
+      "change_pct": -2.62,
+      "spark": [
+        6971.35,
+        7003.74,
+        6941.39,
+        6803.9,
+        6625.93
+      ],
+      "as_of": "2026-10-08"
+    },
+    "nikkei": {
+      "key": "nikkei",
+      "symbol": "^N225",
+      "name": "Nikkei 225",
+      "region": "JAPAN",
+      "kind": "broad",
+      "price": 69030.92,
+      "change": -11.19,
+      "change_pct": -0.02,
+      "spark": [
+        69946.86,
+        70683.98,
+        70035.71,
+        69042.11,
+        69030.92
+      ],
+      "as_of": "2026-10-09"
+    },
+    "hangseng": {
+      "key": "hangseng",
+      "symbol": "^HSI",
+      "name": "Hang Seng",
+      "region": "HONG KONG",
+      "kind": "broad",
+      "price": 24211.35,
+      "change": 425.56,
+      "change_pct": 1.79,
+      "spark": [
+        24040.34,
+        24280.56,
+        24130.5,
+        23785.79,
+        24211.35
+      ],
+      "as_of": "2026-10-09"
+    },
+    "ftse": {
+      "key": "ftse",
+      "symbol": "^FTSE",
+      "name": "FTSE 100",
+      "region": "UK",
+      "kind": "broad",
+      "price": 10552.1,
+      "change": 110.5,
+      "change_pct": 1.06,
+      "spark": [
+        10497.9,
+        10541.7,
+        10458.5,
+        10441.6,
+        10552.1
+      ],
+      "as_of": "2026-10-09"
+    },
+    "dax": {
+      "key": "dax",
+      "symbol": "^GDAXI",
+      "name": "DAX",
+      "region": "GERMANY",
+      "kind": "broad",
+      "price": 25087.27,
+      "change": 280.3,
+      "change_pct": 1.13,
+      "spark": [
+        25254.21,
+        25449.19,
+        25104.36,
+        24806.97,
+        25087.27
+      ],
+      "as_of": "2026-10-09"
+    }
+  },
+  "fx": {
+    "USDKRW": {
+      "key": "USDKRW",
+      "pair": "USD/KRW",
+      "rate": 1340.9,
+      "kind": "direct"
+    },
+    "USDJPY": {
+      "key": "USDJPY",
+      "pair": "USD/JPY",
+      "rate": 158.25,
+      "kind": "direct"
+    },
+    "EURUSD": {
+      "key": "EURUSD",
+      "pair": "EUR/USD",
+      "rate": 1.1206,
+      "kind": "inverse"
+    },
+    "USDCNY": {
+      "key": "USDCNY",
+      "pair": "USD/CNY",
+      "rate": 6.683,
+      "kind": "direct"
+    },
+    "DXY": {
+      "key": "DXY",
+      "pair": "DXY",
+      "rate": 102.21,
+      "change": 0.07,
+      "change_pct": 0.07,
+      "kind": "index"
+    }
+  },
+  "commodities": {
+    "wti": {
+      "key": "wti",
+      "symbol": "CL=F",
+      "name": "WTI Crude",
+      "unit": "$",
+      "price": 91.85,
+      "change": 0.36,
+      "change_pct": 0.39
+    },
+    "gold": {
+      "key": "gold",
+      "symbol": "GC=F",
+      "name": "Gold",
+      "unit": "$",
+      "price": 4216.3,
+      "change": 59.3,
+      "change_pct": 1.43
+    },
+    "btc": {
+      "key": "btc",
+      "symbol": "BTC-USD",
+      "name": "Bitcoin",
+      "unit": "$",
+      "price": 82909.98,
+      "change": 363.66,
+      "change_pct": 0.44
+    },
+    "ust10y": {
+      "key": "ust10y",
+      "symbol": "^TNX",
+      "name": "10Y UST Yield",
+      "unit": "%",
+      "price": 5.24,
+      "change": 0.01,
+      "change_pct": 0.25
+    },
+    "vix": {
+      "key": "vix",
+      "symbol": "^VIX",
+      "name": "VIX",
+      "unit": "",
+      "price": 14.84,
+      "change": -0.57,
+      "change_pct": -3.7
+    }
+  },
+  "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Stocks were up this week. Here are the names that are now overbought",
+      "url": "https://www.cnbc.com/2026/10/10/stocks-were-up-this-week-here-are-the-names-that-are-now-overbought.html",
+      "published": "Sat, 10 Oct 2026 11:57:29 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Bank of America is bullish on these top stocks ahead of earnings",
+      "url": "https://www.cnbc.com/2026/10/10/stocks-to-buy-before-they-report-earnings.html",
+      "published": "Sat, 10 Oct 2026 11:55:16 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Junk bonds are 'flashing yellow.' Watch these warning signs",
+      "url": "https://www.cnbc.com/2026/10/09/junk-bonds-are-flashing-yellow-watch-these-warning-signs.html",
+      "published": "Fri, 09 Oct 2026 20:51:25 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Living with Mom and trading on margin. The regular investor gets in on Wall Street's record stock borrowing binge",
+      "url": "https://www.cnbc.com/2026/10/09/margin-debt-stock-market-risk.html",
+      "published": "Fri, 09 Oct 2026 13:03:19 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Memory stocks have hit a malaise. Jay Woods believes it's a buying opportunity",
+      "url": "https://www.cnbc.com/2026/10/09/jay.html",
+      "published": "Fri, 09 Oct 2026 19:33:37 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Wall Street sees buying opportunity in banks as shares tank ahead of earnings",
+      "url": "https://www.cnbc.com/2026/10/09/bank-stocks-selloff-q3-earnings.html",
+      "published": "Fri, 09 Oct 2026 17:32:38 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Should I put my nest egg in a 30-year Treasury bond?",
+      "url": "https://www.marketwatch.com/story/should-i-put-my-nest-egg-in-a-30-year-treasury-bond-89db6e09?mod=mw_rss_topstories",
+      "published": "Sat, 10 Oct 2026 19:44:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Worse than taking away your parents’ car keys? Taking away their cell phone. How to protect your aging parents.",
+      "url": "https://www.marketwatch.com/story/worse-than-taking-away-your-parents-car-keys-taking-away-their-cellphone-how-to-protect-your-aging-parents-f01be6e6?mod=mw_rss_topstories",
+      "published": "Sat, 10 Oct 2026 19:44:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "These decisions you make in your 20s — not your income — determine whether you’ll spend decades in debt or retire comfortably",
+      "url": "https://www.marketwatch.com/story/these-decisions-you-make-in-your-20s-not-your-income-determine-whether-youll-spend-decades-in-debt-or-retire-comfortably-7bbb28f9?mod=mw_rss_topstories",
+      "published": "Sat, 10 Oct 2026 19:44:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "How to downsize like a pro — and free yourself from being a ‘prisoner of your possessions’",
+      "url": "https://www.marketwatch.com/story/how-to-downsize-like-a-pro-and-free-yourself-from-being-a-prisoner-of-your-possessions-c4b5533e?mod=mw_rss_topstories",
+      "published": "Sat, 10 Oct 2026 19:44:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Rising interest rates: The good, the bad and the ugly for retirees",
+      "url": "https://www.marketwatch.com/story/the-good-the-bad-and-the-ugly-of-rising-interest-rates-ee465a81?mod=mw_rss_topstories",
+      "published": "Sat, 10 Oct 2026 19:44:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Taxing stocks, estates and employee benefits could keep Social Security from running out of money. Here’s who could pay the most.",
+      "url": "https://www.marketwatch.com/story/taxing-stocks-estates-and-employee-benefits-could-keep-social-security-from-running-out-of-money-heres-who-could-pay-the-most-616be82c?mod=mw_rss_topstories",
+      "published": "Sat, 10 Oct 2026 19:44:00 GMT"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Verisign exec. chairman, pres, & ceo Bidzos sells $964k in stock",
+      "url": "https://www.investing.com/news/insider-trading-news/verisign-exec-chairman-pres--ceo-bidzos-sells-964k-in-stock-93CH-4942328",
+      "published": "2026-10-10 23:46:18"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "United Therapeutics CEO Martine Rothblatt sells $5.1m in shares",
+      "url": "https://www.investing.com/news/insider-trading-news/united-therapeutics-ceo-martine-rothblatt-sells-51m-in-shares-93CH-4942327",
+      "published": "2026-10-10 23:46:12"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Robinhood chief legal officer sells $1.14m in HOOD stock",
+      "url": "https://www.investing.com/news/insider-trading-news/robinhood-chief-legal-officer-sells-114m-in-hood-stock-93CH-4942326",
+      "published": "2026-10-10 23:46:04"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Nvidia in talks to acquire Reflection AI or increase investment, FT reports",
+      "url": "https://www.investing.com/news/company-news/nvidia-in-talks-to-acquire-reflection-ai-or-increase-investment-ft-reports-4942324",
+      "published": "2026-10-10 23:45:15"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Robinhood CEO Tenev sells $42.6m in shares on October 5",
+      "url": "https://www.investing.com/news/insider-trading-news/robinhood-ceo-tenev-sells-426m-in-shares-on-october-5-93CH-4942319",
+      "published": "2026-10-10 23:31:23"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Justice Department probes TV networks over Trump pool coverage, New York Times reports",
+      "url": "https://www.investing.com/news/stock-market-news/justice-department-probes-tv-networks-over-trump-pool-coverage-new-york-times-reports-4942303",
+      "published": "2026-10-10 23:30:23"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "AI Debt Issuance Defies Rising Yields as SpaceX, Broadcom Plan Major Deals",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-10/ai-issuers-are-upending-longstanding-safety-valve-credit-weekly",
+      "published": "Sat, 10 Oct 2026 19:00:00 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Strong Earnings Keep US Stocks in Favor",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-10/strong-earnings-keep-us-stocks-in-favor-video",
+      "published": "Sat, 10 Oct 2026 17:37:41 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Phenomenal Time To Be Investor, Not Consumer: Amoroso",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-09/phenomenal-time-to-be-investor-not-consumer-amoroso-video",
+      "published": "Fri, 09 Oct 2026 19:27:37 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Pointed! Bloomberg's Weekly News Quiz For Risk-Takers",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-10/pointed-bloomberg-s-weekly-news-quiz-for-risk-takers-video",
+      "published": "Sat, 10 Oct 2026 17:18:11 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Viral Handbags Turn Small Designer Into Fashion Star",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-10/viral-handbags-turn-small-designer-into-fashion-star-video",
+      "published": "Sat, 10 Oct 2026 17:15:26 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "By The Way: Headlines You May Have Missed",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-10/by-the-way-headlines-you-may-have-missed-video",
+      "published": "Sat, 10 Oct 2026 17:02:42 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Hurricane Isaias kills at least two and disrupts US oil and gas production",
+      "url": "https://www.ft.com/content/f7d90625-0d78-44b2-927f-d63f4dbc5e8d?syn-25a6b1a6=1",
+      "published": "Sat, 10 Oct 2026 20:26:06 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "India’s central bank tries to shore up rupee as it nears record lows",
+      "url": "https://www.ft.com/content/b373cf00-9a94-4dc7-bdda-bc7006da1148?syn-25a6b1a6=1",
+      "published": "Sat, 10 Oct 2026 11:57:36 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "AI borrowing slows as investors grow wary of debt binge",
+      "url": "https://www.ft.com/content/9c13d40e-d2b2-45d5-921c-a68cd4b308f9?syn-25a6b1a6=1",
+      "published": "Sat, 10 Oct 2026 11:00:07 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "The US productivity-pay gap",
+      "url": "https://www.ft.com/content/abaab361-8714-422f-b2eb-9eb447e4d8c3?syn-25a6b1a6=1",
+      "published": "Sat, 10 Oct 2026 09:30:07 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "The world of one trade — AI",
+      "url": "https://www.ft.com/content/3f54c442-c2b7-4876-a960-5229951c9a46?syn-25a6b1a6=1",
+      "published": "Sat, 10 Oct 2026 06:36:04 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Slowing deals are another flashing red sign for equity markets",
+      "url": "https://www.ft.com/content/a7532546-d9b2-4889-b2a6-ff68658a1782?syn-25a6b1a6=1",
+      "published": "Sat, 10 Oct 2026 04:00:37 GMT"
+    }
+  ],
+  "summary": {
+    "headlines": [
+      {
+        "title_ko": "美 CPI 서프라이즈에도 S&P 500·나스닥 사상최고 마감, 테크가 견인",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/13/stock-market-today.html",
+        "time_label": "23:00"
+      },
+      {
+        "title_ko": "연준, 인플레 둔화 흐름 속 추가 인하 경로 유지 관측",
+        "source": "Reuters",
+        "url": "https://www.reuters.com/markets/us/fed-rate-cut-2026/",
+        "time_label": "21:30"
+      },
+      {
+        "title_ko": "삼성전자 CXL 메모리 양산 발표에 KOSPI 7,844 사상최고",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-14/kospi-record",
+        "time_label": "15:30"
+      },
+      {
+        "title_ko": "BOJ, 임금·물가 사이클 강화 시 추가 정상화 가능 시사",
+        "source": "Bank of Japan",
+        "url": "https://www.boj.or.jp/en/announcements/2026/",
+        "time_label": "10:00"
+      },
+      {
+        "title_ko": "英 1Q GDP 컨센서스 부합, 스타머 정치 리스크는 여전",
+        "source": "FT",
+        "url": "https://www.ft.com/content/uk-gdp-2026q1",
+        "time_label": "17:00"
+      }
+    ],
+    "market_summary_ko": "미국 인플레이션 경계감에도 테크 모멘텀이 지수를 끌어올렸고, 아시아 세션에서는 삼성전자 CXL 모멘텀에 KOSPI가 다시 사상최고를 갈아엎었다. Fed 인하 vs BOJ 인상 디버전스가 달러 강세를 떠받치는 가운데, 다음 분기점은 5/21 NVDA 실적이다.",
+    "risk_sentiment": "RISK-ON"
+  }
+}
