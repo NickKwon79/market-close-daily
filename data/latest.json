@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-10-11 09:19 KST",
-  "as_of_date": "2026-10-11",
-  "as_of_weekday": "SUN",
-  "build_unix": 1791677982,
+  "as_of_kst": "2026-10-12 09:40 KST",
+  "as_of_date": "2026-10-12",
+  "as_of_weekday": "MON",
+  "build_unix": 1791765647,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 6625.93,
-      "change": -177.97,
-      "change_pct": -2.62,
+      "price": 6553.8,
+      "change": -72.13,
+      "change_pct": -1.09,
       "spark": [
-        6971.35,
         7003.74,
         6941.39,
         6803.9,
-        6625.93
+        6625.93,
+        6553.8
       ],
-      "as_of": "2026-10-08"
+      "as_of": "2026-10-12"
     },
     "nikkei": {
       "key": "nikkei",
@@ -153,19 +153,19 @@
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1340.9,
+      "rate": 1337.5,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 158.25,
+      "rate": 158.1,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1206,
+      "rate": 1.1218,
       "kind": "inverse"
     },
     "USDCNY": {
@@ -177,9 +177,9 @@
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 102.21,
-      "change": 0.07,
-      "change_pct": 0.07,
+      "rate": 102.14,
+      "change": -0.07,
+      "change_pct": -0.06,
       "kind": "index"
     }
   },
@@ -189,27 +189,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 91.85,
-      "change": 0.36,
-      "change_pct": 0.39
+      "price": 90.62,
+      "change": -1.23,
+      "change_pct": -1.34
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4216.3,
-      "change": 59.3,
-      "change_pct": 1.43
+      "price": 4228.9,
+      "change": 12.6,
+      "change_pct": 0.3
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 82909.98,
-      "change": 363.66,
-      "change_pct": 0.44
+      "price": 83831.58,
+      "change": 919.35,
+      "change_pct": 1.11
     },
     "ust10y": {
       "key": "ust10y",
@@ -233,6 +233,24 @@
   "headlines_raw": [
     {
       "source": "CNBC Markets",
+      "title": "Top Wall Street analysts prefer these 3 dividend stocks for stable income",
+      "url": "https://www.cnbc.com/2026/10/11/top-analysts-prefer-these-3-dividend-stocks-for-stable-income.html",
+      "published": "Sun, 11 Oct 2026 11:42:31 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "JPMorgan Chase, Goldman and other big banks report earnings this week. What to expect",
+      "url": "https://www.cnbc.com/2026/10/11/bank-earnings-jpmorgan-goldman.html",
+      "published": "Sun, 11 Oct 2026 11:46:11 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "This Chinese memory chip maker has global potential and is poised to outperform",
+      "url": "https://www.cnbc.com/2026/10/11/this-chinese-memory-chip-maker-has-global-potential.html",
+      "published": "Sun, 11 Oct 2026 11:39:38 GMT"
+    },
+    {
+      "source": "CNBC Markets",
       "title": "Stocks were up this week. Here are the names that are now overbought",
       "url": "https://www.cnbc.com/2026/10/10/stocks-were-up-this-week-here-are-the-names-that-are-now-overbought.html",
       "published": "Sat, 10 Oct 2026 11:57:29 GMT"
@@ -250,166 +268,148 @@
       "published": "Fri, 09 Oct 2026 20:51:25 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "Living with Mom and trading on margin. The regular investor gets in on Wall Street's record stock borrowing binge",
-      "url": "https://www.cnbc.com/2026/10/09/margin-debt-stock-market-risk.html",
-      "published": "Fri, 09 Oct 2026 13:03:19 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Memory stocks have hit a malaise. Jay Woods believes it's a buying opportunity",
-      "url": "https://www.cnbc.com/2026/10/09/jay.html",
-      "published": "Fri, 09 Oct 2026 19:33:37 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Wall Street sees buying opportunity in banks as shares tank ahead of earnings",
-      "url": "https://www.cnbc.com/2026/10/09/bank-stocks-selloff-q3-earnings.html",
-      "published": "Fri, 09 Oct 2026 17:32:38 GMT"
+      "source": "MarketWatch Top",
+      "title": "‘I have no children’: My aunt gave me $50,000 for a down payment. Now she wants me to leave my home to her two children.",
+      "url": "https://www.marketwatch.com/story/i-have-no-children-my-aunt-gave-me-50-000-for-a-down-payment-she-wants-me-to-leave-my-home-to-her-two-children-24fad94c?mod=mw_rss_topstories",
+      "published": "Sun, 11 Oct 2026 20:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Should I put my nest egg in a 30-year Treasury bond?",
-      "url": "https://www.marketwatch.com/story/should-i-put-my-nest-egg-in-a-30-year-treasury-bond-89db6e09?mod=mw_rss_topstories",
-      "published": "Sat, 10 Oct 2026 19:44:00 GMT"
+      "title": "‘I feel like a loser’: My stock portfolio is swinging wildly. Is it finally time to worry?",
+      "url": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
+      "published": "Sun, 11 Oct 2026 20:00:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Worse than taking away your parents’ car keys? Taking away their cell phone. How to protect your aging parents.",
-      "url": "https://www.marketwatch.com/story/worse-than-taking-away-your-parents-car-keys-taking-away-their-cellphone-how-to-protect-your-aging-parents-f01be6e6?mod=mw_rss_topstories",
-      "published": "Sat, 10 Oct 2026 19:44:00 GMT"
+      "title": "My brother-in-law convinced his parents to sign over their home and life savings to buy a $3 million compound. Do I intervene?",
+      "url": "https://www.marketwatch.com/story/my-brother-in-law-convinced-his-parents-to-sign-over-their-home-and-savings-to-buy-a-3-million-compound-do-i-intervene-03fb96b7?mod=mw_rss_topstories",
+      "published": "Sun, 11 Oct 2026 19:32:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "These decisions you make in your 20s — not your income — determine whether you’ll spend decades in debt or retire comfortably",
-      "url": "https://www.marketwatch.com/story/these-decisions-you-make-in-your-20s-not-your-income-determine-whether-youll-spend-decades-in-debt-or-retire-comfortably-7bbb28f9?mod=mw_rss_topstories",
-      "published": "Sat, 10 Oct 2026 19:44:00 GMT"
+      "title": "I’m a 68-year-old widow and give money to my two adult children. Am I putting my retirement at risk?",
+      "url": "https://www.marketwatch.com/story/im-a-68-year-old-widow-my-two-adult-children-keep-asking-me-for-money-are-they-taking-advantage-of-me-f725374e?mod=mw_rss_topstories",
+      "published": "Sun, 11 Oct 2026 19:32:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "How to downsize like a pro — and free yourself from being a ‘prisoner of your possessions’",
-      "url": "https://www.marketwatch.com/story/how-to-downsize-like-a-pro-and-free-yourself-from-being-a-prisoner-of-your-possessions-c4b5533e?mod=mw_rss_topstories",
-      "published": "Sat, 10 Oct 2026 19:44:00 GMT"
+      "title": "Millions of Americans will have fewer options during Medicare open enrollment this year",
+      "url": "https://www.marketwatch.com/story/millions-of-americans-will-have-fewer-options-during-medicare-open-enrollment-this-year-6b56698b?mod=mw_rss_topstories",
+      "published": "Sun, 11 Oct 2026 16:35:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Rising interest rates: The good, the bad and the ugly for retirees",
-      "url": "https://www.marketwatch.com/story/the-good-the-bad-and-the-ugly-of-rising-interest-rates-ee465a81?mod=mw_rss_topstories",
-      "published": "Sat, 10 Oct 2026 19:44:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Taxing stocks, estates and employee benefits could keep Social Security from running out of money. Here’s who could pay the most.",
-      "url": "https://www.marketwatch.com/story/taxing-stocks-estates-and-employee-benefits-could-keep-social-security-from-running-out-of-money-heres-who-could-pay-the-most-616be82c?mod=mw_rss_topstories",
-      "published": "Sat, 10 Oct 2026 19:44:00 GMT"
+      "title": "We’re about to get a huge read on whether earnings can keep propping up the stock market",
+      "url": "https://www.marketwatch.com/story/were-about-to-get-a-huge-read-on-whether-earnings-can-keep-propping-up-the-stock-market-459b565b?mod=mw_rss_topstories",
+      "published": "Sun, 11 Oct 2026 14:00:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Verisign exec. chairman, pres, & ceo Bidzos sells $964k in stock",
-      "url": "https://www.investing.com/news/insider-trading-news/verisign-exec-chairman-pres--ceo-bidzos-sells-964k-in-stock-93CH-4942328",
-      "published": "2026-10-10 23:46:18"
+      "title": "Oil prices dip after Trump announces Russia-Ukraine energy ceasefire",
+      "url": "https://www.investing.com/news/commodities-news/oil-prices-dip-after-trump-announces-russiaukraine-energy-ceasefire-4942934",
+      "published": "2026-10-12 00:19:46"
     },
     {
       "source": "Investing.com News",
-      "title": "United Therapeutics CEO Martine Rothblatt sells $5.1m in shares",
-      "url": "https://www.investing.com/news/insider-trading-news/united-therapeutics-ceo-martine-rothblatt-sells-51m-in-shares-93CH-4942327",
-      "published": "2026-10-10 23:46:12"
+      "title": "One dead in new attack on Saudi airport, a day after Houthi strike kills 13",
+      "url": "https://www.investing.com/news/commodities-news/yemens-houthis-renew-warning-over-saudi-airports-after-deadly-riyadh-attack-4942575",
+      "published": "2026-10-12 00:18:36"
     },
     {
       "source": "Investing.com News",
-      "title": "Robinhood chief legal officer sells $1.14m in HOOD stock",
-      "url": "https://www.investing.com/news/insider-trading-news/robinhood-chief-legal-officer-sells-114m-in-hood-stock-93CH-4942326",
-      "published": "2026-10-10 23:46:04"
+      "title": "Monopar Therapeutics director Christopher Starr sells shares worth $659k",
+      "url": "https://www.investing.com/news/insider-trading-news/monopar-therapeutics-director-christopher-starr-sells-shares-worth-659k-93CH-4942925",
+      "published": "2026-10-12 00:01:06"
     },
     {
       "source": "Investing.com News",
-      "title": "Nvidia in talks to acquire Reflection AI or increase investment, FT reports",
-      "url": "https://www.investing.com/news/company-news/nvidia-in-talks-to-acquire-reflection-ai-or-increase-investment-ft-reports-4942324",
-      "published": "2026-10-10 23:45:15"
+      "title": "PubMatic chairman Amar Goel sells $138,545 in shares",
+      "url": "https://www.investing.com/news/insider-trading-news/pubmatic-chairman-amar-goel-sells-138545-in-shares-93CH-4942909",
+      "published": "2026-10-11 23:46:26"
     },
     {
       "source": "Investing.com News",
-      "title": "Robinhood CEO Tenev sells $42.6m in shares on October 5",
-      "url": "https://www.investing.com/news/insider-trading-news/robinhood-ceo-tenev-sells-426m-in-shares-on-october-5-93CH-4942319",
-      "published": "2026-10-10 23:31:23"
+      "title": "Coinbase director Marc Andreessen sells $3.9m in shares",
+      "url": "https://www.investing.com/news/insider-trading-news/coinbase-director-marc-andreessen-sells-39m-in-shares-93CH-4942908",
+      "published": "2026-10-11 23:46:11"
     },
     {
       "source": "Investing.com News",
-      "title": "Justice Department probes TV networks over Trump pool coverage, New York Times reports",
-      "url": "https://www.investing.com/news/stock-market-news/justice-department-probes-tv-networks-over-trump-pool-coverage-new-york-times-reports-4942303",
-      "published": "2026-10-10 23:30:23"
+      "title": "Tango Therapeutics R&D president Adam Crystal sells $660,796 in shares",
+      "url": "https://www.investing.com/news/insider-trading-news/tango-therapeutics-rd-president-adam-crystal-sells-660796-in-shares-93CH-4942907",
+      "published": "2026-10-11 23:46:08"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "AI Debt Issuance Defies Rising Yields as SpaceX, Broadcom Plan Major Deals",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-10/ai-issuers-are-upending-longstanding-safety-valve-credit-weekly",
-      "published": "Sat, 10 Oct 2026 19:00:00 GMT"
+      "title": "US Stock Futures Rise After Crude Oil Declines: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-11/oil-rises-on-mideast-attacks-dollar-edges-higher-markets-wrap",
+      "published": "Sun, 11 Oct 2026 22:09:49 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Strong Earnings Keep US Stocks in Favor",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-10/strong-earnings-keep-us-stocks-in-favor-video",
-      "published": "Sat, 10 Oct 2026 17:37:41 GMT"
+      "title": "Korean Bond Rally Seen Faltering as Traders Brace for Rate Hikes",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-12/korean-bond-rally-seen-faltering-as-traders-brace-for-rate-hikes",
+      "published": "Mon, 12 Oct 2026 00:14:05 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Phenomenal Time To Be Investor, Not Consumer: Amoroso",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-09/phenomenal-time-to-be-investor-not-consumer-amoroso-video",
-      "published": "Fri, 09 Oct 2026 19:27:37 GMT"
+      "title": "Bond Selloff May Mean Fewer Rate Hikes From Global Central Banks",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-11/bond-selloff-may-mean-fewer-rate-hikes-from-global-central-banks",
+      "published": "Sun, 11 Oct 2026 19:00:00 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Pointed! Bloomberg's Weekly News Quiz For Risk-Takers",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-10/pointed-bloomberg-s-weekly-news-quiz-for-risk-takers-video",
-      "published": "Sat, 10 Oct 2026 17:18:11 GMT"
+      "title": "Latest Oil Market News and Analysis for Oct. 12",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-11/latest-oil-market-news-and-analysis-for-oct-12",
+      "published": "Sun, 11 Oct 2026 22:08:45 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Viral Handbags Turn Small Designer Into Fashion Star",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-10/viral-handbags-turn-small-designer-into-fashion-star-video",
-      "published": "Sat, 10 Oct 2026 17:15:26 GMT"
+      "title": "Wrightson’s Crandall Ends Weekly Market Missives After 44 Years",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-11/wrightson-s-crandall-ends-weekly-market-missives-after-44-years",
+      "published": "Sun, 11 Oct 2026 23:32:41 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "By The Way: Headlines You May Have Missed",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-10/by-the-way-headlines-you-may-have-missed-video",
-      "published": "Sat, 10 Oct 2026 17:02:42 GMT"
+      "title": "NZ National Party Will Wait for Budget Surplus Before Tax Cuts",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-11/nz-national-party-will-wait-for-budget-surplus-before-tax-cuts",
+      "published": "Sun, 11 Oct 2026 23:15:00 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Hurricane Isaias kills at least two and disrupts US oil and gas production",
-      "url": "https://www.ft.com/content/f7d90625-0d78-44b2-927f-d63f4dbc5e8d?syn-25a6b1a6=1",
-      "published": "Sat, 10 Oct 2026 20:26:06 GMT"
+      "title": "City of London hits out at Burnham’s plan to scrap non-compete clauses",
+      "url": "https://www.ft.com/content/47b02f06-cbfc-49cb-afb8-1ae015399c4e?syn-25a6b1a6=1",
+      "published": "Sun, 11 Oct 2026 23:01:03 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "India’s central bank tries to shore up rupee as it nears record lows",
-      "url": "https://www.ft.com/content/b373cf00-9a94-4dc7-bdda-bc7006da1148?syn-25a6b1a6=1",
-      "published": "Sat, 10 Oct 2026 11:57:36 GMT"
+      "title": "Trump faces Republican opposition to his diesel deal with Russia’s Putin",
+      "url": "https://www.ft.com/content/debf0be6-d5aa-4ba7-bb66-7daf770d99ff?syn-25a6b1a6=1",
+      "published": "Sun, 11 Oct 2026 21:17:58 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "AI borrowing slows as investors grow wary of debt binge",
-      "url": "https://www.ft.com/content/9c13d40e-d2b2-45d5-921c-a68cd4b308f9?syn-25a6b1a6=1",
-      "published": "Sat, 10 Oct 2026 11:00:07 GMT"
+      "title": "US hits commercial tanker in Gulf of Oman as tensions flare",
+      "url": "https://www.ft.com/content/f9b9f937-97b0-4a03-90f6-05d7c7344ab9?syn-25a6b1a6=1",
+      "published": "Sun, 11 Oct 2026 19:53:56 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "The US productivity-pay gap",
-      "url": "https://www.ft.com/content/abaab361-8714-422f-b2eb-9eb447e4d8c3?syn-25a6b1a6=1",
-      "published": "Sat, 10 Oct 2026 09:30:07 GMT"
+      "title": "Can Russia meet Trump’s diesel demands?",
+      "url": "https://www.ft.com/content/445b2856-a276-4d4c-bdea-44799d771c21?syn-25a6b1a6=1",
+      "published": "Sun, 11 Oct 2026 17:13:56 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "The world of one trade — AI",
-      "url": "https://www.ft.com/content/3f54c442-c2b7-4876-a960-5229951c9a46?syn-25a6b1a6=1",
-      "published": "Sat, 10 Oct 2026 06:36:04 GMT"
+      "title": "Oil chiefs pull out of Riyadh energy congress after airport missile strike",
+      "url": "https://www.ft.com/content/a01776ea-4a12-4195-8820-e43a885ba5fe?syn-25a6b1a6=1",
+      "published": "Sun, 11 Oct 2026 16:56:50 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Slowing deals are another flashing red sign for equity markets",
-      "url": "https://www.ft.com/content/a7532546-d9b2-4889-b2a6-ff68658a1782?syn-25a6b1a6=1",
-      "published": "Sat, 10 Oct 2026 04:00:37 GMT"
+      "title": "Private equity can cut ‘best’ deals in current climate, says Permira boss",
+      "url": "https://www.ft.com/content/b42bb760-3eda-430d-adfd-69c359425c1d?syn-25a6b1a6=1",
+      "published": "Sun, 11 Oct 2026 04:00:16 GMT"
     }
   ],
   "summary": {
