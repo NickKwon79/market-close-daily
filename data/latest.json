@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-10-13 11:39 KST",
-  "as_of_date": "2026-10-13",
-  "as_of_weekday": "TUE",
-  "build_unix": 1791859187,
+  "as_of_kst": "2026-10-14 00:12 KST",
+  "as_of_date": "2026-10-14",
+  "as_of_weekday": "WED",
+  "build_unix": 1791904363,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -10,17 +10,17 @@
       "name": "S&P 500",
       "region": "USA",
       "kind": "broad",
-      "price": 7807.24,
-      "change": -4.3,
-      "change_pct": -0.06,
+      "price": 7795.71,
+      "change": -11.53,
+      "change_pct": -0.15,
       "spark": [
-        7818.93,
         7801.77,
         7765.36,
         7811.54,
-        7807.24
+        7807.24,
+        7795.71
       ],
-      "as_of": "2026-10-12"
+      "as_of": "2026-10-13"
     },
     "nasdaq": {
       "key": "nasdaq",
@@ -28,17 +28,17 @@
       "name": "NASDAQ Composite",
       "region": "USA",
       "kind": "tech",
-      "price": 27245.9,
-      "change": -120.27,
-      "change_pct": -0.44,
+      "price": 27180.38,
+      "change": -65.52,
+      "change_pct": -0.24,
       "spark": [
-        27599.79,
         27538.69,
         27193.34,
         27366.17,
-        27245.9
+        27245.9,
+        27180.38
       ],
-      "as_of": "2026-10-12"
+      "as_of": "2026-10-13"
     },
     "dow": {
       "key": "dow",
@@ -46,17 +46,17 @@
       "name": "Dow Jones 30",
       "region": "USA",
       "kind": "value",
-      "price": 51850.55,
-      "change": 195.6,
-      "change_pct": 0.38,
+      "price": 51803.13,
+      "change": -47.42,
+      "change_pct": -0.09,
       "spark": [
-        51521.28,
         51179.87,
         51231.64,
         51654.95,
-        51850.55
+        51850.55,
+        51803.13
       ],
-      "as_of": "2026-10-12"
+      "as_of": "2026-10-13"
     },
     "kospi": {
       "key": "kospi",
@@ -64,15 +64,15 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 6002.03,
-      "change": -382.21,
-      "change_pct": -5.99,
+      "price": 6384.24,
+      "change": -241.69,
+      "change_pct": -3.65,
       "spark": [
+        7003.74,
         6941.39,
         6803.9,
         6625.93,
-        6384.24,
-        6002.03
+        6384.24
       ],
       "as_of": "2026-10-13"
     },
@@ -82,15 +82,15 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 67290.42,
-      "change": -1740.5,
-      "change_pct": -2.52,
+      "price": 69030.92,
+      "change": -11.19,
+      "change_pct": -0.02,
       "spark": [
+        69946.86,
         70683.98,
         70035.71,
         69042.11,
-        69030.92,
-        67290.42
+        69030.92
       ],
       "as_of": "2026-10-13"
     },
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 24035.05,
-      "change": -236.15,
-      "change_pct": -0.97,
+      "price": 24271.2,
+      "change": 59.85,
+      "change_pct": 0.25,
       "spark": [
+        24280.56,
         24130.5,
         23785.79,
         24211.35,
-        24271.2,
-        24035.05
+        24271.2
       ],
-      "as_of": "2026-10-13"
+      "as_of": "2026-10-12"
     },
     "ftse": {
       "key": "ftse",
@@ -118,17 +118,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10656.3,
-      "change": 104.2,
-      "change_pct": 0.99,
+      "price": 10651.56,
+      "change": -4.74,
+      "change_pct": -0.04,
       "spark": [
-        10541.7,
         10458.5,
         10441.6,
         10552.1,
-        10656.3
+        10656.3,
+        10651.56
       ],
-      "as_of": "2026-10-12"
+      "as_of": "2026-10-13"
     },
     "dax": {
       "key": "dax",
@@ -136,50 +136,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 25277.68,
-      "change": 190.41,
-      "change_pct": 0.76,
+      "price": 25245.89,
+      "change": -31.79,
+      "change_pct": -0.13,
       "spark": [
-        25449.19,
         25104.36,
         24806.97,
         25087.27,
-        25277.68
+        25277.68,
+        25245.89
       ],
-      "as_of": "2026-10-12"
+      "as_of": "2026-10-13"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1338.39,
+      "rate": 1341.74,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 158.23,
+      "rate": 158.06,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1177,
+      "rate": 1.1197,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.6945,
+      "rate": 6.6808,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 102.41,
-      "change": 0.2,
-      "change_pct": 0.19,
+      "rate": 102.25,
+      "change": -0.33,
+      "change_pct": -0.32,
       "kind": "index"
     }
   },
@@ -189,227 +189,227 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 92.61,
-      "change": 0.76,
-      "change_pct": 0.83
+      "price": 93.94,
+      "change": 0.2,
+      "change_pct": 0.21
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4194.2,
-      "change": -22.1,
-      "change_pct": -0.52
+      "price": 4189.1,
+      "change": -1.5,
+      "change_pct": -0.04
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 82740.65,
-      "change": -938.82,
-      "change_pct": -1.12
+      "price": 83596.88,
+      "change": 1834.32,
+      "change_pct": 2.24
     },
     "ust10y": {
       "key": "ust10y",
       "symbol": "^TNX",
       "name": "10Y UST Yield",
       "unit": "%",
-      "price": 5.24,
-      "change": -0.0,
-      "change_pct": -0.08
+      "price": 5.22,
+      "change": -0.02,
+      "change_pct": -0.44
     },
     "vix": {
       "key": "vix",
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 15.21,
-      "change": 0.37,
-      "change_pct": 2.49
+      "price": 15.31,
+      "change": 0.1,
+      "change_pct": 0.66
     }
   },
   "headlines_raw": [
     {
       "source": "CNBC Markets",
-      "title": "Tuesday's big stock stories: What’s likely to move the market in the next trading session",
-      "url": "https://www.cnbc.com/2026/10/12/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html",
-      "published": "Mon, 12 Oct 2026 23:20:20 GMT"
+      "title": "Huge profits at tech and energy companies are masking this key trend",
+      "url": "https://www.cnbc.com/2026/10/13/huge-profits-at-tech-and-energy-companies-are-masking-this-key-trend.html",
+      "published": "Tue, 13 Oct 2026 14:23:29 GMT"
     },
     {
       "source": "CNBC Markets",
-      "title": "Goldman Sachs, Morgan Stanley have earnings momentum and are reporting this week. There are others",
-      "url": "https://www.cnbc.com/2026/10/12/goldman-morgan-stanley-have-earnings-momentum-and-are-reporting-this-week.html",
-      "published": "Mon, 12 Oct 2026 20:19:09 GMT"
+      "title": "Vans is gaining ground with teens. Its owner's stock stands to gain too, Piper Sandler says",
+      "url": "https://www.cnbc.com/2026/10/13/vans-rising-popularity-should-boost-owners-stock-piper-sandler-says.html",
+      "published": "Tue, 13 Oct 2026 14:03:32 GMT"
     },
     {
       "source": "CNBC Markets",
-      "title": "Katie Stockton says retail stocks could be primed for a counter-trend rally. These stocks may lead the bounce",
-      "url": "https://www.cnbc.com/2026/10/12/katie-stockton-says-retail-stocks-could-be-primed-for-a-counter-trend-rally-these-stocks-may-lead-the-bounce.html",
-      "published": "Mon, 12 Oct 2026 19:09:50 GMT"
+      "title": "Here are Tuesday's biggest analyst calls: Nvidia, Apple, Netflix, Meta, Galaxy, SoFi, Viking, AT&T & more",
+      "url": "https://www.cnbc.com/2026/10/13/tuesday-big-wall-street-analyst-calls-like-nvidia.html",
+      "published": "Tue, 13 Oct 2026 12:31:09 GMT"
     },
     {
       "source": "CNBC Markets",
-      "title": "A massive trade just happened in surging shares of Snap",
-      "url": "https://www.cnbc.com/2026/10/12/a-massive-trade-just-happens-in-surging-shares-of-snap.html",
-      "published": "Mon, 12 Oct 2026 18:43:44 GMT"
+      "title": "Bernstein downgrades AT&T on SpaceX foray into wireless",
+      "url": "https://www.cnbc.com/2026/10/13/bernstein-downgrades-att-spacex-wireless.html",
+      "published": "Tue, 13 Oct 2026 12:22:40 GMT"
     },
     {
       "source": "CNBC Markets",
-      "title": "UnitedHealth shares are doing something unusual ahead of earnings",
-      "url": "https://www.cnbc.com/2026/10/12/unitedhealth-shares-are-doing-something-unusual-ahead-of-earnings.html",
-      "published": "Mon, 12 Oct 2026 16:42:13 GMT"
+      "title": "SoFi has lost nearly half of its value in 2026. StoneX sees recovery ahead",
+      "url": "https://www.cnbc.com/2026/10/13/sofi-stock-stonex-buy-rating.html",
+      "published": "Tue, 13 Oct 2026 11:45:05 GMT"
     },
     {
       "source": "CNBC Markets",
-      "title": "Investors can now see how Meta's big AI spending will pay off with Muse. Why I am buying now",
-      "url": "https://www.cnbc.com/2026/10/12/investors-can-now-see-how-metas-big-ai-spending-will-pay-off-with-muse-why-i-am-buying-now.html",
-      "published": "Mon, 12 Oct 2026 15:54:41 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "The global economy is starting to look K-shaped. Here are the winners and losers, and where the U.S. fits.",
-      "url": "https://www.marketwatch.com/story/the-global-economy-is-starting-to-look-k-shaped-here-are-the-winners-and-losers-and-where-the-u-s-fits-4ad93ea7?mod=mw_rss_topstories",
-      "published": "Tue, 13 Oct 2026 02:00:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "The SpaceX threat could loom over AT&T’s stock for a prolonged stretch, analyst cautions",
-      "url": "https://www.marketwatch.com/story/the-spacex-threat-could-loom-over-at-ts-stock-for-a-prolonged-stretch-analyst-cautions-71436853?mod=mw_rss_topstories",
-      "published": "Tue, 13 Oct 2026 00:18:00 GMT"
+      "title": "Crypto is bouncing back. Citi says Galaxy Digital could too",
+      "url": "https://www.cnbc.com/2026/10/13/galaxy-digital-citi-upgrade-buy.html",
+      "published": "Tue, 13 Oct 2026 10:55:05 GMT"
     },
     {
       "source": "MarketWatch Top",
       "title": "‘The house is worth $925,000’: My sister moved in with our mother, 78, and says she deserves the family home. Is she right?",
       "url": "https://www.marketwatch.com/story/my-sister-moved-in-with-our-widowed-mother-78-and-says-she-deserves-the-family-home-is-she-right-7981835d?mod=mw_rss_topstories",
-      "published": "Mon, 12 Oct 2026 23:31:00 GMT"
+      "published": "Tue, 13 Oct 2026 15:00:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘The prospectus looks impressive’: My financial adviser wants me to invest $350,000 in a UAE data center. Is this risky?",
+      "title": "‘I am a pretty cautious person’: My financial adviser wants me to invest $350,000 in a UAE data center. Is this risky?",
       "url": "https://www.marketwatch.com/story/the-prospectus-looks-impressive-my-financial-adviser-wants-me-to-invest-350-000-in-a-uae-data-center-is-this-risky-d5d3747c?mod=mw_rss_topstories",
-      "published": "Mon, 12 Oct 2026 23:15:00 GMT"
+      "published": "Tue, 13 Oct 2026 14:45:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Investors worry the bull market is getting old. But history shows it can continue to age gracefully.",
-      "url": "https://www.marketwatch.com/story/investors-worry-the-bull-market-is-getting-old-but-history-shows-it-can-continue-to-age-gracefully-0402e69c?mod=mw_rss_topstories",
-      "published": "Mon, 12 Oct 2026 22:27:00 GMT"
+      "title": "My wife says we can’t afford to retire, yet she wants to take an $8,000 trip to Italy. We have $4 million. Do I keep working?",
+      "url": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
+      "published": "Tue, 13 Oct 2026 14:31:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘I have no children’: My aunt gave me $50,000 for a down payment. Now she wants me to leave my home to her two children.",
-      "url": "https://www.marketwatch.com/story/i-have-no-children-my-aunt-gave-me-50-000-for-a-down-payment-she-wants-me-to-leave-my-home-to-her-two-children-24fad94c?mod=mw_rss_topstories",
-      "published": "Mon, 12 Oct 2026 22:00:00 GMT"
+      "title": "Who should pay for a birthday dinner? I always treat my guests.",
+      "url": "https://www.marketwatch.com/story/who-should-pay-for-a-birthday-dinner-i-always-treat-my-guests-5bbd1880?mod=mw_rss_topstories",
+      "published": "Tue, 13 Oct 2026 14:17:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Hedge-fund legend Paul Tudor Jones says the stock market faces a really challenging 2027. Here’s why.",
+      "url": "https://www.marketwatch.com/story/why-one-hedge-fund-billionaire-believes-stocks-are-heading-for-a-really-challenging-2027-bb68f19e?mod=mw_rss_topstories",
+      "published": "Tue, 13 Oct 2026 14:10:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Six Flags’ stock slumps toward 16-year low after fatal incident",
+      "url": "https://www.marketwatch.com/story/six-flags-stock-slumps-near-52-week-lows-after-fatal-accident-3f938112?mod=mw_rss_topstories",
+      "published": "Tue, 13 Oct 2026 14:09:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Why is Samsung Electronics stock plunging today?",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-samsung-electronics-stock-plunging-today-93CH-4945331",
-      "published": "2026-10-13 02:30:57"
+      "title": "Boeing reports Q3 aircraft deliveries across commercial, defense units",
+      "url": "https://www.investing.com/news/company-news/boeing-reports-q3-aircraft-deliveries-across-commercial-defense-units-93CH-4947189",
+      "published": "2026-10-13 15:04:31"
     },
     {
       "source": "Investing.com News",
-      "title": "Why is SK Hynix stock plunging today?",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-sk-hynix-stock-plunging-today-93CH-4945330",
-      "published": "2026-10-13 02:30:50"
+      "title": "ORS acquires Techniweld and janitorial brands from Essendant",
+      "url": "https://www.investing.com/news/company-news/ors-acquires-techniweld-and-janitorial-brands-from-essendant-93CH-4947188",
+      "published": "2026-10-13 15:04:30"
     },
     {
       "source": "Investing.com News",
-      "title": "Citigroup up 13% ahead of big bank earnings, pivotal CPI data",
-      "url": "https://www.investing.com/news/stock-market-news/citigroup-up-13-ahead-of-big-bank-earnings-pivotal-cpi-data-4945321",
-      "published": "2026-10-13 02:26:39"
+      "title": "Goldman Sachs Q3 2026 slides: record advisory fees drive strong beat",
+      "url": "https://www.investing.com/news/company-news/goldman-sachs-q3-2026-slides-record-advisory-fees-drive-strong-beat-93CH-4947187",
+      "published": "2026-10-13 15:04:20"
     },
     {
       "source": "Investing.com News",
-      "title": "IMF cuts Latin America, Caribbean growth forecasts on energy shock, little AI boost",
-      "url": "https://www.investing.com/news/economy-news/imf-cuts-latin-america-caribbean-growth-forecasts-on-energy-shock-little-ai-boost-4945315",
-      "published": "2026-10-13 02:24:56"
+      "title": "Fermi stock gets $20 price target at Texas Capital on AMD deal",
+      "url": "https://www.investing.com/news/analyst-ratings/fermi-stock-gets-20-price-target-at-texas-capital-on-amd-deal-93CH-4947181",
+      "published": "2026-10-13 15:02:47"
     },
     {
       "source": "Investing.com News",
-      "title": "IMF says AI investment propping up global growth, but war and debt threaten outlook",
-      "url": "https://www.investing.com/news/economy-news/imf-says-ai-investment-propping-up-global-growth-but-war-and-debt-threaten-outlook-4945312",
-      "published": "2026-10-13 02:18:27"
+      "title": "FTC targets Martin Shkreli over pharma stock trading and market commentary",
+      "url": "https://www.investing.com/news/stock-market-news/ftc-targets-martin-shkreli-over-pharma-stock-trading-and-market-commentary-4947179",
+      "published": "2026-10-13 15:01:45"
     },
     {
       "source": "Investing.com News",
-      "title": "IMF expects gradual BOJ rate hike towards neutral setting",
-      "url": "https://www.investing.com/news/economy-news/imf-expects-gradual-boj-rate-hike-towards-neutral-setting-4945314",
-      "published": "2026-10-13 02:06:54"
+      "title": "Huntington Ingalls Industries stock hits 52-week low at $256.71",
+      "url": "https://www.investing.com/news/company-news/huntington-ingalls-industries-stock-hits-52week-low-at-25671-93CH-4947178",
+      "published": "2026-10-13 15:01:20"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Indian Bonds Face Double Blow From Rupee Defense, Inflation",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-10-13/indian-bonds-face-double-blow-from-rupee-defense-inflation",
-      "published": "Tue, 13 Oct 2026 02:36:00 GMT"
+      "title": "Inside the Fight Against Food Recalls",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-13/inside-the-fight-against-food-recalls-video",
+      "published": "Tue, 13 Oct 2026 15:05:47 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Ares Fund Offering Hit by Australia Crackdown on Private Credit",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-13/australia-regulator-halts-another-credit-fund-amid-crackdown",
-      "published": "Tue, 13 Oct 2026 00:40:40 GMT"
+      "title": "Billionaire Birla Says Investment Calls Becoming Tougher Now",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-13/billionaire-birla-says-investment-calls-becoming-tougher-now",
+      "published": "Tue, 13 Oct 2026 14:55:27 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Malaysia King Buys Stake in Miner Expanding Into Rare Earths",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-13/malaysian-king-buys-stake-in-miner-expanding-into-rare-earths",
-      "published": "Tue, 13 Oct 2026 00:24:49 GMT"
+      "title": "Can Infrastructure Keep Pace With AI?",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-13/can-infrastructure-keep-pace-with-ai-video",
+      "published": "Tue, 13 Oct 2026 14:47:37 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Stocks Extend Losses as AI Trade Under Pressure: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-12/stock-market-today-dow-s-p-live-updates",
-      "published": "Mon, 12 Oct 2026 22:04:35 GMT"
+      "title": "Money Market Sage Lou Crandall to Retire From Wrightson After 44-Year Career",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-13/money-market-sage-lou-crandall-to-retire-from-wrightson-after-44-year-career",
+      "published": "Tue, 13 Oct 2026 14:45:33 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Goldman Says Market Is Underestimating How Far Yuan Can Rise",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-12/goldman-says-markets-are-underestimating-how-far-yuan-can-rise",
-      "published": "Mon, 12 Oct 2026 23:00:04 GMT"
+      "title": "S&P 500 Record Rally Meets Risk of Peaking Earnings Growth",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-13/s-p-500-record-rally-meets-risk-of-peaking-earnings-growth",
+      "published": "Tue, 13 Oct 2026 14:39:02 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Chip Selloff Triggers 6% Korea Rout After CEO’s ‘Casino’ Warning",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-13/korean-chip-stocks-sink-on-chinese-rival-worry-broadcom-remarks",
-      "published": "Tue, 13 Oct 2026 00:28:27 GMT"
+      "title": "Long-Term Treasuries Hold Gains as Oil Snaps Three-Day Rally",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-13/treasuries-gain-on-haven-demand-as-trading-resumes-after-holiday",
+      "published": "Tue, 13 Oct 2026 02:22:28 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "France to raise stake in struggling miner Eramet",
-      "url": "https://www.ft.com/content/4d84b98b-bdbe-4e1c-a0b8-4dd0c814927b?syn-25a6b1a6=1",
-      "published": "Mon, 12 Oct 2026 20:34:37 GMT"
+      "title": "Chip stocks slide in wake of ‘casino’ comment by Broadcom boss",
+      "url": "https://www.ft.com/content/e16f0422-cf75-4cc9-962d-4605e421dc63?syn-25a6b1a6=1",
+      "published": "Tue, 13 Oct 2026 13:53:46 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Trump’s Russian diesel gambit is cynical and won’t work",
-      "url": "https://www.ft.com/content/5bc438a0-26b7-4893-9d62-1f45d2963eef?syn-25a6b1a6=1",
-      "published": "Mon, 12 Oct 2026 16:54:06 GMT"
+      "title": "London Stock Exchange owner in talks to buy credit specialist Octus",
+      "url": "https://www.ft.com/content/fbaeca48-5f50-40ca-b45e-5de62ad52b83?syn-25a6b1a6=1",
+      "published": "Tue, 13 Oct 2026 13:41:41 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Goldman goes long stocks — and bonds*",
-      "url": "https://www.ft.com/content/2af1eb34-f7f4-445f-81a3-42e6fd448971",
-      "published": "Mon, 12 Oct 2026 16:02:19 GMT"
+      "title": "European gas hits Iran wartime high",
+      "url": "https://www.ft.com/content/787acc7e-f0d3-4552-a369-4b4c967e4ca5?syn-25a6b1a6=1",
+      "published": "Tue, 13 Oct 2026 13:32:27 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Oil prices rise as Trump’s ‘energy ceasefire’ frays",
-      "url": "https://www.ft.com/content/a663781e-2709-41f2-99df-4fb5a6162e6b?syn-25a6b1a6=1",
-      "published": "Mon, 12 Oct 2026 15:46:25 GMT"
+      "title": "Gulf oil production rebounds ahead of increase in Iran war hostilities",
+      "url": "https://www.ft.com/content/e4c33601-88e9-43fc-b920-1cecc2709dbd?syn-25a6b1a6=1",
+      "published": "Tue, 13 Oct 2026 12:53:16 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Private equity puts string of UK high street names up for sale",
-      "url": "https://www.ft.com/content/48b8c4ce-b2bf-44e2-badf-8159a9d664e4?syn-25a6b1a6=1",
-      "published": "Mon, 12 Oct 2026 11:00:02 GMT"
+      "title": "Ships in Hormuz strait hit by worst spate of attacks since start of war",
+      "url": "https://www.ft.com/content/a4ab83d4-81b5-4336-9569-a0708b41e894?syn-25a6b1a6=1",
+      "published": "Tue, 13 Oct 2026 12:04:22 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "FirstFT: Diesel prices slip after Trump announces ‘energy ceasefire’",
-      "url": "https://www.ft.com/content/7dc561ba-a386-479d-9633-9209b76b1812?syn-25a6b1a6=1",
-      "published": "Mon, 12 Oct 2026 10:24:38 GMT"
+      "title": "Can energy help Mexico in trade talks with Trump?",
+      "url": "https://www.ft.com/content/73257952-844b-4f5f-a1cb-112ae9cb0249?syn-25a6b1a6=1",
+      "published": "Tue, 13 Oct 2026 11:00:08 GMT"
     }
   ],
   "summary": {
