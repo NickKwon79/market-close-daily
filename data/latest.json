@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-10-13 01:54 KST",
+  "as_of_kst": "2026-10-13 11:39 KST",
   "as_of_date": "2026-10-13",
   "as_of_weekday": "TUE",
-  "build_unix": 1791824085,
+  "build_unix": 1791859187,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -10,15 +10,15 @@
       "name": "S&P 500",
       "region": "USA",
       "kind": "broad",
-      "price": 7803.62,
-      "change": -7.92,
-      "change_pct": -0.1,
+      "price": 7807.24,
+      "change": -4.3,
+      "change_pct": -0.06,
       "spark": [
         7818.93,
         7801.77,
         7765.36,
         7811.54,
-        7803.62
+        7807.24
       ],
       "as_of": "2026-10-12"
     },
@@ -28,15 +28,15 @@
       "name": "NASDAQ Composite",
       "region": "USA",
       "kind": "tech",
-      "price": 27256.98,
-      "change": -109.19,
-      "change_pct": -0.4,
+      "price": 27245.9,
+      "change": -120.27,
+      "change_pct": -0.44,
       "spark": [
         27599.79,
         27538.69,
         27193.34,
         27366.17,
-        27256.98
+        27245.9
       ],
       "as_of": "2026-10-12"
     },
@@ -46,15 +46,15 @@
       "name": "Dow Jones 30",
       "region": "USA",
       "kind": "value",
-      "price": 51848.31,
-      "change": 193.36,
-      "change_pct": 0.37,
+      "price": 51850.55,
+      "change": 195.6,
+      "change_pct": 0.38,
       "spark": [
         51521.28,
         51179.87,
         51231.64,
         51654.95,
-        51848.31
+        51850.55
       ],
       "as_of": "2026-10-12"
     },
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 6625.93,
-      "change": -177.97,
-      "change_pct": -2.62,
+      "price": 6002.03,
+      "change": -382.21,
+      "change_pct": -5.99,
       "spark": [
-        6971.35,
-        7003.74,
         6941.39,
         6803.9,
-        6625.93
+        6625.93,
+        6384.24,
+        6002.03
       ],
-      "as_of": "2026-10-12"
+      "as_of": "2026-10-13"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 69030.92,
-      "change": -11.19,
-      "change_pct": -0.02,
+      "price": 67290.42,
+      "change": -1740.5,
+      "change_pct": -2.52,
       "spark": [
-        69946.86,
         70683.98,
         70035.71,
         69042.11,
-        69030.92
+        69030.92,
+        67290.42
       ],
-      "as_of": "2026-10-09"
+      "as_of": "2026-10-13"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 24211.35,
-      "change": 425.56,
-      "change_pct": 1.79,
+      "price": 24035.05,
+      "change": -236.15,
+      "change_pct": -0.97,
       "spark": [
-        24040.34,
-        24280.56,
         24130.5,
         23785.79,
-        24211.35
+        24211.35,
+        24271.2,
+        24035.05
       ],
-      "as_of": "2026-10-12"
+      "as_of": "2026-10-13"
     },
     "ftse": {
       "key": "ftse",
@@ -118,15 +118,15 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10656.28,
-      "change": 104.18,
+      "price": 10656.3,
+      "change": 104.2,
       "change_pct": 0.99,
       "spark": [
         10541.7,
         10458.5,
         10441.6,
         10552.1,
-        10656.28
+        10656.3
       ],
       "as_of": "2026-10-12"
     },
@@ -153,33 +153,33 @@
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1333.83,
+      "rate": 1338.39,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 158.06,
+      "rate": 158.23,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1159,
+      "rate": 1.1177,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.692,
+      "rate": 6.6945,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 102.57,
-      "change": 0.36,
-      "change_pct": 0.36,
+      "rate": 102.41,
+      "change": 0.2,
+      "change_pct": 0.19,
       "kind": "index"
     }
   },
@@ -189,27 +189,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 93.73,
-      "change": 1.88,
-      "change_pct": 2.05
+      "price": 92.61,
+      "change": 0.76,
+      "change_pct": 0.83
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4185.6,
-      "change": -30.7,
-      "change_pct": -0.73
+      "price": 4194.2,
+      "change": -22.1,
+      "change_pct": -0.52
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 82494.6,
-      "change": -1184.87,
-      "change_pct": -1.42
+      "price": 82740.65,
+      "change": -938.82,
+      "change_pct": -1.12
     },
     "ust10y": {
       "key": "ust10y",
@@ -225,12 +225,36 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 15.22,
-      "change": 0.38,
-      "change_pct": 2.56
+      "price": 15.21,
+      "change": 0.37,
+      "change_pct": 2.49
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Tuesday's big stock stories: What’s likely to move the market in the next trading session",
+      "url": "https://www.cnbc.com/2026/10/12/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+      "published": "Mon, 12 Oct 2026 23:20:20 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Goldman Sachs, Morgan Stanley have earnings momentum and are reporting this week. There are others",
+      "url": "https://www.cnbc.com/2026/10/12/goldman-morgan-stanley-have-earnings-momentum-and-are-reporting-this-week.html",
+      "published": "Mon, 12 Oct 2026 20:19:09 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Katie Stockton says retail stocks could be primed for a counter-trend rally. These stocks may lead the bounce",
+      "url": "https://www.cnbc.com/2026/10/12/katie-stockton-says-retail-stocks-could-be-primed-for-a-counter-trend-rally-these-stocks-may-lead-the-bounce.html",
+      "published": "Mon, 12 Oct 2026 19:09:50 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "A massive trade just happened in surging shares of Snap",
+      "url": "https://www.cnbc.com/2026/10/12/a-massive-trade-just-happens-in-surging-shares-of-snap.html",
+      "published": "Mon, 12 Oct 2026 18:43:44 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "UnitedHealth shares are doing something unusual ahead of earnings",
@@ -244,136 +268,130 @@
       "published": "Mon, 12 Oct 2026 15:54:41 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "This logistics name hated by Wall Street made Josh Brown's Best Stocks list",
-      "url": "https://www.cnbc.com/2026/10/12/this-logistics-name-hated-by-wall-street-made-josh-browns-best-stocks-list.html",
-      "published": "Mon, 12 Oct 2026 15:07:26 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Buy the dip on this satellite stock as catalysts line up, says Deutsche Bank",
-      "url": "https://www.cnbc.com/2026/10/12/ast-spacemobile-deutsche-bank-upgrade.html",
-      "published": "Mon, 12 Oct 2026 14:09:53 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Banks are set to report this week. Here's what the options market expects",
-      "url": "https://www.cnbc.com/2026/10/12/banks-are-set-to-report-this-week-heres-what-the-options-market-expects.html",
-      "published": "Mon, 12 Oct 2026 13:27:20 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "An AI pivot will drive Salesforce shares higher, says Bank of America",
-      "url": "https://www.cnbc.com/2026/10/12/salesforce-to-punch-into-the-green-on-ai-pivot-bank-of-america-says-.html",
-      "published": "Mon, 12 Oct 2026 12:28:32 GMT"
+      "source": "MarketWatch Top",
+      "title": "The global economy is starting to look K-shaped. Here are the winners and losers, and where the U.S. fits.",
+      "url": "https://www.marketwatch.com/story/the-global-economy-is-starting-to-look-k-shaped-here-are-the-winners-and-losers-and-where-the-u-s-fits-4ad93ea7?mod=mw_rss_topstories",
+      "published": "Tue, 13 Oct 2026 02:00:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "These stocks could be the future winners — and losers — of a massive shift in IT spending",
-      "url": "https://www.marketwatch.com/story/these-stocks-could-be-the-future-winners-and-losers-of-a-massive-shift-in-it-spending-bfc88c05?mod=mw_rss_topstories",
-      "published": "Mon, 12 Oct 2026 16:47:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Buy these stocks as plays on Google’s big spending, analyst says",
-      "url": "https://www.marketwatch.com/story/buy-these-stocks-as-plays-on-googles-big-spending-analyst-says-a159c170?mod=mw_rss_topstories",
-      "published": "Mon, 12 Oct 2026 16:31:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "‘I feel like a loser’: My stock portfolio is swinging wildly. Is it finally time to worry?",
-      "url": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
-      "published": "Mon, 12 Oct 2026 16:30:00 GMT"
+      "title": "The SpaceX threat could loom over AT&T’s stock for a prolonged stretch, analyst cautions",
+      "url": "https://www.marketwatch.com/story/the-spacex-threat-could-loom-over-at-ts-stock-for-a-prolonged-stretch-analyst-cautions-71436853?mod=mw_rss_topstories",
+      "published": "Tue, 13 Oct 2026 00:18:00 GMT"
     },
     {
       "source": "MarketWatch Top",
       "title": "‘The house is worth $925,000’: My sister moved in with our mother, 78, and says she deserves the family home. Is she right?",
       "url": "https://www.marketwatch.com/story/my-sister-moved-in-with-our-widowed-mother-78-and-says-she-deserves-the-family-home-is-she-right-7981835d?mod=mw_rss_topstories",
-      "published": "Mon, 12 Oct 2026 16:30:00 GMT"
+      "published": "Mon, 12 Oct 2026 23:31:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Here’s how much extra money could be in your monthly Social Security check next year",
-      "url": "https://www.marketwatch.com/story/heres-how-much-extra-money-could-be-in-your-monthly-social-security-check-next-year-2e0c4eb8?mod=mw_rss_topstories",
-      "published": "Mon, 12 Oct 2026 15:47:00 GMT"
+      "title": "‘The prospectus looks impressive’: My financial adviser wants me to invest $350,000 in a UAE data center. Is this risky?",
+      "url": "https://www.marketwatch.com/story/the-prospectus-looks-impressive-my-financial-adviser-wants-me-to-invest-350-000-in-a-uae-data-center-is-this-risky-d5d3747c?mod=mw_rss_topstories",
+      "published": "Mon, 12 Oct 2026 23:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Micron makes a statement with the latest clue about its cash windfall",
-      "url": "https://www.marketwatch.com/story/micron-makes-a-statement-with-the-latest-clue-about-its-cash-windfall-c9e33f7d?mod=mw_rss_topstories",
-      "published": "Mon, 12 Oct 2026 15:06:00 GMT"
+      "title": "Investors worry the bull market is getting old. But history shows it can continue to age gracefully.",
+      "url": "https://www.marketwatch.com/story/investors-worry-the-bull-market-is-getting-old-but-history-shows-it-can-continue-to-age-gracefully-0402e69c?mod=mw_rss_topstories",
+      "published": "Mon, 12 Oct 2026 22:27:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "‘I have no children’: My aunt gave me $50,000 for a down payment. Now she wants me to leave my home to her two children.",
+      "url": "https://www.marketwatch.com/story/i-have-no-children-my-aunt-gave-me-50-000-for-a-down-payment-she-wants-me-to-leave-my-home-to-her-two-children-24fad94c?mod=mw_rss_topstories",
+      "published": "Mon, 12 Oct 2026 22:00:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Willamette Valley Vineyards CEO Michael Osborn buys $19,064 in stock",
-      "url": "https://www.investing.com/news/insider-trading-news/willamette-valley-vineyards-ceo-michael-osborn-buys-19064-in-stock-93CH-4944970",
-      "published": "2026-10-12 16:46:04"
+      "title": "Why is Samsung Electronics stock plunging today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-samsung-electronics-stock-plunging-today-93CH-4945331",
+      "published": "2026-10-13 02:30:57"
     },
     {
       "source": "Investing.com News",
-      "title": "European stocks rise despite Middle East tensions",
-      "url": "https://www.investing.com/news/stock-market-news/european-stocks-inch-higher-as-trumps-russiaukraine-ceasefire-softens-crude-4943330",
-      "published": "2026-10-12 16:36:49"
+      "title": "Why is SK Hynix stock plunging today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-sk-hynix-stock-plunging-today-93CH-4945330",
+      "published": "2026-10-13 02:30:50"
     },
     {
       "source": "Investing.com News",
-      "title": "Renaissancere Holdings Ltd stock hits all-time high at 340.3 USD",
-      "url": "https://www.investing.com/news/company-news/renaissancere-holdings-ltd-stock-hits-alltime-high-at-3403-usd-93CH-4944964",
-      "published": "2026-10-12 16:36:44"
+      "title": "Citigroup up 13% ahead of big bank earnings, pivotal CPI data",
+      "url": "https://www.investing.com/news/stock-market-news/citigroup-up-13-ahead-of-big-bank-earnings-pivotal-cpi-data-4945321",
+      "published": "2026-10-13 02:26:39"
     },
     {
       "source": "Investing.com News",
-      "title": "Exclusive-Moonshot execs in talks to settle dispute with shareholder ahead of planned IPO, people say",
-      "url": "https://www.investing.com/news/stock-market-news/exclusivemoonshot-execs-in-talks-to-settle-dispute-with-shareholder-ahead-of-planned-ipo-people-say-4942884",
-      "published": "2026-10-12 16:36:38"
+      "title": "IMF cuts Latin America, Caribbean growth forecasts on energy shock, little AI boost",
+      "url": "https://www.investing.com/news/economy-news/imf-cuts-latin-america-caribbean-growth-forecasts-on-energy-shock-little-ai-boost-4945315",
+      "published": "2026-10-13 02:24:56"
     },
     {
       "source": "Investing.com News",
-      "title": "US Republicans, Democrats want Trump to reverse course on Russia diesel",
-      "url": "https://www.investing.com/news/commodities-news/prominent-republican-senator-says-trumps-russian-diesel-deal-may-be-illegal-4942755",
-      "published": "2026-10-12 16:30:28"
+      "title": "IMF says AI investment propping up global growth, but war and debt threaten outlook",
+      "url": "https://www.investing.com/news/economy-news/imf-says-ai-investment-propping-up-global-growth-but-war-and-debt-threaten-outlook-4945312",
+      "published": "2026-10-13 02:18:27"
     },
     {
       "source": "Investing.com News",
-      "title": "Why is Dynatrace stock climbing today?",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-dynatrace-stock-climbing-today-93CH-4944959",
-      "published": "2026-10-12 16:26:48"
+      "title": "IMF expects gradual BOJ rate hike towards neutral setting",
+      "url": "https://www.investing.com/news/economy-news/imf-expects-gradual-boj-rate-hike-towards-neutral-setting-4945314",
+      "published": "2026-10-13 02:06:54"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Fed’s Hammack Says Smaller, Frequent Rate Adjustments Preferable",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-12/fed-s-hammack-says-smaller-frequent-rate-adjustments-preferable",
-      "published": "Mon, 12 Oct 2026 16:50:00 GMT"
+      "title": "Indian Bonds Face Double Blow From Rupee Defense, Inflation",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-10-13/indian-bonds-face-double-blow-from-rupee-defense-inflation",
+      "published": "Tue, 13 Oct 2026 02:36:00 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "LVMH Sales Slump at Key Unit on Weaker Demand in China",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-12/lvmh-sales-at-key-unit-fall-as-china-woes-hurt-louis-vuitton",
-      "published": "Mon, 12 Oct 2026 15:49:25 GMT"
+      "title": "Ares Fund Offering Hit by Australia Crackdown on Private Credit",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-13/australia-regulator-halts-another-credit-fund-amid-crackdown",
+      "published": "Tue, 13 Oct 2026 00:40:40 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Ukraine Should Be Free to Strike Russia",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-12/ukraine-should-be-free-to-strike-russia-video",
-      "published": "Mon, 12 Oct 2026 16:17:23 GMT"
+      "title": "Malaysia King Buys Stake in Miner Expanding Into Rare Earths",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-13/malaysian-king-buys-stake-in-miner-expanding-into-rare-earths",
+      "published": "Tue, 13 Oct 2026 00:24:49 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "(USD:UGX) Uganda Shilling Turns Worst Currency as Investors Sour on Local Debt",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-12/-usd-ugx-uganda-shilling-turns-worst-currency-as-investors-sour-on-local-debt",
-      "published": "Mon, 12 Oct 2026 14:02:10 GMT"
+      "title": "Stocks Extend Losses as AI Trade Under Pressure: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-12/stock-market-today-dow-s-p-live-updates",
+      "published": "Mon, 12 Oct 2026 22:04:35 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "S&P 500 Hovers Near All-Time High Before Earnings: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-11/oil-rises-on-mideast-attacks-dollar-edges-higher-markets-wrap",
-      "published": "Sun, 11 Oct 2026 22:09:49 GMT"
+      "title": "Goldman Says Market Is Underestimating How Far Yuan Can Rise",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-12/goldman-says-markets-are-underestimating-how-far-yuan-can-rise",
+      "published": "Mon, 12 Oct 2026 23:00:04 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "10-Year Yield at 6% A Major Psychological Level for Investors: Singaravelu",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-12/singaravelu-sees-6-treasury-yield-risk-video",
-      "published": "Mon, 12 Oct 2026 14:49:40 GMT"
+      "title": "Chip Selloff Triggers 6% Korea Rout After CEO’s ‘Casino’ Warning",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-13/korean-chip-stocks-sink-on-chinese-rival-worry-broadcom-remarks",
+      "published": "Tue, 13 Oct 2026 00:28:27 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "France to raise stake in struggling miner Eramet",
+      "url": "https://www.ft.com/content/4d84b98b-bdbe-4e1c-a0b8-4dd0c814927b?syn-25a6b1a6=1",
+      "published": "Mon, 12 Oct 2026 20:34:37 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Trump’s Russian diesel gambit is cynical and won’t work",
+      "url": "https://www.ft.com/content/5bc438a0-26b7-4893-9d62-1f45d2963eef?syn-25a6b1a6=1",
+      "published": "Mon, 12 Oct 2026 16:54:06 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Goldman goes long stocks — and bonds*",
+      "url": "https://www.ft.com/content/2af1eb34-f7f4-445f-81a3-42e6fd448971",
+      "published": "Mon, 12 Oct 2026 16:02:19 GMT"
     },
     {
       "source": "FT Markets",
@@ -392,24 +410,6 @@
       "title": "FirstFT: Diesel prices slip after Trump announces ‘energy ceasefire’",
       "url": "https://www.ft.com/content/7dc561ba-a386-479d-9633-9209b76b1812?syn-25a6b1a6=1",
       "published": "Mon, 12 Oct 2026 10:24:38 GMT"
-    },
-    {
-      "source": "FT Markets",
-      "title": "Is the US economy as narrow as its stock market?",
-      "url": "https://www.ft.com/content/2aa849df-5670-4577-87dd-2c40f2bac2aa?syn-25a6b1a6=1",
-      "published": "Mon, 12 Oct 2026 05:30:05 GMT"
-    },
-    {
-      "source": "FT Markets",
-      "title": "What a $30bn Aussie data centre IPO debacle actually means",
-      "url": "https://www.ft.com/content/97a2c4ae-79df-4e67-a408-91a07bfc2546",
-      "published": "Mon, 12 Oct 2026 05:00:06 GMT"
-    },
-    {
-      "source": "FT Markets",
-      "title": "Wall Street’s great money spinner",
-      "url": "https://www.ft.com/content/d3a342a9-0b64-4dd3-8f12-54c6750509de?syn-25a6b1a6=1",
-      "published": "Mon, 12 Oct 2026 05:00:06 GMT"
     }
   ],
   "summary": {
