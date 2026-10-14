@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-10-14 09:27 KST",
+  "as_of_kst": "2026-10-14 21:59 KST",
   "as_of_date": "2026-10-14",
   "as_of_weekday": "WED",
-  "build_unix": 1791937670,
+  "build_unix": 1791982758,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,15 +64,15 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 6126.78,
-      "change": -257.46,
-      "change_pct": -4.03,
+      "price": 6008.81,
+      "change": -26.54,
+      "change_pct": -0.44,
       "spark": [
-        6941.39,
         6803.9,
         6625.93,
         6384.24,
-        6126.78
+        6035.35,
+        6008.81
       ],
       "as_of": "2026-10-14"
     },
@@ -82,15 +82,15 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 67984.25,
-      "change": -1046.67,
-      "change_pct": -1.52,
+      "price": 67744.29,
+      "change": -33.23,
+      "change_pct": -0.05,
       "spark": [
-        70683.98,
         70035.71,
         69042.11,
         69030.92,
-        67984.25
+        67777.52,
+        67744.29
       ],
       "as_of": "2026-10-14"
     },
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 24271.2,
-      "change": 59.85,
-      "change_pct": 0.25,
+      "price": 24314.17,
+      "change": -31.05,
+      "change_pct": -0.13,
       "spark": [
-        24280.56,
-        24130.5,
         23785.79,
         24211.35,
-        24271.2
+        24271.2,
+        24345.22,
+        24314.17
       ],
-      "as_of": "2026-10-13"
+      "as_of": "2026-10-14"
     },
     "ftse": {
       "key": "ftse",
@@ -118,17 +118,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10656.3,
-      "change": 104.2,
-      "change_pct": 0.99,
+      "price": 10666.36,
+      "change": 16.06,
+      "change_pct": 0.15,
       "spark": [
-        10541.7,
-        10458.5,
         10441.6,
         10552.1,
-        10656.3
+        10656.3,
+        10650.3,
+        10666.36
       ],
-      "as_of": "2026-10-13"
+      "as_of": "2026-10-14"
     },
     "dax": {
       "key": "dax",
@@ -136,50 +136,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 25277.68,
-      "change": 190.41,
-      "change_pct": 0.76,
+      "price": 25331.09,
+      "change": 71.19,
+      "change_pct": 0.28,
       "spark": [
-        25449.19,
-        25104.36,
         24806.97,
         25087.27,
-        25277.68
+        25277.68,
+        25259.9,
+        25331.09
       ],
-      "as_of": "2026-10-13"
+      "as_of": "2026-10-14"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1338.98,
+      "rate": 1339.78,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 158.34,
+      "rate": 158.82,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1204,
+      "rate": 1.1136,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.6817,
+      "rate": 6.6859,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 102.16,
-      "change": -0.42,
-      "change_pct": -0.41,
+      "rate": 102.65,
+      "change": 0.47,
+      "change_pct": 0.46,
       "kind": "index"
     }
   },
@@ -189,48 +189,66 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 94.87,
-      "change": 1.13,
-      "change_pct": 1.21
+      "price": 95.64,
+      "change": 1.5,
+      "change_pct": 1.59
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4185.9,
-      "change": -4.7,
-      "change_pct": -0.11
+      "price": 4123.4,
+      "change": -53.9,
+      "change_pct": -1.29
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 83344.73,
-      "change": 1582.16,
-      "change_pct": 1.94
+      "price": 82652.66,
+      "change": -442.47,
+      "change_pct": -0.53
     },
     "ust10y": {
       "key": "ust10y",
       "symbol": "^TNX",
       "name": "10Y UST Yield",
       "unit": "%",
-      "price": 5.22,
-      "change": -0.02,
-      "change_pct": -0.44
+      "price": 5.31,
+      "change": 0.09,
+      "change_pct": 1.82
     },
     "vix": {
       "key": "vix",
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 15.27,
-      "change": 0.06,
-      "change_pct": 0.39
+      "price": 15.8,
+      "change": 0.53,
+      "change_pct": 3.47
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Here are Wednesday's biggest analyst calls: SpaceX, Nvidia, Apple, Meta, Brinker, Kontoor Brands & more",
+      "url": "https://www.cnbc.com/2026/10/14/wednesday-top-analyst-calls-on-wall-street-like-spacex.html",
+      "published": "Wed, 14 Oct 2026 12:09:41 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "A recovery in lithium demand will drive this stock higher, Mizuho says",
+      "url": "https://www.cnbc.com/2026/10/14/alb-stock-mizuho-lithium-demand.html",
+      "published": "Wed, 14 Oct 2026 11:51:23 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Chili's owner has surged this year. It's still 'underappreciated,' Jefferies says",
+      "url": "https://www.cnbc.com/2026/10/14/brinker-international-jefferies-upgrade-chilis.html",
+      "published": "Wed, 14 Oct 2026 10:46:14 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Wednesday's big stock stories: What’s likely to move the market in the next trading session",
@@ -250,166 +268,148 @@
       "published": "Tue, 13 Oct 2026 20:09:23 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "I was one of the biggest shareholders in this tech stock in the 1990s. I'm bullish again because of AI",
-      "url": "https://www.cnbc.com/2026/10/13/paul-meeks-bullish-flex-because-of-ai.html",
-      "published": "Tue, 13 Oct 2026 18:38:28 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "This ugly shoe brand won over Gen Z. Its stock's low valuation could earn investors' attention",
-      "url": "https://www.cnbc.com/2026/10/13/crocs-stock-gen-z-china-valuation.html",
-      "published": "Tue, 13 Oct 2026 18:12:57 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "The SpaceX threat to telecom is real. How it could play out",
-      "url": "https://www.cnbc.com/2026/10/13/spacex-wireless-telecom-threat.html",
-      "published": "Tue, 13 Oct 2026 15:59:36 GMT"
+      "source": "MarketWatch Top",
+      "title": "Charles Schwab and DoorDash ranked among bargain stocks that could lead the market higher",
+      "url": "https://www.marketwatch.com/story/from-charles-schwab-to-doordash-why-these-bargain-stocks-could-lead-the-market-higher-4d99fb97?mod=mw_rss_topstories",
+      "published": "Wed, 14 Oct 2026 12:45:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Chip stocks suffer worst stretch in 16 months as AI fatigue grips the market",
-      "url": "https://www.marketwatch.com/story/ai-fatigue-is-gripping-the-market-and-driving-chip-stocks-toward-their-worst-stretch-in-16-months-6dc78ece?mod=mw_rss_topstories",
-      "published": "Tue, 13 Oct 2026 21:02:00 GMT"
+      "title": "Bank of America adds a profit miss to the misery of a $1.2 billion government fine",
+      "url": "https://www.marketwatch.com/story/bank-of-america-adds-a-profit-miss-to-the-misery-of-a-1-2-billion-government-fine-d4420bfa?mod=mw_rss_topstories",
+      "published": "Wed, 14 Oct 2026 12:45:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘I am a pretty cautious person’: My financial adviser wants me to invest $350,000 in a UAE data center. Is this risky?",
-      "url": "https://www.marketwatch.com/story/the-prospectus-looks-impressive-my-financial-adviser-wants-me-to-invest-350-000-in-a-uae-data-center-is-this-risky-d5d3747c?mod=mw_rss_topstories",
-      "published": "Tue, 13 Oct 2026 21:01:00 GMT"
+      "title": "My sister moved in with our mother, 78, and now says she deserves the $925,000 family home. Is she right?",
+      "url": "https://www.marketwatch.com/story/my-sister-moved-in-with-our-widowed-mother-78-and-says-she-deserves-the-family-home-is-she-right-7981835d?mod=mw_rss_topstories",
+      "published": "Wed, 14 Oct 2026 12:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "The SpaceX threat could loom over AT&T’s stock for a prolonged stretch, analyst cautions",
-      "url": "https://www.marketwatch.com/story/the-spacex-threat-could-loom-over-at-ts-stock-for-a-prolonged-stretch-analyst-cautions-71436853?mod=mw_rss_topstories",
-      "published": "Tue, 13 Oct 2026 20:42:00 GMT"
+      "title": "How to read your body’s warning signs years before you get sick",
+      "url": "https://www.marketwatch.com/story/how-to-read-your-bodys-warning-signs-years-before-you-get-sick-3fb8c82d?mod=mw_rss_topstories",
+      "published": "Wed, 14 Oct 2026 12:00:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Six Flags’ stock slumps near 17-year low after fatal incident",
-      "url": "https://www.marketwatch.com/story/six-flags-stock-slumps-near-52-week-lows-after-fatal-accident-3f938112?mod=mw_rss_topstories",
-      "published": "Tue, 13 Oct 2026 20:41:00 GMT"
+      "title": "What analysts are watching with key semiconductor maker TSMC set to report results",
+      "url": "https://www.marketwatch.com/story/what-analysts-are-watching-with-key-semiconductor-maker-tsmc-set-to-report-results-c161e86b?mod=mw_rss_topstories",
+      "published": "Wed, 14 Oct 2026 11:36:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "AST SpaceMobile’s stock is feeling the heat from SpaceX’s wireless plans",
-      "url": "https://www.marketwatch.com/story/ast-spacemobiles-stock-is-feeling-the-heat-from-spacexs-wireless-plans-7e2fafb4?mod=mw_rss_topstories",
-      "published": "Tue, 13 Oct 2026 20:32:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "My wife says we can’t afford to retire, yet she wants to take an $8,000 trip to Italy. We have $4 million. Do I keep working?",
-      "url": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
-      "published": "Tue, 13 Oct 2026 20:30:00 GMT"
+      "title": "Here’s how much the AI boom is really contributing to inflation, according to Goldman Sachs calculations",
+      "url": "https://www.marketwatch.com/story/heres-how-much-the-ai-boom-is-contributing-to-inflation-according-to-goldman-sachs-calculations-5ec717ff?mod=mw_rss_topstories",
+      "published": "Wed, 14 Oct 2026 11:18:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Oil prices rise as Houthi-Saudi attacks spur supply uncertainty",
-      "url": "https://www.investing.com/news/commodities-news/oil-prices-rise-as-houthisaudi-attacks-spur-supply-uncertainty-4947751",
-      "published": "2026-10-14 00:01:18"
+      "title": "Indian bond yields hit highest level since March 2023",
+      "url": "https://www.investing.com/news/economy-news/indian-bond-yields-hit-highest-level-since-march-2023-93CH-4949270",
+      "published": "2026-10-14 12:47:12"
     },
     {
       "source": "Investing.com News",
-      "title": "Zoom communications director McMaster sells $284,120 in stock",
-      "url": "https://www.investing.com/news/insider-trading-news/zoom-communications-director-mcmaster-sells-284120-in-stock-93CH-4947750",
-      "published": "2026-10-14 00:01:10"
+      "title": "Japan Airlines orders up to 26 Embraer jets for regional unit",
+      "url": "https://www.investing.com/news/stock-market-news/japan-airlines-orders-up-to-26-embraer-jets-for-regional-unit-93CH-4949266",
+      "published": "2026-10-14 12:45:16"
     },
     {
       "source": "Investing.com News",
-      "title": "Trump administration to expand a Delek Texas refinery using Defense ​Production ⁠Act",
-      "url": "https://www.investing.com/news/commodities-news/trump-administration-to-expand-a-delek-texas-refinery-using-defense-productionact-4947737",
-      "published": "2026-10-14 00:00:38"
+      "title": "Saudi Arabia stocks lower at close of trade; Tadawul All Share down 1.74%",
+      "url": "https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-lower-at-close-of-trade-tadawul-all-share-down-174-4949263",
+      "published": "2026-10-14 12:45:03"
     },
     {
       "source": "Investing.com News",
-      "title": "Cheetah Net CEO Huan Liu buys $330,000 of class B stock",
-      "url": "https://www.investing.com/news/insider-trading-news/cheetah-net-ceo-huan-liu-buys-330000-of-class-b-stock-93CH-4947736",
-      "published": "2026-10-13 23:46:11"
+      "title": "Japan to invest up to $21 billion in two US chip factories to be run by GlobalFoundries",
+      "url": "https://www.investing.com/news/stock-market-news/japan-to-invest-up-to-21-billion-in-two-us-chip-factories-to-be-run-by-globalfoundries-4949222",
+      "published": "2026-10-14 12:43:30"
     },
     {
       "source": "Investing.com News",
-      "title": "Zoom president of engineering & product Velchamy sells $758k in stock",
-      "url": "https://www.investing.com/news/insider-trading-news/zoom-president-of-engineering--product-velchamy-sells-758k-in-stock-93CH-4947735",
-      "published": "2026-10-13 23:46:06"
+      "title": "S&P 500 futures turn negative after Sept inflation data",
+      "url": "https://www.investing.com/news/economy-news/sp-500-futures-turn-negative-after-sept-inflation-data-4949261",
+      "published": "2026-10-14 12:43:10"
     },
     {
       "source": "Investing.com News",
-      "title": "Zoom CFO Michelle Chang sells $844k in stock, prices $98.67-$99.84",
-      "url": "https://www.investing.com/news/insider-trading-news/zoom-cfo-michelle-chang-sells-844k-in-stock-prices-98679984-93CH-4947734",
-      "published": "2026-10-13 23:46:00"
+      "title": "Bernstein lowers J.B. Hunt stock price target on cost concerns",
+      "url": "https://www.investing.com/news/analyst-ratings/bernstein-lowers-jb-hunt-stock-price-target-on-cost-concerns-93CH-4949260",
+      "published": "2026-10-14 12:43:03"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Latest Oil Market News and Analysis for Oct. 14",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-13/latest-oil-market-news-and-analysis-for-oct-14",
-      "published": "Tue, 13 Oct 2026 22:02:59 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Gold Steady as Fed Official’s Remarks Temper Rate-Hike Bets",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-14/gold-steady-as-fed-official-s-remarks-temper-rate-hike-bets",
-      "published": "Wed, 14 Oct 2026 00:08:05 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Asian Stocks Rise on Fed Rate Signal, Oil Gains: Markets Wrap",
+      "title": "Stocks, Bonds Fall as CPI Data Fuel Fed-Hike Bets: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-10-13/stock-market-today-dow-s-p-live-updates",
       "published": "Tue, 13 Oct 2026 22:03:38 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "South Africa Fund Manager Tips Nigerian Stocks Over South Korea",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-14/south-africa-fund-manager-tips-nigerian-stocks-over-south-korea",
-      "published": "Wed, 14 Oct 2026 00:00:00 GMT"
+      "title": "Dollar Advances to Highest Since May 2025 on Fed Hike Views",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-14/dollar-advances-to-highest-since-may-2025-on-fed-hike-views",
+      "published": "Wed, 14 Oct 2026 12:52:40 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Bank of America Fined More Than $1.2 Billion for Money-Laundering",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-13/bofa-fined-more-than-1-2-billion-for-money-laundering-video",
-      "published": "Tue, 13 Oct 2026 23:58:52 GMT"
+      "title": "Gold Slides as Faster US Inflation Stokes Fed Rate Hike Wagers",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-14/gold-steady-as-fed-official-s-remarks-temper-rate-hike-bets",
+      "published": "Wed, 14 Oct 2026 00:08:05 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Hong Kong’s Low Aggregate Balance Sparks Rate Volatility Concern",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-13/hong-kong-s-low-aggregate-balance-sparks-rate-volatility-concern",
-      "published": "Tue, 13 Oct 2026 23:48:02 GMT"
+      "title": "India Regulator Plans Rule Overhaul to Boost Tiny Listings",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-14/india-regulator-plans-easier-listing-rules-for-micro-caps",
+      "published": "Wed, 14 Oct 2026 11:06:57 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "US Treasuries Slump as Hot Inflation Lifts Fed Rate-Hike Bets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-14/us-treasuries-slump-as-hot-inflation-lifts-fed-rate-hike-bets",
+      "published": "Wed, 14 Oct 2026 12:44:25 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Aramco Headquarters Hit as Houthis Widen Saudi Arabia Attacks",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-14/saudi-aramco-headquarters-hit-in-houthi-attack-video",
+      "published": "Wed, 14 Oct 2026 12:34:23 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Saudi Aramco HQ attacked in suspected Houthi strike",
+      "title": "BlackRock pulls in $205bn to take assets to record high",
+      "url": "https://www.ft.com/content/63e3c39b-357f-4a87-adf0-090c60c929a7?syn-25a6b1a6=1",
+      "published": "Wed, 14 Oct 2026 11:39:33 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "General Atlantic plans IPO at up to $10bn valuation",
+      "url": "https://www.ft.com/content/0f7511ee-efb1-4bf0-8f87-67f572193fd3?syn-25a6b1a6=1",
+      "published": "Wed, 14 Oct 2026 10:00:02 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Crypto exchange Kraken owner to buy European bank",
+      "url": "https://www.ft.com/content/8e82ae33-cc11-4731-826a-bcd0752f79bf?syn-25a6b1a6=1",
+      "published": "Wed, 14 Oct 2026 09:30:02 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Houthis attack Saudi Aramco headquarters",
       "url": "https://www.ft.com/content/a25417b3-d4e4-4b89-b14d-6370a85ce3c4?syn-25a6b1a6=1",
-      "published": "Tue, 13 Oct 2026 22:00:20 GMT"
+      "published": "Wed, 14 Oct 2026 09:03:41 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Chip stocks slide after Broadcom boss warns of ‘casino’ mentality in AI investing",
-      "url": "https://www.ft.com/content/e16f0422-cf75-4cc9-962d-4605e421dc63?syn-25a6b1a6=1",
-      "published": "Tue, 13 Oct 2026 20:28:15 GMT"
+      "title": "European oil refineries’ margins collapse as input costs soar",
+      "url": "https://www.ft.com/content/c69ef2f5-0644-4ec3-accb-cbc8d633e008?syn-25a6b1a6=1",
+      "published": "Wed, 14 Oct 2026 08:32:10 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Bank of America fined $1.2bn over money laundering failures",
-      "url": "https://www.ft.com/content/c08dd4a1-74a4-49f2-90f7-0857c6e87868?syn-25a6b1a6=1",
-      "published": "Tue, 13 Oct 2026 20:00:06 GMT"
-    },
-    {
-      "source": "FT Markets",
-      "title": "Mortgages, diesel and the US midterms",
-      "url": "https://www.ft.com/content/68bf1530-801b-4f1b-9673-d430841d2a0f?syn-25a6b1a6=1",
-      "published": "Tue, 13 Oct 2026 20:00:00 GMT"
-    },
-    {
-      "source": "FT Markets",
-      "title": "Will bank earnings growth become a thing of the past?",
-      "url": "https://www.ft.com/content/9f6ec5b2-4f0b-4ed3-9541-588d49e3ad7e?syn-25a6b1a6=1",
-      "published": "Tue, 13 Oct 2026 16:49:43 GMT"
-    },
-    {
-      "source": "FT Markets",
-      "title": "London Stock Exchange owner in talks to buy credit specialist Octus",
-      "url": "https://www.ft.com/content/fbaeca48-5f50-40ca-b45e-5de62ad52b83?syn-25a6b1a6=1",
-      "published": "Tue, 13 Oct 2026 13:41:41 GMT"
+      "title": "Gold Fields mounts charm offensive to woo Northern Star investors",
+      "url": "https://www.ft.com/content/3cad49d9-4c88-46bc-bddd-7b237a399a7b?syn-25a6b1a6=1",
+      "published": "Wed, 14 Oct 2026 06:38:06 GMT"
     }
   ],
   "summary": {
