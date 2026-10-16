@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-10-16 08:44 KST",
+  "as_of_kst": "2026-10-16 21:38 KST",
   "as_of_date": "2026-10-16",
   "as_of_weekday": "FRI",
-  "build_unix": 1792107888,
+  "build_unix": 1792154318,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 6008.81,
-      "change": -26.54,
-      "change_pct": -0.44,
+      "price": 5668.05,
+      "change": 113.83,
+      "change_pct": 2.05,
       "spark": [
-        6803.9,
-        6625.93,
         6384.24,
         6035.35,
-        6008.81
+        6008.81,
+        5554.22,
+        5668.05
       ],
-      "as_of": "2026-10-14"
+      "as_of": "2026-10-16"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 67744.29,
-      "change": -33.23,
-      "change_pct": -0.05,
+      "price": 65324.29,
+      "change": 898.34,
+      "change_pct": 1.39,
       "spark": [
-        70035.71,
-        69042.11,
         69030.92,
         67777.52,
-        67744.29
+        67744.29,
+        64425.95,
+        65324.29
       ],
-      "as_of": "2026-10-15"
+      "as_of": "2026-10-16"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 24314.17,
-      "change": -31.05,
-      "change_pct": -0.13,
+      "price": 24186.83,
+      "change": 124.11,
+      "change_pct": 0.52,
       "spark": [
-        23785.79,
-        24211.35,
         24271.2,
         24345.22,
-        24314.17
+        24314.17,
+        24062.72,
+        24186.83
       ],
-      "as_of": "2026-10-15"
+      "as_of": "2026-10-16"
     },
     "ftse": {
       "key": "ftse",
@@ -118,17 +118,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10724.9,
-      "change": 74.6,
-      "change_pct": 0.7,
+      "price": 10837.88,
+      "change": -2.52,
+      "change_pct": -0.02,
       "spark": [
-        10441.6,
-        10552.1,
         10656.3,
         10650.3,
-        10724.9
+        10724.9,
+        10840.4,
+        10837.88
       ],
-      "as_of": "2026-10-15"
+      "as_of": "2026-10-16"
     },
     "dax": {
       "key": "dax",
@@ -136,50 +136,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 25298.61,
-      "change": 38.71,
-      "change_pct": 0.15,
+      "price": 25608.42,
+      "change": 225.8,
+      "change_pct": 0.89,
       "spark": [
-        24806.97,
-        25087.27,
         25277.68,
         25259.9,
-        25298.61
+        25298.61,
+        25382.62,
+        25608.42
       ],
-      "as_of": "2026-10-15"
+      "as_of": "2026-10-16"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1340.5,
+      "rate": 1331.63,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 158.12,
+      "rate": 157.96,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1216,
+      "rate": 1.125,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.6813,
+      "rate": 6.6754,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 102.04,
-      "change": -0.51,
-      "change_pct": -0.49,
+      "rate": 101.73,
+      "change": -0.27,
+      "change_pct": -0.27,
       "kind": "index"
     }
   },
@@ -189,53 +189,71 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 96.11,
-      "change": 1.02,
-      "change_pct": 1.07
+      "price": 95.73,
+      "change": -2.24,
+      "change_pct": -2.29
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4182.0,
-      "change": 74.1,
-      "change_pct": 1.8
+      "price": 4198.5,
+      "change": 28.4,
+      "change_pct": 0.68
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 82074.19,
-      "change": 511.7,
-      "change_pct": 0.63
+      "price": 82160.52,
+      "change": 19.06,
+      "change_pct": 0.02
     },
     "ust10y": {
       "key": "ust10y",
       "symbol": "^TNX",
       "name": "10Y UST Yield",
       "unit": "%",
-      "price": 5.09,
-      "change": -0.1,
-      "change_pct": -1.95
+      "price": 5.1,
+      "change": 0.01,
+      "change_pct": 0.26
     },
     "vix": {
       "key": "vix",
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 16.46,
-      "change": -0.41,
-      "change_pct": -2.43
+      "price": 16.0,
+      "change": -0.46,
+      "change_pct": -2.79
     }
   },
   "headlines_raw": [
     {
       "source": "CNBC Markets",
+      "title": "Here are Friday's biggest analyst calls: Nvidia, SpaceX, Tesla, Apple, Mobileye, EchoStar, Toll Brothers & more",
+      "url": "https://www.cnbc.com/2026/10/16/friday-analyst-calls-spacex-nvidia-tesla-apple.html",
+      "published": "Fri, 16 Oct 2026 12:22:29 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Buy SpaceX ahead of earnings, says Evercore ISI",
+      "url": "https://www.cnbc.com/2026/10/16/spacex-evercore-isi-price-target.html",
+      "published": "Fri, 16 Oct 2026 11:55:17 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "This autonomous driving stock will rally as adoption accelerates, Citi says",
+      "url": "https://www.cnbc.com/2026/10/16/mobileye-stock-citi-buy-rating.html",
+      "published": "Fri, 16 Oct 2026 10:48:13 GMT"
+    },
+    {
+      "source": "CNBC Markets",
       "title": "Friday's big stock stories: What’s likely to move the market in the next trading session",
       "url": "https://www.cnbc.com/2026/10/15/fridays-big-stock-stories-whats-likely-to-move-the-market.html",
-      "published": "Thu, 15 Oct 2026 23:42:03 GMT"
+      "published": "Thu, 15 Oct 2026 23:49:14 GMT"
     },
     {
       "source": "CNBC Markets",
@@ -250,124 +268,76 @@
       "published": "Thu, 15 Oct 2026 19:53:29 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "CoreWeave credit default swaps hit distress levels as investors sour on AI debt",
-      "url": "https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html",
-      "published": "Thu, 15 Oct 2026 21:33:24 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "What's behind the sell-off in AI neocloud stocks like CoreWeave and Nebius",
-      "url": "https://www.cnbc.com/2026/10/15/whats-behind-the-sell-off-in-ai-neocloud-stocks-like-coreweave-and-nebius-.html",
-      "published": "Thu, 15 Oct 2026 19:12:29 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Josh Brown says this is his AI roller coaster stock",
-      "url": "https://www.cnbc.com/2026/10/15/josh-brown-says-this-is-his-ai-roller-coaster-stock.html",
-      "published": "Thu, 15 Oct 2026 15:39:58 GMT"
+      "source": "MarketWatch Top",
+      "title": "Is Apple’s foldable iPhone Duo worth $2,000? See how it stacks up against other foldable phones.",
+      "url": "https://www.marketwatch.com/story/is-apples-foldable-iphone-duo-worth-2-000-see-how-it-stacks-up-against-other-foldable-phones-c9066b13?mod=mw_rss_topstories",
+      "published": "Fri, 16 Oct 2026 12:00:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Pepsi loses more ground in the soda wars, as KFC switches to Coke",
-      "url": "https://www.marketwatch.com/story/pepsi-loses-more-ground-in-the-soda-wars-as-kfc-switches-to-coke-49b1ef53?mod=mw_rss_topstories",
-      "published": "Thu, 15 Oct 2026 23:29:00 GMT"
+      "title": "‘It’s a wait-and-see situation’: I’m 63 and diagnosed with lymphoma. Should I take my Social Security next year?",
+      "url": "https://www.marketwatch.com/story/its-a-wait-and-see-situation-im-63-and-diagnosed-with-lymphoma-should-i-take-my-social-security-next-year-ea88b419?mod=mw_rss_topstories",
+      "published": "Fri, 16 Oct 2026 11:30:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘Some people did everything right’: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?",
-      "url": "https://www.marketwatch.com/story/i-earn-110-000-a-year-i-lost-my-home-in-the-great-recession-im-renting-in-my-50s-why-is-that-judged-as-failure-d1371d67?mod=mw_rss_topstories",
-      "published": "Thu, 15 Oct 2026 22:31:00 GMT"
+      "title": "My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?",
+      "url": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
+      "published": "Fri, 16 Oct 2026 11:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "I’m 64 years old, with two sons, but only one works in the family firm. Should I leave him 70% of the business?",
-      "url": "https://www.marketwatch.com/story/im-64-years-old-with-two-sons-but-only-one-works-in-the-family-firm-should-i-leave-him-70-of-the-business-2fe6c382?mod=mw_rss_topstories",
-      "published": "Thu, 15 Oct 2026 22:15:00 GMT"
+      "title": "Can a $55,000-plus robot load the dishwasher? Inside my afternoon with two humanoid housekeepers.",
+      "url": "https://www.marketwatch.com/story/can-a-55-000-plus-robot-load-the-dishwasher-inside-my-afternoon-with-two-humanoid-housekeepers-0a9569ab?mod=mw_rss_topstories",
+      "published": "Fri, 16 Oct 2026 11:00:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Nearly 40% of the S&P 500 is in a bear market. Here are 10 of those stocks that analysts say can gain up to 81%.",
+      "url": "https://www.marketwatch.com/story/nearly-40-of-the-s-p-500-is-in-a-bear-market-here-are-10-of-those-stocks-that-analysts-say-can-gain-up-to-81-93a51af6?mod=mw_rss_topstories",
+      "published": "Fri, 16 Oct 2026 10:56:00 GMT"
     },
     {
       "source": "MarketWatch Top",
       "title": "How a midterm sweep by Democrats could turn this tech selloff into a tech crash",
       "url": "https://www.marketwatch.com/story/how-a-midterm-sweep-by-democrats-could-turn-this-tech-selloff-into-a-tech-crash-a1d1a82f?mod=mw_rss_topstories",
-      "published": "Thu, 15 Oct 2026 21:56:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Nvidia and other chip stocks face renewed pressure as AI fears swell",
-      "url": "https://www.marketwatch.com/story/micron-nvidia-and-other-chip-stocks-face-renewed-pressure-as-ai-fears-swell-4e0dc989?mod=mw_rss_topstories",
-      "published": "Thu, 15 Oct 2026 21:23:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Don’t ditch tech stocks just yet. Make these moves to take advantage of the latest AI reset.",
-      "url": "https://www.marketwatch.com/story/dont-ditch-tech-stocks-just-yet-make-these-moves-to-take-advantage-of-the-latest-ai-reset-cb70c7b2?mod=mw_rss_topstories",
-      "published": "Thu, 15 Oct 2026 21:21:00 GMT"
+      "published": "Fri, 16 Oct 2026 10:49:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Zeff Capital sells $236k of Butler National stock in October",
-      "url": "https://www.investing.com/news/insider-trading-news/zeff-capital-sells-236k-of-butler-national-stock-in-october-93CH-4952840",
-      "published": "2026-10-15 23:30:57"
+      "title": "Cantor Fitzgerald reiterates Varonis stock rating on acquisition news",
+      "url": "https://www.investing.com/news/analyst-ratings/cantor-fitzgerald-reiterates-varonis-stock-rating-on-acquisition-news-93CH-4954017",
+      "published": "2026-10-16 12:16:50"
     },
     {
       "source": "Investing.com News",
-      "title": "Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say",
-      "url": "https://www.investing.com/news/stock-market-news/exclusiveinvestors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-slowdown-sources-say-4952698",
-      "published": "2026-10-15 23:30:21"
+      "title": "Rosenblatt maintains Neutral on Netflix stock amid layoffs, exec change",
+      "url": "https://www.investing.com/news/analyst-ratings/rosenblatt-maintains-neutral-on-netflix-stock-amid-layoffs-exec-change-93CH-4954015",
+      "published": "2026-10-16 12:16:41"
     },
     {
       "source": "Investing.com News",
-      "title": "BRC Inc. founder Evan Hafer sells $166,729 in common stock",
-      "url": "https://www.investing.com/news/insider-trading-news/brc-inc-founder-evan-hafer-sells-166729-in-common-stock-93CH-4952827",
-      "published": "2026-10-15 23:16:28"
+      "title": "Wedbush analyst Dan Ives maintains GameStop stock rating on collectibles shift",
+      "url": "https://www.investing.com/news/analyst-ratings/wedbush-analyst-dan-ives-maintains-gamestop-stock-rating-on-collectibles-shift-93CH-4954016",
+      "published": "2026-10-16 12:16:41"
     },
     {
       "source": "Investing.com News",
-      "title": "StoneX CEO Philip Smith sells $2.6m in company stock",
-      "url": "https://www.investing.com/news/insider-trading-news/stonex-ceo-philip-smith-sells-26m-in-company-stock-93CH-4952826",
-      "published": "2026-10-15 23:15:52"
+      "title": "PHSC chair Lorraine Young to step down by year-end",
+      "url": "https://www.investing.com/news/company-news/phsc-chair-lorraine-young-to-step-down-by-yearend-93CH-4954014",
+      "published": "2026-10-16 12:16:26"
     },
     {
       "source": "Investing.com News",
-      "title": "Global EV sales fall 2% in September, ending six-month growth streak",
-      "url": "https://www.investing.com/news/economic-indicators/globalev-sales-fall-2-in-september-ending-sixmonth-growth-streak-4952814",
-      "published": "2026-10-15 23:12:30"
+      "title": "Why is CoreWeave stock sliding today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-coreweave-stock-sliding-today-93CH-4954009",
+      "published": "2026-10-16 12:15:29"
     },
     {
       "source": "Investing.com News",
-      "title": "Hertz Energy announces investor participation in private placement",
-      "url": "https://www.investing.com/news/company-news/hertz-energy-announces-investor-participation-in-private-placement-93CH-4952815",
-      "published": "2026-10-15 23:08:36"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Asian Stocks Set for Gains as Tech Selloff Eases: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-15/stock-market-today-dow-s-p-live-updates",
-      "published": "Thu, 15 Oct 2026 22:04:06 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "MSCI Weighs Indonesia Downgrade, Removal From Global Indexes",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-15/indonesia-s-emerging-market-status-under-consultation-msci-says",
-      "published": "Thu, 15 Oct 2026 20:59:19 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "China’s Plan to Make Yuan a Global Currency Enters Faster Phase",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-15/china-s-plan-to-make-yuan-a-global-currency-enters-faster-phase",
-      "published": "Thu, 15 Oct 2026 23:00:00 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Hong Kong’s APEC Comeback Showcases a City Remade by Beijing",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-15/hong-kong-s-apec-comeback-showcases-a-city-remade-by-beijing",
-      "published": "Thu, 15 Oct 2026 23:00:00 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Harvard Fund Hits Record $68 Billion After 27% Annual Return",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-15/harvard-fund-soars-to-record-68-billion-after-27-annual-return",
-      "published": "Thu, 15 Oct 2026 17:00:00 GMT"
+      "title": "Why is Strategy stock sliding today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-strategy-stock-sliding-today-93CH-4954007",
+      "published": "2026-10-16 12:14:30"
     },
     {
       "source": "Bloomberg Markets",
@@ -376,40 +346,70 @@
       "published": "Thu, 15 Oct 2026 22:03:58 GMT"
     },
     {
-      "source": "FT Markets",
-      "title": "Trump weighs easing restrictions on Russian and Iranian ‘shadow fleet’",
-      "url": "https://www.ft.com/content/6dfa9879-589a-4af3-9374-b546a945a219?syn-25a6b1a6=1",
-      "published": "Thu, 15 Oct 2026 21:10:51 GMT"
+      "source": "Bloomberg Markets",
+      "title": "US Stock Futures Rise After Bruising Week for Tech: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-15/stock-market-today-dow-s-p-live-updates",
+      "published": "Thu, 15 Oct 2026 22:04:06 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "BOJ’s Ueda ‘Can’t Tolerate’ Underlying Inflation Further Over 2%",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-16/boj-s-ueda-can-t-tolerate-underlying-inflation-further-over-2",
+      "published": "Fri, 16 Oct 2026 12:22:08 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Steelmaker Celsa Said to Ask Banks for Pitches on IPO or Sale",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-16/steelmaker-celsa-said-to-ask-banks-for-pitches-on-ipo-or-sale",
+      "published": "Fri, 16 Oct 2026 12:19:54 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Kapteyn: Hot Inflation Raises Risk of Fed Hikes Beyond December",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-16/kapteyn-hot-inflation-risks-fed-hikes-beyond-december-video",
+      "published": "Fri, 16 Oct 2026 12:19:20 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Malibu’s Burned Homes Now Face El Niño’s Damaging Waves",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-16/malibu-s-burned-homes-now-face-el-nino-s-damaging-waves",
+      "published": "Fri, 16 Oct 2026 12:15:15 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Treasuries rally as investors seek shelter from AI turbulence",
-      "url": "https://www.ft.com/content/cf5f1209-da29-4ce1-b425-0e83818bf9ec?syn-25a6b1a6=1",
-      "published": "Thu, 15 Oct 2026 20:20:36 GMT"
+      "title": "Treasuries head for best week since February as AI jitters halt bond rout",
+      "url": "https://www.ft.com/content/4c4f03f4-f878-4bd6-8128-5be7e3bb8ca1?syn-25a6b1a6=1",
+      "published": "Fri, 16 Oct 2026 11:45:56 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Harvard’s endowment returns surge on back of AI and SpaceX investments",
-      "url": "https://www.ft.com/content/50c694da-c485-4176-853b-daf643eabb5c?syn-25a6b1a6=1",
-      "published": "Thu, 15 Oct 2026 20:06:22 GMT"
+      "title": "Shareholders should have a say on making AI safe",
+      "url": "https://www.ft.com/content/8540ec79-705b-4ee0-b7d3-ce041d757ecd",
+      "published": "Fri, 16 Oct 2026 11:05:46 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "The AI boom stumbles",
-      "url": "https://www.ft.com/content/dd74f024-4eeb-44e3-9f62-5338ba7a863c?syn-25a6b1a6=1",
-      "published": "Thu, 15 Oct 2026 20:00:00 GMT"
+      "title": "The once-obscure tech at the heart of the green energy trade war",
+      "url": "https://www.ft.com/content/bc221890-6718-4792-967c-9828e96f38af?syn-25a6b1a6=1",
+      "published": "Fri, 16 Oct 2026 11:01:09 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Investors dump data centre bonds as AI borrowers face ‘Darwin moment’",
-      "url": "https://www.ft.com/content/678bcd31-6c2a-447b-a68c-ce6dec220bbc?syn-25a6b1a6=1",
-      "published": "Thu, 15 Oct 2026 18:27:55 GMT"
+      "title": "Sizing that ‘unlimited’ insurance capital",
+      "url": "https://www.ft.com/content/6b9b0cb6-2d47-46e4-bc00-febb182a5af7",
+      "published": "Fri, 16 Oct 2026 10:24:31 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Criminals stole $90mn of crypto by hiding password readers in USB-like devices",
-      "url": "https://www.ft.com/content/70f69253-6017-4259-95c9-48bf0e088b40?syn-25a6b1a6=1",
-      "published": "Thu, 15 Oct 2026 17:23:18 GMT"
+      "title": "Hiding from the everything trade",
+      "url": "https://www.ft.com/content/6533c873-29df-453b-9ac4-7b17e5a3576f?syn-25a6b1a6=1",
+      "published": "Fri, 16 Oct 2026 05:30:07 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "So. About next year’s earnings . . .",
+      "url": "https://www.ft.com/content/d36787c1-f0b0-4445-8237-90eb4d521081",
+      "published": "Fri, 16 Oct 2026 05:00:08 GMT"
     }
   ],
   "summary": {
