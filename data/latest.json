@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-10-17 08:45 KST",
-  "as_of_date": "2026-10-17",
-  "as_of_weekday": "SAT",
-  "build_unix": 1792194322,
+  "as_of_kst": "2026-10-18 08:18 KST",
+  "as_of_date": "2026-10-18",
+  "as_of_weekday": "SUN",
+  "build_unix": 1792279084,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,15 +64,15 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 5554.22,
-      "change": -454.59,
-      "change_pct": -7.57,
+      "price": 5668.05,
+      "change": 113.83,
+      "change_pct": 2.05,
       "spark": [
-        6625.93,
         6384.24,
         6035.35,
         6008.81,
-        5554.22
+        5554.22,
+        5668.05
       ],
       "as_of": "2026-10-16"
     },
@@ -82,15 +82,15 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 64425.95,
-      "change": -3318.34,
-      "change_pct": -4.9,
+      "price": 65324.29,
+      "change": 898.34,
+      "change_pct": 1.39,
       "spark": [
-        69042.11,
         69030.92,
         67777.52,
         67744.29,
-        64425.95
+        64425.95,
+        65324.29
       ],
       "as_of": "2026-10-16"
     },
@@ -100,15 +100,15 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 24062.72,
-      "change": -251.45,
-      "change_pct": -1.03,
+      "price": 24186.83,
+      "change": 124.11,
+      "change_pct": 0.52,
       "spark": [
-        24211.35,
         24271.2,
         24345.22,
         24314.17,
-        24062.72
+        24062.72,
+        24186.83
       ],
       "as_of": "2026-10-16"
     },
@@ -118,15 +118,15 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10840.4,
-      "change": 115.5,
-      "change_pct": 1.08,
+      "price": 10881.9,
+      "change": 41.5,
+      "change_pct": 0.38,
       "spark": [
-        10552.1,
         10656.3,
         10650.3,
         10724.9,
-        10840.4
+        10840.4,
+        10881.9
       ],
       "as_of": "2026-10-16"
     },
@@ -136,15 +136,15 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 25382.62,
-      "change": 84.01,
-      "change_pct": 0.33,
+      "price": 25622.61,
+      "change": 239.99,
+      "change_pct": 0.95,
       "spark": [
-        25087.27,
         25277.68,
         25259.9,
         25298.61,
-        25382.62
+        25382.62,
+        25622.61
       ],
       "as_of": "2026-10-16"
     }
@@ -153,7 +153,7 @@
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1334.2,
+      "rate": 1329.6,
       "kind": "direct"
     },
     "USDJPY": {
@@ -165,7 +165,7 @@
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1244,
+      "rate": 1.1242,
       "kind": "inverse"
     },
     "USDCNY": {
@@ -177,9 +177,9 @@
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 101.78,
-      "change": -0.22,
-      "change_pct": -0.22,
+      "rate": 101.84,
+      "change": -0.16,
+      "change_pct": -0.16,
       "kind": "index"
     }
   },
@@ -189,27 +189,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 99.04,
-      "change": 1.07,
-      "change_pct": 1.09
+      "price": 101.41,
+      "change": 3.44,
+      "change_pct": 3.51
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4186.7,
-      "change": 16.6,
-      "change_pct": 0.4
+      "price": 4181.1,
+      "change": 11.0,
+      "change_pct": 0.26
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 81521.02,
-      "change": -620.44,
-      "change_pct": -0.76
+      "price": 81263.11,
+      "change": -237.7,
+      "change_pct": -0.29
     },
     "ust10y": {
       "key": "ust10y",
@@ -269,147 +269,147 @@
     },
     {
       "source": "MarketWatch Top",
-      "title": "Nowhere to hide: Tech selloff hits software and chip stocks alike",
-      "url": "https://www.marketwatch.com/story/nowhere-to-hide-tech-selloff-hits-software-and-chip-stocks-alike-6d96773c?mod=mw_rss_topstories",
-      "published": "Fri, 16 Oct 2026 21:59:00 GMT"
+      "title": "Can a $55,000 robot load the dishwasher? Inside my afternoon with two humanoid housekeepers.",
+      "url": "https://www.marketwatch.com/story/can-a-55-000-plus-robot-load-the-dishwasher-inside-my-afternoon-with-two-humanoid-housekeepers-0a9569ab?mod=mw_rss_topstories",
+      "published": "Sat, 17 Oct 2026 20:53:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "This Senate race where data centers are a crucial issue has more spending than any other midterm clash",
-      "url": "https://www.marketwatch.com/story/this-senate-race-where-data-centers-are-a-crucial-issue-has-more-spending-than-any-other-midterm-clash-5152b43d?mod=mw_rss_topstories",
-      "published": "Fri, 16 Oct 2026 21:43:00 GMT"
+      "title": "Fake shopping sprees and ‘happiness insurance’: The latest fintech apps reveal our financial anxieties",
+      "url": "https://www.marketwatch.com/story/fake-shopping-sprees-and-happiness-insurance-the-latest-fintech-apps-reveal-our-financial-anxieties-77770a46?mod=mw_rss_topstories",
+      "published": "Sat, 17 Oct 2026 18:52:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Could an Anthropic IPO put your 401(k) at risk? The AI safety debate hits a new dimension.",
-      "url": "https://www.marketwatch.com/story/could-an-anthropic-ipo-put-your-401-k-at-risk-the-ai-safety-debate-hits-a-new-dimension-db3f09f7?mod=mw_rss_topstories",
-      "published": "Fri, 16 Oct 2026 21:35:00 GMT"
+      "title": "Investing, not homeownership, is the No. 1 milestone that makes Gen Z renters feel successful",
+      "url": "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344?mod=mw_rss_topstories",
+      "published": "Sat, 17 Oct 2026 18:40:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "The bond market shrugged off two inflation shocks. Why stock investors should pay attention.",
-      "url": "https://www.marketwatch.com/story/the-bond-market-shrugged-off-two-inflation-shocks-why-stock-investors-should-pay-attention-5da4f771?mod=mw_rss_topstories",
-      "published": "Fri, 16 Oct 2026 21:30:00 GMT"
+      "title": "Is Apple’s foldable iPhone Duo worth $2,000? See how it stacks up against other foldable phones.",
+      "url": "https://www.marketwatch.com/story/is-apples-foldable-iphone-duo-worth-2-000-see-how-it-stacks-up-against-other-foldable-phones-c9066b13?mod=mw_rss_topstories",
+      "published": "Sat, 17 Oct 2026 18:40:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "New SEC rules would fleece everyday investors to enrich Wall Street",
-      "url": "https://www.marketwatch.com/story/new-sec-rules-would-fleece-everyday-investors-to-enrich-wall-street-0a00fe03?mod=mw_rss_topstories",
-      "published": "Fri, 16 Oct 2026 21:21:00 GMT"
+      "title": "‘Some people did everything right’: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?",
+      "url": "https://www.marketwatch.com/story/i-earn-110-000-a-year-i-lost-my-home-in-the-great-recession-im-renting-in-my-50s-why-is-that-judged-as-failure-d1371d67?mod=mw_rss_topstories",
+      "published": "Sat, 17 Oct 2026 16:47:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "I’m 63 and diagnosed with lymphoma. Should I take my Social Security next year?",
-      "url": "https://www.marketwatch.com/story/its-a-wait-and-see-situation-im-63-and-diagnosed-with-lymphoma-should-i-take-my-social-security-next-year-ea88b419?mod=mw_rss_topstories",
-      "published": "Fri, 16 Oct 2026 21:15:00 GMT"
+      "title": "Meet the home buyers totally unfazed by 7% mortgage rates",
+      "url": "https://www.marketwatch.com/story/meet-the-home-buyers-totally-unfazed-by-7-mortgage-rates-7a9b1cc7?mod=mw_rss_topstories",
+      "published": "Sat, 17 Oct 2026 13:00:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Blaize declares preferred stock dividend ahead of potential reverse split",
-      "url": "https://www.investing.com/news/company-news/blaize-declares-preferred-stock-dividend-ahead-of-potential-reverse-split-93CH-4955003",
-      "published": "2026-10-16 23:36:29"
+      "title": "Could another France downgrade put the EU’s credit rating at risk?",
+      "url": "https://www.investing.com/news/economy-news/could-another-france-downgrade-put-the-eus-credit-rating-at-risk-4955657",
+      "published": "2026-10-17 23:10:55"
     },
     {
       "source": "Investing.com News",
-      "title": "Kratos Defense’s president Carrai disposes of $259,116 in common stock",
-      "url": "https://www.investing.com/news/insider-trading-news/kratos-defenses-president-carrai-disposes-of-259116-in-common-stock-93CH-4954999",
-      "published": "2026-10-16 23:31:21"
+      "title": "Venezuela expects nearly $76 billion in oil investment over five years, acting president says",
+      "url": "https://www.investing.com/news/commodities-news/venezuela-expects-nearly-76-billion-in-oil-investment-over-five-years-acting-president-says-4955647",
+      "published": "2026-10-17 22:54:19"
     },
     {
       "source": "Investing.com News",
-      "title": "BillionToOne CEO Oguzhan Atay sells $1.09 million in stock",
-      "url": "https://www.investing.com/news/insider-trading-news/billiontoone-ceo-oguzhan-atay-sells-109-million-in-stock-93CH-4954998",
-      "published": "2026-10-16 23:31:20"
+      "title": "Limoneira VP, CFO Hamm sells $11,905 of common stock",
+      "url": "https://www.investing.com/news/insider-trading-news/limoneira-vp-cfo-hamm-sells-11905-of-common-stock-93CH-4955645",
+      "published": "2026-10-17 22:45:49"
     },
     {
       "source": "Investing.com News",
-      "title": "StandardAero’s chief legal officer sells $16,567 in company stock",
-      "url": "https://www.investing.com/news/insider-trading-news/standardaeros-chief-legal-officer-sells-16567-in-company-stock-93CH-4954996",
-      "published": "2026-10-16 23:30:56"
+      "title": "Zelenskiy criticizes Trump’s waiver of sanctions on Russia as ’wrong’",
+      "url": "https://www.investing.com/news/commodities-news/trump-waives-many-russiarelated-sanctions-tariffs-before-they-were-to-take-effect-under-new-law-4955088",
+      "published": "2026-10-17 22:36:18"
     },
     {
       "source": "Investing.com News",
-      "title": "Anthropic quietly pitches its own AI safety bill to lawmakers, Politico reports",
-      "url": "https://www.investing.com/news/stock-market-news/anthropic-quietly-pitches-its-own-ai-safety-bill-to-lawmakers-politico-reports-4954941",
-      "published": "2026-10-16 23:24:17"
+      "title": "Protagonist CFO Ali Asif sells $8.3 million in company stock",
+      "url": "https://www.investing.com/news/insider-trading-news/protagonist-cfo-ali-asif-sells-83-million-in-company-stock-93CH-4955634",
+      "published": "2026-10-17 22:31:13"
     },
     {
       "source": "Investing.com News",
-      "title": "Ani pharma president & ceo Lalwani sells shares for $388k",
-      "url": "https://www.investing.com/news/insider-trading-news/ani-pharma-president--ceo-lalwani-sells-shares-for-388k-93CH-4954985",
-      "published": "2026-10-16 23:16:42"
+      "title": "Dropbox CAO Sarah Schubach sells $65,893 of stock",
+      "url": "https://www.investing.com/news/insider-trading-news/dropbox-cao-sarah-schubach-sells-65893-of-stock-93CH-4955624",
+      "published": "2026-10-17 22:16:05"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Mexico Says Airlines Can Add US Routes From Mexico City Airports",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-16/mexico-says-airlines-can-add-us-routes-from-mexico-city-airports",
-      "published": "Fri, 16 Oct 2026 22:11:45 GMT"
+      "title": "Avalanche in Chile Kills Three Climbers Amid Rare Snowy Spring",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-17/avalanche-in-chile-kills-three-climbers-amid-rare-snowy-spring",
+      "published": "Sat, 17 Oct 2026 22:09:20 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Graza CEO on Market Expansion, Consumer Outlook",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-16/graza-ceo-on-market-expansion-consumer-outlook-video",
-      "published": "Fri, 16 Oct 2026 22:02:25 GMT"
+      "title": "Niger Halts Diesel, Petrol Exports to Protect Domestic Supply",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-17/niger-halts-diesel-petrol-exports-to-protect-domestic-supply",
+      "published": "Sat, 17 Oct 2026 21:44:20 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "TGI Fridays CEO on Company Turnaround, Expansion Plans",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-16/tgi-fridays-ceo-on-company-turnaround-expansion-plans-video",
-      "published": "Fri, 16 Oct 2026 21:56:54 GMT"
+      "title": "Russia Sanctions Waived, AI Debt Concerns, Making 'GTA VI'",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-17/bloomberg-this-weekend-10-17-2026-video",
+      "published": "Sat, 17 Oct 2026 16:31:01 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Chip Stocks Post Longest Losing Streak Since 2008: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-15/stock-market-today-dow-s-p-live-updates",
-      "published": "Thu, 15 Oct 2026 22:04:06 GMT"
+      "title": "India Frees ‘Cockroach’ Leader as Voter-List Row Simmers",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-17/india-s-cockroach-protest-leader-faces-court-in-voter-list-row",
+      "published": "Sat, 17 Oct 2026 02:34:29 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Euro Snaps Five-Week Losing Streak With Warsh Remarks",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-16/euro-set-to-end-five-week-losing-run-as-warsh-remarks-hit-dollar",
-      "published": "Fri, 16 Oct 2026 09:37:30 GMT"
+      "title": "Pointed! Bloomberg's Weekly News Quiz For Risk-Takers",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-17/pointed-bloomberg-s-weekly-news-quiz-for-risk-takers-video",
+      "published": "Sat, 17 Oct 2026 14:35:04 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Gold Steady as Rate-Hike Bets Ease, Oil Pushes Yields Higher",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-15/gold-holds-gains-with-haven-demand-and-lower-yields-in-focus",
-      "published": "Thu, 15 Oct 2026 23:51:46 GMT"
+      "title": "CoreWeave Woes Risk Shutting Down AI Junk Market: Credit Weekly",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-17/coreweave-woes-risk-shutting-down-ai-junk-market-credit-weekly",
+      "published": "Sat, 17 Oct 2026 14:27:13 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Oil hits five-month high of $110 on new escalation in Middle East",
-      "url": "https://www.ft.com/content/8ee22d89-03eb-48dc-99a5-27555373a89c?syn-25a6b1a6=1",
-      "published": "Fri, 16 Oct 2026 22:57:43 GMT"
+      "title": "BoE’s Bailey tells G30 they ‘have got to address’ AI agent concerns",
+      "url": "https://www.ft.com/content/3185b4cd-ab35-4efc-9d75-dcecc1631625?syn-25a6b1a6=1",
+      "published": "Sat, 17 Oct 2026 10:31:21 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Big Tech stocks suffer biggest weekly drop since ‘liberation day’",
-      "url": "https://www.ft.com/content/4c4f03f4-f878-4bd6-8128-5be7e3bb8ca1?syn-25a6b1a6=1",
-      "published": "Fri, 16 Oct 2026 20:42:16 GMT"
+      "title": "Trump exempts Russia from further sanctions mandated by new law",
+      "url": "https://www.ft.com/content/836eddd7-3adc-4cbb-8527-7a0a7a277e50?syn-25a6b1a6=1",
+      "published": "Sat, 17 Oct 2026 09:53:31 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Apple set for UK legal fight over iPhone tap-to-pay rules",
-      "url": "https://www.ft.com/content/d05f87bf-225b-43f9-86e6-2f9537cd75c6?syn-25a6b1a6=1",
-      "published": "Fri, 16 Oct 2026 15:21:03 GMT"
+      "title": "Chart of the Week: The chip stock split",
+      "url": "https://www.ft.com/content/c5ed09fe-dc65-4f05-8c12-8f74f5dc7ccd?syn-25a6b1a6=1",
+      "published": "Sat, 17 Oct 2026 09:30:02 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Citi becomes latest US bank to restrict AI agents from accessing accounts",
-      "url": "https://www.ft.com/content/f49c8e39-f07f-4177-9948-aabe55e5ed91?syn-25a6b1a6=1",
-      "published": "Fri, 16 Oct 2026 14:58:54 GMT"
+      "title": "UK dividend payments jump 14% in a year",
+      "url": "https://www.ft.com/content/169bbf6e-d0af-4c8d-afd0-2c561a58c855?syn-25a6b1a6=1",
+      "published": "Sat, 17 Oct 2026 04:00:21 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Lufthansa exploring sale of software assets in €1bn deal",
-      "url": "https://www.ft.com/content/800db28a-9176-4ca3-9334-69ede9a2b3ef?syn-25a6b1a6=1",
-      "published": "Fri, 16 Oct 2026 13:56:44 GMT"
+      "title": "The dress rehearsal for an AI reckoning",
+      "url": "https://www.ft.com/content/3f982af9-3eec-476f-9d29-39145ac485c4?syn-25a6b1a6=1",
+      "published": "Sat, 17 Oct 2026 04:00:21 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Shareholders should have a say on making AI safe",
-      "url": "https://www.ft.com/content/8540ec79-705b-4ee0-b7d3-ce041d757ecd",
-      "published": "Fri, 16 Oct 2026 11:05:46 GMT"
+      "title": "Stocks are risky right now — but so are all the alternatives",
+      "url": "https://www.ft.com/content/c0854b2a-9edd-4bd6-9495-526454033f42",
+      "published": "Sat, 17 Oct 2026 04:00:02 GMT"
     }
   ],
   "summary": {
