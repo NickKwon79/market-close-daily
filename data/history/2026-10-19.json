@@ -1,0 +1,451 @@
+{
+  "as_of_kst": "2026-10-19 08:27 KST",
+  "as_of_date": "2026-10-19",
+  "as_of_weekday": "MON",
+  "build_unix": 1792366052,
+  "indexes": {
+    "sp500": {
+      "key": "sp500",
+      "symbol": "^GSPC",
+      "name": "S&P 500",
+      "region": "USA",
+      "kind": "broad",
+      "price": 7659.44,
+      "change": -84.62,
+      "change_pct": -1.09,
+      "spark": [
+        7807.24,
+        7805.45,
+        7718.94,
+        7744.06,
+        7659.44
+      ],
+      "as_of": "2026-10-16"
+    },
+    "nasdaq": {
+      "key": "nasdaq",
+      "symbol": "^IXIC",
+      "name": "NASDAQ Composite",
+      "region": "USA",
+      "kind": "tech",
+      "price": 26140.03,
+      "change": -573.0,
+      "change_pct": -2.15,
+      "spark": [
+        27245.9,
+        27204.38,
+        26692.87,
+        26713.03,
+        26140.03
+      ],
+      "as_of": "2026-10-16"
+    },
+    "dow": {
+      "key": "dow",
+      "symbol": "^DJI",
+      "name": "Dow Jones 30",
+      "region": "USA",
+      "kind": "value",
+      "price": 52002.41,
+      "change": -175.28,
+      "change_pct": -0.34,
+      "spark": [
+        51850.55,
+        51670.1,
+        51621.48,
+        52177.69,
+        52002.41
+      ],
+      "as_of": "2026-10-16"
+    },
+    "kospi": {
+      "key": "kospi",
+      "symbol": "^KS11",
+      "name": "KOSPI",
+      "region": "KOREA",
+      "kind": "broad",
+      "price": 5668.05,
+      "change": 113.83,
+      "change_pct": 2.05,
+      "spark": [
+        6384.24,
+        6035.35,
+        6008.81,
+        5554.22,
+        5668.05
+      ],
+      "as_of": "2026-10-16"
+    },
+    "nikkei": {
+      "key": "nikkei",
+      "symbol": "^N225",
+      "name": "Nikkei 225",
+      "region": "JAPAN",
+      "kind": "broad",
+      "price": 65324.29,
+      "change": 898.34,
+      "change_pct": 1.39,
+      "spark": [
+        69030.92,
+        67777.52,
+        67744.29,
+        64425.95,
+        65324.29
+      ],
+      "as_of": "2026-10-16"
+    },
+    "hangseng": {
+      "key": "hangseng",
+      "symbol": "^HSI",
+      "name": "Hang Seng",
+      "region": "HONG KONG",
+      "kind": "broad",
+      "price": 24186.83,
+      "change": 124.11,
+      "change_pct": 0.52,
+      "spark": [
+        24271.2,
+        24345.22,
+        24314.17,
+        24062.72,
+        24186.83
+      ],
+      "as_of": "2026-10-16"
+    },
+    "ftse": {
+      "key": "ftse",
+      "symbol": "^FTSE",
+      "name": "FTSE 100",
+      "region": "UK",
+      "kind": "broad",
+      "price": 10881.9,
+      "change": 41.5,
+      "change_pct": 0.38,
+      "spark": [
+        10656.3,
+        10650.3,
+        10724.9,
+        10840.4,
+        10881.9
+      ],
+      "as_of": "2026-10-16"
+    },
+    "dax": {
+      "key": "dax",
+      "symbol": "^GDAXI",
+      "name": "DAX",
+      "region": "GERMANY",
+      "kind": "broad",
+      "price": 25622.61,
+      "change": 239.99,
+      "change_pct": 0.95,
+      "spark": [
+        25277.68,
+        25259.9,
+        25298.61,
+        25382.62,
+        25622.61
+      ],
+      "as_of": "2026-10-16"
+    }
+  },
+  "fx": {
+    "USDKRW": {
+      "key": "USDKRW",
+      "pair": "USD/KRW",
+      "rate": 1334.34,
+      "kind": "direct"
+    },
+    "USDJPY": {
+      "key": "USDJPY",
+      "pair": "USD/JPY",
+      "rate": 157.84,
+      "kind": "direct"
+    },
+    "EURUSD": {
+      "key": "EURUSD",
+      "pair": "EUR/USD",
+      "rate": 1.1221,
+      "kind": "inverse"
+    },
+    "USDCNY": {
+      "key": "USDCNY",
+      "pair": "USD/CNY",
+      "rate": 6.6855,
+      "kind": "direct"
+    },
+    "DXY": {
+      "key": "DXY",
+      "pair": "DXY",
+      "rate": 101.9,
+      "change": 0.06,
+      "change_pct": 0.06,
+      "kind": "index"
+    }
+  },
+  "commodities": {
+    "wti": {
+      "key": "wti",
+      "symbol": "CL=F",
+      "name": "WTI Crude",
+      "unit": "$",
+      "price": 98.1,
+      "change": -3.31,
+      "change_pct": -3.26
+    },
+    "gold": {
+      "key": "gold",
+      "symbol": "GC=F",
+      "name": "Gold",
+      "unit": "$",
+      "price": 4197.0,
+      "change": 15.9,
+      "change_pct": 0.38
+    },
+    "btc": {
+      "key": "btc",
+      "symbol": "BTC-USD",
+      "name": "Bitcoin",
+      "unit": "$",
+      "price": 81896.03,
+      "change": 513.88,
+      "change_pct": 0.63
+    },
+    "ust10y": {
+      "key": "ust10y",
+      "symbol": "^TNX",
+      "name": "10Y UST Yield",
+      "unit": "%",
+      "price": 5.1,
+      "change": 0.01,
+      "change_pct": 0.18
+    },
+    "vix": {
+      "key": "vix",
+      "symbol": "^VIX",
+      "name": "VIX",
+      "unit": "",
+      "price": 19.99,
+      "change": 3.53,
+      "change_pct": 21.45
+    }
+  },
+  "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Top Wall Street analysts are bullish on the growth potential of these 3 stocks",
+      "url": "https://www.cnbc.com/2026/10/18/top-analysts-are-bullish-on-the-growth-potential-of-these-3-stocks.html",
+      "published": "Sun, 18 Oct 2026 12:34:51 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Meta Platforms and Tesla are among the companies set to report next week. What to expect",
+      "url": "https://www.cnbc.com/2026/10/18/meta-tesla-netflix-earnings-preview.html",
+      "published": "Sun, 18 Oct 2026 12:41:18 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Looking for a non-AI trade? This bank stock is poised for a breakout next week",
+      "url": "https://www.cnbc.com/2026/10/16/ja.html",
+      "published": "Fri, 16 Oct 2026 19:19:28 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "The Austin Powers steamroller: How to trade CoreWeave's slow moving crisis",
+      "url": "https://www.cnbc.com/2026/10/16/playing-the-coreweave-disconnect.html",
+      "published": "Fri, 16 Oct 2026 18:24:35 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Brian Sullivan: Why the 'real' price of oil is likely $30-$40 higher than where it is now",
+      "url": "https://www.cnbc.com/2026/10/15/brian-sullivan-why-the-real-price-of-oil-is-likely-30-40-higher-than-where-it-is-now.html",
+      "published": "Thu, 15 Oct 2026 19:53:29 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "CoreWeave credit default swaps hit distress levels as investors sour on AI debt",
+      "url": "https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html",
+      "published": "Thu, 15 Oct 2026 21:33:24 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?",
+      "url": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
+      "published": "Sun, 18 Oct 2026 17:00:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "‘Some people did everything right’: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?",
+      "url": "https://www.marketwatch.com/story/i-earn-110-000-a-year-i-lost-my-home-in-the-great-recession-im-renting-in-my-50s-why-is-that-judged-as-failure-d1371d67?mod=mw_rss_topstories",
+      "published": "Sun, 18 Oct 2026 16:15:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "My sister moved in with our mother, 78, and says she deserves the $925,000 family home. Is she right?",
+      "url": "https://www.marketwatch.com/story/my-sister-moved-in-with-our-widowed-mother-78-and-says-she-deserves-the-family-home-is-she-right-7981835d?mod=mw_rss_topstories",
+      "published": "Sun, 18 Oct 2026 16:00:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "I’m 64 with two sons, but only one works in the family business. Is it ethical to leave him 70% of the company?",
+      "url": "https://www.marketwatch.com/story/im-64-years-old-with-two-sons-but-only-one-works-in-the-family-firm-should-i-leave-him-70-of-the-business-2fe6c382?mod=mw_rss_topstories",
+      "published": "Sun, 18 Oct 2026 15:15:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "I’m 63 and diagnosed with lymphoma. Should I take my Social Security next year?",
+      "url": "https://www.marketwatch.com/story/its-a-wait-and-see-situation-im-63-and-diagnosed-with-lymphoma-should-i-take-my-social-security-next-year-ea88b419?mod=mw_rss_topstories",
+      "published": "Sun, 18 Oct 2026 15:00:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "These surprising stocks could be some of the biggest drivers of S&P 500 earnings growth",
+      "url": "https://www.marketwatch.com/story/these-surprising-stocks-could-be-some-of-the-biggest-drivers-of-s-p-500-earnings-growth-ea073a07?mod=mw_rss_topstories",
+      "published": "Sun, 18 Oct 2026 14:00:00 GMT"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "BOJ may need to tighten faster if inflation beats forecast, IMF says",
+      "url": "https://www.investing.com/news/economy-news/boj-may-need-to-tighten-faster-if-inflation-beats-forecast-imf-says-4956113",
+      "published": "2026-10-18 22:24:38"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Oil slips as Trump’s sanction waiver may lead to more Russian fuel supplies",
+      "url": "https://www.investing.com/news/commodities-news/oil-slips-as-trumps-sanction-waiver-may-lead-to-more-russian-fuel-supplies-4956112",
+      "published": "2026-10-18 22:24:26"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Veradermics to present phase 3 hair loss trial results Monday",
+      "url": "https://www.investing.com/news/company-news/veradermics-to-present-phase-3-hair-loss-trial-results-monday-93CH-4956109",
+      "published": "2026-10-18 22:04:39"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Australia’s Challenger gets takeover bid from unit of Japan’s Daiichi Life",
+      "url": "https://www.investing.com/news/stock-market-news/australias-challenger-gets-takeover-bid-from-unit-of-japans-daiichi-life-4956101",
+      "published": "2026-10-18 21:48:21"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Russia stocks lower at close of trade; MOEX Russia Index unchanged",
+      "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-unchanged-4956082",
+      "published": "2026-10-18 21:20:03"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Disc Medicine to present Phase 3 trial results for bitopertin",
+      "url": "https://www.investing.com/news/company-news/disc-medicine-to-present-phase-3-trial-results-for-bitopertin-93CH-4956077",
+      "published": "2026-10-18 21:04:28"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "US Stock Futures Bounce After Chip Rout, Oil Slips: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-18/stock-market-today-dow-s-p-live-updates",
+      "published": "Sun, 18 Oct 2026 22:07:25 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Euro Falls as Russia Risk, France Protests Dent Trader Sentiment",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-18/euro-falls-as-russia-risk-france-protests-dent-trader-sentiment",
+      "published": "Sun, 18 Oct 2026 23:17:52 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Latest Oil Market News and Analysis for Oct. 19",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-18/latest-oil-market-news-and-analysis-for-oct-19",
+      "published": "Sun, 18 Oct 2026 22:02:51 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "EQT Agrees to Buy Australia’s Cleanaway Waste for $6.5 Billion",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-18/eqt-agrees-to-buy-australia-s-cleanaway-waste-for-6-5-billion",
+      "published": "Sun, 18 Oct 2026 22:47:16 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Daiichi Life Offers $4.4 Billion to Buy Rest of Challenger",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-18/daiichi-life-offers-to-buy-remainder-of-australia-s-challenger",
+      "published": "Sun, 18 Oct 2026 21:14:58 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "For Three Buffetts, a $150 Billion Puzzle Over Warren’s Riches",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-18/for-three-buffetts-a-150-billion-puzzle-over-warren-s-riches",
+      "published": "Sun, 18 Oct 2026 21:00:50 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "‘The Switzerland of North America’: Albertans vote on leaving Canada",
+      "url": "https://www.ft.com/content/d48c545b-6b41-41e9-a71c-cb2126c76082?syn-25a6b1a6=1",
+      "published": "Sun, 18 Oct 2026 12:00:09 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "‘Cash is making a comeback’ in digital India",
+      "url": "https://www.ft.com/content/886006f8-284c-4a20-9411-3cfd9deead3f?syn-25a6b1a6=1",
+      "published": "Sun, 18 Oct 2026 04:11:11 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Listings in south-east Asia gain momentum with $1bn IPO",
+      "url": "https://www.ft.com/content/a2b83aa7-49e0-4735-b115-d406fcb24de8?syn-25a6b1a6=1",
+      "published": "Sun, 18 Oct 2026 01:00:06 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "BoE’s Bailey tells G30 they ‘have got to address’ AI agent concerns",
+      "url": "https://www.ft.com/content/3185b4cd-ab35-4efc-9d75-dcecc1631625?syn-25a6b1a6=1",
+      "published": "Sat, 17 Oct 2026 10:31:21 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Trump exempts Russia from further sanctions mandated by new law",
+      "url": "https://www.ft.com/content/836eddd7-3adc-4cbb-8527-7a0a7a277e50?syn-25a6b1a6=1",
+      "published": "Sat, 17 Oct 2026 09:53:31 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Chart of the Week: The chip stock split",
+      "url": "https://www.ft.com/content/c5ed09fe-dc65-4f05-8c12-8f74f5dc7ccd?syn-25a6b1a6=1",
+      "published": "Sat, 17 Oct 2026 09:30:02 GMT"
+    }
+  ],
+  "summary": {
+    "headlines": [
+      {
+        "title_ko": "美 CPI 서프라이즈에도 S&P 500·나스닥 사상최고 마감, 테크가 견인",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/13/stock-market-today.html",
+        "time_label": "23:00"
+      },
+      {
+        "title_ko": "연준, 인플레 둔화 흐름 속 추가 인하 경로 유지 관측",
+        "source": "Reuters",
+        "url": "https://www.reuters.com/markets/us/fed-rate-cut-2026/",
+        "time_label": "21:30"
+      },
+      {
+        "title_ko": "삼성전자 CXL 메모리 양산 발표에 KOSPI 7,844 사상최고",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-14/kospi-record",
+        "time_label": "15:30"
+      },
+      {
+        "title_ko": "BOJ, 임금·물가 사이클 강화 시 추가 정상화 가능 시사",
+        "source": "Bank of Japan",
+        "url": "https://www.boj.or.jp/en/announcements/2026/",
+        "time_label": "10:00"
+      },
+      {
+        "title_ko": "英 1Q GDP 컨센서스 부합, 스타머 정치 리스크는 여전",
+        "source": "FT",
+        "url": "https://www.ft.com/content/uk-gdp-2026q1",
+        "time_label": "17:00"
+      }
+    ],
+    "market_summary_ko": "미국 인플레이션 경계감에도 테크 모멘텀이 지수를 끌어올렸고, 아시아 세션에서는 삼성전자 CXL 모멘텀에 KOSPI가 다시 사상최고를 갈아엎었다. Fed 인하 vs BOJ 인상 디버전스가 달러 강세를 떠받치는 가운데, 다음 분기점은 5/21 NVDA 실적이다.",
+    "risk_sentiment": "RISK-ON"
+  }
+}
