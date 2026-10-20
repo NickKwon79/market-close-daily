@@ -1,0 +1,451 @@
+{
+  "as_of_kst": "2026-10-20 09:30 KST",
+  "as_of_date": "2026-10-20",
+  "as_of_weekday": "TUE",
+  "build_unix": 1792456201,
+  "indexes": {
+    "sp500": {
+      "key": "sp500",
+      "symbol": "^GSPC",
+      "name": "S&P 500",
+      "region": "USA",
+      "kind": "broad",
+      "price": 7690.73,
+      "change": 31.29,
+      "change_pct": 0.41,
+      "spark": [
+        7805.45,
+        7718.94,
+        7744.06,
+        7659.44,
+        7690.73
+      ],
+      "as_of": "2026-10-19"
+    },
+    "nasdaq": {
+      "key": "nasdaq",
+      "symbol": "^IXIC",
+      "name": "NASDAQ Composite",
+      "region": "USA",
+      "kind": "tech",
+      "price": 26430.89,
+      "change": 290.86,
+      "change_pct": 1.11,
+      "spark": [
+        27204.38,
+        26692.87,
+        26713.03,
+        26140.03,
+        26430.89
+      ],
+      "as_of": "2026-10-19"
+    },
+    "dow": {
+      "key": "dow",
+      "symbol": "^DJI",
+      "name": "Dow Jones 30",
+      "region": "USA",
+      "kind": "value",
+      "price": 51966.03,
+      "change": -36.38,
+      "change_pct": -0.07,
+      "spark": [
+        51670.1,
+        51621.48,
+        52177.69,
+        52002.41,
+        51966.03
+      ],
+      "as_of": "2026-10-19"
+    },
+    "kospi": {
+      "key": "kospi",
+      "symbol": "^KS11",
+      "name": "KOSPI",
+      "region": "KOREA",
+      "kind": "broad",
+      "price": 5650.01,
+      "change": -18.04,
+      "change_pct": -0.32,
+      "spark": [
+        6035.35,
+        6008.81,
+        5554.22,
+        5668.05,
+        5650.01
+      ],
+      "as_of": "2026-10-20"
+    },
+    "nikkei": {
+      "key": "nikkei",
+      "symbol": "^N225",
+      "name": "Nikkei 225",
+      "region": "JAPAN",
+      "kind": "broad",
+      "price": 64526.33,
+      "change": -797.96,
+      "change_pct": -1.22,
+      "spark": [
+        67777.52,
+        67744.29,
+        64425.95,
+        65324.29,
+        64526.33
+      ],
+      "as_of": "2026-10-20"
+    },
+    "hangseng": {
+      "key": "hangseng",
+      "symbol": "^HSI",
+      "name": "Hang Seng",
+      "region": "HONG KONG",
+      "kind": "broad",
+      "price": 24186.83,
+      "change": 124.11,
+      "change_pct": 0.52,
+      "spark": [
+        24271.2,
+        24345.22,
+        24314.17,
+        24062.72,
+        24186.83
+      ],
+      "as_of": "2026-10-16"
+    },
+    "ftse": {
+      "key": "ftse",
+      "symbol": "^FTSE",
+      "name": "FTSE 100",
+      "region": "UK",
+      "kind": "broad",
+      "price": 10881.9,
+      "change": 41.5,
+      "change_pct": 0.38,
+      "spark": [
+        10656.3,
+        10650.3,
+        10724.9,
+        10840.4,
+        10881.9
+      ],
+      "as_of": "2026-10-19"
+    },
+    "dax": {
+      "key": "dax",
+      "symbol": "^GDAXI",
+      "name": "DAX",
+      "region": "GERMANY",
+      "kind": "broad",
+      "price": 25622.61,
+      "change": 239.99,
+      "change_pct": 0.95,
+      "spark": [
+        25277.68,
+        25259.9,
+        25298.61,
+        25382.62,
+        25622.61
+      ],
+      "as_of": "2026-10-19"
+    }
+  },
+  "fx": {
+    "USDKRW": {
+      "key": "USDKRW",
+      "pair": "USD/KRW",
+      "rate": 1328.08,
+      "kind": "direct"
+    },
+    "USDJPY": {
+      "key": "USDJPY",
+      "pair": "USD/JPY",
+      "rate": 158.52,
+      "kind": "direct"
+    },
+    "EURUSD": {
+      "key": "EURUSD",
+      "pair": "EUR/USD",
+      "rate": 1.1221,
+      "kind": "inverse"
+    },
+    "USDCNY": {
+      "key": "USDCNY",
+      "pair": "USD/CNY",
+      "rate": 6.6909,
+      "kind": "direct"
+    },
+    "DXY": {
+      "key": "DXY",
+      "pair": "DXY",
+      "rate": 101.94,
+      "change": 0.1,
+      "change_pct": 0.1,
+      "kind": "index"
+    }
+  },
+  "commodities": {
+    "wti": {
+      "key": "wti",
+      "symbol": "CL=F",
+      "name": "WTI Crude",
+      "unit": "$",
+      "price": 98.42,
+      "change": -2.99,
+      "change_pct": -2.95
+    },
+    "gold": {
+      "key": "gold",
+      "symbol": "GC=F",
+      "name": "Gold",
+      "unit": "$",
+      "price": 4152.4,
+      "change": -28.7,
+      "change_pct": -0.69
+    },
+    "btc": {
+      "key": "btc",
+      "symbol": "BTC-USD",
+      "name": "Bitcoin",
+      "unit": "$",
+      "price": 81458.02,
+      "change": -559.58,
+      "change_pct": -0.68
+    },
+    "ust10y": {
+      "key": "ust10y",
+      "symbol": "^TNX",
+      "name": "10Y UST Yield",
+      "unit": "%",
+      "price": 5.14,
+      "change": 0.04,
+      "change_pct": 0.75
+    },
+    "vix": {
+      "key": "vix",
+      "symbol": "^VIX",
+      "name": "VIX",
+      "unit": "",
+      "price": 18.44,
+      "change": -1.55,
+      "change_pct": -7.75
+    }
+  },
+  "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Tuesday's big stock stories: What’s likely to move the market in the next trading session",
+      "url": "https://www.cnbc.com/2026/10/19/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+      "published": "Mon, 19 Oct 2026 23:43:14 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Goldman says play defense with these stocks if you're worried about the AI bull failing",
+      "url": "https://www.cnbc.com/2026/10/19/goldman-says-play-defense-with-these-stocks-if-youre-worried-about-the-ai-bull-failing.html",
+      "published": "Mon, 19 Oct 2026 17:28:11 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Capital One, General Motors are among the stocks reporting this week with momentum. Here are the others",
+      "url": "https://www.cnbc.com/2026/10/19/gm-abbott-earnings-momentum.html",
+      "published": "Mon, 19 Oct 2026 16:01:30 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Healthcare is catching the rotation out of AI. Josh Brown's list includes two names that can benefit",
+      "url": "https://www.cnbc.com/2026/10/19/josh-browns-list-includes-two-names-that-can-benefit-from-rotation-out-of-ai.html",
+      "published": "Mon, 19 Oct 2026 18:58:35 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "This software stock has nearly doubled for the year. Bernstein sees even more upside",
+      "url": "https://www.cnbc.com/2026/10/19/this-software-has-nearly-doubled-for-the-year-bernstein-sees-even-more-upside.html",
+      "published": "Mon, 19 Oct 2026 14:45:10 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "'Not all neoclouds are created equal': Goldman Sachs says buy the dip on CoreWeave after sell-off last week",
+      "url": "https://www.cnbc.com/2026/10/19/buy-neocloud-stock-coreweave-goldman-sachs-says.html",
+      "published": "Mon, 19 Oct 2026 12:45:34 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Blood clots are ‘incredibly common,’ even for pro athletes like Jalen Hurts. Here’s what to know.",
+      "url": "https://www.marketwatch.com/story/blood-clots-are-incredibly-common-even-for-pro-athletes-like-jalen-hurts-heres-what-to-know-e20071ef?mod=mw_rss_topstories",
+      "published": "Mon, 19 Oct 2026 21:58:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "When should you dump your target-date funds?",
+      "url": "https://www.marketwatch.com/story/when-should-you-dump-your-target-date-funds-18082148?mod=mw_rss_topstories",
+      "published": "Mon, 19 Oct 2026 21:37:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Credit markets have entered uncharted territory as the riskiest junk bonds send a warning to investors",
+      "url": "https://www.marketwatch.com/story/credit-markets-have-entered-uncharted-territory-as-the-riskiest-junk-bonds-send-a-warning-to-investors-816a05d5?mod=mw_rss_topstories",
+      "published": "Mon, 19 Oct 2026 21:36:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life — but here’s I’m still hopeful",
+      "url": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
+      "published": "Mon, 19 Oct 2026 21:30:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "‘I’m naturally skeptical’: I receive 10 calls a day offering me $15,000 loans at 8% interest. Is this a scam?",
+      "url": "https://www.marketwatch.com/story/im-naturally-skeptical-i-receive-10-calls-a-day-offering-me-15-000-loans-at-8-interest-is-this-a-scam-825c3431?mod=mw_rss_topstories",
+      "published": "Mon, 19 Oct 2026 21:15:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Micron and other chip stocks spring back to life after bruising selloff",
+      "url": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-spring-back-to-life-after-bruising-selloff-16486541?mod=mw_rss_topstories",
+      "published": "Mon, 19 Oct 2026 21:06:00 GMT"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Honeywell Aerospace sees business aviation growth on rising aircraft use",
+      "url": "https://www.investing.com/news/stock-market-news/honeywell-aerospace-sees-business-aviation-growth-on-rising-aircraft-use-4958553",
+      "published": "2026-10-20 00:12:29"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Waymo plans to quintuple fleet to 20,000, Semafor reports",
+      "url": "https://www.investing.com/news/stock-market-news/waymo-plans-to-quintuple-fleet-to-20000-semafor-reports-4958528",
+      "published": "2026-10-20 00:12:18"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "AGNC Investment earnings missed, revenue topped estimates",
+      "url": "https://www.investing.com/news/earnings/agnc-investment-earnings-missed-revenue-topped-estimates-4958555",
+      "published": "2026-10-20 00:11:26"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Cathie Wood’s ARK sells Palantir and Shopify stock, buys CoreWeave",
+      "url": "https://www.investing.com/news/company-news/cathie-woods-ark-sells-palantir-and-shopify-stock-buys-coreweave-93CH-4958554",
+      "published": "2026-10-20 00:11:09"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Whirlpool appoints former Vanguard executive to board",
+      "url": "https://www.investing.com/news/company-news/whirlpool-appoints-former-vanguard-executive-to-board-93CH-4958541",
+      "published": "2026-10-19 23:48:29"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Disney EVP Brent Woodford sells $318,958 in company stock",
+      "url": "https://www.investing.com/news/insider-trading-news/disney-evp-brent-woodford-sells-318958-in-company-stock-93CH-4958539",
+      "published": "2026-10-19 23:46:06"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Latest Oil Market News and Analysis for Oct. 20",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-19/latest-oil-market-news-and-analysis-for-oct-20",
+      "published": "Mon, 19 Oct 2026 22:04:11 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Asian Stocks Shrug Off US Chip Rally, Oil Steadies: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-19/stock-market-today-dow-s-p-live-updates",
+      "published": "Mon, 19 Oct 2026 22:09:31 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "French Protests Taper Off as Officials Admit Failure",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-20/french-protests-taper-off-as-officials-admit-failure-video",
+      "published": "Tue, 20 Oct 2026 00:00:15 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Gold Holds Decline as Energy-Led Inflation Weighs on Rate Path",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-19/gold-holds-decline-as-energy-led-inflation-weighs-on-rate-path",
+      "published": "Mon, 19 Oct 2026 23:55:45 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Mynt’s Record IPO Brings a New Heavyweight to Philippine Stocks",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-19/mynt-s-record-ipo-brings-a-new-heavyweight-to-philippine-stocks",
+      "published": "Mon, 19 Oct 2026 23:00:00 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "China Plans to Adopt New Policy Rate That May Lead to Easing",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-19/china-signals-plan-for-overnight-rate-to-play-bigger-policy-role",
+      "published": "Mon, 19 Oct 2026 08:58:31 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "New York pensions chief says private equity firm sought to expense jet use",
+      "url": "https://www.ft.com/content/97643fcb-46f8-43dc-b559-c33709f37866?syn-25a6b1a6=1",
+      "published": "Mon, 19 Oct 2026 21:18:40 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "US stocks recover after AI sell-off",
+      "url": "https://www.ft.com/content/915ea7ca-1f35-4847-810a-fb29e8344496?syn-25a6b1a6=1",
+      "published": "Mon, 19 Oct 2026 20:08:32 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Digital gold market triples to $55bn as younger investors pile in",
+      "url": "https://www.ft.com/content/ec362974-2f42-4938-84e6-f8c1e72c256a?syn-25a6b1a6=1",
+      "published": "Mon, 19 Oct 2026 17:24:54 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Indonesia expels tightly held companies from Jakarta index in bid to avoid MSCI downgrade",
+      "url": "https://www.ft.com/content/472ad6cf-438f-4d62-a41c-8725cbf53383?syn-25a6b1a6=1",
+      "published": "Mon, 19 Oct 2026 15:59:35 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "EU drops push for global ban on Arctic drilling",
+      "url": "https://www.ft.com/content/8b1990d1-b4b2-4147-ba4b-76d1869ee2db?syn-25a6b1a6=1",
+      "published": "Mon, 19 Oct 2026 15:36:34 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Submit a question: Could Anthropic’s IPO be a turning point for AI?",
+      "url": "https://www.ft.com/content/8cdf338e-d472-460c-8642-a8f033b99462?syn-25a6b1a6=1",
+      "published": "Mon, 19 Oct 2026 14:10:33 GMT"
+    }
+  ],
+  "summary": {
+    "headlines": [
+      {
+        "title_ko": "美 CPI 서프라이즈에도 S&P 500·나스닥 사상최고 마감, 테크가 견인",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/13/stock-market-today.html",
+        "time_label": "23:00"
+      },
+      {
+        "title_ko": "연준, 인플레 둔화 흐름 속 추가 인하 경로 유지 관측",
+        "source": "Reuters",
+        "url": "https://www.reuters.com/markets/us/fed-rate-cut-2026/",
+        "time_label": "21:30"
+      },
+      {
+        "title_ko": "삼성전자 CXL 메모리 양산 발표에 KOSPI 7,844 사상최고",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-14/kospi-record",
+        "time_label": "15:30"
+      },
+      {
+        "title_ko": "BOJ, 임금·물가 사이클 강화 시 추가 정상화 가능 시사",
+        "source": "Bank of Japan",
+        "url": "https://www.boj.or.jp/en/announcements/2026/",
+        "time_label": "10:00"
+      },
+      {
+        "title_ko": "英 1Q GDP 컨센서스 부합, 스타머 정치 리스크는 여전",
+        "source": "FT",
+        "url": "https://www.ft.com/content/uk-gdp-2026q1",
+        "time_label": "17:00"
+      }
+    ],
+    "market_summary_ko": "미국 인플레이션 경계감에도 테크 모멘텀이 지수를 끌어올렸고, 아시아 세션에서는 삼성전자 CXL 모멘텀에 KOSPI가 다시 사상최고를 갈아엎었다. Fed 인하 vs BOJ 인상 디버전스가 달러 강세를 떠받치는 가운데, 다음 분기점은 5/21 NVDA 실적이다.",
+    "risk_sentiment": "RISK-ON"
+  }
+}
