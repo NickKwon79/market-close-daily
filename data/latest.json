@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-10-21 22:04 KST",
-  "as_of_date": "2026-10-21",
-  "as_of_weekday": "WED",
-  "build_unix": 1792587879,
+  "as_of_kst": "2026-10-22 09:05 KST",
+  "as_of_date": "2026-10-22",
+  "as_of_weekday": "THU",
+  "build_unix": 1792627541,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -10,17 +10,17 @@
       "name": "S&P 500",
       "region": "USA",
       "kind": "broad",
-      "price": 7712.57,
-      "change": 21.84,
-      "change_pct": 0.28,
+      "price": 7757.17,
+      "change": 44.6,
+      "change_pct": 0.58,
       "spark": [
-        7718.94,
         7744.06,
         7659.44,
         7690.73,
-        7712.57
+        7712.57,
+        7757.17
       ],
-      "as_of": "2026-10-20"
+      "as_of": "2026-10-21"
     },
     "nasdaq": {
       "key": "nasdaq",
@@ -28,17 +28,17 @@
       "name": "NASDAQ Composite",
       "region": "USA",
       "kind": "tech",
-      "price": 26424.82,
-      "change": -6.07,
-      "change_pct": -0.02,
+      "price": 26702.86,
+      "change": 278.04,
+      "change_pct": 1.05,
       "spark": [
-        26692.87,
         26713.03,
         26140.03,
         26430.89,
-        26424.82
+        26424.82,
+        26702.86
       ],
-      "as_of": "2026-10-20"
+      "as_of": "2026-10-21"
     },
     "dow": {
       "key": "dow",
@@ -46,17 +46,17 @@
       "name": "Dow Jones 30",
       "region": "USA",
       "kind": "value",
-      "price": 52495.88,
-      "change": 529.85,
-      "change_pct": 1.02,
+      "price": 52856.09,
+      "change": 360.21,
+      "change_pct": 0.69,
       "spark": [
-        51621.48,
         52177.69,
         52002.41,
         51966.03,
-        52495.88
+        52495.88,
+        52856.09
       ],
-      "as_of": "2026-10-20"
+      "as_of": "2026-10-21"
     },
     "kospi": {
       "key": "kospi",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 5735.66,
-      "change": 182.92,
-      "change_pct": 3.29,
+      "price": 5552.74,
+      "change": -215.27,
+      "change_pct": -3.73,
       "spark": [
+        6008.81,
         5554.22,
         5668.05,
         5768.01,
-        5552.74,
-        5735.66
+        5552.74
       ],
-      "as_of": "2026-10-21"
+      "as_of": "2026-10-20"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 64621.24,
-      "change": 545.82,
-      "change_pct": 0.85,
+      "price": 64075.42,
+      "change": -841.28,
+      "change_pct": -1.3,
       "spark": [
+        67744.29,
         64425.95,
         65324.29,
         64916.7,
-        64075.42,
-        64621.24
+        64075.42
       ],
-      "as_of": "2026-10-21"
+      "as_of": "2026-10-20"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,15 +100,15 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 23651.87,
-      "change": -215.87,
-      "change_pct": -0.9,
+      "price": 23867.74,
+      "change": -319.09,
+      "change_pct": -1.32,
       "spark": [
+        24345.22,
         24314.17,
         24062.72,
         24186.83,
-        23867.74,
-        23651.87
+        23867.74
       ],
       "as_of": "2026-10-21"
     },
@@ -118,15 +118,15 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10752.29,
-      "change": 19.29,
-      "change_pct": 0.18,
+      "price": 10733.0,
+      "change": -31.7,
+      "change_pct": -0.29,
       "spark": [
+        10724.9,
         10840.4,
         10881.9,
         10764.7,
-        10733.0,
-        10752.29
+        10733.0
       ],
       "as_of": "2026-10-21"
     },
@@ -136,15 +136,15 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 25559.8,
-      "change": 255.38,
-      "change_pct": 1.01,
+      "price": 25304.42,
+      "change": -15.35,
+      "change_pct": -0.06,
       "spark": [
+        25298.61,
         25382.62,
         25622.61,
         25319.77,
-        25304.42,
-        25559.8
+        25304.42
       ],
       "as_of": "2026-10-21"
     }
@@ -153,33 +153,33 @@
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1325.71,
+      "rate": 1327.28,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 157.94,
+      "rate": 158.18,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1232,
+      "rate": 1.1237,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.6643,
+      "rate": 6.6653,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 101.67,
-      "change": -0.06,
-      "change_pct": -0.06,
+      "rate": 101.68,
+      "change": -0.05,
+      "change_pct": -0.05,
       "kind": "index"
     }
   },
@@ -189,227 +189,227 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 97.59,
-      "change": -4.2,
-      "change_pct": -4.13
+      "price": 98.01,
+      "change": -3.78,
+      "change_pct": -3.71
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4146.6,
-      "change": 4.0,
-      "change_pct": 0.1
+      "price": 4144.7,
+      "change": 2.1,
+      "change_pct": 0.05
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 83708.81,
-      "change": 767.81,
-      "change_pct": 0.93
+      "price": 84208.98,
+      "change": 1267.98,
+      "change_pct": 1.53
     },
     "ust10y": {
       "key": "ust10y",
       "symbol": "^TNX",
       "name": "10Y UST Yield",
       "unit": "%",
-      "price": 5.1,
-      "change": -0.02,
-      "change_pct": -0.37
+      "price": 5.15,
+      "change": 0.03,
+      "change_pct": 0.57
     },
     "vix": {
       "key": "vix",
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 17.14,
-      "change": -0.17,
-      "change_pct": -0.98
+      "price": 16.68,
+      "change": -0.63,
+      "change_pct": -3.64
     }
   },
   "headlines_raw": [
     {
       "source": "CNBC Markets",
-      "title": "Netflix is sliding after earnings. Analysts say buy the dip",
-      "url": "https://www.cnbc.com/2026/10/21/netflix-is-sliding-after-earnings-analysts-say-buy-the-dip.html",
-      "published": "Wed, 21 Oct 2026 12:56:33 GMT"
+      "title": "Thursday's big stock stories: What’s likely to move the market in the next trading session",
+      "url": "https://www.cnbc.com/2026/10/21/thursdays-big-stock-stories-whats-likely-to-move-the-market.html",
+      "published": "Wed, 21 Oct 2026 23:40:07 GMT"
     },
     {
       "source": "CNBC Markets",
-      "title": "Here are Wednesday's biggest analyst calls: Nvidia, SpaceX, Netflix, Zoom, Apple, Robinhood & more",
-      "url": "https://www.cnbc.com/2026/10/21/wednesday-biggest-analyst-calls-like-spacex.html",
-      "published": "Wed, 21 Oct 2026 12:11:50 GMT"
+      "title": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
+      "url": "https://www.cnbc.com/2026/10/21/rick-rieder-investment-grade-bonds.html",
+      "published": "Wed, 21 Oct 2026 19:54:16 GMT"
     },
     {
       "source": "CNBC Markets",
-      "title": "SpaceX is ripping higher after strong earnings. Analysts see more gains ahead",
-      "url": "https://www.cnbc.com/2026/10/21/spacex-stock-q3-earnings-analysts.html",
-      "published": "Wed, 21 Oct 2026 11:28:47 GMT"
+      "title": "The AI trade may be at a turning point. Where it may go, and how to play it",
+      "url": "https://www.cnbc.com/2026/10/21/the-ai-trade-may-be-at-a-turning-point-where-it-may-go-and-how-to-play-it.html",
+      "published": "Wed, 21 Oct 2026 18:44:06 GMT"
     },
     {
       "source": "CNBC Markets",
-      "title": "This Janus Henderson fund manager owns CoreWeave debt — here's why he's sticking with it",
-      "url": "https://www.cnbc.com/2026/10/20/coreweave-debt-janus-henderson-lloyd.html",
-      "published": "Wed, 21 Oct 2026 00:12:44 GMT"
+      "title": "Earnings season is in full swing. These are Morgan Stanley's highest conviction plays",
+      "url": "https://www.cnbc.com/2026/10/21/morgan-stanley-western-digital-terawulf-williams.html",
+      "published": "Wed, 21 Oct 2026 16:20:51 GMT"
     },
     {
       "source": "CNBC Markets",
-      "title": "Wednesday's big stock stories: What’s likely to move the market in the next trading session",
-      "url": "https://www.cnbc.com/2026/10/20/wednesdays-big-stock-stories-whats-likely-to-move-the-market.html",
-      "published": "Tue, 20 Oct 2026 23:12:59 GMT"
+      "title": "Why the stock market’s fragile calm faces a major test starting Friday",
+      "url": "https://www.cnbc.com/2026/10/21/stock-market-fed-earnings-france-risks.html",
+      "published": "Wed, 21 Oct 2026 16:16:30 GMT"
     },
     {
       "source": "CNBC Markets",
-      "title": "A top medical technology stock is trading at a big discount. Here's why I'm buying",
-      "url": "https://www.cnbc.com/2026/10/20/stryker-stock-buying-opportunity.html",
-      "published": "Tue, 20 Oct 2026 20:44:45 GMT"
+      "title": "Shares of this hookah maker could rally 50%, says Roth. Here's why",
+      "url": "https://www.cnbc.com/2026/10/21/air-global-roth-buy-rating-price-target.html",
+      "published": "Wed, 21 Oct 2026 15:10:24 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Heckler disrupts Nvidia CEO Huang’s speech at Berlin conference",
-      "url": "https://www.marketwatch.com/story/heckler-disrupts-nvidia-ceo-huangs-speech-at-berlin-conference-fc461a82?mod=mw_rss_topstories",
-      "published": "Wed, 21 Oct 2026 12:32:00 GMT"
+      "title": "Tesla’s stock falls as Elon Musk leaves investors wanting more",
+      "url": "https://www.marketwatch.com/story/teslas-stock-falls-as-elon-musk-leaves-investors-wanting-more-eb347f38?mod=mw_rss_topstories",
+      "published": "Wed, 21 Oct 2026 23:29:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Why SpaceX’s stock is surging — and lifting the broader AI universe along with it",
-      "url": "https://www.marketwatch.com/story/why-spacexs-stock-is-surging-and-lifting-the-broader-ai-universe-along-with-it-0cd62f39?mod=mw_rss_topstories",
-      "published": "Wed, 21 Oct 2026 12:06:00 GMT"
+      "title": "Meta’s stock rises as investors glimpse an opportunity that could dwarf the ad business",
+      "url": "https://www.marketwatch.com/story/metas-stock-rises-as-investors-glimpse-an-opportunity-that-could-dwarf-the-ad-business-89369c6c?mod=mw_rss_topstories",
+      "published": "Wed, 21 Oct 2026 23:07:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Musk says he’s exploring a SpaceX-Tesla megamerger. What would a combined company be worth?",
-      "url": "https://www.marketwatch.com/story/musk-says-hes-exploring-a-spacex-tesla-megamerger-what-would-a-combined-company-be-worth-f35566aa?mod=mw_rss_topstories",
-      "published": "Wed, 21 Oct 2026 11:39:00 GMT"
+      "title": "Why investors should be skeptical of a potential Tesla-SpaceX merger",
+      "url": "https://www.marketwatch.com/story/why-investors-should-be-skeptical-of-a-potential-tesla-spacex-merger-9e119d32?mod=mw_rss_topstories",
+      "published": "Wed, 21 Oct 2026 21:44:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Trump says data centers should generate their own electricity — but experts say only states can mandate that",
+      "url": "https://www.marketwatch.com/story/trump-says-data-centers-should-generate-their-own-electricity-but-experts-say-only-states-can-mandate-that-415dcaad?mod=mw_rss_topstories",
+      "published": "Wed, 21 Oct 2026 21:31:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Oil is now flowing out of the Persian Gulf like before the Iran war. Why prices may still not come down anytime soon.",
+      "url": "https://www.marketwatch.com/story/oil-is-now-flowing-out-of-the-persian-gulf-like-before-the-iran-war-why-prices-may-still-not-come-down-anytime-soon-56df2f48?mod=mw_rss_topstories",
+      "published": "Wed, 21 Oct 2026 21:14:00 GMT"
     },
     {
       "source": "MarketWatch Top",
       "title": "‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?",
       "url": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
-      "published": "Wed, 21 Oct 2026 11:15:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "I receive 10 calls a day promising me $15,000 loans at 8% interest. Are these legitimate offers?",
-      "url": "https://www.marketwatch.com/story/im-naturally-skeptical-i-receive-10-calls-a-day-offering-me-15-000-loans-at-8-interest-is-this-a-scam-825c3431?mod=mw_rss_topstories",
-      "published": "Wed, 21 Oct 2026 11:00:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Opposition to data centers will drive up inflation, says BlackRock’s Larry Fink",
-      "url": "https://www.marketwatch.com/story/opposition-to-data-centers-will-drive-up-inflation-says-blackrocks-larry-fink-831c25b9?mod=mw_rss_topstories",
-      "published": "Wed, 21 Oct 2026 10:59:00 GMT"
+      "published": "Wed, 21 Oct 2026 21:00:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Cantor Fitzgerald reiterates Overweight on Regions Financial stock",
-      "url": "https://www.investing.com/news/analyst-ratings/cantor-fitzgerald-reiterates-overweight-on-regions-financial-stock-93CH-4963117",
-      "published": "2026-10-21 12:54:52"
+      "title": "Australia’s Santos trims 2026 output forecast on Alaska oilfield delays",
+      "url": "https://www.investing.com/news/stock-market-news/australias-santos-trims-2026-output-forecast-on-alaska-oilfield-delays-4964437",
+      "published": "2026-10-21 23:55:14"
     },
     {
       "source": "Investing.com News",
-      "title": "Stifel reiterates Hold rating on Crocs stock amid accounting shifts",
-      "url": "https://www.investing.com/news/analyst-ratings/stifel-reiterates-hold-rating-on-crocs-stock-amid-accounting-shifts-93CH-4963118",
-      "published": "2026-10-21 12:54:52"
+      "title": "Comcast plans significant job cuts, Bloomberg News reports",
+      "url": "https://www.investing.com/news/stock-market-news/comcast-planning-significant-jobs-cuts-bloomberg-news-reports-4964417",
+      "published": "2026-10-21 23:54:44"
     },
     {
       "source": "Investing.com News",
-      "title": "Cantor Fitzgerald reiterates Salesforce stock rating on acquisition",
-      "url": "https://www.investing.com/news/analyst-ratings/cantor-fitzgerald-reiterates-salesforce-stock-rating-on-acquisition-93CH-4963116",
-      "published": "2026-10-21 12:54:48"
+      "title": "Government websites go dark after AI-discovered flaw sparks security scramble",
+      "url": "https://www.investing.com/news/stock-market-news/cyber-agency-warns-websites-may-go-dark-as-php-prepares-critical-fix-4961963",
+      "published": "2026-10-21 23:54:31"
     },
     {
       "source": "Investing.com News",
-      "title": "Thousands of Greek students, teachers protest over education, pay",
-      "url": "https://www.investing.com/news/economy-news/thousands-of-greek-students-teachers-protest-over-education-pay-4963064",
-      "published": "2026-10-21 12:54:21"
+      "title": "J.Jill EVP, CFO & COO Mark Webb sells $122,600 in shares",
+      "url": "https://www.investing.com/news/insider-trading-news/jjill-evp-cfo--coo-mark-webb-sells-122600-in-shares-93CH-4964435",
+      "published": "2026-10-21 23:50:14"
     },
     {
       "source": "Investing.com News",
-      "title": "IGI Q2 FY27 slides: certification revenue surges 32%, EBITDA up 39%",
-      "url": "https://www.investing.com/news/company-news/igi-q2-fy27-slides-certification-revenue-surges-32-ebitda-up-39-93CH-4963114",
-      "published": "2026-10-21 12:53:56"
+      "title": "BHP chair says Australia must compete harder for global investments",
+      "url": "https://www.investing.com/news/stock-market-news/bhp-chair-says-australia-must-compete-harder-for-global-investments-4964429",
+      "published": "2026-10-21 23:48:19"
     },
     {
       "source": "Investing.com News",
-      "title": "Klarna launches cross-border payment service with no FX fees",
-      "url": "https://www.investing.com/news/company-news/klarna-launches-crossborder-payment-service-with-no-fx-fees-93CH-4963112",
-      "published": "2026-10-21 12:52:38"
+      "title": "Timothy E. Johns sells $125,685 in Heritage Insurance stock",
+      "url": "https://www.investing.com/news/insider-trading-news/timothy-e-johns-sells-125685-in-heritage-insurance-stock-93CH-4964428",
+      "published": "2026-10-21 23:46:23"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Latest Oil Market News and Analysis for Oct. 21",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-20/latest-oil-market-news-and-analysis-for-oct-21",
-      "published": "Tue, 20 Oct 2026 22:04:52 GMT"
+      "title": "Latest Oil Market News and Analysis for Oct. 22",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-21/latest-oil-market-news-and-analysis-for-oct-22",
+      "published": "Wed, 21 Oct 2026 22:05:54 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "FTSE 100 Live: Gilts Rise to Brush Off Hot Inflation and European Selloff",
-      "url": "https://www.bloomberg.com/news/live-blog/2026-10-21/ftse-100-live-uk-inflation-data-cpi-pound-bonds-gilts-oil-prices-ai-stocks-what-s-moving-uk-markets-right-now-markets-today",
-      "published": "Wed, 21 Oct 2026 05:52:15 GMT"
+      "title": "El Niño Stresses China’s Power Market With Return to Costly Gas",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-21/el-nino-stresses-china-s-power-market-with-return-to-costly-gas",
+      "published": "Wed, 21 Oct 2026 23:31:23 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Stocks Climb as SpaceX Results Reignite AI Trade: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-20/stock-market-today-dow-s-p-live-updates",
-      "published": "Tue, 20 Oct 2026 22:05:51 GMT"
+      "title": "US Stock Futures Slip After Earnings, Oil Gains: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-21/stock-market-today-dow-s-p-live-updates",
+      "published": "Wed, 21 Oct 2026 22:13:33 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "US Futures Climb With SpaceX Results Helping Boost AI Sentiment",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-21/us-futures-climb-with-spacex-results-helping-boost-ai-sentiment",
-      "published": "Wed, 21 Oct 2026 12:18:53 GMT"
+      "title": "Pulp Maker Mercer Is Weighing Possible Chapter 11 Bankruptcy",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-21/pulp-maker-mercer-is-weighing-possible-chapter-11-bankruptcy",
+      "published": "Wed, 21 Oct 2026 23:25:37 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "South Africa to Cut Fuel Levy for Two Months From November",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-21/south-africa-to-cut-fuel-levy-for-two-months-from-november",
-      "published": "Wed, 21 Oct 2026 12:09:40 GMT"
+      "title": "UniSuper CIO Is Not A Skeptic on AI",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-21/unisuper-cio-is-not-a-skeptic-on-ai-video",
+      "published": "Wed, 21 Oct 2026 23:19:30 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "South Africa Raises Borrowing Requirement to Fund Bond Buyback",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-21/south-africa-raises-borrowing-requirement-to-fund-bond-buyback",
-      "published": "Wed, 21 Oct 2026 12:08:19 GMT"
+      "title": "Santos Posts Record Quarterly Output on New LNG, Oil Projects",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-21/santos-posts-record-quarterly-output-on-new-lng-oil-projects",
+      "published": "Wed, 21 Oct 2026 23:09:53 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "France’s borrowing costs hit 5% for first time since 2002",
-      "url": "https://www.ft.com/content/76f076e4-9db2-4971-8ac9-73d9f39e4876?syn-25a6b1a6=1",
-      "published": "Wed, 21 Oct 2026 12:51:26 GMT"
+      "title": "US orders some personnel to leave Saudi Arabia after Houthi attacks",
+      "url": "https://www.ft.com/content/f39aa4d2-e290-451f-ae91-b19138b6172f?syn-25a6b1a6=1",
+      "published": "Wed, 21 Oct 2026 23:54:14 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Middle East oil exports climb back to prewar levels",
-      "url": "https://www.ft.com/content/509c0ecf-625e-4473-96cf-e249edb7c86e?syn-25a6b1a6=1",
-      "published": "Wed, 21 Oct 2026 12:01:37 GMT"
+      "title": "Buyout firm EQT acquires German diagnostics group in €10.8bn deal",
+      "url": "https://www.ft.com/content/5833c24e-3a4b-4242-a8c2-8f9918c4670c?syn-25a6b1a6=1",
+      "published": "Wed, 21 Oct 2026 22:23:49 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Can Britain’s grid make the grade?",
-      "url": "https://www.ft.com/content/7713a613-7b31-4e31-9aeb-0fb2bd03391e?syn-25a6b1a6=1",
-      "published": "Wed, 21 Oct 2026 11:01:04 GMT"
+      "title": "Submit a question: Could Anthropic’s IPO be a turning point for AI?",
+      "url": "https://www.ft.com/content/8cdf338e-d472-460c-8642-a8f033b99462?syn-25a6b1a6=1",
+      "published": "Wed, 21 Oct 2026 21:21:31 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "The rise of index vigilantes",
-      "url": "https://www.ft.com/content/b3544087-2673-4e90-9192-342c6b1a6a03",
-      "published": "Wed, 21 Oct 2026 10:37:05 GMT"
+      "title": "Bessent shrugs off ‘systemic’ AI risks at closed-door investor conference",
+      "url": "https://www.ft.com/content/5b7c2fdf-2300-4208-860e-6389ceb18886?syn-25a6b1a6=1",
+      "published": "Wed, 21 Oct 2026 18:46:59 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Iran war sparks heating crisis in US north-east as winter approaches",
-      "url": "https://www.ft.com/content/162c6dd8-5501-46f4-8f7c-b456a4e29539?syn-25a6b1a6=1",
-      "published": "Wed, 21 Oct 2026 10:00:06 GMT"
+      "title": "CVC explores bid for Verisure just one year after IPO",
+      "url": "https://www.ft.com/content/7c0fb51a-2c17-414e-96a7-ac33f40af3de?syn-25a6b1a6=1",
+      "published": "Wed, 21 Oct 2026 17:43:52 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "UK’s biggest port operator valued at over £10bn in Australian fund purchase",
-      "url": "https://www.ft.com/content/21d3b4e1-941b-4ad8-8e41-f8fc1864e758?syn-25a6b1a6=1",
-      "published": "Wed, 21 Oct 2026 08:19:02 GMT"
+      "title": "UK approves development of Jackdaw gasfield in North Sea",
+      "url": "https://www.ft.com/content/9cfa52b2-77cb-4b53-ad74-badd53f24fc6?syn-25a6b1a6=1",
+      "published": "Wed, 21 Oct 2026 16:49:02 GMT"
     }
   ],
   "summary": {
