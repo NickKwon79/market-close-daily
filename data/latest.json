@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-10-23 09:04 KST",
+  "as_of_kst": "2026-10-23 21:45 KST",
   "as_of_date": "2026-10-23",
   "as_of_weekday": "FRI",
-  "build_unix": 1792713843,
+  "build_unix": 1792759548,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 5735.66,
-      "change": 182.92,
-      "change_pct": 3.29,
+      "price": 5550.3,
+      "change": 16.53,
+      "change_pct": 0.3,
       "spark": [
-        5554.22,
-        5668.05,
         5768.01,
         5552.74,
-        5735.66
+        5735.66,
+        5533.77,
+        5550.3
       ],
-      "as_of": "2026-10-21"
+      "as_of": "2026-10-23"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 64621.24,
-      "change": 545.82,
-      "change_pct": 0.85,
+      "price": 62693.16,
+      "change": -214.68,
+      "change_pct": -0.34,
       "spark": [
-        64425.95,
-        65324.29,
         64916.7,
         64075.42,
-        64621.24
+        64621.24,
+        62907.84,
+        62693.16
       ],
-      "as_of": "2026-10-21"
+      "as_of": "2026-10-23"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 23651.87,
-      "change": -215.87,
-      "change_pct": -0.9,
+      "price": 23093.37,
+      "change": 158.69,
+      "change_pct": 0.69,
       "spark": [
-        24314.17,
-        24062.72,
         24186.83,
         23867.74,
-        23651.87
+        23651.87,
+        22934.68,
+        23093.37
       ],
-      "as_of": "2026-10-22"
+      "as_of": "2026-10-23"
     },
     "ftse": {
       "key": "ftse",
@@ -118,17 +118,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10752.9,
-      "change": 19.9,
-      "change_pct": 0.19,
+      "price": 10657.98,
+      "change": -67.02,
+      "change_pct": -0.62,
       "spark": [
-        10840.4,
-        10881.9,
         10764.7,
         10733.0,
-        10752.9
+        10752.9,
+        10725.0,
+        10657.98
       ],
-      "as_of": "2026-10-22"
+      "as_of": "2026-10-23"
     },
     "dax": {
       "key": "dax",
@@ -136,50 +136,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 25645.04,
-      "change": 340.62,
-      "change_pct": 1.35,
+      "price": 25109.34,
+      "change": -262.41,
+      "change_pct": -1.03,
       "spark": [
-        25382.62,
-        25622.61,
         25319.77,
         25304.42,
-        25645.04
+        25645.04,
+        25371.75,
+        25109.34
       ],
-      "as_of": "2026-10-22"
+      "as_of": "2026-10-23"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1325.78,
+      "rate": 1324.58,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 156.35,
+      "rate": 156.5,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1226,
+      "rate": 1.1202,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.6651,
+      "rate": 6.6595,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 101.56,
-      "change": -0.22,
-      "change_pct": -0.21,
+      "rate": 101.74,
+      "change": 0.13,
+      "change_pct": 0.12,
       "kind": "index"
     }
   },
@@ -189,48 +189,60 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 99.32,
-      "change": 2.17,
-      "change_pct": 2.23
+      "price": 101.24,
+      "change": 1.77,
+      "change_pct": 1.78
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4037.2,
-      "change": -112.8,
-      "change_pct": -2.72
+      "price": 4040.6,
+      "change": -19.8,
+      "change_pct": -0.49
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 81224.52,
-      "change": -2787.45,
-      "change_pct": -3.32
+      "price": 81680.72,
+      "change": 368.83,
+      "change_pct": 0.45
     },
     "ust10y": {
       "key": "ust10y",
       "symbol": "^TNX",
       "name": "10Y UST Yield",
       "unit": "%",
-      "price": 4.95,
-      "change": -0.19,
-      "change_pct": -3.75
+      "price": 4.98,
+      "change": 0.03,
+      "change_pct": 0.59
     },
     "vix": {
       "key": "vix",
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 19.03,
-      "change": 2.35,
-      "change_pct": 14.09
+      "price": 19.81,
+      "change": 0.78,
+      "change_pct": 4.1
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Why investors are moving back into Treasurys",
+      "url": "https://www.cnbc.com/2026/10/23/treasurys-haven-ai-credit-risks.html",
+      "published": "Fri, 23 Oct 2026 12:34:10 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "SpaceX bear flips to big bull because of AI business. Analyst now sees 70% gain",
+      "url": "https://www.cnbc.com/2026/10/23/spacex-double-upgraded-by-phillipcapital.html",
+      "published": "Fri, 23 Oct 2026 11:02:56 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Friday's big stock stories: What’s likely to move the market in the next trading session",
@@ -256,160 +268,148 @@
       "published": "Thu, 22 Oct 2026 12:48:13 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "Here are Thursday's biggest analyst calls: Nvidia, Tesla, SpaceX, Meta, CoreWeave, IBM, Block & more",
-      "url": "https://www.cnbc.com/2026/10/22/wall-street-analyst-calls-nvidia-tesla-meta-spacex.html",
-      "published": "Thu, 22 Oct 2026 12:29:36 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Tesla is falling even after earnings. What analysts are saying",
-      "url": "https://www.cnbc.com/2026/10/22/tesla-q3-2026-earnings-analysts.html",
-      "published": "Thu, 22 Oct 2026 11:38:03 GMT"
+      "source": "MarketWatch Top",
+      "title": "Smart financial advisers are dropping ROI, NAV and QCD for plain English when talking to clients",
+      "url": "https://www.marketwatch.com/story/smart-financial-advisers-are-dropping-roi-nav-and-qcd-for-plain-english-when-talking-to-clients-2a16fc6f?mod=mw_rss_topstories",
+      "published": "Fri, 23 Oct 2026 12:30:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "My partner of 17 years left me his $1 million home. His children are crying foul. Am I obliged to split it with them?",
-      "url": "https://www.marketwatch.com/story/my-unmarried-partner-of-17-years-left-me-his-1-1-million-home-his-three-children-are-livid-should-i-share-my-inheritance-a11d593d?mod=mw_rss_topstories",
-      "published": "Thu, 22 Oct 2026 23:15:00 GMT"
+      "title": "It’s been a painful month for hedge funds. To turn it around, they are shorting U.S. stocks.",
+      "url": "https://www.marketwatch.com/story/its-been-a-painful-month-for-hedge-funds-to-turn-it-around-they-are-shorting-u-s-stocks-d36ee922?mod=mw_rss_topstories",
+      "published": "Fri, 23 Oct 2026 12:23:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?",
-      "url": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
-      "published": "Thu, 22 Oct 2026 23:00:00 GMT"
+      "title": "My spouse was awarded $90,000 from my 401(k) in our divorce. How is that fair?",
+      "url": "https://www.marketwatch.com/story/my-spouse-was-awarded-90-000-from-my-401-k-in-our-divorce-how-is-that-fair-dc839aa3?mod=mw_rss_topstories",
+      "published": "Fri, 23 Oct 2026 12:16:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "CoreWeave set off a wave of anxiety — but Wall Street’s dire prognosis is premature",
-      "url": "https://www.marketwatch.com/story/coreweave-set-off-a-wave-of-anxiety-but-wall-streets-dire-prognosis-is-premature-edc3f5dd?mod=mw_rss_topstories",
-      "published": "Thu, 22 Oct 2026 22:54:00 GMT"
+      "title": "The mobile ambitions of SpaceX see telecom stocks get hit again. What the latest developments mean.",
+      "url": "https://www.marketwatch.com/story/the-mobile-ambitions-of-spacex-see-telecom-stocks-get-hit-again-what-the-latest-developments-mean-9a4159b5?mod=mw_rss_topstories",
+      "published": "Fri, 23 Oct 2026 11:32:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "The U.S. stock market is fracturing into two camps, and it’s leaving investors with a brutal case of whiplash",
-      "url": "https://www.marketwatch.com/story/the-u-s-stock-market-is-fracturing-into-two-camps-and-its-leaving-investors-with-a-brutal-case-of-whiplash-e8580a99?mod=mw_rss_topstories",
-      "published": "Thu, 22 Oct 2026 22:17:00 GMT"
+      "title": "The stock market is splitting in two. Is that signaling trouble ahead, or just a new set of winners?",
+      "url": "https://www.marketwatch.com/story/the-stock-market-is-splitting-in-two-is-that-signaling-trouble-ahead-or-just-a-new-set-of-winners-f51aaeab?mod=mw_rss_topstories",
+      "published": "Fri, 23 Oct 2026 11:24:00 GMT"
     },
     {
       "source": "MarketWatch Top",
       "title": "Treasury yields log biggest drop since the 2023 banking crisis. Here’s what’s going on.",
       "url": "https://www.marketwatch.com/story/treasury-yields-see-extreme-plunge-why-investors-are-ducking-for-cover-60044c66?mod=mw_rss_topstories",
-      "published": "Thu, 22 Oct 2026 22:07:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Americans are having fewer babies — and pampering them with luxury diapers",
-      "url": "https://www.marketwatch.com/story/americans-are-having-fewer-babies-and-pampering-them-with-luxury-diapers-a84222cd?mod=mw_rss_topstories",
-      "published": "Thu, 22 Oct 2026 21:28:00 GMT"
+      "published": "Fri, 23 Oct 2026 11:01:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "SK Hynix scraps Solidigm IPO plans, citing market conditions",
-      "url": "https://www.investing.com/news/stock-market-news/sk-hynix-scraps-solidigm-ipo-plans-citing-market-conditions-4967830",
-      "published": "2026-10-22 23:39:12"
+      "title": "Perfect Corp. completes going-private merger, delists from NYSE",
+      "url": "https://www.investing.com/news/company-news/perfect-corp-completes-goingprivate-merger-delists-from-nyse-93CH-4969234",
+      "published": "2026-10-23 12:20:39"
     },
     {
       "source": "Investing.com News",
-      "title": "GeoPark receives $266.8M in tenders for 2030 senior notes",
-      "url": "https://www.investing.com/news/company-news/geopark-receives-2668m-in-tenders-for-2030-senior-notes-93CH-4967829",
-      "published": "2026-10-22 23:36:29"
+      "title": "Lyft and Baidu to launch driverless taxi service in London in 2027",
+      "url": "https://www.investing.com/news/company-news/lyft-and-baidu-to-launch-driverless-taxi-service-in-london-in-2027-93CH-4969225",
+      "published": "2026-10-23 12:17:12"
     },
     {
       "source": "Investing.com News",
-      "title": "UK consumer confidence tumbles ahead of Healey’s budget, GfK reports",
-      "url": "https://www.investing.com/news/economy-news/uk-consumer-confidence-tumbles-ahead-of-healeys-budget-gfk-reports-4967810",
-      "published": "2026-10-22 23:36:21"
+      "title": "Why is LKQ stock crashing today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-lkq-stock-crashing-today-93CH-4969222",
+      "published": "2026-10-23 12:15:34"
     },
     {
       "source": "Investing.com News",
-      "title": "Starbucks international CEO sells $58,800 in common stock",
-      "url": "https://www.investing.com/news/insider-trading-news/starbucks-international-ceo-sells-58800-in-common-stock-93CH-4967826",
-      "published": "2026-10-22 23:30:53"
+      "title": "First Hawaiian stock dips 2% on third-quarter earnings miss",
+      "url": "https://www.investing.com/news/earnings/first-hawaiian-stock-dips-2-on-thirdquarter-earnings-miss-93CH-4969218",
+      "published": "2026-10-23 12:14:45"
     },
     {
       "source": "Investing.com News",
-      "title": "RingCentral Q3 2026 slides: AI momentum drives margin expansion",
-      "url": "https://www.investing.com/news/company-news/ringcentral-q3-2026-slides-ai-momentum-drives-margin-expansion-93CH-4967820",
-      "published": "2026-10-22 23:26:36"
+      "title": "First Hawaiian earnings missed by $0.07, revenue topped estimates",
+      "url": "https://www.investing.com/news/earnings/first-hawaiian-earnings-missed-by-007-revenue-topped-estimates-4969217",
+      "published": "2026-10-23 12:14:22"
     },
     {
       "source": "Investing.com News",
-      "title": "Analysis-Musk’s political baggage clouds prospects for SpaceX-Tesla deal",
-      "url": "https://www.investing.com/news/stock-market-news/analysismusks-political-baggage-clouds-prospects-for-spacextesla-deal-4965229",
-      "published": "2026-10-22 23:24:20"
+      "title": "Is Netflix stock a buy at 52-week lows?",
+      "url": "https://www.investing.com/news/stock-market-news/is-netflix-stock-a-buy-at-52week-lows-93CH-4969205",
+      "published": "2026-10-23 12:13:55"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Latest Oil Market News and Analysis for Oct. 23",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-22/latest-oil-market-news-and-analysis-for-oct-23",
-      "published": "Thu, 22 Oct 2026 22:08:52 GMT"
+      "title": "Copper Trims Weekly Decline as Selloff in AI Stocks Eases",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-23/copper-heads-for-weekly-loss-as-ai-selloff-hurts-risk-appetite",
+      "published": "Fri, 23 Oct 2026 03:00:19 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Yen Jumps as Traders Seek Safety Amid Global Flight From Risk",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-22/yen-outpaces-peers-as-risk-aversion-rises-flows-in-focus",
-      "published": "Thu, 22 Oct 2026 11:35:24 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Japan Inflation Rises Above BOJ Target Level, Backing Rate Hikes",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-22/japan-inflation-rises-above-boj-target-level-backing-rate-hikes",
-      "published": "Thu, 22 Oct 2026 23:32:16 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Asian Stocks to Slide on Tech Rout, Bonds Rally: Markets Wrap",
+      "title": "Tech Selloff Eases With Oil Gains Capping Relief: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-10-22/stock-market-today-dow-s-p-live-updates",
       "published": "Thu, 22 Oct 2026 22:05:06 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Australia’s Victoria State Approves $700 Million Gas Project",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-22/australia-s-victoria-state-approves-700-million-gas-project",
-      "published": "Thu, 22 Oct 2026 23:25:32 GMT"
+      "title": "GM Analysts Say Buy the Dip as Stock Eyes Worst Week Since 2025",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-23/gm-analysts-say-buy-the-dip-as-stock-eyes-worst-week-since-2025",
+      "published": "Fri, 23 Oct 2026 12:30:00 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Treasuries Surge as Worldwide Worries Spark Rush to Safety",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-22/long-end-us-yield-hits-one-month-low-as-ai-fears-fuel-haven-bid",
-      "published": "Thu, 22 Oct 2026 03:46:59 GMT"
+      "title": "Brazil Inflation Shoots Through Target Limit Before Runoff Vote",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-23/brazil-inflation-shoots-through-target-limit-before-runoff-vote",
+      "published": "Fri, 23 Oct 2026 12:15:51 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "¿Qué está en juego en el balotaje entre Lula y Bolsonaro?",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-23/lula-vs-bolsonaro-que-esta-en-juego-video",
+      "published": "Fri, 23 Oct 2026 12:11:07 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Jio’s Record IPO Draws Strong Demand, Defying India Market Rout",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-23/jio-s-record-ipo-draws-strong-demand-defying-india-market-rout",
+      "published": "Fri, 23 Oct 2026 12:03:47 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "OpenAI trims valuation target to $1.25tn after pitching higher price",
-      "url": "https://www.ft.com/content/bb564eb1-79d4-4694-aa24-1155202a9abc?syn-25a6b1a6=1",
-      "published": "Thu, 22 Oct 2026 21:50:16 GMT"
+      "title": "Oil hits $115 for first time since May as global stocks knocked by AI fears",
+      "url": "https://www.ft.com/content/8948193b-438b-4d71-a0b1-31dff56fc308?syn-25a6b1a6=1",
+      "published": "Fri, 23 Oct 2026 12:16:14 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Nasdaq tumbles while Treasuries soar as Meta rekindles AI spending fears",
-      "url": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f?syn-25a6b1a6=1",
-      "published": "Thu, 22 Oct 2026 20:05:42 GMT"
+      "title": "KKR founders back Valencia in deal valuing football club at €1.25bn",
+      "url": "https://www.ft.com/content/f75c25c2-4164-4dfc-9d56-fc6a86704c47?syn-25a6b1a6=1",
+      "published": "Fri, 23 Oct 2026 12:02:13 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "UK waters down ‘fit and proper’ rules set up to hold bankers to account",
-      "url": "https://www.ft.com/content/0a5c7582-133c-4e24-8e3d-daa30f5dad56?syn-25a6b1a6=1",
-      "published": "Thu, 22 Oct 2026 20:00:05 GMT"
+      "title": "What the coming copper crunch means for the global economy",
+      "url": "https://www.ft.com/content/06209f51-de7c-4de0-8e66-5c621a960b87?syn-25a6b1a6=1",
+      "published": "Fri, 23 Oct 2026 11:01:09 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Creditors to Sanjeev Gupta’s first UK steel plant appoint liquidators",
-      "url": "https://www.ft.com/content/63ed58ac-f9ef-41b7-a172-dc540337b698?syn-25a6b1a6=1",
-      "published": "Thu, 22 Oct 2026 15:44:56 GMT"
+      "title": "Anthropic strikes deal to launch European consultancy",
+      "url": "https://www.ft.com/content/df70bf20-e809-48d0-8485-f8f514a7fbc4?syn-25a6b1a6=1",
+      "published": "Fri, 23 Oct 2026 09:04:09 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Could Anthropic’s IPO be a turning point for AI? You asked, we answered",
-      "url": "https://www.ft.com/content/8cdf338e-d472-460c-8642-a8f033b99462?syn-25a6b1a6=1",
-      "published": "Thu, 22 Oct 2026 15:00:13 GMT"
+      "title": "Why the UK should greenlight both Jackdaw and Rosebank",
+      "url": "https://www.ft.com/content/34946f6f-ccd9-4de5-9f57-136e1a0e2064?syn-25a6b1a6=1",
+      "published": "Fri, 23 Oct 2026 09:00:00 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Would you take out a mortgage backed by bitcoin?",
-      "url": "https://www.ft.com/content/42176f60-b2fd-431c-9f2c-e7e015b07315?syn-25a6b1a6=1",
-      "published": "Thu, 22 Oct 2026 15:00:03 GMT"
+      "title": "Winter arrives in markets",
+      "url": "https://www.ft.com/content/ce0e9d68-c63f-4666-9909-512b929e6284?syn-25a6b1a6=1",
+      "published": "Fri, 23 Oct 2026 05:30:08 GMT"
     }
   ],
   "summary": {
