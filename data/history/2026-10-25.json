@@ -1,0 +1,451 @@
+{
+  "as_of_kst": "2026-10-25 08:31 KST",
+  "as_of_date": "2026-10-25",
+  "as_of_weekday": "SUN",
+  "build_unix": 1792884676,
+  "indexes": {
+    "sp500": {
+      "key": "sp500",
+      "symbol": "^GSPC",
+      "name": "S&P 500",
+      "region": "USA",
+      "kind": "broad",
+      "price": 7623.68,
+      "change": -39.75,
+      "change_pct": -0.52,
+      "spark": [
+        7690.73,
+        7712.57,
+        7757.17,
+        7663.43,
+        7623.68
+      ],
+      "as_of": "2026-10-23"
+    },
+    "nasdaq": {
+      "key": "nasdaq",
+      "symbol": "^IXIC",
+      "name": "NASDAQ Composite",
+      "region": "USA",
+      "kind": "tech",
+      "price": 25955.34,
+      "change": -53.52,
+      "change_pct": -0.21,
+      "spark": [
+        26430.89,
+        26424.82,
+        26702.86,
+        26008.86,
+        25955.34
+      ],
+      "as_of": "2026-10-23"
+    },
+    "dow": {
+      "key": "dow",
+      "symbol": "^DJI",
+      "name": "Dow Jones 30",
+      "region": "USA",
+      "kind": "value",
+      "price": 52215.16,
+      "change": -652.82,
+      "change_pct": -1.23,
+      "spark": [
+        51966.03,
+        52495.88,
+        52856.09,
+        52867.98,
+        52215.16
+      ],
+      "as_of": "2026-10-23"
+    },
+    "kospi": {
+      "key": "kospi",
+      "symbol": "^KS11",
+      "name": "KOSPI",
+      "region": "KOREA",
+      "kind": "broad",
+      "price": 5550.3,
+      "change": 16.53,
+      "change_pct": 0.3,
+      "spark": [
+        5768.01,
+        5552.74,
+        5735.66,
+        5533.77,
+        5550.3
+      ],
+      "as_of": "2026-10-23"
+    },
+    "nikkei": {
+      "key": "nikkei",
+      "symbol": "^N225",
+      "name": "Nikkei 225",
+      "region": "JAPAN",
+      "kind": "broad",
+      "price": 62693.16,
+      "change": -214.68,
+      "change_pct": -0.34,
+      "spark": [
+        64916.7,
+        64075.42,
+        64621.24,
+        62907.84,
+        62693.16
+      ],
+      "as_of": "2026-10-23"
+    },
+    "hangseng": {
+      "key": "hangseng",
+      "symbol": "^HSI",
+      "name": "Hang Seng",
+      "region": "HONG KONG",
+      "kind": "broad",
+      "price": 23093.37,
+      "change": 158.69,
+      "change_pct": 0.69,
+      "spark": [
+        24186.83,
+        23867.74,
+        23651.87,
+        22934.68,
+        23093.37
+      ],
+      "as_of": "2026-10-23"
+    },
+    "ftse": {
+      "key": "ftse",
+      "symbol": "^FTSE",
+      "name": "FTSE 100",
+      "region": "UK",
+      "kind": "broad",
+      "price": 10690.4,
+      "change": -34.6,
+      "change_pct": -0.32,
+      "spark": [
+        10764.7,
+        10733.0,
+        10752.9,
+        10725.0,
+        10690.4
+      ],
+      "as_of": "2026-10-23"
+    },
+    "dax": {
+      "key": "dax",
+      "symbol": "^GDAXI",
+      "name": "DAX",
+      "region": "GERMANY",
+      "kind": "broad",
+      "price": 25181.65,
+      "change": -190.1,
+      "change_pct": -0.75,
+      "spark": [
+        25319.77,
+        25304.42,
+        25645.04,
+        25371.75,
+        25181.65
+      ],
+      "as_of": "2026-10-23"
+    }
+  },
+  "fx": {
+    "USDKRW": {
+      "key": "USDKRW",
+      "pair": "USD/KRW",
+      "rate": 1325.4,
+      "kind": "direct"
+    },
+    "USDJPY": {
+      "key": "USDJPY",
+      "pair": "USD/JPY",
+      "rate": 156.81,
+      "kind": "direct"
+    },
+    "EURUSD": {
+      "key": "EURUSD",
+      "pair": "EUR/USD",
+      "rate": 1.1204,
+      "kind": "inverse"
+    },
+    "USDCNY": {
+      "key": "USDCNY",
+      "pair": "USD/CNY",
+      "rate": 6.6606,
+      "kind": "direct"
+    },
+    "DXY": {
+      "key": "DXY",
+      "pair": "DXY",
+      "rate": 101.81,
+      "change": 0.2,
+      "change_pct": 0.2,
+      "kind": "index"
+    }
+  },
+  "commodities": {
+    "wti": {
+      "key": "wti",
+      "symbol": "CL=F",
+      "name": "WTI Crude",
+      "unit": "$",
+      "price": 103.27,
+      "change": 3.8,
+      "change_pct": 3.82
+    },
+    "gold": {
+      "key": "gold",
+      "symbol": "GC=F",
+      "name": "Gold",
+      "unit": "$",
+      "price": 4007.9,
+      "change": -52.5,
+      "change_pct": -1.29
+    },
+    "btc": {
+      "key": "btc",
+      "symbol": "BTC-USD",
+      "name": "Bitcoin",
+      "unit": "$",
+      "price": 80580.0,
+      "change": -494.19,
+      "change_pct": -0.61
+    },
+    "ust10y": {
+      "key": "ust10y",
+      "symbol": "^TNX",
+      "name": "10Y UST Yield",
+      "unit": "%",
+      "price": 4.99,
+      "change": 0.03,
+      "change_pct": 0.71
+    },
+    "vix": {
+      "key": "vix",
+      "symbol": "^VIX",
+      "name": "VIX",
+      "unit": "",
+      "price": 19.45,
+      "change": 0.42,
+      "change_pct": 2.21
+    }
+  },
+  "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Biotech stocks are surging. How investors can play the new drug innovation boom",
+      "url": "https://www.cnbc.com/2026/10/24/biotech-stocks-drug-innovation-rally.html",
+      "published": "Sat, 24 Oct 2026 18:56:29 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Goldman says these top tech stocks have plenty of upside ahead of earnings",
+      "url": "https://www.cnbc.com/2026/10/24/top-tech-stocks-to-buy-according-to-goldman-sachs.html",
+      "published": "Sat, 24 Oct 2026 12:51:31 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Apple is set to take back the market-cap crown from Nvidia. Upcoming earnings may push it over the top",
+      "url": "https://www.cnbc.com/2026/10/23/apple-nvidia-market-cap-earnings.html",
+      "published": "Fri, 23 Oct 2026 19:07:32 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "The S&P 500 is forming a bearish chart pattern. Can it snap out of it?",
+      "url": "https://www.cnbc.com/2026/10/23/the-sp-500-is-forming-a-bearish-chart-pattern-can-it-snap-out-of-it.html",
+      "published": "Fri, 23 Oct 2026 17:14:01 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "I warned against buying this AI chip stock. Now I think it could nearly double",
+      "url": "https://www.cnbc.com/2026/10/23/investor-paul-meeks-buying-cerebras-cbrs.html",
+      "published": "Fri, 23 Oct 2026 13:52:55 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Why investors are moving back into Treasurys",
+      "url": "https://www.cnbc.com/2026/10/23/treasurys-haven-ai-credit-risks.html",
+      "published": "Fri, 23 Oct 2026 13:08:12 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "My father-in-law, 81, sold his $75,000 home to pay his daughter’s $50,000 debt. How can I keep him from becoming destitute?",
+      "url": "https://www.marketwatch.com/story/my-father-in-law-81-sold-his-75-000-home-and-paid-off-his-daughters-50-000-debt-what-happens-to-him-now-60e8fc72?mod=mw_rss_topstories",
+      "published": "Sat, 24 Oct 2026 20:15:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "‘She’s living the dream’: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
+      "url": "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
+      "published": "Sat, 24 Oct 2026 20:00:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "My husband wants to sell our $1.5 million home and invest the proceeds. But this is where we raised our kids — and I can’t bear to leave.",
+      "url": "https://www.marketwatch.com/story/my-husband-wants-to-sell-our-1-5-million-home-and-invest-the-proceeds-but-this-is-where-we-raised-our-kids-and-i-cant-bear-to-leave-4feb46ed?mod=mw_rss_topstories",
+      "published": "Sat, 24 Oct 2026 19:45:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Young Americans are giving up on car ownership. It’s a path to financial freedom for some.",
+      "url": "https://www.marketwatch.com/story/young-americans-are-giving-up-their-cars-its-a-path-to-financial-freedom-for-some-3cce491c?mod=mw_rss_topstories",
+      "published": "Sat, 24 Oct 2026 18:45:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "I’m 58 and hate annuities. How can I get dependable income in retirement?",
+      "url": "https://www.marketwatch.com/story/im-58-and-hate-annuities-how-can-i-get-dependable-income-in-retirement-cd6040f4?mod=mw_rss_topstories",
+      "published": "Sat, 24 Oct 2026 18:03:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "I want to pay off $4,500 in credit-card debt in 2 months. Is this possible?",
+      "url": "https://www.marketwatch.com/story/i-want-to-pay-off-4-500-in-credit-card-debt-in-2-months-is-this-possible-059d9a21?mod=mw_rss_topstories",
+      "published": "Sat, 24 Oct 2026 17:39:00 GMT"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Why South Korea’s stock market represents the purest AI trade",
+      "url": "https://www.investing.com/news/stock-market-news/why-south-koreas-stock-market-represents-the-purest-ai-trade-4970991",
+      "published": "2026-10-24 22:55:32"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Trump set to announce Audi plan to build US factory in Georgia, source says",
+      "url": "https://www.investing.com/news/stock-market-news/trump-set-to-announce-plan-by-audi-to-build-us-factory-in-georgia-source-says-4970975",
+      "published": "2026-10-24 22:54:25"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Inside the Trump-administration campaign to return Brazil’s Bolsonaro clan to power",
+      "url": "https://www.investing.com/news/stock-market-news/inside-the-trumpadministration-campaign-to-return-brazils-bolsonaro-clan-to-power-4970978",
+      "published": "2026-10-24 21:48:24"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Policy choices will matter crucially amid growing socioeconomic challenges",
+      "url": "https://www.investing.com/news/economy-news/policy-choices-will-matter-crucially-amid-growing-socioeconomic-challenges-4970967",
+      "published": "2026-10-24 21:26:43"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Volkswagen to build Georgia Audi plant, expand in SC - Bloomberg",
+      "url": "https://www.investing.com/news/company-news/volkswagen-to-build-georgia-audi-plant-expand-in-sc--bloomberg-4970968",
+      "published": "2026-10-24 21:26:33"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Adlai Nortye director Ji Ping sells $163,274 in ANL stock",
+      "url": "https://www.investing.com/news/insider-trading-news/adlai-nortye-director-ji-ping-sells-163274-in-anl-stock-93CH-4970965",
+      "published": "2026-10-24 21:16:28"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Saudi Arabia Suggests Riyadh Airport May Reopen on Sunday",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-24/saudi-arabia-suggests-riyadh-airport-may-reopen-on-sunday",
+      "published": "Sat, 24 Oct 2026 21:27:28 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Embracing the Bond Market: Masters in Business with Robin Wigglesworth",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-24/embracing-the-bond-market-masters-in-business-with-robin-wigglesworth",
+      "published": "Sat, 24 Oct 2026 17:05:04 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "French Protesters Dispersed with Gas as Tensions Rise",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-24/french-protestors-dispersed-with-gas-as-tensions-rise-video",
+      "published": "Sat, 24 Oct 2026 16:31:00 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "New Middle East Threats, Russian Diesel Coming to US",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-24/bloomberg-this-weekend-10-24-2026-video",
+      "published": "Sat, 24 Oct 2026 15:57:32 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "‘Total Meltdown’ in Riskiest Debt Unnerves Market: Credit Weekly",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-24/-total-meltdown-in-riskiest-debt-unnerves-market-credit-weekly",
+      "published": "Sat, 24 Oct 2026 15:21:35 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Metals Traders Reap Bonanza With Another Year of Record Profits",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-24/metals-traders-reap-bonanza-with-another-year-of-record-profits",
+      "published": "Sat, 24 Oct 2026 14:45:05 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "French government and corporate bond yields are converging",
+      "url": "https://www.ft.com/content/473c0e0b-d4f7-449c-9192-648b82077222?syn-25a6b1a6=1",
+      "published": "Sat, 24 Oct 2026 09:30:04 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "A little bit of luck is lifting UK Budget expectations",
+      "url": "https://www.ft.com/content/6a059ab0-a9fc-4e4c-8ae7-1d110faf5adf",
+      "published": "Sat, 24 Oct 2026 04:00:33 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "‘Disrupter’ exchanges battle for ETFs in challenge to NYSE and Nasdaq",
+      "url": "https://www.ft.com/content/8dd8e115-c45e-4b66-8390-b5eeea4671d5?syn-25a6b1a6=1",
+      "published": "Sat, 24 Oct 2026 04:00:04 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "US executives quit $25bn gas venture over claims of secret Russian control",
+      "url": "https://www.ft.com/content/e9cfbfbb-e65a-4303-aebb-20d59319ef1b?syn-25a6b1a6=1",
+      "published": "Sat, 24 Oct 2026 00:22:20 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "France avoids downgrade from Moody’s in boost for Macron’s government",
+      "url": "https://www.ft.com/content/840f9c94-cb41-4340-9fc4-41e76d908831?syn-25a6b1a6=1",
+      "published": "Fri, 23 Oct 2026 22:28:52 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Oil hits $117 for first time since April on fears of flare-up in Iran hostilities",
+      "url": "https://www.ft.com/content/8948193b-438b-4d71-a0b1-31dff56fc308?syn-25a6b1a6=1",
+      "published": "Fri, 23 Oct 2026 20:13:21 GMT"
+    }
+  ],
+  "summary": {
+    "headlines": [
+      {
+        "title_ko": "美 CPI 서프라이즈에도 S&P 500·나스닥 사상최고 마감, 테크가 견인",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/13/stock-market-today.html",
+        "time_label": "23:00"
+      },
+      {
+        "title_ko": "연준, 인플레 둔화 흐름 속 추가 인하 경로 유지 관측",
+        "source": "Reuters",
+        "url": "https://www.reuters.com/markets/us/fed-rate-cut-2026/",
+        "time_label": "21:30"
+      },
+      {
+        "title_ko": "삼성전자 CXL 메모리 양산 발표에 KOSPI 7,844 사상최고",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-14/kospi-record",
+        "time_label": "15:30"
+      },
+      {
+        "title_ko": "BOJ, 임금·물가 사이클 강화 시 추가 정상화 가능 시사",
+        "source": "Bank of Japan",
+        "url": "https://www.boj.or.jp/en/announcements/2026/",
+        "time_label": "10:00"
+      },
+      {
+        "title_ko": "英 1Q GDP 컨센서스 부합, 스타머 정치 리스크는 여전",
+        "source": "FT",
+        "url": "https://www.ft.com/content/uk-gdp-2026q1",
+        "time_label": "17:00"
+      }
+    ],
+    "market_summary_ko": "미국 인플레이션 경계감에도 테크 모멘텀이 지수를 끌어올렸고, 아시아 세션에서는 삼성전자 CXL 모멘텀에 KOSPI가 다시 사상최고를 갈아엎었다. Fed 인하 vs BOJ 인상 디버전스가 달러 강세를 떠받치는 가운데, 다음 분기점은 5/21 NVDA 실적이다.",
+    "risk_sentiment": "RISK-ON"
+  }
+}

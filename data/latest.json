@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-10-24 08:54 KST",
-  "as_of_date": "2026-10-24",
-  "as_of_weekday": "SAT",
-  "build_unix": 1792799673,
+  "as_of_kst": "2026-10-25 08:31 KST",
+  "as_of_date": "2026-10-25",
+  "as_of_weekday": "SUN",
+  "build_unix": 1792884676,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,15 +64,15 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 5533.77,
-      "change": -201.89,
-      "change_pct": -3.52,
+      "price": 5550.3,
+      "change": 16.53,
+      "change_pct": 0.3,
       "spark": [
-        5668.05,
         5768.01,
         5552.74,
         5735.66,
-        5533.77
+        5533.77,
+        5550.3
       ],
       "as_of": "2026-10-23"
     },
@@ -82,15 +82,15 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 62907.84,
-      "change": -1713.4,
-      "change_pct": -2.65,
+      "price": 62693.16,
+      "change": -214.68,
+      "change_pct": -0.34,
       "spark": [
-        65324.29,
         64916.7,
         64075.42,
         64621.24,
-        62907.84
+        62907.84,
+        62693.16
       ],
       "as_of": "2026-10-23"
     },
@@ -100,15 +100,15 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 22934.68,
-      "change": -717.19,
-      "change_pct": -3.03,
+      "price": 23093.37,
+      "change": 158.69,
+      "change_pct": 0.69,
       "spark": [
-        24062.72,
         24186.83,
         23867.74,
         23651.87,
-        22934.68
+        22934.68,
+        23093.37
       ],
       "as_of": "2026-10-23"
     },
@@ -118,15 +118,15 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10725.0,
-      "change": -27.9,
-      "change_pct": -0.26,
+      "price": 10690.4,
+      "change": -34.6,
+      "change_pct": -0.32,
       "spark": [
-        10881.9,
         10764.7,
         10733.0,
         10752.9,
-        10725.0
+        10725.0,
+        10690.4
       ],
       "as_of": "2026-10-23"
     },
@@ -136,15 +136,15 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 25371.75,
-      "change": -273.29,
-      "change_pct": -1.07,
+      "price": 25181.65,
+      "change": -190.1,
+      "change_pct": -0.75,
       "spark": [
-        25622.61,
         25319.77,
         25304.42,
         25645.04,
-        25371.75
+        25371.75,
+        25181.65
       ],
       "as_of": "2026-10-23"
     }
@@ -153,7 +153,7 @@
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1323.66,
+      "rate": 1325.4,
       "kind": "direct"
     },
     "USDJPY": {
@@ -177,9 +177,9 @@
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 101.75,
-      "change": 0.14,
-      "change_pct": 0.14,
+      "rate": 101.81,
+      "change": 0.2,
+      "change_pct": 0.2,
       "kind": "index"
     }
   },
@@ -189,27 +189,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 103.44,
-      "change": 3.97,
-      "change_pct": 3.99
+      "price": 103.27,
+      "change": 3.8,
+      "change_pct": 3.82
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4010.0,
-      "change": -50.4,
-      "change_pct": -1.24
+      "price": 4007.9,
+      "change": -52.5,
+      "change_pct": -1.29
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 81062.77,
-      "change": -249.12,
-      "change_pct": -0.31
+      "price": 80580.0,
+      "change": -494.19,
+      "change_pct": -0.61
     },
     "ust10y": {
       "key": "ust10y",
@@ -231,6 +231,18 @@
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Biotech stocks are surging. How investors can play the new drug innovation boom",
+      "url": "https://www.cnbc.com/2026/10/24/biotech-stocks-drug-innovation-rally.html",
+      "published": "Sat, 24 Oct 2026 18:56:29 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Goldman says these top tech stocks have plenty of upside ahead of earnings",
+      "url": "https://www.cnbc.com/2026/10/24/top-tech-stocks-to-buy-according-to-goldman-sachs.html",
+      "published": "Sat, 24 Oct 2026 12:51:31 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Apple is set to take back the market-cap crown from Nvidia. Upcoming earnings may push it over the top",
@@ -256,124 +268,136 @@
       "published": "Fri, 23 Oct 2026 13:08:12 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "SpaceX bear flips to big bull because of AI business. Analyst now sees 70% gain",
-      "url": "https://www.cnbc.com/2026/10/23/spacex-double-upgraded-by-phillipcapital.html",
-      "published": "Fri, 23 Oct 2026 11:02:56 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Friday's big stock stories: What’s likely to move the market in the next trading session",
-      "url": "https://www.cnbc.com/2026/10/22/fridays-big-stock-stories-whats-likely-to-move-the-market.html",
-      "published": "Thu, 22 Oct 2026 23:26:43 GMT"
+      "source": "MarketWatch Top",
+      "title": "My father-in-law, 81, sold his $75,000 home to pay his daughter’s $50,000 debt. How can I keep him from becoming destitute?",
+      "url": "https://www.marketwatch.com/story/my-father-in-law-81-sold-his-75-000-home-and-paid-off-his-daughters-50-000-debt-what-happens-to-him-now-60e8fc72?mod=mw_rss_topstories",
+      "published": "Sat, 24 Oct 2026 20:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?",
-      "url": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
-      "published": "Fri, 23 Oct 2026 22:49:00 GMT"
+      "title": "‘She’s living the dream’: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
+      "url": "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
+      "published": "Sat, 24 Oct 2026 20:00:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Will Anthropic pull off a November IPO? Time is running out to file key paperwork.",
-      "url": "https://www.marketwatch.com/story/will-anthropic-pull-off-a-november-ipo-time-is-running-out-to-file-key-paperwork-52677343?mod=mw_rss_topstories",
-      "published": "Fri, 23 Oct 2026 22:00:00 GMT"
+      "title": "My husband wants to sell our $1.5 million home and invest the proceeds. But this is where we raised our kids — and I can’t bear to leave.",
+      "url": "https://www.marketwatch.com/story/my-husband-wants-to-sell-our-1-5-million-home-and-invest-the-proceeds-but-this-is-where-we-raised-our-kids-and-i-cant-bear-to-leave-4feb46ed?mod=mw_rss_topstories",
+      "published": "Sat, 24 Oct 2026 19:45:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Investors piled a record sum into a leveraged semiconductor ETF last week. Things didn’t work out.",
-      "url": "https://www.marketwatch.com/story/investors-piled-a-record-sum-into-a-leveraged-semiconductor-etf-last-week-things-didnt-work-out-4680b2f3?mod=mw_rss_topstories",
-      "published": "Fri, 23 Oct 2026 21:46:00 GMT"
+      "title": "Young Americans are giving up on car ownership. It’s a path to financial freedom for some.",
+      "url": "https://www.marketwatch.com/story/young-americans-are-giving-up-their-cars-its-a-path-to-financial-freedom-for-some-3cce491c?mod=mw_rss_topstories",
+      "published": "Sat, 24 Oct 2026 18:45:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "This hot AI-fueled stock has been in a rut. It just beat earnings expectations by 36%.",
-      "url": "https://www.marketwatch.com/story/this-hot-ai-fueled-stock-has-been-in-a-rut-it-just-beat-earnings-expectations-by-36-4a4188cb?mod=mw_rss_topstories",
-      "published": "Fri, 23 Oct 2026 21:13:00 GMT"
+      "title": "I’m 58 and hate annuities. How can I get dependable income in retirement?",
+      "url": "https://www.marketwatch.com/story/im-58-and-hate-annuities-how-can-i-get-dependable-income-in-retirement-cd6040f4?mod=mw_rss_topstories",
+      "published": "Sat, 24 Oct 2026 18:03:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "The mobile ambitions of SpaceX are hitting telecom stocks again. Here’s what the latest developments mean.",
-      "url": "https://www.marketwatch.com/story/the-mobile-ambitions-of-spacex-see-telecom-stocks-get-hit-again-what-the-latest-developments-mean-9a4159b5?mod=mw_rss_topstories",
-      "published": "Fri, 23 Oct 2026 21:11:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "The real test for Moderna’s cancer vaccine isn’t about beating Keytruda. It’s keeping cancer from coming back in the long term.",
-      "url": "https://www.marketwatch.com/story/the-real-test-for-modernas-cancer-vaccine-isnt-about-beating-keytruda-its-keeping-cancer-from-coming-back-in-the-long-term-da9af99f?mod=mw_rss_topstories",
-      "published": "Fri, 23 Oct 2026 21:06:00 GMT"
+      "title": "I want to pay off $4,500 in credit-card debt in 2 months. Is this possible?",
+      "url": "https://www.marketwatch.com/story/i-want-to-pay-off-4-500-in-credit-card-debt-in-2-months-is-this-possible-059d9a21?mod=mw_rss_topstories",
+      "published": "Sat, 24 Oct 2026 17:39:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "How should investors think about GTA VI pre-order performance?",
-      "url": "https://www.investing.com/news/company-news/how-should-investors-think-about-gta-vi-preorder-performance-4970510",
-      "published": "2026-10-23 23:33:48"
+      "title": "Why South Korea’s stock market represents the purest AI trade",
+      "url": "https://www.investing.com/news/stock-market-news/why-south-koreas-stock-market-represents-the-purest-ai-trade-4970991",
+      "published": "2026-10-24 22:55:32"
     },
     {
       "source": "Investing.com News",
-      "title": "Lumen Technologies updates executive severance plan and CEO agreement",
-      "url": "https://www.investing.com/news/sec-filings/lumen-technologies-updates-executive-severance-plan-and-ceo-agreement-93CH-4970507",
-      "published": "2026-10-23 23:14:49"
+      "title": "Trump set to announce Audi plan to build US factory in Georgia, source says",
+      "url": "https://www.investing.com/news/stock-market-news/trump-set-to-announce-plan-by-audi-to-build-us-factory-in-georgia-source-says-4970975",
+      "published": "2026-10-24 22:54:25"
     },
     {
       "source": "Investing.com News",
-      "title": "Amazon cloud capacity sold out through 2027, CEO Jassy says",
-      "url": "https://www.investing.com/news/stock-market-news/amazon-cloud-capacity-sold-out-through-2027-ceo-jassy-says-4970506",
-      "published": "2026-10-23 23:12:17"
+      "title": "Inside the Trump-administration campaign to return Brazil’s Bolsonaro clan to power",
+      "url": "https://www.investing.com/news/stock-market-news/inside-the-trumpadministration-campaign-to-return-brazils-bolsonaro-clan-to-power-4970978",
+      "published": "2026-10-24 21:48:24"
     },
     {
       "source": "Investing.com News",
-      "title": "PNC Financial Services completes $1.5 billion senior notes offering",
-      "url": "https://www.investing.com/news/sec-filings/pnc-financial-services-completes-15-billion-senior-notes-offering-93CH-4970505",
-      "published": "2026-10-23 23:10:41"
+      "title": "Policy choices will matter crucially amid growing socioeconomic challenges",
+      "url": "https://www.investing.com/news/economy-news/policy-choices-will-matter-crucially-amid-growing-socioeconomic-challenges-4970967",
+      "published": "2026-10-24 21:26:43"
     },
     {
       "source": "Investing.com News",
-      "title": "Wynn Resorts subsidiary to invest up to MOP1.37 billion in Macau government fund",
-      "url": "https://www.investing.com/news/sec-filings/wynn-resorts-subsidiary-to-invest-up-to-mop137-billion-in-macau-government-fund-93CH-4970504",
-      "published": "2026-10-23 23:06:35"
+      "title": "Volkswagen to build Georgia Audi plant, expand in SC - Bloomberg",
+      "url": "https://www.investing.com/news/company-news/volkswagen-to-build-georgia-audi-plant-expand-in-sc--bloomberg-4970968",
+      "published": "2026-10-24 21:26:33"
     },
     {
       "source": "Investing.com News",
-      "title": "Picard Medical exchanges warrants for 200,000 shares of common stock",
-      "url": "https://www.investing.com/news/sec-filings/picard-medical-exchanges-warrants-for-200000-shares-of-common-stock-93CH-4970503",
-      "published": "2026-10-23 23:02:36"
+      "title": "Adlai Nortye director Ji Ping sells $163,274 in ANL stock",
+      "url": "https://www.investing.com/news/insider-trading-news/adlai-nortye-director-ji-ping-sells-163274-in-anl-stock-93CH-4970965",
+      "published": "2026-10-24 21:16:28"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Wealth Tax Debate, Midterm Investing, AI Anxiety",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-23/bloomberg-money-10-23-2026-video",
-      "published": "Fri, 23 Oct 2026 22:47:27 GMT"
+      "title": "Saudi Arabia Suggests Riyadh Airport May Reopen on Sunday",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-24/saudi-arabia-suggests-riyadh-airport-may-reopen-on-sunday",
+      "published": "Sat, 24 Oct 2026 21:27:28 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Andrew Brandt on MLB Salary Cap Fight as World Series Begins",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-23/andrew-brandt-on-mlb-salary-cap-as-world-series-begins-video",
-      "published": "Fri, 23 Oct 2026 22:09:13 GMT"
+      "title": "Embracing the Bond Market: Masters in Business with Robin Wigglesworth",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-24/embracing-the-bond-market-masters-in-business-with-robin-wigglesworth",
+      "published": "Sat, 24 Oct 2026 17:05:04 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "How Valterra's Forging the Future of Platinum | Chief Financial Officer",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-15/how-valterra-s-forging-the-future-of-platinum-video",
-      "published": "Thu, 15 Oct 2026 01:30:10 GMT"
+      "title": "French Protesters Dispersed with Gas as Tensions Rise",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-24/french-protestors-dispersed-with-gas-as-tensions-rise-video",
+      "published": "Sat, 24 Oct 2026 16:31:00 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "'Notes on Being a Man', 'The Invisible Hand'",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-23/-notes-on-being-a-man-the-invisible-hand-video",
-      "published": "Fri, 23 Oct 2026 22:05:12 GMT"
+      "title": "New Middle East Threats, Russian Diesel Coming to US",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-24/bloomberg-this-weekend-10-24-2026-video",
+      "published": "Sat, 24 Oct 2026 15:57:32 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "US Family Annual Healthcare Plan Now Costs More Than $28K",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-23/us-family-healthcare-plan-now-costs-more-than-28k-video",
-      "published": "Fri, 23 Oct 2026 21:58:51 GMT"
+      "title": "‘Total Meltdown’ in Riskiest Debt Unnerves Market: Credit Weekly",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-24/-total-meltdown-in-riskiest-debt-unnerves-market-credit-weekly",
+      "published": "Sat, 24 Oct 2026 15:21:35 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Data Centers Face Downgrade Risk Amid Local Pushback, S&P Says",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-23/data-centers-face-downgrade-risk-amid-local-pushback-s-p-says",
-      "published": "Fri, 23 Oct 2026 21:56:15 GMT"
+      "title": "Metals Traders Reap Bonanza With Another Year of Record Profits",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-24/metals-traders-reap-bonanza-with-another-year-of-record-profits",
+      "published": "Sat, 24 Oct 2026 14:45:05 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "French government and corporate bond yields are converging",
+      "url": "https://www.ft.com/content/473c0e0b-d4f7-449c-9192-648b82077222?syn-25a6b1a6=1",
+      "published": "Sat, 24 Oct 2026 09:30:04 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "A little bit of luck is lifting UK Budget expectations",
+      "url": "https://www.ft.com/content/6a059ab0-a9fc-4e4c-8ae7-1d110faf5adf",
+      "published": "Sat, 24 Oct 2026 04:00:33 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "‘Disrupter’ exchanges battle for ETFs in challenge to NYSE and Nasdaq",
+      "url": "https://www.ft.com/content/8dd8e115-c45e-4b66-8390-b5eeea4671d5?syn-25a6b1a6=1",
+      "published": "Sat, 24 Oct 2026 04:00:04 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "US executives quit $25bn gas venture over claims of secret Russian control",
+      "url": "https://www.ft.com/content/e9cfbfbb-e65a-4303-aebb-20d59319ef1b?syn-25a6b1a6=1",
+      "published": "Sat, 24 Oct 2026 00:22:20 GMT"
     },
     {
       "source": "FT Markets",
@@ -386,30 +410,6 @@
       "title": "Oil hits $117 for first time since April on fears of flare-up in Iran hostilities",
       "url": "https://www.ft.com/content/8948193b-438b-4d71-a0b1-31dff56fc308?syn-25a6b1a6=1",
       "published": "Fri, 23 Oct 2026 20:13:21 GMT"
-    },
-    {
-      "source": "FT Markets",
-      "title": "Lunch break under threat as Hong Kong looks at longer trading day",
-      "url": "https://www.ft.com/content/bc13b5f1-387e-4fae-927e-d96ac24ea645?syn-25a6b1a6=1",
-      "published": "Fri, 23 Oct 2026 20:00:09 GMT"
-    },
-    {
-      "source": "FT Markets",
-      "title": "The ledger problem",
-      "url": "https://www.ft.com/content/e3bd8426-defb-41d0-8680-81ce72948e83",
-      "published": "Fri, 23 Oct 2026 17:00:08 GMT"
-    },
-    {
-      "source": "FT Markets",
-      "title": "Stockpickers: Aberdeen, ITM Power, Tristel",
-      "url": "https://www.ft.com/content/2aeaf5c1-1fc2-45ae-a6dd-0634384ae9d7",
-      "published": "Fri, 23 Oct 2026 17:00:08 GMT"
-    },
-    {
-      "source": "FT Markets",
-      "title": "Gold drops below $4,000 as ‘haven’ asset joins market sell-off",
-      "url": "https://www.ft.com/content/5a6e15e9-249d-4d59-a140-c51302930a9f?syn-25a6b1a6=1",
-      "published": "Fri, 23 Oct 2026 14:37:46 GMT"
     }
   ],
   "summary": {
