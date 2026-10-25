@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-10-25 08:31 KST",
-  "as_of_date": "2026-10-25",
-  "as_of_weekday": "SUN",
-  "build_unix": 1792884676,
+  "as_of_kst": "2026-10-26 08:25 KST",
+  "as_of_date": "2026-10-26",
+  "as_of_weekday": "MON",
+  "build_unix": 1792970734,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -153,33 +153,33 @@
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1325.4,
+      "rate": 1323.4399,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 156.81,
+      "rate": 157.02,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1204,
+      "rate": 1.1207,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.6606,
+      "rate": 6.6697,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 101.81,
-      "change": 0.2,
-      "change_pct": 0.2,
+      "rate": 101.77,
+      "change": -0.04,
+      "change_pct": -0.04,
       "kind": "index"
     }
   },
@@ -189,27 +189,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 103.27,
-      "change": 3.8,
-      "change_pct": 3.82
+      "price": 102.33,
+      "change": -0.94,
+      "change_pct": -0.91
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4007.9,
-      "change": -52.5,
-      "change_pct": -1.29
+      "price": 4011.7,
+      "change": 3.8,
+      "change_pct": 0.09
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 80580.0,
-      "change": -494.19,
-      "change_pct": -0.61
+      "price": 80161.2,
+      "change": -629.63,
+      "change_pct": -0.78
     },
     "ust10y": {
       "key": "ust10y",
@@ -231,6 +231,12 @@
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "SpaceX coverage network designs draw Wall Street's eye. Here's what analysts think",
+      "url": "https://www.cnbc.com/2026/10/25/spacex-cell-sites-wireless-network.html",
+      "published": "Sun, 25 Oct 2026 11:50:03 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Biotech stocks are surging. How investors can play the new drug innovation boom",
@@ -262,154 +268,148 @@
       "published": "Fri, 23 Oct 2026 13:52:55 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "Why investors are moving back into Treasurys",
-      "url": "https://www.cnbc.com/2026/10/23/treasurys-haven-ai-credit-risks.html",
-      "published": "Fri, 23 Oct 2026 13:08:12 GMT"
+      "source": "MarketWatch Top",
+      "title": "‘She’s living the dream’: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
+      "url": "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
+      "published": "Sun, 25 Oct 2026 20:15:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?",
+      "url": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
+      "published": "Sun, 25 Oct 2026 20:00:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "We stopped helping our neighbors with free home repairs and our friendship cooled. Who’s to blame?",
+      "url": "https://www.marketwatch.com/story/we-stopped-helping-our-neighbors-with-free-home-repairs-and-our-friendship-cooled-whos-to-blame-d20b0720?mod=mw_rss_topstories",
+      "published": "Sun, 25 Oct 2026 19:30:00 GMT"
     },
     {
       "source": "MarketWatch Top",
       "title": "My father-in-law, 81, sold his $75,000 home to pay his daughter’s $50,000 debt. How can I keep him from becoming destitute?",
       "url": "https://www.marketwatch.com/story/my-father-in-law-81-sold-his-75-000-home-and-paid-off-his-daughters-50-000-debt-what-happens-to-him-now-60e8fc72?mod=mw_rss_topstories",
-      "published": "Sat, 24 Oct 2026 20:15:00 GMT"
+      "published": "Sun, 25 Oct 2026 18:00:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘She’s living the dream’: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
-      "url": "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
-      "published": "Sat, 24 Oct 2026 20:00:00 GMT"
+      "title": "My partner of 17 years left me his $1 million home. His children are livid. Am I obliged to split it with them?",
+      "url": "https://www.marketwatch.com/story/my-unmarried-partner-of-17-years-left-me-his-1-1-million-home-his-three-children-are-livid-should-i-share-my-inheritance-a11d593d?mod=mw_rss_topstories",
+      "published": "Sun, 25 Oct 2026 17:00:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "My husband wants to sell our $1.5 million home and invest the proceeds. But this is where we raised our kids — and I can’t bear to leave.",
-      "url": "https://www.marketwatch.com/story/my-husband-wants-to-sell-our-1-5-million-home-and-invest-the-proceeds-but-this-is-where-we-raised-our-kids-and-i-cant-bear-to-leave-4feb46ed?mod=mw_rss_topstories",
-      "published": "Sat, 24 Oct 2026 19:45:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Young Americans are giving up on car ownership. It’s a path to financial freedom for some.",
-      "url": "https://www.marketwatch.com/story/young-americans-are-giving-up-their-cars-its-a-path-to-financial-freedom-for-some-3cce491c?mod=mw_rss_topstories",
-      "published": "Sat, 24 Oct 2026 18:45:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "I’m 58 and hate annuities. How can I get dependable income in retirement?",
-      "url": "https://www.marketwatch.com/story/im-58-and-hate-annuities-how-can-i-get-dependable-income-in-retirement-cd6040f4?mod=mw_rss_topstories",
-      "published": "Sat, 24 Oct 2026 18:03:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "I want to pay off $4,500 in credit-card debt in 2 months. Is this possible?",
-      "url": "https://www.marketwatch.com/story/i-want-to-pay-off-4-500-in-credit-card-debt-in-2-months-is-this-possible-059d9a21?mod=mw_rss_topstories",
-      "published": "Sat, 24 Oct 2026 17:39:00 GMT"
+      "title": "We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I’m crazy. Who’s right?",
+      "url": "https://www.marketwatch.com/story/we-have-a-300-000-mortgage-with-a-2-75-interest-rate-i-want-to-pay-it-off-my-husband-says-im-crazy-whos-right-4ed15226?mod=mw_rss_topstories",
+      "published": "Sun, 25 Oct 2026 17:00:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Why South Korea’s stock market represents the purest AI trade",
-      "url": "https://www.investing.com/news/stock-market-news/why-south-koreas-stock-market-represents-the-purest-ai-trade-4970991",
-      "published": "2026-10-24 22:55:32"
+      "title": "Anthropic’s Claude accessed public US state of Georgia voter information, Axios reports",
+      "url": "https://www.investing.com/news/stock-market-news/anthropics-claude-accessed-public-us-state-of-georgia-voter-information-axios-reports-4971291",
+      "published": "2026-10-25 22:54:37"
     },
     {
       "source": "Investing.com News",
-      "title": "Trump set to announce Audi plan to build US factory in Georgia, source says",
-      "url": "https://www.investing.com/news/stock-market-news/trump-set-to-announce-plan-by-audi-to-build-us-factory-in-georgia-source-says-4970975",
-      "published": "2026-10-24 22:54:25"
+      "title": "Musk says SpaceX raised $40 billion in debt deal, predicts neocloud shakeout",
+      "url": "https://www.investing.com/news/stock-market-news/musk-says-spacex-raised-40-billion-in-debt-for-gpus-4971248",
+      "published": "2026-10-25 22:42:27"
     },
     {
       "source": "Investing.com News",
-      "title": "Inside the Trump-administration campaign to return Brazil’s Bolsonaro clan to power",
-      "url": "https://www.investing.com/news/stock-market-news/inside-the-trumpadministration-campaign-to-return-brazils-bolsonaro-clan-to-power-4970978",
-      "published": "2026-10-24 21:48:24"
+      "title": "Australia’s NEXTDC CEO to forgo fiscal 2027 bonuses after forecast cut, project delay",
+      "url": "https://www.investing.com/news/stock-market-news/australias-nextdc-ceo-to-forgo-fiscal-2027-bonuses-after-forecast-cut-project-delay-4971278",
+      "published": "2026-10-25 22:31:01"
     },
     {
       "source": "Investing.com News",
-      "title": "Policy choices will matter crucially amid growing socioeconomic challenges",
-      "url": "https://www.investing.com/news/economy-news/policy-choices-will-matter-crucially-amid-growing-socioeconomic-challenges-4970967",
-      "published": "2026-10-24 21:26:43"
+      "title": "Trump says Iran war won’t end until nuclear threat gone; no strike today",
+      "url": "https://www.investing.com/news/economy-news/yemens-houthis-renew-threat-against-riyadh-airport-as-flights-set-to-resume-4971006",
+      "published": "2026-10-25 22:12:40"
     },
     {
       "source": "Investing.com News",
-      "title": "Volkswagen to build Georgia Audi plant, expand in SC - Bloomberg",
-      "url": "https://www.investing.com/news/company-news/volkswagen-to-build-georgia-audi-plant-expand-in-sc--bloomberg-4970968",
-      "published": "2026-10-24 21:26:33"
+      "title": "Goldman lists 3 factors that support long commodities positions",
+      "url": "https://www.investing.com/news/commodities-news/goldman-lists-3-factors-that-support-long-commodities-positions-4971269",
+      "published": "2026-10-25 21:53:28"
     },
     {
       "source": "Investing.com News",
-      "title": "Adlai Nortye director Ji Ping sells $163,274 in ANL stock",
-      "url": "https://www.investing.com/news/insider-trading-news/adlai-nortye-director-ji-ping-sells-163274-in-anl-stock-93CH-4970965",
-      "published": "2026-10-24 21:16:28"
+      "title": "Canada, UK to develop separate defense financing institutions",
+      "url": "https://www.investing.com/news/economy-news/canada-uk-to-develop-separate-defense-financing-institutions-4971268",
+      "published": "2026-10-25 21:50:13"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Saudi Arabia Suggests Riyadh Airport May Reopen on Sunday",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-24/saudi-arabia-suggests-riyadh-airport-may-reopen-on-sunday",
-      "published": "Sat, 24 Oct 2026 21:27:28 GMT"
+      "title": "US Stock Futures Climb as Crude Oil Price Dips: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-25/us-equity-futures-climb-as-crude-oil-price-dips-markets-wrap",
+      "published": "Sun, 25 Oct 2026 22:09:07 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Embracing the Bond Market: Masters in Business with Robin Wigglesworth",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-24/embracing-the-bond-market-masters-in-business-with-robin-wigglesworth",
-      "published": "Sat, 24 Oct 2026 17:05:04 GMT"
+      "title": "Latest Oil Market News and Analysis for Oct. 26",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-25/latest-oil-market-news-and-analysis-for-oct-26",
+      "published": "Sun, 25 Oct 2026 22:04:00 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "French Protesters Dispersed with Gas as Tensions Rise",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-24/french-protestors-dispersed-with-gas-as-tensions-rise-video",
-      "published": "Sat, 24 Oct 2026 16:31:00 GMT"
+      "title": "Senegal Premier Raises Constitutional Option in Budget Standoff",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-25/senegal-premier-raises-constitutional-option-in-budget-standoff",
+      "published": "Sun, 25 Oct 2026 21:26:30 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "New Middle East Threats, Russian Diesel Coming to US",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-24/bloomberg-this-weekend-10-24-2026-video",
-      "published": "Sat, 24 Oct 2026 15:57:32 GMT"
+      "title": "BYD’s Korea Expansion Challenges Hyundai Dominance on Home Turf",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-25/byd-s-korea-expansion-challenges-hyundai-dominance-on-home-turf",
+      "published": "Sun, 25 Oct 2026 21:00:00 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "‘Total Meltdown’ in Riskiest Debt Unnerves Market: Credit Weekly",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-24/-total-meltdown-in-riskiest-debt-unnerves-market-credit-weekly",
-      "published": "Sat, 24 Oct 2026 15:21:35 GMT"
+      "title": "De olho nas eleições",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-25/de-olho-nas-eleicoes-video-mvo4e3rz",
+      "published": "Sun, 25 Oct 2026 17:47:06 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Metals Traders Reap Bonanza With Another Year of Record Profits",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-24/metals-traders-reap-bonanza-with-another-year-of-record-profits",
-      "published": "Sat, 24 Oct 2026 14:45:05 GMT"
+      "title": "9 Days to Midterm Elections, Big Tech Earnings",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-25/bloomberg-this-weekend-10-25-2026-video",
+      "published": "Sun, 25 Oct 2026 15:42:35 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Bon Secours nears $6bn takeover of Bain-backed Surgery Partners",
+      "url": "https://www.ft.com/content/e7b82fe0-db51-49cf-bad4-2168a905652b?syn-25a6b1a6=1",
+      "published": "Sun, 25 Oct 2026 18:56:37 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Carney’s energy ambitions boosted by Conservative victory in British Columbia",
+      "url": "https://www.ft.com/content/397d5d63-1d60-4218-b2bd-8ce6e8f527b1?syn-25a6b1a6=1",
+      "published": "Sun, 25 Oct 2026 14:25:30 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Will the Fed drop any hints on rate rises?",
+      "url": "https://www.ft.com/content/181316cc-0f4c-4328-b990-ad0d43ce424c?syn-25a6b1a6=1",
+      "published": "Sun, 25 Oct 2026 12:00:03 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Mercuria challenging the ‘Dow Jones of shipping’ in court after Hormuz losses",
+      "url": "https://www.ft.com/content/eedb7159-65df-45de-91f9-fde8de99e61c?syn-25a6b1a6=1",
+      "published": "Sun, 25 Oct 2026 05:00:10 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "The Black Sea is now the world’s deadliest shipping route",
+      "url": "https://www.ft.com/content/8c874f60-0041-476d-9c53-8524c374443f?syn-25a6b1a6=1",
+      "published": "Sun, 25 Oct 2026 05:00:02 GMT"
     },
     {
       "source": "FT Markets",
       "title": "French government and corporate bond yields are converging",
       "url": "https://www.ft.com/content/473c0e0b-d4f7-449c-9192-648b82077222?syn-25a6b1a6=1",
       "published": "Sat, 24 Oct 2026 09:30:04 GMT"
-    },
-    {
-      "source": "FT Markets",
-      "title": "A little bit of luck is lifting UK Budget expectations",
-      "url": "https://www.ft.com/content/6a059ab0-a9fc-4e4c-8ae7-1d110faf5adf",
-      "published": "Sat, 24 Oct 2026 04:00:33 GMT"
-    },
-    {
-      "source": "FT Markets",
-      "title": "‘Disrupter’ exchanges battle for ETFs in challenge to NYSE and Nasdaq",
-      "url": "https://www.ft.com/content/8dd8e115-c45e-4b66-8390-b5eeea4671d5?syn-25a6b1a6=1",
-      "published": "Sat, 24 Oct 2026 04:00:04 GMT"
-    },
-    {
-      "source": "FT Markets",
-      "title": "US executives quit $25bn gas venture over claims of secret Russian control",
-      "url": "https://www.ft.com/content/e9cfbfbb-e65a-4303-aebb-20d59319ef1b?syn-25a6b1a6=1",
-      "published": "Sat, 24 Oct 2026 00:22:20 GMT"
-    },
-    {
-      "source": "FT Markets",
-      "title": "France avoids downgrade from Moody’s in boost for Macron’s government",
-      "url": "https://www.ft.com/content/840f9c94-cb41-4340-9fc4-41e76d908831?syn-25a6b1a6=1",
-      "published": "Fri, 23 Oct 2026 22:28:52 GMT"
-    },
-    {
-      "source": "FT Markets",
-      "title": "Oil hits $117 for first time since April on fears of flare-up in Iran hostilities",
-      "url": "https://www.ft.com/content/8948193b-438b-4d71-a0b1-31dff56fc308?syn-25a6b1a6=1",
-      "published": "Fri, 23 Oct 2026 20:13:21 GMT"
     }
   ],
   "summary": {
