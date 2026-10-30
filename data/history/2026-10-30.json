@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-10-30 10:13 KST",
+  "as_of_kst": "2026-10-30 23:26 KST",
   "as_of_date": "2026-10-30",
   "as_of_weekday": "FRI",
-  "build_unix": 1793322795,
+  "build_unix": 1793370401,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -10,17 +10,17 @@
       "name": "S&P 500",
       "region": "USA",
       "kind": "broad",
-      "price": 7720.39,
-      "change": -23.59,
-      "change_pct": -0.3,
+      "price": 7599.8,
+      "change": -120.59,
+      "change_pct": -1.56,
       "spark": [
-        7623.68,
         7676.77,
         7722.6,
         7743.98,
-        7720.39
+        7720.39,
+        7599.8
       ],
-      "as_of": "2026-10-29"
+      "as_of": "2026-10-30"
     },
     "nasdaq": {
       "key": "nasdaq",
@@ -28,17 +28,17 @@
       "name": "NASDAQ Composite",
       "region": "USA",
       "kind": "tech",
-      "price": 26184.72,
-      "change": -365.12,
-      "change_pct": -1.38,
+      "price": 25496.74,
+      "change": -687.98,
+      "change_pct": -2.63,
       "spark": [
-        25955.34,
         26169.38,
         26477.81,
         26549.85,
-        26184.72
+        26184.72,
+        25496.74
       ],
-      "as_of": "2026-10-29"
+      "as_of": "2026-10-30"
     },
     "dow": {
       "key": "dow",
@@ -46,17 +46,17 @@
       "name": "Dow Jones 30",
       "region": "USA",
       "kind": "value",
-      "price": 52342.56,
-      "change": -132.54,
-      "change_pct": -0.25,
+      "price": 51967.2,
+      "change": -375.36,
+      "change_pct": -0.72,
       "spark": [
-        52215.16,
         52361.58,
         52377.57,
         52475.1,
-        52342.56
+        52342.56,
+        51967.2
       ],
-      "as_of": "2026-10-29"
+      "as_of": "2026-10-30"
     },
     "kospi": {
       "key": "kospi",
@@ -64,15 +64,15 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 5698.03,
-      "change": -314.41,
-      "change_pct": -5.23,
+      "price": 5730.74,
+      "change": -206.92,
+      "change_pct": -3.48,
       "spark": [
-        5550.3,
         5469.47,
         5638.34,
         6012.44,
-        5698.03
+        5937.66,
+        5730.74
       ],
       "as_of": "2026-10-30"
     },
@@ -82,15 +82,15 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 63349.61,
-      "change": -604.58,
-      "change_pct": -0.95,
+      "price": 63290.11,
+      "change": -1369.36,
+      "change_pct": -2.12,
       "spark": [
-        62693.16,
         62189.65,
         63268.37,
         63954.19,
-        63349.61
+        64659.47,
+        63290.11
       ],
       "as_of": "2026-10-30"
     },
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 23094.83,
-      "change": 53.51,
-      "change_pct": 0.23,
+      "price": 23294.42,
+      "change": 335.77,
+      "change_pct": 1.46,
       "spark": [
-        22934.68,
-        23093.37,
         23211.81,
         23041.32,
-        23094.83
+        23094.83,
+        22958.65,
+        23294.42
       ],
-      "as_of": "2026-10-29"
+      "as_of": "2026-10-30"
     },
     "ftse": {
       "key": "ftse",
@@ -118,17 +118,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10694.5,
-      "change": 8.0,
-      "change_pct": 0.07,
+      "price": 10737.59,
+      "change": 15.49,
+      "change_pct": 0.14,
       "spark": [
-        10725.0,
-        10690.4,
         10767.3,
         10686.5,
-        10694.5
+        10694.5,
+        10722.1,
+        10737.59
       ],
-      "as_of": "2026-10-29"
+      "as_of": "2026-10-30"
     },
     "dax": {
       "key": "dax",
@@ -136,50 +136,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 25704.02,
-      "change": 113.25,
-      "change_pct": 0.44,
+      "price": 25866.11,
+      "change": -173.57,
+      "change_pct": -0.67,
       "spark": [
-        25371.75,
-        25181.65,
         25410.84,
         25590.77,
-        25704.02
+        25704.02,
+        26039.68,
+        25866.11
       ],
-      "as_of": "2026-10-29"
+      "as_of": "2026-10-30"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1339.08,
+      "rate": 1335.21,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 157.26,
+      "rate": 157.24,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1213,
+      "rate": 1.1147,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.6513,
+      "rate": 6.6432,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 101.7,
-      "change": -0.49,
-      "change_pct": -0.48,
+      "rate": 102.02,
+      "change": -0.02,
+      "change_pct": -0.02,
       "kind": "index"
     }
   },
@@ -189,53 +189,71 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 102.65,
-      "change": -0.13,
-      "change_pct": -0.13
+      "price": 104.41,
+      "change": 2.41,
+      "change_pct": 2.36
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4013.4,
-      "change": -38.2,
-      "change_pct": -0.94
+      "price": 3915.9,
+      "change": -115.5,
+      "change_pct": -2.87
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 77109.99,
-      "change": -4157.59,
-      "change_pct": -5.12
+      "price": 76729.83,
+      "change": -1045.28,
+      "change_pct": -1.34
     },
     "ust10y": {
       "key": "ust10y",
       "symbol": "^TNX",
       "name": "10Y UST Yield",
       "unit": "%",
-      "price": 4.99,
-      "change": -0.06,
-      "change_pct": -1.11
+      "price": 4.94,
+      "change": -0.05,
+      "change_pct": -1.0
     },
     "vix": {
       "key": "vix",
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 17.2,
-      "change": 0.29,
-      "change_pct": 1.71
+      "price": 19.09,
+      "change": 1.89,
+      "change_pct": 10.99
     }
   },
   "headlines_raw": [
     {
       "source": "CNBC Markets",
-      "title": "Binance 'potential security issue' sees $2.54 billion frozen by the likes of Circle, Tether",
+      "title": "Intel issued weaker-than-expected guidance. Analysts are losing confidence in the stock",
+      "url": "https://www.cnbc.com/2026/10/30/intel-guidance-analyst-price-targets.html",
+      "published": "Fri, 30 Oct 2026 13:22:32 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Rivian's stock correction allows favorable 'entry point' after Q3 earnings, Jefferies says",
+      "url": "https://www.cnbc.com/2026/10/30/rivians-stock-correction-allows-an-entry-point-following-q3-earnings-jefferies-says-.html",
+      "published": "Fri, 30 Oct 2026 13:15:07 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Amazon shares are tumbling after third-quarter earnings miss. Analysts say buy the dip",
+      "url": "https://www.cnbc.com/2026/10/30/amazon-earnings-analysts-stock.html",
+      "published": "Fri, 30 Oct 2026 11:23:55 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Hackers steal $6.3 billion from Binance in biggest-ever cryptocurrency theft",
       "url": "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html",
-      "published": "Thu, 29 Oct 2026 23:56:02 GMT"
+      "published": "Fri, 30 Oct 2026 13:11:14 GMT"
     },
     {
       "source": "CNBC Markets",
@@ -250,166 +268,148 @@
       "published": "Thu, 29 Oct 2026 19:59:53 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "This chip stock has lost nearly half its value. I'm making a high-risk bet on a rebound",
-      "url": "https://www.cnbc.com/2026/10/29/this-chip-stock-has-lost-nearly-half-its-value-im-making-a-high-risk-bet-on-a-rebound.html",
-      "published": "Thu, 29 Oct 2026 19:26:00 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "West Pharma earnings show it's more than a GLP-1 play. Why we see more upside",
-      "url": "https://www.cnbc.com/2026/10/29/west-pharma-earnings-growth-beyond-glp-1.html",
-      "published": "Thu, 29 Oct 2026 19:12:37 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "How Todd Gordon is trading Meta as the stock market rotates out of growth and into value names",
-      "url": "https://www.cnbc.com/2026/10/29/meta-stock-trading-ai-spending.html",
-      "published": "Thu, 29 Oct 2026 18:20:16 GMT"
+      "source": "MarketWatch Top",
+      "title": "It’s the strangest job market the U.S. has ever seen. The low-hire, low-fire economy turns 3 years old.",
+      "url": "https://www.marketwatch.com/story/its-the-strangest-job-market-the-u-s-has-ever-seen-the-low-hire-low-fire-economy-turns-3-years-old-ce8d0dfe?mod=mw_rss_topstories",
+      "published": "Fri, 30 Oct 2026 14:22:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Amazon’s stock drops — even in the face of a bold new cloud forecast",
-      "url": "https://www.marketwatch.com/story/amazons-bold-cloud-forecast-isnt-enough-to-stave-off-a-stock-drop-ee23c1bb?mod=mw_rss_topstories",
-      "published": "Fri, 30 Oct 2026 00:15:00 GMT"
+      "title": "AMD’s stock slides after Intel earnings reveal two big issues",
+      "url": "https://www.marketwatch.com/story/amds-stock-slides-after-intel-earnings-reveal-two-big-issues-d3afed91?mod=mw_rss_topstories",
+      "published": "Fri, 30 Oct 2026 14:19:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "A Starbucks turnaround is brewing — but perhaps not quickly enough for investors",
-      "url": "https://www.marketwatch.com/story/a-starbucks-turnaround-is-brewing-but-perhaps-not-quickly-enough-3b5f57ac?mod=mw_rss_topstories",
-      "published": "Fri, 30 Oct 2026 00:14:00 GMT"
+      "title": "This one chart tells you everything you need to know about Exxon, Chevron and BP’s forecast-beating earnings",
+      "url": "https://www.marketwatch.com/story/this-one-chart-tells-you-everything-you-need-to-know-about-exxon-chevron-and-bps-forecasting-beating-earnings-24babdfc?mod=mw_rss_topstories",
+      "published": "Fri, 30 Oct 2026 14:17:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Sandisk sees revenue nearly quintuple — and a stock split is on the way",
-      "url": "https://www.marketwatch.com/story/sandisk-sees-revenue-nearly-quintuple-and-its-stock-is-heading-higher-b9318916?mod=mw_rss_topstories",
-      "published": "Fri, 30 Oct 2026 00:06:00 GMT"
+      "title": "‘He was heartbroken’: My husband’s kids abandoned him when he was dying. Was he right to leave everything to me?",
+      "url": "https://www.marketwatch.com/story/he-was-heartbroken-my-husbands-kids-never-helped-when-he-was-gravely-ill-was-he-right-to-leave-everything-to-me-1ad0616b?mod=mw_rss_topstories",
+      "published": "Fri, 30 Oct 2026 14:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Our church has a $1.5 million bequest earning 3.75% in a bank account. Is inflation eroding it?",
-      "url": "https://www.marketwatch.com/story/there-may-be-better-investment-options-my-church-received-1-5-million-from-a-parishioner-is-3-75-interest-enough-5164d790?mod=mw_rss_topstories",
-      "published": "Fri, 30 Oct 2026 00:05:00 GMT"
+      "title": "This Halloween, are king-sized candy bars a better deal than fun-sized ones?",
+      "url": "https://www.marketwatch.com/story/this-halloween-are-king-sized-candy-bars-a-better-deal-than-fun-sized-ones-992da0d9?mod=mw_rss_topstories",
+      "published": "Fri, 30 Oct 2026 14:12:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Why Intel’s stock is sinking toward its worst drop in two years",
+      "title": "Why Intel’s stock is sinking toward its worst day in decades — and a $140 billion wipeout",
       "url": "https://www.marketwatch.com/story/why-intels-stock-is-sinking-toward-its-worst-drop-in-two-years-492d71a7?mod=mw_rss_topstories",
-      "published": "Thu, 29 Oct 2026 23:21:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "My abusive ex-husband promised $20,000 for our kids’ education. Now he refuses to pay. Is he legally obligated?",
-      "url": "https://www.marketwatch.com/story/my-abusive-ex-husband-promised-20-000-for-our-kids-education-now-he-refuses-to-pay-is-he-legally-obligated-325ef50f?mod=mw_rss_topstories",
-      "published": "Thu, 29 Oct 2026 22:45:00 GMT"
+      "published": "Fri, 30 Oct 2026 14:10:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Berkshire Hathaway sells $69.03 million of DaVita (NYSE:DVA) stock",
-      "url": "https://www.investing.com/news/insider-trading-news/berkshire-hathaway-sells-6903-million-of-davita-nysedva-stock-93CH-4985673",
-      "published": "2026-10-30 01:01:14"
+      "title": "Chocolate makers get Halloween fright as health-conscious US shoppers cut back",
+      "url": "https://www.investing.com/news/stock-market-news/chocolate-makers-get-halloween-fright-as-healthconscious-us-shoppers-cut-back-4988098",
+      "published": "2026-10-30 14:12:23"
     },
     {
       "source": "Investing.com News",
-      "title": "Bayer wins US trial in which it was alleged that Roundup caused cancer in three women",
-      "url": "https://www.investing.com/news/stock-market-news/bayer-wins-us-trial-in-which-it-was-alleged-that-roundup-caused-cancer-in-threewomen-4985665",
-      "published": "2026-10-30 00:48:38"
+      "title": "Freedom Broker upgrades Paccar stock rating to buy on truck profitability",
+      "url": "https://www.investing.com/news/analyst-ratings/freedom-broker-upgrades-paccar-stock-rating-to-buy-on-truck-profitability-93CH-4988087",
+      "published": "2026-10-30 14:10:52"
     },
     {
       "source": "Investing.com News",
-      "title": "Australia Q3 producer prices beat forecasts, keeping RBA inflation focus",
-      "url": "https://www.investing.com/news/economic-indicators/australia-q3-producer-prices-beat-forecasts-keeping-rba-inflation-focus-4985664",
-      "published": "2026-10-30 00:47:07"
+      "title": "Freedom Broker upgrades Baker Hughes stock rating on Q3 beat",
+      "url": "https://www.investing.com/news/analyst-ratings/freedom-broker-upgrades-baker-hughes-stock-rating-on-q3-beat-93CH-4988086",
+      "published": "2026-10-30 14:10:50"
     },
     {
       "source": "Investing.com News",
-      "title": "Matson chairman & CEO Matthew Cox sells $2.28M in company stock",
-      "url": "https://www.investing.com/news/insider-trading-news/matson-chairman--ceo-matthew-cox-sells-228m-in-company-stock-93CH-4985663",
-      "published": "2026-10-30 00:45:59"
+      "title": "Freedom Broker downgrades Luxfer stock rating on weaker outlook",
+      "url": "https://www.investing.com/news/analyst-ratings/freedom-broker-downgrades-luxfer-stock-rating-on-weaker-outlook-93CH-4988085",
+      "published": "2026-10-30 14:10:45"
     },
     {
       "source": "Investing.com News",
-      "title": "Bitcoin, cryptocurrency prices fall after Binance reports security issue",
-      "url": "https://www.investing.com/news/forex-news/bitcoin-cryptocurrency-prices-fall-after-binance-reports-security-issue-4985655",
-      "published": "2026-10-30 00:42:22"
+      "title": "Explainer-Gone in 20 minutes: How the biggest heist in crypto history unfolded",
+      "url": "https://www.investing.com/news/stock-market-news/explainergone-in-20-minutes-how-the-biggest-heist-in-crypto-history-unfolded-4986851",
+      "published": "2026-10-30 14:07:23"
     },
     {
       "source": "Investing.com News",
-      "title": "CrowdStrike CEO George Kurtz sells $5.3 million in company stock",
-      "url": "https://www.investing.com/news/insider-trading-news/crowdstrike-ceo-george-kurtz-sells-53-million-in-company-stock-93CH-4985653",
-      "published": "2026-10-30 00:31:01"
+      "title": "Xponential Fitness shares jump on reports of takeover bid",
+      "url": "https://www.investing.com/news/stock-market-news/xponential-fitness-shares-jump-on-reports-of-takeover-bid-4988071",
+      "published": "2026-10-30 14:07:18"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Tech Stocks Sell Off on Earnings, Bitcoin Drops: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-29/stock-market-today-dow-s-p-live-updates",
-      "published": "Thu, 29 Oct 2026 22:07:56 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Bayer Wins St. Louis Roundup Trial, Bolstering Settlement Push",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-30/bayer-wins-st-louis-roundup-trial-bolstering-settlement-push",
-      "published": "Fri, 30 Oct 2026 00:46:10 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Gold Steadies Near $4,000 as Inflation Keeps Rate-Hike Bets Firm",
+      "title": "Gold Slumps to Lowest in a Year on Inflation, Tech-Stock Rout",
       "url": "https://www.bloomberg.com/news/articles/2026-10-29/gold-steadies-near-4-000-as-inflation-keeps-rate-hike-bets-firm",
       "published": "Thu, 29 Oct 2026 23:32:06 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Dollar’s Rate-Fueled Rally Set to Ride Out US Midterm Gridlock",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-30/dollar-s-rate-fueled-rally-set-to-ride-out-us-midterm-gridlock",
-      "published": "Fri, 30 Oct 2026 00:35:03 GMT"
+      "title": "Investor Said to Look to Bid on Club Pilates-Owner Xponential",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-30/investor-said-to-look-to-bid-on-club-pilates-owner-xponential",
+      "published": "Fri, 30 Oct 2026 13:58:32 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Latest Oil Market News and Analysis for Oct. 30",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-29/latest-oil-market-news-and-analysis-for-oct-30",
-      "published": "Thu, 29 Oct 2026 22:02:17 GMT"
+      "title": "Chile Copper Mines Deliver Worst Quarter in at Least Two Decades",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-30/chile-copper-mines-deliver-worst-quarter-in-at-least-two-decades",
+      "published": "Fri, 30 Oct 2026 13:54:30 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Big Tech’s Deepening AI Funding Concerns Sink Asian Chip Stocks",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-30/big-tech-s-deepening-ai-funding-concerns-sink-asian-chip-stocks",
-      "published": "Fri, 30 Oct 2026 00:20:56 GMT"
+      "title": "Munis Head for Best October in More Than Four Decades After Rout",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-30/munis-head-for-best-october-in-more-than-four-decades-after-rout",
+      "published": "Fri, 30 Oct 2026 13:54:01 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Exxon, Chevron Deliver Big Profits on Strong Refining",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-30/exxon-chevron-deliver-big-profits-on-strong-refining-video",
+      "published": "Fri, 30 Oct 2026 13:50:18 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Big Oil Scores $56 Billion Windfall on Spiking Fuel Prices",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-30/exxon-reaps-record-oil-refining-profits-on-war-driven-gasoline-diesel-spikes",
+      "published": "Fri, 30 Oct 2026 10:30:22 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Binance temporarily suspends withdrawals after apparent hack",
+      "title": "Binance halts withdrawals after record $6.3bn heist",
       "url": "https://www.ft.com/content/c7f5e395-c3a9-430e-b757-5014527b4d49?syn-25a6b1a6=1",
-      "published": "Fri, 30 Oct 2026 01:02:58 GMT"
+      "published": "Fri, 30 Oct 2026 13:36:04 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Alphabet shares tumble in $500bn rout",
-      "url": "https://www.ft.com/content/eb386156-5bf9-4edd-80f2-803fdee1e33d?syn-25a6b1a6=1",
-      "published": "Thu, 29 Oct 2026 21:53:41 GMT"
+      "title": "Tech rout deepens as US earnings stoke AI spending fears",
+      "url": "https://www.ft.com/content/3ba953ae-84bb-4de4-959e-baec3e908fb3?syn-25a6b1a6=1",
+      "published": "Fri, 30 Oct 2026 13:31:12 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "New Jersey governor threatens to block delivery of Russian diesel cargoes",
-      "url": "https://www.ft.com/content/3d9ac5af-d6c7-48f8-a5b4-7b3b22cc243d?syn-25a6b1a6=1",
-      "published": "Thu, 29 Oct 2026 20:34:22 GMT"
+      "title": "What we know about the $6.3bn Binance hack",
+      "url": "https://www.ft.com/content/58fee10f-8a99-4e8b-835d-ddba5e434ce3?syn-25a6b1a6=1",
+      "published": "Fri, 30 Oct 2026 13:23:45 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Josh Kushner and OpenAI-backed group agree deal for US home security firm",
-      "url": "https://www.ft.com/content/f88e30a0-1252-4695-97b0-03da22e5fd42?syn-25a6b1a6=1",
-      "published": "Thu, 29 Oct 2026 20:28:20 GMT"
+      "title": "Partners plans to halve withdrawal limits on strained private equity fund",
+      "url": "https://www.ft.com/content/e42fabdb-2fa1-47ef-a014-9873639c40ae?syn-25a6b1a6=1",
+      "published": "Fri, 30 Oct 2026 12:38:38 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "US tech stocks fall after earnings fuel AI spending concerns",
-      "url": "https://www.ft.com/content/1639620b-99e7-47ed-8484-49646816489e?syn-25a6b1a6=1",
-      "published": "Thu, 29 Oct 2026 20:10:36 GMT"
+      "title": "Did Anthropic value itself at $1.2tn in August?",
+      "url": "https://www.ft.com/content/60fb40ed-f1bf-416e-982b-1b9b80582ab4",
+      "published": "Fri, 30 Oct 2026 12:36:54 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Why the slowdown in Wall Street deals?",
-      "url": "https://www.ft.com/content/0da88a47-1b89-4980-9161-03413e7a8a35?syn-25a6b1a6=1",
-      "published": "Thu, 29 Oct 2026 20:00:00 GMT"
+      "title": "Europe’s EV transition accelerates",
+      "url": "https://www.ft.com/content/a6629e05-5afc-403a-b305-67966854c7e3?syn-25a6b1a6=1",
+      "published": "Fri, 30 Oct 2026 12:01:02 GMT"
     }
   ],
   "summary": {
