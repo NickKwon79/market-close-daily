@@ -1,0 +1,451 @@
+{
+  "as_of_kst": "2026-10-31 09:56 KST",
+  "as_of_date": "2026-10-31",
+  "as_of_weekday": "SAT",
+  "build_unix": 1793408178,
+  "indexes": {
+    "sp500": {
+      "key": "sp500",
+      "symbol": "^GSPC",
+      "name": "S&P 500",
+      "region": "USA",
+      "kind": "broad",
+      "price": 7580.07,
+      "change": -140.32,
+      "change_pct": -1.82,
+      "spark": [
+        7676.77,
+        7722.6,
+        7743.98,
+        7720.39,
+        7580.07
+      ],
+      "as_of": "2026-10-30"
+    },
+    "nasdaq": {
+      "key": "nasdaq",
+      "symbol": "^IXIC",
+      "name": "NASDAQ Composite",
+      "region": "USA",
+      "kind": "tech",
+      "price": 25437.0,
+      "change": -747.72,
+      "change_pct": -2.86,
+      "spark": [
+        26169.38,
+        26477.81,
+        26549.85,
+        26184.72,
+        25437.0
+      ],
+      "as_of": "2026-10-30"
+    },
+    "dow": {
+      "key": "dow",
+      "symbol": "^DJI",
+      "name": "Dow Jones 30",
+      "region": "USA",
+      "kind": "value",
+      "price": 51770.31,
+      "change": -572.25,
+      "change_pct": -1.09,
+      "spark": [
+        52361.58,
+        52377.57,
+        52475.1,
+        52342.56,
+        51770.31
+      ],
+      "as_of": "2026-10-30"
+    },
+    "kospi": {
+      "key": "kospi",
+      "symbol": "^KS11",
+      "name": "KOSPI",
+      "region": "KOREA",
+      "kind": "broad",
+      "price": 5937.66,
+      "change": -74.78,
+      "change_pct": -1.24,
+      "spark": [
+        5550.3,
+        5469.47,
+        5638.34,
+        6012.44,
+        5937.66
+      ],
+      "as_of": "2026-10-30"
+    },
+    "nikkei": {
+      "key": "nikkei",
+      "symbol": "^N225",
+      "name": "Nikkei 225",
+      "region": "JAPAN",
+      "kind": "broad",
+      "price": 64659.47,
+      "change": 705.28,
+      "change_pct": 1.1,
+      "spark": [
+        62693.16,
+        62189.65,
+        63268.37,
+        63954.19,
+        64659.47
+      ],
+      "as_of": "2026-10-30"
+    },
+    "hangseng": {
+      "key": "hangseng",
+      "symbol": "^HSI",
+      "name": "Hang Seng",
+      "region": "HONG KONG",
+      "kind": "broad",
+      "price": 22958.65,
+      "change": -136.18,
+      "change_pct": -0.59,
+      "spark": [
+        23093.37,
+        23211.81,
+        23041.32,
+        23094.83,
+        22958.65
+      ],
+      "as_of": "2026-10-30"
+    },
+    "ftse": {
+      "key": "ftse",
+      "symbol": "^FTSE",
+      "name": "FTSE 100",
+      "region": "UK",
+      "kind": "broad",
+      "price": 10722.1,
+      "change": 27.6,
+      "change_pct": 0.26,
+      "spark": [
+        10690.4,
+        10767.3,
+        10686.5,
+        10694.5,
+        10722.1
+      ],
+      "as_of": "2026-10-30"
+    },
+    "dax": {
+      "key": "dax",
+      "symbol": "^GDAXI",
+      "name": "DAX",
+      "region": "GERMANY",
+      "kind": "broad",
+      "price": 26039.68,
+      "change": 335.66,
+      "change_pct": 1.31,
+      "spark": [
+        25181.65,
+        25410.84,
+        25590.77,
+        25704.02,
+        26039.68
+      ],
+      "as_of": "2026-10-30"
+    }
+  },
+  "fx": {
+    "USDKRW": {
+      "key": "USDKRW",
+      "pair": "USD/KRW",
+      "rate": 1337.98,
+      "kind": "direct"
+    },
+    "USDJPY": {
+      "key": "USDJPY",
+      "pair": "USD/JPY",
+      "rate": 157.8,
+      "kind": "direct"
+    },
+    "EURUSD": {
+      "key": "EURUSD",
+      "pair": "EUR/USD",
+      "rate": 1.1183,
+      "kind": "inverse"
+    },
+    "USDCNY": {
+      "key": "USDCNY",
+      "pair": "USD/CNY",
+      "rate": 6.661,
+      "kind": "direct"
+    },
+    "DXY": {
+      "key": "DXY",
+      "pair": "DXY",
+      "rate": 101.96,
+      "change": -0.08,
+      "change_pct": -0.07,
+      "kind": "index"
+    }
+  },
+  "commodities": {
+    "wti": {
+      "key": "wti",
+      "symbol": "CL=F",
+      "name": "WTI Crude",
+      "unit": "$",
+      "price": 102.95,
+      "change": 0.95,
+      "change_pct": 0.93
+    },
+    "gold": {
+      "key": "gold",
+      "symbol": "GC=F",
+      "name": "Gold",
+      "unit": "$",
+      "price": 3884.9,
+      "change": -146.5,
+      "change_pct": -3.63
+    },
+    "btc": {
+      "key": "btc",
+      "symbol": "BTC-USD",
+      "name": "Bitcoin",
+      "unit": "$",
+      "price": 77343.6,
+      "change": -431.51,
+      "change_pct": -0.55
+    },
+    "ust10y": {
+      "key": "ust10y",
+      "symbol": "^TNX",
+      "name": "10Y UST Yield",
+      "unit": "%",
+      "price": 4.93,
+      "change": -0.06,
+      "change_pct": -1.2
+    },
+    "vix": {
+      "key": "vix",
+      "symbol": "^VIX",
+      "name": "VIX",
+      "unit": "",
+      "price": 19.42,
+      "change": 2.22,
+      "change_pct": 12.91
+    }
+  },
+  "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Beware these stock funds for big capital gains distributions this year. How to manage the tax bill",
+      "url": "https://www.cnbc.com/2026/10/30/mutual-fund-capital-gains-distributions-2026.html",
+      "published": "Fri, 30 Oct 2026 20:01:02 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "UnitedHealth is finally getting its act together. I'm buying into the turnaround",
+      "url": "https://www.cnbc.com/2026/10/30/unitedhealth-is-finally-getting-its-act-together-im-buying-into-the-turnaround.html",
+      "published": "Fri, 30 Oct 2026 18:44:30 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Is it finally time to buy Lululemon? Here's what the charts tell me",
+      "url": "https://www.cnbc.com/2026/10/30/lululemon-stock-bottom-technical-analysis.html",
+      "published": "Fri, 30 Oct 2026 17:24:35 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Amazon decline could turn out to be a gift for investors. Stephanie Link says buy it",
+      "url": "https://www.cnbc.com/2026/10/30/amazon-decline-could-turn-out-to-be-a-gift-for-investors-stephanie-link-says-buy-it.html",
+      "published": "Fri, 30 Oct 2026 16:14:13 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Broadridge runs Wall Street’s market plumbing. Tokenization may expand its role",
+      "url": "https://www.cnbc.com/2026/10/30/broadridge-tokenization-stock.html",
+      "published": "Fri, 30 Oct 2026 15:52:38 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Here are the stocks reporting next week that have a history of earnings beats and big share gains",
+      "url": "https://www.cnbc.com/2026/10/30/here-are-stocks-reporting-next-week-that-usually-beats-and-see-big-share-gains.html",
+      "published": "Fri, 30 Oct 2026 15:04:26 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Has the tech bubble burst? Why the Nasdaq’s rough ride looks eerily like 2000.",
+      "url": "https://www.marketwatch.com/story/has-the-tech-bubble-burst-why-the-nasdaqs-rough-ride-looks-eerily-like-2000-5bcefcb2?mod=mw_rss_topstories",
+      "published": "Fri, 30 Oct 2026 23:14:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "This cybersecurity stock will be the next to join the S&P 500",
+      "url": "https://www.marketwatch.com/story/this-cybersecurity-stock-will-be-the-next-to-join-the-s-p-500-dc976803?mod=mw_rss_topstories",
+      "published": "Fri, 30 Oct 2026 22:20:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Why gold plunged to its lowest price in a year despite renewed Iran jitters",
+      "url": "https://www.marketwatch.com/story/why-gold-plunged-to-its-lowest-price-in-a-year-despite-renewed-iran-jitters-365be0e2?mod=mw_rss_topstories",
+      "published": "Fri, 30 Oct 2026 21:30:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Warsh wants the Fed to say less. Two officials are pushing for more transparency.",
+      "url": "https://www.marketwatch.com/story/the-fed-held-interest-rates-steady-but-these-officials-see-more-hikes-coming-soon-2098bbd8?mod=mw_rss_topstories",
+      "published": "Fri, 30 Oct 2026 21:23:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "In a wild October for markets, these stocks were the biggest winners and losers",
+      "url": "https://www.marketwatch.com/story/in-a-wild-october-for-markets-these-stocks-were-the-biggest-winners-and-losers-3736f043?mod=mw_rss_topstories",
+      "published": "Fri, 30 Oct 2026 20:52:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Why Intel’s stock saw its worst day in decades — and a $140 billion wipeout",
+      "url": "https://www.marketwatch.com/story/why-intels-stock-is-sinking-toward-its-worst-drop-in-two-years-492d71a7?mod=mw_rss_topstories",
+      "published": "Fri, 30 Oct 2026 20:48:00 GMT"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Porch Group director Sean Kell sells $418,790 in company shares",
+      "url": "https://www.investing.com/news/insider-trading-news/porch-group-director-sean-kell-sells-418790-in-company-shares-93CH-4988995",
+      "published": "2026-10-31 00:46:09"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Porch Group CFO Shawn Tabak sells $630,738 in stock",
+      "url": "https://www.investing.com/news/insider-trading-news/porch-group-cfo-shawn-tabak-sells-630738-in-stock-93CH-4988994",
+      "published": "2026-10-31 00:46:08"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "CoreWeave’s Jeff Baker, principal accounting officer, sells $407,946 in stock",
+      "url": "https://www.investing.com/news/insider-trading-news/coreweaves-jeff-baker-principal-accounting-officer-sells-407946-in-stock-93CH-4988993",
+      "published": "2026-10-31 00:46:03"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Acadia evp, cfo Mark Schneyer sells $69,342 in company stock",
+      "url": "https://www.investing.com/news/insider-trading-news/acadia-evp-cfo-mark-schneyer-sells-69342-in-company-stock-93CH-4988992",
+      "published": "2026-10-31 00:45:51"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Wall Street closes sharply lower as AI cash burn fears spark tech selloff",
+      "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai-spending-woes-4986163",
+      "published": "2026-10-31 00:42:51"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Is the market too bearish on aluminium?",
+      "url": "https://www.investing.com/news/stock-market-news/is-the-market-too-bearish-on-aluminium-4988986",
+      "published": "2026-10-31 00:40:08"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Stocks Slump as Wall Street Gets AI Wake-Up Call: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-29/stock-market-today-dow-s-p-live-updates",
+      "published": "Thu, 29 Oct 2026 22:07:56 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Chocolate Price Spook Families for Halloween",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-30/chocolate-price-spook-families-for-halloween-video",
+      "published": "Fri, 30 Oct 2026 22:21:45 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Crypto Hack Reignites Regulatory Debate",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-30/crypto-hack-reignites-regulatory-debate-video",
+      "published": "Fri, 30 Oct 2026 22:08:41 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Lonnie Ali & Marc Rosen on New Muhammad Ali Amazon Show",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-30/lonnie-ali-marc-rosen-on-new-muhammad-ali-amazon-show-video",
+      "published": "Fri, 30 Oct 2026 22:05:55 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Bloomberg Screentime: Streaming, AI & Creators",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-30/bloomberg-screentime-streaming-ai-creators-video",
+      "published": "Fri, 30 Oct 2026 22:05:47 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "PacSun CEO: Brands Mean a Lot to Young People Today",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-30/pacsun-ceo-brands-mean-a-lot-to-young-people-today-video",
+      "published": "Fri, 30 Oct 2026 22:01:02 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "$6.3bn in 30 minutes: how the world’s biggest heist unfolded",
+      "url": "https://www.ft.com/content/e84eceda-040b-4e5f-b906-09768085933a?syn-25a6b1a6=1",
+      "published": "Fri, 30 Oct 2026 22:17:15 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Binance rushes to recover customer money after $6.3bn heist",
+      "url": "https://www.ft.com/content/c7f5e395-c3a9-430e-b757-5014527b4d49?syn-25a6b1a6=1",
+      "published": "Fri, 30 Oct 2026 22:12:58 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "US tech stocks tumble as concerns over AI spending intensify",
+      "url": "https://www.ft.com/content/3ba953ae-84bb-4de4-959e-baec3e908fb3?syn-25a6b1a6=1",
+      "published": "Fri, 30 Oct 2026 21:13:50 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
+      "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f?syn-25a6b1a6=1",
+      "published": "Fri, 30 Oct 2026 18:19:08 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "How AI might be deployed for better bank supervision",
+      "url": "https://www.ft.com/content/be6723d6-ab63-41ab-ac46-dc870c449da0?syn-25a6b1a6=1",
+      "published": "Fri, 30 Oct 2026 18:00:05 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Apollo and Thrive capitalise on private equity’s generational shift",
+      "url": "https://www.ft.com/content/95480c09-5018-4400-b9c1-f2d53373a47c?syn-25a6b1a6=1",
+      "published": "Fri, 30 Oct 2026 17:24:07 GMT"
+    }
+  ],
+  "summary": {
+    "headlines": [
+      {
+        "title_ko": "美 CPI 서프라이즈에도 S&P 500·나스닥 사상최고 마감, 테크가 견인",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/13/stock-market-today.html",
+        "time_label": "23:00"
+      },
+      {
+        "title_ko": "연준, 인플레 둔화 흐름 속 추가 인하 경로 유지 관측",
+        "source": "Reuters",
+        "url": "https://www.reuters.com/markets/us/fed-rate-cut-2026/",
+        "time_label": "21:30"
+      },
+      {
+        "title_ko": "삼성전자 CXL 메모리 양산 발표에 KOSPI 7,844 사상최고",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-14/kospi-record",
+        "time_label": "15:30"
+      },
+      {
+        "title_ko": "BOJ, 임금·물가 사이클 강화 시 추가 정상화 가능 시사",
+        "source": "Bank of Japan",
+        "url": "https://www.boj.or.jp/en/announcements/2026/",
+        "time_label": "10:00"
+      },
+      {
+        "title_ko": "英 1Q GDP 컨센서스 부합, 스타머 정치 리스크는 여전",
+        "source": "FT",
+        "url": "https://www.ft.com/content/uk-gdp-2026q1",
+        "time_label": "17:00"
+      }
+    ],
+    "market_summary_ko": "미국 인플레이션 경계감에도 테크 모멘텀이 지수를 끌어올렸고, 아시아 세션에서는 삼성전자 CXL 모멘텀에 KOSPI가 다시 사상최고를 갈아엎었다. Fed 인하 vs BOJ 인상 디버전스가 달러 강세를 떠받치는 가운데, 다음 분기점은 5/21 NVDA 실적이다.",
+    "risk_sentiment": "RISK-ON"
+  }
+}
