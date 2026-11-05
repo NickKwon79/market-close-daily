@@ -1,0 +1,451 @@
+{
+  "as_of_kst": "2026-11-06 00:41 KST",
+  "as_of_date": "2026-11-06",
+  "as_of_weekday": "FRI",
+  "build_unix": 1793893305,
+  "indexes": {
+    "sp500": {
+      "key": "sp500",
+      "symbol": "^GSPC",
+      "name": "S&P 500",
+      "region": "USA",
+      "kind": "broad",
+      "price": 7482.34,
+      "change": -206.28,
+      "change_pct": -2.68,
+      "spark": [
+        7580.07,
+        7541.4,
+        7568.92,
+        7688.62,
+        7482.34
+      ],
+      "as_of": "2026-11-05"
+    },
+    "nasdaq": {
+      "key": "nasdaq",
+      "symbol": "^IXIC",
+      "name": "NASDAQ Composite",
+      "region": "USA",
+      "kind": "tech",
+      "price": 24665.52,
+      "change": -1070.99,
+      "change_pct": -4.16,
+      "spark": [
+        25437.0,
+        25164.31,
+        25372.01,
+        25736.51,
+        24665.52
+      ],
+      "as_of": "2026-11-05"
+    },
+    "dow": {
+      "key": "dow",
+      "symbol": "^DJI",
+      "name": "Dow Jones 30",
+      "region": "USA",
+      "kind": "value",
+      "price": 52462.64,
+      "change": -893.48,
+      "change_pct": -1.67,
+      "spark": [
+        51770.31,
+        51983.98,
+        51786.72,
+        53356.12,
+        52462.64
+      ],
+      "as_of": "2026-11-05"
+    },
+    "kospi": {
+      "key": "kospi",
+      "symbol": "^KS11",
+      "name": "KOSPI",
+      "region": "KOREA",
+      "kind": "broad",
+      "price": 5683.8,
+      "change": 35.01,
+      "change_pct": 0.62,
+      "spark": [
+        5937.66,
+        5730.74,
+        5859.08,
+        5648.79,
+        5683.8
+      ],
+      "as_of": "2026-11-05"
+    },
+    "nikkei": {
+      "key": "nikkei",
+      "symbol": "^N225",
+      "name": "Nikkei 225",
+      "region": "JAPAN",
+      "kind": "broad",
+      "price": 62188.63,
+      "change": -893.23,
+      "change_pct": -1.42,
+      "spark": [
+        63954.19,
+        64659.47,
+        63290.11,
+        63081.86,
+        62188.63
+      ],
+      "as_of": "2026-11-05"
+    },
+    "hangseng": {
+      "key": "hangseng",
+      "symbol": "^HSI",
+      "name": "Hang Seng",
+      "region": "HONG KONG",
+      "kind": "broad",
+      "price": 24796.98,
+      "change": 877.48,
+      "change_pct": 3.67,
+      "spark": [
+        23294.42,
+        23393.32,
+        23525.97,
+        23919.5,
+        24796.98
+      ],
+      "as_of": "2026-11-05"
+    },
+    "ftse": {
+      "key": "ftse",
+      "symbol": "^FTSE",
+      "name": "FTSE 100",
+      "region": "UK",
+      "kind": "broad",
+      "price": 10829.78,
+      "change": 0.58,
+      "change_pct": 0.01,
+      "spark": [
+        10729.8,
+        10761.3,
+        10638.4,
+        10829.2,
+        10829.78
+      ],
+      "as_of": "2026-11-05"
+    },
+    "dax": {
+      "key": "dax",
+      "symbol": "^GDAXI",
+      "name": "DAX",
+      "region": "GERMANY",
+      "kind": "broad",
+      "price": 26337.59,
+      "change": -100.08,
+      "change_pct": -0.38,
+      "spark": [
+        25818.21,
+        25981.09,
+        25864.62,
+        26437.67,
+        26337.59
+      ],
+      "as_of": "2026-11-05"
+    }
+  },
+  "fx": {
+    "USDKRW": {
+      "key": "USDKRW",
+      "pair": "USD/KRW",
+      "rate": 1350.33,
+      "kind": "direct"
+    },
+    "USDJPY": {
+      "key": "USDJPY",
+      "pair": "USD/JPY",
+      "rate": 157.95,
+      "kind": "direct"
+    },
+    "EURUSD": {
+      "key": "EURUSD",
+      "pair": "EUR/USD",
+      "rate": 1.123,
+      "kind": "inverse"
+    },
+    "USDCNY": {
+      "key": "USDCNY",
+      "pair": "USD/CNY",
+      "rate": 6.6675,
+      "kind": "direct"
+    },
+    "DXY": {
+      "key": "DXY",
+      "pair": "DXY",
+      "rate": 101.52,
+      "change": 0.01,
+      "change_pct": 0.01,
+      "kind": "index"
+    }
+  },
+  "commodities": {
+    "wti": {
+      "key": "wti",
+      "symbol": "CL=F",
+      "name": "WTI Crude",
+      "unit": "$",
+      "price": 90.26,
+      "change": 2.14,
+      "change_pct": 2.43
+    },
+    "gold": {
+      "key": "gold",
+      "symbol": "GC=F",
+      "name": "Gold",
+      "unit": "$",
+      "price": 4111.2,
+      "change": 38.2,
+      "change_pct": 0.94
+    },
+    "btc": {
+      "key": "btc",
+      "symbol": "BTC-USD",
+      "name": "Bitcoin",
+      "unit": "$",
+      "price": 76309.77,
+      "change": -4095.52,
+      "change_pct": -5.09
+    },
+    "ust10y": {
+      "key": "ust10y",
+      "symbol": "^TNX",
+      "name": "10Y UST Yield",
+      "unit": "%",
+      "price": 4.87,
+      "change": -0.03,
+      "change_pct": -0.53
+    },
+    "vix": {
+      "key": "vix",
+      "symbol": "^VIX",
+      "name": "VIX",
+      "unit": "",
+      "price": 24.57,
+      "change": 7.96,
+      "change_pct": 47.92
+    }
+  },
+  "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Brazil stocks have taken a beating. Here's why I see opportunity",
+      "url": "https://www.cnbc.com/2026/11/05/brazil-stocks-have-taken-a-beating-heres-why-i-see-opportunity.html",
+      "published": "Thu, 05 Nov 2026 14:55:38 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "The rotation out of tech is becoming a risk for the broader market",
+      "url": "https://www.cnbc.com/2026/11/05/the-rotation-out-of-tech-is-becoming-a-risk-for-the-broader-market.html",
+      "published": "Thu, 05 Nov 2026 14:39:57 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Democratic sweep puts crypto on defensive in Washington",
+      "url": "https://www.cnbc.com/2026/11/05/crypto-midterms-democrats-clarity-act.html",
+      "published": "Thu, 05 Nov 2026 15:30:43 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Here are Thursday's biggest analyst calls: SpaceX, Nvidia, First Solar, Nike, JetBlue, Cisco, Cinemark & more",
+      "url": "https://www.cnbc.com/2026/11/05/here-are-thursdays-biggest-analyst-calls-of-the-day-more.html",
+      "published": "Thu, 05 Nov 2026 13:25:28 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "This solar stock is likely to rise following the U.S. 2026 midterm elections",
+      "url": "https://www.cnbc.com/2026/11/05/this-solar-stock-is-likely-to-rise-following-the-us-2026-midterms.html",
+      "published": "Thu, 05 Nov 2026 13:22:36 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "AI is starting to help Booking's business. Its stock should benefit",
+      "url": "https://www.cnbc.com/2026/11/05/booking-holdings-q3-earnings-ai-opportunity.html",
+      "published": "Thu, 05 Nov 2026 12:26:53 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "‘My life could be cut short’: I’m 55, married and have a brain tumor. Should I splash out on a $210,000 Porsche?",
+      "url": "https://www.marketwatch.com/story/my-life-could-be-cut-short-im-55-married-with-4-3-million-and-have-a-brain-tumor-should-i-buy-a-210-000-custom-porsche-ed825ada?mod=mw_rss_topstories",
+      "published": "Thu, 05 Nov 2026 15:30:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "‘I have no financial safety net’: I’m 66, rely on Social Security and have just $500 in savings. What hope do I have?",
+      "url": "https://www.marketwatch.com/story/i-have-no-financial-safety-net-im-66-rely-on-social-security-and-have-500-in-savings-what-politician-speaks-for-me-be2126cb?mod=mw_rss_topstories",
+      "published": "Thu, 05 Nov 2026 15:30:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Learning from ‘Love Is Blind’ money drama",
+      "url": "https://www.marketwatch.com/story/learning-from-love-is-blind-money-drama-810175f9?mod=mw_rss_topstories",
+      "published": "Thu, 05 Nov 2026 15:16:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Billionaires aren’t off the hook for higher taxes, even if they did dodge California’s wealth tax",
+      "url": "https://www.marketwatch.com/story/billionaires-arent-off-the-hook-for-higher-taxes-even-if-they-did-dodge-californias-wealth-tax-a73f9045?mod=mw_rss_topstories",
+      "published": "Thu, 05 Nov 2026 15:01:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Two months after my father’s funeral, my stepmother asked me to repay his $40,000 wedding gift. Should I do what she says?",
+      "url": "https://www.marketwatch.com/story/shes-a-type-a-personality-my-stepmother-wants-me-to-repay-my-late-fathers-40-000-wedding-gift-should-i-oblige-51fc64f7?mod=mw_rss_topstories",
+      "published": "Thu, 05 Nov 2026 15:00:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "A record 10% of first-time home buyers now pay in cash. Here’s where they get the money.",
+      "url": "https://www.marketwatch.com/story/a-record-10-of-first-time-home-buyers-now-pay-in-cash-heres-where-they-get-the-money-70f2e656?mod=mw_rss_topstories",
+      "published": "Thu, 05 Nov 2026 15:00:00 GMT"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Why is Tesla stock sliding today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-tesla-stock-sliding-today-93CH-5005078",
+      "published": "2026-11-05 15:33:39"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "UBS lowers Adient stock price target on industry headwinds",
+      "url": "https://www.investing.com/news/analyst-ratings/ubs-lowers-adient-stock-price-target-on-industry-headwinds-93CH-5005077",
+      "published": "2026-11-05 15:33:02"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Stifel raises Chatham Lodging Trust price target on business travel strength",
+      "url": "https://www.investing.com/news/analyst-ratings/stifel-raises-chatham-lodging-trust-price-target-on-business-travel-strength-93CH-5005076",
+      "published": "2026-11-05 15:32:54"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "UBS cuts Flutter Entertainment stock price target on earnings outlook",
+      "url": "https://www.investing.com/news/analyst-ratings/ubs-cuts-flutter-entertainment-stock-price-target-on-earnings-outlook-93CH-5005075",
+      "published": "2026-11-05 15:32:53"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Raymond James raises Edgewise Therapeutics price target on FDA feedback",
+      "url": "https://www.investing.com/news/analyst-ratings/raymond-james-raises-edgewise-therapeutics-price-target-on-fda-feedback-93CH-5005074",
+      "published": "2026-11-05 15:32:49"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Stifel reiterates Buy rating on Amylyx stock ahead of data",
+      "url": "https://www.investing.com/news/analyst-ratings/stifel-reiterates-buy-rating-on-amylyx-stock-ahead-of-data-93CH-5005073",
+      "published": "2026-11-05 15:32:45"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Nasdaq 100 Sinks 5% as Chipmaker Selloff Deepens: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-04/stock-market-today-dow-s-p-live-updates",
+      "published": "Wed, 04 Nov 2026 22:15:04 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Carlyle Shares Fall as Executives Tout Path to More Exits",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-05/carlyle-beats-as-deal-exits-mitigate-dip-in-fee-related-earnings",
+      "published": "Thu, 05 Nov 2026 11:01:00 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Latest Oil Market News and Analysis for Nov. 5",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-04/latest-oil-market-news-and-analysis-for-nov-5",
+      "published": "Wed, 04 Nov 2026 23:08:01 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "JBS e bancos são alvo de queixas na Europa por desmatamento",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-05/jbs-e-bancos-sao-alvo-de-queixas-por-desmatamento-video",
+      "published": "Thu, 05 Nov 2026 15:31:04 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "European Stocks Erase Gains as Tech Rout Builds, Defense Drops",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-05/european-stocks-hit-fresh-record-as-ai-unwind-boosts-region",
+      "published": "Thu, 05 Nov 2026 08:09:35 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "September Fed Rate Hike Was a Mistake, Miran Says",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-05/september-fed-rate-hike-was-a-mistake-miran-says-video",
+      "published": "Thu, 05 Nov 2026 15:08:15 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Nasdaq tumbles 5% as chip rout intensifies in wake of midterms",
+      "url": "https://www.ft.com/content/7c6ceb4f-d7b1-49ec-9047-0e2e4cd2615c?syn-25a6b1a6=1",
+      "published": "Thu, 05 Nov 2026 15:28:44 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "European stocks approach all-time high on Democratic sweep",
+      "url": "https://www.ft.com/content/1ca182d6-8d16-4ddb-98fb-cf933b4c3073?syn-25a6b1a6=1",
+      "published": "Thu, 05 Nov 2026 13:58:58 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "French bank Crédit Mutuel Arkéa seeks to recover funds after €100mn hack",
+      "url": "https://www.ft.com/content/3f6ef089-f478-4d00-a080-21a88ffd721b?syn-25a6b1a6=1",
+      "published": "Thu, 05 Nov 2026 13:28:53 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Crude awakening: how oil has fuelled 150 years of conflict",
+      "url": "https://www.ft.com/content/9c6a400c-2207-4b68-8fda-080f1cc30260",
+      "published": "Thu, 05 Nov 2026 13:12:42 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Battle-tested European drone maker takes step towards €7bn IPO",
+      "url": "https://www.ft.com/content/58106ce0-31ec-4814-b1b4-bba34778e9e7?syn-25a6b1a6=1",
+      "published": "Thu, 05 Nov 2026 12:59:10 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Bank of England raises interest rates to 4% in bid to tame inflation",
+      "url": "https://www.ft.com/content/290cf85b-6d95-4c79-af9b-e2a3d79072f6?syn-25a6b1a6=1",
+      "published": "Thu, 05 Nov 2026 12:33:33 GMT"
+    }
+  ],
+  "summary": {
+    "headlines": [
+      {
+        "title_ko": "美 CPI 서프라이즈에도 S&P 500·나스닥 사상최고 마감, 테크가 견인",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/13/stock-market-today.html",
+        "time_label": "23:00"
+      },
+      {
+        "title_ko": "연준, 인플레 둔화 흐름 속 추가 인하 경로 유지 관측",
+        "source": "Reuters",
+        "url": "https://www.reuters.com/markets/us/fed-rate-cut-2026/",
+        "time_label": "21:30"
+      },
+      {
+        "title_ko": "삼성전자 CXL 메모리 양산 발표에 KOSPI 7,844 사상최고",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-14/kospi-record",
+        "time_label": "15:30"
+      },
+      {
+        "title_ko": "BOJ, 임금·물가 사이클 강화 시 추가 정상화 가능 시사",
+        "source": "Bank of Japan",
+        "url": "https://www.boj.or.jp/en/announcements/2026/",
+        "time_label": "10:00"
+      },
+      {
+        "title_ko": "英 1Q GDP 컨센서스 부합, 스타머 정치 리스크는 여전",
+        "source": "FT",
+        "url": "https://www.ft.com/content/uk-gdp-2026q1",
+        "time_label": "17:00"
+      }
+    ],
+    "market_summary_ko": "미국 인플레이션 경계감에도 테크 모멘텀이 지수를 끌어올렸고, 아시아 세션에서는 삼성전자 CXL 모멘텀에 KOSPI가 다시 사상최고를 갈아엎었다. Fed 인하 vs BOJ 인상 디버전스가 달러 강세를 떠받치는 가운데, 다음 분기점은 5/21 NVDA 실적이다.",
+    "risk_sentiment": "RISK-ON"
+  }
+}
