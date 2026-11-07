@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-11-07 00:16 KST",
+  "as_of_kst": "2026-11-07 10:01 KST",
   "as_of_date": "2026-11-07",
   "as_of_weekday": "SAT",
-  "build_unix": 1793978207,
+  "build_unix": 1794013296,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -10,15 +10,15 @@
       "name": "S&P 500",
       "region": "USA",
       "kind": "broad",
-      "price": 7432.15,
-      "change": 78.42,
-      "change_pct": 1.07,
+      "price": 7376.86,
+      "change": 23.13,
+      "change_pct": 0.31,
       "spark": [
         7541.4,
         7568.92,
         7688.62,
         7353.73,
-        7432.15
+        7376.86
       ],
       "as_of": "2026-11-06"
     },
@@ -28,15 +28,15 @@
       "name": "NASDAQ Composite",
       "region": "USA",
       "kind": "tech",
-      "price": 24745.15,
-      "change": 430.15,
-      "change_pct": 1.77,
+      "price": 24579.42,
+      "change": 264.42,
+      "change_pct": 1.09,
       "spark": [
         25164.31,
         25372.01,
         25736.51,
         24315.0,
-        24745.15
+        24579.42
       ],
       "as_of": "2026-11-06"
     },
@@ -46,15 +46,15 @@
       "name": "Dow Jones 30",
       "region": "USA",
       "kind": "value",
-      "price": 51592.74,
-      "change": 69.68,
-      "change_pct": 0.14,
+      "price": 51285.73,
+      "change": -237.33,
+      "change_pct": -0.46,
       "spark": [
         51983.98,
         51786.72,
         53356.12,
         51523.06,
-        51592.74
+        51285.73
       ],
       "as_of": "2026-11-06"
     },
@@ -100,15 +100,15 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 24481.86,
-      "change": -315.12,
-      "change_pct": -1.27,
+      "price": 24796.98,
+      "change": 877.48,
+      "change_pct": 3.67,
       "spark": [
+        23294.42,
         23393.32,
         23525.97,
         23919.5,
-        24796.98,
-        24481.86
+        24796.98
       ],
       "as_of": "2026-11-06"
     },
@@ -118,15 +118,15 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10623.91,
-      "change": -158.79,
-      "change_pct": -1.47,
+      "price": 10782.7,
+      "change": -46.5,
+      "change_pct": -0.43,
       "spark": [
+        10729.8,
         10761.3,
         10638.4,
         10829.2,
-        10782.7,
-        10623.91
+        10782.7
       ],
       "as_of": "2026-11-06"
     },
@@ -136,15 +136,15 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 25727.96,
-      "change": -597.05,
-      "change_pct": -2.27,
+      "price": 26325.01,
+      "change": -112.66,
+      "change_pct": -0.43,
       "spark": [
+        25818.21,
         25981.09,
         25864.62,
         26437.67,
-        26325.01,
-        25727.96
+        26325.01
       ],
       "as_of": "2026-11-06"
     }
@@ -153,33 +153,33 @@
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1361.33,
+      "rate": 1356.34,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 158.26,
+      "rate": 157.5,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1161,
+      "rate": 1.1228,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.6678,
+      "rate": 6.688,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 102.17,
-      "change": 0.62,
-      "change_pct": 0.61,
+      "rate": 102.28,
+      "change": 0.73,
+      "change_pct": 0.72,
       "kind": "index"
     }
   },
@@ -189,48 +189,66 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 90.63,
-      "change": 0.11,
-      "change_pct": 0.12
+      "price": 90.34,
+      "change": -0.18,
+      "change_pct": -0.2
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 4054.0,
-      "change": -59.5,
-      "change_pct": -1.45
+      "price": 4079.5,
+      "change": -34.0,
+      "change_pct": -0.83
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 75568.0,
-      "change": -374.12,
-      "change_pct": -0.49
+      "price": 75867.2,
+      "change": -74.92,
+      "change_pct": -0.1
     },
     "ust10y": {
       "key": "ust10y",
       "symbol": "^TNX",
       "name": "10Y UST Yield",
       "unit": "%",
-      "price": 4.88,
-      "change": 0.04,
-      "change_pct": 0.81
+      "price": 4.86,
+      "change": 0.02,
+      "change_pct": 0.45
     },
     "vix": {
       "key": "vix",
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 24.14,
-      "change": -4.04,
-      "change_pct": -14.34
+      "price": 25.64,
+      "change": -2.54,
+      "change_pct": -9.01
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16%",
+      "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+      "published": "Fri, 06 Nov 2026 17:09:53 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "This pharmaceutical ETF is outperforming. Why it could keep climbing",
+      "url": "https://www.cnbc.com/2026/11/06/this-pharmaceutical-etf-is-outperforming-why-it-could-keep-climbing.html",
+      "published": "Fri, 06 Nov 2026 16:57:09 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "SpaceX is down big on fears of Dem 'retribution' against Musk. Deutsche Bank says buy the dip",
+      "url": "https://www.cnbc.com/2026/11/06/spacex-is-down-big-on-dem-retribution-fears-against-musk-deutsche-bank-says-buy-the-dip.html",
+      "published": "Fri, 06 Nov 2026 17:43:28 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Apple has been outperforming. But, the good times could soon end, Daiwa says",
@@ -250,166 +268,148 @@
       "published": "Thu, 05 Nov 2026 19:37:28 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "Solar stocks rallied on Democratic victories, but policy risks still threaten the group",
-      "url": "https://www.cnbc.com/2026/11/05/solar-stocks-democrats-congress.html",
-      "published": "Thu, 05 Nov 2026 19:12:12 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "CNBC's experts on whether the AI trade is ending and what investors should do next",
-      "url": "https://www.cnbc.com/2026/11/05/cnbcs-experts-on-whether-the-ai-trade-is-ending-and-what-investors-should-do-next.html",
-      "published": "Thu, 05 Nov 2026 19:19:31 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "This stock that sold off in the 'SaasPocalypse' is back at all-time highs. How Josh Brown is trading",
-      "url": "https://www.cnbc.com/2026/11/05/this-stock-that-sold-off-in-the-saaspocalypse-is-back-at-all-time-highs-how-josh-brown-is-trading.html",
-      "published": "Thu, 05 Nov 2026 16:00:01 GMT"
+      "source": "MarketWatch Top",
+      "title": "‘I have no financial safety net’: I’m 66, rely on Social Security and have just $500 in savings. What hope do I have?",
+      "url": "https://www.marketwatch.com/story/i-have-no-financial-safety-net-im-66-rely-on-social-security-and-have-500-in-savings-what-politician-speaks-for-me-be2126cb?mod=mw_rss_topstories",
+      "published": "Fri, 06 Nov 2026 21:45:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Moderna raises its revenue outlook — but all eyes are on what happens next with its cancer vaccine",
-      "url": "https://www.marketwatch.com/story/modernas-stock-jumps-after-biotech-raises-sales-outlook-65363127?mod=mw_rss_topstories",
-      "published": "Fri, 06 Nov 2026 15:09:00 GMT"
+      "title": "Elon Musk opens the door for a big SpaceX acquisition",
+      "url": "https://www.marketwatch.com/story/elon-musk-opens-the-door-for-a-big-spacex-acquisition-4f62bcad?mod=mw_rss_topstories",
+      "published": "Fri, 06 Nov 2026 21:45:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "My 93-year-old father changed his will at the 11th hour, leaving my brother his entire $500,000 estate. Can I challenge it?",
-      "url": "https://www.marketwatch.com/story/my-93-year-old-father-changed-his-will-at-the-11th-hour-leaving-my-brother-his-entire-500-000-estate-can-i-challenge-it-ecfc63d2?mod=mw_rss_topstories",
-      "published": "Fri, 06 Nov 2026 15:00:00 GMT"
+      "title": "Data centers run on debt. That was a problem for bonds this year — and it’s only going to get worse.",
+      "url": "https://www.marketwatch.com/story/data-centers-run-on-debt-that-was-a-problem-for-bonds-this-year-and-its-only-going-to-get-worse-09c03be6?mod=mw_rss_topstories",
+      "published": "Fri, 06 Nov 2026 21:37:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Trump’s Iran war has changed the future of Social Security",
-      "url": "https://www.marketwatch.com/story/trumps-iran-war-has-changed-the-future-of-social-security-7a500f9f?mod=mw_rss_topstories",
-      "published": "Fri, 06 Nov 2026 14:55:00 GMT"
+      "title": "Nvidia, AMD and other chip stocks rebound — but is relief from the ‘violent’ selloff only temporary?",
+      "url": "https://www.marketwatch.com/story/nvidia-amd-and-other-chip-stocks-rebound-is-the-violent-ai-selloff-over-8f7df533?mod=mw_rss_topstories",
+      "published": "Fri, 06 Nov 2026 21:24:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "The S&P 500 has become a big AI bet. Here are some simple alternatives.",
-      "url": "https://www.marketwatch.com/story/the-s-p-500-has-become-a-big-ai-bet-here-are-some-simple-alternatives-3c7574a4?mod=mw_rss_topstories",
-      "published": "Fri, 06 Nov 2026 14:51:00 GMT"
+      "title": "‘It seems bizarre’: We’re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing Roth conversions?",
+      "url": "https://www.marketwatch.com/story/it-seems-bizarre-were-in-our-80s-with-950-000-in-traditional-iras-why-is-our-adviser-pushing-us-to-do-roth-conversions-a665f990?mod=mw_rss_topstories",
+      "published": "Fri, 06 Nov 2026 21:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
       "title": "‘It feels like he’s quietly building a separate life’: My husband inherited $500,000, but he refuses to spend it on our home",
       "url": "https://www.marketwatch.com/story/it-feels-like-hes-quietly-building-a-separate-life-my-husband-inherited-500-000-but-he-refuses-to-spend-it-on-our-home-06535cff?mod=mw_rss_topstories",
-      "published": "Fri, 06 Nov 2026 14:50:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "How much in Roth conversions can you do in 2027 with the new tax brackets?",
-      "url": "https://www.marketwatch.com/story/how-much-roth-conversion-can-you-do-in-2027-with-the-new-tax-brackets-a2f940c8?mod=mw_rss_topstories",
-      "published": "Fri, 06 Nov 2026 14:26:00 GMT"
+      "published": "Fri, 06 Nov 2026 21:15:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Sweetgreen stock hits 52-week high at 11.95 USD",
-      "url": "https://www.investing.com/news/company-news/sweetgreen-stock-hits-52week-high-at-1195-usd-93CH-5008731",
-      "published": "2026-11-06 15:13:52"
+      "title": "Adaptive Biotechnologies president and COO Julie Rubinstein sells $954k stock",
+      "url": "https://www.investing.com/news/insider-trading-news/adaptive-biotechnologies-president-and-coo-julie-rubinstein-sells-954k-stock-93CH-5009476",
+      "published": "2026-11-07 00:46:10"
     },
     {
       "source": "Investing.com News",
-      "title": "Why is CoreWeave stock rallying today?",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-coreweave-stock-rallying-today-93CH-5008730",
-      "published": "2026-11-06 15:12:54"
+      "title": "Remitly director Joshua Hug sells $239,965 in company stock",
+      "url": "https://www.investing.com/news/insider-trading-news/remitly-director-joshua-hug-sells-239965-in-company-stock-93CH-5009465",
+      "published": "2026-11-07 00:35:02"
     },
     {
       "source": "Investing.com News",
-      "title": "New York sues GM in case related to deceptive trade practices, court records show",
-      "url": "https://www.investing.com/news/stock-market-news/new-york-sues-gm-in-case-related-to-deceptive-trade-practices-court-records-show-5008729",
-      "published": "2026-11-06 15:12:49"
+      "title": "Aeva Technologies CEO Soroush Dardashti sells $372,826 in shares",
+      "url": "https://www.investing.com/news/insider-trading-news/aeva-technologies-ceo-soroush-dardashti-sells-372826-in-shares-93CH-5009458",
+      "published": "2026-11-07 00:31:08"
     },
     {
       "source": "Investing.com News",
-      "title": "Franklin DE earnings beat by $0.17, revenue topped estimates",
-      "url": "https://www.investing.com/news/earnings/franklin-de-earnings-beat-by-017-revenue-topped-estimates-5008727",
-      "published": "2026-11-06 15:12:42"
+      "title": "Happen general counsel Jordan Cheng sells $46,928 of stock",
+      "url": "https://www.investing.com/news/insider-trading-news/happen-general-counsel-jordan-cheng-sells-46928-of-stock-93CH-5009457",
+      "published": "2026-11-07 00:31:00"
     },
     {
       "source": "Investing.com News",
-      "title": "Gogo Inc earnings missed by $0.10, revenue fell short of estimates",
-      "url": "https://www.investing.com/news/earnings/gogo-inc-earnings-missed-by-010-revenue-fell-short-of-estimates-5008726",
-      "published": "2026-11-06 15:10:46"
+      "title": "Jewett Cameron director AJB Investment Fund II, LP buys $21,476",
+      "url": "https://www.investing.com/news/insider-trading-news/jewett-cameron-director-ajb-investment-fund-ii-lp-buys-21476-93CH-5009456",
+      "published": "2026-11-07 00:30:55"
     },
     {
       "source": "Investing.com News",
-      "title": "Optimum Communications earnings missed by $10.06, revenue topped estimates",
-      "url": "https://www.investing.com/news/earnings/optimum-communications-earnings-missed-by-1006-revenue-topped-estimates-5008725",
-      "published": "2026-11-06 15:10:41"
+      "title": "Aeva Technologies CTO Mina Rezk sells $248,536 in common stock",
+      "url": "https://www.investing.com/news/insider-trading-news/aeva-technologies-cto-mina-rezk-sells-248536-in-common-stock-93CH-5009455",
+      "published": "2026-11-07 00:30:53"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Traders Trim Canada Rate-Hike Bets as Unemployment Rises to 6.7%",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-06/canada-jobless-rate-rises-to-6-7-amid-small-employment-decline",
-      "published": "Fri, 06 Nov 2026 13:30:01 GMT"
+      "title": "How a Bank Scandal Is Taking Down Trump’s Ally in Paraguay",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-06/how-a-banking-scandal-is-taking-down-trump-s-ally-in-paraguay",
+      "published": "Fri, 06 Nov 2026 00:24:58 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Chip Stocks Roar Back as Strong Data Sink Bonds: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-05/stock-market-today-dow-s-p-live-updates",
-      "published": "Thu, 05 Nov 2026 22:17:59 GMT"
+      "title": "The Corner Store Brings Its New York Experience to the Las Vegas Strip",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-06/the-corner-store-brings-nyc-experience-to-vegas-strip-video",
+      "published": "Fri, 06 Nov 2026 23:49:39 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Carney, Bank of Canada Renew Framework to Focus on 2% Inflation Target",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-05/carney-bank-of-canada-renew-framework-to-focus-on-2-inflation-target",
-      "published": "Thu, 05 Nov 2026 22:46:35 GMT"
+      "title": "Elanco Shares Jump After Q3 Beat and Outlook Raise",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-06/elanco-shares-jump-after-q3-beat-and-outlook-raise-video",
+      "published": "Fri, 06 Nov 2026 23:30:58 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "UK Inheritance Tax Changes Spur Higher Pension Withdrawals",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-06/uk-inheritance-tax-changes-spur-higher-pension-withdrawals",
-      "published": "Fri, 06 Nov 2026 14:58:28 GMT"
+      "title": "Sweetgreen CEO Says Sales Rebound After Cyclospora-Related Traffic Drop",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-06/sweetgreen-ceo-on-earnings-sales-rebound-video",
+      "published": "Fri, 06 Nov 2026 23:26:21 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Zambia to Trim 2027 Budget Gap After This Year’s Blowout",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-06/zambian-budget-gets-copper-boost-with-el-nino-threatening-crops",
-      "published": "Fri, 06 Nov 2026 06:15:00 GMT"
+      "title": "FIGS Beats Earnings as Demand Outstrips Supply, CEO Trina Spear Says",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-06/figs-ceo-trina-spears-on-earnings-beat-video",
+      "published": "Fri, 06 Nov 2026 23:21:26 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Inside Singapore Airlines’ New Business Class Cabins",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-06/inside-singapore-airlines-new-business-class-cabins-video",
-      "published": "Fri, 06 Nov 2026 14:39:27 GMT"
+      "title": "Braskem Owners Pull Funding Offer as Debt Talks Hit Snag",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-06/braskem-shareholders-pull-funding-offer-as-debt-talks-hit-snags",
+      "published": "Fri, 06 Nov 2026 19:38:53 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "UK retail investors buy the dip after bruising tech sell-off",
-      "url": "https://www.ft.com/content/64c72979-1f97-4d25-8dc9-7c47c6089191?syn-25a6b1a6=1",
-      "published": "Fri, 06 Nov 2026 14:28:49 GMT"
+      "title": "US warns China it must ‘immediately’ meet terms of Busan trade deal",
+      "url": "https://www.ft.com/content/391bb785-0247-4c39-b53b-35007187d603?syn-25a6b1a6=1",
+      "published": "Fri, 06 Nov 2026 22:53:51 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Arini’s credit troubles suggest roach-hunting season is back",
-      "url": "https://www.ft.com/content/59a3bb17-5b09-4223-9077-413140b8a05b?syn-25a6b1a6=1",
-      "published": "Fri, 06 Nov 2026 14:23:53 GMT"
+      "title": "US stocks recover after tech rout",
+      "url": "https://www.ft.com/content/642b32dc-e3a1-4df8-ae91-5c84bdeb89e0?syn-25a6b1a6=1",
+      "published": "Fri, 06 Nov 2026 22:22:05 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Interpath executive in talks over Grant Thornton switch after tensions",
-      "url": "https://www.ft.com/content/eecbeefc-930c-4492-962b-4b9ec6cebfe3?syn-25a6b1a6=1",
-      "published": "Fri, 06 Nov 2026 14:16:04 GMT"
+      "title": "US economy outstrips forecasts to add 165,000 jobs in October",
+      "url": "https://www.ft.com/content/f84c722c-99a9-4628-84dc-c42a192cb35c?syn-25a6b1a6=1",
+      "published": "Fri, 06 Nov 2026 22:16:13 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "My portfolio returns went from hero to zero (actually I’d take zero)",
-      "url": "https://www.ft.com/content/44211bf7-0f18-4e55-81b8-01e750ae785f?syn-25a6b1a6=1",
-      "published": "Fri, 06 Nov 2026 13:34:06 GMT"
+      "title": "US stocks stage tepid recovery after $3.2tn rout fuelled by AI fears",
+      "url": "https://www.ft.com/content/088ed252-ea9c-4b61-b2d1-37295fd0f7c2?syn-25a6b1a6=1",
+      "published": "Fri, 06 Nov 2026 22:00:56 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Taking stock of the flight-to-quality",
-      "url": "https://www.ft.com/content/11ea58b9-008e-4e09-b384-44b3b7bf5d46",
-      "published": "Fri, 06 Nov 2026 13:01:02 GMT"
+      "title": "Anthropic to press ahead with IPO targeting $1.5tn valuation",
+      "url": "https://www.ft.com/content/314e17df-e7af-4814-b208-70a0557cb452?syn-25a6b1a6=1",
+      "published": "Fri, 06 Nov 2026 21:00:09 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Spanish farmers told to keep olive oil off the market after bumper harvest",
-      "url": "https://www.ft.com/content/7dbff765-cf48-4f78-87dc-09a56aee27fe?syn-25a6b1a6=1",
-      "published": "Fri, 06 Nov 2026 12:46:44 GMT"
+      "title": "A new phase in the tech market correction",
+      "url": "https://www.ft.com/content/a91d70f1-d335-4d58-a6d8-1052658211ba?syn-25a6b1a6=1",
+      "published": "Fri, 06 Nov 2026 18:24:44 GMT"
     }
   ],
   "summary": {
