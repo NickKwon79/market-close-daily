@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-11-13 11:00 KST",
-  "as_of_date": "2026-11-13",
-  "as_of_weekday": "FRI",
-  "build_unix": 1794535222,
+  "as_of_kst": "2026-11-14 00:36 KST",
+  "as_of_date": "2026-11-14",
+  "as_of_weekday": "SAT",
+  "build_unix": 1794584175,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -10,17 +10,17 @@
       "name": "S&P 500",
       "region": "USA",
       "kind": "broad",
-      "price": 7592.4,
-      "change": -26.98,
-      "change_pct": -0.35,
+      "price": 7518.92,
+      "change": -73.48,
+      "change_pct": -0.97,
       "spark": [
-        7376.86,
         7549.94,
         7520.93,
         7619.38,
-        7592.4
+        7592.4,
+        7518.92
       ],
-      "as_of": "2026-11-12"
+      "as_of": "2026-11-13"
     },
     "nasdaq": {
       "key": "nasdaq",
@@ -28,17 +28,17 @@
       "name": "NASDAQ Composite",
       "region": "USA",
       "kind": "tech",
-      "price": 25366.09,
-      "change": -100.1,
-      "change_pct": -0.39,
+      "price": 24936.37,
+      "change": -429.72,
+      "change_pct": -1.69,
       "spark": [
-        24579.43,
         25253.14,
         25065.87,
         25466.19,
-        25366.09
+        25366.09,
+        24936.37
       ],
-      "as_of": "2026-11-12"
+      "as_of": "2026-11-13"
     },
     "dow": {
       "key": "dow",
@@ -46,17 +46,17 @@
       "name": "Dow Jones 30",
       "region": "USA",
       "kind": "value",
-      "price": 52297.09,
-      "change": -189.4,
-      "change_pct": -0.36,
+      "price": 52226.67,
+      "change": -70.42,
+      "change_pct": -0.13,
       "spark": [
-        51285.73,
         52389.75,
         52231.89,
         52486.49,
-        52297.09
+        52297.09,
+        52226.67
       ],
-      "as_of": "2026-11-12"
+      "as_of": "2026-11-13"
     },
     "kospi": {
       "key": "kospi",
@@ -64,15 +64,15 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 5457.79,
-      "change": 82.43,
-      "change_pct": 1.53,
+      "price": 5342.73,
+      "change": -32.63,
+      "change_pct": -0.61,
       "spark": [
         5059.69,
         5018.85,
         5239.13,
         5375.36,
-        5457.79
+        5342.73
       ],
       "as_of": "2026-11-13"
     },
@@ -82,15 +82,15 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 61811.05,
-      "change": 562.46,
-      "change_pct": 0.92,
+      "price": 60819.36,
+      "change": -429.23,
+      "change_pct": -0.7,
       "spark": [
         57434.77,
         58775.5,
         60459.58,
         61248.59,
-        61811.05
+        60819.36
       ],
       "as_of": "2026-11-13"
     },
@@ -100,15 +100,15 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 23910.13,
-      "change": -405.79,
-      "change_pct": -1.67,
+      "price": 23637.6,
+      "change": -370.95,
+      "change_pct": -1.55,
       "spark": [
-        24481.86,
         24448.95,
         24557.04,
         24315.92,
-        23910.13
+        24008.55,
+        23637.6
       ],
       "as_of": "2026-11-13"
     },
@@ -118,17 +118,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10835.5,
-      "change": 83.9,
-      "change_pct": 0.78,
+      "price": 10877.1,
+      "change": 14.0,
+      "change_pct": 0.13,
       "spark": [
-        10782.7,
-        10673.9,
         10782.9,
         10751.6,
-        10835.5
+        10835.5,
+        10863.1,
+        10877.1
       ],
-      "as_of": "2026-11-12"
+      "as_of": "2026-11-13"
     },
     "dax": {
       "key": "dax",
@@ -136,50 +136,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 26662.77,
-      "change": 315.32,
-      "change_pct": 1.2,
+      "price": 26725.92,
+      "change": -45.96,
+      "change_pct": -0.17,
       "spark": [
-        26325.01,
-        25820.36,
         26267.19,
         26347.45,
-        26662.77
+        26662.77,
+        26771.88,
+        26725.92
       ],
-      "as_of": "2026-11-12"
+      "as_of": "2026-11-13"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1331.35,
+      "rate": 1337.41,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 159.88,
+      "rate": 159.82,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.1066,
+      "rate": 1.1042,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.6672,
+      "rate": 6.6609,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 103.13,
-      "change": 0.22,
-      "change_pct": 0.21,
+      "rate": 103.23,
+      "change": 0.06,
+      "change_pct": 0.06,
       "kind": "index"
     }
   },
@@ -189,48 +189,78 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 88.19,
-      "change": 1.66,
-      "change_pct": 1.92
+      "price": 89.16,
+      "change": 0.42,
+      "change_pct": 0.47
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 3912.7,
-      "change": -87.8,
-      "change_pct": -2.19
+      "price": 3882.6,
+      "change": -2.7,
+      "change_pct": -0.07
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 70870.57,
-      "change": -3093.9,
-      "change_pct": -4.18
+      "price": 68195.52,
+      "change": -3147.45,
+      "change_pct": -4.41
     },
     "ust10y": {
       "key": "ust10y",
       "symbol": "^TNX",
       "name": "10Y UST Yield",
       "unit": "%",
-      "price": 5.1,
-      "change": 0.1,
-      "change_pct": 2.1
+      "price": 5.13,
+      "change": 0.03,
+      "change_pct": 0.55
     },
     "vix": {
       "key": "vix",
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 18.7,
-      "change": 1.21,
-      "change_pct": 6.92
+      "price": 20.79,
+      "change": 2.09,
+      "change_pct": 11.18
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "What Nvidia dip buyers need to worry about",
+      "url": "https://www.cnbc.com/2026/11/13/what-nvidia-dip-buyers-need-to-worry-about.html",
+      "published": "Fri, 13 Nov 2026 15:04:28 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Here are Friday's biggest analyst calls: Nvidia, SpaceX, Deckers, Broadcom, CoreWeave, Palo Alto Networks & more",
+      "url": "https://www.cnbc.com/2026/11/13/top-friday-wall-street-analyst-calls-like-nvidia.html",
+      "published": "Fri, 13 Nov 2026 13:11:29 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "What's ahead for AI financing after Nvidia CEO Jensen Huang departs",
+      "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-resignation-ai-financing.html",
+      "published": "Fri, 13 Nov 2026 15:34:48 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "This water technology stock is set to get a big boost from AI, says Wells Fargo",
+      "url": "https://www.cnbc.com/2026/11/13/ecolab-wells-fargo-upgrade-ai-cooling.html",
+      "published": "Fri, 13 Nov 2026 12:43:14 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "This cybersecurity stock is down nearly 20% over the past month. KeyBanc says it's a buy",
+      "url": "https://www.cnbc.com/2026/11/13/palo-alto-networks-keybanc-upgrade.html",
+      "published": "Fri, 13 Nov 2026 11:44:18 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Watch these levels to know if Nasdaq-100 is set to break out",
@@ -238,178 +268,148 @@
       "published": "Thu, 12 Nov 2026 19:43:17 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "This identity verification leader is growing beyond airports — and investors are noticing",
-      "url": "https://www.cnbc.com/2026/11/12/clear-secure-stock-growth.html",
-      "published": "Thu, 12 Nov 2026 19:13:02 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Stephanie Link is getting out of Nvidia and buying this chipmaker instead",
-      "url": "https://www.cnbc.com/2026/11/12/stephanie-link-sold-nvidia-and-is-buying-this-chipmaker-instead.html",
-      "published": "Thu, 12 Nov 2026 17:37:22 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Buy Nvidia with 'both hands' because the valuation is at 'stupid' levels, says analyst Meeks",
-      "url": "https://www.cnbc.com/2026/11/12/buy-nvidia-with-both-hands-because-the-valuation-is-at-stupid-levels-says-analyst-meeks.html",
-      "published": "Thu, 12 Nov 2026 17:33:05 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "This Josh Brown 'best stock' has been a core holding of Berkshire Hathaway for two decades",
-      "url": "https://www.cnbc.com/2026/11/12/this-josh-brown-best-stock-has-been-a-core-holding-of-berkshire-hathaway-for-two-decades.html",
-      "published": "Thu, 12 Nov 2026 16:19:38 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "AMD upgraded because it will benefit from Nvidia's 'leadership vacuum'",
-      "url": "https://www.cnbc.com/2026/11/12/amd-upgraded-because-it-will-benefit-from-nvidias-leadership-vacuum.html",
-      "published": "Thu, 12 Nov 2026 14:31:37 GMT"
-    },
-    {
       "source": "MarketWatch Top",
-      "title": "Who can replace Jensen Huang as Nvidia CEO? These four names are buzzing in AI circles.",
-      "url": "https://www.marketwatch.com/story/who-can-replace-jensen-huang-as-nvidia-ceo-these-four-names-are-buzzing-in-ai-circles-66c31ec2?mod=mw_rss_topstories",
-      "published": "Thu, 12 Nov 2026 22:57:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Opening trading-card packs has become a $2 billion market",
-      "url": "https://www.marketwatch.com/story/opening-trading-card-packs-has-become-a-2-billion-market-new-apps-are-trying-to-cash-in-b7ba11f5?mod=mw_rss_topstories",
-      "published": "Thu, 12 Nov 2026 22:38:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Bond yields just saw their biggest surge since 2022 as expectations grow for more Fed rate hikes",
-      "url": "https://www.marketwatch.com/story/bond-yields-just-saw-their-biggest-surge-since-2022-as-expectations-grow-for-more-fed-rate-hikes-d0a4f195?mod=mw_rss_topstories",
-      "published": "Thu, 12 Nov 2026 22:16:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "‘He calls my plans a fantasy’: My husband says we can’t afford our $200,000-a-year dream retirement. I think he’s cheap.",
+      "title": "‘He calls my plans a fantasy’: My husband says we can’t afford a $200,000-a-year retirement. Is he being cheap?",
       "url": "https://www.marketwatch.com/story/he-calls-my-plans-a-fantasy-my-husband-says-we-cant-afford-our-200-000-a-year-dream-retirement-i-think-hes-cheap-45bc5b4e?mod=mw_rss_topstories",
-      "published": "Thu, 12 Nov 2026 22:00:00 GMT"
+      "published": "Fri, 13 Nov 2026 15:30:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "‘She has a history of financial mismanagement’: My brother cut our sister out of his will. I’ll get everything. Do I tell her?",
+      "url": "https://www.marketwatch.com/story/she-has-a-history-of-financial-mismanagement-my-brother-cut-my-sister-out-of-his-will-im-getting-everything-do-i-tell-her-3e537851?mod=mw_rss_topstories",
+      "published": "Fri, 13 Nov 2026 15:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
       "title": "Am I overpaying for health insurance? How to answer the key question this open-enrollment season.",
       "url": "https://www.marketwatch.com/story/am-i-overpaying-for-health-insurance-how-to-answer-the-key-question-this-open-enrollment-season-2d00ed55?mod=mw_rss_topstories",
-      "published": "Thu, 12 Nov 2026 21:55:00 GMT"
+      "published": "Fri, 13 Nov 2026 15:11:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "The 10 best stocks for a year-end momentum trade",
-      "url": "https://www.marketwatch.com/story/the-10-best-stocks-for-a-year-end-momentum-trade-8d4cf8f7?mod=mw_rss_topstories",
-      "published": "Thu, 12 Nov 2026 21:50:00 GMT"
+      "title": "Home sales plummet to lowest level since ‘Great Recession’ as prices hit all-time high",
+      "url": "https://www.marketwatch.com/story/home-sales-plummet-to-lowest-level-since-the-great-recession-as-buyers-flee-the-market-624e6270?mod=mw_rss_topstories",
+      "published": "Fri, 13 Nov 2026 15:08:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "The 2027 401(k) limits are here. See how much more you can save next year.",
+      "url": "https://www.marketwatch.com/story/the-2027-401-k-limits-are-here-see-how-much-more-you-can-save-next-year-d525768c?mod=mw_rss_topstories",
+      "published": "Fri, 13 Nov 2026 15:03:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Trump administration is hiring debt collectors to go after defaulted student-loan borrowers for first time in 6 years",
+      "url": "https://www.marketwatch.com/story/trump-administration-is-hiring-debt-collectors-for-first-time-in-6-years-to-go-after-defaulted-student-loan-borrowers-8bae13ad?mod=mw_rss_topstories",
+      "published": "Fri, 13 Nov 2026 14:28:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: Wise posts strong H1 2027 growth as stock slips",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-wise-posts-strong-h1-2027-growth-as-stock-slips-93CH-5023916",
-      "published": "2026-11-13 01:53:03"
+      "title": "Bessent blames Commerce Dept over lack of export controls for Nvidia partner Megaspeed",
+      "url": "https://www.investing.com/news/economy-news/bessent-says-treasury-favored-limits-on-megaspeed-5025721",
+      "published": "2026-11-13 15:30:24"
     },
     {
       "source": "Investing.com News",
-      "title": "Vistance Networks director Claudius Watts buys $831,060 in stock",
-      "url": "https://www.investing.com/news/insider-trading-news/vistance-networks-director-claudius-watts-buys-831060-in-stock-93CH-5023912",
-      "published": "2026-11-13 01:46:01"
+      "title": "Northland Power Nov 2026 slides: 4 for 4 delivery, 2030 targets on track",
+      "url": "https://www.investing.com/news/company-news/northland-power-nov-2026-slides-4-for-4-delivery-2030-targets-on-track-93CH-5026082",
+      "published": "2026-11-13 15:30:19"
     },
     {
       "source": "Investing.com News",
-      "title": "Vistance Networks director Claudius Watts buys $198,195 in stock.",
-      "url": "https://www.investing.com/news/insider-trading-news/vistance-networks-director-claudius-watts-buys-198195-in-stock-93CH-5023913",
-      "published": "2026-11-13 01:46:01"
+      "title": "SKHY support and resistance levels to watch",
+      "url": "https://www.investing.com/news/stock-market-news/skhy-support-and-resistance-levels-to-watch-93CH-5026078",
+      "published": "2026-11-13 15:29:55"
     },
     {
       "source": "Investing.com News",
-      "title": "ByteDance plans $6bn buyback at $400 bln valuation- The Information",
-      "url": "https://www.investing.com/news/stock-market-news/bytedance-plans-6bn-buyback-at-400-bln-valuation-the-information-93CH-5023903",
-      "published": "2026-11-13 01:43:55"
+      "title": "IRB(Re) 3Q26 slides: tax reform drives loss, solvency hits 333%",
+      "url": "https://www.investing.com/news/company-news/irbre-3q26-slides-tax-reform-drives-loss-solvency-hits-333-93CH-5026077",
+      "published": "2026-11-13 15:29:17"
     },
     {
       "source": "Investing.com News",
-      "title": "Fed’s Williams says central bank has ’work to do’ to get inflation back on target",
-      "url": "https://www.investing.com/news/economy-news/feds-williams-says-central-bank-has-work-to-do-to-get-inflation-back-on-target-5023897",
-      "published": "2026-11-13 01:42:37"
+      "title": "Earnings call transcript: Exchange Income tops EPS estimates in Q3 2026",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-exchange-income-tops-eps-estimates-in-q3-2026-93CH-5026076",
+      "published": "2026-11-13 15:29:03"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: SMIC tops revenue forecast in Q3 2026 on AI demand",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-smic-tops-revenue-forecast-in-q3-2026-on-ai-demand-93CH-5023901",
-      "published": "2026-11-13 01:41:38"
+      "title": "Earnings call transcript: Rede D’Or misses Q3 2026 estimates but stock rises",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-rede-dor-misses-q3-2026-estimates-but-stock-rises-93CH-5026075",
+      "published": "2026-11-13 15:28:49"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Asian Stocks Gain After Nvidia Upheaval, Oil Holds: Markets Wrap",
+      "title": "Raw Sugar Heads for Weekly Rise With India, Brazil in Focus",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/raw-sugar-heads-for-weekly-rise-with-india-imports-in-focus",
+      "published": "Fri, 13 Nov 2026 14:04:12 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "New Corporate Speak Is Shaped By AI",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-13/opinion-new-corporate-speak-is-shaped-by-ai-video",
+      "published": "Fri, 13 Nov 2026 15:20:47 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Fed’s Logan Seeks Clearer Separation of Market Operations",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-13/logan-seeks-clearer-fed-separation-of-market-operations-video",
+      "published": "Fri, 13 Nov 2026 15:19:45 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Stocks Fall as Chip Rout Outweighs Inflation Data: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-11-12/stock-market-today-dow-s-p-live-updates",
       "published": "Thu, 12 Nov 2026 22:17:13 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Singtel Says ‘Fairly Insulated’ From Nvidia, Raises Guidance",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-13/singtel-raises-profit-outlook-as-overseas-businesses-gain-ground",
-      "published": "Fri, 13 Nov 2026 00:45:59 GMT"
+      "title": "Ukraine Hits Ninth Russian Oil Refinery Since Start of November",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/ukraine-hits-ninth-russian-oil-refinery-since-start-of-november",
+      "published": "Fri, 13 Nov 2026 15:04:05 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Compass Sues Multiple Listing Services, Upping Antitrust Row",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-12/compass-sues-multiple-listing-services-ramping-up-antitrust-row",
-      "published": "Thu, 12 Nov 2026 22:48:32 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "New World Suspends Trading as Investors Watch for Next Steps",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-13/new-world-suspends-trading-as-investors-watch-for-next-steps",
-      "published": "Fri, 13 Nov 2026 00:57:36 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Latest Oil Market News and Analysis for Nov. 13",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-12/latest-oil-market-news-and-analysis-for-nov-13",
-      "published": "Thu, 12 Nov 2026 23:02:09 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "India Equity Surge Brightens Outlook for Exchanges, Brokerages",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-13/india-equity-surge-brightens-outlook-for-exchanges-brokerages",
-      "published": "Fri, 13 Nov 2026 01:00:00 GMT"
+      "title": "US Stocks Fall as Tech Concerns Linger Despite Rates Relief",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/us-futures-gain-with-microsoft-outage-producer-prices-in-focus",
+      "published": "Fri, 13 Nov 2026 13:19:12 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "AI boom will lift Nvidia even after Huang’s exit, investors say",
-      "url": "https://www.ft.com/content/ecb2b4ed-1b61-4c8a-a2e7-a6f9c85a59ff?syn-25a6b1a6=1",
-      "published": "Thu, 12 Nov 2026 23:26:26 GMT"
+      "title": "US Treasuries set for worst week since Trump’s ‘liberation day’",
+      "url": "https://www.ft.com/content/7bebace2-dc87-410a-ae29-ffd9f3176def?syn-25a6b1a6=1",
+      "published": "Fri, 13 Nov 2026 15:36:00 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Kalshi cuts ties to Donald Trump Jr after Democrats’ midterm sweep",
-      "url": "https://www.ft.com/content/1352ac24-bdd6-4093-9ebd-7b27b6fd29d3?syn-25a6b1a6=1",
-      "published": "Thu, 12 Nov 2026 22:45:07 GMT"
+      "title": "Norway loses landmark climate case over oilfields",
+      "url": "https://www.ft.com/content/8535fe3e-f48b-43ac-b14c-946cd5aa1d51?syn-25a6b1a6=1",
+      "published": "Fri, 13 Nov 2026 14:00:03 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Bonds, inflation and the Fed. Plus, Nvidia in turmoil",
-      "url": "https://www.ft.com/content/4abc107b-a0ba-45eb-9506-69657290bab2?syn-25a6b1a6=1",
-      "published": "Thu, 12 Nov 2026 21:00:00 GMT"
+      "title": "Why market timing is a fool’s game (note to self)",
+      "url": "https://www.ft.com/content/603270db-040c-44fb-9b1b-981b0b72de21?syn-25a6b1a6=1",
+      "published": "Fri, 13 Nov 2026 13:31:40 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Electrification is only part of the climate battle",
-      "url": "https://www.ft.com/content/3202f243-287b-466d-953a-664d0143e91a?syn-25a6b1a6=1",
-      "published": "Thu, 12 Nov 2026 18:49:01 GMT"
+      "title": "OK who just made $200mn shorting Nvidia ahead of Jensxit?",
+      "url": "https://www.ft.com/content/13c485dc-2d51-4920-bd1f-13a11c79d96c",
+      "published": "Fri, 13 Nov 2026 11:29:14 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Nvidia shares slide as Huang resigns",
-      "url": "https://www.ft.com/content/a93307a7-e2cd-4abd-bd89-c38832d8c40e?syn-25a6b1a6=1",
-      "published": "Thu, 12 Nov 2026 17:26:15 GMT"
+      "title": "How fat are AI trading bots’ fingers?",
+      "url": "https://www.ft.com/content/b2286012-26ec-4440-834e-580288f20ad0",
+      "published": "Fri, 13 Nov 2026 09:59:01 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "FirstFT: Nvidia board weighs Jensen Huang’s future as scandal deepens",
-      "url": "https://www.ft.com/content/64198d59-7a03-4f1c-89c6-81ed8bdc5448?syn-25a6b1a6=1",
-      "published": "Thu, 12 Nov 2026 11:17:46 GMT"
+      "title": "Chinese AI sell-off deepens over fears of tougher Nvidia chip restrictions",
+      "url": "https://www.ft.com/content/0d4e93e4-895e-4ae0-a01b-833a3ed440a8?syn-25a6b1a6=1",
+      "published": "Fri, 13 Nov 2026 09:07:28 GMT"
     }
   ],
   "summary": {
