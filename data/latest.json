@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-11-20 11:28 KST",
-  "as_of_date": "2026-11-20",
-  "as_of_weekday": "FRI",
-  "build_unix": 1795141730,
+  "as_of_kst": "2026-11-21 01:17 KST",
+  "as_of_date": "2026-11-21",
+  "as_of_weekday": "SAT",
+  "build_unix": 1795191463,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -10,17 +10,17 @@
       "name": "S&P 500",
       "region": "USA",
       "kind": "broad",
-      "price": 7175.83,
-      "change": -147.8,
-      "change_pct": -2.02,
+      "price": 7087.46,
+      "change": -88.37,
+      "change_pct": -1.23,
       "spark": [
-        7561.67,
         7416.59,
         7340.53,
         7323.63,
-        7175.83
+        7175.83,
+        7087.46
       ],
-      "as_of": "2026-11-19"
+      "as_of": "2026-11-20"
     },
     "nasdaq": {
       "key": "nasdaq",
@@ -28,17 +28,17 @@
       "name": "NASDAQ Composite",
       "region": "USA",
       "kind": "tech",
-      "price": 23879.2,
-      "change": -550.68,
-      "change_pct": -2.25,
+      "price": 23317.61,
+      "change": -561.59,
+      "change_pct": -2.35,
       "spark": [
-        25136.27,
         24509.76,
         24328.38,
         24429.88,
-        23879.2
+        23879.2,
+        23317.61
       ],
-      "as_of": "2026-11-19"
+      "as_of": "2026-11-20"
     },
     "dow": {
       "key": "dow",
@@ -46,17 +46,17 @@
       "name": "Dow Jones 30",
       "region": "USA",
       "kind": "value",
-      "price": 49097.06,
-      "change": -1101.11,
-      "change_pct": -2.19,
+      "price": 49115.75,
+      "change": 18.69,
+      "change_pct": 0.04,
       "spark": [
-        52347.55,
         51608.17,
         50759.42,
         50198.17,
-        49097.06
+        49097.06,
+        49115.75
       ],
-      "as_of": "2026-11-19"
+      "as_of": "2026-11-20"
     },
     "kospi": {
       "key": "kospi",
@@ -64,15 +64,15 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 4909.94,
-      "change": -227.95,
-      "change_pct": -4.44,
+      "price": 5137.89,
+      "change": 70.45,
+      "change_pct": 1.39,
       "spark": [
+        5290.53,
         5100.5,
         4968.48,
         5067.44,
-        5137.89,
-        4909.94
+        5137.89
       ],
       "as_of": "2026-11-20"
     },
@@ -82,15 +82,15 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 56896.28,
-      "change": -2547.93,
-      "change_pct": -4.29,
+      "price": 59444.21,
+      "change": 419.93,
+      "change_pct": 0.71,
       "spark": [
+        61142.35,
         59662.02,
         58860.43,
         59024.28,
-        59444.21,
-        56896.28
+        59444.21
       ],
       "as_of": "2026-11-20"
     },
@@ -100,15 +100,15 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 22409.85,
-      "change": -431.77,
-      "change_pct": -1.89,
+      "price": 22841.62,
+      "change": -453.13,
+      "change_pct": -1.95,
       "spark": [
+        23637.6,
         23753.84,
         23508.17,
         23294.75,
-        22841.62,
-        22409.85
+        22841.62
       ],
       "as_of": "2026-11-20"
     },
@@ -118,17 +118,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10452.7,
-      "change": -98.5,
-      "change_pct": -0.93,
+      "price": 10352.99,
+      "change": -99.71,
+      "change_pct": -0.95,
       "spark": [
-        10902.6,
         10881.6,
         10689.9,
         10551.2,
-        10452.7
+        10452.7,
+        10352.99
       ],
-      "as_of": "2026-11-19"
+      "as_of": "2026-11-20"
     },
     "dax": {
       "key": "dax",
@@ -136,50 +136,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 25463.81,
-      "change": -272.43,
-      "change_pct": -1.06,
+      "price": 24827.92,
+      "change": -635.89,
+      "change_pct": -2.5,
       "spark": [
-        26749.95,
         26598.64,
         26045.37,
         25736.24,
-        25463.81
+        25463.81,
+        24827.92
       ],
-      "as_of": "2026-11-19"
+      "as_of": "2026-11-20"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1338.78,
+      "rate": 1341.28,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 159.27,
+      "rate": 158.8,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.097,
+      "rate": 1.0984,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.6699,
+      "rate": 6.6612,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 103.93,
-      "change": 0.07,
-      "change_pct": 0.06,
+      "rate": 103.73,
+      "change": -0.17,
+      "change_pct": -0.16,
       "kind": "index"
     }
   },
@@ -189,227 +189,227 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 82.86,
-      "change": -0.4,
-      "change_pct": -0.48
+      "price": 82.03,
+      "change": -1.18,
+      "change_pct": -1.42
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 3543.4,
-      "change": -198.5,
-      "change_pct": -5.3
+      "price": 3553.6,
+      "change": -131.9,
+      "change_pct": -3.58
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 61420.56,
-      "change": -1566.71,
-      "change_pct": -2.49
+      "price": 59445.59,
+      "change": -2456.23,
+      "change_pct": -3.97
     },
     "ust10y": {
       "key": "ust10y",
       "symbol": "^TNX",
       "name": "10Y UST Yield",
       "unit": "%",
-      "price": 5.05,
-      "change": -0.01,
-      "change_pct": -0.28
+      "price": 4.94,
+      "change": -0.11,
+      "change_pct": -2.14
     },
     "vix": {
       "key": "vix",
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 28.44,
-      "change": 3.88,
-      "change_pct": 15.8
+      "price": 30.86,
+      "change": 2.42,
+      "change_pct": 8.51
     }
   },
   "headlines_raw": [
     {
       "source": "CNBC Markets",
-      "title": "Anthropic was supposed to save the AI trade. What went wrong?",
-      "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ai-stocks-selloff.html",
-      "published": "Fri, 20 Nov 2026 00:00:38 GMT"
+      "title": "Berkshire Hathaway has been a popular 'anti-AI trade.' One firm says it’s too expensive now",
+      "url": "https://www.cnbc.com/2026/11/20/berkshire-hathaway-has-been-a-popular-anti-ai-trade-one-firm-says-its-too-expensive-now.html",
+      "published": "Fri, 20 Nov 2026 15:13:31 GMT"
     },
     {
       "source": "CNBC Markets",
-      "title": "Friday's big stock stories: What’s likely to move the market in the next trading session",
-      "url": "https://www.cnbc.com/2026/11/19/fridays-big-stock-stories-whats-likely-to-move-the-market.html",
-      "published": "Fri, 20 Nov 2026 00:26:53 GMT"
+      "title": "As Anthropic shares tank, investors scramble to hedge. It could be very expensive",
+      "url": "https://www.cnbc.com/2026/11/20/as-anthropic-shares-tank-investors-scramble-to-hedge-it-could-be-very-expensive.html",
+      "published": "Fri, 20 Nov 2026 15:12:40 GMT"
     },
     {
       "source": "CNBC Markets",
-      "title": "The stock market could be headed for more turbulence. How one investor is preparing",
-      "url": "https://www.cnbc.com/2026/11/19/the-stock-market-could-be-headed-for-more-turbulence-how-one-investor-is-preparing.html",
-      "published": "Thu, 19 Nov 2026 19:12:12 GMT"
+      "title": "MSG Rangers stock is a 'trophy asset at a deep discount,' JPMorgan says",
+      "url": "https://www.cnbc.com/2026/11/20/msg-rangers-stock-jpmorgan-overweight-price-target.html",
+      "published": "Fri, 20 Nov 2026 15:00:01 GMT"
     },
     {
       "source": "CNBC Markets",
-      "title": "This tech stock has been nearly cut in half this year. I think Wall Street is getting it wrong",
-      "url": "https://www.cnbc.com/2026/11/19/applovin-app-paul-meeks-buying.html",
-      "published": "Thu, 19 Nov 2026 19:08:20 GMT"
+      "title": "Here are Friday's biggest analyst calls: Anthropic, SpaceX, Tesla, Apple, Netflix, MSG Rangers, UnitedHealth & more",
+      "url": "https://www.cnbc.com/2026/11/20/fridays-biggest-analyst-calls-like-anthropic.html",
+      "published": "Fri, 20 Nov 2026 14:26:16 GMT"
     },
     {
       "source": "CNBC Markets",
-      "title": "AMD dives on short seller report of alleged China exposure",
-      "url": "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html",
-      "published": "Fri, 20 Nov 2026 00:08:34 GMT"
+      "title": "Anthropic just had its record-smashing IPO. Seaport is 'cautious' on the stock",
+      "url": "https://www.cnbc.com/2026/11/20/anthropic-just-debuted-its-ipo-seaport-is-cautious-on-the-stock.html",
+      "published": "Fri, 20 Nov 2026 12:58:35 GMT"
     },
     {
       "source": "CNBC Markets",
-      "title": "Josh Brown says the breakout potential in this stock is staring investors in the face",
-      "url": "https://www.cnbc.com/2026/11/19/josh-brown-says-the-breakout-potential-in-this-stock-is-staring-investors-in-the-face.html",
-      "published": "Thu, 19 Nov 2026 16:28:22 GMT"
+      "title": "UnitedHealth has tumbled over the past three months. Why TD Cowen sees a recovery",
+      "url": "https://www.cnbc.com/2026/11/20/unitedhealth-td-cowen-upgrade-recovery.html",
+      "published": "Fri, 20 Nov 2026 12:11:16 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
-      "url": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
-      "published": "Fri, 20 Nov 2026 01:30:00 GMT"
+      "title": "Investors fled to healthcare stocks for safety. Now insurance and hospital shares are plunging.",
+      "url": "https://www.marketwatch.com/story/investors-fled-to-healthcare-stocks-for-safety-now-insurance-and-hospital-shares-are-plunging-9cb6a96c?mod=mw_rss_topstories",
+      "published": "Fri, 20 Nov 2026 15:53:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "My wife is bankrolling her family’s trips to New York and it’s draining our savings. Should I ask her to stop?",
-      "url": "https://www.marketwatch.com/story/my-wife-pays-thousands-of-dollars-for-her-family-to-visit-from-argentina-how-can-i-convince-her-to-stop-9381351c?mod=mw_rss_topstories",
-      "published": "Fri, 20 Nov 2026 01:22:00 GMT"
+      "title": "Anthropic’s stock slides closer to IPO price and drags down the AI trade",
+      "url": "https://www.marketwatch.com/story/anthropics-stock-slides-closer-to-ipo-price-and-drags-down-the-ai-trade-cc43a0c4?mod=mw_rss_topstories",
+      "published": "Fri, 20 Nov 2026 15:38:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "After Anthropic’s ‘bittersweet’ IPO, here’s what lies ahead",
-      "url": "https://www.marketwatch.com/story/after-anthropics-bittersweet-ipo-heres-what-lies-ahead-8c32fdb7?mod=mw_rss_topstories",
-      "published": "Thu, 19 Nov 2026 23:56:00 GMT"
+      "title": "Nvidia’s stock heads for a stretch of weekly losses unseen since 2008",
+      "url": "https://www.marketwatch.com/story/nvidias-stock-heads-for-a-stretch-of-weekly-losses-unseen-since-2008-91aba9a6?mod=mw_rss_topstories",
+      "published": "Fri, 20 Nov 2026 15:38:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "These were the only stocks that rose amid the stock market’s wipeout Thursday",
-      "url": "https://www.marketwatch.com/story/these-were-the-only-stocks-that-rose-amid-the-stock-markets-wipeout-thursday-1eaf32ba?mod=mw_rss_topstories",
-      "published": "Thu, 19 Nov 2026 23:11:00 GMT"
+      "title": "This proposed Social Security fix could add trillions to the national debt",
+      "url": "https://www.marketwatch.com/story/this-proposed-social-security-fix-could-add-trillions-to-the-national-debt-17197e91?mod=mw_rss_topstories",
+      "published": "Fri, 20 Nov 2026 15:28:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Intuit’s downbeat outlook deepens Wall Street’s anxiety about software companies",
-      "url": "https://www.marketwatch.com/story/intuits-downbeat-outlook-deepens-wall-streets-anxiety-about-software-companies-15b878e5?mod=mw_rss_topstories",
-      "published": "Thu, 19 Nov 2026 22:53:00 GMT"
+      "title": "This closely watched investing guru just sold all of his stocks",
+      "url": "https://www.marketwatch.com/story/this-closely-watched-guru-just-sold-everything-474b4389?mod=mw_rss_topstories",
+      "published": "Fri, 20 Nov 2026 15:23:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "A CoreWeave co-founder just made an unconventional $30 million wager on its battered bonds",
-      "url": "https://www.marketwatch.com/story/a-coreweave-co-founder-just-made-an-unconventional-30-million-wager-on-its-battered-bonds-5586b0e9?mod=mw_rss_topstories",
-      "published": "Thu, 19 Nov 2026 22:41:00 GMT"
+      "title": "Here’s what’s been proven to help GLP-1 users from losing too much muscle from the drug",
+      "url": "https://www.marketwatch.com/story/heres-whats-been-proven-to-help-glp-1-users-who-have-lost-muscle-from-the-drug-2c71cdbf?mod=mw_rss_topstories",
+      "published": "Fri, 20 Nov 2026 15:04:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Ellington Credit earnings missed by $0.05, revenue topped estimates",
-      "url": "https://www.investing.com/news/earnings/ellington-credit-earnings-missed-by-005-revenue-topped-estimates-5040531",
-      "published": "2026-11-20 02:20:31"
+      "title": "Fti Consulting Inc stock hits 52-week high at 209.01 USD",
+      "url": "https://www.investing.com/news/company-news/fti-consulting-inc-stock-hits-52week-high-at-20901-usd-93CH-5042246",
+      "published": "2026-11-20 16:14:19"
     },
     {
       "source": "Investing.com News",
-      "title": "Exclusive-Citi underestimated risky assets by $35 billion after incorrectly recording trades, sources say",
-      "url": "https://www.investing.com/news/stock-market-news/exclusivecitiincorrectly-booked-trades-underestimatedrisky-assets-by-35-billion-sources-say-5040342",
-      "published": "2026-11-20 02:18:24"
+      "title": "Bally’s Intralot 9M26 slides: revenue surges but leverage climbs",
+      "url": "https://www.investing.com/news/company-news/ballys-intralot-9m26-slides-revenue-surges-but-leverage-climbs-93CH-5042244",
+      "published": "2026-11-20 16:12:18"
     },
     {
       "source": "Investing.com News",
-      "title": "Oil prices edge higher as Houthi attacks on Riyadh raise supply concerns",
-      "url": "https://www.investing.com/news/commodities-news/oil-prices-edge-higher-as-houthi-attacks-on-riyadh-raise-supply-concerns-5040518",
-      "published": "2026-11-20 02:06:22"
+      "title": "Exclusive: Twenty One CEO on Bitcoin, acquisitions, and building value",
+      "url": "https://www.investing.com/news/stock-market-news/exclusive-twenty-one-ceo-on-bitcoin-acquisitions-and-building-value-5042243",
+      "published": "2026-11-20 16:11:17"
     },
     {
       "source": "Investing.com News",
-      "title": "United Therapeutics evp Mahon sells $4.69M in company stock",
-      "url": "https://www.investing.com/news/insider-trading-news/united-therapeutics-evp-mahon-sells-469m-in-company-stock-93CH-5040517",
-      "published": "2026-11-20 02:05:12"
+      "title": "Nasdaq slides in choppy trading, briefly turns red for the year amid AI rout",
+      "url": "https://www.investing.com/news/stock-market-news/wall-street-futures-fall-as-anthropic-debut-fails-to-revive-ai-trade-5040450",
+      "published": "2026-11-20 16:10:51"
     },
     {
       "source": "Investing.com News",
-      "title": "NexPoint Residential Trust director sells $74,800 in shares",
-      "url": "https://www.investing.com/news/insider-trading-news/nexpoint-residential-trust-director-sells-74800-in-shares-93CH-5040516",
-      "published": "2026-11-20 02:04:54"
+      "title": "Treasury yields fall as bond market tracks risk assets, not Fed rhetoric",
+      "url": "https://www.investing.com/news/stock-market-news/treasury-yields-fall-as-bond-market-tracks-risk-assets-not-fed-rhetoric-93CH-5042241",
+      "published": "2026-11-20 16:10:02"
     },
     {
       "source": "Investing.com News",
-      "title": "+82% since entry - a cloud software name our models picked keeps climbing",
-      "url": "https://www.investing.com/news/stock-market-news/82-since-entry--a-cloud-software-name-our-models-picked-keeps-climbing-5040510",
-      "published": "2026-11-20 02:01:35"
+      "title": "International Bancshares Corporation stock hits 52-week low at $64.20",
+      "url": "https://www.investing.com/news/company-news/international-bancshares-corporation-stock-hits-52week-low-at-6420-93CH-5042240",
+      "published": "2026-11-20 16:08:43"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Gold Set for Worst Week Since March on Hawkish Fed, AI Selloff",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-19/gold-set-for-worst-week-since-march-on-hawkish-fed-ai-selloff",
-      "published": "Thu, 19 Nov 2026 23:56:03 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Anthropic (ANT) IPO on Nasdaq Overcame AI Fears and Warnings",
-      "url": "https://www.bloomberg.com/news/features/2026-11-20/anthropic-ant-ipo-on-nasdaq-overcame-ai-fears-and-warnings",
-      "published": "Fri, 20 Nov 2026 02:16:42 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Frasers CFO Unleashes on Accent as Australian Bid Turns Personal",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-20/frasers-cfo-unleashes-on-accent-as-australian-bid-turns-personal",
-      "published": "Fri, 20 Nov 2026 02:02:33 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Stocks Sell Off as AI Trade Falters, Bonds Gain: Markets Wrap",
+      "title": "Nasdaq 100 Falls 3% as Anthropic Plunge Deepens: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-11-19/stock-market-today-dow-s-p-live-updates",
       "published": "Thu, 19 Nov 2026 22:03:40 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Anthropic IPO’s Australia Tranche Said About 10 Times Subscribed",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-19/anthropic-ipo-raises-only-110-million-from-australian-investors",
-      "published": "Thu, 19 Nov 2026 23:35:17 GMT"
+      "title": "Anthropic Share Slump Nearly Erases IPO Pop as AI Trade Unravels",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/anthropic-share-slump-nearly-erases-ipo-pop-as-ai-trade-unravels",
+      "published": "Fri, 20 Nov 2026 14:36:49 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "US Sour Crude’s War Premium Vanishes as Oil Supply Surges",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-19/us-sour-crude-s-war-premium-vanishes-as-supply-surges",
-      "published": "Thu, 19 Nov 2026 16:45:06 GMT"
+      "title": "Treasuries Build on Big Weekly Gain as Investors Flee Stocks",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/treasuries-eye-longest-rally-in-five-months-on-haven-demand",
+      "published": "Fri, 20 Nov 2026 04:33:23 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Tata Sons Board Meet Next Week to Revisit Listing Issue Amid Row",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/tata-sons-largest-shareholder-meets-to-discuss-listing-amid-rift",
+      "published": "Thu, 19 Nov 2026 21:00:00 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Turkey Asks Hundreds to Return Gains From Fund Crisis",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/turkey-asks-hundreds-to-return-gains-from-fund-crisis",
+      "published": "Fri, 20 Nov 2026 15:04:55 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Sanofi Lines Up Takeover Target to Fix Pharma’s Lowest Valuation",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/sanofi-lines-up-takeover-target-to-fix-pharma-s-lowest-valuation",
+      "published": "Fri, 20 Nov 2026 14:48:08 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Lenders aim to bar SpaceX from launching $40bn of chips into orbit",
-      "url": "https://www.ft.com/content/33b5643c-2957-4d42-9116-5e34a3c54e29?syn-25a6b1a6=1",
-      "published": "Fri, 20 Nov 2026 00:15:12 GMT"
+      "title": "The AI fever in markets is breaking",
+      "url": "https://www.ft.com/content/b1b2e948-ff5e-48c4-bc3e-f8e75c9e4af1?syn-25a6b1a6=1",
+      "published": "Fri, 20 Nov 2026 15:23:38 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Anthropic shares jump 17% after record Wall Street listing",
-      "url": "https://www.ft.com/content/2b203097-7c61-464f-810f-962912a133dd?syn-25a6b1a6=1",
-      "published": "Thu, 19 Nov 2026 21:02:09 GMT"
+      "title": "Anthropic shares tumble as AI giant swept up in tech sell-off",
+      "url": "https://www.ft.com/content/23fa83d8-e078-4853-959e-bd1f19d14ff5?syn-25a6b1a6=1",
+      "published": "Fri, 20 Nov 2026 14:01:58 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Brazil’s central bank steps in to stem real’s slide since Lula’s re-election",
-      "url": "https://www.ft.com/content/94379926-211c-4ca6-a53a-f7e4df1a2675?syn-25a6b1a6=1",
-      "published": "Thu, 19 Nov 2026 19:25:18 GMT"
+      "title": "Anthropic shares slide as fears over AI boom dominate",
+      "url": "https://www.ft.com/content/c7ad2e0c-efd1-40c2-a5a8-819ced8acf5b?syn-25a6b1a6=1",
+      "published": "Fri, 20 Nov 2026 13:29:02 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Climate talks drop fossil fuel phaseout and pivot to carbon capture",
-      "url": "https://www.ft.com/content/134dcef4-9453-48bd-bcbd-4180818d3aca?syn-25a6b1a6=1",
-      "published": "Thu, 19 Nov 2026 18:16:58 GMT"
+      "title": "‘A necessary evil’: how Anthropic pulled off its IPO",
+      "url": "https://www.ft.com/content/149d497e-0567-4467-bcfb-269b8b8eb157?syn-25a6b1a6=1",
+      "published": "Fri, 20 Nov 2026 12:02:46 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Trump administration plans further cuts at US audit regulator",
-      "url": "https://www.ft.com/content/9c07ad42-0778-4a1c-b30b-f561f672f92e?syn-25a6b1a6=1",
-      "published": "Thu, 19 Nov 2026 16:54:41 GMT"
+      "title": "Carbon removal rises up climate agenda as 1.5C ‘overshoot’ looms",
+      "url": "https://www.ft.com/content/9cb11330-d7b0-43e8-a43e-8b7eb983b9bb?syn-25a6b1a6=1",
+      "published": "Fri, 20 Nov 2026 12:00:09 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Central banks ❤️ US dollars",
-      "url": "https://www.ft.com/content/cb01773d-32ae-424c-a5be-a0b960d353ce",
-      "published": "Thu, 19 Nov 2026 16:50:48 GMT"
+      "title": "Anthropic market cap in line with Alphaville’s guess",
+      "url": "https://www.ft.com/content/67938df3-a9ce-4eb8-9299-af0ab80db87b",
+      "published": "Fri, 20 Nov 2026 11:57:35 GMT"
     }
   ],
   "summary": {
