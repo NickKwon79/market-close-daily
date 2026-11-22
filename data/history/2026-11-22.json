@@ -1,0 +1,451 @@
+{
+  "as_of_kst": "2026-11-22 10:28 KST",
+  "as_of_date": "2026-11-22",
+  "as_of_weekday": "SUN",
+  "build_unix": 1795310927,
+  "indexes": {
+    "sp500": {
+      "key": "sp500",
+      "symbol": "^GSPC",
+      "name": "S&P 500",
+      "region": "USA",
+      "kind": "broad",
+      "price": 6910.39,
+      "change": -265.44,
+      "change_pct": -3.7,
+      "spark": [
+        7416.59,
+        7340.53,
+        7323.63,
+        7175.83,
+        6910.39
+      ],
+      "as_of": "2026-11-20"
+    },
+    "nasdaq": {
+      "key": "nasdaq",
+      "symbol": "^IXIC",
+      "name": "NASDAQ Composite",
+      "region": "USA",
+      "kind": "tech",
+      "price": 22617.73,
+      "change": -1261.47,
+      "change_pct": -5.28,
+      "spark": [
+        24509.76,
+        24328.38,
+        24429.88,
+        23879.2,
+        22617.73
+      ],
+      "as_of": "2026-11-20"
+    },
+    "dow": {
+      "key": "dow",
+      "symbol": "^DJI",
+      "name": "Dow Jones 30",
+      "region": "USA",
+      "kind": "value",
+      "price": 48147.33,
+      "change": -949.73,
+      "change_pct": -1.93,
+      "spark": [
+        51608.17,
+        50759.42,
+        50198.17,
+        49097.06,
+        48147.33
+      ],
+      "as_of": "2026-11-20"
+    },
+    "kospi": {
+      "key": "kospi",
+      "symbol": "^KS11",
+      "name": "KOSPI",
+      "region": "KOREA",
+      "kind": "broad",
+      "price": 4869.96,
+      "change": -267.93,
+      "change_pct": -5.21,
+      "spark": [
+        5100.5,
+        4968.48,
+        5067.44,
+        5137.89,
+        4869.96
+      ],
+      "as_of": "2026-11-20"
+    },
+    "nikkei": {
+      "key": "nikkei",
+      "symbol": "^N225",
+      "name": "Nikkei 225",
+      "region": "JAPAN",
+      "kind": "broad",
+      "price": 56436.65,
+      "change": -3007.56,
+      "change_pct": -5.06,
+      "spark": [
+        59662.02,
+        58860.43,
+        59024.28,
+        59444.21,
+        56436.65
+      ],
+      "as_of": "2026-11-20"
+    },
+    "hangseng": {
+      "key": "hangseng",
+      "symbol": "^HSI",
+      "name": "Hang Seng",
+      "region": "HONG KONG",
+      "kind": "broad",
+      "price": 22410.8,
+      "change": -430.82,
+      "change_pct": -1.89,
+      "spark": [
+        23753.84,
+        23508.17,
+        23294.75,
+        22841.62,
+        22410.8
+      ],
+      "as_of": "2026-11-20"
+    },
+    "ftse": {
+      "key": "ftse",
+      "symbol": "^FTSE",
+      "name": "FTSE 100",
+      "region": "UK",
+      "kind": "broad",
+      "price": 10346.3,
+      "change": -106.4,
+      "change_pct": -1.02,
+      "spark": [
+        10881.6,
+        10689.9,
+        10551.2,
+        10452.7,
+        10346.3
+      ],
+      "as_of": "2026-11-20"
+    },
+    "dax": {
+      "key": "dax",
+      "symbol": "^GDAXI",
+      "name": "DAX",
+      "region": "GERMANY",
+      "kind": "broad",
+      "price": 24802.78,
+      "change": -661.03,
+      "change_pct": -2.6,
+      "spark": [
+        26598.64,
+        26045.37,
+        25736.24,
+        25463.81,
+        24802.78
+      ],
+      "as_of": "2026-11-20"
+    }
+  },
+  "fx": {
+    "USDKRW": {
+      "key": "USDKRW",
+      "pair": "USD/KRW",
+      "rate": 1334.79,
+      "kind": "direct"
+    },
+    "USDJPY": {
+      "key": "USDJPY",
+      "pair": "USD/JPY",
+      "rate": 159.71,
+      "kind": "direct"
+    },
+    "EURUSD": {
+      "key": "EURUSD",
+      "pair": "EUR/USD",
+      "rate": 1.097,
+      "kind": "inverse"
+    },
+    "USDCNY": {
+      "key": "USDCNY",
+      "pair": "USD/CNY",
+      "rate": 6.6623,
+      "kind": "direct"
+    },
+    "DXY": {
+      "key": "DXY",
+      "pair": "DXY",
+      "rate": 103.81,
+      "change": -0.09,
+      "change_pct": -0.09,
+      "kind": "index"
+    }
+  },
+  "commodities": {
+    "wti": {
+      "key": "wti",
+      "symbol": "CL=F",
+      "name": "WTI Crude",
+      "unit": "$",
+      "price": 83.98,
+      "change": 0.77,
+      "change_pct": 0.93
+    },
+    "gold": {
+      "key": "gold",
+      "symbol": "GC=F",
+      "name": "Gold",
+      "unit": "$",
+      "price": 3515.4,
+      "change": -170.1,
+      "change_pct": -4.62
+    },
+    "btc": {
+      "key": "btc",
+      "symbol": "BTC-USD",
+      "name": "Bitcoin",
+      "unit": "$",
+      "price": 59999.13,
+      "change": 1200.15,
+      "change_pct": 2.04
+    },
+    "ust10y": {
+      "key": "ust10y",
+      "symbol": "^TNX",
+      "name": "10Y UST Yield",
+      "unit": "%",
+      "price": 4.91,
+      "change": -0.14,
+      "change_pct": -2.77
+    },
+    "vix": {
+      "key": "vix",
+      "symbol": "^VIX",
+      "name": "VIX",
+      "unit": "",
+      "price": 35.89,
+      "change": 7.45,
+      "change_pct": 26.2
+    }
+  },
+  "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "From trash to treasure: Most hated stocks are winning as AI bull market rolls over",
+      "url": "https://www.cnbc.com/2026/11/21/from-trash-to-treasure-these-hated-stocks-are-winning-as-ai-flounders.html",
+      "published": "Sat, 21 Nov 2026 13:10:40 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "The five best stocks to buy before year-end, according to Bank of America",
+      "url": "https://www.cnbc.com/2026/11/21/five-best-stocks-to-buy-before-year-end-according-to-bank-of-america.html",
+      "published": "Sat, 21 Nov 2026 13:04:17 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Meta is stuck in a trading range. The charts show where to buy",
+      "url": "https://www.cnbc.com/2026/11/20/meta-is-stuck-in-a-trading-range-the-charts-show-where-to-buy.html",
+      "published": "Fri, 20 Nov 2026 18:08:38 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
+      "url": "https://www.cnbc.com/2026/11/20/sp-500-8000-kalshi-odds-ai-selloff.html",
+      "published": "Fri, 20 Nov 2026 19:59:03 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Anthropic could be tipping point for AI trade. Where investors should go from here",
+      "url": "https://www.cnbc.com/2026/11/20/stock-market-rotation-beyond-ai.html",
+      "published": "Fri, 20 Nov 2026 17:16:14 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Berkshire Hathaway has been a popular 'anti-AI trade.' One firm says it’s too expensive now",
+      "url": "https://www.cnbc.com/2026/11/20/berkshire-hathaway-has-been-a-popular-anti-ai-trade-one-firm-says-its-too-expensive-now.html",
+      "published": "Fri, 20 Nov 2026 15:13:31 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "My husband is happily retired at 64 and thinks I should keep working. Is he being fair?",
+      "url": "https://www.marketwatch.com/story/my-husband-is-happily-retired-at-64-and-thinks-i-should-keep-working-is-he-being-fair-325c5f38?mod=mw_rss_topstories",
+      "published": "Sun, 22 Nov 2026 01:15:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "My wife is bankrolling her family’s trips to New York and it’s draining our savings. Should I ask her to stop?",
+      "url": "https://www.marketwatch.com/story/my-wife-pays-thousands-of-dollars-for-her-family-to-visit-from-argentina-how-can-i-convince-her-to-stop-9381351c?mod=mw_rss_topstories",
+      "published": "Sun, 22 Nov 2026 00:03:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "I’m in my 40s. Should I accept a lower pension in exchange for naming my husband or child as a beneficiary?",
+      "url": "https://www.marketwatch.com/story/im-in-my-40s-should-i-accept-a-lower-pension-in-exchange-for-naming-my-husband-or-child-as-a-beneficiary-b2352059?mod=mw_rss_topstories",
+      "published": "Sat, 21 Nov 2026 23:05:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "‘It’s downright dirty’: My brother moved in with our ailing mother and closed her bank account. What can I do?",
+      "url": "https://www.marketwatch.com/story/it-is-heartbreaking-exhausting-and-downright-dirty-my-brother-took-over-our-ailing-mothers-life-and-finances-what-can-i-do-b4d48817?mod=mw_rss_topstories",
+      "published": "Sat, 21 Nov 2026 20:15:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "‘I’ve been a stay-at-home mom’: I’m 50 and have a chronic illness. My husband lost his job. Should he raid his 401(k)?",
+      "url": "https://www.marketwatch.com/story/ive-been-a-stay-at-home-mom-im-50-and-have-a-chronic-illness-my-husband-lost-his-job-should-he-raid-his-401-k-63e59123?mod=mw_rss_topstories",
+      "published": "Sat, 21 Nov 2026 19:45:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "‘Buyers are out for blood’: With home sales at a record low, buyers are calling the shots",
+      "url": "https://www.marketwatch.com/story/buyers-are-out-for-blood-as-housing-market-finally-hits-rock-bottom-fa5093a6?mod=mw_rss_topstories",
+      "published": "Sat, 21 Nov 2026 19:45:00 GMT"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "China’s AI stocks lose $1.7 trillion as tech selloff deepens",
+      "url": "https://www.investing.com/news/stock-market-news/chinas-ai-stocks-lose-17-trillion-as-tech-selloff-deepens-5043672",
+      "published": "2026-11-22 01:09:28"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Filana Therapeutics CEO Barry Richard buys $206,896 in company stock",
+      "url": "https://www.investing.com/news/insider-trading-news/filana-therapeutics-ceo-barry-richard-buys-206896-in-company-stock-93CH-5043668",
+      "published": "2026-11-22 00:45:56"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Texas Community Bancshares COO Haskell Strange sells $14,911 in stock",
+      "url": "https://www.investing.com/news/insider-trading-news/texas-community-bancshares-coo-haskell-strange-sells-14911-in-stock-93CH-5043660",
+      "published": "2026-11-22 00:30:54"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Amphastar CFO William Peters sells $329,890 in stock",
+      "url": "https://www.investing.com/news/insider-trading-news/amphastar-cfo-william-peters-sells-329890-in-stock-93CH-5043651",
+      "published": "2026-11-22 00:16:03"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Park Ohio Holdings VP & CFO Patrick Fogarty sells $99,213 in stock",
+      "url": "https://www.investing.com/news/insider-trading-news/park-ohio-holdings-vp--cfo-patrick-fogarty-sells-99213-in-stock-93CH-5043650",
+      "published": "2026-11-22 00:16:02"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Ge senior vice president Riccardo Procacci sells $657,151 in stock",
+      "url": "https://www.investing.com/news/insider-trading-news/ge-senior-vice-president-riccardo-procacci-sells-657151-in-stock-93CH-5043644",
+      "published": "2026-11-22 00:05:42"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "China’s $1.7 Trillion AI Rout Turns Hot Trade Into Losing Bet",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-22/china-s-1-7-trillion-ai-rout-turns-hot-trade-into-losing-bet",
+      "published": "Sun, 22 Nov 2026 00:00:00 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Russian Cargo Ship Attacked By Drones in Gulf of Finland",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-21/russia-says-cargo-ship-attacked-by-drones-in-gulf-of-finland",
+      "published": "Sat, 21 Nov 2026 11:44:46 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Anthropic Fails to Calm AI Jitters, Ditching the Kitchen for Thanksgiving",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-21/bloomberg-this-weekend-11-21-2026-video",
+      "published": "Sat, 21 Nov 2026 17:01:32 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Pointed! Bloomberg’s Weekly News Quiz For Risk-Takers",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-21/pointed-bloomberg-s-weekly-news-quiz-for-risk-takers-video",
+      "published": "Sat, 21 Nov 2026 15:43:12 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Goldman Sachs, Apollo Price $32 Billion SpaceX Bonds to Fund AI Chip Purchases",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-21/goldman-s-spacex-pitch-helps-solve-ai-debt-puzzle-credit-weekly",
+      "published": "Sat, 21 Nov 2026 15:31:22 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Thanksgiving Dinner Is Moving to Restaurants",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-21/thanksgiving-dinner-is-moving-to-restaurants-video",
+      "published": "Sat, 21 Nov 2026 15:28:00 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Traders start to move US copper to China as Trump tariff fears ease",
+      "url": "https://www.ft.com/content/b84dbcb1-f216-422e-89c7-f203e0ab2757?syn-25a6b1a6=1",
+      "published": "Sat, 21 Nov 2026 12:00:08 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Going public, but only a little",
+      "url": "https://www.ft.com/content/c5bcb64e-35b8-40b8-842e-e4b5c9b3150d?syn-25a6b1a6=1",
+      "published": "Sat, 21 Nov 2026 10:30:07 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Oil shipped through Hormuz falls as Iranian strikes increase",
+      "url": "https://www.ft.com/content/5fbc2b9d-0360-4a1f-9e4a-3e86168cbbc5?syn-25a6b1a6=1",
+      "published": "Sat, 21 Nov 2026 05:00:35 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "US watchdogs pick a bad time to cut disclosure on executive pay",
+      "url": "https://www.ft.com/content/a8a45cf2-f096-4f33-8df5-46a689bde104?syn-25a6b1a6=1",
+      "published": "Sat, 21 Nov 2026 05:00:35 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "CVC claims accounting manipulation in €3bn Advent pastry ingredients deal",
+      "url": "https://www.ft.com/content/06999b01-07f1-44a1-8eab-a5d5e7ecd70f?syn-25a6b1a6=1",
+      "published": "Sat, 21 Nov 2026 05:00:26 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "How can investors succeed in markets today?",
+      "url": "https://www.ft.com/content/22b3765d-ff3d-4f07-8982-5a222dbb862e?syn-25a6b1a6=1",
+      "published": "Sat, 21 Nov 2026 05:00:16 GMT"
+    }
+  ],
+  "summary": {
+    "headlines": [
+      {
+        "title_ko": "美 CPI 서프라이즈에도 S&P 500·나스닥 사상최고 마감, 테크가 견인",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/13/stock-market-today.html",
+        "time_label": "23:00"
+      },
+      {
+        "title_ko": "연준, 인플레 둔화 흐름 속 추가 인하 경로 유지 관측",
+        "source": "Reuters",
+        "url": "https://www.reuters.com/markets/us/fed-rate-cut-2026/",
+        "time_label": "21:30"
+      },
+      {
+        "title_ko": "삼성전자 CXL 메모리 양산 발표에 KOSPI 7,844 사상최고",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-14/kospi-record",
+        "time_label": "15:30"
+      },
+      {
+        "title_ko": "BOJ, 임금·물가 사이클 강화 시 추가 정상화 가능 시사",
+        "source": "Bank of Japan",
+        "url": "https://www.boj.or.jp/en/announcements/2026/",
+        "time_label": "10:00"
+      },
+      {
+        "title_ko": "英 1Q GDP 컨센서스 부합, 스타머 정치 리스크는 여전",
+        "source": "FT",
+        "url": "https://www.ft.com/content/uk-gdp-2026q1",
+        "time_label": "17:00"
+      }
+    ],
+    "market_summary_ko": "미국 인플레이션 경계감에도 테크 모멘텀이 지수를 끌어올렸고, 아시아 세션에서는 삼성전자 CXL 모멘텀에 KOSPI가 다시 사상최고를 갈아엎었다. Fed 인하 vs BOJ 인상 디버전스가 달러 강세를 떠받치는 가운데, 다음 분기점은 5/21 NVDA 실적이다.",
+    "risk_sentiment": "RISK-ON"
+  }
+}

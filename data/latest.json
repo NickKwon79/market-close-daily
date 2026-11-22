@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-11-21 11:40 KST",
-  "as_of_date": "2026-11-21",
-  "as_of_weekday": "SAT",
-  "build_unix": 1795228818,
+  "as_of_kst": "2026-11-22 10:28 KST",
+  "as_of_date": "2026-11-22",
+  "as_of_weekday": "SUN",
+  "build_unix": 1795310927,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -177,9 +177,9 @@
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 103.84,
-      "change": -0.06,
-      "change_pct": -0.06,
+      "rate": 103.81,
+      "change": -0.09,
+      "change_pct": -0.09,
       "kind": "index"
     }
   },
@@ -189,27 +189,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 83.62,
-      "change": 0.41,
-      "change_pct": 0.49
+      "price": 83.98,
+      "change": 0.77,
+      "change_pct": 0.93
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 3539.0,
-      "change": -146.5,
-      "change_pct": -3.98
+      "price": 3515.4,
+      "change": -170.1,
+      "change_pct": -4.62
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 58585.33,
-      "change": -3316.49,
-      "change_pct": -5.36
+      "price": 59999.13,
+      "change": 1200.15,
+      "change_pct": 2.04
     },
     "ust10y": {
       "key": "ust10y",
@@ -231,6 +231,18 @@
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "From trash to treasure: Most hated stocks are winning as AI bull market rolls over",
+      "url": "https://www.cnbc.com/2026/11/21/from-trash-to-treasure-these-hated-stocks-are-winning-as-ai-flounders.html",
+      "published": "Sat, 21 Nov 2026 13:10:40 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "The five best stocks to buy before year-end, according to Bank of America",
+      "url": "https://www.cnbc.com/2026/11/21/five-best-stocks-to-buy-before-year-end-according-to-bank-of-america.html",
+      "published": "Sat, 21 Nov 2026 13:04:17 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Meta is stuck in a trading range. The charts show where to buy",
@@ -256,160 +268,148 @@
       "published": "Fri, 20 Nov 2026 15:13:31 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "As Anthropic shares tank, investors scramble to hedge. It could be very expensive",
-      "url": "https://www.cnbc.com/2026/11/20/as-anthropic-shares-tank-investors-scramble-to-hedge-it-could-be-very-expensive.html",
-      "published": "Fri, 20 Nov 2026 15:12:40 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "MSG Rangers stock is a 'trophy asset at a deep discount,' JPMorgan says",
-      "url": "https://www.cnbc.com/2026/11/20/msg-rangers-stock-jpmorgan-overweight-price-target.html",
-      "published": "Fri, 20 Nov 2026 15:00:01 GMT"
+      "source": "MarketWatch Top",
+      "title": "My husband is happily retired at 64 and thinks I should keep working. Is he being fair?",
+      "url": "https://www.marketwatch.com/story/my-husband-is-happily-retired-at-64-and-thinks-i-should-keep-working-is-he-being-fair-325c5f38?mod=mw_rss_topstories",
+      "published": "Sun, 22 Nov 2026 01:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Dow, S&P 500 enter correction as Nasdaq suffers worst week since 2020",
-      "url": "https://www.marketwatch.com/story/dow-s-p-500-enter-correction-as-nasdaq-suffers-worst-week-since-2020-bd74dadf?mod=mw_rss_topstories",
-      "published": "Fri, 20 Nov 2026 22:46:00 GMT"
+      "title": "My wife is bankrolling her family’s trips to New York and it’s draining our savings. Should I ask her to stop?",
+      "url": "https://www.marketwatch.com/story/my-wife-pays-thousands-of-dollars-for-her-family-to-visit-from-argentina-how-can-i-convince-her-to-stop-9381351c?mod=mw_rss_topstories",
+      "published": "Sun, 22 Nov 2026 00:03:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Chip stocks see $2.3 trillion weekly wipeout as panic grips the AI trade",
-      "url": "https://www.marketwatch.com/story/chip-stocks-see-2-3-trillion-weekly-wipeout-as-panic-grips-the-ai-trade-371f2f03?mod=mw_rss_topstories",
-      "published": "Fri, 20 Nov 2026 22:44:00 GMT"
+      "title": "I’m in my 40s. Should I accept a lower pension in exchange for naming my husband or child as a beneficiary?",
+      "url": "https://www.marketwatch.com/story/im-in-my-40s-should-i-accept-a-lower-pension-in-exchange-for-naming-my-husband-or-child-as-a-beneficiary-b2352059?mod=mw_rss_topstories",
+      "published": "Sat, 21 Nov 2026 23:05:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "These stocks were crushed the most this week as the tech wreck accelerated",
-      "url": "https://www.marketwatch.com/story/these-stocks-were-crushed-the-most-this-week-as-the-tech-wreck-accelerated-8d6f7323?mod=mw_rss_topstories",
-      "published": "Fri, 20 Nov 2026 22:44:00 GMT"
+      "title": "‘It’s downright dirty’: My brother moved in with our ailing mother and closed her bank account. What can I do?",
+      "url": "https://www.marketwatch.com/story/it-is-heartbreaking-exhausting-and-downright-dirty-my-brother-took-over-our-ailing-mothers-life-and-finances-what-can-i-do-b4d48817?mod=mw_rss_topstories",
+      "published": "Sat, 21 Nov 2026 20:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Nvidia’s stock clinches a stretch of weekly losses not seen since 2008",
-      "url": "https://www.marketwatch.com/story/nvidias-stock-heads-for-a-stretch-of-weekly-losses-unseen-since-2008-91aba9a6?mod=mw_rss_topstories",
-      "published": "Fri, 20 Nov 2026 21:58:00 GMT"
+      "title": "‘I’ve been a stay-at-home mom’: I’m 50 and have a chronic illness. My husband lost his job. Should he raid his 401(k)?",
+      "url": "https://www.marketwatch.com/story/ive-been-a-stay-at-home-mom-im-50-and-have-a-chronic-illness-my-husband-lost-his-job-should-he-raid-his-401-k-63e59123?mod=mw_rss_topstories",
+      "published": "Sat, 21 Nov 2026 19:45:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Everyone’s making money off ‘GTA 6’ this week — except investors in Take-Two’s stock",
-      "url": "https://www.marketwatch.com/story/everyones-making-money-off-gta-6-this-week-except-investors-in-take-twos-stock-489ee01b?mod=mw_rss_topstories",
-      "published": "Fri, 20 Nov 2026 21:39:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "The hidden catch in Anthropic’s IPO: Billions of locked-up shares are waiting in the wings",
-      "url": "https://www.marketwatch.com/story/the-hidden-catch-in-anthropics-ipo-billions-of-locked-up-shares-are-waiting-in-the-wings-279d33ce?mod=mw_rss_topstories",
-      "published": "Fri, 20 Nov 2026 21:39:00 GMT"
+      "title": "‘Buyers are out for blood’: With home sales at a record low, buyers are calling the shots",
+      "url": "https://www.marketwatch.com/story/buyers-are-out-for-blood-as-housing-market-finally-hits-rock-bottom-fa5093a6?mod=mw_rss_topstories",
+      "published": "Sat, 21 Nov 2026 19:45:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Ondas COO Huston sells $18,784 of shares at $4.08",
-      "url": "https://www.investing.com/news/insider-trading-news/ondas-coo-huston-sells-18784-of-shares-at-408-93CH-5043056",
-      "published": "2026-11-21 02:16:02"
+      "title": "China’s AI stocks lose $1.7 trillion as tech selloff deepens",
+      "url": "https://www.investing.com/news/stock-market-news/chinas-ai-stocks-lose-17-trillion-as-tech-selloff-deepens-5043672",
+      "published": "2026-11-22 01:09:28"
     },
     {
       "source": "Investing.com News",
-      "title": "Ondas director Richard M. Cohen sells $21,032 in company stock",
-      "url": "https://www.investing.com/news/insider-trading-news/ondas-director-richard-m-cohen-sells-21032-in-company-stock-93CH-5043055",
-      "published": "2026-11-21 02:16:00"
+      "title": "Filana Therapeutics CEO Barry Richard buys $206,896 in company stock",
+      "url": "https://www.investing.com/news/insider-trading-news/filana-therapeutics-ceo-barry-richard-buys-206896-in-company-stock-93CH-5043668",
+      "published": "2026-11-22 00:45:56"
     },
     {
       "source": "Investing.com News",
-      "title": "France, Germany to take key ECB roles, with Spain set for presidency",
-      "url": "https://www.investing.com/news/economic-indicators/france-germany-to-take-key-ecb-roles-with-spain-set-for-presidency-5042345",
-      "published": "2026-11-21 02:12:41"
+      "title": "Texas Community Bancshares COO Haskell Strange sells $14,911 in stock",
+      "url": "https://www.investing.com/news/insider-trading-news/texas-community-bancshares-coo-haskell-strange-sells-14911-in-stock-93CH-5043660",
+      "published": "2026-11-22 00:30:54"
     },
     {
       "source": "Investing.com News",
-      "title": "Analysis-Wall Street banks set for banner year as Anthropic, SpaceX IPOs generate $1 billion in fees",
-      "url": "https://www.investing.com/news/stock-market-news/analysiswall-street-banks-set-for-banner-year-as-anthropic-spacex-ipos-generate-1-billion-in-fees-5042444",
-      "published": "2026-11-21 02:12:22"
+      "title": "Amphastar CFO William Peters sells $329,890 in stock",
+      "url": "https://www.investing.com/news/insider-trading-news/amphastar-cfo-william-peters-sells-329890-in-stock-93CH-5043651",
+      "published": "2026-11-22 00:16:03"
     },
     {
       "source": "Investing.com News",
-      "title": "Singaporean extradited to face US charges over global insider trading scheme",
-      "url": "https://www.investing.com/news/stock-market-news/singaporean-extradited-to-face-us-charges-over-global-insider-trading-scheme-5042823",
-      "published": "2026-11-21 02:06:58"
+      "title": "Park Ohio Holdings VP & CFO Patrick Fogarty sells $99,213 in stock",
+      "url": "https://www.investing.com/news/insider-trading-news/park-ohio-holdings-vp--cfo-patrick-fogarty-sells-99213-in-stock-93CH-5043650",
+      "published": "2026-11-22 00:16:02"
     },
     {
       "source": "Investing.com News",
-      "title": "Home Bancorp chief risk officer buys $315,013 in company stock",
-      "url": "https://www.investing.com/news/insider-trading-news/home-bancorp-chief-risk-officer-buys-315013-in-company-stock-93CH-5043042",
-      "published": "2026-11-21 02:01:17"
+      "title": "Ge senior vice president Riccardo Procacci sells $657,151 in stock",
+      "url": "https://www.investing.com/news/insider-trading-news/ge-senior-vice-president-riccardo-procacci-sells-657151-in-stock-93CH-5043644",
+      "published": "2026-11-22 00:05:42"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Nasdaq 100 Has Worst Week Since 2020 on AI Drama: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-19/stock-market-today-dow-s-p-live-updates",
-      "published": "Thu, 19 Nov 2026 22:03:40 GMT"
+      "title": "China’s $1.7 Trillion AI Rout Turns Hot Trade Into Losing Bet",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-22/china-s-1-7-trillion-ai-rout-turns-hot-trade-into-losing-bet",
+      "published": "Sun, 22 Nov 2026 00:00:00 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "J&J Snack Foods CEO on 4Q Results and Consumer Sentiment",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-20/j-j-snack-foods-ceo-on-4q-results-and-consumer-sentiment-video",
-      "published": "Fri, 20 Nov 2026 23:22:36 GMT"
+      "title": "Russian Cargo Ship Attacked By Drones in Gulf of Finland",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-21/russia-says-cargo-ship-attacked-by-drones-in-gulf-of-finland",
+      "published": "Sat, 21 Nov 2026 11:44:46 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "El Salvador Troops Killed in Haiti Blast After Rescue Deployment",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-20/el-salvador-troops-killed-in-haiti-blast-after-rescue-deployment",
-      "published": "Fri, 20 Nov 2026 23:08:54 GMT"
+      "title": "Anthropic Fails to Calm AI Jitters, Ditching the Kitchen for Thanksgiving",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-21/bloomberg-this-weekend-11-21-2026-video",
+      "published": "Sat, 21 Nov 2026 17:01:32 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "‘Always Remain Liquid’: Richards",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-20/-always-remain-liquid-richards-video",
-      "published": "Fri, 20 Nov 2026 22:30:37 GMT"
+      "title": "Pointed! Bloomberg’s Weekly News Quiz For Risk-Takers",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-21/pointed-bloomberg-s-weekly-news-quiz-for-risk-takers-video",
+      "published": "Sat, 21 Nov 2026 15:43:12 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Anthropic Slides 8.5% to Shrink IPO Gain as AI Trade Unravels",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-20/anthropic-share-slump-nearly-erases-ipo-pop-as-ai-trade-unravels",
-      "published": "Fri, 20 Nov 2026 14:36:49 GMT"
+      "title": "Goldman Sachs, Apollo Price $32 Billion SpaceX Bonds to Fund AI Chip Purchases",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-21/goldman-s-spacex-pitch-helps-solve-ai-debt-puzzle-credit-weekly",
+      "published": "Sat, 21 Nov 2026 15:31:22 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Trump Says Huang Should Return to Nvidia After ‘Big Apology’",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-20/trump-huang-should-return-to-nvidia-after-big-apology-video",
-      "published": "Fri, 20 Nov 2026 22:31:45 GMT"
+      "title": "Thanksgiving Dinner Is Moving to Restaurants",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-21/thanksgiving-dinner-is-moving-to-restaurants-video",
+      "published": "Sat, 21 Nov 2026 15:28:00 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "US tech stocks plunge into bear market in worst week since Covid-19 crisis",
-      "url": "https://www.ft.com/content/9f3c6ed6-c08f-4710-9683-ee2f5eb25841?syn-25a6b1a6=1",
-      "published": "Fri, 20 Nov 2026 21:52:25 GMT"
+      "title": "Traders start to move US copper to China as Trump tariff fears ease",
+      "url": "https://www.ft.com/content/b84dbcb1-f216-422e-89c7-f203e0ab2757?syn-25a6b1a6=1",
+      "published": "Sat, 21 Nov 2026 12:00:08 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Inside Anthropic’s historic IPO",
-      "url": "https://www.ft.com/content/149d497e-0567-4467-bcfb-269b8b8eb157?syn-25a6b1a6=1",
-      "published": "Fri, 20 Nov 2026 21:21:29 GMT"
+      "title": "Going public, but only a little",
+      "url": "https://www.ft.com/content/c5bcb64e-35b8-40b8-842e-e4b5c9b3150d?syn-25a6b1a6=1",
+      "published": "Sat, 21 Nov 2026 10:30:07 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "It’s tough out there",
-      "url": "https://www.ft.com/content/aa21ce02-f438-4aa2-820c-f4efbc46859f",
-      "published": "Fri, 20 Nov 2026 18:57:31 GMT"
+      "title": "Oil shipped through Hormuz falls as Iranian strikes increase",
+      "url": "https://www.ft.com/content/5fbc2b9d-0360-4a1f-9e4a-3e86168cbbc5?syn-25a6b1a6=1",
+      "published": "Sat, 21 Nov 2026 05:00:35 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Anthropic shares slide as tech stocks tumble",
-      "url": "https://www.ft.com/content/c7ad2e0c-efd1-40c2-a5a8-819ced8acf5b?syn-25a6b1a6=1",
-      "published": "Fri, 20 Nov 2026 18:03:21 GMT"
+      "title": "US watchdogs pick a bad time to cut disclosure on executive pay",
+      "url": "https://www.ft.com/content/a8a45cf2-f096-4f33-8df5-46a689bde104?syn-25a6b1a6=1",
+      "published": "Sat, 21 Nov 2026 05:00:35 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "The AI fever in markets is breaking",
-      "url": "https://www.ft.com/content/b1b2e948-ff5e-48c4-bc3e-f8e75c9e4af1?syn-25a6b1a6=1",
-      "published": "Fri, 20 Nov 2026 15:23:38 GMT"
+      "title": "CVC claims accounting manipulation in €3bn Advent pastry ingredients deal",
+      "url": "https://www.ft.com/content/06999b01-07f1-44a1-8eab-a5d5e7ecd70f?syn-25a6b1a6=1",
+      "published": "Sat, 21 Nov 2026 05:00:26 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Markets sell-off as it happened: Nasdaq 100 enters bear market, Anthropic shares drop 8.5% a day after blockbuster market debut",
-      "url": "https://www.ft.com/content/23fa83d8-e078-4853-959e-bd1f19d14ff5?syn-25a6b1a6=1",
-      "published": "Fri, 20 Nov 2026 14:01:58 GMT"
+      "title": "How can investors succeed in markets today?",
+      "url": "https://www.ft.com/content/22b3765d-ff3d-4f07-8982-5a222dbb862e?syn-25a6b1a6=1",
+      "published": "Sat, 21 Nov 2026 05:00:16 GMT"
     }
   ],
   "summary": {
