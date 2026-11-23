@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-11-22 10:28 KST",
-  "as_of_date": "2026-11-22",
-  "as_of_weekday": "SUN",
-  "build_unix": 1795310927,
+  "as_of_kst": "2026-11-23 10:53 KST",
+  "as_of_date": "2026-11-23",
+  "as_of_weekday": "MON",
+  "build_unix": 1795398819,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 4869.96,
-      "change": -267.93,
-      "change_pct": -5.21,
+      "price": 4727.68,
+      "change": -142.28,
+      "change_pct": -2.92,
       "spark": [
-        5100.5,
         4968.48,
         5067.44,
         5137.89,
-        4869.96
+        4869.96,
+        4727.68
       ],
-      "as_of": "2026-11-20"
+      "as_of": "2026-11-23"
     },
     "nikkei": {
       "key": "nikkei",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 22410.8,
-      "change": -430.82,
-      "change_pct": -1.89,
+      "price": 22079.82,
+      "change": -330.98,
+      "change_pct": -1.48,
       "spark": [
-        23753.84,
         23508.17,
         23294.75,
         22841.62,
-        22410.8
+        22410.8,
+        22079.82
       ],
-      "as_of": "2026-11-20"
+      "as_of": "2026-11-23"
     },
     "ftse": {
       "key": "ftse",
@@ -153,33 +153,33 @@
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1334.79,
+      "rate": 1345.91,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 159.71,
+      "rate": 158.91,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.097,
+      "rate": 1.0988,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.6623,
+      "rate": 6.674,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 103.81,
-      "change": -0.09,
-      "change_pct": -0.09,
+      "rate": 103.77,
+      "change": -0.04,
+      "change_pct": -0.04,
       "kind": "index"
     }
   },
@@ -189,27 +189,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 83.98,
-      "change": 0.77,
-      "change_pct": 0.93
+      "price": 83.22,
+      "change": -0.76,
+      "change_pct": -0.9
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 3515.4,
-      "change": -170.1,
-      "change_pct": -4.62
+      "price": 3613.7,
+      "change": 98.3,
+      "change_pct": 2.8
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 59999.13,
-      "change": 1200.15,
-      "change_pct": 2.04
+      "price": 60751.6,
+      "change": 657.51,
+      "change_pct": 1.09
     },
     "ust10y": {
       "key": "ust10y",
@@ -233,6 +233,24 @@
   "headlines_raw": [
     {
       "source": "CNBC Markets",
+      "title": "Top Wall Street analysts favor these 3 dividend stocks for strong returns",
+      "url": "https://www.cnbc.com/2026/11/22/top-wall-street-analysts-favor-these-stocks-for-strong-returns.html",
+      "published": "Sun, 22 Nov 2026 12:13:56 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "As prediction markets grow, so do the number of short sellers counting on DraftKings to fall",
+      "url": "https://www.cnbc.com/2026/11/22/draftkings-short-interest-prediction-markets.html",
+      "published": "Sun, 22 Nov 2026 12:15:24 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "The Nasdaq is in freefall. Here's one stock to look at",
+      "url": "https://www.cnbc.com/2026/11/22/the-nasdaq-is-in-freefall-heres-one-stock-to-look-at.html",
+      "published": "Sun, 22 Nov 2026 12:10:39 GMT"
+    },
+    {
+      "source": "CNBC Markets",
       "title": "From trash to treasure: Most hated stocks are winning as AI bull market rolls over",
       "url": "https://www.cnbc.com/2026/11/21/from-trash-to-treasure-these-hated-stocks-are-winning-as-ai-flounders.html",
       "published": "Sat, 21 Nov 2026 13:10:40 GMT"
@@ -250,166 +268,148 @@
       "published": "Fri, 20 Nov 2026 18:08:38 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
-      "url": "https://www.cnbc.com/2026/11/20/sp-500-8000-kalshi-odds-ai-selloff.html",
-      "published": "Fri, 20 Nov 2026 19:59:03 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Anthropic could be tipping point for AI trade. Where investors should go from here",
-      "url": "https://www.cnbc.com/2026/11/20/stock-market-rotation-beyond-ai.html",
-      "published": "Fri, 20 Nov 2026 17:16:14 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "Berkshire Hathaway has been a popular 'anti-AI trade.' One firm says it’s too expensive now",
-      "url": "https://www.cnbc.com/2026/11/20/berkshire-hathaway-has-been-a-popular-anti-ai-trade-one-firm-says-its-too-expensive-now.html",
-      "published": "Fri, 20 Nov 2026 15:13:31 GMT"
+      "source": "MarketWatch Top",
+      "title": "Corporate America hunts for ‘generational’ growth in AI, trading cards and the L.A. airport",
+      "url": "https://www.marketwatch.com/story/corporate-america-hunts-for-generational-growth-in-ai-trading-cards-and-the-l-a-airport-3072eb1a?mod=mw_rss_topstories",
+      "published": "Sun, 22 Nov 2026 21:51:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "My husband is happily retired at 64 and thinks I should keep working. Is he being fair?",
-      "url": "https://www.marketwatch.com/story/my-husband-is-happily-retired-at-64-and-thinks-i-should-keep-working-is-he-being-fair-325c5f38?mod=mw_rss_topstories",
-      "published": "Sun, 22 Nov 2026 01:15:00 GMT"
+      "title": "Ron Johnson’s Social Security gaffe buried important news",
+      "url": "https://www.marketwatch.com/story/ron-johnsons-social-security-gaffe-buried-important-news-b96e0ce8?mod=mw_rss_topstories",
+      "published": "Sun, 22 Nov 2026 21:28:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "My wife is bankrolling her family’s trips to New York and it’s draining our savings. Should I ask her to stop?",
-      "url": "https://www.marketwatch.com/story/my-wife-pays-thousands-of-dollars-for-her-family-to-visit-from-argentina-how-can-i-convince-her-to-stop-9381351c?mod=mw_rss_topstories",
-      "published": "Sun, 22 Nov 2026 00:03:00 GMT"
+      "title": "Social Security should be shut down, this Republican senator says",
+      "url": "https://www.marketwatch.com/story/social-security-should-be-shut-down-this-republican-senator-says-8f7fef81?mod=mw_rss_topstories",
+      "published": "Sun, 22 Nov 2026 20:26:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "I’m in my 40s. Should I accept a lower pension in exchange for naming my husband or child as a beneficiary?",
-      "url": "https://www.marketwatch.com/story/im-in-my-40s-should-i-accept-a-lower-pension-in-exchange-for-naming-my-husband-or-child-as-a-beneficiary-b2352059?mod=mw_rss_topstories",
-      "published": "Sat, 21 Nov 2026 23:05:00 GMT"
+      "title": "Medicare beneficiaries could skip the nursing home for cheaper care at home under new bill",
+      "url": "https://www.marketwatch.com/story/medicare-beneficiaries-could-skip-the-nursing-home-for-cheaper-care-at-home-under-new-bill-e289c8d0?mod=mw_rss_topstories",
+      "published": "Sun, 22 Nov 2026 19:24:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘It’s downright dirty’: My brother moved in with our ailing mother and closed her bank account. What can I do?",
-      "url": "https://www.marketwatch.com/story/it-is-heartbreaking-exhausting-and-downright-dirty-my-brother-took-over-our-ailing-mothers-life-and-finances-what-can-i-do-b4d48817?mod=mw_rss_topstories",
-      "published": "Sat, 21 Nov 2026 20:15:00 GMT"
+      "title": "These little-known investments could be among the best bargains in a crash",
+      "url": "https://www.marketwatch.com/story/these-little-known-investments-could-be-among-the-best-bargains-in-a-crash-78a379b4?mod=mw_rss_topstories",
+      "published": "Sun, 22 Nov 2026 18:23:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "‘I’ve been a stay-at-home mom’: I’m 50 and have a chronic illness. My husband lost his job. Should he raid his 401(k)?",
-      "url": "https://www.marketwatch.com/story/ive-been-a-stay-at-home-mom-im-50-and-have-a-chronic-illness-my-husband-lost-his-job-should-he-raid-his-401-k-63e59123?mod=mw_rss_topstories",
-      "published": "Sat, 21 Nov 2026 19:45:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "‘Buyers are out for blood’: With home sales at a record low, buyers are calling the shots",
-      "url": "https://www.marketwatch.com/story/buyers-are-out-for-blood-as-housing-market-finally-hits-rock-bottom-fa5093a6?mod=mw_rss_topstories",
-      "published": "Sat, 21 Nov 2026 19:45:00 GMT"
+      "title": "Private equity has been buying up hospice centers — with striking consequences",
+      "url": "https://www.marketwatch.com/story/private-equity-has-been-buying-up-hospice-centers-with-striking-consequences-63642545?mod=mw_rss_topstories",
+      "published": "Sun, 22 Nov 2026 17:22:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "China’s AI stocks lose $1.7 trillion as tech selloff deepens",
-      "url": "https://www.investing.com/news/stock-market-news/chinas-ai-stocks-lose-17-trillion-as-tech-selloff-deepens-5043672",
-      "published": "2026-11-22 01:09:28"
+      "title": "Wall Street futures jump after major indexes enter correction territory",
+      "url": "https://www.investing.com/news/stock-market-news/wall-street-futures-jump-after-major-indexes-enter-correction-territory-5044226",
+      "published": "2026-11-23 01:31:47"
     },
     {
       "source": "Investing.com News",
-      "title": "Filana Therapeutics CEO Barry Richard buys $206,896 in company stock",
-      "url": "https://www.investing.com/news/insider-trading-news/filana-therapeutics-ceo-barry-richard-buys-206896-in-company-stock-93CH-5043668",
-      "published": "2026-11-22 00:45:56"
+      "title": "COP31 climate talks collapse as EU and others reject deal",
+      "url": "https://www.investing.com/news/commodities-news/cop31-climate-talks-close-to-final-deal-says-summit-president-5043619",
+      "published": "2026-11-23 01:24:24"
     },
     {
       "source": "Investing.com News",
-      "title": "Texas Community Bancshares COO Haskell Strange sells $14,911 in stock",
-      "url": "https://www.investing.com/news/insider-trading-news/texas-community-bancshares-coo-haskell-strange-sells-14911-in-stock-93CH-5043660",
-      "published": "2026-11-22 00:30:54"
+      "title": "Oil falls as robust Gulf exports offset Iran escalation, supply glut risks",
+      "url": "https://www.investing.com/news/commodities-news/oil-falls-as-robust-gulf-exports-offset-iran-escalation-supply-glut-risks-5044220",
+      "published": "2026-11-23 01:17:34"
     },
     {
       "source": "Investing.com News",
-      "title": "Amphastar CFO William Peters sells $329,890 in stock",
-      "url": "https://www.investing.com/news/insider-trading-news/amphastar-cfo-william-peters-sells-329890-in-stock-93CH-5043651",
-      "published": "2026-11-22 00:16:03"
+      "title": "Nexstar Media EVP Gary Weitman sells $415,213 in common stock",
+      "url": "https://www.investing.com/news/insider-trading-news/nexstar-media-evp-gary-weitman-sells-415213-in-common-stock-93CH-5044219",
+      "published": "2026-11-23 01:16:32"
     },
     {
       "source": "Investing.com News",
-      "title": "Park Ohio Holdings VP & CFO Patrick Fogarty sells $99,213 in stock",
-      "url": "https://www.investing.com/news/insider-trading-news/park-ohio-holdings-vp--cfo-patrick-fogarty-sells-99213-in-stock-93CH-5043650",
-      "published": "2026-11-22 00:16:02"
+      "title": "Australia shares set to slide at open, NZ falls",
+      "url": "https://www.investing.com/news/stock-market-news/australia-shares-set-to-slide-at-open-nz-falls-5044213",
+      "published": "2026-11-23 01:12:41"
     },
     {
       "source": "Investing.com News",
-      "title": "Ge senior vice president Riccardo Procacci sells $657,151 in stock",
-      "url": "https://www.investing.com/news/insider-trading-news/ge-senior-vice-president-riccardo-procacci-sells-657151-in-stock-93CH-5043644",
-      "published": "2026-11-22 00:05:42"
+      "title": "Delta flights faced brief delays at Atlanta airport over automated system issue",
+      "url": "https://www.investing.com/news/stock-market-news/delta-flights-faced-brief-delays-atatlanta-airport-over-automated-system-issue-5044102",
+      "published": "2026-11-23 01:07:12"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "China’s $1.7 Trillion AI Rout Turns Hot Trade Into Losing Bet",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-22/china-s-1-7-trillion-ai-rout-turns-hot-trade-into-losing-bet",
-      "published": "Sun, 22 Nov 2026 00:00:00 GMT"
+      "title": "Treasury Futures Fall as Rising Stocks Damp Demand for Havens",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-22/treasury-futures-fall-as-rising-stock-futures-damp-haven-demand",
+      "published": "Sun, 22 Nov 2026 23:59:06 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Russian Cargo Ship Attacked By Drones in Gulf of Finland",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-21/russia-says-cargo-ship-attacked-by-drones-in-gulf-of-finland",
-      "published": "Sat, 21 Nov 2026 11:44:46 GMT"
+      "title": "Stocks Drop in Asia Again as Local Regulators Rush to Stem Rout",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-22/china-lowers-margin-requirement-to-80-to-boost-stock-liquidity",
+      "published": "Sun, 22 Nov 2026 11:06:19 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Anthropic Fails to Calm AI Jitters, Ditching the Kitchen for Thanksgiving",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-21/bloomberg-this-weekend-11-21-2026-video",
-      "published": "Sat, 21 Nov 2026 17:01:32 GMT"
+      "title": "Copper Rises After Falling More Than 9% Last Week on AI Gloom",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-23/copper-rises-after-falling-more-than-9-last-week-on-ai-gloom",
+      "published": "Mon, 23 Nov 2026 01:05:30 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Pointed! Bloomberg’s Weekly News Quiz For Risk-Takers",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-21/pointed-bloomberg-s-weekly-news-quiz-for-risk-takers-video",
-      "published": "Sat, 21 Nov 2026 15:43:12 GMT"
+      "title": "US Stock Futures Bounce After Rout, Havens Drop: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-22/asia-braces-for-more-volatility-after-us-selloff-markets-wrap",
+      "published": "Sun, 22 Nov 2026 22:02:27 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Goldman Sachs, Apollo Price $32 Billion SpaceX Bonds to Fund AI Chip Purchases",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-21/goldman-s-spacex-pitch-helps-solve-ai-debt-puzzle-credit-weekly",
-      "published": "Sat, 21 Nov 2026 15:31:22 GMT"
+      "title": "US Stock Futures Gain in Volatile Trading After Tech-Driven Rout",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-22/stock-traders-brace-for-more-volatility-after-tech-driven-rout",
+      "published": "Sun, 22 Nov 2026 23:04:42 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Thanksgiving Dinner Is Moving to Restaurants",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-21/thanksgiving-dinner-is-moving-to-restaurants-video",
-      "published": "Sat, 21 Nov 2026 15:28:00 GMT"
+      "title": "Treasuries' Negative Correlation to Stocks Is Back: State Street",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-23/why-treasuries-negative-correlation-to-stocks-is-back-video",
+      "published": "Mon, 23 Nov 2026 00:30:45 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Traders start to move US copper to China as Trump tariff fears ease",
-      "url": "https://www.ft.com/content/b84dbcb1-f216-422e-89c7-f203e0ab2757?syn-25a6b1a6=1",
-      "published": "Sat, 21 Nov 2026 12:00:08 GMT"
+      "title": "US ports face cyber attack onslaught as hackers target vital trade routes",
+      "url": "https://www.ft.com/content/c269cf3e-2275-4244-9a86-f412c8521b4f?syn-25a6b1a6=1",
+      "published": "Sun, 22 Nov 2026 12:00:06 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Going public, but only a little",
-      "url": "https://www.ft.com/content/c5bcb64e-35b8-40b8-842e-e4b5c9b3150d?syn-25a6b1a6=1",
-      "published": "Sat, 21 Nov 2026 10:30:07 GMT"
+      "title": "Will Anthropic’s IPO buck the tech sell-off?",
+      "url": "https://www.ft.com/content/1dc8290b-8100-434d-963c-79002c15f244?syn-25a6b1a6=1",
+      "published": "Sun, 22 Nov 2026 12:00:06 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Oil shipped through Hormuz falls as Iranian strikes increase",
-      "url": "https://www.ft.com/content/5fbc2b9d-0360-4a1f-9e4a-3e86168cbbc5?syn-25a6b1a6=1",
-      "published": "Sat, 21 Nov 2026 05:00:35 GMT"
+      "title": "Nscale slows hiring and curtails spending ahead of planned $35bn IPO",
+      "url": "https://www.ft.com/content/98f5aa90-5581-45ed-8e9b-d72217c56df8",
+      "published": "Sun, 22 Nov 2026 11:32:52 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "US watchdogs pick a bad time to cut disclosure on executive pay",
-      "url": "https://www.ft.com/content/a8a45cf2-f096-4f33-8df5-46a689bde104?syn-25a6b1a6=1",
-      "published": "Sat, 21 Nov 2026 05:00:35 GMT"
+      "title": "Did Anthropic and its bankers get a key call wrong after IPO?",
+      "url": "https://www.ft.com/content/d501198c-14a4-4b96-8880-c3997545902e",
+      "published": "Sun, 22 Nov 2026 11:00:05 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "CVC claims accounting manipulation in €3bn Advent pastry ingredients deal",
-      "url": "https://www.ft.com/content/06999b01-07f1-44a1-8eab-a5d5e7ecd70f?syn-25a6b1a6=1",
-      "published": "Sat, 21 Nov 2026 05:00:26 GMT"
+      "title": "Argentina’s borrowing costs jump as Milei’s falling popularity rattles investors",
+      "url": "https://www.ft.com/content/f3ecede4-74a3-431a-89c5-a06fcd30812a?syn-25a6b1a6=1",
+      "published": "Sun, 22 Nov 2026 05:00:14 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "How can investors succeed in markets today?",
-      "url": "https://www.ft.com/content/22b3765d-ff3d-4f07-8982-5a222dbb862e?syn-25a6b1a6=1",
-      "published": "Sat, 21 Nov 2026 05:00:16 GMT"
+      "title": "Tech suppliers raise AI server prices up to 45% months after deals are signed",
+      "url": "https://www.ft.com/content/dd2a6594-6146-4ff1-ac8e-54749c1fc99f?syn-25a6b1a6=1",
+      "published": "Sun, 22 Nov 2026 05:00:06 GMT"
     }
   ],
   "summary": {
