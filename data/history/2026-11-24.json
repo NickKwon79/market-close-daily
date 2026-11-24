@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-11-24 04:25 KST",
+  "as_of_kst": "2026-11-24 14:25 KST",
   "as_of_date": "2026-11-24",
   "as_of_weekday": "TUE",
-  "build_unix": 1795461904,
+  "build_unix": 1795497903,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -10,15 +10,15 @@
       "name": "S&P 500",
       "region": "USA",
       "kind": "broad",
-      "price": 7251.92,
-      "change": 341.53,
-      "change_pct": 4.94,
+      "price": 7237.17,
+      "change": 326.78,
+      "change_pct": 4.73,
       "spark": [
         7340.53,
         7323.63,
         7175.83,
         6910.39,
-        7251.92
+        7237.17
       ],
       "as_of": "2026-11-23"
     },
@@ -28,15 +28,15 @@
       "name": "NASDAQ Composite",
       "region": "USA",
       "kind": "tech",
-      "price": 24134.5,
-      "change": 1516.77,
-      "change_pct": 6.71,
+      "price": 24089.56,
+      "change": 1471.83,
+      "change_pct": 6.51,
       "spark": [
         24328.38,
         24429.88,
         23879.2,
         22617.73,
-        24134.5
+        24089.56
       ],
       "as_of": "2026-11-23"
     },
@@ -46,15 +46,15 @@
       "name": "Dow Jones 30",
       "region": "USA",
       "kind": "value",
-      "price": 49720.94,
-      "change": 1573.61,
-      "change_pct": 3.27,
+      "price": 49595.31,
+      "change": 1447.98,
+      "change_pct": 3.01,
       "spark": [
         50759.42,
         50198.17,
         49097.06,
         48147.33,
-        49720.94
+        49595.31
       ],
       "as_of": "2026-11-23"
     },
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 4869.96,
-      "change": -267.93,
-      "change_pct": -5.21,
+      "price": 5044.58,
+      "change": 336.04,
+      "change_pct": 7.14,
       "spark": [
-        5100.5,
-        4968.48,
         5067.44,
         5137.89,
-        4869.96
+        4869.96,
+        4708.54,
+        5044.58
       ],
-      "as_of": "2026-11-20"
+      "as_of": "2026-11-24"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 56436.65,
-      "change": -3007.56,
-      "change_pct": -5.06,
+      "price": 58707.54,
+      "change": 2270.89,
+      "change_pct": 4.02,
       "spark": [
-        59662.02,
         58860.43,
         59024.28,
         59444.21,
-        56436.65
+        56436.65,
+        58707.54
       ],
-      "as_of": "2026-11-20"
+      "as_of": "2026-11-24"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 22410.8,
-      "change": -430.82,
-      "change_pct": -1.89,
+      "price": 22308.5,
+      "change": -75.24,
+      "change_pct": -0.34,
       "spark": [
-        23753.84,
-        23508.17,
         23294.75,
         22841.62,
-        22410.8
+        22410.8,
+        22383.74,
+        22308.5
       ],
-      "as_of": "2026-11-23"
+      "as_of": "2026-11-24"
     },
     "ftse": {
       "key": "ftse",
@@ -118,15 +118,15 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10480.82,
-      "change": 134.52,
+      "price": 10480.8,
+      "change": 134.5,
       "change_pct": 1.3,
       "spark": [
         10689.9,
         10551.2,
         10452.7,
         10346.3,
-        10480.82
+        10480.8
       ],
       "as_of": "2026-11-23"
     },
@@ -153,33 +153,33 @@
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1340.8101,
+      "rate": 1342.3199,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 159.0,
+      "rate": 159.08,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.0904,
+      "rate": 1.0912,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.6548,
+      "rate": 6.65,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 104.4,
-      "change": 0.59,
-      "change_pct": 0.57,
+      "rate": 104.3,
+      "change": -0.02,
+      "change_pct": -0.02,
       "kind": "index"
     }
   },
@@ -189,48 +189,60 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 80.35,
-      "change": -3.63,
-      "change_pct": -4.32
+      "price": 79.51,
+      "change": -0.66,
+      "change_pct": -0.82
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 3654.5,
-      "change": 139.1,
-      "change_pct": 3.96
+      "price": 3636.4,
+      "change": -15.0,
+      "change_pct": -0.41
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 61459.29,
-      "change": 297.38,
-      "change_pct": 0.49
+      "price": 60573.74,
+      "change": -588.17,
+      "change_pct": -0.96
     },
     "ust10y": {
       "key": "ust10y",
       "symbol": "^TNX",
       "name": "10Y UST Yield",
       "unit": "%",
-      "price": 4.93,
-      "change": 0.02,
-      "change_pct": 0.41
+      "price": 4.92,
+      "change": 0.01,
+      "change_pct": 0.12
     },
     "vix": {
       "key": "vix",
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 26.76,
-      "change": -9.13,
-      "change_pct": -25.44
+      "price": 26.62,
+      "change": -9.27,
+      "change_pct": -25.83
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Nvidia surge: What investors should do with the stock and the AI trade now",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-stock-jensen-huang-ai-trade.html",
+      "published": "Mon, 23 Nov 2026 22:43:38 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Tuesday's big stock stories: What’s likely to move the market in the next trading session",
+      "url": "https://www.cnbc.com/2026/11/23/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+      "published": "Tue, 24 Nov 2026 00:12:29 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "This AI stock has fallen more than 60%. Here's why a rebound could be coming",
@@ -256,124 +268,136 @@
       "published": "Mon, 23 Nov 2026 16:28:42 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "Here are Monday's biggest analyst calls: Anthropic, SpaceX, Apple, Nvidia, Dollar General, Evercore ISI & more",
-      "url": "https://www.cnbc.com/2026/11/23/big-monday-wall-street-calls-like-anthropic.html",
-      "published": "Mon, 23 Nov 2026 13:19:45 GMT"
-    },
-    {
-      "source": "CNBC Markets",
-      "title": "This discount retailer offers protection in a volatile market, says Piper Sandler",
-      "url": "https://www.cnbc.com/2026/11/23/dollar-general-piper-sandler-upgrade.html",
-      "published": "Mon, 23 Nov 2026 12:50:48 GMT"
+      "source": "MarketWatch Top",
+      "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
+      "url": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
+      "published": "Tue, 24 Nov 2026 01:01:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Trump is open to capping credit-card interest rates — but holiday shoppers shouldn’t bank on it yet",
-      "url": "https://www.marketwatch.com/story/trump-is-open-to-capping-credit-card-interest-rates-but-holiday-shoppers-shouldnt-bank-on-it-yet-34260705?mod=mw_rss_topstories",
-      "published": "Mon, 23 Nov 2026 18:55:00 GMT"
+      "title": "HPE just posted its strongest growth ever — but its stock is sinking",
+      "url": "https://www.marketwatch.com/story/hpe-just-posted-its-strongest-growth-ever-and-its-stock-is-tacking-on-more-big-gains-4421cebb?mod=mw_rss_topstories",
+      "published": "Tue, 24 Nov 2026 01:01:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Amazon may have just found a ‘cheap’ way to get a lot more out of its chips",
-      "url": "https://www.marketwatch.com/story/amazon-may-have-just-found-a-cheap-way-to-get-a-lot-more-out-of-its-chips-bd822bd5?mod=mw_rss_topstories",
-      "published": "Mon, 23 Nov 2026 18:47:00 GMT"
+      "title": "The newest addition to the S&P 500 is a maker of viral ice-cream machines",
+      "url": "https://www.marketwatch.com/story/the-newest-addition-to-the-s-p-500-is-a-maker-of-viral-ice-cream-machines-5c6e209a?mod=mw_rss_topstories",
+      "published": "Mon, 23 Nov 2026 23:18:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Trump’s push to reinstate Jensen Huang signals Nvidia’s CEO is too big to fail",
-      "url": "https://www.marketwatch.com/story/trumps-push-to-reinstate-jensen-huang-signals-nvidias-ceo-is-too-big-to-fail-10709210?mod=mw_rss_topstories",
-      "published": "Mon, 23 Nov 2026 18:43:00 GMT"
+      "title": "Nvidia’s stock is surging again. What to know before chasing the AI rally.",
+      "url": "https://www.marketwatch.com/story/nvidias-stock-is-surging-again-what-to-know-before-chasing-the-ai-rally-226688d7?mod=mw_rss_topstories",
+      "published": "Mon, 23 Nov 2026 22:04:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "See how much more money the richest Americans are spending on the holidays compared to everyone else",
-      "url": "https://www.marketwatch.com/story/see-how-much-more-money-the-richest-americans-are-spending-on-the-holidays-compared-to-everyone-else-f0ff3f4b?mod=mw_rss_topstories",
-      "published": "Mon, 23 Nov 2026 18:14:00 GMT"
+      "title": "U.S. stocks see best day in more than a year, as return of Jensen Huang revives AI enthusiasm",
+      "url": "https://www.marketwatch.com/story/u-s-stocks-see-best-day-in-more-than-a-year-as-return-of-jensen-huang-revives-ai-enthusiasm-c3b9d274?mod=mw_rss_topstories",
+      "published": "Mon, 23 Nov 2026 21:51:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Consumer stocks, seen as safe bet amid cracks in AI trade, are among the S&P 500’s biggest losers Monday",
+      "title": "Consumer stocks, seen as safe bet amid cracks in AI trade, were among the S&P 500’s biggest losers Monday",
       "url": "https://www.marketwatch.com/story/consumer-stocks-seen-as-safe-bet-amid-cracks-in-ai-trade-are-among-the-s-p-500s-biggest-losers-monday-80cf8f81?mod=mw_rss_topstories",
-      "published": "Mon, 23 Nov 2026 17:54:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "More AI jobs are coming. That’s one of the big hiring trends in 2027.",
-      "url": "https://www.marketwatch.com/story/more-ai-jobs-are-coming-thats-one-of-the-big-hiring-trends-in-2027-3d810209?mod=mw_rss_topstories",
-      "published": "Mon, 23 Nov 2026 17:37:00 GMT"
+      "published": "Mon, 23 Nov 2026 21:45:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Kalshi pauses operations in Utah after adverse federal court ruling",
-      "url": "https://www.investing.com/news/stock-market-news/kalshi-pauses-operations-in-utah-after-adverse-federal-court-ruling-5046257",
-      "published": "2026-11-23 19:12:40"
+      "title": "Trump’s Nvidia holdings may have gained up to $15 mln in Monday rally: FT",
+      "url": "https://www.investing.com/news/stock-market-news/trumps-nvidia-holdings-may-have-gained-up-to-15-mln-in-monday-rally-ft-5047041",
+      "published": "2026-11-24 05:13:32"
     },
     {
       "source": "Investing.com News",
-      "title": "TD Cowen names top infrastructure software stock for 2027",
-      "url": "https://www.investing.com/news/stock-market-news/td-cowen-names-top-infrastructure-software-stock-for-2027-5046256",
-      "published": "2026-11-23 19:08:24"
+      "title": "StarHub to acquire M1 in S$5 billion all-stock deal",
+      "url": "https://www.investing.com/news/stock-market-news/starhub-to-acquire-m1-in-s5-billion-allstock-deal-93CH-5047040",
+      "published": "2026-11-24 05:07:07"
     },
     {
       "source": "Investing.com News",
-      "title": "Nvidia, Micron among market cap stock movers on Monday",
-      "url": "https://www.investing.com/news/stock-market-news/nvidia-micron-among-market-cap-stock-movers-on-monday-93CH-5046255",
-      "published": "2026-11-23 19:07:41"
+      "title": "Why is EROAD stock sliding today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-eroad-stock-sliding-today-93CH-5047038",
+      "published": "2026-11-24 05:06:54"
     },
     {
       "source": "Investing.com News",
-      "title": "Kiniksa Pharmaceuticals stock hits all-time high of 99.37 USD",
-      "url": "https://www.investing.com/news/company-news/kiniksa-pharmaceuticals-stock-hits-alltime-high-of-9937-usd-93CH-5046252",
-      "published": "2026-11-23 19:07:16"
+      "title": "Explainer-Nvidia and board still face legal risks after Jensen Huang’s return",
+      "url": "https://www.investing.com/news/stock-market-news/explainernvidia-and-board-still-face-legal-risks-after-jensen-huangs-return-5047037",
+      "published": "2026-11-24 05:06:24"
     },
     {
       "source": "Investing.com News",
-      "title": "Super Bowl LXI to be shown in IMAX theaters for first time",
-      "url": "https://www.investing.com/news/company-news/super-bowl-lxi-to-be-shown-in-imax-theaters-for-first-time-93CH-5046249",
-      "published": "2026-11-23 19:04:35"
+      "title": "Qualys chief legal officer Bruce Posey sells $781,212 in stock",
+      "url": "https://www.investing.com/news/insider-trading-news/qualys-chief-legal-officer-bruce-posey-sells-781212-in-stock-93CH-5047035",
+      "published": "2026-11-24 05:01:15"
     },
     {
       "source": "Investing.com News",
-      "title": "Williams Companies director Robb Turner buys $646,500 in shares",
-      "url": "https://www.investing.com/news/insider-trading-news/williams-companies-director-robb-turner-buys-646500-in-shares-93CH-5046248",
-      "published": "2026-11-23 19:01:08"
+      "title": "Analysts comment on market impact of Huang’s return as Nvidia CEO",
+      "url": "https://www.investing.com/news/stock-market-news/analysts-comment-on-market-impact-of-huangs-return-as-nvidia-ceo-5046890",
+      "published": "2026-11-24 05:00:37"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Anthropic Shares Churn as AI Trade Rallies on Huang’s Return",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-23/anthropic-shares-churn-defying-ai-trade-rally-on-huang-s-return",
-      "published": "Mon, 23 Nov 2026 14:51:48 GMT"
+      "title": "Singapore, China Deepen Yuan Ties With Focus on Corporates",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/singapore-china-to-deepen-yuan-ties-with-focus-on-corporates",
+      "published": "Tue, 24 Nov 2026 04:50:54 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Wall Street Roars Back as Huang’s Shock Return Propels US Stocks",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-22/stock-traders-brace-for-more-volatility-after-tech-driven-rout",
-      "published": "Sun, 22 Nov 2026 23:04:42 GMT"
+      "title": "India Banking Cash Turns to Deficit, First Time Since June",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-23/india-s-banking-cash-turns-to-deficit-for-first-time-since-june",
+      "published": "Mon, 23 Nov 2026 08:42:10 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Fear and ‘Hot Sauce’: Young Investors Want To Catch Up",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-20/fear-and-hot-sauce-young-investors-want-to-catch-up-video",
-      "published": "Fri, 20 Nov 2026 22:06:43 GMT"
+      "title": "Asian Stocks Jump as Huang’s Return Lifts AI Trade: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-23/stock-market-today-dow-s-p-live-updates",
+      "published": "Mon, 23 Nov 2026 22:06:46 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Stocks Jump Most Since April 2025 as Huang Is Back: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-22/asia-braces-for-more-volatility-after-us-selloff-markets-wrap",
-      "published": "Sun, 22 Nov 2026 22:02:27 GMT"
+      "title": "Gold Holds Gain After Nvidia’s Rehiring of Huang Sparks Rally",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/gold-holds-gain-after-nvidia-s-rehiring-of-huang-sparks-rally",
+      "published": "Tue, 24 Nov 2026 00:06:57 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Citadel Securities Says 2018 Playbook Warns of More Market Pain",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-23/citadel-securities-says-2018-playbook-warns-of-more-market-pain",
-      "published": "Mon, 23 Nov 2026 19:01:08 GMT"
+      "title": "Asia Stocks Jump as Huang’s Return Lifts AI Trade",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-24/the-asia-trade-11-24-2026-video",
+      "published": "Tue, 24 Nov 2026 05:00:29 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Treasuries Slip as Huang’s Nvidia Return Revives Risk Trade",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-22/treasury-futures-fall-as-rising-stock-futures-damp-haven-demand",
-      "published": "Sun, 22 Nov 2026 23:59:06 GMT"
+      "title": "EV Surge Helps Europe Auto Sales Gains to Nine-Month Run",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/ev-surge-helps-europe-auto-sales-gains-to-nine-month-run",
+      "published": "Tue, 24 Nov 2026 05:00:00 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Asian tech stocks surge after Jensen Huang’s return",
+      "url": "https://www.ft.com/content/c0cb932a-076e-4471-8009-91749fde5f47?syn-25a6b1a6=1",
+      "published": "Tue, 24 Nov 2026 03:46:25 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "China wanted families to put savings in shares not homes — then markets fell",
+      "url": "https://www.ft.com/content/45c49a84-53cc-44ed-9aab-0dc79f564278?syn-25a6b1a6=1",
+      "published": "Tue, 24 Nov 2026 00:10:03 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Trump made up to $15mn on Nvidia shares after Huang’s return",
+      "url": "https://www.ft.com/content/67b0a070-c2a9-4229-885a-383cca657763?syn-25a6b1a6=1",
+      "published": "Mon, 23 Nov 2026 22:21:44 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Nasdaq jumps 7% as Nvidia shares soar",
+      "url": "https://www.ft.com/content/0f5a7285-fbf1-4120-86df-c9cca29644fc?syn-25a6b1a6=1",
+      "published": "Mon, 23 Nov 2026 22:01:02 GMT"
     },
     {
       "source": "FT Markets",
@@ -383,33 +407,9 @@
     },
     {
       "source": "FT Markets",
-      "title": "Nasdaq jumps 7% as Nvidia shares soar",
-      "url": "https://www.ft.com/content/0f5a7285-fbf1-4120-86df-c9cca29644fc?syn-25a6b1a6=1",
-      "published": "Mon, 23 Nov 2026 17:29:33 GMT"
-    },
-    {
-      "source": "FT Markets",
       "title": "SpaceX’s big bad Black Friday bond hangover",
       "url": "https://www.ft.com/content/5ddc1453-026e-4adb-a5eb-950e7d666abc",
       "published": "Mon, 23 Nov 2026 16:41:40 GMT"
-    },
-    {
-      "source": "FT Markets",
-      "title": "DR Congo reimposes cobalt export ban to shore up prices",
-      "url": "https://www.ft.com/content/7421ec30-dde5-409a-971c-64359c21ea3d?syn-25a6b1a6=1",
-      "published": "Mon, 23 Nov 2026 16:13:19 GMT"
-    },
-    {
-      "source": "FT Markets",
-      "title": "What happens when bubbles burst",
-      "url": "https://www.ft.com/content/aa71d6bc-bbca-4e95-81b1-20895ac0cb59?syn-25a6b1a6=1",
-      "published": "Mon, 23 Nov 2026 16:00:11 GMT"
-    },
-    {
-      "source": "FT Markets",
-      "title": "Traders start to move US copper to China as Trump tariff fears ease",
-      "url": "https://www.ft.com/content/b84dbcb1-f216-422e-89c7-f203e0ab2757?syn-25a6b1a6=1",
-      "published": "Mon, 23 Nov 2026 12:21:55 GMT"
     }
   ],
   "summary": {
