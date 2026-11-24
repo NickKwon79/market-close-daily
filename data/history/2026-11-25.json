@@ -1,0 +1,451 @@
+{
+  "as_of_kst": "2026-11-25 04:01 KST",
+  "as_of_date": "2026-11-25",
+  "as_of_weekday": "WED",
+  "build_unix": 1795546861,
+  "indexes": {
+    "sp500": {
+      "key": "sp500",
+      "symbol": "^GSPC",
+      "name": "S&P 500",
+      "region": "USA",
+      "kind": "broad",
+      "price": 7189.3,
+      "change": -47.87,
+      "change_pct": -0.66,
+      "spark": [
+        7323.63,
+        7175.83,
+        6910.39,
+        7237.17,
+        7189.3
+      ],
+      "as_of": "2026-11-24"
+    },
+    "nasdaq": {
+      "key": "nasdaq",
+      "symbol": "^IXIC",
+      "name": "NASDAQ Composite",
+      "region": "USA",
+      "kind": "tech",
+      "price": 23688.37,
+      "change": -401.19,
+      "change_pct": -1.67,
+      "spark": [
+        24429.88,
+        23879.2,
+        22617.73,
+        24089.56,
+        23688.37
+      ],
+      "as_of": "2026-11-24"
+    },
+    "dow": {
+      "key": "dow",
+      "symbol": "^DJI",
+      "name": "Dow Jones 30",
+      "region": "USA",
+      "kind": "value",
+      "price": 49923.17,
+      "change": 327.86,
+      "change_pct": 0.66,
+      "spark": [
+        50198.17,
+        49097.06,
+        48147.33,
+        49595.31,
+        49923.17
+      ],
+      "as_of": "2026-11-24"
+    },
+    "kospi": {
+      "key": "kospi",
+      "symbol": "^KS11",
+      "name": "KOSPI",
+      "region": "KOREA",
+      "kind": "broad",
+      "price": 4708.54,
+      "change": -161.42,
+      "change_pct": -3.31,
+      "spark": [
+        4968.48,
+        5067.44,
+        5137.89,
+        4869.96,
+        4708.54
+      ],
+      "as_of": "2026-11-23"
+    },
+    "nikkei": {
+      "key": "nikkei",
+      "symbol": "^N225",
+      "name": "Nikkei 225",
+      "region": "JAPAN",
+      "kind": "broad",
+      "price": 56436.65,
+      "change": -3007.56,
+      "change_pct": -5.06,
+      "spark": [
+        59662.02,
+        58860.43,
+        59024.28,
+        59444.21,
+        56436.65
+      ],
+      "as_of": "2026-11-24"
+    },
+    "hangseng": {
+      "key": "hangseng",
+      "symbol": "^HSI",
+      "name": "Hang Seng",
+      "region": "HONG KONG",
+      "kind": "broad",
+      "price": 22383.74,
+      "change": -27.06,
+      "change_pct": -0.12,
+      "spark": [
+        23508.17,
+        23294.75,
+        22841.62,
+        22410.8,
+        22383.74
+      ],
+      "as_of": "2026-11-24"
+    },
+    "ftse": {
+      "key": "ftse",
+      "symbol": "^FTSE",
+      "name": "FTSE 100",
+      "region": "UK",
+      "kind": "broad",
+      "price": 10467.07,
+      "change": -13.73,
+      "change_pct": -0.13,
+      "spark": [
+        10551.2,
+        10452.7,
+        10346.3,
+        10480.8,
+        10467.07
+      ],
+      "as_of": "2026-11-24"
+    },
+    "dax": {
+      "key": "dax",
+      "symbol": "^GDAXI",
+      "name": "DAX",
+      "region": "GERMANY",
+      "kind": "broad",
+      "price": 25017.81,
+      "change": -319.46,
+      "change_pct": -1.26,
+      "spark": [
+        25736.24,
+        25463.81,
+        24802.78,
+        25337.27,
+        25017.81
+      ],
+      "as_of": "2026-11-24"
+    }
+  },
+  "fx": {
+    "USDKRW": {
+      "key": "USDKRW",
+      "pair": "USD/KRW",
+      "rate": 1342.6801,
+      "kind": "direct"
+    },
+    "USDJPY": {
+      "key": "USDJPY",
+      "pair": "USD/JPY",
+      "rate": 159.28,
+      "kind": "direct"
+    },
+    "EURUSD": {
+      "key": "EURUSD",
+      "pair": "EUR/USD",
+      "rate": 1.0969,
+      "kind": "inverse"
+    },
+    "USDCNY": {
+      "key": "USDCNY",
+      "pair": "USD/CNY",
+      "rate": 6.6543,
+      "kind": "direct"
+    },
+    "DXY": {
+      "key": "DXY",
+      "pair": "DXY",
+      "rate": 103.81,
+      "change": -0.51,
+      "change_pct": -0.49,
+      "kind": "index"
+    }
+  },
+  "commodities": {
+    "wti": {
+      "key": "wti",
+      "symbol": "CL=F",
+      "name": "WTI Crude",
+      "unit": "$",
+      "price": 81.89,
+      "change": 1.72,
+      "change_pct": 2.15
+    },
+    "gold": {
+      "key": "gold",
+      "symbol": "GC=F",
+      "name": "Gold",
+      "unit": "$",
+      "price": 3556.0,
+      "change": -95.4,
+      "change_pct": -2.61
+    },
+    "btc": {
+      "key": "btc",
+      "symbol": "BTC-USD",
+      "name": "Bitcoin",
+      "unit": "$",
+      "price": 59791.89,
+      "change": -1419.09,
+      "change_pct": -2.32
+    },
+    "ust10y": {
+      "key": "ust10y",
+      "symbol": "^TNX",
+      "name": "10Y UST Yield",
+      "unit": "%",
+      "price": 4.91,
+      "change": -0.01,
+      "change_pct": -0.2
+    },
+    "vix": {
+      "key": "vix",
+      "symbol": "^VIX",
+      "name": "VIX",
+      "unit": "",
+      "price": 26.43,
+      "change": -0.19,
+      "change_pct": -0.71
+    }
+  },
+  "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Katie Stockton sees a comeback ahead for this beaten-down tech stock",
+      "url": "https://www.cnbc.com/2026/11/24/katie-stockton-sees-a-comeback-ahead-for-this-beaten-down-tech-stock.html",
+      "published": "Tue, 24 Nov 2026 18:32:32 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Kalshi daily volume of ‘perps’ trading begins to top its prediction markets",
+      "url": "https://www.cnbc.com/2026/11/24/kalshi-perps-volume-prediction-markets.html",
+      "published": "Tue, 24 Nov 2026 18:34:55 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Nvidia revived the AI trade, but investors still have reasons to hedge",
+      "url": "https://www.cnbc.com/2026/11/24/ai-trade-nvidia-rally-defensive-stocks.html",
+      "published": "Tue, 24 Nov 2026 18:18:53 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Here are Tuesday's biggest analyst calls: Anthropic, SpaceX, Nvidia, Tesla, Boeing, JetBlue & more",
+      "url": "https://www.cnbc.com/2026/11/24/tuesday-wall-street-calls-like-nvidia-anthropic.html",
+      "published": "Tue, 24 Nov 2026 13:35:07 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Anthropic has room to run despite volatile start as public company, Wedbush says",
+      "url": "https://www.cnbc.com/2026/11/24/anthropic-wedbush-outperform-price-target.html",
+      "published": "Tue, 24 Nov 2026 12:50:31 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "CrowdStrike will continue surging thanks to strong hyperscaler demand, says Guggenheim",
+      "url": "https://www.cnbc.com/2026/11/24/crowdstrike-guggenheim-upgrade-buy.html",
+      "published": "Tue, 24 Nov 2026 12:05:58 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Visiting Las Vegas is getting too expensive — but don’t blame airfares",
+      "url": "https://www.marketwatch.com/story/visiting-las-vegas-is-getting-too-expensive-but-dont-blame-airfares-12e2c588?mod=mw_rss_topstories",
+      "published": "Tue, 24 Nov 2026 18:48:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Micron’s stock falls as an analyst warns about a future supply glut",
+      "url": "https://www.marketwatch.com/story/microns-stock-falls-as-an-analyst-warns-about-a-future-supply-glut-f7fbeefb?mod=mw_rss_topstories",
+      "published": "Tue, 24 Nov 2026 18:33:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Tesla has a ‘legitimate multitrillion-dollar opportunity’ in robotaxis, says former skeptic",
+      "url": "https://www.marketwatch.com/story/tesla-has-a-legitimate-multitrillion-dollar-opportunity-in-robotaxis-says-former-skeptic-23507364?mod=mw_rss_topstories",
+      "published": "Tue, 24 Nov 2026 18:28:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
+      "url": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
+      "published": "Tue, 24 Nov 2026 18:15:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "The wealthiest 10% of Americans are pulling ahead of everyone else. This is what’s making them richer.",
+      "url": "https://www.marketwatch.com/story/the-wealthiest-10-of-americans-are-pulling-ahead-of-everyone-else-this-is-whats-making-them-richer-bd83c2f6?mod=mw_rss_topstories",
+      "published": "Tue, 24 Nov 2026 18:14:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "A 66-year-old nurse is facing down retirement with just $500 saved. Who’s to blame?",
+      "url": "https://www.marketwatch.com/story/a-66-year-old-nurse-faces-retirement-with-just-500-saved-whos-to-blame-4249a0fd?mod=mw_rss_topstories",
+      "published": "Tue, 24 Nov 2026 18:00:00 GMT"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Trump awards Presidential Medal of Freedom to Rudy Giuliani",
+      "url": "https://www.investing.com/news/economy-news/trump-awards-presidential-medal-of-freedom-to-rudy-giuliani-5048876",
+      "published": "2026-11-24 18:51:18"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "US Army sets out measures to limit lead dust from Iowa explosives blast",
+      "url": "https://www.investing.com/news/commodities-news/us-army-sets-out-measures-to-limit-lead-dust-from-iowa-explosives-blast-5048874",
+      "published": "2026-11-24 18:49:12"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Bruised S&P 500 seen gaining more than 12% by end-2027",
+      "url": "https://www.investing.com/news/stock-market-news/bruised-sp-500-seen-gaining-more-than-12-by-end2027-reuters-poll-5048867",
+      "published": "2026-11-24 18:48:54"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Venezuela moves toward possible debt restructuring with release of economic framework",
+      "url": "https://www.investing.com/news/economy-news/venezuela-unveils-longawaited-economic-framework-puts-debt-at-2375-billion-5048560",
+      "published": "2026-11-24 18:48:39"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Trump administration set to unveil new tariffs after probe on excess factory capacity, sources say",
+      "url": "https://www.investing.com/news/commodities-news/trump-administration-set-to-unveil-new-tariffs-after-probeon-excess-factory-capacity-sources-say-5048724",
+      "published": "2026-11-24 18:48:25"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Royal Gold at Renmark virtual non-deal roadshow: growth and discipline",
+      "url": "https://www.investing.com/news/transcripts/royal-gold-at-renmark-virtual-nondeal-roadshow-growth-and-discipline-93CH-5048873",
+      "published": "2026-11-24 18:46:54"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Treasuries Advance as Stocks Fall, Reviving Haven Demand",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/treasuries-advance-as-cheaper-oil-alleviates-inflation-concerns",
+      "published": "Tue, 24 Nov 2026 04:42:33 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Latam Currencies Lead EM Losses as Global Selloff Hits Risk Mood",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/emerging-market-stocks-rally-as-huang-s-return-revives-ai-trade",
+      "published": "Tue, 24 Nov 2026 06:26:44 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "AI Is a Financing Story",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-24/ai-is-a-financing-story",
+      "published": "Tue, 24 Nov 2026 18:42:57 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Anthropic Shares Plunge Below IPO Price in Fourth Trading Day",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+      "published": "Tue, 24 Nov 2026 11:19:24 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Nasdaq 100 Sinks as Nvidia, Anthropic Get Hammered: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-23/stock-market-today-dow-s-p-live-updates",
+      "published": "Mon, 23 Nov 2026 22:06:46 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Turkey Frees Ex-Minister Jailed in Fund Crisis After 18 Days",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/turkey-frees-ex-minister-arrested-in-fund-scandal-after-18-days",
+      "published": "Tue, 24 Nov 2026 13:40:02 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Anthropic falls below IPO price as tech rally fades",
+      "url": "https://www.ft.com/content/c0cb932a-076e-4471-8009-91749fde5f47?syn-25a6b1a6=1",
+      "published": "Tue, 24 Nov 2026 17:52:14 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Ex-Petrofac executives accused of paying millions to win $3.4bn of contracts",
+      "url": "https://www.ft.com/content/f6c2d0f7-b096-48fb-96af-931c33ec54ba?syn-25a6b1a6=1",
+      "published": "Tue, 24 Nov 2026 17:01:25 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Banks regain some ground in the private credit tug of war",
+      "url": "https://www.ft.com/content/bf403337-6e87-4aba-a306-17d63fbf1a81?syn-25a6b1a6=1",
+      "published": "Tue, 24 Nov 2026 14:46:28 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Is the SEC cutting red tape or torching safeguards?",
+      "url": "https://www.ft.com/content/3740b4ad-0ab2-47cb-8369-a0a3562e370a?syn-25a6b1a6=1",
+      "published": "Tue, 24 Nov 2026 14:12:02 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "CrowdStrike bucks Silicon Valley’s invincible-founder trend",
+      "url": "https://www.ft.com/content/fda29491-ca21-4172-9889-52ffc6d4a25d?syn-25a6b1a6=1",
+      "published": "Tue, 24 Nov 2026 12:49:55 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Dealing with an energy market both tight and loose",
+      "url": "https://www.ft.com/content/789a1d95-53fa-460a-9c91-ed16a3b8473a?syn-25a6b1a6=1",
+      "published": "Tue, 24 Nov 2026 12:30:04 GMT"
+    }
+  ],
+  "summary": {
+    "headlines": [
+      {
+        "title_ko": "美 CPI 서프라이즈에도 S&P 500·나스닥 사상최고 마감, 테크가 견인",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/13/stock-market-today.html",
+        "time_label": "23:00"
+      },
+      {
+        "title_ko": "연준, 인플레 둔화 흐름 속 추가 인하 경로 유지 관측",
+        "source": "Reuters",
+        "url": "https://www.reuters.com/markets/us/fed-rate-cut-2026/",
+        "time_label": "21:30"
+      },
+      {
+        "title_ko": "삼성전자 CXL 메모리 양산 발표에 KOSPI 7,844 사상최고",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-14/kospi-record",
+        "time_label": "15:30"
+      },
+      {
+        "title_ko": "BOJ, 임금·물가 사이클 강화 시 추가 정상화 가능 시사",
+        "source": "Bank of Japan",
+        "url": "https://www.boj.or.jp/en/announcements/2026/",
+        "time_label": "10:00"
+      },
+      {
+        "title_ko": "英 1Q GDP 컨센서스 부합, 스타머 정치 리스크는 여전",
+        "source": "FT",
+        "url": "https://www.ft.com/content/uk-gdp-2026q1",
+        "time_label": "17:00"
+      }
+    ],
+    "market_summary_ko": "미국 인플레이션 경계감에도 테크 모멘텀이 지수를 끌어올렸고, 아시아 세션에서는 삼성전자 CXL 모멘텀에 KOSPI가 다시 사상최고를 갈아엎었다. Fed 인하 vs BOJ 인상 디버전스가 달러 강세를 떠받치는 가운데, 다음 분기점은 5/21 NVDA 실적이다.",
+    "risk_sentiment": "RISK-ON"
+  }
+}
