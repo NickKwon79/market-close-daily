@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-11-26 03:06 KST",
+  "as_of_kst": "2026-11-26 12:41 KST",
   "as_of_date": "2026-11-26",
   "as_of_weekday": "THU",
-  "build_unix": 1795630015,
+  "build_unix": 1795664491,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -10,15 +10,15 @@
       "name": "S&P 500",
       "region": "USA",
       "kind": "broad",
-      "price": 7131.84,
-      "change": -69.25,
-      "change_pct": -0.96,
+      "price": 7182.78,
+      "change": -18.31,
+      "change_pct": -0.25,
       "spark": [
         7175.83,
         6910.39,
         7237.17,
         7201.09,
-        7131.84
+        7182.78
       ],
       "as_of": "2026-11-25"
     },
@@ -28,15 +28,15 @@
       "name": "NASDAQ Composite",
       "region": "USA",
       "kind": "tech",
-      "price": 23312.59,
-      "change": -420.95,
-      "change_pct": -1.77,
+      "price": 23585.8,
+      "change": -147.74,
+      "change_pct": -0.62,
       "spark": [
         23879.2,
         22617.73,
         24089.56,
         23733.54,
-        23312.59
+        23585.8
       ],
       "as_of": "2026-11-25"
     },
@@ -46,15 +46,15 @@
       "name": "Dow Jones 30",
       "region": "USA",
       "kind": "value",
-      "price": 50023.25,
-      "change": 4.55,
-      "change_pct": 0.01,
+      "price": 50182.95,
+      "change": 164.25,
+      "change_pct": 0.33,
       "spark": [
         49097.06,
         48147.33,
         49595.31,
         50018.7,
-        50023.25
+        50182.95
       ],
       "as_of": "2026-11-25"
     },
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 5006.03,
-      "change": 297.49,
-      "change_pct": 6.32,
+      "price": 4738.27,
+      "change": 40.76,
+      "change_pct": 0.87,
       "spark": [
-        5067.44,
-        5137.89,
         4869.96,
         4708.54,
-        5006.03
+        5006.03,
+        4697.51,
+        4738.27
       ],
-      "as_of": "2026-11-24"
+      "as_of": "2026-11-26"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 58644.63,
-      "change": 2207.98,
-      "change_pct": 3.91,
+      "price": 57886.95,
+      "change": 875.33,
+      "change_pct": 1.54,
       "spark": [
-        58860.43,
-        59024.28,
         59444.21,
         56436.65,
-        58644.63
+        58644.63,
+        57011.62,
+        57886.95
       ],
-      "as_of": "2026-11-25"
+      "as_of": "2026-11-26"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 22219.65,
-      "change": -164.09,
-      "change_pct": -0.73,
+      "price": 22414.37,
+      "change": 448.36,
+      "change_pct": 2.04,
       "spark": [
-        23294.75,
-        22841.62,
         22410.8,
         22383.74,
-        22219.65
+        22219.65,
+        21966.01,
+        22414.37
       ],
-      "as_of": "2026-11-25"
+      "as_of": "2026-11-26"
     },
     "ftse": {
       "key": "ftse",
@@ -118,15 +118,15 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10426.94,
-      "change": -40.16,
+      "price": 10426.9,
+      "change": -40.2,
       "change_pct": -0.38,
       "spark": [
         10452.7,
         10346.3,
         10480.8,
         10467.1,
-        10426.94
+        10426.9
       ],
       "as_of": "2026-11-25"
     },
@@ -153,33 +153,33 @@
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1343.47,
+      "rate": 1343.85,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 158.91,
+      "rate": 159.2,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.0991,
+      "rate": 1.0961,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.6583,
+      "rate": 6.6635,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 103.62,
-      "change": -0.19,
-      "change_pct": -0.19,
+      "rate": 103.81,
+      "change": -0.0,
+      "change_pct": -0.0,
       "kind": "index"
     }
   },
@@ -189,59 +189,59 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 83.68,
-      "change": 1.63,
-      "change_pct": 1.99
+      "price": 84.3,
+      "change": 2.25,
+      "change_pct": 2.74
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 3548.1,
-      "change": -13.8,
-      "change_pct": -0.39
+      "price": 3605.2,
+      "change": 43.3,
+      "change_pct": 1.22
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 59759.71,
-      "change": 11.95,
-      "change_pct": 0.02
+      "price": 60630.0,
+      "change": 882.23,
+      "change_pct": 1.48
     },
     "ust10y": {
       "key": "ust10y",
       "symbol": "^TNX",
       "name": "10Y UST Yield",
       "unit": "%",
-      "price": 4.84,
-      "change": -0.07,
-      "change_pct": -1.39
+      "price": 4.85,
+      "change": -0.06,
+      "change_pct": -1.14
     },
     "vix": {
       "key": "vix",
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 29.46,
-      "change": 3.1,
-      "change_pct": 11.76
+      "price": 28.29,
+      "change": 1.93,
+      "change_pct": 7.32
     }
   },
   "headlines_raw": [
     {
       "source": "CNBC Markets",
-      "title": "Nvidia’s Billion-Dollar Board Bet: Who’s Protected as Lawsuits Mount?",
+      "title": "Nvidia's billion-dollar board bet: Who's protected as lawsuits mount?",
       "url": "https://www.cnbc.com/2026/11/25/nvidias-billion-dollar-board-bet-whos-protected-as-lawsuits-mount.html",
-      "published": "Wed, 25 Nov 2026 18:02:45 GMT"
+      "published": "Wed, 25 Nov 2026 22:04:58 GMT"
     },
     {
       "source": "CNBC Markets",
       "title": "Anthropic teeters at $1 trillion market cap. Why it may stabilize from here",
       "url": "https://www.cnbc.com/2026/11/25/anthropic-stock-ipo-analyst-outlook.html",
-      "published": "Wed, 25 Nov 2026 17:44:42 GMT"
+      "published": "Wed, 25 Nov 2026 18:36:39 GMT"
     },
     {
       "source": "CNBC Markets",
@@ -268,112 +268,148 @@
       "published": "Wed, 25 Nov 2026 14:27:03 GMT"
     },
     {
-      "source": "Investing.com News",
-      "title": "Wall Street cuts losses after brutal rout, Dow erases slide of over 2%",
-      "url": "https://www.investing.com/news/stock-market-news/wall-st-futures-fall-after-sp-500-nasdaq-end-lower-inflation-data-eyed-5049469",
-      "published": "2026-11-25 18:01:32"
+      "source": "MarketWatch Top",
+      "title": "We are living in perilous times if Nvidia’s Jensen Huang dictates your 401(k) balance",
+      "url": "https://www.marketwatch.com/story/we-are-living-in-perilous-times-if-nvidias-jensen-huang-dictates-your-401-k-balance-e0942d1e?mod=mw_rss_topstories",
+      "published": "Thu, 26 Nov 2026 01:15:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Why this stock-market selloff is probably going to get worse before it gets better",
+      "url": "https://www.marketwatch.com/story/why-this-stock-market-selloff-is-probably-going-to-get-worse-before-it-gets-better-fce63a89?mod=mw_rss_topstories",
+      "published": "Thu, 26 Nov 2026 00:33:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "A 66-year-old nurse is facing down retirement with just $500 saved. Who’s to blame?",
+      "url": "https://www.marketwatch.com/story/a-66-year-old-nurse-faces-retirement-with-just-500-saved-whos-to-blame-4249a0fd?mod=mw_rss_topstories",
+      "published": "Wed, 25 Nov 2026 23:30:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "I’m in my 70s and buying a new BMW X1. Should I put my only son on the title?",
+      "url": "https://www.marketwatch.com/story/im-in-my-70s-and-buying-a-new-bmw-x1-should-i-put-my-only-son-on-the-title-25731040?mod=mw_rss_topstories",
+      "published": "Wed, 25 Nov 2026 23:30:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
+      "url": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
+      "published": "Wed, 25 Nov 2026 23:00:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
+      "url": "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
+      "published": "Wed, 25 Nov 2026 22:45:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Chemung Financial director sells $240,061 in stock",
-      "url": "https://www.investing.com/news/insider-trading-news/chemung-financial-director-sells-240061-in-stock-93CH-5051314",
-      "published": "2026-11-25 18:01:01"
+      "title": "Gold eases as U.S. inflation data reinforces Fed rate-hike bets",
+      "url": "https://www.investing.com/news/commodities-news/gold-eases-as-us-inflation-data-reinforces-fed-ratehike-bets-5051964",
+      "published": "2026-11-26 03:20:43"
     },
     {
       "source": "Investing.com News",
-      "title": "CoreWeave banks prepare $4.5 billion Meta-tied loan sale next week, Bloomberg says",
-      "url": "https://www.investing.com/news/stock-market-news/coreweave-banks-prepare-45-billion-metatied-loan-sale-next-week-bloomberg-says-5051311",
-      "published": "2026-11-25 18:00:18"
+      "title": "Stocks rally in Asia, unrocked by US tariffs",
+      "url": "https://www.investing.com/news/stock-market-news/asia-shares-bounce-ai-and-tariffs-lurk-in-background-5051871",
+      "published": "2026-11-26 03:18:18"
     },
     {
       "source": "Investing.com News",
-      "title": "Earnings call transcript: BuildDirect posts Q3 2026 revenue growth, stock flat",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-builddirect-posts-q3-2026-revenue-growth-stock-flat-93CH-5051309",
-      "published": "2026-11-25 17:59:21"
+      "title": "IKE GPS H1 FY27 slides: subscriptions surge 22%, margins hit 81%",
+      "url": "https://www.investing.com/news/company-news/ike-gps-h1-fy27-slides-subscriptions-surge-22-margins-hit-81-93CH-5051959",
+      "published": "2026-11-26 03:18:17"
     },
     {
       "source": "Investing.com News",
-      "title": "Galp suspends Bacalhau field output for up to 8 weeks",
-      "url": "https://www.investing.com/news/stock-market-news/galp-suspends-bacalhau-field-output-for-up-to-8-weeks-93CH-5051308",
-      "published": "2026-11-25 17:57:40"
+      "title": "Energizer CEO Mark Stephen LaVigne sells $2.23M in stock",
+      "url": "https://www.investing.com/news/insider-trading-news/energizer-ceo-mark-stephen-lavigne-sells-223m-in-stock-93CH-5051958",
+      "published": "2026-11-26 03:16:14"
     },
     {
       "source": "Investing.com News",
-      "title": "PTC stock hits 52-week high at 196.91 USD",
-      "url": "https://www.investing.com/news/company-news/ptc-stock-hits-52week-high-at-19691-usd-93CH-5051307",
-      "published": "2026-11-25 17:56:50"
+      "title": "Tenable co-CEO Mark Thurmond sells $149,287 in stock",
+      "url": "https://www.investing.com/news/insider-trading-news/tenable-coceo-mark-thurmond-sells-149287-in-stock-93CH-5051957",
+      "published": "2026-11-26 03:15:57"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Galaxy Digital CFO buys $268k in company stock",
+      "url": "https://www.investing.com/news/insider-trading-news/galaxy-digital-cfo-buys-268k-in-company-stock-93CH-5051956",
+      "published": "2026-11-26 03:15:55"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Ontario Teachers’ CEO Says ‘Very Long’ AI Buildout Imperils Bets",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-25/ontario-teachers-ceo-says-very-long-ai-buildout-imperils-bets",
-      "published": "Wed, 25 Nov 2026 18:02:51 GMT"
+      "title": "Latest Oil Market News and Analysis for Nov. 26",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/latest-oil-market-news-and-analysis-for-nov-26",
+      "published": "Wed, 25 Nov 2026 23:03:15 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Treasury Yields Hit Two-Month Low as Risk-Off Move Accelerates",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-25/treasuries-rise-across-curve-as-ai-concerns-dent-risk-sentiment",
-      "published": "Wed, 25 Nov 2026 06:49:34 GMT"
+      "title": "Cracks in AI Stocks Sink the Once Reliable Carry Trade",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/stocks-meltdown-spills-into-unlikely-market-sinking-carry-trade",
+      "published": "Wed, 25 Nov 2026 14:01:11 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Stocks Fall as AI Jitters Spur Rush to Treasuries: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-24/asian-stocks-to-slide-as-ai-trade-doubts-resurface-markets-wrap",
-      "published": "Tue, 24 Nov 2026 22:09:18 GMT"
+      "title": "Asian Stocks Rise as Tech Gains in Taiwan, Korea: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/stock-market-today-dow-s-p-live-updates",
+      "published": "Wed, 25 Nov 2026 22:10:42 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "JPMorgan Backs Drone Engine Maker’s Muni Sale in Wisconsin",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-25/jpmorgan-backs-drone-engine-maker-s-10-million-muni-bond-sale",
-      "published": "Wed, 25 Nov 2026 15:20:02 GMT"
+      "title": "Copper Rebounds From Lowest This Year as Volatility Grips Metals",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/copper-rebounds-from-lowest-this-year-as-volatility-hits-metals",
+      "published": "Thu, 26 Nov 2026 02:01:10 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Nasdaq 100 Slumps as AI Worries Fuel Selloff in Tech Shares",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-25/us-stock-index-futures-slide-as-ai-worries-fuel-tech-losses",
-      "published": "Wed, 25 Nov 2026 07:51:43 GMT"
+      "title": "Rupee Hits 8-Month High as India November Stock Inflows Reach $14.7 Billion: INR",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-26/rupee-hits-8-month-high-as-india-november-stock-inflows-reach-14-7-billion",
+      "published": "Thu, 26 Nov 2026 02:32:22 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "BC Partners Buys GSE Agency With Golfer DeChambeau on List",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-25/bc-partners-buys-gse-sport-agency-with-golfer-dechambeau-on-list",
-      "published": "Wed, 25 Nov 2026 14:01:00 GMT"
+      "title": "Hawkish Bank of Japan Member Seeks Quick Rate Hikes On Inflation",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/hawkish-bank-of-japan-member-seeks-quick-rate-hikes-on-inflation",
+      "published": "Thu, 26 Nov 2026 02:28:30 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Stocks advance in Asia after volatile US trading over AI risks",
+      "url": "https://www.ft.com/content/6e217409-9fbb-456c-b405-2eb15bb69679",
+      "published": "Thu, 26 Nov 2026 03:28:45 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Financier Todd Boehly strikes deal for Lukoil assets",
+      "url": "https://www.ft.com/content/643dc287-d112-4715-bdf1-aa49b98a4af7?syn-25a6b1a6=1",
+      "published": "Wed, 25 Nov 2026 23:18:32 GMT"
     },
     {
       "source": "FT Markets",
       "title": "US Treasury financial crime watchdog hit by suspected cyber attack",
       "url": "https://www.ft.com/content/43aa7321-2a95-463c-8cb9-77fcc7e39291?syn-25a6b1a6=1",
-      "published": "Wed, 25 Nov 2026 17:45:30 GMT"
+      "published": "Wed, 25 Nov 2026 22:24:37 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "US stocks sell-off deepens as AI trade cracks",
+      "title": "US stocks close lower in volatile session as AI trade remains under pressure",
       "url": "https://www.ft.com/content/705eb84c-801d-4a96-b908-e366511e886a?syn-25a6b1a6=1",
-      "published": "Wed, 25 Nov 2026 16:23:34 GMT"
+      "published": "Wed, 25 Nov 2026 21:26:33 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "The fund manager’s dilemma over AI",
+      "url": "https://www.ft.com/content/c62ca4c2-dfc4-4943-86a4-fee8fd5a1f4a?syn-25a6b1a6=1",
+      "published": "Wed, 25 Nov 2026 18:05:53 GMT"
     },
     {
       "source": "FT Markets",
       "title": "Opec+’s largest members head for clash over oil production estimates",
       "url": "https://www.ft.com/content/b24d5c8c-4c9b-48f0-b4a8-5f83eee2d3e9?syn-25a6b1a6=1",
       "published": "Wed, 25 Nov 2026 14:27:46 GMT"
-    },
-    {
-      "source": "FT Markets",
-      "title": "About that supposed $312mn Nvidia options insider trade…",
-      "url": "https://www.ft.com/content/1d5c7f01-c1e8-471c-8017-d0f064499456",
-      "published": "Wed, 25 Nov 2026 13:32:30 GMT"
-    },
-    {
-      "source": "FT Markets",
-      "title": "NBA rallies private equity for €10bn European arena fund",
-      "url": "https://www.ft.com/content/e70a4095-2e8a-4211-aa38-1ad6a95169cb?syn-25a6b1a6=1",
-      "published": "Wed, 25 Nov 2026 13:00:04 GMT"
-    },
-    {
-      "source": "FT Markets",
-      "title": "Shein to pay $100mn to resolve US allegations it deceived customers",
-      "url": "https://www.ft.com/content/0128d44e-8ca1-49b8-868b-b8fe0e4824c6?syn-25a6b1a6=1",
-      "published": "Wed, 25 Nov 2026 11:18:59 GMT"
     }
   ],
   "summary": {
