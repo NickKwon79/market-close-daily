@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-11-26 12:41 KST",
-  "as_of_date": "2026-11-26",
-  "as_of_weekday": "THU",
-  "build_unix": 1795664491,
+  "as_of_kst": "2026-11-27 02:50 KST",
+  "as_of_date": "2026-11-27",
+  "as_of_weekday": "FRI",
+  "build_unix": 1795715444,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 4738.27,
-      "change": 40.76,
-      "change_pct": 0.87,
+      "price": 4697.51,
+      "change": -308.52,
+      "change_pct": -6.16,
       "spark": [
+        5137.89,
         4869.96,
         4708.54,
         5006.03,
-        4697.51,
-        4738.27
+        4697.51
       ],
-      "as_of": "2026-11-26"
+      "as_of": "2026-11-25"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,15 +82,15 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 57886.95,
-      "change": 875.33,
-      "change_pct": 1.54,
+      "price": 57011.62,
+      "change": -1633.01,
+      "change_pct": -2.78,
       "spark": [
+        59024.28,
         59444.21,
         56436.65,
         58644.63,
-        57011.62,
-        57886.95
+        57011.62
       ],
       "as_of": "2026-11-26"
     },
@@ -100,15 +100,15 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 22414.37,
-      "change": 448.36,
-      "change_pct": 2.04,
+      "price": 21966.01,
+      "change": -253.64,
+      "change_pct": -1.14,
       "spark": [
+        22841.62,
         22410.8,
         22383.74,
         22219.65,
-        21966.01,
-        22414.37
+        21966.01
       ],
       "as_of": "2026-11-26"
     },
@@ -118,17 +118,17 @@
       "name": "FTSE 100",
       "region": "UK",
       "kind": "broad",
-      "price": 10426.9,
-      "change": -40.2,
-      "change_pct": -0.38,
+      "price": 10609.3,
+      "change": 182.4,
+      "change_pct": 1.75,
       "spark": [
-        10452.7,
         10346.3,
         10480.8,
         10467.1,
-        10426.9
+        10426.9,
+        10609.3
       ],
-      "as_of": "2026-11-25"
+      "as_of": "2026-11-26"
     },
     "dax": {
       "key": "dax",
@@ -136,50 +136,50 @@
       "name": "DAX",
       "region": "GERMANY",
       "kind": "broad",
-      "price": 24702.13,
-      "change": -315.68,
-      "change_pct": -1.26,
+      "price": 25215.52,
+      "change": 513.39,
+      "change_pct": 2.08,
       "spark": [
-        25463.81,
         24802.78,
         25337.27,
         25017.81,
-        24702.13
+        24702.13,
+        25215.52
       ],
-      "as_of": "2026-11-25"
+      "as_of": "2026-11-26"
     }
   },
   "fx": {
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1343.85,
+      "rate": 1344.02,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 159.2,
+      "rate": 159.3,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.0961,
+      "rate": 1.0973,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.6635,
+      "rate": 6.6505,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 103.81,
-      "change": -0.0,
-      "change_pct": -0.0,
+      "rate": 103.78,
+      "change": 0.11,
+      "change_pct": 0.11,
       "kind": "index"
     }
   },
@@ -189,27 +189,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 84.3,
-      "change": 2.25,
-      "change_pct": 2.74
+      "price": 84.71,
+      "change": 1.03,
+      "change_pct": 1.23
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 3605.2,
-      "change": 43.3,
-      "change_pct": 1.22
+      "price": 3593.7,
+      "change": 57.9,
+      "change_pct": 1.64
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 60630.0,
-      "change": 882.23,
-      "change_pct": 1.48
+      "price": 60434.33,
+      "change": 56.13,
+      "change_pct": 0.09
     },
     "ust10y": {
       "key": "ust10y",
@@ -225,12 +225,18 @@
       "symbol": "^VIX",
       "name": "VIX",
       "unit": "",
-      "price": 28.29,
-      "change": 1.93,
-      "change_pct": 7.32
+      "price": 26.8,
+      "change": -1.49,
+      "change_pct": -5.27
     }
   },
   "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Semiconductor chips are the new oil. Here's why",
+      "url": "https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html",
+      "published": "Thu, 26 Nov 2026 13:19:25 GMT"
+    },
     {
       "source": "CNBC Markets",
       "title": "Nvidia's billion-dollar board bet: Who's protected as lawsuits mount?",
@@ -262,82 +268,100 @@
       "published": "Wed, 25 Nov 2026 15:57:55 GMT"
     },
     {
-      "source": "CNBC Markets",
-      "title": "This robotics stock lost half its value. Here's why Citi says it's a buy",
-      "url": "https://www.cnbc.com/2026/11/25/a-robotics-stock-lost-half-its-value-heres-why-citi-says-its-a-buy-.html",
-      "published": "Wed, 25 Nov 2026 14:27:03 GMT"
-    },
-    {
       "source": "MarketWatch Top",
-      "title": "We are living in perilous times if Nvidia’s Jensen Huang dictates your 401(k) balance",
-      "url": "https://www.marketwatch.com/story/we-are-living-in-perilous-times-if-nvidias-jensen-huang-dictates-your-401-k-balance-e0942d1e?mod=mw_rss_topstories",
-      "published": "Thu, 26 Nov 2026 01:15:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "Why this stock-market selloff is probably going to get worse before it gets better",
-      "url": "https://www.marketwatch.com/story/why-this-stock-market-selloff-is-probably-going-to-get-worse-before-it-gets-better-fce63a89?mod=mw_rss_topstories",
-      "published": "Thu, 26 Nov 2026 00:33:00 GMT"
-    },
-    {
-      "source": "MarketWatch Top",
-      "title": "A 66-year-old nurse is facing down retirement with just $500 saved. Who’s to blame?",
-      "url": "https://www.marketwatch.com/story/a-66-year-old-nurse-faces-retirement-with-just-500-saved-whos-to-blame-4249a0fd?mod=mw_rss_topstories",
-      "published": "Wed, 25 Nov 2026 23:30:00 GMT"
+      "title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
+      "url": "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
+      "published": "Thu, 26 Nov 2026 16:30:00 GMT"
     },
     {
       "source": "MarketWatch Top",
       "title": "I’m in my 70s and buying a new BMW X1. Should I put my only son on the title?",
       "url": "https://www.marketwatch.com/story/im-in-my-70s-and-buying-a-new-bmw-x1-should-i-put-my-only-son-on-the-title-25731040?mod=mw_rss_topstories",
-      "published": "Wed, 25 Nov 2026 23:30:00 GMT"
+      "published": "Thu, 26 Nov 2026 16:00:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
-      "url": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
-      "published": "Wed, 25 Nov 2026 23:00:00 GMT"
+      "title": "We are living in perilous times if Nvidia CEO Jensen Huang dictates your 401(k) balance",
+      "url": "https://www.marketwatch.com/story/we-are-living-in-perilous-times-if-nvidias-jensen-huang-dictates-your-401-k-balance-e0942d1e?mod=mw_rss_topstories",
+      "published": "Thu, 26 Nov 2026 15:30:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
-      "url": "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
-      "published": "Wed, 25 Nov 2026 22:45:00 GMT"
+      "title": "My husband secretly sends his ex-wife $1,500 a month after she lost her job. We have $2.4 million saved. Has he lied by omission?",
+      "url": "https://www.marketwatch.com/story/my-husband-secretly-sends-his-ex-wife-1-500-a-month-after-she-lost-her-job-we-have-2-4-million-saved-has-he-lied-by-omission-ede1972a?mod=mw_rss_topstories",
+      "published": "Thu, 26 Nov 2026 15:13:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "This retired professor has reinvented himself — as a Taylor Swift scholar",
+      "url": "https://www.marketwatch.com/story/this-retired-professor-has-reinvented-himself-as-a-taylor-swift-scholar-88456c8d?mod=mw_rss_topstories",
+      "published": "Thu, 26 Nov 2026 14:35:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Nvidia and the whole AI trade aren’t out of the woods — not by a long shot",
+      "url": "https://www.marketwatch.com/story/nvidia-and-the-whole-ai-trade-arent-out-of-the-woods-not-by-a-long-shot-bccc0025?mod=mw_rss_topstories",
+      "published": "Thu, 26 Nov 2026 14:00:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Gold eases as U.S. inflation data reinforces Fed rate-hike bets",
-      "url": "https://www.investing.com/news/commodities-news/gold-eases-as-us-inflation-data-reinforces-fed-ratehike-bets-5051964",
-      "published": "2026-11-26 03:20:43"
+      "title": "Mueller Industries director sells $103,020 in common stock",
+      "url": "https://www.investing.com/news/insider-trading-news/mueller-industries-director-sells-103020-in-common-stock-93CH-5052657",
+      "published": "2026-11-26 17:31:25"
     },
     {
       "source": "Investing.com News",
-      "title": "Stocks rally in Asia, unrocked by US tariffs",
-      "url": "https://www.investing.com/news/stock-market-news/asia-shares-bounce-ai-and-tariffs-lurk-in-background-5051871",
-      "published": "2026-11-26 03:18:18"
+      "title": "Euro countries pick Spain’s De Cos as ECB chief, Costa says",
+      "url": "https://www.investing.com/news/economy-news/euro-countries-pick-spains-de-cos-as-ecb-chief-costa-says-5052656",
+      "published": "2026-11-26 17:30:24"
     },
     {
       "source": "Investing.com News",
-      "title": "IKE GPS H1 FY27 slides: subscriptions surge 22%, margins hit 81%",
-      "url": "https://www.investing.com/news/company-news/ike-gps-h1-fy27-slides-subscriptions-surge-22-margins-hit-81-93CH-5051959",
-      "published": "2026-11-26 03:18:17"
+      "title": "European stocks end higher as benign U.S. tariffs, Thanksgiving lull offer relief",
+      "url": "https://www.investing.com/news/stock-market-news/european-shares-as-benign-us-tariffs-and-thanksgiving-lull-offer-relief-5052089",
+      "published": "2026-11-26 17:18:55"
     },
     {
       "source": "Investing.com News",
-      "title": "Energizer CEO Mark Stephen LaVigne sells $2.23M in stock",
-      "url": "https://www.investing.com/news/insider-trading-news/energizer-ceo-mark-stephen-lavigne-sells-223m-in-stock-93CH-5051958",
-      "published": "2026-11-26 03:16:14"
+      "title": "Mexico urges Asian trade partners to crack down on tariff dodging",
+      "url": "https://www.investing.com/news/stock-market-news/mexico-urges-asian-trade-partners-to-crack-down-on-tariff-dodging-5052646",
+      "published": "2026-11-26 17:12:43"
     },
     {
       "source": "Investing.com News",
-      "title": "Tenable co-CEO Mark Thurmond sells $149,287 in stock",
-      "url": "https://www.investing.com/news/insider-trading-news/tenable-coceo-mark-thurmond-sells-149287-in-stock-93CH-5051957",
-      "published": "2026-11-26 03:15:57"
+      "title": "Kenyan cult leader serving 200 years for murder convicted of terrorism-related charges",
+      "url": "https://www.investing.com/news/world-news/kenyan-cult-leader-serving-200-years-for-murder-convicted-of-terrorismrelated-charges-5052645",
+      "published": "2026-11-26 17:12:26"
     },
     {
       "source": "Investing.com News",
-      "title": "Galaxy Digital CFO buys $268k in company stock",
-      "url": "https://www.investing.com/news/insider-trading-news/galaxy-digital-cfo-buys-268k-in-company-stock-93CH-5051956",
-      "published": "2026-11-26 03:15:55"
+      "title": "U.K. stocks higher at close of trade; Investing.com United Kingdom 100 up 1.88%",
+      "url": "https://www.investing.com/news/stock-market-news/uk-stocks-higher-at-close-of-trade-investingcom-united-kingdom-100-up-188-5052644",
+      "published": "2026-11-26 17:08:40"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "KKR Banks Line Up €550 Million of Debt to Back Logoplaste Buyout",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/kkr-banks-line-up-550-million-of-debt-to-back-logoplaste-buyout",
+      "published": "Thu, 26 Nov 2026 17:47:30 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Kazakhstan Encouraged Local Banks to Finance Deal for Gold Miner",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/kazakhstan-encouraged-local-banks-to-finance-deal-for-gold-miner",
+      "published": "Thu, 26 Nov 2026 17:35:40 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Altria, Japan Tobacco Explore Takeover of Imperial Brands",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/altria-studies-deal-for-cigarette-maker-imperial-brands",
+      "published": "Thu, 26 Nov 2026 13:08:53 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Gold Hovers Near 15-Month Low as Traders Eye Fed Path, AI Stocks",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/gold-edges-lower-as-us-inflation-data-fuels-bets-for-rate-hikes",
+      "published": "Thu, 26 Nov 2026 00:18:09 GMT"
     },
     {
       "source": "Bloomberg Markets",
@@ -347,69 +371,45 @@
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Cracks in AI Stocks Sink the Once Reliable Carry Trade",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-25/stocks-meltdown-spills-into-unlikely-market-sinking-carry-trade",
-      "published": "Wed, 25 Nov 2026 14:01:11 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Asian Stocks Rise as Tech Gains in Taiwan, Korea: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-25/stock-market-today-dow-s-p-live-updates",
-      "published": "Wed, 25 Nov 2026 22:10:42 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Copper Rebounds From Lowest This Year as Volatility Grips Metals",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-26/copper-rebounds-from-lowest-this-year-as-volatility-hits-metals",
-      "published": "Thu, 26 Nov 2026 02:01:10 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Rupee Hits 8-Month High as India November Stock Inflows Reach $14.7 Billion: INR",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-11-26/rupee-hits-8-month-high-as-india-november-stock-inflows-reach-14-7-billion",
-      "published": "Thu, 26 Nov 2026 02:32:22 GMT"
-    },
-    {
-      "source": "Bloomberg Markets",
-      "title": "Hawkish Bank of Japan Member Seeks Quick Rate Hikes On Inflation",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-26/hawkish-bank-of-japan-member-seeks-quick-rate-hikes-on-inflation",
-      "published": "Thu, 26 Nov 2026 02:28:30 GMT"
+      "title": "Stellantis to Pause More Europe Plants as Chinese Rivals Advance",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/stellantis-to-pause-more-europe-plants-as-chinese-rivals-advance",
+      "published": "Thu, 26 Nov 2026 16:49:16 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Stocks advance in Asia after volatile US trading over AI risks",
-      "url": "https://www.ft.com/content/6e217409-9fbb-456c-b405-2eb15bb69679",
-      "published": "Thu, 26 Nov 2026 03:28:45 GMT"
+      "title": "Andrew Bailey says unreleased AI models have raised encryption concerns",
+      "url": "https://www.ft.com/content/450920b9-82b8-4a66-960b-5740aa7f94ae?syn-25a6b1a6=1",
+      "published": "Thu, 26 Nov 2026 17:13:40 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Financier Todd Boehly strikes deal for Lukoil assets",
-      "url": "https://www.ft.com/content/643dc287-d112-4715-bdf1-aa49b98a4af7?syn-25a6b1a6=1",
-      "published": "Wed, 25 Nov 2026 23:18:32 GMT"
+      "title": "Global stocks climb after volatile US trading over AI risks",
+      "url": "https://www.ft.com/content/6e217409-9fbb-456c-b405-2eb15bb69679?syn-25a6b1a6=1",
+      "published": "Thu, 26 Nov 2026 16:49:54 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "US Treasury financial crime watchdog hit by suspected cyber attack",
-      "url": "https://www.ft.com/content/43aa7321-2a95-463c-8cb9-77fcc7e39291?syn-25a6b1a6=1",
-      "published": "Wed, 25 Nov 2026 22:24:37 GMT"
+      "title": "Hawkish Fed poised to raise rates despite stock market turmoil",
+      "url": "https://www.ft.com/content/3890f725-66dd-4613-8a60-d9e3ea38d25a?syn-25a6b1a6=1",
+      "published": "Thu, 26 Nov 2026 14:58:45 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "US stocks close lower in volatile session as AI trade remains under pressure",
-      "url": "https://www.ft.com/content/705eb84c-801d-4a96-b908-e366511e886a?syn-25a6b1a6=1",
-      "published": "Wed, 25 Nov 2026 21:26:33 GMT"
+      "title": "British and European banks have taken on a lot of France risk",
+      "url": "https://www.ft.com/content/022fcf0c-9a7a-4bf0-b853-4de8b2ba88b9",
+      "published": "Thu, 26 Nov 2026 13:32:02 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "The fund manager’s dilemma over AI",
-      "url": "https://www.ft.com/content/c62ca4c2-dfc4-4943-86a4-fee8fd5a1f4a?syn-25a6b1a6=1",
-      "published": "Wed, 25 Nov 2026 18:05:53 GMT"
+      "title": "Trafigura calls for greater European metals support after zinc shutdown",
+      "url": "https://www.ft.com/content/bece6b13-2af4-4704-8511-ac460985582f?syn-25a6b1a6=1",
+      "published": "Thu, 26 Nov 2026 12:00:09 GMT"
     },
     {
       "source": "FT Markets",
-      "title": "Opec+’s largest members head for clash over oil production estimates",
-      "url": "https://www.ft.com/content/b24d5c8c-4c9b-48f0-b4a8-5f83eee2d3e9?syn-25a6b1a6=1",
-      "published": "Wed, 25 Nov 2026 14:27:46 GMT"
+      "title": "VC investors dump old funds at steep discounts to chase AI riches",
+      "url": "https://www.ft.com/content/0278cbea-a0b6-4a30-80f2-f31ac6657f11?syn-25a6b1a6=1",
+      "published": "Thu, 26 Nov 2026 11:00:06 GMT"
     }
   ],
   "summary": {
