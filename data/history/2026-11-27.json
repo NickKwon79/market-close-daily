@@ -1,8 +1,8 @@
 {
-  "as_of_kst": "2026-11-27 02:50 KST",
+  "as_of_kst": "2026-11-27 12:42 KST",
   "as_of_date": "2026-11-27",
   "as_of_weekday": "FRI",
-  "build_unix": 1795715444,
+  "build_unix": 1795750952,
   "indexes": {
     "sp500": {
       "key": "sp500",
@@ -64,17 +64,17 @@
       "name": "KOSPI",
       "region": "KOREA",
       "kind": "broad",
-      "price": 4697.51,
-      "change": -308.52,
-      "change_pct": -6.16,
+      "price": 4869.12,
+      "change": 157.91,
+      "change_pct": 3.35,
       "spark": [
-        5137.89,
-        4869.96,
         4708.54,
         5006.03,
-        4697.51
+        4697.51,
+        4711.21,
+        4869.12
       ],
-      "as_of": "2026-11-25"
+      "as_of": "2026-11-27"
     },
     "nikkei": {
       "key": "nikkei",
@@ -82,17 +82,17 @@
       "name": "Nikkei 225",
       "region": "JAPAN",
       "kind": "broad",
-      "price": 57011.62,
-      "change": -1633.01,
-      "change_pct": -2.78,
+      "price": 58172.04,
+      "change": 672.88,
+      "change_pct": 1.17,
       "spark": [
-        59024.28,
-        59444.21,
         56436.65,
         58644.63,
-        57011.62
+        57011.62,
+        57499.16,
+        58172.04
       ],
-      "as_of": "2026-11-26"
+      "as_of": "2026-11-27"
     },
     "hangseng": {
       "key": "hangseng",
@@ -100,17 +100,17 @@
       "name": "Hang Seng",
       "region": "HONG KONG",
       "kind": "broad",
-      "price": 21966.01,
-      "change": -253.64,
-      "change_pct": -1.14,
+      "price": 22368.89,
+      "change": 142.01,
+      "change_pct": 0.64,
       "spark": [
-        22841.62,
-        22410.8,
         22383.74,
         22219.65,
-        21966.01
+        21966.01,
+        22226.88,
+        22368.89
       ],
-      "as_of": "2026-11-26"
+      "as_of": "2026-11-27"
     },
     "ftse": {
       "key": "ftse",
@@ -153,33 +153,33 @@
     "USDKRW": {
       "key": "USDKRW",
       "pair": "USD/KRW",
-      "rate": 1344.02,
+      "rate": 1339.9399,
       "kind": "direct"
     },
     "USDJPY": {
       "key": "USDJPY",
       "pair": "USD/JPY",
-      "rate": 159.3,
+      "rate": 159.23,
       "kind": "direct"
     },
     "EURUSD": {
       "key": "EURUSD",
       "pair": "EUR/USD",
-      "rate": 1.0973,
+      "rate": 1.0983,
       "kind": "inverse"
     },
     "USDCNY": {
       "key": "USDCNY",
       "pair": "USD/CNY",
-      "rate": 6.6505,
+      "rate": 6.6639,
       "kind": "direct"
     },
     "DXY": {
       "key": "DXY",
       "pair": "DXY",
-      "rate": 103.78,
-      "change": 0.11,
-      "change_pct": 0.11,
+      "rate": 103.68,
+      "change": 0.01,
+      "change_pct": 0.01,
       "kind": "index"
     }
   },
@@ -189,27 +189,27 @@
       "symbol": "CL=F",
       "name": "WTI Crude",
       "unit": "$",
-      "price": 84.71,
-      "change": 1.03,
-      "change_pct": 1.23
+      "price": 85.78,
+      "change": 2.1,
+      "change_pct": 2.51
     },
     "gold": {
       "key": "gold",
       "symbol": "GC=F",
       "name": "Gold",
       "unit": "$",
-      "price": 3593.7,
-      "change": 57.9,
-      "change_pct": 1.64
+      "price": 3656.1,
+      "change": 120.3,
+      "change_pct": 3.4
     },
     "btc": {
       "key": "btc",
       "symbol": "BTC-USD",
       "name": "Bitcoin",
       "unit": "$",
-      "price": 60434.33,
-      "change": 56.13,
-      "change_pct": 0.09
+      "price": 61499.56,
+      "change": 1121.36,
+      "change_pct": 1.86
     },
     "ust10y": {
       "key": "ust10y",
@@ -235,7 +235,7 @@
       "source": "CNBC Markets",
       "title": "Semiconductor chips are the new oil. Here's why",
       "url": "https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html",
-      "published": "Thu, 26 Nov 2026 13:19:25 GMT"
+      "published": "Thu, 26 Nov 2026 17:52:15 GMT"
     },
     {
       "source": "CNBC Markets",
@@ -247,7 +247,7 @@
       "source": "CNBC Markets",
       "title": "Anthropic teeters at $1 trillion market cap. Why it may stabilize from here",
       "url": "https://www.cnbc.com/2026/11/25/anthropic-stock-ipo-analyst-outlook.html",
-      "published": "Wed, 25 Nov 2026 18:36:39 GMT"
+      "published": "Fri, 27 Nov 2026 01:55:50 GMT"
     },
     {
       "source": "CNBC Markets",
@@ -271,109 +271,109 @@
       "source": "MarketWatch Top",
       "title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
       "url": "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
-      "published": "Thu, 26 Nov 2026 16:30:00 GMT"
+      "published": "Fri, 27 Nov 2026 01:15:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "I’m in my 70s and buying a new BMW X1. Should I put my only son on the title?",
-      "url": "https://www.marketwatch.com/story/im-in-my-70s-and-buying-a-new-bmw-x1-should-i-put-my-only-son-on-the-title-25731040?mod=mw_rss_topstories",
-      "published": "Thu, 26 Nov 2026 16:00:00 GMT"
+      "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
+      "url": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
+      "published": "Fri, 27 Nov 2026 01:00:00 GMT"
     },
     {
       "source": "MarketWatch Top",
       "title": "We are living in perilous times if Nvidia CEO Jensen Huang dictates your 401(k) balance",
       "url": "https://www.marketwatch.com/story/we-are-living-in-perilous-times-if-nvidias-jensen-huang-dictates-your-401-k-balance-e0942d1e?mod=mw_rss_topstories",
-      "published": "Thu, 26 Nov 2026 15:30:00 GMT"
+      "published": "Fri, 27 Nov 2026 00:31:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "My husband secretly sends his ex-wife $1,500 a month after she lost her job. We have $2.4 million saved. Has he lied by omission?",
-      "url": "https://www.marketwatch.com/story/my-husband-secretly-sends-his-ex-wife-1-500-a-month-after-she-lost-her-job-we-have-2-4-million-saved-has-he-lied-by-omission-ede1972a?mod=mw_rss_topstories",
-      "published": "Thu, 26 Nov 2026 15:13:00 GMT"
+      "title": "‘I’ve been a stay-at-home mom’: I’m 50 and have a chronic illness. My husband lost his job. Should he raid his 401(k)?",
+      "url": "https://www.marketwatch.com/story/ive-been-a-stay-at-home-mom-im-50-and-have-a-chronic-illness-my-husband-lost-his-job-should-he-raid-his-401-k-63e59123?mod=mw_rss_topstories",
+      "published": "Thu, 26 Nov 2026 22:00:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "This retired professor has reinvented himself — as a Taylor Swift scholar",
-      "url": "https://www.marketwatch.com/story/this-retired-professor-has-reinvented-himself-as-a-taylor-swift-scholar-88456c8d?mod=mw_rss_topstories",
-      "published": "Thu, 26 Nov 2026 14:35:00 GMT"
+      "title": "I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
+      "url": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
+      "published": "Thu, 26 Nov 2026 21:45:00 GMT"
     },
     {
       "source": "MarketWatch Top",
-      "title": "Nvidia and the whole AI trade aren’t out of the woods — not by a long shot",
-      "url": "https://www.marketwatch.com/story/nvidia-and-the-whole-ai-trade-arent-out-of-the-woods-not-by-a-long-shot-bccc0025?mod=mw_rss_topstories",
-      "published": "Thu, 26 Nov 2026 14:00:00 GMT"
+      "title": "A 66-year-old nurse is facing down retirement with just $500 saved. Who’s to blame?",
+      "url": "https://www.marketwatch.com/story/a-66-year-old-nurse-faces-retirement-with-just-500-saved-whos-to-blame-4249a0fd?mod=mw_rss_topstories",
+      "published": "Thu, 26 Nov 2026 19:00:00 GMT"
     },
     {
       "source": "Investing.com News",
-      "title": "Mueller Industries director sells $103,020 in common stock",
-      "url": "https://www.investing.com/news/insider-trading-news/mueller-industries-director-sells-103020-in-common-stock-93CH-5052657",
-      "published": "2026-11-26 17:31:25"
+      "title": "Why is Hansoh Pharmaceutical stock rising today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-hansoh-pharmaceutical-stock-rising-today-93CH-5052832",
+      "published": "2026-11-27 03:08:28"
     },
     {
       "source": "Investing.com News",
-      "title": "Euro countries pick Spain’s De Cos as ECB chief, Costa says",
-      "url": "https://www.investing.com/news/economy-news/euro-countries-pick-spains-de-cos-as-ecb-chief-costa-says-5052656",
-      "published": "2026-11-26 17:30:24"
+      "title": "New Zealand election result shows hung parliament",
+      "url": "https://www.investing.com/news/stock-market-news/new-zealand-election-result-shows-hung-parliament-93CH-5052831",
+      "published": "2026-11-27 03:08:19"
     },
     {
       "source": "Investing.com News",
-      "title": "European stocks end higher as benign U.S. tariffs, Thanksgiving lull offer relief",
-      "url": "https://www.investing.com/news/stock-market-news/european-shares-as-benign-us-tariffs-and-thanksgiving-lull-offer-relief-5052089",
-      "published": "2026-11-26 17:18:55"
+      "title": "Friedman Industries CEO buys $168,730 in company stock",
+      "url": "https://www.investing.com/news/insider-trading-news/friedman-industries-ceo-buys-168730-in-company-stock-93CH-5052828",
+      "published": "2026-11-27 03:00:52"
     },
     {
       "source": "Investing.com News",
-      "title": "Mexico urges Asian trade partners to crack down on tariff dodging",
-      "url": "https://www.investing.com/news/stock-market-news/mexico-urges-asian-trade-partners-to-crack-down-on-tariff-dodging-5052646",
-      "published": "2026-11-26 17:12:43"
+      "title": "Granite Ridge Resources CFO buys $27,450 in company stock",
+      "url": "https://www.investing.com/news/insider-trading-news/granite-ridge-resources-cfo-buys-27450-in-company-stock-93CH-5052824",
+      "published": "2026-11-27 02:45:55"
     },
     {
       "source": "Investing.com News",
-      "title": "Kenyan cult leader serving 200 years for murder convicted of terrorism-related charges",
-      "url": "https://www.investing.com/news/world-news/kenyan-cult-leader-serving-200-years-for-murder-convicted-of-terrorismrelated-charges-5052645",
-      "published": "2026-11-26 17:12:26"
+      "title": "Why is Japan Tobacco stock surging today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-japan-tobacco-stock-surging-today-93CH-5052820",
+      "published": "2026-11-27 02:36:09"
     },
     {
       "source": "Investing.com News",
-      "title": "U.K. stocks higher at close of trade; Investing.com United Kingdom 100 up 1.88%",
-      "url": "https://www.investing.com/news/stock-market-news/uk-stocks-higher-at-close-of-trade-investingcom-united-kingdom-100-up-188-5052644",
-      "published": "2026-11-26 17:08:40"
+      "title": "U.S. AI chip curbs stall billions in Asia data center deals, Bloomberg reports",
+      "url": "https://www.investing.com/news/stock-market-news/us-ai-chip-curbs-stall-billions-in-asia-data-center-deals-bloomberg-reports-5052819",
+      "published": "2026-11-27 02:35:54"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "KKR Banks Line Up €550 Million of Debt to Back Logoplaste Buyout",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-26/kkr-banks-line-up-550-million-of-debt-to-back-logoplaste-buyout",
-      "published": "Thu, 26 Nov 2026 17:47:30 GMT"
+      "title": "EM Asia Stocks Set for Weekly Gain as Markets Regain Footing",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/em-asia-stocks-set-for-weekly-gain-as-markets-regain-footing",
+      "published": "Fri, 27 Nov 2026 03:33:48 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Kazakhstan Encouraged Local Banks to Finance Deal for Gold Miner",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-26/kazakhstan-encouraged-local-banks-to-finance-deal-for-gold-miner",
-      "published": "Thu, 26 Nov 2026 17:35:40 GMT"
+      "title": "Copper Rebounds From 11-Month Low on Return of Risk Appetite",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/copper-rebounds-from-11-month-low-on-return-of-risk-appetite",
+      "published": "Fri, 27 Nov 2026 03:33:07 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Altria, Japan Tobacco Explore Takeover of Imperial Brands",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-26/altria-studies-deal-for-cigarette-maker-imperial-brands",
-      "published": "Thu, 26 Nov 2026 13:08:53 GMT"
+      "title": "Japan’s ‘Tokyo Drift’ Car Culture Draws Global Fans",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-27/japan-s-tokyo-drift-car-culture-draws-global-fans-video",
+      "published": "Fri, 27 Nov 2026 03:18:38 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Gold Hovers Near 15-Month Low as Traders Eye Fed Path, AI Stocks",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-26/gold-edges-lower-as-us-inflation-data-fuels-bets-for-rate-hikes",
-      "published": "Thu, 26 Nov 2026 00:18:09 GMT"
+      "title": "Treasuries Retreat as Gains in Equities Sap Demand for Havens",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/treasuries-retreat-as-gains-in-equities-sap-demand-for-havens",
+      "published": "Fri, 27 Nov 2026 02:43:08 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Latest Oil Market News and Analysis for Nov. 26",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-25/latest-oil-market-news-and-analysis-for-nov-26",
-      "published": "Wed, 25 Nov 2026 23:03:15 GMT"
+      "title": "Korea Plans Market Meeting as Stock Swings Put Fund in Focus",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/south-korea-reportedly-mulls-expanding-stock-stabilization-fund",
+      "published": "Fri, 27 Nov 2026 01:22:32 GMT"
     },
     {
       "source": "Bloomberg Markets",
-      "title": "Stellantis to Pause More Europe Plants as Chinese Rivals Advance",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-26/stellantis-to-pause-more-europe-plants-as-chinese-rivals-advance",
-      "published": "Thu, 26 Nov 2026 16:49:16 GMT"
+      "title": "Stocks Rise With Nasdaq Futures, Treasuries Fall: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/asian-stock-futures-signal-gains-oil-climbs-again-markets-wrap",
+      "published": "Thu, 26 Nov 2026 21:59:57 GMT"
     },
     {
       "source": "FT Markets",
