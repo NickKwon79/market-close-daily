@@ -1,0 +1,451 @@
+{
+  "as_of_kst": "2026-11-28 02:35 KST",
+  "as_of_date": "2026-11-28",
+  "as_of_weekday": "SAT",
+  "build_unix": 1795800957,
+  "indexes": {
+    "sp500": {
+      "key": "sp500",
+      "symbol": "^GSPC",
+      "name": "S&P 500",
+      "region": "USA",
+      "kind": "broad",
+      "price": 7286.51,
+      "change": 103.73,
+      "change_pct": 1.44,
+      "spark": [
+        6910.39,
+        7237.17,
+        7201.09,
+        7182.78,
+        7286.51
+      ],
+      "as_of": "2026-11-27"
+    },
+    "nasdaq": {
+      "key": "nasdaq",
+      "symbol": "^IXIC",
+      "name": "NASDAQ Composite",
+      "region": "USA",
+      "kind": "tech",
+      "price": 24037.96,
+      "change": 452.16,
+      "change_pct": 1.92,
+      "spark": [
+        22617.73,
+        24089.56,
+        23733.54,
+        23585.8,
+        24037.96
+      ],
+      "as_of": "2026-11-27"
+    },
+    "dow": {
+      "key": "dow",
+      "symbol": "^DJI",
+      "name": "Dow Jones 30",
+      "region": "USA",
+      "kind": "value",
+      "price": 50796.13,
+      "change": 613.18,
+      "change_pct": 1.22,
+      "spark": [
+        48147.33,
+        49595.31,
+        50018.7,
+        50182.95,
+        50796.13
+      ],
+      "as_of": "2026-11-27"
+    },
+    "kospi": {
+      "key": "kospi",
+      "symbol": "^KS11",
+      "name": "KOSPI",
+      "region": "KOREA",
+      "kind": "broad",
+      "price": 4711.21,
+      "change": 13.7,
+      "change_pct": 0.29,
+      "spark": [
+        4869.96,
+        4708.54,
+        5006.03,
+        4697.51,
+        4711.21
+      ],
+      "as_of": "2026-11-27"
+    },
+    "nikkei": {
+      "key": "nikkei",
+      "symbol": "^N225",
+      "name": "Nikkei 225",
+      "region": "JAPAN",
+      "kind": "broad",
+      "price": 57499.16,
+      "change": 487.54,
+      "change_pct": 0.86,
+      "spark": [
+        59444.21,
+        56436.65,
+        58644.63,
+        57011.62,
+        57499.16
+      ],
+      "as_of": "2026-11-27"
+    },
+    "hangseng": {
+      "key": "hangseng",
+      "symbol": "^HSI",
+      "name": "Hang Seng",
+      "region": "HONG KONG",
+      "kind": "broad",
+      "price": 22226.88,
+      "change": 260.87,
+      "change_pct": 1.19,
+      "spark": [
+        22410.8,
+        22383.74,
+        22219.65,
+        21966.01,
+        22226.88
+      ],
+      "as_of": "2026-11-27"
+    },
+    "ftse": {
+      "key": "ftse",
+      "symbol": "^FTSE",
+      "name": "FTSE 100",
+      "region": "UK",
+      "kind": "broad",
+      "price": 10698.81,
+      "change": 89.51,
+      "change_pct": 0.84,
+      "spark": [
+        10480.8,
+        10467.1,
+        10426.9,
+        10609.3,
+        10698.81
+      ],
+      "as_of": "2026-11-27"
+    },
+    "dax": {
+      "key": "dax",
+      "symbol": "^GDAXI",
+      "name": "DAX",
+      "region": "GERMANY",
+      "kind": "broad",
+      "price": 25441.24,
+      "change": 225.72,
+      "change_pct": 0.9,
+      "spark": [
+        25337.27,
+        25017.81,
+        24702.13,
+        25215.52,
+        25441.24
+      ],
+      "as_of": "2026-11-27"
+    }
+  },
+  "fx": {
+    "USDKRW": {
+      "key": "USDKRW",
+      "pair": "USD/KRW",
+      "rate": 1334.3,
+      "kind": "direct"
+    },
+    "USDJPY": {
+      "key": "USDJPY",
+      "pair": "USD/JPY",
+      "rate": 159.49,
+      "kind": "direct"
+    },
+    "EURUSD": {
+      "key": "EURUSD",
+      "pair": "EUR/USD",
+      "rate": 1.0941,
+      "kind": "inverse"
+    },
+    "USDCNY": {
+      "key": "USDCNY",
+      "pair": "USD/CNY",
+      "rate": 6.6441,
+      "kind": "direct"
+    },
+    "DXY": {
+      "key": "DXY",
+      "pair": "DXY",
+      "rate": 103.99,
+      "change": 0.32,
+      "change_pct": 0.31,
+      "kind": "index"
+    }
+  },
+  "commodities": {
+    "wti": {
+      "key": "wti",
+      "symbol": "CL=F",
+      "name": "WTI Crude",
+      "unit": "$",
+      "price": 82.75,
+      "change": -0.93,
+      "change_pct": -1.11
+    },
+    "gold": {
+      "key": "gold",
+      "symbol": "GC=F",
+      "name": "Gold",
+      "unit": "$",
+      "price": 3663.0,
+      "change": 127.2,
+      "change_pct": 3.6
+    },
+    "btc": {
+      "key": "btc",
+      "symbol": "BTC-USD",
+      "name": "Bitcoin",
+      "unit": "$",
+      "price": 59672.19,
+      "change": -822.52,
+      "change_pct": -1.36
+    },
+    "ust10y": {
+      "key": "ust10y",
+      "symbol": "^TNX",
+      "name": "10Y UST Yield",
+      "unit": "%",
+      "price": 4.93,
+      "change": 0.09,
+      "change_pct": 1.77
+    },
+    "vix": {
+      "key": "vix",
+      "symbol": "^VIX",
+      "name": "VIX",
+      "unit": "",
+      "price": 24.64,
+      "change": -2.16,
+      "change_pct": -8.06
+    }
+  },
+  "headlines_raw": [
+    {
+      "source": "CNBC Markets",
+      "title": "Josh Brown lost a bet on Disney. It is now on his Best Stocks in the Market list",
+      "url": "https://www.cnbc.com/2026/11/27/josh-brown-lost-a-bet-on-disney-it-is-now-on-his-best-stocks-in-the-market-list.html",
+      "published": "Fri, 27 Nov 2026 16:49:35 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Walmart is crushing SpaceX. Only one is a bargain",
+      "url": "https://www.cnbc.com/2026/11/27/walmart-costco-valuations-ai-stocks.html",
+      "published": "Fri, 27 Nov 2026 13:56:12 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Semiconductor chips are the new oil. Here's why",
+      "url": "https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html",
+      "published": "Thu, 26 Nov 2026 17:52:15 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Nvidia's billion-dollar board bet: Who's protected as lawsuits mount?",
+      "url": "https://www.cnbc.com/2026/11/25/nvidias-billion-dollar-board-bet-whos-protected-as-lawsuits-mount.html",
+      "published": "Fri, 27 Nov 2026 14:47:33 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "Anthropic teeters at $1 trillion market cap. Why it may stabilize from here",
+      "url": "https://www.cnbc.com/2026/11/25/anthropic-stock-ipo-analyst-outlook.html",
+      "published": "Fri, 27 Nov 2026 01:55:50 GMT"
+    },
+    {
+      "source": "CNBC Markets",
+      "title": "This missile maker's stock has fallen on expected U.S. military spending cuts, but its backlog reduces the risk",
+      "url": "https://www.cnbc.com/2026/11/25/rtx-stock-valuation-defense-budget.html",
+      "published": "Wed, 25 Nov 2026 17:07:12 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "Clearing out my parents’ house was a legal nightmare. How can I downsize without putting my kids through the same ordeal?",
+      "url": "https://www.marketwatch.com/story/clearing-out-my-parents-house-was-a-legal-nightmare-how-can-i-downsize-without-putting-my-children-through-the-same-ordeal-6537d804?mod=mw_rss_topstories",
+      "published": "Fri, 27 Nov 2026 17:31:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "12 days of sardines and Croc charms: Are Advent calendars getting out of control?",
+      "url": "https://www.marketwatch.com/story/12-days-of-sardines-and-croc-charms-are-advent-calendars-getting-out-of-control-81f24548?mod=mw_rss_topstories",
+      "published": "Fri, 27 Nov 2026 17:04:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "A 66-year-old nurse is facing down retirement with just $500 saved. Who’s to blame?",
+      "url": "https://www.marketwatch.com/story/a-66-year-old-nurse-faces-retirement-with-just-500-saved-whos-to-blame-4249a0fd?mod=mw_rss_topstories",
+      "published": "Fri, 27 Nov 2026 16:00:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "These stocks soared the most during a wild week highlighted by Huang’s return to Nvidia",
+      "url": "https://www.marketwatch.com/story/these-stocks-soared-the-most-during-a-wild-week-highlighted-by-huangs-return-to-nvidia-578b3f9a?mod=mw_rss_topstories",
+      "published": "Fri, 27 Nov 2026 15:52:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
+      "url": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
+      "published": "Fri, 27 Nov 2026 15:45:00 GMT"
+    },
+    {
+      "source": "MarketWatch Top",
+      "title": "My husband secretly sends his ex-wife $1,500 a month after she lost her job. We have $2.4 million saved. Has he lied by omission?",
+      "url": "https://www.marketwatch.com/story/my-husband-secretly-sends-his-ex-wife-1-500-a-month-after-she-lost-her-job-we-have-2-4-million-saved-has-he-lied-by-omission-ede1972a?mod=mw_rss_topstories",
+      "published": "Fri, 27 Nov 2026 15:30:00 GMT"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Take Five: A December to remember",
+      "url": "https://www.investing.com/news/economy-news/take-five-a-december-to-remember-5053153",
+      "published": "2026-11-27 17:12:19"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Regeneron Pharmaceuticals stock hits 52-week high at $991.85",
+      "url": "https://www.investing.com/news/company-news/regeneron-pharmaceuticals-stock-hits-52week-high-at-99185-93CH-5053743",
+      "published": "2026-11-27 17:10:54"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "U.K. stocks higher at close of trade; Investing.com United Kingdom 100 up 0.77%",
+      "url": "https://www.investing.com/news/stock-market-news/uk-stocks-higher-at-close-of-trade-investingcom-united-kingdom-100-up-077-5053741",
+      "published": "2026-11-27 17:08:43"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Spain stocks higher at close of trade; IBEX 35 up 1.72%",
+      "url": "https://www.investing.com/news/stock-market-news/spain-stocks-higher-at-close-of-trade-ibex-35-up-172-5053740",
+      "published": "2026-11-27 17:08:19"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Portugal stocks higher at close of trade; PSI up 1.20%",
+      "url": "https://www.investing.com/news/stock-market-news/portugal-stocks-higher-at-close-of-trade-psi-up-120-5053739",
+      "published": "2026-11-27 17:07:55"
+    },
+    {
+      "source": "Investing.com News",
+      "title": "Netherlands stocks higher at close of trade; AEX up 1.24%",
+      "url": "https://www.investing.com/news/stock-market-news/netherlands-stocks-higher-at-close-of-trade-aex-up-124-5053738",
+      "published": "2026-11-27 17:07:28"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Hong Kong Is Selling The City It Used To Be",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-27/hong-kong-is-selling-the-city-it-used-to-be-video",
+      "published": "Fri, 27 Nov 2026 17:23:53 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Altria’s Interest in Imperial May Affect Its AB InBev Stake",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/altria-s-interest-in-imperial-may-also-affect-its-ab-inbev-stake",
+      "published": "Fri, 27 Nov 2026 11:14:59 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Anthropic Shares Jump After Volatile First Week Since IPO",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/anthropic-shares-jump-after-volatile-first-week-since-record-ipo",
+      "published": "Fri, 27 Nov 2026 16:49:08 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Treasuries Fall as Haven Demand Ebbs Amid Stocks Rebound",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/treasuries-retreat-as-gains-in-equities-sap-demand-for-havens",
+      "published": "Fri, 27 Nov 2026 02:43:08 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "Black Friday 2026: Shoppers Try to Cut Back, Hunt for Deals",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-27/black-friday-2026-shoppers-cut-back-hunt-for-deals-video",
+      "published": "Fri, 27 Nov 2026 17:02:24 GMT"
+    },
+    {
+      "source": "Bloomberg Markets",
+      "title": "S&P 500 Eyes Best Week Since April 2025 on AI Jump: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/asian-stock-futures-signal-gains-oil-climbs-again-markets-wrap",
+      "published": "Thu, 26 Nov 2026 21:59:57 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "US tech stocks rise in latest market swing",
+      "url": "https://www.ft.com/content/b80e6259-dca8-4da3-962d-402106a3cd81?syn-25a6b1a6=1",
+      "published": "Fri, 27 Nov 2026 17:27:23 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "EU weighs tighter export controls to prevent battery waste going to China",
+      "url": "https://www.ft.com/content/a8ecccda-f986-4ae9-9f45-9470d2be8c65?syn-25a6b1a6=1",
+      "published": "Fri, 27 Nov 2026 13:26:26 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "First principles to cling to when markets convulse",
+      "url": "https://www.ft.com/content/839c7d2c-adad-4e70-9abd-3cd5bdf5e09e?syn-25a6b1a6=1",
+      "published": "Fri, 27 Nov 2026 12:32:08 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Indonesia arrests three over alleged ‘deep fried’ market manipulation",
+      "url": "https://www.ft.com/content/50626b00-6d7b-47ac-b1f2-4b150ff9417e?syn-25a6b1a6=1",
+      "published": "Fri, 27 Nov 2026 10:54:42 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "92 Labour MPs call for Rosebank oilfield to be rejected",
+      "url": "https://www.ft.com/content/76befc28-cba3-4c9b-bdc3-cced4b304ab1?syn-25a6b1a6=1",
+      "published": "Fri, 27 Nov 2026 10:21:13 GMT"
+    },
+    {
+      "source": "FT Markets",
+      "title": "Ladbrokes owner to settle Australia money laundering case",
+      "url": "https://www.ft.com/content/5fe8a858-6ed2-40f0-a0f3-e8742b7656aa?syn-25a6b1a6=1",
+      "published": "Fri, 27 Nov 2026 09:51:44 GMT"
+    }
+  ],
+  "summary": {
+    "headlines": [
+      {
+        "title_ko": "美 CPI 서프라이즈에도 S&P 500·나스닥 사상최고 마감, 테크가 견인",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/13/stock-market-today.html",
+        "time_label": "23:00"
+      },
+      {
+        "title_ko": "연준, 인플레 둔화 흐름 속 추가 인하 경로 유지 관측",
+        "source": "Reuters",
+        "url": "https://www.reuters.com/markets/us/fed-rate-cut-2026/",
+        "time_label": "21:30"
+      },
+      {
+        "title_ko": "삼성전자 CXL 메모리 양산 발표에 KOSPI 7,844 사상최고",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-14/kospi-record",
+        "time_label": "15:30"
+      },
+      {
+        "title_ko": "BOJ, 임금·물가 사이클 강화 시 추가 정상화 가능 시사",
+        "source": "Bank of Japan",
+        "url": "https://www.boj.or.jp/en/announcements/2026/",
+        "time_label": "10:00"
+      },
+      {
+        "title_ko": "英 1Q GDP 컨센서스 부합, 스타머 정치 리스크는 여전",
+        "source": "FT",
+        "url": "https://www.ft.com/content/uk-gdp-2026q1",
+        "time_label": "17:00"
+      }
+    ],
+    "market_summary_ko": "미국 인플레이션 경계감에도 테크 모멘텀이 지수를 끌어올렸고, 아시아 세션에서는 삼성전자 CXL 모멘텀에 KOSPI가 다시 사상최고를 갈아엎었다. Fed 인하 vs BOJ 인상 디버전스가 달러 강세를 떠받치는 가운데, 다음 분기점은 5/21 NVDA 실적이다.",
+    "risk_sentiment": "RISK-ON"
+  }
+}
